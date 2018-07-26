@@ -1,0 +1,12 @@
+{
+  "name": "italia-services-metadata",
+  "version": "0.0.1",
+  "description": "Services metadata",
+  "main": "src/index.ts",
+  "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
+  "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}

@@ -20,16 +20,17 @@ request(INDICEPA_URL) // fetch data from remote URL
   .pipe(es.map((entry: AmministrazioneIPA, cb) => {
     if(entry.cf_validato !== "S") {
       // filter out entries without a validated CF
-      cb();
+      return cb();
+    }
+
+
+    if(!entry.Cf || entry.Cf.length < 2 || !entry.Cf.match(/^\d+$/)) {
+      // filter out entries with bogus CF
+      return cb();
     }
 
     // strip leading 0s from CF
     const entryCf = entry.Cf.replace(/^0+/, "");
-
-    if(entryCf.length < 2 || !entryCf.match(/^\d+$/)) {
-      // filter out entries with bogus CF
-      cb();
-    }
 
     const fullPath = `${OUT_DIR}/${entryCf[0]}${entryCf[1]}/${entryCf}.json`;
 

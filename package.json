@@ -6,7 +6,19 @@
   "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
+  "scripts": {
+    "update_indicepa": "ts-node src/update_indicepa.ts"
+  },
   "devDependencies": {
+    "@types/event-stream": "^3.3.34",
+    "@types/fs-extra": "^5.0.4",
+    "@types/node": "^10.5.3",
+    "@types/request": "^2.47.1",
+    "csv-stream": "^0.2.0",
+    "event-stream": "^3.3.4",
+    "fs-extra": "^7.0.0",
+    "request": "^2.87.0",
+    "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   }
 }

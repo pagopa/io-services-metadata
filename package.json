@@ -1,6 +1,6 @@
 {
   "name": "italia-services-metadata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Services metadata",
   "main": "src/index.ts",
   "repository": "git@github.com:teamdigitale/italia-services-metadata.git",

@@ -1,0 +1,28 @@
+swagger: "2.0"
+info:
+  version: "0.1"
+paths:
+definitions:
+  Service:
+    type: object
+    properties:
+      description:
+        type: string
+      web_url:
+        type: string
+      app_ios_url:
+        type: string
+      app_android_url:
+        type: string
+      tos_url:
+        type: string
+      privacy_url:
+        type: string
+      address:
+        type: string
+      phone:
+        type: string
+      email:
+        type: string
+      pec:
+        type: string

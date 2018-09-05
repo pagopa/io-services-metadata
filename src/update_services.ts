@@ -7,18 +7,7 @@ import * as fs from "fs-extra";
 import * as yaml from "js-yaml";
 import * as path from "path";
 
-const Service = t.partial({
-  description: t.string,
-  web_url: t.string,
-  app_ios_url: t.string,
-  app_android_url: t.string,
-  tos_url: t.string,
-  privacy_url: t.string,
-  address: t.string,
-  phone: t.string,
-  email: t.string,
-  pec: t.string
-})
+import { Service } from "../definitions/Service";
 
 const Services = t.dictionary(t.string, Service);
 

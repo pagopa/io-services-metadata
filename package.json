@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "update_indicepa": "ts-node src/update_indicepa.ts",
-    "update_services": "ts-node src/update_services.ts"
+    "update_services": "ts-node src/update_services.ts",
+    "generate:definitions": "gen-api-models --api-spec definitions.yml --out-dir ./definitions"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
@@ -22,6 +23,7 @@
     "event-stream": "^3.3.4",
     "fs-extra": "^7.0.0",
     "io-ts": "^1.3.0",
+    "italia-utils": "^3.13.0",
     "js-yaml": "^3.12.0",
     "request": "^2.87.0",
     "ts-node": "^7.0.0",

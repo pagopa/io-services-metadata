@@ -15,9 +15,9 @@ const ServiceO = t.partial({
 
   web_url: t.string,
 
-  app_ios_url: t.string,
+  app_ios: t.string,
 
-  app_android_url: t.string,
+  app_android: t.string,
 
   tos_url: t.string,
 

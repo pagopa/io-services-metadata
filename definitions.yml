@@ -10,9 +10,9 @@ definitions:
         type: string
       web_url:
         type: string
-      app_ios_url:
+      app_ios:
         type: string
-      app_android_url:
+      app_android:
         type: string
       tos_url:
         type: string

@@ -1,0 +1,25 @@
+#
+# This file contains the metadata for the services approved in the IO app
+#
+# The key for each service is the serviceId.
+# All fields are optional.
+#
+---
+5a25abf4fcc89605c082f042c49a:
+  description: |
+    Il servizio dell'Anagrafe del Comune di Milano.
+    Tramite IO potrai:
+
+      * Richiedere, pagare (se necessario) ed ottenere Certificati di Residenza e Stato Civile
+      * Ricevere notifiche sulla scadenza dei tuoi documenti d'itentità
+      * Ricevere ed ottenere il certificato sostitutivo di tessera elettorale
+
+  web_url: https://www.comune.milano.it/
+  app_ios_url: https://itunes.apple.com/it/developer/comune-di-milano/id393598104#
+  app_android_url: https://play.google.com/store/apps/details?id=it.tm.milanoitinerari
+  tos_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/legal
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
+  address: Via Larga, 12, 20122 Milano MI
+  phone: +39 02 0202
+  email: anagrafe@comune.milano.it
+  pec: anagrafe@pec.comune.milano.it

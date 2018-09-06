@@ -15,8 +15,8 @@
       * Ricevere ed ottenere il certificato sostitutivo di tessera elettorale
 
   web_url: https://www.comune.milano.it/
-  app_ios: it:393598104
-  app_android: it.tm.milanoitinerari
+  app_ios: https://itunes.apple.com/it/developer/comune-di-milano/id393598104
+  app_android: https://play.google.com/store/apps/details?id=it.tm.milanoitinerari
   tos_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/legal
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   address: Via Larga, 12, 20122 Milano MI

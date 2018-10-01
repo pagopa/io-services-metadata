@@ -7,19 +7,57 @@
 ---
 5a25abf4fcc89605c082f042c49a:
   description: |
-    Il servizio dell'Anagrafe del Comune di Milano.
-    Tramite IO potrai:
+    Il servizio dell’Anagrafe del Comune di Milano. Tramite IO potrai:
 
-      * Richiedere, pagare (se necessario) ed ottenere Certificati di Residenza e Stato Civile
-      * Ricevere notifiche sulla scadenza dei tuoi documenti d'itentità
-      * Ricevere ed ottenere il certificato sostitutivo di tessera elettorale
+    * Ricevere notifiche sulla scadenza dei tuoi documenti di identità
 
-  web_url: https://www.comune.milano.it/
-  app_ios: https://itunes.apple.com/it/developer/comune-di-milano/id393598104
-  app_android: https://play.google.com/store/apps/details?id=it.tm.milanoitinerari
-  tos_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/legal
-  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
-  address: Via Larga, 12, 20122 Milano MI
+  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/servizionline/pagine_servizi/anagrafe/anagrafe_link_servizi_online
+  privacy_url: http://www.palazzorealemilano.it/wps/portal/luogo/palazzoreale/footer/linkinterni/privacy
   phone: +39 02 0202
   email: anagrafe@comune.milano.it
   pec: anagrafe@pec.comune.milano.it
+
+5b4f7512a9ab400f2417f0ccc49a:
+  description: |
+    Il servizio della Polizia Municipale del Comune di Cagliari. Tramite IO potrai:
+
+      * Riceve notifiche relative pagamenti necessati per sanzioni al Codice della Strada
+      * Effettuare il pagamento delle sanzioni per violazioni al Codice della Strada
+
+  tos_url: https://www.comune.cagliari.it/portale/it/note_legali.page
+  privacy_url: https://www.comune.cagliari.it/portale/it/privacy.page
+  web_url: https://www.comune.cagliari.it/portale/it/servizio_polizia_municipale.page
+  address: Via Avicenna - 09131 Cagliari
+  phone: +39 0800230606
+  email: pm.ced@comune.cagliari.it
+  pec: poliziamunicipale@comune.cagliari.legalmail.it
+
+5b928ef65aaa2928c0319563c49a:
+  description: |
+    Il servizio della Protezione Civile del Comune di Cagliari. Tramite IO potrai:
+
+      * Ricevere, in tempo reale, notifiche di avviso (preallarme o allarme) su criticità ambientali.
+
+  tos_url: https://www.comune.cagliari.it/portale/it/note_legali.page
+  privacy_url: https://www.comune.cagliari.it/portale/it/privacy.page
+  web_url: https://servizi.comune.cagliari.it/portale/it/servizio_sms.page
+  address: Via Giuseppe Mercalli, 31 - 09129 Cagliari
+  phone: +39 070 6776905
+  email: protezione.civile@comune.cagliari.it
+  pec: protocollogenerale@comune.cagliari.legalmail.it
+
+5b87a75d34234f1170e79deec49a:
+  description: |
+    Il servizio sulla Viabilità del Comune di Cagliari. Tramite IO potrai:
+
+      * Essere avvisato in tempi utili sulla scadenza del tuo permesso ZTL
+      * Richiedere e pagare (se necessario) il tuo nuovo permesso ZTL
+
+  tos_url: https://www.comune.cagliari.it/portale/it/note_legali.page
+  privacy_url: https://www.comune.cagliari.it/portale/it/privacy.page
+  web_url: https://servizi.comune.cagliari.it/portale/it/richiesta_rinn_pass_ztl.page
+  address: Piazza A. De Gasperi, 2 - 09125 Cagliari
+  phone: +39 070 6778303
+  email: ufficioztl@comune.cagliari.it
+  pec: protocollogenerale@comune.cagliari.legalmail.it
+

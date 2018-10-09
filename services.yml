@@ -13,9 +13,10 @@
 
     Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app,
     richieste di feedback e altre istruzioni utili alla sperimentazione.
+    
+    IO è un progetto della Presidenza del Consiglio dei Ministri realizzato dal Team per la Trasformazione Digitale
+    in collaborazione con Agid.
 
-  tos_url: https://io.italia.it
-  privacy_url: https://io.italia.it
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
 

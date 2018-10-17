@@ -19,26 +19,31 @@ async function run(rootPath: string): Promise<void> {
 
   console.log(chalk.gray("[1/2]"), "Reading services data...");
   const servicesYamlContent = await fs.readFile(servicesYamlPath);
-  const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
-    filename: servicesYamlPath,
-    strict: true,
-    json: false
-  });
-  const maybeServices = Services.decode(servicesYamlData);
-  if(maybeServices.isLeft()) {
-    console.log(chalk.red(PathReporter.report(maybeServices).join("\n")));
-    throw Error("Invalid services YAML");
-  }
-  const services = maybeServices.value;
-  const serviceIds = Object.keys(services);
-  console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
+  try {
+    const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
+      filename: servicesYamlPath,
+      strict: true,
+      json: false
+    });
+    const maybeServices = Services.decode(servicesYamlData);
+    if (maybeServices.isLeft()) {
+      console.log(chalk.red(PathReporter.report(maybeServices).join("\n")));
+      throw Error("Invalid services YAML");
+    }
+    const services = maybeServices.value;
+    const serviceIds = Object.keys(services);
+    console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
 
-  console.log(chalk.gray("[2/2]"), "Generating services JSON...");
-  await Promise.all(serviceIds.map(async serviceId => {
-    const servicePath = path.join("services", `${serviceId}.json`);
-    console.log(chalk.greenBright(servicePath));
-    await fs.writeFile(path.join(root, servicePath), JSON.stringify(services[serviceId]));
-  }));
+    console.log(chalk.gray("[2/2]"), "Generating services JSON...");
+    await Promise.all(serviceIds.map(async serviceId => {
+      const servicePath = path.join("services", `${serviceId}.json`);
+      console.log(chalk.greenBright(servicePath));
+      await fs.writeFile(path.join(root, servicePath), JSON.stringify(services[serviceId]));
+    }));
+  } catch (e) {
+    console.log(chalk.red(e.message));
+    throw e;
+  }
 }
 
 

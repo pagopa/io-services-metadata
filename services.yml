@@ -5,6 +5,23 @@
 # All fields are optional.
 #
 ---
+azure-deployc49a:
+  description: |
+    IO è l’applicazione sperimentale (attualmente in fase di closed beta) che permette ai cittadini
+    di gestire direttamente dal proprio smartphone i rapporti con la Pubblica Amministrazione Italiana
+    e l’accesso ai servizi pubblici.
+
+    Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app,
+    richieste di feedback e altre istruzioni utili alla sperimentazione.
+    
+    IO è un progetto della Presidenza del Consiglio dei Ministri realizzato dal Team per la Trasformazione Digitale
+    in collaborazione con Agid.
+
+  web_url: https://io.italia.it
+  email: io-testing@teamdigitale.governo.it
+
+# TODO: this is the old admin backend service. Delete this entry once 
+# https://github.com/teamdigitale/digital-citizenship/pull/204 gets merged
 5a563817fcc896087002ea46c49a:
   description: |
     IO è l’applicazione sperimentale (attualmente in fase di closed beta) che permette ai cittadini

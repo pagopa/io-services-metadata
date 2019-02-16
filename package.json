@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Services metadata",
   "main": "src/index.ts",
-  "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
+  "repository": "git@github.com:teamdigitale/io-services-metadata.git",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
   "scripts": {

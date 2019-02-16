@@ -21,7 +21,7 @@ azure-deployc49a:
   email: io-testing@teamdigitale.governo.it
 
 # TODO: this is the old admin backend service. Delete this entry once 
-# https://github.com/teamdigitale/digital-citizenship/pull/204 gets merged
+# https://github.com/teamdigitale/io/pull/204 gets merged
 5a563817fcc896087002ea46c49a:
   description: |
     IO è l’applicazione sperimentale (attualmente in fase di closed beta) che permette ai cittadini

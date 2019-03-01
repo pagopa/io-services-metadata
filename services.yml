@@ -321,12 +321,12 @@ azure-deployc49a:
   privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
   email: io-testing@teamdigitale.governo.it  
   
-  01D4AQHCWWH2366GDBHV6MXDVT:
+01D4AQHCWWH2366GDBHV6MXDVT:
   description: |
     Il servizio di Iscrizione ai Nidi d'infanzia del Comune di Torino.
     Tramite IO potrai:
 
-      * Ricevere notifiche su comunicazioni relative alle iscrizioni al nidi d'infanzia del Comune di Torino
+      * Ricevere notifiche su comunicazioni relative alle iscrizioni ai nidi d'infanzia del Comune di Torino
 
   tos_url: http://www.comune.torino.it/nidi
   privacy_url: http://www.comune.torino.it/nidi

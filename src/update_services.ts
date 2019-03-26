@@ -36,7 +36,7 @@ async function run(rootPath: string): Promise<void> {
 
     console.log(chalk.gray("[2/2]"), "Generating services JSON...");
     await Promise.all(serviceIds.map(async serviceId => {
-      const servicePath = path.join("services", `${serviceId}.json`);
+      const servicePath = path.join("services", `${serviceId.toLowerCase()}.json`);
       console.log(chalk.greenBright(servicePath));
       await fs.writeFile(path.join(root, servicePath), JSON.stringify(services[serviceId]));
     }));

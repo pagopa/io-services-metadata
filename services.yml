@@ -193,6 +193,20 @@ azure-deployc49a:
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://www.comune.milano.it/
   email: io-testing@teamdigitale.governo.it
+  
+  
+01D5ECFA96C6HYNPXVC6P55D1S:
+  description: |
+    Il servizio di notifica primo accesso AreaB - Comune di Milano.
+    Tramite IO potrai:
+
+      * Ricevere, in tempo reale, notifiche di avviso del primo accesso all'area B non consentito se il tuo veicolo
+        viola i limiti delle regole in essere per Area B.
+
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
+  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/area_b
+  email: MTA.AreaB@comune.milano.it
+
 
 01CTY5EYNZMT8GEW50EC57JB24:
   description: |

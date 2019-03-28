@@ -148,86 +148,86 @@ azure-deployc49a:
 #
 01D723T8K5SWNTV3YQF34KPJDY:
   description: |
-	  Il Comune di Milano partecipa alla closed-beta di IO.
+    Il Comune di Milano partecipa alla closed-beta di IO.
     Tramite IO potrai:
     
-	    * Ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta
-	    * Essere sempre aggiornato in caso di integrazione di nuovi servizi
-      
+    * Ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta
+    * Essere sempre aggiornato in caso di integrazione di nuovi servizi
+    
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   phone: +39 02 02 02
-  
+
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
   description: |
     Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni.
     Tramite IO potrai:
     
-	    * Ricevere un promemoria in prossimità della scadenza della tua carta d'identità
-	    * Ricevere un riepilogo dei tuoi dati anagrafici
-	    * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
+    * Ricevere un promemoria in prossimità della scadenza della tua carta d'identità
+    * Ricevere un riepilogo dei tuoi dati anagrafici
+    * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
     
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62274
   pec: servizialcittadino@postcert.comune.milano.it
-  
+
 01D5ECFA96C6HYNPXVC6P55D1S:
   description: |
     Servizio Area B del Comune di Milano.
     Tramite IO potrai:
     
-      * Ricevere una notifica al primo passaggio di un veicolo non autorizzato in area B
-      
+    * Ricevere una notifica al primo passaggio di un veicolo non autorizzato in area B
+    
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/Area_B/area_b
   phone: +39 020202
   pec: mtaareab@postacert.comune.milano.it
-  
+
 01D721ZVRSXW793EK43HTAQM05:
   description: |
     Il servizio Procedure Sanzionatorie e Traffico del Comune di Milano si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto.
     Tramite IO potrai:
     
-	    * Ricevere avvisi di pagamento in caso di emissione di un verbale e procedere al pagamento
+    * Ricevere avvisi di pagamento in caso di emissione di un verbale e procedere al pagamento
     
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://www.comune.milano.it/wps/myportal/ist/it/servizi/servizionline/pagine_servizi/multe_sa/Multe
   address: Sportello Unico Polizia Locale - Area Procedure Sanzionatorie e Traffico - Via Friuli n° 30
   phone: +39 02 772 73143
   mail: PL.SanzioniVerbali@comune.milano.it
-  
+
 01D7228TKGP7F3BGVQG88PXTH6:
   description: |
-	  Lo sportello di Monitoraggio e Riscossione Servizi Educativi si occupa della gestione del pagamento dei contributi d'iscrizione.
+    Lo sportello di Monitoraggio e Riscossione Servizi Educativi si occupa della gestione del pagamento dei contributi d'iscrizione.
     Tramite IO potrai:
     
-	    * Ricevere un riepilogo delle rette scolastiche pagate
-      
+    * Ricevere un riepilogo delle rette scolastiche pagate
+    
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62688
   mail: Ed.ServEducativiRette@comune.milano.it 
-   
+
 01D722SKRRFMGA3FZ8NWQ4F643:
   description: |
-	  Lo sportello unico per l'edilizia fornisce informazioni e gestisce pratiche di protocollazione legate all'urbanistica.
+    Lo sportello unico per l'edilizia fornisce informazioni e gestisce pratiche di protocollazione legate all'urbanistica.
     Tramite IO potrai:
     
-	    * Ricevere un promemoria in caso di appuntamento con l'ufficio Edilizia e Territorio
-	    * Ricevere una notifica in caso di disdetta di un appuntamento
-      
+    * Ricevere un promemoria in caso di appuntamento con l'ufficio Edilizia e Territorio
+    * Ricevere una notifica in caso di disdetta di un appuntamento
+    
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 66779
   mail: sueurp@comune.milano.it  
-  
+
 01D72312AZT81N4JC3GV6980CK:
   description: |
-	  Il servizio dei Tributi Locali del Comune di Milano gestisce il tributo sui rifiuti (TARI/TARES/TARSU).
+    Il servizio dei Tributi Locali del Comune di Milano gestisce il tributo sui rifiuti (TARI/TARES/TARSU).
     Tramite IO potrai:
-	  
-      * Ricevere un riepilogo degli immobili per cui hai pagato la TARI
-	    * Ricevere un avviso di accertamento in caso di mancato pagamento delle rate passate
-      
+    
+    * Ricevere un riepilogo degli immobili per cui hai pagato la TARI
+    * Ricevere un avviso di accertamento in caso di mancato pagamento delle rate passate
+    
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 02 02
@@ -235,12 +235,12 @@ azure-deployc49a:
 
 01D723AK9TM6KHS97M4BJ1HMN0:
   description: |
-	  Il servizio Pass Mobilità permette di gestire i tuoi permessi per la mobilità in città.
+    Il servizio Pass Mobilità permette di gestire i tuoi permessi per la mobilità in città.
     Tramite IO potrai:
-	    
-      * Ricevere un riepilogo dei tuoi pass attivi
-	    * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
-      
+
+    * Ricevere un riepilogo dei tuoi pass attivi
+    * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
+    
   privacy_url: https://www.muoversi.milano.it/web/portale-mobilita/privacy
   web_url: http://www.comune.milano.it/passonline
   phone: +39 02 02 02

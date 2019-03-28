@@ -17,14 +17,14 @@ azure-deployc49a:
 
     Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app,
     richieste di feedback e altre istruzioni utili alla sperimentazione.
-    
+
     IO è un progetto della Presidenza del Consiglio dei Ministri realizzato dal Team per la Trasformazione Digitale
     in collaborazione con Agid.
 
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
 
-# TODO: this is the old admin backend service. Delete this entry once 
+# TODO: this is the old admin backend service. Delete this entry once
 # https://github.com/teamdigitale/digital-citizenship/pull/204 gets merged
 5a563817fcc896087002ea46c49a:
   description: |
@@ -34,13 +34,13 @@ azure-deployc49a:
 
     Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app,
     richieste di feedback e altre istruzioni utili alla sperimentazione.
-    
+
     IO è un progetto della Presidenza del Consiglio dei Ministri realizzato dal Team per la Trasformazione Digitale
     in collaborazione con Agid.
 
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
- 
+
 #
 # Municipality of Cagliari
 #
@@ -88,14 +88,14 @@ azure-deployc49a:
   email: ufficioztl@comune.cagliari.it
   pec: protocollogenerale@comune.cagliari.legalmail.it
 
-# 
+#
 # Demo services.
 #
 01CT1SFF37VFZDNFWG2SRH6RDN:
   description: |
     IO è l’applicazione sperimentale (attualmente in fase di closed beta) che permette ai cittadini di gestire
-    direttamente dal proprio smartphone i rapporti con la Pubblica Amministrazione Italiana e l’accesso ai servizi pubblici.  
-    Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app, 
+    direttamente dal proprio smartphone i rapporti con la Pubblica Amministrazione Italiana e l’accesso ai servizi pubblici.
+    Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionlità dell'app,
     richieste di feedback e altre istruzioni utili alla sperimentazione.
 
   web_url: https://io.italia.it
@@ -124,7 +124,7 @@ azure-deployc49a:
 
       * Ricevere notifiche 15 giorni prima la scadenza del tuo bollo auto e procedere tempestivamente con il pagamento
       * Ricevere notifiche 15 giorni prima che scattino degli interessi di mora sul tuo bollo scaduto e non ancora pagato, e pagare direttamente
-    
+
   tos_url: https://bollo.aci.it/#/main/home
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy-e-cookie-policy.html
   web_url: http://www.aci.it/i-servizi/servizi-online/bollo-auto.html
@@ -150,10 +150,10 @@ azure-deployc49a:
   description: |
     Il Comune di Milano partecipa alla closed-beta di IO.
     Tramite IO potrai:
-    
+
     * Ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta
     * Essere sempre aggiornato in caso di integrazione di nuovi servizi
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   phone: +39 02 02 02
 
@@ -161,11 +161,11 @@ azure-deployc49a:
   description: |
     Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni.
     Tramite IO potrai:
-    
+
     * Ricevere un promemoria in prossimità della scadenza della tua carta d'identità
     * Ricevere un riepilogo dei tuoi dati anagrafici
     * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62274
@@ -175,9 +175,9 @@ azure-deployc49a:
   description: |
     Servizio Area B del Comune di Milano.
     Tramite IO potrai:
-    
+
     * Ricevere una notifica al primo passaggio di un veicolo non autorizzato in area B
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/Area_B/area_b
   phone: +39 020202
@@ -187,47 +187,47 @@ azure-deployc49a:
   description: |
     Il servizio Procedure Sanzionatorie e Traffico del Comune di Milano si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto.
     Tramite IO potrai:
-    
+
     * Ricevere avvisi di pagamento in caso di emissione di un verbale e procedere al pagamento
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://www.comune.milano.it/wps/myportal/ist/it/servizi/servizionline/pagine_servizi/multe_sa/Multe
   address: Sportello Unico Polizia Locale - Area Procedure Sanzionatorie e Traffico - Via Friuli n° 30
   phone: +39 02 772 73143
-  mail: PL.SanzioniVerbali@comune.milano.it
+  email: PL.SanzioniVerbali@comune.milano.it
 
 01D7228TKGP7F3BGVQG88PXTH6:
   description: |
     Lo sportello di Monitoraggio e Riscossione Servizi Educativi si occupa della gestione del pagamento dei contributi d'iscrizione.
     Tramite IO potrai:
-    
+
     * Ricevere un riepilogo delle rette scolastiche pagate
-    
+
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62688
-  mail: Ed.ServEducativiRette@comune.milano.it 
+  email: Ed.ServEducativiRette@comune.milano.it
 
 01D722SKRRFMGA3FZ8NWQ4F643:
   description: |
     Lo sportello unico per l'edilizia fornisce informazioni e gestisce pratiche di protocollazione legate all'urbanistica.
     Tramite IO potrai:
-    
+
     * Ricevere un promemoria in caso di appuntamento con l'ufficio Edilizia e Territorio
     * Ricevere una notifica in caso di disdetta di un appuntamento
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 66779
-  mail: sueurp@comune.milano.it  
+  email: sueurp@comune.milano.it
 
 01D72312AZT81N4JC3GV6980CK:
   description: |
     Il servizio dei Tributi Locali del Comune di Milano gestisce il tributo sui rifiuti (TARI/TARES/TARSU).
     Tramite IO potrai:
-    
+
     * Ricevere un riepilogo degli immobili per cui hai pagato la TARI
     * Ricevere un avviso di accertamento in caso di mancato pagamento delle rate passate
-    
+
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 02 02
@@ -240,7 +240,7 @@ azure-deployc49a:
 
     * Ricevere un riepilogo dei tuoi pass attivi
     * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
-    
+
   privacy_url: https://www.muoversi.milano.it/web/portale-mobilita/privacy
   web_url: http://www.comune.milano.it/passonline
   phone: +39 02 02 02
@@ -335,7 +335,7 @@ azure-deployc49a:
   description: |
     Il servizio della Protezione Civile del Comune di Palermo.
     Tramite IO potrai:
-  
+
       * Ricevere, in tempo reale, notifiche di avviso (preallarme o allarme) su criticità ambientali
 
   tos_url: https://www.comune.palermo.it/info.php
@@ -377,8 +377,8 @@ azure-deployc49a:
 
   tos_url: http://www.comune.torino.it/condizioni.shtml
   privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
-  email: io-testing@teamdigitale.governo.it  
-  
+  email: io-testing@teamdigitale.governo.it
+
 01D4AQHCWWH2366GDBHV6MXDVT:
   description: |
     Il servizio di Iscrizione ai Nidi d'infanzia del Comune di Torino.
@@ -388,4 +388,4 @@ azure-deployc49a:
 
   tos_url: http://www.comune.torino.it/nidi
   privacy_url: http://www.comune.torino.it/nidi
-  email: io-testing@teamdigitale.governo.it  
+  email: io-testing@teamdigitale.governo.it

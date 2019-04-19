@@ -5,7 +5,6 @@
 # All fields are optional.
 #
 ---
-
 #
 # IO-App Team digitale
 #
@@ -132,10 +131,10 @@ azure-deployc49a:
 
 01CT1WBV3FJRJ1TKEC4R5N6D82:
   description: |
-    Il servizio dei Certidicati di proprietà di ACI.
+    Il servizio dei Certificati di proprietà di ACI.
     Tramite IO potrai:
 
-      * Ricevere notifiche sul rilascio dei tuoi certificati di prioprietà
+      * Ricevere notifiche sul rilascio dei tuoi certificati di proprietà
       * Ottenere i certificati di proprietà riguardanti i tuoi veicoli
 
   tos_url: https://iservizi.aci.it/consultacdpd/
@@ -359,7 +358,7 @@ azure-deployc49a:
     Tramite IO potrai:
 
       * Ricevere notifiche su comunicazioni relative all'apertura delle iscrizioni al nido di infanzia, mensa e trasporti
-      * Ricevere notifiche e pagamere le rette scolastiche, delle mense e dei trasporti.
+      * Ricevere notifiche e pagare le rette scolastiche, delle mense e dei trasporti.
 
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php

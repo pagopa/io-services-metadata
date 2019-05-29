@@ -103,44 +103,47 @@ azure-deployc49a:
 #
 # Automobile Club d'Italia
 #
-01CTY5D1K9BTMV9Q28VG6ACKGH:
+01DBJNFSJYB53TP0AZNA8FQGJJ:
   description: |
-    Comunicazioni e servizi di ACI.
-    Tramite IO potrai ricevere messaggi e comunicazioni dai seguenti dipartimenti:
-
-      * Tributi, Bollo auto;
-      * Procedure di accreditamento, Certificati di proprietà digitali.
-
-  tos_url: https://iservizi.aci.it/consultacdpd/
-  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy-e-cookie-policy.html
-  web_url: http://www.aci.it
-  email: io-testing@teamdigitale.governo.it
-
-01CT1SH9K4E4017NWSY4S1KWW6:
-  description: |
-    Il servizio di Tributi di ACI.
+    L'Automobile Club Italia partecipa alla closed-beta di IO. 
     Tramite IO potrai:
 
-      * Ricevere notifiche 15 giorni prima la scadenza del tuo bollo auto e procedere tempestivamente con il pagamento
-      * Ricevere notifiche 15 giorni prima che scattino degli interessi di mora sul tuo bollo scaduto e non ancora pagato, e pagare direttamente
+    * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+    * essere sempre aggiornato in caso di integrazione di nuovi servizi.
 
-  tos_url: https://bollo.aci.it/#/main/home
-  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy-e-cookie-policy.html
-  web_url: http://www.aci.it/i-servizi/servizi-online/bollo-auto.html
-  email: io-testing@teamdigitale.governo.it
+  privacy_url: https://io.italia.it/ente/aci
 
-01CT1WBV3FJRJ1TKEC4R5N6D82:
+
+01DBJNW5NR2M2VQTM7VG0SGNNZ:
   description: |
-    Il servizio dei Certificati di proprietà di ACI.
+    I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
     Tramite IO potrai:
 
-      * Ricevere notifiche sul rilascio dei tuoi certificati di proprietà
-      * Ottenere i certificati di proprietà riguardanti i tuoi veicoli
+    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto;
+    * pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
-  tos_url: https://iservizi.aci.it/consultacdpd/
-  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy-e-cookie-policy.html
-  web_url: http://www.aci.it/i-servizi/servizi-online/certificato-di-proprieta-digitale.html
-  email: io-testing@teamdigitale.governo.it
+  privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
+  web_url: https://bollo.aci.it/#/main/home
+  address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
+  phone: 06 4998 2721
+  email: serviziogestionetasseautomobilistiche@aci.it
+  pec: serviziogestionetasseautomobilistiche@pec.aci.it
+
+
+01DBJNYDCT0Q5G0D0K7RFS2R2F:
+  description: |
+    Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico. Tramite IO potrai: 
+    Tramite IO potrai:
+
+    * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
+    * ricevere un riepilogo dei tuoi certificati di proprietà digitali.
+
+  privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
+  web_url: https://iservizi.aci.it/consultacdpd/
+  address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
+  phone: 06 4998 2715
+  email: servizio.gestione.pra@aci.it
+  pec: serviziogestionepra@pec.aci.it
 
 #
 # Municipality of Milan

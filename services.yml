@@ -126,7 +126,7 @@ azure-deployc49a:
   web_url: https://bollo.aci.it/#/main/home
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   phone: 06 4998 2721
-  mail: serviziogestionetasseautomobilistiche@aci.it
+  email: serviziogestionetasseautomobilistiche@aci.it
   pec: serviziogestionetasseautomobilistiche@pec.aci.it
 
 
@@ -142,7 +142,7 @@ azure-deployc49a:
   web_url: https://iservizi.aci.it/consultacdpd/
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   phone: 06 4998 2715
-  mail: servizio.gestione.pra@aci.it
+  email: servizio.gestione.pra@aci.it
   pec: serviziogestionepra@pec.aci.it
 
 #

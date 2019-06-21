@@ -113,7 +113,6 @@ azure-deployc49a:
 
   privacy_url: https://io.italia.it/ente/aci
 
-
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
   description: |
     I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
@@ -128,7 +127,6 @@ azure-deployc49a:
   phone: 06 4998 2721
   email: serviziogestionetasseautomobilistiche@aci.it
   pec: serviziogestionetasseautomobilistiche@pec.aci.it
-
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
   description: |
@@ -156,7 +154,7 @@ azure-deployc49a:
     * Ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta
     * Essere sempre aggiornato in caso di integrazione di nuovi servizi
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   phone: +39 02 02 02
 
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
@@ -168,7 +166,7 @@ azure-deployc49a:
     * Ricevere un riepilogo dei tuoi dati anagrafici
     * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62274
   pec: servizialcittadino@postcert.comune.milano.it
@@ -180,8 +178,8 @@ azure-deployc49a:
 
     * Ricevere una notifica al primo passaggio di un veicolo non autorizzato in area B
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
-  web_url: https://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/Area_B/area_b
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
+  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/Area_B/area_b
   phone: +39 020202
   pec: mtaareab@postacert.comune.milano.it
 
@@ -192,7 +190,7 @@ azure-deployc49a:
 
     * Ricevere avvisi di pagamento in caso di emissione di un verbale e procedere al pagamento
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://www.comune.milano.it/wps/myportal/ist/it/servizi/servizionline/pagine_servizi/multe_sa/Multe
   address: Sportello Unico Polizia Locale - Area Procedure Sanzionatorie e Traffico - Via Friuli n° 30
   phone: +39 02 772 73143
@@ -217,7 +215,7 @@ azure-deployc49a:
     * Ricevere un promemoria in caso di appuntamento con l'ufficio Edilizia e Territorio
     * Ricevere una notifica in caso di disdetta di un appuntamento
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 66779
   email: sueurp@comune.milano.it
@@ -230,7 +228,7 @@ azure-deployc49a:
     * Ricevere un riepilogo degli immobili per cui hai pagato la TARI
     * Ricevere un avviso di accertamento in caso di mancato pagamento delle rate passate
 
-  privacy_url: https://www.comune.milano.it/policy/privacy
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 02 02
   pec: tassarifiuti@pec.comune.milano.it
@@ -244,7 +242,7 @@ azure-deployc49a:
     * Ricevere un promemoria in prossimità della scadenza dei tuoi pass per la mobilità
 
   privacy_url: https://www.muoversi.milano.it/web/portale-mobilita/privacy
-  web_url: https://www.comune.milano.it/passonline
+  web_url: http://www.comune.milano.it/passonline
   phone: +39 02 02 02
   pec: servizialcittadino@postcert.comune.milano.it
 

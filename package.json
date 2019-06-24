@@ -22,7 +22,7 @@
     "csv-stream": "^0.2.0",
     "event-stream": "^3.3.4",
     "fs-extra": "^7.0.0",
-    "io-ts": "^1.3.0",
+    "io-ts": "^1.10.2",
     "italia-utils": "^3.13.0",
     "js-yaml": "^3.12.0",
     "request": "^2.87.0",

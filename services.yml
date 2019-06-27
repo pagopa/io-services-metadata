@@ -370,22 +370,62 @@ azure-deployc49a:
 #
 01D4AQHBKESFSX98TK52PMD5S3:
   description: |
-    Il servizio di prenotazioni di appuntamento presso gli sportelli del Comune di Torino.
+    SportelloFacile è un servizio on-line che consente a tutti i cittadini di effettuare delle prenotazioni di appuntamento presso diversi sportelli della Città di Torino.
     Tramite IO potrai:
 
-      * Ricevere notifiche sulla data/ora degli appuntamenti presso gli sportelli del Comune di Torino
+      * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale; 
+      * essere notificato in caso di modifica o disdetta dell'appuntamento.
 
   tos_url: http://www.comune.torino.it/condizioni.shtml
   privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
-  email: io-testing@teamdigitale.governo.it
+  web_url: https://servizi.torinofacile.it/cgi-bin/accesso/base/index.cgi?cod_servizio=SPOT
+  phone: 800 450 900
+  email: info@torinofacile.it
 
 01D4AQHCWWH2366GDBHV6MXDVT:
   description: |
     Il servizio di Iscrizione ai Nidi d'infanzia del Comune di Torino.
     Tramite IO potrai:
 
-      * Ricevere notifiche su comunicazioni relative alle iscrizioni ai nidi d'infanzia del Comune di Torino
+      * Essere avvisato dell'ammissione di tuo figlio/a all'asilo nido ai fini della conferma del posto.
 
-  tos_url: http://www.comune.torino.it/nidi
-  privacy_url: http://www.comune.torino.it/nidi
-  email: io-testing@teamdigitale.governo.it
+  tos_url: http://www.comune.torino.it/condizioni.shtml
+  privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
+  address: via Bazzi 4, 10152 Torino
+  web_url: https://servizi.torinofacile.it/info/servizi/iscrizione-nidi-dinfanzia
+  email: iscrizionenidi@comune.torino.it
+
+01D4AQHE0R5DRJJ9635WSK7GZE:
+  description: |
+    Tramite IO potrai:
+
+      * Ricevere un promemoria alla scadenza del pagamento della TARI.
+
+  tos_url: http://www.comune.torino.it/condizioni.shtml
+  privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
+  web_url: http://www.comune.torino.it/tasse/iuc/tari/
+  address: Corso Racconigi 49, 10139 Torino
+  phone: 011 01124853
+  email: tassarifiuti@comune.torino.it
+
+01D81BTR75QGVVCC2ASSSZNSNV:
+  description: |
+    Tramite IO potrai:
+
+      * Ricevere l'avviso per il pagamento del canone di affitto e locazione di immobili comunali.
+
+  privacy_url: http://www.soris.torino.it/cms/risorse/phocadownload/Chi_Siamo/Informativa_Privacy/privacy.pdf
+  address: Piazza Palazzo di Città 7, 10122 Torino
+
+001D9VYPJ9S41QCD3E6XE3K6D1N:
+  description: |
+    Tramite IO potrai:
+
+      * Ricevere un promemoria alla scadenza del pagamento di IMU e TASI.
+
+  tos_url: http://www.comune.torino.it/condizioni.shtml
+  privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
+  web_url: http://www.comune.torino.it/tasse/iuc/tari/
+  address: Corso Racconigi 49, 10139 Torino
+  phone: 011 01124857
+  email: assistenzaimu@comune.torino.it

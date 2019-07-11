@@ -5,6 +5,8 @@ paths:
 definitions:
   Service:
     type: object
+    required:
+      - service_type
     properties:
       description:
         type: string
@@ -26,3 +28,8 @@ definitions:
         type: string
       pec:
         type: string
+      service_type:
+        type: string
+        enum:
+          - NATIONAL
+          - LOCAL

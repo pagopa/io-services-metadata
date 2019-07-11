@@ -7,7 +7,9 @@
 import * as t from "io-ts";
 
 // required attributes
-const ServiceR = t.interface({});
+const ServiceR = t.interface({
+  service_type: t.string
+});
 
 // optional attributes
 const ServiceO = t.partial({

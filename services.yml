@@ -22,6 +22,7 @@ azure-deployc49a:
 
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
+  service_type: NATIONAL
 
 # TODO: this is the old admin backend service. Delete this entry once
 # https://github.com/teamdigitale/digital-citizenship/pull/204 gets merged
@@ -39,7 +40,8 @@ azure-deployc49a:
 
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
-
+  service_type: NATIONAL
+  
 #
 # Municipality of Cagliari
 #
@@ -57,6 +59,7 @@ azure-deployc49a:
   phone: +39 0800230606
   email: pm.ced@comune.cagliari.it
   pec: poliziamunicipale@comune.cagliari.legalmail.it
+  service_type: LOCAL
 
 5b928ef65aaa2928c0319563c49a:
   description: |
@@ -71,6 +74,7 @@ azure-deployc49a:
   phone: +39 070 6776905
   email: protezione.civile@comune.cagliari.it
   pec: protocollogenerale@comune.cagliari.legalmail.it
+  service_type: LOCAL
 
 5b87a75d34234f1170e79deec49a:
   description: |
@@ -86,6 +90,7 @@ azure-deployc49a:
   phone: +39 070 6778303
   email: ufficioztl@comune.cagliari.it
   pec: protocollogenerale@comune.cagliari.legalmail.it
+  service_type: LOCAL
 
 #
 # Demo services.
@@ -99,7 +104,8 @@ azure-deployc49a:
 
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
-
+  service_type: NATIONAL
+  
 #
 # Automobile Club d'Italia
 #
@@ -112,6 +118,7 @@ azure-deployc49a:
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
 
   privacy_url: https://io.italia.it/ente/aci
+  service_type: NATIONAL
 
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
   description: |
@@ -127,6 +134,7 @@ azure-deployc49a:
   phone: 06 4998 2721
   email: serviziogestionetasseautomobilistiche@aci.it
   pec: serviziogestionetasseautomobilistiche@pec.aci.it
+  service_type: NATIONAL
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
   description: |
@@ -142,6 +150,7 @@ azure-deployc49a:
   phone: 06 4998 2715
   email: servizio.gestione.pra@aci.it
   pec: serviziogestionepra@pec.aci.it
+  service_type: NATIONAL
 
 #
 # Municipality of Milan
@@ -156,6 +165,7 @@ azure-deployc49a:
 
   privacy_url: https://www.comune.milano.it/policy/privacy
   phone: +39 02 02 02
+  service_type: LOCAL
 
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
   description: |
@@ -170,6 +180,7 @@ azure-deployc49a:
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62274
   pec: servizialcittadino@postcert.comune.milano.it
+  service_type: LOCAL
 
 01D5ECFA96C6HYNPXVC6P55D1S:
   description: |
@@ -182,6 +193,7 @@ azure-deployc49a:
   web_url: https://www.comune.milano.it/wps/portal/ist/it/servizi/mobilita/Area_B/area_b
   phone: +39 020202
   pec: mtaareab@postacert.comune.milano.it
+  service_type: LOCAL
 
 01D721ZVRSXW793EK43HTAQM05:
   description: |
@@ -195,6 +207,7 @@ azure-deployc49a:
   address: Sportello Unico Polizia Locale - Area Procedure Sanzionatorie e Traffico - Via Friuli n° 30
   phone: +39 02 772 73143
   email: PL.SanzioniVerbali@comune.milano.it
+  service_type: LOCAL
 
 01D7228TKGP7F3BGVQG88PXTH6:
   description: |
@@ -206,6 +219,7 @@ azure-deployc49a:
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 62688
   email: Ed.ServEducativiRette@comune.milano.it
+  service_type: LOCAL
 
 01D722SKRRFMGA3FZ8NWQ4F643:
   description: |
@@ -219,6 +233,7 @@ azure-deployc49a:
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 884 66779
   email: sueurp@comune.milano.it
+  service_type: LOCAL
 
 01D72312AZT81N4JC3GV6980CK:
   description: |
@@ -232,6 +247,7 @@ azure-deployc49a:
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
   phone: +39 02 02 02
   pec: tassarifiuti@pec.comune.milano.it
+  service_type: LOCAL
 
 01D723AK9TM6KHS97M4BJ1HMN0:
   description: |
@@ -245,6 +261,7 @@ azure-deployc49a:
   web_url: https://www.comune.milano.it/passonline
   phone: +39 02 02 02
   pec: servizialcittadino@postcert.comune.milano.it
+  service_type: LOCAL
 
 #
 # Municipality of Palermo
@@ -265,6 +282,7 @@ azure-deployc49a:
   privacy_url: https://www.comune.palermo.it/privacy.php
   web_url: https://comune.palermo.it/
   email: io-testing@teamdigitale.governo.it
+  service_type: LOCAL
 
 01CT1WHDPJWNPJRKQ1X8F95P2K:
   description: |
@@ -281,6 +299,7 @@ azure-deployc49a:
   email: io-testing@teamdigitale.governo.it
   address: Via Dogali n.29
   pec: comandopoliziamunicipale@cert.comune.palermo.it
+  service_type: LOCAL
 
 01CT1WHSHWAGRF8SMYS6CSR5FS:
   description: |
@@ -299,6 +318,7 @@ azure-deployc49a:
   pec: mobilitaurbana@cert.comune.palermo.it
   app_ios: https://itunes.apple.com/it/app/ztl-palermo/id1166868545?mt=8
   app_android: https://play.google.com/store/apps/details?id=it.korec.palermomobilita
+  service_type: LOCAL
 
 01CT1WJ8D0AVSRV9N7S2NM2JBF:
   description: |
@@ -314,6 +334,7 @@ azure-deployc49a:
   address: Piazza G. Cesare n.6
   email: io-testing@teamdigitale.governo.it
   pec: settoretributi@cert.comune.palermo.it
+  service_type: LOCAL
 
 01CT1WJKVB6M0SDNXHJHJJBDX9:
   description: |
@@ -330,6 +351,7 @@ azure-deployc49a:
   address: Piazza G. Cesare n.6
   email: io-testing@teamdigitale.governo.it
   pec: settoretributi@cert.comune.palermo.it
+  service_type: LOCAL
 
 01CT1WK81HJA0KGENDPEPXCJXJ:
   description: |
@@ -341,6 +363,7 @@ azure-deployc49a:
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php
   email: io-testing@teamdigitale.governo.it
+  service_type: LOCAL
 
 01CT1WM5VX706MDQ0DM4ZVAGAG:
   description: |
@@ -352,6 +375,7 @@ azure-deployc49a:
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php
   email: io-testing@teamdigitale.governo.it
+  service_type: LOCAL
 
 01CT1WMH651JE5DGP7RX9MKV6G:
   description: |
@@ -364,6 +388,7 @@ azure-deployc49a:
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php
   email: io-testing@teamdigitale.governo.it
+  service_type: LOCAL
 
 #
 # Municipality of Turin
@@ -381,6 +406,7 @@ azure-deployc49a:
   web_url: https://servizi.torinofacile.it/cgi-bin/accesso/base/index.cgi?cod_servizio=SPOT
   phone: 800 450 900
   email: info@torinofacile.it
+  service_type: LOCAL
 
 01D4AQHCWWH2366GDBHV6MXDVT:
   description: |
@@ -394,6 +420,7 @@ azure-deployc49a:
   address: via Bazzi 4, 10152 Torino
   web_url: https://servizi.torinofacile.it/info/servizi/iscrizione-nidi-dinfanzia
   email: iscrizionenidi@comune.torino.it
+  service_type: LOCAL
 
 01D4AQHE0R5DRJJ9635WSK7GZE:
   description: |
@@ -407,6 +434,7 @@ azure-deployc49a:
   address: Corso Racconigi 49, 10139 Torino
   phone: 011 01124853
   email: tassarifiuti@comune.torino.it
+  service_type: LOCAL
 
 01D81BTR75QGVVCC2ASSSZNSNV:
   description: |
@@ -416,6 +444,7 @@ azure-deployc49a:
 
   privacy_url: http://www.soris.torino.it/cms/risorse/phocadownload/Chi_Siamo/Informativa_Privacy/privacy.pdf
   address: Piazza Palazzo di Città 7, 10122 Torino
+  service_type: LOCAL
 
 01D9VYPJ9S41QCD3E6XE3K6D1N:
   description: |
@@ -429,3 +458,4 @@ azure-deployc49a:
   address: Corso Racconigi 49, 10139 Torino
   phone: 011 01124857
   email: assistenzaimu@comune.torino.it
+  service_type: LOCAL

@@ -458,4 +458,71 @@ azure-deployc49a:
   address: Corso Racconigi 49, 10139 Torino
   phone: 011 01124857
   email: assistenzaimu@comune.torino.it
-  service_type: LOCAL
+
+# Municipality of Ripalta Cremasca
+#
+
+01DECE05RF356RDC7QV1DAT2QR:
+  description: |
+    Il Comune di Ripalta Cremasca partecipa alla closed-beta di IO. 
+    Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  privacy_url: https://io.italia.it/ente/comune-di-ripalta-cremasca
+  address: via Roma 5, 26010 Ripalta Cremasca
+  phone: 0373 68131
+  pec: comune.ripaltacremasca@pec.it
+
+01DCER0VWBJVY6K6YXK1XM54C9:
+  description: |
+    I servizi scolastici di Ripalta Cremasca includono asilo nido, refezione scolastica, trasporto scolastico, pre e post-scuola, centri estivi, integrazione scolastica, fornitura libri di testo e contributi per libri di testo e borse di studio. 
+    Tramite IO potrai:
+
+      * procedere al pagamento della mensa scolastica.
+
+  privacy_url: https://io.italia.it/ente/comune-di-ripalta-cremasca
+  web_url: https://ripaltacremasca.ecivis.it/ECivisWEB/
+  address: via Roma 5, 26010 Ripalta Cremasca
+  phone: 0373 68131
+  pec: comune.ripaltacremasca@pec.it
+
+01DCER17X2DG6DBD7ZMN1Z95H7:
+  description: |
+    ll Comune di Ripalta Cremasca aderisce al Sistema PagoPA per il pagamento TARI.
+    Tramite IO potrai:
+
+      * effettuare il pagamento della TARI 2019 in rata unica;
+      * effettuare il pagamento della TARI 2019 in rate separate;
+      * ricevere un riepilogo dei tuoi immobili soggetti al calcolo della TARI.
+
+  privacy_url: https://io.italia.it/ente/comune-di-ripalta-cremasca
+  web_url: https://www.comune.ripaltacremasca.cr.it/servizi/pago-pa
+  address: via Roma 5, 26010 Ripalta Cremasca
+  phone: 0373 68131
+  email: tributi@comune.ripaltacremsca.cr.it
+  pec: comune.ripaltacremasca@pec.it
+
+01DCER0ANWQF5908X5YX3NKJD0:
+  description: |
+    Il servizio CIE include l'emissione della carta di identità elettronica per scadenza naturale della carta di identità precedente o per smarrimento o furto della carta di identità. 
+    Tramite IO potrai:
+
+      * procedere al pagamento della nuova CIE (carta di identità elettronica).
+
+  privacy_url: https://io.italia.it/ente/comune-di-ripalta-cremasca
+  address: via Roma 5, 26010 Ripalta Cremasca
+  phone: 0373 68131
+  pec: comune.ripaltacremasca@pec.it
+
+01DECDYK2T68JQEGTJP7XK9A0P:
+  description: |
+    Tramite IO potrai:
+
+      * ricevere messaggi di riepilogo relativi ai dati anagrafici, stato civile e dati elettoriali.
+
+  privacy_url: https://io.italia.it/ente/comune-di-ripalta-cremasca
+  address: via Roma 5, 26010 Ripalta Cremasca
+  phone: 0373 68131
+  pec: comune.ripaltacremasca@pec.it

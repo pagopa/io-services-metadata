@@ -458,6 +458,7 @@ azure-deployc49a:
   address: Corso Racconigi 49, 10139 Torino
   phone: 011 01124857
   email: assistenzaimu@comune.torino.it
+  service_type: LOCAL
 
 # Municipality of Ripalta Cremasca
 #
@@ -474,6 +475,7 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  service_type: LOCAL
 
 01DCER0VWBJVY6K6YXK1XM54C9:
   description: |
@@ -487,6 +489,7 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  service_type: LOCAL
 
 01DCER17X2DG6DBD7ZMN1Z95H7:
   description: |
@@ -503,6 +506,7 @@ azure-deployc49a:
   phone: 0373 68131
   email: tributi@comune.ripaltacremsca.cr.it
   pec: comune.ripaltacremasca@pec.it
+  service_type: LOCAL
 
 01DCER0ANWQF5908X5YX3NKJD0:
   description: |
@@ -515,6 +519,7 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  service_type: LOCAL
 
 01DECDYK2T68JQEGTJP7XK9A0P:
   description: |
@@ -526,3 +531,4 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  service_type: LOCAL

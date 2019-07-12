@@ -6,7 +6,7 @@ definitions:
   Service:
     type: object
     required:
-      - service_type
+      - scope
     properties:
       description:
         type: string

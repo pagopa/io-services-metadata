@@ -390,7 +390,6 @@ azure-deployc49a:
   email: io-testing@teamdigitale.governo.it
   scope: LOCAL
 
-#
 # Municipality of Turin
 #
 01D4AQHBKESFSX98TK52PMD5S3:
@@ -454,10 +453,38 @@ azure-deployc49a:
 
   tos_url: http://www.comune.torino.it/condizioni.shtml
   privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
-  web_url: http://www.comune.torino.it/tasse/iuc/tari/
+  web_url: http://www.comune.torino.it/tasse/iuc/imu/index.shtml
   address: Corso Racconigi 49, 10139 Torino
   phone: 011 01124857
   email: assistenzaimu@comune.torino.it
+  scope: LOCAL
+
+01DFB1ZQAGE24VRXT003221175:
+  description: |
+    Il Comune di Torino partecipa alla sperimentazione in closed-beta dell'app IO. 
+    Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  tos_url: http://www.comune.torino.it/condizioni.shtml
+  privacy_url: https://io.italia.it/ente/comune-di-torino
+  phone: 800 450 900
+  email: info@torinofacile.it
+  scope: LOCAL
+
+01DFB1ZTMPDR4PGAQ86B3WV7X3:
+  description: |
+    Il servizio Anagrafe "I tuoi dati" offerto da TorinoFacile permette al cittadino di tenersi costantemente aggiornato sulle informazioni che lo riguardano. 
+    Tramite IO potrai:
+
+      * ricevere messaggi di riepilogo relativi a dati anagrafici, stato di famiglia, utenze TARI e dati catastali.
+
+  tos_url: http://www.comune.torino.it/condizioni.shtml
+  privacy_url: http://www.comune.torino.it/condizioni.shtml#privacy
+  web_url: https://servizi.torinofacile.it/cgi-bin/accesso/base/index.cgi?cod_servizio=SPOT
+  phone: 800 450 900
+  email: info@torinofacile.it
   scope: LOCAL
 
 # Municipality of Ripalta Cremasca

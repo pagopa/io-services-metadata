@@ -8,7 +8,7 @@ import * as t from "io-ts";
 
 // required attributes
 const ServiceR = t.interface({
-  service_type: t.string
+  scope: t.string
 });
 
 // optional attributes

@@ -28,7 +28,7 @@ definitions:
         type: string
       pec:
         type: string
-      service_type:
+      scope:
         type: string
         enum:
           - NATIONAL

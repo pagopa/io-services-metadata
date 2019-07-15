@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "update_indicepa": "ts-node src/update_indicepa.ts",
+    "update_comuni": "ts-node src/update_comuni.ts",
     "update_services": "ts-node src/update_services.ts",
     "generate:definitions": "gen-api-models --api-spec definitions.yml --out-dir ./definitions"
   },
@@ -19,6 +20,7 @@
     "@types/node": "^10.5.3",
     "@types/request": "^2.47.1",
     "chalk": "^2.4.1",
+    "csv-parse": "^4.4.1",
     "csv-stream": "^0.2.0",
     "event-stream": "^3.3.4",
     "fs-extra": "^7.0.0",

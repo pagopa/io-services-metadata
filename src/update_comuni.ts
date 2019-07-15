@@ -1,38 +1,90 @@
 import request from "request";
 import parse from "csv-parse";
-import stream = require("stream");
+import * as fs from "fs-extra";
+import chalk from "chalk";
+import * as path from "path";
+import { Comune } from "../definitions/Comune";
+import { PathReporter } from "io-ts/lib/PathReporter";
+import * as t from "io-ts";
+import { Either, left, right } from "fp-ts/lib/Either";
+import { parseCsvComune, decodeComune } from "./utils/comune";
 
 const ELENCO_COMUNI_ITALIANI_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
 
 const parserOption = {
   skip_empty_lines: true,
-  relax: true,
   delimiter: ";",
   skip_lines_with_error: true,
-  from_line: 4
+  from_line: 4,
+  trim: true
 };
 
 async function run() {
+  console.log(chalk.whiteBright("Comuni builder"));
   const options = {
     url: ELENCO_COMUNI_ITALIANI_URL,
-    encoding: null
+    encoding: "latin1"
   };
-  request.get(options, (error: any, response: request.Response, body: any) => {
-    console.log("A");
-    const buffer = Buffer.from(body);
-    const csvContent = buffer.toString("latin1");
-    parse(
-      csvContent,
-      parserOption,
-      (err: Error | undefined, records: any | undefined, info: parse.Info) => {
-        console.log("SONO QUI:" + err);
-        console.log(records.length);
-        console.log(records[0]);
+
+  console.log(
+    "[1/2] Requesting Comuni data from:",
+    chalk.blueBright(ELENCO_COMUNI_ITALIANI_URL)
+  );
+  request.get(
+    options,
+    async (error: Error, response: request.Response, body: any) => {
+      const buffer = Buffer.from(body);
+
+      const csvContent = buffer.toString();
+      await fs.writeFile("/Users/matteo/Desktop/comuni.csv", csvContent);
+      if (error) {
+        console.log(
+          "some error occured while retrieving data",
+          chalk.red(error.message)
+        );
+        return;
       }
-    );
-  });
+      console.log(chalk.gray("[2/2]"), "Generating comuni JSON...");
+
+      const generateJsonFile = async (record: string[]) => {
+        // comune json filename: codice_catastale_lowercase.json
+        const comunePath = path.join(
+          "comuni",
+          `${record[18].toLowerCase()}.json`
+        );
+        const comuneDecoded = decodeComune(record);
+        if (comuneDecoded.isRight()) {
+          await fs.writeFile(
+            path.join(root, comunePath),
+            JSON.stringify(comuneDecoded.value)
+          );
+          console.log(chalk.greenBright(comunePath));
+        } else {
+          console.log(
+            chalk.red(
+              "some error occurred while decoding: ",
+              record.toString(),
+              PathReporter.report(comuneDecoded).join("\n")
+            )
+          );
+        }
+      };
+      // parse the content string in csv records
+      parseCsvComune(csvContent, parserOption, async result => {
+        if (result.isLeft()) {
+          console.log(
+            "some error occured while parsing data:",
+            chalk.red(result.value.message)
+          );
+          return;
+        }
+        // process each csv record with generateJsonFiles function
+        await Promise.all(result.value.map(generateJsonFile));
+      });
+    }
+  );
   await Promise.resolve();
 }
-
+const root = path.join(__dirname, "../");
 run().then(() => console.log("done"), () => process.exit(1));

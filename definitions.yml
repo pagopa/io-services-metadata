@@ -26,3 +26,22 @@ definitions:
         type: string
       pec:
         type: string
+  Comune:
+    type: object
+    required:
+      - codiceRegione
+      - codiceProvincia
+      - denominazione
+      - denominazioneInItaliano
+      - denominazioneRegione
+    properties:
+      codiceRegione:
+        type: string
+      codiceProvincia:
+        type: string
+      denominazione:
+        type: string
+      denominazioneInItaliano:
+        type: string
+      denominazioneRegione:
+        type: string

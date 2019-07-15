@@ -1,12 +1,8 @@
 import request from "request";
-import parse from "csv-parse";
 import * as fs from "fs-extra";
 import chalk from "chalk";
 import * as path from "path";
-import { Comune } from "../definitions/Comune";
 import { PathReporter } from "io-ts/lib/PathReporter";
-import * as t from "io-ts";
-import { Either, left, right } from "fp-ts/lib/Either";
 import { parseCsvComune, decodeComune } from "./utils/comune";
 
 const ELENCO_COMUNI_ITALIANI_URL =

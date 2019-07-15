@@ -3,7 +3,7 @@ import { Comune } from "../../definitions/Comune";
 import * as t from "io-ts";
 import { Either, left, right } from "fp-ts/lib/Either";
 
-// decode comune csv row in a Comune object
+// try to decode comune csv row in a Comune object
 export const decodeComune = (record: string[]): t.Validation<Comune> => {
   if (record.length < 10) {
     return left([
@@ -23,8 +23,7 @@ export const decodeComune = (record: string[]): t.Validation<Comune> => {
   return Comune.decode(comune);
 };
 
-// parse a string content into a string matrix
-// each matrix entry is a csv record splitted into its own columns
+// parse a string into csv records
 export const parseCsvComune = (
   content: string,
   parserOption: parse.Options,

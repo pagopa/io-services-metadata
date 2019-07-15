@@ -36,7 +36,7 @@ const validComuneCsvRow = [
 
 const invalidComuneCsvRow = ["12", "258", "058", " 103 "];
 
-describe("should parse csv Comune", () => {
+describe("parse csv string", () => {
   it("should return a valid record", () => {
     parseCsvComune(validComuneRow, parserOption, result => {
       expect(result.isRight()).toBeTruthy();

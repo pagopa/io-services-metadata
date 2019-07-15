@@ -30,6 +30,6 @@ definitions:
         type: string
       scope:
         type: string
-        enum:
+        x-extensible-enum:
           - NATIONAL
           - LOCAL

@@ -1,7 +1,7 @@
 import parse from "csv-parse";
-import { Comune } from "../../definitions/Comune";
 import * as t from "io-ts";
 import { Either, left, right } from "fp-ts/lib/Either";
+import { Comune } from "../../definitions/Comune";
 
 // try to decode comune csv row in a Comune object
 export const decodeComune = (record: string[]): t.Validation<Comune> => {

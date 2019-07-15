@@ -16,6 +16,27 @@ const parserOption = {
   trim: true
 };
 
+const generateJsonFile = async (record: string[]) => {
+  // comune json filename: codice_catastale_lowercase.json
+  const comunePath = path.join("comuni", `${record[18].toLowerCase()}.json`);
+  const comuneDecoded = decodeComune(record);
+  if (comuneDecoded.isRight()) {
+    await fs.writeFile(
+      path.join(root, comunePath),
+      JSON.stringify(comuneDecoded.value)
+    );
+    console.log(chalk.greenBright(comunePath));
+  } else {
+    console.log(
+      chalk.red(
+        "some error occurred while decoding: ",
+        record.toString(),
+        PathReporter.report(comuneDecoded).join("\n")
+      )
+    );
+  }
+};
+
 async function run() {
   console.log(chalk.whiteBright("Comuni builder"));
   const options = {
@@ -33,7 +54,6 @@ async function run() {
       const buffer = Buffer.from(body);
 
       const csvContent = buffer.toString();
-      await fs.writeFile("/Users/matteo/Desktop/comuni.csv", csvContent);
       if (error) {
         console.log(
           "some error occured while retrieving data",
@@ -43,29 +63,6 @@ async function run() {
       }
       console.log(chalk.gray("[2/2]"), "Generating comuni JSON...");
 
-      const generateJsonFile = async (record: string[]) => {
-        // comune json filename: codice_catastale_lowercase.json
-        const comunePath = path.join(
-          "comuni",
-          `${record[18].toLowerCase()}.json`
-        );
-        const comuneDecoded = decodeComune(record);
-        if (comuneDecoded.isRight()) {
-          await fs.writeFile(
-            path.join(root, comunePath),
-            JSON.stringify(comuneDecoded.value)
-          );
-          console.log(chalk.greenBright(comunePath));
-        } else {
-          console.log(
-            chalk.red(
-              "some error occurred while decoding: ",
-              record.toString(),
-              PathReporter.report(comuneDecoded).join("\n")
-            )
-          );
-        }
-      };
       // parse the content string in csv records
       parseCsvComune(csvContent, parserOption, async result => {
         if (result.isLeft()) {

@@ -5,6 +5,8 @@ paths:
 definitions:
   Service:
     type: object
+    required:
+      - scope
     properties:
       description:
         type: string
@@ -26,6 +28,11 @@ definitions:
         type: string
       pec:
         type: string
+      scope:
+        type: string
+        x-extensible-enum:
+          - NATIONAL
+          - LOCAL
   Municipality:
     type: object
     required:

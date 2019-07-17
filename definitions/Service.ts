@@ -5,9 +5,18 @@
 /* tslint:disable */
 
 import * as t from "io-ts";
+import { enumType } from "italia-ts-commons/lib/types";
+
+export enum scopeEnum {
+  "NATIONAL" = "NATIONAL",
+
+  "LOCAL" = "LOCAL"
+}
 
 // required attributes
-const ServiceR = t.interface({});
+const ServiceR = t.interface({
+  scope: enumType<scopeEnum>(scopeEnum, "scope")
+});
 
 // optional attributes
 const ServiceO = t.partial({

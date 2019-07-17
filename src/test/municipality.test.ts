@@ -1,4 +1,7 @@
-import { parseCsvComune, decodeComune } from "../utils/comune";
+import {
+  parseCsvMunicipality,
+  decodeMunicipality
+} from "../utils/municipality";
 
 const parserOption = {
   skip_empty_lines: true,
@@ -6,9 +9,9 @@ const parserOption = {
   trim: true
 };
 
-const validComuneRow =
+const validMunicipalityRow =
   "12;258;058; 103 ;058103;Subiaco;Subiaco;;3;Centro;Lazio;Roma;0;RM;58103;58103;58103;58103;I992;9.066;ITI;ITI4;ITI43\n";
-const validComuneCsvRow = [
+const validMunicipalityCsvRow = [
   "12",
   "258",
   "058",
@@ -34,17 +37,17 @@ const validComuneCsvRow = [
   "ITI43"
 ];
 
-const invalidComuneCsvRow = ["12", "258", "058", " 103 "];
+const invalidMunicipalityCsvRow = ["12", "258", "058", " 103 "];
 
 describe("parse csv string", () => {
   it("should return a valid record", () => {
-    parseCsvComune(validComuneRow, parserOption, result => {
+    parseCsvMunicipality(validMunicipalityRow, parserOption, result => {
       expect(result.isRight()).toBeTruthy();
     });
   });
 
   it("should return a valid record with expected size and values", () => {
-    parseCsvComune(validComuneRow, parserOption, result => {
+    parseCsvMunicipality(validMunicipalityRow, parserOption, result => {
       expect(result.isRight()).toBeTruthy();
       if (result.isRight()) {
         expect(result.value.length).toEqual(1);
@@ -55,17 +58,19 @@ describe("parse csv string", () => {
   });
 });
 
-describe("decode Comune", () => {
-  it("should recognize a valid Comune csv row", () => {
-    const validComune = decodeComune(validComuneCsvRow);
-    expect(validComune.isRight()).toBeTruthy();
-    if (validComune.isRight()) {
-      expect(validComune.value.denominazioneInItaliano).toEqual("Subiaco");
+describe("decode Municipality", () => {
+  it("should recognize a valid Municipality csv row", () => {
+    const validMunicipality = decodeMunicipality(validMunicipalityCsvRow);
+    expect(validMunicipality.isRight()).toBeTruthy();
+    if (validMunicipality.isRight()) {
+      expect(validMunicipality.value.denominazioneInItaliano).toEqual(
+        "Subiaco"
+      );
     }
   });
 
-  it("should recognize an invalid Comune row (wrong length)", () => {
-    const validComune = decodeComune(invalidComuneCsvRow);
-    expect(validComune.isLeft()).toBeTruthy();
+  it("should recognize an invalid Municipality row (wrong length)", () => {
+    const validMunicipality = decodeMunicipality(invalidMunicipalityCsvRow);
+    expect(validMunicipality.isLeft()).toBeTruthy();
   });
 });

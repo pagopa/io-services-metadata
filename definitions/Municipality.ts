@@ -7,7 +7,7 @@
 import * as t from "io-ts";
 
 // required attributes
-const ComuneR = t.interface({
+const MunicipalityR = t.interface({
   codiceRegione: t.string,
 
   codiceProvincia: t.string,
@@ -20,8 +20,10 @@ const ComuneR = t.interface({
 });
 
 // optional attributes
-const ComuneO = t.partial({});
+const MunicipalityO = t.partial({});
 
-export const Comune = t.exact(t.intersection([ComuneR, ComuneO], "Comune"));
+export const Municipality = t.exact(
+  t.intersection([MunicipalityR, MunicipalityO], "Municipality")
+);
 
-export type Comune = t.TypeOf<typeof Comune>;
+export type Municipality = t.TypeOf<typeof Municipality>;

@@ -2,10 +2,11 @@ import request from "request";
 import * as fs from "fs-extra";
 import chalk from "chalk";
 import * as path from "path";
+import * as fse from "fs-extra";
 import { PathReporter } from "io-ts/lib/PathReporter";
-import { parseCsvComune, decodeComune } from "./utils/comune";
+import { parseCsvMunicipality, decodeMunicipality } from "./utils/municipality";
 
-const ELENCO_COMUNI_ITALIANI_URL =
+const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
 
 const parserOption = {
@@ -17,36 +18,47 @@ const parserOption = {
 };
 
 const generateJsonFile = async (record: string[]) => {
-  // comune json filename: codice_catastale_lowercase.json
-  const comunePath = path.join("comuni", `${record[18].toLowerCase()}.json`);
-  const comuneDecoded = decodeComune(record);
-  if (comuneDecoded.isRight()) {
-    await fs.writeFile(
-      path.join(root, comunePath),
-      JSON.stringify(comuneDecoded.value)
-    );
-    console.log(chalk.greenBright(comunePath));
+  // municipality json filename: codice_catastale_uppercase.json
+  const codiceCatastale = record[18].toUpperCase();
+  const municipalityPath = path.join(
+    "municipalities",
+    codiceCatastale.charAt(0),
+    `${codiceCatastale}.json`
+  );
+  const municipalityDecoded = decodeMunicipality(record);
+  if (municipalityDecoded.isRight()) {
+    try {
+      await fs.outputFile(
+        path.join(root, municipalityPath),
+        JSON.stringify(municipalityDecoded.value)
+      );
+      console.log(chalk.greenBright(municipalityPath));
+    } catch {
+      console.log(
+        chalk.red("some error occurred while writing file: ", municipalityPath)
+      );
+    }
   } else {
     console.log(
       chalk.red(
         "some error occurred while decoding: ",
         record.toString(),
-        PathReporter.report(comuneDecoded).join("\n")
+        PathReporter.report(municipalityDecoded).join("\n")
       )
     );
   }
 };
 
 async function run() {
-  console.log(chalk.whiteBright("Comuni builder"));
+  console.log(chalk.whiteBright("Municipality builder"));
   const options = {
-    url: ELENCO_COMUNI_ITALIANI_URL,
+    url: ITALIAN_MUNICIPALITIES_URL,
     encoding: "latin1"
   };
 
   console.log(
-    "[1/2] Requesting Comuni data from:",
-    chalk.blueBright(ELENCO_COMUNI_ITALIANI_URL)
+    "[1/2] Requesting Municipalities data from:",
+    chalk.blueBright(ITALIAN_MUNICIPALITIES_URL)
   );
   request.get(
     options,
@@ -61,10 +73,10 @@ async function run() {
         );
         return;
       }
-      console.log(chalk.gray("[2/2]"), "Generating comuni JSON...");
+      console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
 
       // parse the content string in csv records
-      parseCsvComune(csvContent, parserOption, async result => {
+      parseCsvMunicipality(csvContent, parserOption, async result => {
         if (result.isLeft()) {
           console.log(
             "some error occured while parsing data:",

@@ -1,10 +1,12 @@
 import parse from "csv-parse";
 import * as t from "io-ts";
 import { Either, left, right } from "fp-ts/lib/Either";
-import { Comune } from "../../definitions/Comune";
+import { Municipality } from "../../definitions/Municipality";
 
-// try to decode comune csv row in a Comune object
-export const decodeComune = (record: string[]): t.Validation<Comune> => {
+// try to decode municipality csv row in a Municipality object
+export const decodeMunicipality = (
+  record: string[]
+): t.Validation<Municipality> => {
   if (record.length < 10) {
     return left([
       {
@@ -13,18 +15,18 @@ export const decodeComune = (record: string[]): t.Validation<Comune> => {
       }
     ]);
   }
-  const comune = {
+  const municipality = {
     codiceRegione: record[0],
     codiceProvincia: record[3],
     denominazione: record[5],
     denominazioneInItaliano: record[6],
     denominazioneRegione: record[10]
   };
-  return Comune.decode(comune);
+  return Municipality.decode(municipality);
 };
 
 // parse a string into csv records
-export const parseCsvComune = (
+export const parseCsvMunicipality = (
   content: string,
   parserOption: parse.Options,
   callback: (result: Either<Error, string[][]>) => void

@@ -23,6 +23,7 @@ const generateJsonFile = async (record: string[]) => {
   const municipalityPath = path.join(
     "municipalities",
     codiceCatastale.charAt(0),
+    codiceCatastale.charAt(1),
     `${codiceCatastale}.json`
   );
   const municipalityDecoded = decodeMunicipality(record);

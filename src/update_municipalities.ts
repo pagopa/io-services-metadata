@@ -2,7 +2,6 @@ import request from "request";
 import * as fs from "fs-extra";
 import chalk from "chalk";
 import * as path from "path";
-import * as fse from "fs-extra";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import { parseCsvMunicipality, decodeMunicipality } from "./utils/municipality";
 

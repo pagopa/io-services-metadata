@@ -20,6 +20,8 @@ const parserOption = {
 const generateJsonFile = async (record: string[]) => {
   // municipality json filename: codice_catastale_uppercase.json
   const codiceCatastale = record[18].toUpperCase();
+  // json path for L513 codice catastale:
+  // municipalities/L/5/L513.json
   const municipalityPath = path.join(
     "municipalities",
     codiceCatastale.charAt(0),

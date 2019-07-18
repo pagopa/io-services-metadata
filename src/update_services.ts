@@ -23,8 +23,8 @@ async function run(rootPath: string): Promise<void> {
   try {
     const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
       filename: servicesYamlPath,
-      strict: true,
-      json: false
+      json: false,
+      strict: true
     });
     const maybeServices = Services.decode(servicesYamlData);
     if (maybeServices.isLeft()) {

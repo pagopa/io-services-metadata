@@ -4,8 +4,8 @@ import {
 } from "../utils/municipality";
 
 const parserOption = {
-  skip_empty_lines: true,
   delimiter: ";",
+  skip_empty_lines: true,
   trim: true
 };
 

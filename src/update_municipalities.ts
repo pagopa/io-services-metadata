@@ -9,10 +9,10 @@ const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
 
 const parserOption = {
-  skip_empty_lines: true,
   delimiter: ";",
-  skip_lines_with_error: true,
   from_line: 4,
+  skip_empty_lines: true,
+  skip_lines_with_error: true,
   trim: true
 };
 const root = path.join(__dirname, "../");
@@ -52,11 +52,11 @@ const generateJsonFile = async (record: ReadonlyArray<string>) => {
   }
 };
 
-async function run() {
+async function run(): Promise<void> {
   console.log(chalk.whiteBright("Municipality builder"));
   const options = {
-    url: ITALIAN_MUNICIPALITIES_URL,
-    encoding: "latin1"
+    encoding: "latin1",
+    url: ITALIAN_MUNICIPALITIES_URL
   };
 
   console.log(
@@ -65,7 +65,7 @@ async function run() {
   );
   request.get(
     options,
-    async (error: Error, response: request.Response, body: any) => {
+    async (error: Error, _: request.Response, body: ArrayBuffer) => {
       const buffer = Buffer.from(body);
 
       const csvContent = buffer.toString();

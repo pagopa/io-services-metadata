@@ -16,8 +16,8 @@ export const decodeMunicipality = (
     ]);
   }
   const municipality = {
-    codiceRegione: record[0],
     codiceProvincia: record[3],
+    codiceRegione: record[0],
     denominazione: record[5],
     denominazioneInItaliano: record[6],
     denominazioneRegione: record[10]
@@ -35,7 +35,11 @@ export const parseCsvMunicipality = (
   parse(
     content,
     parserOption,
-    (err: Error | undefined, records: any | undefined, _: parse.Info) => {
+    (
+      err: Error | undefined,
+      records: StringMatrix | undefined,
+      _: parse.Info
+    ) => {
       if (err) {
         callback(left(err));
       }

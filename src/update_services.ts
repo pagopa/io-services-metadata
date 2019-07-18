@@ -1,15 +1,16 @@
 // tslint:disable:no-console
 
-import * as t from "io-ts";
-import { PathReporter } from "io-ts/lib/PathReporter"
 import chalk from "chalk";
 import * as fs from "fs-extra";
+import * as t from "io-ts";
+import { PathReporter } from "io-ts/lib/PathReporter";
 import * as yaml from "js-yaml";
 import * as path from "path";
 
 import { Service } from "../definitions/Service";
 
 const Services = t.dictionary(t.string, Service);
+const root = path.join(__dirname, "../");
 
 async function run(rootPath: string): Promise<void> {
   console.log(chalk.whiteBright("Services builder"));
@@ -35,18 +36,23 @@ async function run(rootPath: string): Promise<void> {
     console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
 
     console.log(chalk.gray("[2/2]"), "Generating services JSON...");
-    await Promise.all(serviceIds.map(async serviceId => {
-      const servicePath = path.join("services", `${serviceId.toLowerCase()}.json`);
-      console.log(chalk.greenBright(servicePath));
-      await fs.writeFile(path.join(root, servicePath), JSON.stringify(services[serviceId]));
-    }));
+    await Promise.all(
+      serviceIds.map(async serviceId => {
+        const servicePath = path.join(
+          "services",
+          `${serviceId.toLowerCase()}.json`
+        );
+        console.log(chalk.greenBright(servicePath));
+        await fs.writeFile(
+          path.join(root, servicePath),
+          JSON.stringify(services[serviceId])
+        );
+      })
+    );
   } catch (e) {
     console.log(chalk.red(e.message));
     throw e;
   }
 }
-
-
-const root = path.join(__dirname, "../");
 
 run(root).then(() => console.log("done"), () => process.exit(1));

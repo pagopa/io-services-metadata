@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "lint": "tslint -p . -c tslint.json -t verbose",
     "update_indicepa": "ts-node src/update_indicepa.ts",
     "update_municipalities": "ts-node src/update_municipalities.ts",
     "update_services": "ts-node src/update_services.ts",
@@ -33,8 +34,10 @@
     "js-yaml": "^3.12.0",
     "request": "^2.87.0",
     "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
     "typescript": "^2.9.2",
     "italia-ts-commons": "^5.1.5",
+    "italia-tslint-rules": "^1.1.0",
     "ts-jest": "24.0.1"
   }
 }

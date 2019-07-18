@@ -1,7 +1,7 @@
-import request from "request";
+import { createStream } from "csv-stream";
 import * as es from "event-stream";
 import * as fse from "fs-extra";
-import { createStream } from "csv-stream";
+import request from "request";
 
 import { AmministrazioneIPA } from "./types";
 

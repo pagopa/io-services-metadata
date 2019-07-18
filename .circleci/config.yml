@@ -1,0 +1,72 @@
+defaults: &defaults
+  working_directory: ~/repo
+
+node_cache_key: &node_cache_key v1-dependencies-{{ checksum "yarn.lock" }}
+
+defaults_js: &defaults_js
+  <<: *defaults
+  docker:
+    - image: circleci/node:8.11.3
+
+restore_node_cache: &restore_node_cache
+  restore_cache:
+    keys:
+      - *node_cache_key
+
+save_node_cache: &save_node_cache
+  save_cache:
+    paths:
+      - node_modules
+    key: *node_cache_key
+
+install_node_modules: &install_node_modules
+  run: yarn install --frozen-lockfile --no-progress --non-interactive --network-concurrency 1
+
+version: 2
+jobs:
+  compile:
+    <<: *defaults_js
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+      - *save_node_cache
+      # TODO: add additional steps here
+      - run: yarn build
+
+  tests:
+    <<: *defaults_js
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+      - run: yarn test
+      - run: "bash <(curl -s https://codecov.io/bash)"
+
+  lint:
+    <<: *defaults_js
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+      - run: yarn lint
+
+  danger:
+    <<: *defaults_js
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+      - run: '[ -z "$DANGER_GITHUB_API_TOKEN" ] || yarn danger ci'
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - compile
+      - tests
+      - lint
+      - danger:
+          filters:
+            branches:
+              ignore: master

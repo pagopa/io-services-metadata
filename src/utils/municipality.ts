@@ -1,11 +1,11 @@
 import parse from "csv-parse";
-import * as t from "io-ts";
 import { Either, left, right } from "fp-ts/lib/Either";
+import * as t from "io-ts";
 import { Municipality } from "../../definitions/Municipality";
 
 // try to decode municipality csv row in a Municipality object
 export const decodeMunicipality = (
-  record: string[]
+  record: ReadonlyArray<string>
 ): t.Validation<Municipality> => {
   if (record.length < 10) {
     return left([
@@ -25,11 +25,12 @@ export const decodeMunicipality = (
   return Municipality.decode(municipality);
 };
 
+type StringMatrix = ReadonlyArray<ReadonlyArray<string>>;
 // parse a string into csv records
 export const parseCsvMunicipality = (
   content: string,
   parserOption: parse.Options,
-  callback: (result: Either<Error, string[][]>) => void
+  callback: (result: Either<Error, StringMatrix>) => void
 ) => {
   parse(
     content,
@@ -38,7 +39,7 @@ export const parseCsvMunicipality = (
       if (err) {
         callback(left(err));
       }
-      callback(right(records as string[][]));
+      callback(right(records as StringMatrix));
     }
   );
 };

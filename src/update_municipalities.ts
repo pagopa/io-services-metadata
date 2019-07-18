@@ -1,9 +1,9 @@
-import request from "request";
-import * as fs from "fs-extra";
 import chalk from "chalk";
-import * as path from "path";
+import * as fs from "fs-extra";
 import { PathReporter } from "io-ts/lib/PathReporter";
-import { parseCsvMunicipality, decodeMunicipality } from "./utils/municipality";
+import * as path from "path";
+import request from "request";
+import { decodeMunicipality, parseCsvMunicipality } from "./utils/municipality";
 
 const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
@@ -15,8 +15,9 @@ const parserOption = {
   from_line: 4,
   trim: true
 };
+const root = path.join(__dirname, "../");
 
-const generateJsonFile = async (record: string[]) => {
+const generateJsonFile = async (record: ReadonlyArray<string>) => {
   // municipality json filename: codice_catastale_uppercase.json
   const codiceCatastale = record[18].toUpperCase();
   // json path for L513 codice catastale:
@@ -93,5 +94,5 @@ async function run() {
   );
   await Promise.resolve();
 }
-const root = path.join(__dirname, "../");
+
 run().then(() => console.log("done"), () => process.exit(1));

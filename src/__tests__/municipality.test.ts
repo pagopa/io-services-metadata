@@ -1,6 +1,6 @@
 import {
-  parseCsvMunicipality,
-  decodeMunicipality
+  decodeMunicipality,
+  parseCsvMunicipality
 } from "../utils/municipality";
 
 const parserOption = {
@@ -11,7 +11,7 @@ const parserOption = {
 
 const validMunicipalityRow =
   "12;258;058; 103 ;058103;Subiaco;Subiaco;;3;Centro;Lazio;Roma;0;RM;58103;58103;58103;58103;I992;9.066;ITI;ITI4;ITI43\n";
-const validMunicipalityCsvRow = [
+const validMunicipalityCsvRow: ReadonlyArray<string> = [
   "12",
   "258",
   "058",
@@ -37,7 +37,12 @@ const validMunicipalityCsvRow = [
   "ITI43"
 ];
 
-const invalidMunicipalityCsvRow = ["12", "258", "058", " 103 "];
+const invalidMunicipalityCsvRow: ReadonlyArray<string> = [
+  "12",
+  "258",
+  "058",
+  " 103 "
+];
 
 describe("parse csv string", () => {
   it("should return a valid record", () => {

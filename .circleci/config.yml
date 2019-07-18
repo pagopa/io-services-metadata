@@ -31,8 +31,6 @@ jobs:
       - *restore_node_cache
       - *install_node_modules
       - *save_node_cache
-      # TODO: add additional steps here
-      - run: yarn build
 
   tests:
     <<: *defaults_js

@@ -1,9 +1,7 @@
 {
-  "extends": ["italia-tslint-rules/basic", "italia-tslint-rules/react"],
+  "extends": ["italia-tslint-rules/strong"],
   "jsRules": {},
   "rules": {
-    "jsx-no-lambda": false,
-    "jsx-no-multiline-js": false,
     "no-console": false,
     "no-unused-variable": false
   }

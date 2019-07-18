@@ -63,35 +63,32 @@ async function run(): Promise<void> {
     "[1/2] Requesting Municipalities data from:",
     chalk.blueBright(ITALIAN_MUNICIPALITIES_URL)
   );
-  request.get(
-    options,
-    async (error: Error, _: request.Response, body: ArrayBuffer) => {
-      const buffer = Buffer.from(body);
+  // tslint:disable-next-line: no-any
+  request.get(options, async (error: Error, _: request.Response, body: any) => {
+    if (error) {
+      console.log(
+        "some error occured while retrieving data",
+        chalk.red(error.message)
+      );
+      return;
+    }
+    console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
+    const buffer = Buffer.from(body);
 
-      const csvContent = buffer.toString();
-      if (error) {
+    const csvContent = buffer.toString();
+    // parse the content string in csv records
+    parseCsvMunicipality(csvContent, parserOption, async result => {
+      if (result.isLeft()) {
         console.log(
-          "some error occured while retrieving data",
-          chalk.red(error.message)
+          "some error occured while parsing data:",
+          chalk.red(result.value.message)
         );
         return;
       }
-      console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
-
-      // parse the content string in csv records
-      parseCsvMunicipality(csvContent, parserOption, async result => {
-        if (result.isLeft()) {
-          console.log(
-            "some error occured while parsing data:",
-            chalk.red(result.value.message)
-          );
-          return;
-        }
-        // process each csv record with generateJsonFiles function
-        await Promise.all(result.value.map(generateJsonFile));
-      });
-    }
-  );
+      // process each csv record with generateJsonFiles function
+      await Promise.all(result.value.map(generateJsonFile));
+    });
+  });
   await Promise.resolve();
 }
 

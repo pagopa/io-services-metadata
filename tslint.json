@@ -1,0 +1,8 @@
+{
+  "extends": ["italia-tslint-rules/strong"],
+  "jsRules": {},
+  "rules": {
+    "no-console": false,
+    "no-unused-variable": false
+  }
+}

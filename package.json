@@ -7,7 +7,10 @@
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
+    "lint": "tslint -p . -c tslint.json -t verbose",
     "update_indicepa": "ts-node src/update_indicepa.ts",
+    "update_municipalities": "ts-node src/update_municipalities.ts",
     "update_services": "ts-node src/update_services.ts",
     "generate:definitions": "gen-api-models --api-spec definitions.yml --out-dir ./definitions"
   },
@@ -18,7 +21,11 @@
     "@types/js-yaml": "^3.11.2",
     "@types/node": "^10.5.3",
     "@types/request": "^2.47.1",
+    "@types/jest": "23.3.12",
+    "babel-jest": "^24.8.0",
+    "jest": "24.8.0",
     "chalk": "^2.4.1",
+    "csv-parse": "^4.4.1",
     "csv-stream": "^0.2.0",
     "event-stream": "^3.3.4",
     "fs-extra": "^7.0.0",
@@ -27,7 +34,10 @@
     "js-yaml": "^3.12.0",
     "request": "^2.87.0",
     "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
     "typescript": "^2.9.2",
-    "italia-ts-commons": "^5.1.5"
+    "italia-ts-commons": "^5.1.5",
+    "italia-tslint-rules": "^1.1.0",
+    "ts-jest": "24.0.1"
   }
 }

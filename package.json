@@ -18,7 +18,7 @@
     "@types/chalk": "^2.2.0",
     "@types/event-stream": "^3.3.34",
     "@types/fs-extra": "^5.0.4",
-    "@types/js-yaml": "^3.11.2",
+    "@types/js-yaml": "^3.12.1",
     "@types/node": "^10.5.3",
     "@types/request": "^2.47.1",
     "@types/jest": "23.3.12",

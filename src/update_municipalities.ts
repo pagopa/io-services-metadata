@@ -4,6 +4,7 @@ import { PathReporter } from "io-ts/lib/PathReporter";
 import * as path from "path";
 import request from "request";
 import { decodeMunicipality, parseCsvMunicipality } from "./utils/municipality";
+import { CodiceCatastale } from "./types/MunicipalityCodiceCatastale";
 
 const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
@@ -19,14 +20,21 @@ const root = path.join(__dirname, "../");
 
 const generateJsonFile = async (record: ReadonlyArray<string>) => {
   // municipality json filename: codice_catastale_uppercase.json
-  const codiceCatastale = record[18].toUpperCase();
+  const codiceCatastale = CodiceCatastale.decode(record[18].toUpperCase());
+  if (codiceCatastale.isLeft()) {
+    console.log(
+      chalk.red("invalid Codice Catastale ", record[18].toUpperCase())
+    );
+    return;
+  }
+  const codiceCatastaleValue = codiceCatastale.value;
   // json path for L513 codice catastale:
   // municipalities/L/5/L513.json
   const municipalityPath = path.join(
     "municipalities",
-    codiceCatastale.charAt(0),
-    codiceCatastale.charAt(1),
-    `${codiceCatastale}.json`
+    codiceCatastaleValue.charAt(0),
+    codiceCatastaleValue.charAt(1),
+    `${codiceCatastaleValue}.json`
   );
   const municipalityDecoded = decodeMunicipality(record);
   if (municipalityDecoded.isRight()) {

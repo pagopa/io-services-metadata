@@ -41,6 +41,7 @@ definitions:
       - denominazione
       - denominazioneInItaliano
       - denominazioneRegione
+      - siglaProvincia
     properties:
       codiceRegione:
         type: string
@@ -51,4 +52,6 @@ definitions:
       denominazioneInItaliano:
         type: string
       denominazioneRegione:
+        type: string
+      siglaProvincia:
         type: string

@@ -3,8 +3,8 @@ import * as fs from "fs-extra";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import * as path from "path";
 import request from "request";
-import { decodeMunicipality, parseCsvMunicipality } from "./utils/municipality";
 import { CodiceCatastale } from "./types/MunicipalityCodiceCatastale";
+import { decodeMunicipality, parseCsvMunicipality } from "./utils/municipality";
 
 const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";

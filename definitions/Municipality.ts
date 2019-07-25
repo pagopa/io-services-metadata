@@ -16,7 +16,9 @@ const MunicipalityR = t.interface({
 
   denominazioneInItaliano: t.string,
 
-  denominazioneRegione: t.string
+  denominazioneRegione: t.string,
+
+  siglaProvincia: t.string
 });
 
 // optional attributes

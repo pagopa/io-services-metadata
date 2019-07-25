@@ -7,7 +7,7 @@ import { Municipality } from "../../definitions/Municipality";
 export const decodeMunicipality = (
   record: ReadonlyArray<string>
 ): t.Validation<Municipality> => {
-  if (record.length < 10) {
+  if (record.length < 13) {
     return left([
       {
         context: [],
@@ -20,7 +20,8 @@ export const decodeMunicipality = (
     codiceRegione: record[0],
     denominazione: record[5],
     denominazioneInItaliano: record[6],
-    denominazioneRegione: record[10]
+    denominazioneRegione: record[10],
+    siglaProvincia: record[13]
   };
   return Municipality.decode(municipality);
 };

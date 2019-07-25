@@ -2,8 +2,7 @@ import { createStream } from "csv-stream";
 import * as es from "event-stream";
 import * as fse from "fs-extra";
 import request from "request";
-
-import { AmministrazioneIPA } from "./types";
+import { AmministrazioneIPA } from "./types/AmministrazioneIPA";
 
 const INDICEPA_URL =
   "https://www.indicepa.gov.it/public-services/opendata-read-service.php?dstype=FS&filename=amministrazioni.txt";

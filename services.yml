@@ -390,6 +390,7 @@ azure-deployc49a:
   email: io-testing@teamdigitale.governo.it
   scope: LOCAL
 
+#
 # Municipality of Turin
 #
 01D4AQHBKESFSX98TK52PMD5S3:
@@ -487,9 +488,9 @@ azure-deployc49a:
   email: info@torinofacile.it
   scope: LOCAL
 
+#
 # Municipality of Ripalta Cremasca
 #
-
 01DECE05RF356RDC7QV1DAT2QR:
   description: |
     Il Comune di Ripalta Cremasca partecipa alla closed-beta di IO. 
@@ -558,4 +559,10 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  scope: LOCAL
+
+#
+# Municipality of Valsamoggia
+#
+5B3F4B1DA9AB400F54DC5AB1C49A:
   scope: LOCAL

@@ -263,6 +263,9 @@ azure-deployc49a:
   pec: servizialcittadino@postcert.comune.milano.it
   scope: LOCAL
 
+5A25ABF4FCC89605C082F042C49A:
+  scope: LOCAL 
+
 #
 # Municipality of Palermo
 #
@@ -559,6 +562,9 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  scope: LOCAL
+
+01DEYQGXBN1XB9W6RDZV94V20A:
   scope: LOCAL
 
 #

@@ -128,7 +128,7 @@ async function run(): Promise<void> {
     FOREIGN_COUNTRIES_FILEPATH
   );
   parseCsvMunicipality(
-    csvForeignCountriesContent.toString(),
+    csvForeignCountriesContent.toString("utf8"),
     optionCsvParseForeignCountries,
     async result => {
       if (result.isLeft()) {

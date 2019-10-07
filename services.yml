@@ -167,6 +167,21 @@ azure-deployc49a:
   phone: +39 02 02 02
   scope: LOCAL
 
+5af58524a9ab40136c089335c49a:
+  description: |
+    Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
+    * ricevere un riepilogo dei tuoi dati anagrafici;
+    * ricevere un promemoria in caso di appuntamento presso l’ufficio anagrafe.    
+
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
+  web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
+  phone: 02 88452863
+  email: SIAD.staff@comune.milano.it
+  scope: LOCAL
+
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
   description: |
     Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni.
@@ -619,6 +634,20 @@ azure-deployc49a:
   address: via Roma 5, 26010 Ripalta Cremasca
   phone: 0373 68131
   pec: comune.ripaltacremasca@pec.it
+  scope: LOCAL
+
+01DEYQGXBN1XB9W6RDZV94V20A:
+  description: |
+    Il Minigrest è un servizio comunale (nato in collaborazione con la parrocchia) che cerca di soddisfare le necessità dei genitori che lavorano, e che necessitano di un luogo tranquillo e sicuro dove lasciare i propri figli nel periodo estivo.
+    Tramite IO potrai:
+
+      * procedere al pagamento del servizio mensa.
+
+  privacy_url: https://www.comune.ripaltacremasca.cr.it/privacy
+  web_url: https://ripaltacremasca.ecivis.it/ECivisWEB/
+  phone: 0373 68131
+  email: comune.ripaltacremasca@pec.it
+  address: Via Roma, 5
   scope: LOCAL
 
 #

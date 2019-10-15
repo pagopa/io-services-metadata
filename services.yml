@@ -41,7 +41,7 @@ azure-deployc49a:
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
   scope: NATIONAL
-  
+
 #
 # Municipality of Cagliari
 #
@@ -105,7 +105,7 @@ azure-deployc49a:
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
   scope: NATIONAL
-  
+
 #
 # Automobile Club d'Italia
 #
@@ -165,6 +165,21 @@ azure-deployc49a:
 
   privacy_url: https://www.comune.milano.it/policy/privacy
   phone: +39 02 02 02
+  scope: LOCAL
+
+5af58524a9ab40136c089335c49a:
+  description: |
+    Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
+    * ricevere un riepilogo dei tuoi dati anagrafici;
+    * ricevere un promemoria in caso di appuntamento presso l’ufficio anagrafe.    
+
+  privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
+  web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
+  phone: 02 88452863
+  email: SIAD.staff@comune.milano.it
   scope: LOCAL
 
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
@@ -269,22 +284,20 @@ azure-deployc49a:
 #
 # Municipality of Palermo
 #
-01CTY5EYNZMT8GEW50EC57JB24:
+01DHVH3X6E29SB4KAGBFPZGS2A:
   description: |
-    Comunicazioni e servizi del Comune di Palermo.
-    Tramite IO potrai ricevere messaggi e comunicazioni dai seguenti dipartimenti:
+    Il Comando di Polizia Municipale del Comune di Palermo si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto. 
+    Tramite IO potrai:
 
-      * Polizia Municipale;
-      * Mobilità Urbana;
-      * Tributi;
-      * Ambiente e Protezione Civile;
-      * Sussidi Economici;
-      * Servizi Scolastici.
+      * ricevere eventuali avvisi di contravvenzione al codice della strada, e procedere al pagamento online delle sanzioni previste.
 
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php
-  web_url: https://comune.palermo.it/
-  email: io-testing@teamdigitale.governo.it
+  web_url: https://servizionline.comune.palermo.it/portcitt/jsp/home.jsp?modo=info&info=servizi.jsp&ARECOD=40&S=30
+  phone: 091 6954211
+  email: comandopoliziamunicipale@comune.palermo.it
+  address: Via Dogali n.29
+  pec: comandopoliziamunicipale@cert.comune.palermo.it
   scope: LOCAL
 
 01CT1WHDPJWNPJRKQ1X8F95P2K:
@@ -391,6 +404,68 @@ azure-deployc49a:
   tos_url: https://www.comune.palermo.it/info.php
   privacy_url: https://www.comune.palermo.it/privacy.php
   email: io-testing@teamdigitale.governo.it
+  scope: LOCAL
+
+5b3f84eda9ab400f54dc5acbc49a:
+  description: |
+    Il Comune di Palermo partecipa alla closed-beta di IO. 
+    Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  tos_url: https://io.italia.it/ente/comune-di-palermo.html
+  scope: LOCAL
+
+01DMNDFTJ4MGBW9CXA3Y5N91W4:
+  description: |
+    Il servizio ZTL permette di gestire i propri permessi per la mobilità in città. 
+    Tramite IO potrai:
+
+      * essere avvisato in tempi utili sulla scadenza del tuo permesso ZTL.
+
+  tos_url: https://www.comune.palermo.it/info.php
+  privacy_url: https://www.comune.palermo.it/privacy.php
+  web_url: https://ztl.comune.palermo.it/ztl/jsp/home.do?sportello=ztl
+  phone: 091 7401606
+  email: ufficio.traffico@comune.palermo.it; mobilitaurbana@comune.palermo.it
+  address: Via Ausonia n.69
+  pec: mobilitaurbana@cert.comune.palermo.it
+  app_ios: https://itunes.apple.com/it/app/ztl-palermo/id1166868545?mt=8
+  app_android: https://play.google.com/store/apps/details?id=it.korec.palermomobilita
+  scope: LOCAL
+
+01DP8KZ57ZNRH85EQCZQ1637E1:
+  description: |
+    Il servizio dei tributi sui rifiuti del Comune di Palermo.
+    Tramite IO potrai:
+
+      * ricevere notifiche sulla scadenza delle rate TARI, e procedere al pagamento online.
+
+  tos_url: https://www.comune.palermo.it/info.php
+  privacy_url: https://www.comune.palermo.it/privacy.php
+  web_url: https://servizionline.comune.palermo.it/portcitt/jsp/home.jsp?modo=info&info=servizi.jsp&ARECOD=10&S=40
+  phone: 091 7404508; 091 7404501
+  address: Piazza G. Cesare n.6
+  email: settoretributi@comune.palermo.it
+  pec: settoretributi@cert.comune.palermo.it
+  scope: LOCAL
+
+01DP8M0B227AJN2ZKK6A7W93NX:
+  description: |
+    Il servizio di appuntamenti all'ufficio Tributi del Comune di Palermo.
+    Tramite IO potrai:
+
+      * ricevere notifiche su data e orario degli appuntamenti presso l'Ufficio Tributi e inserire un promemoria nel calendario;
+      * ricevere notifiche in caso di eventuali disdette da parte dell’Ufficio.
+
+  tos_url: https://www.comune.palermo.it/info.php
+  privacy_url: https://www.comune.palermo.it/privacy.php
+  web_url: https://servizionline.comune.palermo.it/portcitt/jsp/home.jsp?modo=info&info=servizi.jsp&ARECOD=10&SERCOD=1084&sportello=portcitt
+  address: Piazza G. Cesare n.8
+  phone: 091 7404508; 091 7404501
+  email: settoretributi@comune.palermo.it
+  pec: settoretributi@cert.comune.palermo.it
   scope: LOCAL
 
 #
@@ -565,6 +640,17 @@ azure-deployc49a:
   scope: LOCAL
 
 01DEYQGXBN1XB9W6RDZV94V20A:
+  description: |
+    Il Minigrest è un servizio comunale (nato in collaborazione con la parrocchia) che cerca di soddisfare le necessità dei genitori che lavorano, e che necessitano di un luogo tranquillo e sicuro dove lasciare i propri figli nel periodo estivo.
+    Tramite IO potrai:
+
+      * procedere al pagamento del servizio mensa.
+
+  privacy_url: https://www.comune.ripaltacremasca.cr.it/privacy
+  web_url: https://ripaltacremasca.ecivis.it/ECivisWEB/
+  phone: 0373 68131
+  email: comune.ripaltacremasca@pec.it
+  address: Via Roma, 5
   scope: LOCAL
 
 #

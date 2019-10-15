@@ -26,6 +26,29 @@ export const decodeMunicipality = (
   return Municipality.decode(municipality);
 };
 
+// try to decode foreign country csv row in a Municipality object
+export const decodeForeignCountry = (
+  record: ReadonlyArray<string>
+): t.Validation<Municipality> => {
+  if (record.length < 15) {
+    return left([
+      {
+        context: [],
+        value: "record has not the right length"
+      }
+    ]);
+  }
+  const municipality = {
+    codiceProvincia: "",
+    codiceRegione: "",
+    denominazione: record[7],
+    denominazioneInItaliano: record[6],
+    denominazioneRegione: record[4],
+    siglaProvincia: ""
+  };
+  return Municipality.decode(municipality);
+};
+
 type StringMatrix = ReadonlyArray<ReadonlyArray<string>>;
 // parse a string into csv records
 export const parseCsvMunicipality = (

@@ -278,6 +278,20 @@ azure-deployc49a:
   pec: servizialcittadino@postcert.comune.milano.it
   scope: LOCAL
 
+5A25ABF4FCC89605C082F042C49A:
+  description: |
+    Il servizio dell’Anagrafe del Comune di Milano. 
+    Tramite IO potrai:
+
+    * Ricevere notifiche sulla scadenza dei tuoi documenti di identità
+  
+  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/servizionline/pagine_servizi/anagrafe/anagrafe_link_servizi_online 
+  privacy_url: http://www.palazzorealemilano.it/wps/portal/luogo/palazzoreale/footer/linkinterni/privacy
+  phone: +39 02 0202
+  email: anagrafe@comune.milano.it
+  pec: anagrafe@pec.comune.milano.it
+  scope: LOCAL 
+
 #
 # Municipality of Palermo
 #

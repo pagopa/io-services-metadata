@@ -10,6 +10,7 @@ import * as path from "path";
 import { scopeEnum, Service } from "../definitions/Service";
 
 const Services = t.dictionary(t.string, Service);
+// the keys are the scopeEnum (NATIONAL,LOCAL) and the value is the relative services id
 type ScopeServices = { [key in keyof typeof scopeEnum]: ReadonlyArray<string> };
 const root = path.join(__dirname, "../");
 
@@ -51,15 +52,19 @@ async function run(rootPath: string): Promise<void> {
       })
     );
 
+    // filter the services id which have scope LOCAL
     const locals = serviceIds.filter(sId => {
       const service = services[sId];
       return service.scope === scopeEnum.LOCAL;
     });
+    // filter the services id which have scope NATIONAL
     const nationals = serviceIds.filter(sId => {
       const service = services[sId];
       return service.scope === scopeEnum.NATIONAL;
     });
+
     const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
+    // dump scopeService as a json
     await fs.writeFile(
       path.join(root, path.join("services", "scopeServices.json")),
       JSON.stringify(scopeService)

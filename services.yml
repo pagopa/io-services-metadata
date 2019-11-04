@@ -138,7 +138,7 @@ azure-deployc49a:
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
   description: |
-    Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico. Tramite IO potrai: 
+    Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico.
     Tramite IO potrai:
 
     * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
@@ -284,13 +284,13 @@ azure-deployc49a:
     Tramite IO potrai:
 
     * Ricevere notifiche sulla scadenza dei tuoi documenti di identità
-  
-  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/servizionline/pagine_servizi/anagrafe/anagrafe_link_servizi_online 
+
+  web_url: http://www.comune.milano.it/wps/portal/ist/it/servizi/servizionline/pagine_servizi/anagrafe/anagrafe_link_servizi_online
   privacy_url: http://www.palazzorealemilano.it/wps/portal/luogo/palazzoreale/footer/linkinterni/privacy
   phone: +39 02 0202
   email: anagrafe@comune.milano.it
   pec: anagrafe@pec.comune.milano.it
-  scope: LOCAL 
+  scope: LOCAL
 
 #
 # Municipality of Palermo
@@ -311,7 +311,7 @@ azure-deployc49a:
   email: settoretributi@comune.palermo.it
   pec: settoretributi@cert.comune.palermo.it
   scope: LOCAL
-  
+
 01DHVH3X6E29SB4KAGBFPZGS2A:
   description: |
     Il Comando di Polizia Municipale del Comune di Palermo si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto. 

@@ -52,6 +52,7 @@ async function run(rootPath: string): Promise<void> {
       })
     );
 
+    console.log(chalk.gray("[3/3]"), "Generating scope services JSON...");
     // filter the services id which have scope LOCAL
     const locals = serviceIds.filter(sId => {
       const service = services[sId];
@@ -69,8 +70,6 @@ async function run(rootPath: string): Promise<void> {
       path.join(root, path.join("services", "scopeServices.json")),
       JSON.stringify(scopeService)
     );
-
-    console.log(chalk.gray("[2/3]"), "Generating services JSON...");
   } catch (e) {
     console.log(chalk.red(e.message));
     throw e;

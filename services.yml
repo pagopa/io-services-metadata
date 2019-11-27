@@ -174,7 +174,7 @@ azure-deployc49a:
 
     * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
     * ricevere un riepilogo dei tuoi dati anagrafici;
-    * ricevere un promemoria in caso di appuntamento presso l’ufficio anagrafe.    
+    * ricevere un promemoria in caso di appuntamento presso l’ufficio anagrafe.
 
   privacy_url: http://www.comune.milano.it/wps/portal/ist/it/extra/others/footer/privacy
   web_url: https://login.comune.milano.it/pkmsvouchfor?milano&https://www.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino
@@ -685,4 +685,62 @@ azure-deployc49a:
 # Municipality of Valsamoggia
 #
 5B3F4B1DA9AB400F54DC5AB1C49A:
+  scope: LOCAL
+
+5b505f18a9ab400f2417f0d7c49a:
+  description: |
+    Il Servizio Entrate del Comune di Valsamoggia si occupa della riscossione dell'Imposta Unica Comunale - IUC (IMU, TARI e TASI).
+    Tramite IO potrai:
+
+      * ricevere un promemoria che ti avvisa della scadenza di pagamento della TARI 2019;
+      * ricevere l'avviso di accertamento per il mancato pagamento della TARI 2018, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/iuc-imu-tari-tasi
+  phone: 051 6723015
+  email: tributi@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01DBAW7AY7RP4E3EMST2X21K3W:
+  description: |
+    Il Comando di Polizia Municipale del Comune di Valsamoggia si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto.
+    Tramite IO potrai:
+
+      * ricevere eventuali avvisi di contravvenzione al codice della strada, e pagare le sanzioni previste;
+      * ricevere avvisi di pre-ruolo per contravvenzioni al codice della strada non pagate, e procedere al pagamento.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/verbali-codice-strada-e-altre-violazioni
+  phone: 800 261 616
+  email: poliziamunicipale@comune.valsamoggia.bo.it
+  address: Piazza Libertà 14 (loc. Monteveglio) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+5b506032a9ab400f2417f0e2c49a:
+  description: |
+    Il servizio di Avvisi per Servizi scolastici fornisce informazioni legate alle attività scolastiche. 
+    Tramite IO potrai:
+
+      * ricevere avvisi e informazioni sui bandi per l'iscrizione ai servizi scolastici.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/servizi-online-valsamoggia/98-aree-tematiche/scuola-e-giovani/servizi-scolastici/4147-pagamenti-nido-d-infanzia-trasporto-prolungamento-orario
+  phone: 051 6723032
+  email: inforette@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01DNEZT8BC7MFM96Q4J0MS72E2:
+  description: |
+    Il servizio di Pagamenti per Servizi scolastici offre la possibilità di gestire dei pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/servizi-online-valsamoggia/98-aree-tematiche/scuola-e-giovani/servizi-scolastici/4147-pagamenti-nido-d-infanzia-trasporto-prolungamento-orario
+  phone: 051 6723036
+  email: inforette@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
   scope: LOCAL

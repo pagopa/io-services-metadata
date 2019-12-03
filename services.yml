@@ -684,8 +684,8 @@ azure-deployc49a:
 #
 # Municipality of Valsamoggia
 #
-5B3F4B1DA9AB400F54DC5AB1C49A:
-  scope: LOCAL
+# Municipality of Valsamoggia
+#
 
 5b505f18a9ab400f2417f0d7c49a:
   description: |
@@ -726,7 +726,7 @@ azure-deployc49a:
 
   privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
   web_url: https://www.comune.valsamoggia.bo.it/index.php/servizi-online-valsamoggia/98-aree-tematiche/scuola-e-giovani/servizi-scolastici/4147-pagamenti-nido-d-infanzia-trasporto-prolungamento-orario
-  phone: 051 6723032
+  phone: 051 6723027
   email: inforette@comune.valsamoggia.bo.it
   address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
   scope: LOCAL
@@ -743,4 +743,18 @@ azure-deployc49a:
   phone: 051 6723036
   email: inforette@comune.valsamoggia.bo.it
   address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01DTPWX4HQARDDJ3QTDCAX5MK4:
+  description: |
+    Il Comune di Valsamoggia partecipa alla closed-beta di IO.
+    Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  privacy_url: https://io.italia.it/ente/comune-di-valsamoggia.html
+  phone: 051 836411
+  email: info@comune.valsamoggia.bo.it
+  address: Piazza Garibaldi 1 (loc. Bazzano) - 40053 Valsamoggia (BO)
   scope: LOCAL

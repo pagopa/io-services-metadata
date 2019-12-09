@@ -758,3 +758,32 @@ azure-deployc49a:
   email: info@comune.valsamoggia.bo.it
   address: Piazza Garibaldi 1 (loc. Bazzano) - 40053 Valsamoggia (BO)
   scope: LOCAL
+
+01DBCRF8455F7NE9QE8TPEJVRV:
+  description: |
+    Il Servizio Entrate del Comune di Valsamoggia si occupa della riscossione dell'Imposta Unica Comunale - IUC (IMU, TARI e TASI).
+    Tramite IO potrai:
+
+      * ricevere un promemoria che ti avvisa della scadenza di pagamento della TARI 2019;
+      * ricevere l'avviso di accertamento per il mancato pagamento della TARI 2018, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/iuc-imu-tari-tasi
+  phone: 051 6723015
+  email: tributi@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01DBCRDSXAT2CP73KVFHFSXD0P:
+  description: |
+    Il servizio di Avvisi per Servizi scolastici fornisce informazioni legate alle attività scolastiche. 
+    Tramite IO potrai:
+
+      * ricevere avvisi e informazioni sui bandi per l'iscrizione ai servizi scolastici.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/servizi-online-valsamoggia/98-aree-tematiche/scuola-e-giovani/servizi-scolastici/4147-pagamenti-nido-d-infanzia-trasporto-prolungamento-orario
+  phone: 051 6723027
+  email: inforette@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL

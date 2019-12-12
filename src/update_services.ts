@@ -67,7 +67,7 @@ async function run(rootPath: string): Promise<void> {
     const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
     // dump scopeService as a json
     await fs.writeFile(
-      path.join(root, path.join("services", "scopeServices.json")),
+      path.join(root, path.join("services", "servicesByScope.json")),
       JSON.stringify(scopeService)
     );
   } catch (e) {
@@ -76,4 +76,7 @@ async function run(rootPath: string): Promise<void> {
   }
 }
 
-run(root).then(() => console.log("done"), () => process.exit(1));
+run(root).then(
+  () => console.log("done"),
+  () => process.exit(1)
+);

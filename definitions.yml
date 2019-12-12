@@ -55,3 +55,13 @@ definitions:
         type: string
       siglaProvincia:
         type: string
+  ServicesByScope:
+    type: object
+    required:
+      - LOCAL
+      - NATIONAL
+    properties:
+      LOCAL:
+        type: array
+      NATIONAL:
+        type: array

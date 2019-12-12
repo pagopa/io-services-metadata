@@ -63,5 +63,9 @@ definitions:
     properties:
       LOCAL:
         type: array
+        items:
+          type: string
       NATIONAL:
         type: array
+        items:
+          type: string

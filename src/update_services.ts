@@ -7,9 +7,11 @@ import { PathReporter } from "io-ts/lib/PathReporter";
 import * as yaml from "js-yaml";
 import * as path from "path";
 
-import { Service } from "../definitions/Service";
+import { scopeEnum, Service } from "../definitions/Service";
 
 const Services = t.dictionary(t.string, Service);
+// the keys are the scopeEnum (NATIONAL,LOCAL) and the value is the relative services id
+type ScopeServices = { [key in keyof typeof scopeEnum]: ReadonlyArray<string> };
 const root = path.join(__dirname, "../");
 
 async function run(rootPath: string): Promise<void> {
@@ -18,7 +20,7 @@ async function run(rootPath: string): Promise<void> {
   const servicesYamlPath = path.join(rootPath, "services.yml");
   console.log("Services YAML:", chalk.blueBright(servicesYamlPath));
 
-  console.log(chalk.gray("[1/2]"), "Reading services data...");
+  console.log(chalk.gray("[1/3]"), "Reading services data...");
   const servicesYamlContent = await fs.readFile(servicesYamlPath);
   try {
     const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
@@ -35,7 +37,7 @@ async function run(rootPath: string): Promise<void> {
     const serviceIds = Object.keys(services);
     console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
 
-    console.log(chalk.gray("[2/2]"), "Generating services JSON...");
+    console.log(chalk.gray("[2/3]"), "Generating services JSON...");
     await Promise.all(
       serviceIds.map(async serviceId => {
         const servicePath = path.join(
@@ -48,6 +50,25 @@ async function run(rootPath: string): Promise<void> {
           JSON.stringify(services[serviceId])
         );
       })
+    );
+
+    console.log(chalk.gray("[3/3]"), "Generating scope services JSON...");
+    // filter the services id which have scope LOCAL
+    const locals = serviceIds.filter(sId => {
+      const service = services[sId];
+      return service.scope === scopeEnum.LOCAL;
+    });
+    // filter the services id which have scope NATIONAL
+    const nationals = serviceIds.filter(sId => {
+      const service = services[sId];
+      return service.scope === scopeEnum.NATIONAL;
+    });
+
+    const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
+    // dump scopeService as a json
+    await fs.writeFile(
+      path.join(root, path.join("services", "servicesByScope.json")),
+      JSON.stringify(scopeService)
     );
   } catch (e) {
     console.log(chalk.red(e.message));

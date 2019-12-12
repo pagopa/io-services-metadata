@@ -76,7 +76,4 @@ async function run(rootPath: string): Promise<void> {
   }
 }
 
-run(root).then(
-  () => console.log("done"),
-  () => process.exit(1)
-);
+run(root).then(() => console.log("done"), () => process.exit(1));

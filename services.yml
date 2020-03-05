@@ -787,3 +787,80 @@ azure-deployc49a:
   email: inforette@comune.valsamoggia.bo.it
   address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
   scope: LOCAL
+
+# INPS
+
+01E05AVS80MJDMS02EFWVT53H5:
+  description: |
+    Il servizio di Cassetta postale online consente di consultare tutta la corrispondenza inviata dall'INPS dal 2006 a oggi (esiti di istanze e provvedimenti, verbali di visite sanitarie e certificati medici, avvisi di addebito, certificazioni reddituali, ecc.). Possono accedere al servizio gli iscritti alle gestioni private dell'INPS muniti di credenziali.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://www.inps.it/NuovoportaleINPS/CassettaPostale.aspx
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL
+
+01E05AVT3X56X1Z4R19AT7CJ84:
+  description: |
+    Il servizio INPS Risponde consente di inoltrare all'INPS, via email, quesiti e richieste di chiarimenti su aspetti normativi o procedimentali, richieste di informazioni o relative a servizi e a singole pratiche.                        
+    Con INPS Risponde è possibile, inoltre, verificare lo stato delle proprie richieste (In attesa di lavorazione, Inviata alla struttura INPS, Evasa dal Contact center, Evasa dalla struttura INPS).
+    INPS Risponde è parte integrante del sistema telematico di Gestione dei rapporti con l’utenza (Customer Relationship Management – CRM) che I'Istituto ha sviluppato nel 2012 per integrare il servizio di Contact center multicanale (CCM), gestito online da operatori esterni (front office e back office di I livello) con l’attività di gestione dei rapporti con l’utenza degli esperti delle strutture territoriali INPS (back office di II livello).    
+    Questo servizio è il canale attraverso il quale inviare autonomamente quesiti o richieste di informazioni, nel caso non sia necessario l’aiuto degli operatori del Contact center multicanale, raggiungibile via telefono fisso o mobile (numero 803 164, gratuito da rete fissa o numero 06 164164 da telefono mobile a pagamento secondo la tariffa del proprio gestore) o via web (tramite VOIP o Web collaboration).                                                            
+    Se il backoffice di I livello (operatori INPS Risponde) non può evadere la richiesta, genera un quesito Linea INPS e lo inoltra alla struttura INPS competente (back office di II livello). Per questa ragione, se si accede a INPS Risponde autenticandosi con il proprio PIN, si potrà consultare con le funzioni di ricerca sia l’elenco e lo stato delle richieste inviate tramite il servizio INPS Risponde sia l’elenco delle richieste in attesa di risposta, inviate tramite gli operatori del Contact center alle strutture INPS (quesiti Linea INPS).                                                     
+    È possibile, infine, sollecitare la risposta ad un quesito Linea INPS, qualora non sia pervenuto un riscontro entro 15 giorni. Le risposte saranno inviate per email all’indirizzo indicato nella maschera di inserimento della richiesta; è consigliabile indicare anche il proprio recapito telefonico per poter essere contattati dagli esperti INPS per eventuali chiarimenti relativi al quesito posto, utili a gestire la propria richiesta. Gli eventuali documenti o certificati richiesti saranno trasmessi per posta prioritaria.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://servizi2.inps.it/servizi/mobileinpsrisponde/InpsRispondeHome.aspx
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL
+
+01E05E5HA9WXBEPYXACMB1KX2B:
+  description: |
+    Il servizio consente di visualizzare il dettaglio di un pagamento erogato dall’Istituto a favore dell’utente a fronte di una prestazione pensionistica o non pensionistica.                                        
+    Il servizio non visualizza i dati di pagamenti disposti da più di due mesi.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://servizi2.inps.it/servizi/mobilestatopagamenti/InpsStatoPagamentiIntro.aspx
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL
+
+01E1BR45PST73CEW511QVM2W89:
+  description: |
+    Il servizio consente di visualizzare lo stato di lavorazione di una richiesta presentata all’Istituto, selezionandola dall’elenco delle richieste abbinate al proprio codice fiscale.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://servizi2.inps.it/servizi/mobilestatodomanda/InpsStatoDomandaIntro.aspx
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL
+
+01E1BR5ETNYBDMQCDY3QBC9FHA:
+  description: |
+    Il servizio di Pagamento ai Lavoratori Domestici permette di eseguire: 
+
+      * il pagamento online tramite pagoPA;
+      * la visualizzazione e stampa dell'Avviso di Pagamento pagoPA;
+      * la visualizzazione e stampa del bollettino MAV;
+      * la visualizzazione e stampa delle ricevute dei pagamenti effettuati online/Reti Amiche/MAV/pagoPA.
+
+    Tramite IO sarà possibile ricevere il promemoria per il pagamento dei contributi.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://serviziweb2.inps.it/PortalePagamenti/caricaPagina.do?idMenuVoce=4
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL
+
+01E1BR63EK8ZZ5WWKRAXB473Y8:
+  description: |
+    Il servizio permette di verificare lo stato della domanda della Nuova Assicurazione Sociale per l'Impiego (NASpI).               
+    La NASpI è una indennità mensile di disoccupazione, istituita dall'articolo 1, decreto legislativo 4 marzo 2015, n. 22, che sostituisce le precedenti prestazioni di disoccupazione ASpI e MiniASpI, in relazione agli eventi di disoccupazione involontaria che si sono verificati a decorrere dal 1° maggio 2015.               
+    La NASpI viene erogata su domanda dell'interessato.
+
+  privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
+  web_url: https://serviziweb2.inps.it/NASPIweb/statoDomandeInviate.do?method=init&idNav=NA_03&S=S
+  phone: 06 803164
+  address: Via Ciro il Grande, 21 - 00144 Roma
+  scope: NATIONAL

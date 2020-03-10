@@ -551,3 +551,35 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
   scope: NATIONAL
+#
+# Municipality of Collecchio
+#
+
+01E2XCR1N4VNMG18XJ5BD4BV9Y:
+  description: |
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: http://www.comune.collecchio.pr.it/servizi/Menu/dinamica.aspx?idSezione=44824&idArea=100719&idCat=16889&ID=16889&TipoElemento=categoria
+  web_url: http://www.comune.collecchio.pr.it/servizi/Menu/dinamica.aspx?idSezione=18144&idArea=18147&idCat=46030&ID=58480&TipoElemento=categoria
+  phone: 0521 301270
+  email: pubistr@comune.collecchio.pr.it
+  pec: protocollo@postacert.comune.collecchio.pr.it
+  address: Viale Libertà 3 - 43044 Collecchio (PR)
+  scope: LOCAL
+
+01E2XBVNSB2SZDJZGFP020C2YX:
+  description: |
+    Il Comune di Collecchio partecipa alla open-beta di IO. Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  phone: 0521 30111
+  email: urp@comune.collecchio.pr.it
+  pec: protocollo@postacert.comune.collecchio.pr.it
+  address: Viale Libertà 3 - 43044 Collecchio (PR)
+  scope: LOCAL

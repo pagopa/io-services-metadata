@@ -23,25 +23,6 @@ azure-deployc49a:
   web_url: https://io.italia.it
   email: io-testing@teamdigitale.governo.it
   scope: NATIONAL
-
-# TODO: this is the old admin backend service. Delete this entry once
-# https://github.com/teamdigitale/digital-citizenship/pull/204 gets merged
-5a563817fcc896087002ea46c49a:
-  description: |
-    IO è l’applicazione sperimentale (attualmente in fase di open beta) che permette ai cittadini
-    di gestire direttamente dal proprio smartphone i rapporti con la Pubblica Amministrazione Italiana
-    e l’accesso ai servizi pubblici.
-
-    Ti invierà messaggi su come usare l'applicazione, aggiornamenti sul progetto o sulle funzionalità dell'app,
-    richieste di feedback e altre istruzioni utili alla sperimentazione.
-
-    IO è un progetto della Presidenza del Consiglio dei Ministri, iniziato dal Team per la Trasformazione Digitale
-    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.
-
-  web_url: https://io.italia.it
-  email: io-testing@teamdigitale.governo.it
-  scope: NATIONAL
-
 #
 # Automobile Club d'Italia
 #
@@ -61,7 +42,7 @@ azure-deployc49a:
     I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
     Tramite IO potrai:
 
-    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto;
+    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (per sei registrato da almeno un mese prima della scadenza del pagamento);
     * pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
   privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
@@ -78,7 +59,7 @@ azure-deployc49a:
     Tramite IO potrai:
 
     * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
-    * ricevere un riepilogo dei tuoi certificati di proprietà digitali.
+    * ricevere un riepilogo dei veicoli di cui risulti intestatario al PRA alla data di invio.
 
   privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
   web_url: https://iservizi.aci.it/consultacdpd/
@@ -303,7 +284,6 @@ azure-deployc49a:
   phone: 800 450 900
   email: info@torinofacile.it
   scope: LOCAL
-
 #
 # Municipality of Ripalta Cremasca
 #
@@ -493,7 +473,7 @@ azure-deployc49a:
     Il servizio consente di visualizzare il dettaglio di un pagamento erogato dall’Istituto a favore dell’utente a fronte di una prestazione pensionistica o non pensionistica.                                        
     Il servizio non visualizza i dati di pagamenti disposti da più di due mesi.
 
-    Tramite IO potrai essere informato sul pagamento erogato, e accedere a maggiori dettagli sul sito dell'istituto.
+    Tramite IO potrai essere informato sul dettaglio del pagamento già erogato.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
   web_url: https://servizi2.inps.it/servizi/mobilestatopagamenti/InpsStatoPagamentiIntro.aspx
@@ -505,7 +485,7 @@ azure-deployc49a:
   description: |
     Il servizio consente di visualizzare lo stato di lavorazione di una richiesta presentata all’Istituto, selezionandola dall’elenco delle richieste abbinate al proprio codice fiscale.
 
-    Tramite IO potrai essere informato sullo stato di avanzamento della tua richiesta, e accedere a maggiori dettagli sul sito dell'istituto.
+    Tramite IO potrai essere informato sullo stato di avanzamento delle richieste già inviate all'Istituto.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
   web_url: https://servizi2.inps.it/servizi/mobilestatodomanda/InpsStatoDomandaIntro.aspx
@@ -536,7 +516,7 @@ azure-deployc49a:
     La NASpI è una indennità mensile di disoccupazione, istituita dall'articolo 1, decreto legislativo 4 marzo 2015, n. 22, che sostituisce le precedenti prestazioni di disoccupazione ASpI e MiniASpI, in relazione agli eventi di disoccupazione involontaria che si sono verificati a decorrere dal 1° maggio 2015.               
     La NASpI viene erogata su domanda dell'interessato.
 
-    Tramite IO potrai ricevere una comunicazione che ti informa del diritto ad effettuare la domanda, e le istruzioni necessarie per fare richiesta.
+    Tramite IO potrai ricevere una comunicazione che ti informa del diritto ad effettuare la domanda e le istruzioni necessarie.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
   web_url: https://serviziweb2.inps.it/NASPIweb/statoDomandeInviate.do?method=init&idNav=NA_03&S=S
@@ -551,6 +531,7 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
   scope: NATIONAL
+
 #
 # Municipality of Collecchio
 #
@@ -582,4 +563,97 @@ azure-deployc49a:
   email: urp@comune.collecchio.pr.it
   pec: protocollo@postacert.comune.collecchio.pr.it
   address: Viale Libertà 3 - 43044 Collecchio (PR)
+  scope: LOCAL
+
+#
+# Municipality of Sala Baganza
+#
+
+01E36YVB7NDWK7FFF6DBNVDZTP:
+  description: |
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: http://www.comune.sala-baganza.pr.it/servizi/Menu/dinamica.aspx?idSezione=55170&idArea=100026&idCat=55174&ID=55174&TipoElemento=categoria
+  web_url: http://www.comune.sala-baganza.pr.it/servizi/Menu/dinamica.aspx?idSezione=41554&idArea=41639&idCat=35978&ID=36140&TipoElemento=categoria
+  email: l.longhi@comune.sala-baganza.pr.it
+  pec: protocollo@postacert.comune.sala-baganza.pr.it
+  address: via Vittorio Emanuele II, 34 - 43038 Sala Baganza (PR)
+  scope: LOCAL
+
+01E36YSSP6ZG76GDHHT8VM9EKE:
+  description: |
+    Il Comune di Sala Baganza partecipa alla open-beta di IO. Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  phone: 0521 30111
+  email: urp@comune.sala-baganza.pr.it
+  pec: protocollo@postacert.comune.sala-baganza.pr.it
+  address: via Vittorio Emanuele II, 34 - 43038 Sala Baganza (PR)
+  scope: LOCAL
+
+#
+# Municipality of Montechiarugolo
+#
+
+01E36YY11TMJAC7W9FH0ETF3QZ:
+  description: |
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: http://www.comune.montechiarugolo.pr.it/servizi/Menu/dinamica.aspx?idSezione=43019&idArea=49243&idCat=55703&ID=100391&TipoElemento=categoria
+  web_url: http://www.comune.montechiarugolo.pr.it/servizi/Menu/dinamica.aspx?idSezione=45696&idArea=59302&idCat=59302&ID=59302&TipoElemento=area
+  phone: 0521 687730
+  email: scuola@comune.montechiarugolo.pr.it
+  pec: protocollo@postacert.comune.montechiarugolo.pr.it
+  address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
+  scope: LOCAL
+
+01E36YXDGHHR9RQB465AH8NEJQ:
+  description: |
+    Il Comune di Montechiarugolo partecipa alla open-beta di IO. Tramite IO potrai:
+
+      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
+      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
+
+  phone: 0521 687711
+  email: urp@comune.montechiarugolo.pr.it
+  pec: protocollo@postacert.comune.montechiarugolo.pr.it
+  address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
+  scope: LOCAL
+
+#
+# Municipality of Garbagnate Milanese
+#
+
+01DVQZ21YD356PH8V5G1S5KMN3:
+  description: |
+    Iscrizione Pre e Post Scuola. Tramite IO potrai:
+
+  privacy_url: https://comune.garbagnate-milanese.mi.it/privacy/
+  web_url: https://procedimenti.comune.garbagnate-milanese.mi.it/hrd/moduli-ufficio
+  phone: 02 78618200
+  email: prepost@comune.garbagnate-milanese.mi.it
+  pec: prepost@comune.garbagnate-milanese.mi.it
+  address: Piazza De Gasperi,1 - 20024 Garbagnate Milanese (MI)
+  scope: LOCAL
+
+01DVQZ2G99HQ0GW27MSD1ECC9P:
+  description: |
+    Trasporto scolastico. Tramite IO potrai:
+
+  privacy_url: https://comune.garbagnate-milanese.mi.it/privacy/
+  web_url: https://procedimenti.comune.garbagnate-milanese.mi.it/hrd/moduli-ufficio
+  phone: 02 78618200
+  email: prepost@comune.garbagnate-milanese.mi.it
+  pec: prepost@comune.garbagnate-milanese.mi.it
+  address: Piazza De Gasperi,1 - 20024 Garbagnate Milanese (MI)
   scope: LOCAL

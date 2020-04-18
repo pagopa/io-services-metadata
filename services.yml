@@ -18,10 +18,10 @@ azure-deployc49a:
     richieste di feedback e altre istruzioni utili alla sperimentazione.
 
     IO è un progetto della Presidenza del Consiglio dei Ministri, iniziato dal Team per la Trasformazione Digitale
-    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.
+    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.  
 
   web_url: https://io.italia.it
-  email: io-testing@teamdigitale.governo.it
+  email: testing@io.italia.it
   scope: NATIONAL
 #
 # Automobile Club d'Italia
@@ -42,7 +42,7 @@ azure-deployc49a:
     I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
     Tramite IO potrai:
 
-    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (per sei registrato da almeno un mese prima della scadenza del pagamento);
+    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (per i registrati almeno un mese prima della scadenza del pagamento);
     * pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
   privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
@@ -631,12 +631,36 @@ azure-deployc49a:
   scope: LOCAL
 
 #
+# Municipality of Felino
+#
+
+01E4XD5N8F4XH9ARGV3SAXMZT0:
+  description: |
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: http://www.comune.felino.pr.it/servizi/Menu/dinamica.aspx?idSezione=41749&idArea=100592&idCat=61379&ID=61379&TipoElemento=categoria
+  web_url: http://www.comune.felino.pr.it/servizi/Menu/dinamica.aspx?idSezione=41744&idArea=41902&idCat=62170&ID=62247&TipoElemento=categoria
+  phone: 0521 335920
+  email: f.bolondi@comune.felino.pr.it
+  pec: protocollo@postacert.comune.felino.pr.it
+  address: Pizza Miodini, 1 - 43045 Felino (PR)
+  scope: LOCAL
+
+#
 # Municipality of Garbagnate Milanese
 #
 
 01DVQZ21YD356PH8V5G1S5KMN3:
   description: |
-    Iscrizione Pre e Post Scuola. Tramite IO potrai:
+    Il servizio di Iscrizione Pre e Post Scuola è relativo alle attività di pre e post scuola oranizzate nelle scuole primarie e scuole dell'infanzia del Comune di Garbagnate. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria e procedere al pagamento del servizio;
+    * essere informato in caso di pratiche rifiutate o scadute.
 
   privacy_url: https://comune.garbagnate-milanese.mi.it/privacy/
   web_url: https://procedimenti.comune.garbagnate-milanese.mi.it/hrd/moduli-ufficio
@@ -648,7 +672,11 @@ azure-deployc49a:
 
 01DVQZ2G99HQ0GW27MSD1ECC9P:
   description: |
-    Trasporto scolastico. Tramite IO potrai:
+    Il servizio di trasporto scolastico è erogato a favore degli alunni frequentanti la Scuola Primaria Karol Wojtyla e le due scuole Secondarie di Primo Grado Galilei e Morante.  
+    Tramite IO potrai:
+
+    * ricevere un promemoria e procedere al pagamento del servizio;
+    + essere informato in caso di pratiche rifiutate o scadute.
 
   privacy_url: https://comune.garbagnate-milanese.mi.it/privacy/
   web_url: https://procedimenti.comune.garbagnate-milanese.mi.it/hrd/moduli-ufficio

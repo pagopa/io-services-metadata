@@ -18,7 +18,7 @@ azure-deployc49a:
     richieste di feedback e altre istruzioni utili alla sperimentazione.
 
     IO è un progetto della Presidenza del Consiglio dei Ministri, iniziato dal Team per la Trasformazione Digitale
-    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.  
+    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.
 
   web_url: https://io.italia.it
   email: testing@io.italia.it
@@ -648,6 +648,26 @@ azure-deployc49a:
   email: f.bolondi@comune.felino.pr.it
   pec: protocollo@postacert.comune.felino.pr.it
   address: Pizza Miodini, 1 - 43045 Felino (PR)
+  scope: LOCAL
+
+#
+# Municipality of Traversetolo
+#
+
+01E6TTG0VG6DFVFMCEZJQDDM39:
+  description: |
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    Tramite IO potrai:
+
+      * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
+      * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
+
+  privacy_url: http://www.comune.traversetolo.pr.it/servizi/Menu/dinamica.aspx?idSezione=41612&idArea=100636&idCat=74227&ID=74227&TipoElemento=categoria
+  web_url: http://www.comune.traversetolo.pr.it/servizi/Menu/dinamica.aspx?idSezione=41611&idArea=41628&idCat=46110&ID=47294&TipoElemento=pagina
+  phone: 0521 344549
+  email: scuola@comune.traversetolo.pr.it
+  pec: protocollo@postacert.comune.traversetolo.pr.it
+  address: Piazza Vittorio Veneto, 30 – 43029 Traversetolo (PR)
   scope: LOCAL
 
 #

@@ -18,12 +18,15 @@ const optionCsvParseForeignCountries = {
 
 export const exportForeignMunicipalities = async () => {
   console.log(
-    "[3/4] Reading foreign countries csv data",
+    "[1/2] Reading foreign countries csv data",
     chalk.blueBright(FOREIGN_COUNTRIES_FILEPATH)
   );
   const csvForeignCountriesContent = fs.readFileSync(
     FOREIGN_COUNTRIES_FILEPATH
   );
+
+  console.log(chalk.gray("[2/2]"), "Generating foreign municipalities JSON...");
+
   parseCsvMunicipality(
     csvForeignCountriesContent.toString("utf8"),
     optionCsvParseForeignCountries,

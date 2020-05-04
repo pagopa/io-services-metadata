@@ -26,6 +26,7 @@ const optionMunicipalitiesWithCatastale = {
  */
 export const exportAbolishedMunicipality = async () => {
   // mapping [municipalityName.toLowerCase()] : codiceCatastale
+  console.log("[1/2] Start generation for removed municipalities...");
   const municipalityToCatastale = await loadMunicipalityToCatastale();
 
   const removedMunicipalities = loadAbolishedMunicipalities(
@@ -46,6 +47,7 @@ export const exportAbolishedMunicipality = async () => {
         serializeMunicipalityToJson(<SerializableMunicipality>x)
       )
     );
+    console.log("[2/2] Generation completed!");
   }
 };
 

@@ -23,7 +23,7 @@ export const exportCurrentMunicipalities = async () => {
   };
 
   console.log(
-    "[1/4] Requesting Municipalities data from:",
+    "[1/2] Requesting Municipalities data from:",
     chalk.blueBright(ITALIAN_MUNICIPALITIES_URL)
   );
 
@@ -36,7 +36,7 @@ export const exportCurrentMunicipalities = async () => {
       );
       return;
     }
-    console.log(chalk.gray("[2/4]"), "Generating municipalities JSON...");
+    console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
     const buffer = Buffer.from(body);
 
     const csvContent = buffer.toString();

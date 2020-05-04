@@ -6,10 +6,16 @@ import {
 import { parseCsvPromise } from "../utils/parse_csv_promise";
 import { AbolishedMunicipality } from "../types/AbolishedMunicipality";
 import { SerializableMunicipality } from "../types/SerializableMunicipality";
-import { tryCatch2v } from "../../node_modules/fp-ts/lib/Either";
+import {
+  tryCatch2v,
+  right,
+  left,
+  Either
+} from "../../node_modules/fp-ts/lib/Either";
 import * as t from "io-ts";
 import { serializeMunicipalityToJson } from "./serialize_municipality";
 import chalk from "chalk";
+import { logError } from "../utils/log_left_error";
 
 const optionMunicipalitiesWithCatastale = {
   delimiter: ",",
@@ -25,53 +31,59 @@ const optionMunicipalitiesWithCatastale = {
  * :MUNICIPALITIES_CATASTALI_FILEPATH: : a list of codici catastali associated to the municipality
  */
 export const exportAbolishedMunicipality = async () => {
-  // mapping [municipalityName.toLowerCase()] : codiceCatastale
-  console.log("[1/2] Start generation for removed municipalities...");
-  const municipalityToCatastale = await loadMunicipalityToCatastale();
-
-  const removedMunicipalities = loadAbolishedMunicipalities(
-    municipalityToCatastale
-  );
-
-  if (removedMunicipalities.isLeft()) {
-    console.log(
-      chalk.red(
-        `Error while loading abolished municipalities [${
-          removedMunicipalities.value.name
-        }] : ${removedMunicipalities.value.message}`
+  const serializeMunicipalityPromise = (await loadMunicipalityToCatastale())
+    .chain(municipalityToCatastale =>
+      loadAbolishedMunicipalities(municipalityToCatastale)
+    )
+    .map(abolishedMunicipalities =>
+      abolishedMunicipalities.map(municipality =>
+        serializeMunicipalityToJson(<SerializableMunicipality>municipality)
       )
     );
-  } else {
-    await Promise.all(
-      removedMunicipalities.value.map(x =>
-        serializeMunicipalityToJson(<SerializableMunicipality>x)
-      )
+
+  if (serializeMunicipalityPromise.isLeft()) {
+    logError(
+      <Error>serializeMunicipalityPromise.value,
+      "Error while exporting abolished municipalities"
     );
-    console.log("[2/2] Generation completed!");
+    return;
   }
+  await Promise.all(serializeMunicipalityPromise.value);
+  return;
 };
 
-const loadMunicipalityToCatastale = async (): Promise<Map<string, string>> => {
+/**
+ * load all the codici catastali and create a mapping between the name of the municipality and the codice catastale
+ */
+const loadMunicipalityToCatastale = async (): Promise<
+  Either<Error, Map<string, string>>
+> => {
   // read raw data from csv
-  const municipalityWithCatastaleRaw = fs
-    .readFileSync(MUNICIPALITIES_CATASTALI_FILEPATH)
-    .toString("utf8");
+  try {
+    const municipalityWithCatastaleRaw = fs
+      .readFileSync(MUNICIPALITIES_CATASTALI_FILEPATH)
+      .toString("utf8");
 
-  // parse raw data
-  const municipalitiesCatastaleRows = await parseCsvPromise(
-    municipalityWithCatastaleRaw,
-    optionMunicipalitiesWithCatastale
-  );
+    // parse raw data
+    const municipalitiesCatastaleRows = await parseCsvPromise(
+      municipalityWithCatastaleRaw,
+      optionMunicipalitiesWithCatastale
+    );
 
-  // transform raw data to: [municipalityName] : codiceCatastale
-  return municipalitiesCatastaleRows.reduce(function(
-    map: Map<string, string>,
-    row
-  ) {
-    map.set(row[1].toLowerCase(), row[0]);
-    return map;
-  },
-  new Map<string, string>());
+    // transform raw data to: [municipalityName] : codiceCatastale
+    return right(
+      municipalitiesCatastaleRows.reduce(function(
+        map: Map<string, string>,
+        row
+      ) {
+        map.set(row[1].toLowerCase(), row[0]);
+        return map;
+      },
+      new Map<string, string>())
+    );
+  } catch (e) {
+    return left(new Error(String(e)));
+  }
 };
 
 /**

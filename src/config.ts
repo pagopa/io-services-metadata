@@ -14,11 +14,12 @@ export const MUNICIPALITIES_INPUT_FOLDER_PATH = path.join(
   "municipalities"
 );
 
+// original source: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/blob/master/italy_removed.json
 export const ABOLISHED_MUNICIPALITIES_FILEPATH = path.join(
   MUNICIPALITIES_INPUT_FOLDER_PATH,
   "abolished.json"
 );
-
+// original source: https://github.com/Andryz980/cdf2/blob/9d1ec66ba92e784d8b2601f26e0c4fa60f02fd1c/comuni.csv
 export const MUNICIPALITIES_CATASTALI_FILEPATH = path.join(
   MUNICIPALITIES_INPUT_FOLDER_PATH,
   "municipalities_with_catastale.csv"

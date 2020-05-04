@@ -49,7 +49,6 @@ export const exportAbolishedMunicipality = async () => {
     return;
   }
   await Promise.all(serializeMunicipalityPromise.value);
-  return;
 };
 
 /**

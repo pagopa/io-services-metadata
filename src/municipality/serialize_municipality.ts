@@ -43,7 +43,7 @@ export const serializeMunicipalityToJson = async (
       path.join(ROOT, municipalityPath),
       JSON.stringify(serializableMunicipality.municipality)
     );
-    console.log(chalk.greenBright(municipalityPath));
+    // console.log(chalk.greenBright(municipalityPath));
   } catch {
     console.log(
       chalk.red("some error occurred while writing file: ", municipalityPath)

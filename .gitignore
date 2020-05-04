@@ -2,3 +2,5 @@ node_modules
 .vscode
 .idea
 yarn-error.log
+
+.DS_Store

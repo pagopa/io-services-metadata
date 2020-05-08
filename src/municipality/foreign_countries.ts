@@ -17,7 +17,8 @@ const optionCsvParseForeignCountries = {
 
 export const exportForeignMunicipalities = async () => {
   console.log(
-    "[1/2] Reading foreign countries csv data",
+    chalk.gray("[1/2]"),
+    "Reading foreign countries csv data",
     chalk.blueBright(FOREIGN_COUNTRIES_FILEPATH)
   );
   const csvForeignCountriesContent = fs.readFileSync(

@@ -1,13 +1,10 @@
+import chalk from "chalk";
 import * as fs from "fs-extra";
 import * as t from "io-ts";
-import {
-  Either,
-  left,
-  right,
-  tryCatch2v
-} from "../../node_modules/fp-ts/lib/Either";
+import { Either, left, right } from "../../node_modules/fp-ts/lib/Either";
 import {
   ABOLISHED_MUNICIPALITIES_FILEPATH,
+  ITALIAN_MUNICIPALITIES_URL,
   MUNICIPALITIES_CATASTALI_FILEPATH
 } from "../config";
 import {
@@ -120,6 +117,10 @@ const loadAbolishedMunicipalities = (
  * :MUNICIPALITIES_CATASTALI_FILEPATH: : a list of codici catastali associated to the municipality
  */
 export const exportAbolishedMunicipality = async () => {
+  console.log(
+    chalk.gray("[1/2]"),
+    "Start generation of abolished municipalites from local dataset"
+  );
   const serializeMunicipalityPromise = (await loadMunicipalityToCatastale())
     .chain(municipalityToCatastale =>
       loadAbolishedMunicipalities(municipalityToCatastale)
@@ -138,4 +139,8 @@ export const exportAbolishedMunicipality = async () => {
     return;
   }
   await Promise.all(serializeMunicipalityPromise.value);
+  console.log(
+    chalk.gray("[2/2]"),
+    "Generation of abolished municipalites completed"
+  );
 };

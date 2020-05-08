@@ -22,7 +22,8 @@ export const exportCurrentMunicipalities = async () => {
   };
 
   console.log(
-    "[1/2] Requesting Municipalities data from:",
+    chalk.gray("[1/2]"),
+    "Requesting Municipalities data from:",
     chalk.blueBright(ITALIAN_MUNICIPALITIES_URL)
   );
 

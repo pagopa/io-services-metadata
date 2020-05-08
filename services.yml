@@ -34,7 +34,7 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
 
-  privacy_url: https://io.italia.it/ente/aci
+  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   scope: NATIONAL
 
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
@@ -45,7 +45,7 @@ azure-deployc49a:
     * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (per i registrati almeno un mese prima della scadenza del pagamento);
     * pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
-  privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
+  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   phone: 06 4998 2721
@@ -61,7 +61,7 @@ azure-deployc49a:
     * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
     * ricevere un riepilogo dei veicoli di cui risulti intestatario al PRA alla data di invio.
 
-  privacy_url: http://www.aci.it/informativa-resa-ai-sensi-dellart-13-del-regolamento-ue-2016679-gdpr.html
+  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   phone: 06 4998 2715

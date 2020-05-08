@@ -20,13 +20,13 @@ async function run(rootPath: string): Promise<void> {
   const servicesYamlPath = path.join(rootPath, "services.yml");
   console.log("Services YAML:", chalk.blueBright(servicesYamlPath));
 
-  console.log(chalk.gray("[1/3]"), "Reading services data...");
+  console.log(chalk.gray("[1/4]"), "Reading services data...");
   const servicesYamlContent = await fs.readFile(servicesYamlPath);
   try {
     const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
       filename: servicesYamlPath,
       json: false,
-      strict: true
+      strict: true,
     });
     const maybeServices = Services.decode(servicesYamlData);
     if (maybeServices.isLeft()) {
@@ -37,9 +37,9 @@ async function run(rootPath: string): Promise<void> {
     const serviceIds = Object.keys(services);
     console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
 
-    console.log(chalk.gray("[2/3]"), "Generating services JSON...");
+    console.log(chalk.gray("[2/4]"), "Generating services JSON...");
     await Promise.all(
-      serviceIds.map(async serviceId => {
+      serviceIds.map(async (serviceId) => {
         const servicePath = path.join(
           "services",
           `${serviceId.toLowerCase()}.json`
@@ -52,14 +52,14 @@ async function run(rootPath: string): Promise<void> {
       })
     );
 
-    console.log(chalk.gray("[3/3]"), "Generating scope services JSON...");
+    console.log(chalk.gray("[3/4]"), "Generating scope services JSON...");
     // filter the services id which have scope LOCAL
-    const locals = serviceIds.filter(sId => {
+    const locals = serviceIds.filter((sId) => {
       const service = services[sId];
       return service.scope === scopeEnum.LOCAL;
     });
     // filter the services id which have scope NATIONAL
-    const nationals = serviceIds.filter(sId => {
+    const nationals = serviceIds.filter((sId) => {
       const service = services[sId];
       return service.scope === scopeEnum.NATIONAL;
     });
@@ -70,6 +70,19 @@ async function run(rootPath: string): Promise<void> {
       path.join(root, path.join("services", "servicesByScope.json")),
       JSON.stringify(scopeService)
     );
+
+    console.log(chalk.gray("[4/4]"), "Checking data..");
+    // print a warning if some services have no email and phone
+    const noEmailAndPhoneServices = Object.keys(services).filter((sId) => {
+      const service = services[sId];
+      return service.email === undefined && service.phone === undefined;
+    });
+    if (noEmailAndPhoneServices.length > 0) {
+      console.log(chalk.yellow("⚠️ these services have no email and phone:"));
+    }
+    noEmailAndPhoneServices.forEach((s) => {
+      console.log(chalk.yellowBright(s));
+    });
   } catch (e) {
     console.log(chalk.red(e.message));
     throw e;

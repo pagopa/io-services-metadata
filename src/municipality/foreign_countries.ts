@@ -1,11 +1,10 @@
 import chalk from "chalk";
 import * as fs from "fs-extra";
+import { FOREIGN_COUNTRIES_FILEPATH } from "../config";
 import {
   decodeForeignCountry,
   parseCsvMunicipality
 } from "../utils/municipality";
-import { FOREIGN_COUNTRIES_FILEPATH } from "../config";
-import { SerializableMunicipality } from "../types/SerializableMunicipality";
 import { serializeMunicipalityToJson } from "./serialize_municipality";
 
 const optionCsvParseForeignCountries = {
@@ -44,8 +43,8 @@ export const exportForeignMunicipalities = async () => {
         notEmptyData.map(r => {
           decodeForeignCountry(r).map(fc =>
             serializeMunicipalityToJson({
-              municipality: fc,
-              codiceCatastale: r[9]
+              codiceCatastale: r[9],
+              municipality: fc
             })
           );
         })

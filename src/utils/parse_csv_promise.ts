@@ -1,5 +1,5 @@
-import { StringMatrix } from "./municipality";
 import parse from "csv-parse";
+import { StringMatrix } from "./municipality";
 
 export const parseCsvPromise = (
   content: string,
@@ -10,7 +10,9 @@ export const parseCsvPromise = (
       content,
       options,
       (err: Error | undefined, records: StringMatrix | undefined) => {
-        if (err) return reject(err);
+        if (err) {
+          return reject(err);
+        }
         resolve(records);
       }
     );

@@ -1,9 +1,9 @@
-import { CodiceCatastale } from "../types/MunicipalityCodiceCatastale";
 import chalk from "chalk";
 import * as fs from "fs-extra";
 import path from "path";
 import { MUNICIPALITIES_OUTPUT_FOLDER_NAME, ROOT } from "../config";
-import { SerializableMunicipality } from "../types/SerializableMunicipality";
+import { ISerializableMunicipality } from "../types/ISerializableMunicipality";
+import { CodiceCatastale } from "../types/MunicipalityCodiceCatastale";
 
 /*
   Calculate the path where to save the municipality entity.
@@ -20,7 +20,7 @@ const calculateMunicipalityPath = (codiceCatastale: string) => {
 };
 
 export const serializeMunicipalityToJson = async (
-  serializableMunicipality: SerializableMunicipality
+  serializableMunicipality: ISerializableMunicipality
 ) => {
   // municipality json filename: codice_catastale_uppercase.json
   const mayBeCodiceCatastale = CodiceCatastale.decode(
@@ -43,7 +43,6 @@ export const serializeMunicipalityToJson = async (
       path.join(ROOT, municipalityPath),
       JSON.stringify(serializableMunicipality.municipality)
     );
-    // console.log(chalk.greenBright(municipalityPath));
   } catch {
     console.log(
       chalk.red("some error occurred while writing file: ", municipalityPath)

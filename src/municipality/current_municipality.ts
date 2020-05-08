@@ -1,11 +1,10 @@
 import chalk from "chalk";
 import request from "request";
+import { ITALIAN_MUNICIPALITIES_URL } from "../config";
 import {
   decodeMunicipality,
   parseCsvMunicipality
 } from "../utils/municipality";
-import { ITALIAN_MUNICIPALITIES_URL } from "../config";
-import { SerializableMunicipality } from "../types/SerializableMunicipality";
 import { serializeMunicipalityToJson } from "./serialize_municipality";
 
 const parserOption = {
@@ -53,9 +52,9 @@ export const exportCurrentMunicipalities = async () => {
       return Promise.all(
         result.value.map(r => {
           decodeMunicipality(r).map(municipality =>
-            serializeMunicipalityToJson(<SerializableMunicipality>{
-              municipality: municipality,
-              codiceCatastale: r[18]
+            serializeMunicipalityToJson({
+              codiceCatastale: r[18],
+              municipality
             })
           );
         })

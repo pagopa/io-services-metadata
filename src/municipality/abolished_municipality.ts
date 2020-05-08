@@ -10,7 +10,10 @@ import {
   ABOLISHED_MUNICIPALITIES_FILEPATH,
   MUNICIPALITIES_CATASTALI_FILEPATH
 } from "../config";
-import { AbolishedMunicipality } from "../types/AbolishedMunicipality";
+import {
+  AbolishedMunicipality,
+  AbolishedMunicipalityArray
+} from "../types/AbolishedMunicipality";
 import { ISerializableMunicipality } from "../types/ISerializableMunicipality";
 import { logError } from "../utils/log_left_error";
 import { parseCsvPromise } from "../utils/parse_csv_promise";
@@ -54,50 +57,6 @@ const loadMunicipalityToCatastale = async (): Promise<
   }
 };
 
-/**
- * load the abolished municipality and filter the municipality without catastal code
- * @param municipalityToCatastale: used to filter and remove the municipality without catastal code
- */
-const loadAbolishedMunicipalities = (
-  municipalityToCatastale: Map<string, string>
-) => {
-  return tryCatch2v(
-    () => {
-      const removedMunicipalitiesRaw = fs
-        .readFileSync(ABOLISHED_MUNICIPALITIES_FILEPATH)
-        .toString("utf8");
-      return (
-        (JSON.parse(removedMunicipalitiesRaw) as ReadonlyArray<any>)
-          // exclude the dirty data and the municipality without codiceCatastale
-          .filter(
-            removedMunicipality =>
-              AbolishedMunicipality.is(removedMunicipality) &&
-              municipalityToCatastale.has(
-                removedMunicipality.comune.toLowerCase()
-              )
-          )
-          // transform the raw data in SerializableMunicipality
-          .map(municipalityRaw => {
-            const maybeAbolishedMunicipality = AbolishedMunicipality.decode(
-              municipalityRaw
-            );
-            if (maybeAbolishedMunicipality.isRight()) {
-              const abolishedMunicipality = maybeAbolishedMunicipality.value;
-              const codiceCatastale = municipalityToCatastale.get(
-                abolishedMunicipality.comune.toLowerCase()
-              ) as string;
-              return fromAbolishedMunicipalityToSerializableMunicipality(
-                abolishedMunicipality,
-                codiceCatastale
-              );
-            }
-          })
-      );
-    },
-    ex => new Error(String(ex))
-  );
-};
-
 const fromAbolishedMunicipalityToSerializableMunicipality = (
   abolishedMunicipality: t.TypeOf<typeof AbolishedMunicipality>,
   codiceCatastale: string
@@ -113,6 +72,46 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
       siglaProvincia: abolishedMunicipality.provincia
     }
   } as ISerializableMunicipality;
+};
+
+/**
+ * load the abolished municipality and filter the municipality without catastal code
+ * @param municipalityToCatastale: used to filter and remove the municipality without catastal code
+ */
+const loadAbolishedMunicipalities = (
+  municipalityToCatastale: Map<string, string>
+): Either<Error, ReadonlyArray<ISerializableMunicipality>> => {
+  try {
+    const removedMunicipalitiesRaw = fs
+      .readFileSync(ABOLISHED_MUNICIPALITIES_FILEPATH)
+      .toString("utf8");
+
+    const items = AbolishedMunicipalityArray.decode(
+      JSON.parse(removedMunicipalitiesRaw)
+    );
+    if (items.isLeft()) {
+      throw items.value;
+    }
+
+    return right(
+      items.reduce(
+        [] as ReadonlyArray<ISerializableMunicipality>,
+        (acc, val) => {
+          return val
+            .filter(m => municipalityToCatastale.has(m.comune.toLowerCase()))
+            .map(mm =>
+              fromAbolishedMunicipalityToSerializableMunicipality(
+                mm,
+                // we can use non-null assertion since here all items have a match into the map
+                municipalityToCatastale.get(mm.comune.toLowerCase())!
+              )
+            );
+        }
+      )
+    );
+  } catch (ex) {
+    return left(new Error(String(ex)));
+  }
 };
 
 /**

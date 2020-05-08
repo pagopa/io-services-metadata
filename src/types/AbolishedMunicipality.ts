@@ -8,3 +8,9 @@ export const AbolishedMunicipality = t.type({
   istat: t.string,
   provincia: t.string
 });
+
+export const AbolishedMunicipalityArray = t.readonlyArray(
+  AbolishedMunicipality
+);
+
+export type AbolishedMunicipality = t.TypeOf<typeof AbolishedMunicipality>;

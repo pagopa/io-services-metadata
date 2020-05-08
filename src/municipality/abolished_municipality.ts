@@ -126,7 +126,7 @@ export const exportAbolishedMunicipality = async () => {
     )
     .map(abolishedMunicipalities =>
       abolishedMunicipalities.map(municipality =>
-        serializeMunicipalityToJson(municipality as ISerializableMunicipality)
+        serializeMunicipalityToJson(municipality)
       )
     );
 

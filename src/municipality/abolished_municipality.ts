@@ -4,7 +4,6 @@ import * as t from "io-ts";
 import { Either, left, right } from "../../node_modules/fp-ts/lib/Either";
 import {
   ABOLISHED_MUNICIPALITIES_FILEPATH,
-  ITALIAN_MUNICIPALITIES_URL,
   MUNICIPALITIES_CATASTALI_FILEPATH
 } from "../config";
 import {

@@ -13,6 +13,7 @@ import {
 import { ISerializableMunicipality } from "../types/ISerializableMunicipality";
 import { logError } from "../utils/log_left_error";
 import { parseCsvPromise } from "../utils/parse_csv_promise";
+import { readFileToString } from "../utils/read_file_to_string";
 import { serializeMunicipalityToJson } from "./serialize_municipality";
 
 const optionMunicipalitiesWithCatastale = {
@@ -77,37 +78,27 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
 const loadAbolishedMunicipalities = (
   municipalityToCatastale: Map<string, string>
 ): Either<Error, ReadonlyArray<ISerializableMunicipality>> => {
-  try {
-    const removedMunicipalitiesRaw = fs
-      .readFileSync(ABOLISHED_MUNICIPALITIES_FILEPATH)
-      .toString("utf8");
-
-    const items = AbolishedMunicipalityArray.decode(
-      JSON.parse(removedMunicipalitiesRaw)
-    );
-    if (items.isLeft()) {
-      throw items.value;
-    }
-
-    return right(
-      items.reduce(
-        [] as ReadonlyArray<ISerializableMunicipality>,
-        (acc, val) => {
-          return val
-            .filter(m => municipalityToCatastale.has(m.comune.toLowerCase()))
-            .map(mm =>
-              fromAbolishedMunicipalityToSerializableMunicipality(
-                mm,
-                // we can use non-null assertion since here all items have a match into the map
-                municipalityToCatastale.get(mm.comune.toLowerCase())!
-              )
-            );
-        }
+  return readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
+    .chain(rawFile =>
+      AbolishedMunicipalityArray.decode(JSON.parse(rawFile)).mapLeft(
+        // TODO: a better description of the error could be obtained updating
+        //  the library io-ts to the latest version.
+        errors =>
+          new Error(
+            "Fail to parse the json file: " + ABOLISHED_MUNICIPALITIES_FILEPATH
+          )
       )
+    )
+    .map(abolishedMunArray =>
+      abolishedMunArray
+        .filter(am => municipalityToCatastale.has(am.comune.toLowerCase()))
+        .map(am =>
+          fromAbolishedMunicipalityToSerializableMunicipality(
+            am,
+            municipalityToCatastale.get(am.comune.toLowerCase())!
+          )
+        )
     );
-  } catch (ex) {
-    return left(new Error(String(ex)));
-  }
 };
 
 /**

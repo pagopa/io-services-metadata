@@ -49,7 +49,7 @@ export const decodeForeignCountry = (
   return Municipality.decode(municipality);
 };
 
-type StringMatrix = ReadonlyArray<ReadonlyArray<string>>;
+export type StringMatrix = ReadonlyArray<ReadonlyArray<string>>;
 // parse a string into csv records
 export const parseCsvMunicipality = (
   content: string,

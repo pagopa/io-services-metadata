@@ -29,8 +29,7 @@ export const serializeMunicipalityToJson = async (
   if (mayBeCodiceCatastale.isLeft()) {
     console.log(
       chalk.red(
-        "invalid Codice Catastale ",
-        serializableMunicipality.codiceCatastale
+        `invalid Codice Catastale "${serializableMunicipality.codiceCatastale}"`
       )
     );
     return;

@@ -1,10 +1,12 @@
 /**
  * util to create a simple type definition from a json file
+ * NOTE: this implementation supports only: string, boolean, number and nested plain object composed
+ * with previous types
  */
 
 import * as fs from "fs";
-import * as path from "path";
 import _ from "lodash";
+import * as path from "path";
 import * as prettier from "prettier";
 
 const args = process.argv;
@@ -31,12 +33,16 @@ const convertoObjectToType = (
 ): string => {
   const keys = Object.keys(obj);
   return keys.reduce((acc, curr, idx) => {
-    const valueType = typeof obj[curr];
     const last = idx === keys.length - 1;
-    if (valueType === "object") {
+    if (_.isPlainObject(obj[curr])) {
       const nested = convertoObjectToType(obj[curr]);
       // assume all fields are required
       return `${acc}\n${curr}: t.interface({${nested}})${last ? "" : ","}`;
+    }
+    const valueType = typeof obj[curr];
+    if (!mapping.has(valueType)) {
+      console.error(`${valueType} is not supported!`);
+      process.exit(1);
     }
     return `${acc}\n${curr}: ${mapping.get(valueType)}${last ? "" : ","}`;
   }, "");

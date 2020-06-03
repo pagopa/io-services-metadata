@@ -15,9 +15,9 @@ if (args.length < 3) {
   console.error("please provide a file to process");
   process.exit(1);
 }
-const fileToProcess = path.join(__dirname, args[2]);
+const fileToProcess = args[2];
 if (!fs.existsSync(fileToProcess)) {
-  console.error("the provided file to process doesn't exist!");
+  console.error(`the provided file ${fileToProcess} to process doesn't exist!`);
   process.exit(1);
 }
 

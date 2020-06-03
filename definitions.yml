@@ -75,6 +75,15 @@ definitions:
       - version
       - global
       - arubaid
+      - infocertid
+      - intesaid
+      - lepidaid
+      - namirialid
+      - posteid
+      - sielteid
+      - spiditalia
+      - timid
+      - xx_servizicie
     properties:
       version:
         type: number

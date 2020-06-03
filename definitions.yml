@@ -90,6 +90,24 @@ definitions:
             type: string
       arubaid: 
         $ref: '#/definitions/Idp'
+      infocertid: 
+        $ref: '#/definitions/Idp'
+      intesaid: 
+        $ref: '#/definitions/Idp'
+      lepidaid: 
+        $ref: '#/definitions/Idp'
+      namirialid: 
+        $ref: '#/definitions/Idp'
+      posteid: 
+        $ref: '#/definitions/Idp'
+      sielteid: 
+        $ref: '#/definitions/Idp'
+      spiditalia: 
+        $ref: '#/definitions/Idp'
+      timid: 
+        $ref: '#/definitions/Idp'
+      xx_servizicie: 
+        $ref: '#/definitions/Idp'
   Idp:
     type: object
     required:

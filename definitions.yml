@@ -89,7 +89,7 @@ definitions:
           sub_title:
             type: string
       arubaid: 
-        $ref: 'Idp'
+        $ref: '/Idp'
     Idp:
       type: object
       required:

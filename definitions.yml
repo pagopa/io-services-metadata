@@ -69,3 +69,68 @@ definitions:
         type: array
         items:
           type: string
+  IdpsTextData:
+    type: object
+    required:
+      - version
+      - global
+      - arubaid
+      - infocertid
+      - intesaid
+      - lepidaid
+      - namirialid
+      - posteid
+      - sielteid
+      - spiditalia
+      - timid
+      - xx_servizicie
+    properties:
+      version:
+        type: number
+      global: 
+        type: object
+        required:
+          - title
+          - sub_title
+        properties:
+          title:
+            type: string
+          sub_title:
+            type: string
+      arubaid: 
+        $ref: '#/definitions/Idp'
+      infocertid: 
+        $ref: '#/definitions/Idp'
+      intesaid: 
+        $ref: '#/definitions/Idp'
+      lepidaid: 
+        $ref: '#/definitions/Idp'
+      namirialid: 
+        $ref: '#/definitions/Idp'
+      posteid: 
+        $ref: '#/definitions/Idp'
+      sielteid: 
+        $ref: '#/definitions/Idp'
+      spiditalia: 
+        $ref: '#/definitions/Idp'
+      timid: 
+        $ref: '#/definitions/Idp'
+      xx_servizicie: 
+        $ref: '#/definitions/Idp'
+  Idp:
+    type: object
+    required:
+      - description
+      - email
+      - phone
+      - web_site
+    properties:
+      description: 
+        type: string
+      email: 
+        type: string
+      phone: 
+        type: string
+      web_site: 
+        type: string
+

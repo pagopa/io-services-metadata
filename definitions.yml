@@ -69,3 +69,21 @@ definitions:
         type: array
         items:
           type: string
+  IdpsTextData:
+    type: object
+    required:
+      - version
+      - global
+    properties:
+      version:
+        type: number
+      global: 
+        type: object
+        required:
+          - title
+          - sub_title
+        properties:
+          title:
+            type: string
+          sub_title:
+            type: string

@@ -89,21 +89,21 @@ definitions:
           sub_title:
             type: string
       arubaid: 
-        $ref: '/Idp'
-    Idp:
-      type: object
-      required:
-        - description
-        - email
-        - phone
-        - web_site
-      properties:
-        description: 
-          type: string
-        email: 
-          type: string
-        phone: 
-          type: string
-        web_site: 
-          type: string
+        $ref: '#/definitions/Idp'
+  Idp:
+    type: object
+    required:
+      - description
+      - email
+      - phone
+      - web_site
+    properties:
+      description: 
+        type: string
+      email: 
+        type: string
+      phone: 
+        type: string
+      web_site: 
+        type: string
 

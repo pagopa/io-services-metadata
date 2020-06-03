@@ -89,7 +89,7 @@ definitions:
             type: string
       arubaid: 
         schema: 
-          $ref: "#/definitions/Idp"
+          $ref: "#/Idp"
   Idp:
     type: object
     required:

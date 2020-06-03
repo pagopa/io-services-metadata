@@ -87,3 +87,25 @@ definitions:
             type: string
           sub_title:
             type: string
+      arubaid: 
+        schema: 
+          $ref: "#/definitions/Idp"
+
+definitions:
+  Idp:
+    type: object
+    required:
+      - description
+      - email
+      - phone
+      - web_site
+    properties:
+      description: 
+        type: string
+      email: 
+        type: string
+      phone: 
+        type: string
+      web_site: 
+        type: string
+

@@ -89,9 +89,9 @@ definitions:
             type: string
       arubaid: 
         schema: 
-          $ref: "#/definitions/Idp"
+          $ref: "#/inner_type/Idp"
 
-definitions:
+inner_type:
   Idp:
     type: object
     required:

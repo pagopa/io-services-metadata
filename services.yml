@@ -18,7 +18,7 @@ azure-deployc49a:
     richieste di feedback e altre istruzioni utili alla sperimentazione.
 
     IO è un progetto della Presidenza del Consiglio dei Ministri, iniziato dal Team per la Trasformazione Digitale
-    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.
+    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.  
 
   web_url: https://io.italia.it
   email: testing@io.italia.it
@@ -64,9 +64,6 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
-  phone: 06 4998 2715
-  email: servizio.gestione.pra@aci.it
-  pec: serviziogestionepra@pec.aci.it
   scope: NATIONAL
 
 #
@@ -192,7 +189,7 @@ azure-deployc49a:
       * essere avvisato in tempi utili sulla scadenza del tuo permesso ZTL.
 
   tos_url: https://www.comune.palermo.it/info.php
-  privacy_url: https://www.comune.palermo.it/info-privacy.php?id=23
+  privacy_url: https://www.comune.palermo.it/info-privacy.php?id=23 
   web_url: https://ztl.comune.palermo.it/ztl/jsp/home.do?sportello=ztl
   phone: 091 7401606
   email: ufficio.traffico@comune.palermo.it; mobilitaurbana@comune.palermo.it
@@ -442,7 +439,7 @@ azure-deployc49a:
 01E05AVS80MJDMS02EFWVT53H5:
   description: |
     Il servizio di Cassetta postale online consente di consultare tutta la corrispondenza inviata dall'INPS dal 2006 a oggi (esiti di istanze e provvedimenti, verbali di visite sanitarie e certificati medici, avvisi di addebito, certificazioni reddituali, ecc.). Possono accedere al servizio gli iscritti alle gestioni private dell'INPS muniti di credenziali.
-
+    
     Tramite IO potrai ricevere una notifica di avviso ogni volta che appare una nuova comunicazione nel Cassetto Postale.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
@@ -484,7 +481,7 @@ azure-deployc49a:
 01E1BR45PST73CEW511QVM2W89:
   description: |
     Il servizio consente di visualizzare lo stato di lavorazione di una richiesta presentata all’Istituto, selezionandola dall’elenco delle richieste abbinate al proprio codice fiscale.
-
+    
     Tramite IO potrai essere informato sullo stato di avanzamento delle richieste già inviate all'Istituto.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
@@ -552,6 +549,7 @@ azure-deployc49a:
   address: Viale Libertà 3 - 43044 Collecchio (PR)
   scope: LOCAL
 
+
 01E2XBVNSB2SZDJZGFP020C2YX:
   description: |
     Il Comune di Collecchio partecipa alla open-beta di IO. Tramite IO potrai:
@@ -583,6 +581,7 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.sala-baganza.pr.it
   address: via Vittorio Emanuele II, 34 - 43038 Sala Baganza (PR)
   scope: LOCAL
+
 
 01E36YSSP6ZG76GDHHT8VM9EKE:
   description: |
@@ -617,6 +616,7 @@ azure-deployc49a:
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
 
+
 01E36YXDGHHR9RQB465AH8NEJQ:
   description: |
     Il Comune di Montechiarugolo partecipa alla open-beta di IO. Tramite IO potrai:
@@ -629,6 +629,7 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.montechiarugolo.pr.it
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
+
 
 #
 # Municipality of Felino
@@ -723,6 +724,7 @@ azure-deployc49a:
   address: Dipartimento Attività Produttive, Via dei Cerchi, 6 - Roma
   scope: LOCAL
 
+
 01E1YAB4X63WG8BPBVR43KH3J1:
   description: |
     Il SUET è uno sportello telematico a disposizione dei cittadini e dei tecnici professionisti progettato per semplificare la presentazione delle comunicazioni e delle istanze necessarie per la realizzazione degli interventi edilizi, agevolarne l’istruttoria  da parte degli uffici competenti, monitorarne lo stato d’avanzamento da parte di tutti i soggetti interessati sino alla conclusione dell’intervento edilizio.
@@ -744,7 +746,7 @@ azure-deployc49a:
   description: |
     Il servizio carta d'identità ti aiuta nella gestione del tuo documento.
     Tramite IO potrai:
-
+    
     * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
     * procedere al rinnovo della carta d'identità elettronica, e effettuare il pagamento necessario.
 
@@ -769,6 +771,7 @@ azure-deployc49a:
   web_url: http://www.comune.bagnacavallo.ra.it/Guida-ai-servizi/I-Servizi-dalla-A-alla-Z/Dichiarazioni-anagrafiche-iscrizione-anagrafica-con-provenienza-da-altro-comune-iscrizione-anagrafica-dall-estero-cambio-di-abitazione-all-interno-del-comune-emigrazione-all-estero
   phone: 0545 280884
   email: anagrafe@comune.bagnacavallo.ra.it
-  pec: demografico.bagnacavallo@cert.unione.labassaromagna.it
+  pec: demografico.bagnacavallo@cert.unione.labassaromagna.it 
   address: Piazza Libertà, 5 - Bagnacavallo
   scope: LOCAL
+ 

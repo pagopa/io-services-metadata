@@ -79,9 +79,9 @@ definitions:
       version:
         type: number
       it:
-        type: '#/definitions/IdpsData'
+        $ref: '#/definitions/IdpsData'
       en:
-        type: '#/definitions/IdpsData'
+        $ref: '#/definitions/IdpsData'
   IdpsData:
     type: object
     required:
@@ -97,37 +97,37 @@ definitions:
       - spiditalia
       - timid
       - xx_servizicie
-      properties:
-        global: 
-          type: object
-          required:
-            - title
-            - sub_title
-          properties:
-            title:
-              type: string
-            sub_title:
-              type: string
-        arubaid: 
-          $ref: '#/definitions/Idp'
-        infocertid: 
-          $ref: '#/definitions/Idp'
-        intesaid: 
-          $ref: '#/definitions/Idp'
-        lepidaid: 
-          $ref: '#/definitions/Idp'
-        namirialid: 
-          $ref: '#/definitions/Idp'
-        posteid: 
-          $ref: '#/definitions/Idp'
-        sielteid: 
-          $ref: '#/definitions/Idp'
-        spiditalia: 
-          $ref: '#/definitions/Idp'
-        timid: 
-          $ref: '#/definitions/Idp'
-        xx_servizicie: 
-          $ref: '#/definitions/Idp'
+    properties:
+      global: 
+        type: object
+        required:
+          - title
+          - sub_title
+        properties:
+          title:
+            type: string
+          sub_title:
+            type: string
+      arubaid: 
+        $ref: '#/definitions/Idp'
+      infocertid: 
+        $ref: '#/definitions/Idp'
+      intesaid: 
+        $ref: '#/definitions/Idp'
+      lepidaid: 
+        $ref: '#/definitions/Idp'
+      namirialid: 
+        $ref: '#/definitions/Idp'
+      posteid: 
+        $ref: '#/definitions/Idp'
+      sielteid: 
+        $ref: '#/definitions/Idp'
+      spiditalia: 
+        $ref: '#/definitions/Idp'
+      timid: 
+        $ref: '#/definitions/Idp'
+      xx_servizicie: 
+        $ref: '#/definitions/Idp'
   Idp:
     type: object
     required:

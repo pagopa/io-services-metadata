@@ -216,8 +216,27 @@
             "action": "https://login.id.tim.it/mps/fp.php"
          }
       },
-      "xx_servizicie": {
-         "description": "Il provider selezionato è utilizzato per scopi di sviluppo e tsting dell'app.",
+      "cie": {
+         "description": "The selected provider is used for development purposes.",
+         "email": {
+            "cta": "invia un'e-mail",
+            "action": "fake@email.it"
+         },
+         "phone": {
+            "cta": "chiama",
+            "action": "00000000"
+         },
+         "web_site": {
+            "cta": "Vai al sito web",
+            "action": "https://www.pagopa.gov.it/it/pagopa-spa/"
+         },
+         "recover_password": {
+            "cta": "Recupera la password",
+            "action": "https://www.pagopa.gov.it/it/pagopa-spa/"
+         }
+      },
+      "test": {
+         "description": "The selected provider is used for development purposes.",
          "email": {
             "cta": "invia un'e-mail",
             "action": "fake@email.it"
@@ -452,7 +471,26 @@
             "action": "https://login.id.tim.it/mps/fp.php"
          }
       },
-      "xx_servizicie": {
+      "cie": {
+         "description": "The selected provider is used for development purposes.",
+         "email": {
+            "cta": "invia un'e-mail",
+            "action": "fake@email.it"
+         },
+         "phone": {
+            "cta": "chiama",
+            "action": "00000000"
+         },
+         "web_site": {
+            "cta": "Vai al sito web",
+            "action": "https://www.pagopa.gov.it/it/pagopa-spa/"
+         },
+         "recover_password": {
+            "cta": "Recupera la password",
+            "action": "https://www.pagopa.gov.it/it/pagopa-spa/"
+         }
+      },
+      "test": {
          "description": "The selected provider is used for development purposes.",
          "email": {
             "cta": "invia un'e-mail",

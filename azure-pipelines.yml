@@ -29,85 +29,84 @@
 # - TEST_STORAGE_ACCOUNT_NAME: storage account name for test only
 
 parameters:
-    - name: 'PRODUCTION_ENABLE_DATA_COPY'
-      displayName: 'Copy files in production environment'
-      type: boolean
-      default: true
+  - name: 'PRODUCTION_ENABLE_DATA_COPY'
+    displayName: 'Copy files in production environment'
+    type: boolean
+    default: true
+
+  - name: 'TEST_ENABLE_DATA_COPY'
+    displayName: 'Copy files in test environment'
+    type: boolean
+    default: false
   
-    - name: 'TEST_ENABLE_DATA_COPY'
-      displayName: 'Copy files in test environment'
-      type: boolean
-      default: false
+variables:
+  - name: BLOB_CONTAINER_NAME
+    value: '$web'
+  - name: EXCLUDE_PATH
+    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;.node-version;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
   
-  variables:
-    - name: BLOB_CONTAINER_NAME
-      value: '$web'
-    - name: EXCLUDE_PATH
-      value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;.node-version;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
-  
-  # Use Windows VM because the AzureFileCopy task is supported only on that OS
-  pool:
-    vmImage: 'windows-2019'
-  
-  # This pipeline can be manually run on any branch or is automatically triggered  
-  # in production whenever a push is made to the 'master' branch.
-  trigger:
-    branches:
-      include:
-        - 'master'
-  
-  jobs:
-    - ${{ if eq(parameters.PRODUCTION_ENABLE_DATA_COPY, true) }}:
-      - job: publish_assets_prod
-        condition: 
-          and(
-            succeeded(),
-            and (
-              eq(variables['ENABLE_DATA_COPY'], true),
-              or(
-                and(
-                  eq(variables['Build.SourceBranch'], 'refs/heads/master'),
-                  ne(variables['Build.Reason'], 'Manual')
-                ),
-                eq(variables['Build.Reason'], 'Manual')
-              )
+# Use Windows VM because the AzureFileCopy task is supported only on that OS
+pool:
+  vmImage: 'windows-2019'
+
+# This pipeline can be manually run on any branch or is automatically triggered  
+# in production whenever a push is made to the 'master' branch.
+trigger:
+  branches:
+    include:
+      - 'master'
+
+jobs:
+  - ${{ if eq(parameters.PRODUCTION_ENABLE_DATA_COPY, true) }}:
+    - job: publish_assets_prod
+      condition: 
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
             )
           )
-        steps:  
-          - task: AzureFileCopy@4
-            inputs:
-              SourcePath: '$(System.DefaultWorkingDirectory)/*'
-              azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
-              Destination: 'AzureBlob'
-              storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
-              ContainerName: '$(BLOB_CONTAINER_NAME)'
-              AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
-            displayName: Copy to container blob ($(PRODUCTION_STORAGE_ACCOUNT_NAME))
-  
-    - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:
-      - job: publish_assets_test
-        condition: 
-          and(
-            succeeded(),
-            and (
-              eq(variables['ENABLE_DATA_COPY'], true),
-              or(
-                and(
-                  eq(variables['Build.SourceBranch'], 'refs/heads/master'),
-                  ne(variables['Build.Reason'], 'Manual')
-                ),
-                eq(variables['Build.Reason'], 'Manual')
-              )
+        )
+      steps:  
+        - task: AzureFileCopy@4
+          inputs:
+            SourcePath: '$(System.DefaultWorkingDirectory)/*'
+            azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+            Destination: 'AzureBlob'
+            storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+            ContainerName: '$(BLOB_CONTAINER_NAME)'
+            AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+          displayName: Copy to container blob ($(PRODUCTION_STORAGE_ACCOUNT_NAME))
+
+  - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:
+    - job: publish_assets_test
+      condition: 
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
             )
           )
-        steps:  
-          - task: AzureFileCopy@4
-            inputs:
-              SourcePath: '$(System.DefaultWorkingDirectory)/*'
-              azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'
-              Destination: 'AzureBlob'
-              storage: '$(TEST_STORAGE_ACCOUNT_NAME)'
-              ContainerName: '$(BLOB_CONTAINER_NAME)'
-              AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
-            displayName: Copy to container blob ($(TEST_STORAGE_ACCOUNT_NAME))
-  
+        )
+      steps:  
+        - task: AzureFileCopy@4
+          inputs:
+            SourcePath: '$(System.DefaultWorkingDirectory)/*'
+            azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'
+            Destination: 'AzureBlob'
+            storage: '$(TEST_STORAGE_ACCOUNT_NAME)'
+            ContainerName: '$(BLOB_CONTAINER_NAME)'
+            AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+          displayName: Copy to container blob ($(TEST_STORAGE_ACCOUNT_NAME))

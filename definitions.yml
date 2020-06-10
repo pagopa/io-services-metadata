@@ -94,7 +94,8 @@ definitions:
       - sielteid
       - spiditalia
       - timid
-      - xx_servizicie
+      - cie
+      - test
     properties:
       arubaid: 
         $ref: '#/definitions/Idp'
@@ -114,7 +115,9 @@ definitions:
         $ref: '#/definitions/Idp'
       timid: 
         $ref: '#/definitions/Idp'
-      xx_servizicie: 
+      cie: 
+        $ref: '#/definitions/Idp'
+      test: 
         $ref: '#/definitions/Idp'
   Idp:
     type: object

@@ -18,7 +18,7 @@ azure-deployc49a:
     richieste di feedback e altre istruzioni utili alla sperimentazione.
 
     IO è un progetto della Presidenza del Consiglio dei Ministri, iniziato dal Team per la Trasformazione Digitale
-    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.  
+    in collaborazione con Agid nel 2018, e attualmente erogato e gestito dalla società PagoPA S.p.a.
 
   web_url: https://io.italia.it
   email: testing@io.italia.it
@@ -35,6 +35,7 @@ azure-deployc49a:
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
+  email: supporto.io-app@aci.it
   scope: NATIONAL
 
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
@@ -48,9 +49,7 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
-  phone: 06 4998 2721
-  email: serviziogestionetasseautomobilistiche@aci.it
-  pec: serviziogestionetasseautomobilistiche@pec.aci.it
+  email: supporto.io-app@aci.it
   scope: NATIONAL
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
@@ -64,22 +63,12 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
+  email: supporto.io-app@aci.it
   scope: NATIONAL
 
 #
 # Municipality of Milan
 #
-01D723T8K5SWNTV3YQF34KPJDY:
-  description: |
-    Il Comune di Milano partecipa alla open-beta di IO.
-    Tramite IO potrai:
-
-    * Ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta
-    * Essere sempre aggiornato in caso di integrazione di nuovi servizi
-
-  privacy_url: https://www.comune.milano.it/policy/privacy
-  phone: +39 02 02 02
-  scope: LOCAL
 
 01D5ECFA96C6HYNPXVC6P55D1S:
   description: |
@@ -170,17 +159,6 @@ azure-deployc49a:
   pec: comandopoliziamunicipale@cert.comune.palermo.it
   scope: LOCAL
 
-5b3f84eda9ab400f54dc5acbc49a:
-  description: |
-    Il Comune di Palermo partecipa alla open-beta di IO. 
-    Tramite IO potrai:
-
-      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
-      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
-
-  tos_url: https://io.italia.it/ente/comune-di-palermo.html
-  scope: LOCAL
-
 01DMNDFTJ4MGBW9CXA3Y5N91W4:
   description: |
     Il servizio ZTL permette di gestire i propri permessi per la mobilità in città. 
@@ -189,7 +167,7 @@ azure-deployc49a:
       * essere avvisato in tempi utili sulla scadenza del tuo permesso ZTL.
 
   tos_url: https://www.comune.palermo.it/info.php
-  privacy_url: https://www.comune.palermo.it/info-privacy.php?id=23 
+  privacy_url: https://www.comune.palermo.it/info-privacy.php?id=23
   web_url: https://ztl.comune.palermo.it/ztl/jsp/home.do?sportello=ztl
   phone: 091 7401606
   email: ufficio.traffico@comune.palermo.it; mobilitaurbana@comune.palermo.it
@@ -268,19 +246,6 @@ azure-deployc49a:
   email: assistenzaimu@comune.torino.it
   scope: LOCAL
 
-01DFB1ZQAGE24VRXT003221175:
-  description: |
-    Il Comune di Torino partecipa alla sperimentazione in open-beta dell'app IO. 
-    Tramite IO potrai:
-
-      * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
-      * essere sempre aggiornato in caso di integrazione di nuovi servizi.
-
-  tos_url: http://www.comune.torino.it/condizioni.shtml
-  privacy_url: https://io.italia.it/ente/comune-di-torino
-  phone: 800 450 900
-  email: info@torinofacile.it
-  scope: LOCAL
 #
 # Municipality of Ripalta Cremasca
 #
@@ -439,7 +404,7 @@ azure-deployc49a:
 01E05AVS80MJDMS02EFWVT53H5:
   description: |
     Il servizio di Cassetta postale online consente di consultare tutta la corrispondenza inviata dall'INPS dal 2006 a oggi (esiti di istanze e provvedimenti, verbali di visite sanitarie e certificati medici, avvisi di addebito, certificazioni reddituali, ecc.). Possono accedere al servizio gli iscritti alle gestioni private dell'INPS muniti di credenziali.
-    
+
     Tramite IO potrai ricevere una notifica di avviso ogni volta che appare una nuova comunicazione nel Cassetto Postale.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
@@ -481,7 +446,7 @@ azure-deployc49a:
 01E1BR45PST73CEW511QVM2W89:
   description: |
     Il servizio consente di visualizzare lo stato di lavorazione di una richiesta presentata all’Istituto, selezionandola dall’elenco delle richieste abbinate al proprio codice fiscale.
-    
+
     Tramite IO potrai essere informato sullo stato di avanzamento delle richieste già inviate all'Istituto.
 
   privacy_url: https://www.inps.it/NuovoportaleINPS/default.aspx?iMenu=105&lang=IT
@@ -528,7 +493,6 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
   scope: NATIONAL
-
 #
 # Municipality of Collecchio
 #
@@ -548,7 +512,6 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.collecchio.pr.it
   address: Viale Libertà 3 - 43044 Collecchio (PR)
   scope: LOCAL
-
 
 01E2XBVNSB2SZDJZGFP020C2YX:
   description: |
@@ -581,7 +544,6 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.sala-baganza.pr.it
   address: via Vittorio Emanuele II, 34 - 43038 Sala Baganza (PR)
   scope: LOCAL
-
 
 01E36YSSP6ZG76GDHHT8VM9EKE:
   description: |
@@ -616,7 +578,6 @@ azure-deployc49a:
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
 
-
 01E36YXDGHHR9RQB465AH8NEJQ:
   description: |
     Il Comune di Montechiarugolo partecipa alla open-beta di IO. Tramite IO potrai:
@@ -629,7 +590,6 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.montechiarugolo.pr.it
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
-
 
 #
 # Municipality of Felino
@@ -724,7 +684,6 @@ azure-deployc49a:
   address: Dipartimento Attività Produttive, Via dei Cerchi, 6 - Roma
   scope: LOCAL
 
-
 01E1YAB4X63WG8BPBVR43KH3J1:
   description: |
     Il SUET è uno sportello telematico a disposizione dei cittadini e dei tecnici professionisti progettato per semplificare la presentazione delle comunicazioni e delle istanze necessarie per la realizzazione degli interventi edilizi, agevolarne l’istruttoria  da parte degli uffici competenti, monitorarne lo stato d’avanzamento da parte di tutti i soggetti interessati sino alla conclusione dell’intervento edilizio.
@@ -746,7 +705,7 @@ azure-deployc49a:
   description: |
     Il servizio carta d'identità ti aiuta nella gestione del tuo documento.
     Tramite IO potrai:
-    
+
     * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
     * procedere al rinnovo della carta d'identità elettronica, e effettuare il pagamento necessario.
 
@@ -771,7 +730,107 @@ azure-deployc49a:
   web_url: http://www.comune.bagnacavallo.ra.it/Guida-ai-servizi/I-Servizi-dalla-A-alla-Z/Dichiarazioni-anagrafiche-iscrizione-anagrafica-con-provenienza-da-altro-comune-iscrizione-anagrafica-dall-estero-cambio-di-abitazione-all-interno-del-comune-emigrazione-all-estero
   phone: 0545 280884
   email: anagrafe@comune.bagnacavallo.ra.it
-  pec: demografico.bagnacavallo@cert.unione.labassaromagna.it 
+  pec: demografico.bagnacavallo@cert.unione.labassaromagna.it
   address: Piazza Libertà, 5 - Bagnacavallo
   scope: LOCAL
- 
+
+#
+# Municipality of Campi Bisenzio
+#
+
+01EAC1S4YXN04WC6GZJ2HX9651:
+  description: |
+    F.I.D.O. ti avvisa quando il Comune registra una posizione debitoria (detta anche pagamento in attesa) a tuo nome. 
+    Tramite IO potrai:
+
+    * essere avvisato all'emissione di una posizione debitoria.
+
+  privacy_url: www.comune.capi-bisenzio.fi.it/privacy
+  web_url: www.comune.capi-bisenzio.fi.it/fido
+  phone: 055 89591
+  email: fido@comune.campi-bisenzio.fi.it
+  pec: comune.campi-bisenzio@postacert.toscana.it
+  address: Piazza Dante, 36 - Campi Bisenzio
+  scope: LOCAL
+
+01EAC1VBNAQ30AF1C0H8JTFGXN:
+  description: |
+    F.I.D.O. consente di presentare domande (dette in gergo burocratico istanze) al Comune. Tramite IO potrai:
+
+    * ricevere una conferma alla presentazione della domanda;
+    * ricevere dei reminder relativi a domande non inviate;
+    * ricevere una comunicazione quando il Comune risponde a una tua domanda.
+
+  privacy_url: www.comune.capi-bisenzio.fi.it/privacy
+  web_url: www.comune.capi-bisenzio.fi.it/fido
+  phone: 055 89591
+  email: fido@comune.campi-bisenzio.fi.it
+  pec: comune.campi-bisenzio@postacert.toscana.it
+  address: Piazza Dante, 36 - Campi Bisenzio
+  scope: LOCAL
+
+#
+# Municipality of Reggio Emilia
+#
+
+01E8PWHM514G7YP06WPDMGH0V5:
+  description: |
+    Tramite i servizi demografici del Comune di Reggio Emilia su IO potrai:
+
+    * ricevere un promemoria che ti avvisa della scadenza della tua carta di identità;
+    * ricevere un promemoria dell'appuntamento fissato per il rinnovo del documento.
+
+  privacy_url: https://www.comune.re.it/privacy
+  web_url: https://www.comune.re.it/retecivica/urp/pes.nsf/web/vntdllvt?opendocument
+  phone: 0522 585958
+  email: servizidemografici@comune.re.it
+  pec: comune.reggioemilia@pec.municipio.re.it
+  address: Via Toschi, 27 - 42121 Reggio Emilia
+  scope: LOCAL
+
+01E9FQBB51N80EJ79Y1RFQC2XD:
+  description: |
+    Tramite il servizio SUAP del Comune di Reggio Emilia su IO potrai:
+
+    * ricevere avvisi di pagamento e di scadenze COSAP ed effettuare i pagamenti;
+    * a breve, ricevere autorizzazioni COSAP.
+
+  privacy_url: https://www.comune.re.it/privacy
+  web_url: https://www.comune.re.it/retecivica/urp/pes.nsf/web/vntdllvt?opendocument
+  pec: comune.reggioemilia@pec.municipio.re.it
+  address: Via Toschi, 27 - 42121 Reggio Emilia
+  scope: LOCAL
+
+#
+# Municipality of Campello sul Clitunno
+#
+
+01E9Z5M0N9FK3AQYXPZ4F0CKR9:
+  description: |
+    Il servizio di Pagamenti per Refezione Scolastica offre la possibilità di gestire dei pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste. 
+    Tramite IO potrai:
+
+    * gestire il pagamento della mensa scolastica, ricevere avvisi e solleciti.
+
+  privacy_url: https://www.comune.campello.pg.it/pagine/privacy
+  web_url: https://www.comune.campello.pg.it/
+  phone: 0743 271927; 0743 271946
+  email: area.finanziaria@comune.campello.pg.it
+  pec: comune.campellosulclitunno@postacert.umbria.it
+  address: Piazza Ranieri Campello, 4 - Campello sul Clitunno
+  scope: LOCAL
+
+01E9Z5V0EK8HS8KZV0CB12421Z:
+  description: |
+    Il servizio di Pagamenti dei Tributi limitatamente alla IMU e alla TARI avviene tramite F24, l'App IO per tali tributi provvedera' a inviare solleciti di versamento e avvisi vari. Per gli altri tributi comunali, in particolar modo la TOSAP riferita la Mercatino dell'Antiquariatodi Pissignano, la stessa offre la possibilità di gestire avvisi e solleciti ed i pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste. 
+    Tramite IO potrai:
+
+    * gestire il pagamento dei tributi comunali eccetto IMU e TARI la cui modalità rimane quella del F24, e ricevere comunicazioni e solleciti.
+
+  privacy_url: https://www.comune.campello.pg.it/pagine/privacy
+  web_url: https://www.comune.campello.pg.it/
+  phone: 0743 271927; 0743 271946
+  email: area.finanziaria@comune.campello.pg.it
+  pec: comune.campellosulclitunno@postacert.umbria.it
+  address: Piazza Ranieri Campello, 4 - Campello sul Clitunno
+  scope: LOCAL

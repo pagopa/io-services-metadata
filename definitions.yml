@@ -160,4 +160,34 @@ definitions:
         type: string
       recover_emergency_code:
         type: string
+  BonusesAvailable:
+    type: array
+      items:
+        $ref: '#/definitions/BonusAvailable'
+  BonusAvailable:
+    type: object
+    required:
+      - id_type
+      - name
+      - subtitle
+      - is_active
+      - valid_from
+      - valid_to
+    properties:
+      id_type: 
+        type: number
+      name: 
+        type: string
+      subtitle:
+        type: string
+      is_active: 
+        type: boolean
+      description: 
+        type: string
+      cover:
+        type: string
+      valid_from: 
+        type: date-time
+      valid_to: 
+        type: date-time
 

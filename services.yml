@@ -43,7 +43,7 @@ azure-deployc49a:
     I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
     Tramite IO potrai:
 
-    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (per i registrati almeno un mese prima della scadenza del pagamento);
+    * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (se ti sei registrato nell'app almeno un mese prima della scadenza del pagamento);
     * pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
@@ -58,7 +58,7 @@ azure-deployc49a:
     Tramite IO potrai:
 
     * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
-    * ricevere un riepilogo dei veicoli di cui risulti intestatario al PRA alla data di invio.
+    * ricevere un riepilogo dei certificati/attestati di proprietà dei veicoli di cui risulti intestatario al PRA al momento dell'invio del riepilogo.
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
@@ -493,6 +493,7 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
   scope: NATIONAL
+
 #
 # Municipality of Collecchio
 #
@@ -745,8 +746,8 @@ azure-deployc49a:
 
     * essere avvisato all'emissione di una posizione debitoria.
 
-  privacy_url: www.comune.capi-bisenzio.fi.it/privacy
-  web_url: www.comune.capi-bisenzio.fi.it/fido
+  privacy_url: https://www.comune.campi-bisenzio.fi.it/privacy
+  web_url: https://www.comune.campi-bisenzio.fi.it/fido
   phone: 055 89591
   email: fido@comune.campi-bisenzio.fi.it
   pec: comune.campi-bisenzio@postacert.toscana.it
@@ -761,8 +762,8 @@ azure-deployc49a:
     * ricevere dei reminder relativi a domande non inviate;
     * ricevere una comunicazione quando il Comune risponde a una tua domanda.
 
-  privacy_url: www.comune.capi-bisenzio.fi.it/privacy
-  web_url: www.comune.capi-bisenzio.fi.it/fido
+  privacy_url: https://www.comune.campi-bisenzio.fi.it/privacy
+  web_url: https://www.comune.campi-bisenzio.fi.it/fido
   phone: 055 89591
   email: fido@comune.campi-bisenzio.fi.it
   pec: comune.campi-bisenzio@postacert.toscana.it

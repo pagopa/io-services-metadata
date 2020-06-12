@@ -2,7 +2,7 @@
    {
       "id_type": 1,
       "name": "Bonus Vacanze",
-      "subtitle": "richiedibile dal 01/07/2020 al 31/12/2020",
+      "subtitle": "dal 01/07/2020 al 31/12/2020",
       "is_active": true,
       "content": "descrizione bonus vacanze",
       "valid_from": "2020-07-01T00:00:00.000Z",

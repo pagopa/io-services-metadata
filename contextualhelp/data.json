@@ -1,13 +1,7 @@
 {
    "version": 1,
    "it": {
-      "screens": [
-         {
-            "route_name": "PROFILE_MAIN",
-            "title": "title",
-            "content": "**content**"
-         }
-      ],
+      "screens": [],
       "idps": {
          "arubaid": {
             "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Aruba selezionando una delle opzioni disponibili qui.",

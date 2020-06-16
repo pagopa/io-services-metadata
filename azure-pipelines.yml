@@ -1,0 +1,112 @@
+# Azure DevOps pipeline for uploading files from this repository to a container 
+# on Azure storage account that is served up via the static website support and 
+# fronted via an Azure CDN. 
+# 
+# WARNING. The current implementation is based on DevOps AzureFileCopy task that  
+# copies the new files up to Azure Storage overwriting the existing ones but never 
+# removes the old files.
+# In most scenarios, this is not a problem and avoid to remove assets that could be
+# still requested by old client versions (e.g. mobile apps). By the way, in the
+# future we could add the option to copy out the new files, update existing files 
+# and remove the ones that no longer exist (using AzCopy sync command). 
+#
+# To enable the copying of data to the remote blob container, you first have to 
+# set the following pipeline variable to true, otherwise all jobs will be skipped 
+# regardless the environment:
+# - ENABLE_DATA_COPY = true
+#
+# The following parameters needs to be set to identify the target environment where
+# copying the GitHub content for the specified branch (tipically master):
+# - PRODUCTION_ENABLE_DATA_COPY: true || false   (default is true)
+# - TEST_ENABLE_DATA_COPY:       true || false   (default is false)
+#
+# The following pipeline variables have to be added and configured based on the
+# environment:
+# - PRODUCTION_AZURE_SUBSCRIPTION: service connection name
+# - PRODUCTION_STORAGE_ACCOUNT_NAME: storage account name
+#
+# - TEST_AZURE_SUBSCRIPTION: service connection name for test only
+# - TEST_STORAGE_ACCOUNT_NAME: storage account name for test only
+
+parameters:
+  - name: 'PRODUCTION_ENABLE_DATA_COPY'
+    displayName: 'Copy files in production environment'
+    type: boolean
+    default: true
+
+  - name: 'TEST_ENABLE_DATA_COPY'
+    displayName: 'Copy files in test environment'
+    type: boolean
+    default: false
+  
+variables:
+  - name: BLOB_CONTAINER_NAME
+    value: '$web'
+  - name: EXCLUDE_PATH
+    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;.node-version;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
+  
+# Use Windows VM because the AzureFileCopy task is supported only on that OS
+pool:
+  vmImage: 'windows-2019'
+
+# This pipeline can be manually run on any branch or is automatically triggered  
+# in production whenever a push is made to the 'master' branch.
+trigger:
+  branches:
+    include:
+      - 'master'
+
+jobs:
+  - ${{ if eq(parameters.PRODUCTION_ENABLE_DATA_COPY, true) }}:
+    - job: publish_assets_prod
+      condition: 
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
+            )
+          )
+        )
+      steps:  
+        - task: AzureFileCopy@4
+          inputs:
+            SourcePath: '$(System.DefaultWorkingDirectory)/*'
+            azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+            Destination: 'AzureBlob'
+            storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+            ContainerName: '$(BLOB_CONTAINER_NAME)'
+            AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+          displayName: Copy to container blob ($(PRODUCTION_STORAGE_ACCOUNT_NAME))
+
+  - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:
+    - job: publish_assets_test
+      condition: 
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
+            )
+          )
+        )
+      steps:  
+        - task: AzureFileCopy@4
+          inputs:
+            SourcePath: '$(System.DefaultWorkingDirectory)/*'
+            azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'
+            Destination: 'AzureBlob'
+            storage: '$(TEST_STORAGE_ACCOUNT_NAME)'
+            ContainerName: '$(BLOB_CONTAINER_NAME)'
+            AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+          displayName: Copy to container blob ($(TEST_STORAGE_ACCOUNT_NAME))

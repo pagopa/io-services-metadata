@@ -169,6 +169,7 @@ definitions:
     required:
       - id_type
       - name
+      - title
       - subtitle
       - content
       - is_active
@@ -179,6 +180,8 @@ definitions:
         type: number
       name:
         type: string
+      title:
+        type: string
       subtitle:
         type: string
       content:
@@ -188,6 +191,10 @@ definitions:
       cover:
         type: string
       sponsorship_cover:
+        type: string
+      sponsorship_description:
+        type: string
+      tos_url:
         type: string
       valid_from:
         $ref: "#/definitions/Timestamp"

@@ -799,7 +799,7 @@ azure-deployc49a:
   privacy_url: https://www.comune.re.it/privacy
   web_url: https://www.comune.re.it/retecivica/urp/pes.nsf/web/vntdllvt?opendocument
   pec: comune.reggioemilia@pec.municipio.re.it
-  address: Via Toschi, 27 - 42121 Reggio Emilia
+  address: Via Emilia a San Pietro, 12 - 42121 Reggio Emilia
   scope: LOCAL
 
 #
@@ -834,4 +834,25 @@ azure-deployc49a:
   email: area.finanziaria@comune.campello.pg.it
   pec: comune.campellosulclitunno@postacert.umbria.it
   address: Piazza Ranieri Campello, 4 - Campello sul Clitunno
+  scope: LOCAL
+
+#
+# Municipality of Cremona
+#
+
+01E983KMACRZ0MTWEKP6TVC0W6:
+  description: |
+    Il Comune di Cremona aderisce al Sistema PagoPA per il pagamento TARI per utenze domestiche. 
+    Tramite IO potrai:
+
+    * effettuare il pagamento dell’acconto TARI 2020 in rata unica;
+    * effettuare il pagamento dell’acconto TARI 2020 in due rate separate;
+    * effettuare il pagamento del saldo TARI 2020.
+
+  privacy_url: https://www.comune.cremona.it/privacy
+  web_url: https://www.comune.cremona.it
+  phone: 0372 4071
+  email: tari@comune.cremona.it
+  pec: protocollo@comunedicremona.legalmail.it
+  address: Piazza del Comune, 8 - Cremona
   scope: LOCAL

@@ -43,7 +43,7 @@ variables:
   - name: BLOB_CONTAINER_NAME
     value: '$web'
   - name: EXCLUDE_PATH
-    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;.node-version;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
+    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
   
 # Use Windows VM because the AzureFileCopy task is supported only on that OS
 pool:

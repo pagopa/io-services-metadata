@@ -55,6 +55,7 @@ trigger:
   branches:
     include:
       - 'master'
+pr: none      
 
 jobs:
   - ${{ if eq(parameters.PRODUCTION_ENABLE_DATA_COPY, true) }}:

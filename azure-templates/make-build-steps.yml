@@ -1,0 +1,38 @@
+# Azure DevOps pipeline template used to checkout, install node dependencies and build the code. 
+
+parameters:
+- name: 'make'
+  type: string
+  default: install_dependencies
+  values:
+  - install_dependencies
+  - build
+
+- name: 'cache_version_id'
+  type: string
+  default: $(CACHE_VERSION_ID)
+  
+steps:
+- checkout: self
+  displayName: 'Checkout'
+      
+- task: Cache@2
+  inputs:
+    key: 'yarn-${{ parameters.cache_version_id }} | "$(Agent.OS)" | yarn.lock'
+    restoreKeys: |
+      yarn-${{ parameters.cache_version_id }} | "$(Agent.OS)"
+    path: $(YARN_CACHE_FOLDER)
+  displayName: 'Cache yarn packages'
+
+- task: UseNode@1
+  inputs:
+    version: $(NODE_VERSION)
+  displayName: 'Set up Node.js'
+    
+- script: |
+    yarn install --frozen-lockfile --no-progress --non-interactive --network-concurrency 1
+  displayName: 'Install node modules'
+
+- ${{ if eq(parameters.make, 'build') }}:
+  - bash: yarn build
+    displayName: 'Build code'

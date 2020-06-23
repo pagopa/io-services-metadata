@@ -201,15 +201,16 @@ definitions:
       - title
       - subtitle
       - content
-    name:
-      type: string
-    title:
-      type: string
-    subtitle:
-      type: string
-    content:
-      type: string
-    tos_url:
-      type: string
+    properties:
+      name:
+        type: string
+      title:
+        type: string
+      subtitle:
+        type: string
+      content:
+        type: string
+      tos_url:
+        type: string
   Timestamp:
     $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"

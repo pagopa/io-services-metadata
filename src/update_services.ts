@@ -26,7 +26,7 @@ async function run(rootPath: string): Promise<void> {
     const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
       filename: servicesYamlPath,
       json: false,
-      strict: true,
+      strict: true
     });
     const maybeServices = Services.decode(servicesYamlData);
     if (maybeServices.isLeft()) {
@@ -39,7 +39,7 @@ async function run(rootPath: string): Promise<void> {
 
     console.log(chalk.gray("[2/4]"), "Generating services JSON...");
     await Promise.all(
-      serviceIds.map(async (serviceId) => {
+      serviceIds.map(async serviceId => {
         const servicePath = path.join(
           "services",
           `${serviceId.toLowerCase()}.json`
@@ -54,12 +54,12 @@ async function run(rootPath: string): Promise<void> {
 
     console.log(chalk.gray("[3/4]"), "Generating scope services JSON...");
     // filter the services id which have scope LOCAL
-    const locals = serviceIds.filter((sId) => {
+    const locals = serviceIds.filter(sId => {
       const service = services[sId];
       return service.scope === scopeEnum.LOCAL;
     });
     // filter the services id which have scope NATIONAL
-    const nationals = serviceIds.filter((sId) => {
+    const nationals = serviceIds.filter(sId => {
       const service = services[sId];
       return service.scope === scopeEnum.NATIONAL;
     });
@@ -73,14 +73,14 @@ async function run(rootPath: string): Promise<void> {
 
     console.log(chalk.gray("[4/4]"), "Checking data..");
     // print a warning if some services have no email and phone
-    const noEmailAndPhoneServices = Object.keys(services).filter((sId) => {
+    const noEmailAndPhoneServices = Object.keys(services).filter(sId => {
       const service = services[sId];
       return service.email === undefined && service.phone === undefined;
     });
     if (noEmailAndPhoneServices.length > 0) {
       console.log(chalk.yellow("⚠️ these services have no email and phone:"));
     }
-    noEmailAndPhoneServices.forEach((s) => {
+    noEmailAndPhoneServices.forEach(s => {
       const des = services[s].description;
       console.log(
         chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) + "..." : ""}`)
@@ -93,7 +93,4 @@ async function run(rootPath: string): Promise<void> {
   }
 }
 
-run(root).then(
-  () => console.log("done"),
-  () => process.exit(1)
-);
+run(root).then(() => console.log("done"), () => process.exit(1));

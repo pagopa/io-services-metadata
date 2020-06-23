@@ -1,6 +1,6 @@
 # Services Metadata for the Digital Citizenship initiative
 
-This repository contains metadata for services used by the IO app.
+This repository contains data and metadata for services used by the IO app.
 
 ## Prerequisites
 
@@ -21,4 +21,11 @@ This repository contains metadata for services used by the IO app.
 1. Create a git branch
 1. Run `yarn generate:definitions`
 1. Run `yarn update_municipalities`
+1. Commit, push and create a Pull Request
+
+## Updating services data
+
+1. Create a git branch
+1. Manually update or create new public services data (`services-data`)
+1. Manually update services description of all visible services
 1. Commit, push and create a Pull Request

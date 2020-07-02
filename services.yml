@@ -27,7 +27,7 @@ azure-deployc49a:
 #
 01DBJNFSJYB53TP0AZNA8FQGJJ:
   description: |
-    L'Automobile Club Italia partecipa alla open-beta di IO. 
+    L'Automobile Club Italia partecipa alla open-beta di IO.
     Tramite IO potrai:
 
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
@@ -39,7 +39,7 @@ azure-deployc49a:
 
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
   description: |
-    I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. 
+    I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche.
     Tramite IO potrai:
 
     * ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto (se ti sei registrato nell'app almeno un mese prima della scadenza del pagamento);
@@ -92,7 +92,7 @@ azure-deployc49a:
   privacy_url: https://www.comune.milano.it/policy/privacy
   web_url: https://web.comune.milano.it/wps/myportal/myMilano/app/fascicolocittadino/imieipagamenti
   address: Sportello Unico Polizia Locale - Area Procedure Sanzionatorie e Traffico - Via Friuli n° 30
-  phone: +39 02 772 73143
+  phone: +39 020202
   email: PL.SanzioniVerbali@comune.milano.it
   scope: LOCAL
 
@@ -111,15 +111,15 @@ azure-deployc49a:
 
 01D5RQM2NVWM2QVZPQQ4FC8Z2E:
   description: |
-    Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni. 
+    Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni.
     Tramite IO potrai:
 
     * Ricevere un promemoria in prossimità della scadenza della tua carta d'identità.
 
   web_url: https://www.comune.milano.it/fascicolo-del-cittadino
   privacy_url: https://www.comune.milano.it/policy/privacy
-  phone: +39 02 884 62274
-  pec: servizialcittadino@postcert.comune.milano.it
+  phone: +39 020202
+  pec: servizialcittadino@postacert.comune.milano.it
   scope: LOCAL
 
 #
@@ -144,7 +144,7 @@ azure-deployc49a:
 
 01DHVH3X6E29SB4KAGBFPZGS2A:
   description: |
-    Il Comando di Polizia Municipale del Comune di Palermo si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto. 
+    Il Comando di Polizia Municipale del Comune di Palermo si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto.
     Tramite IO potrai:
 
       * ricevere eventuali avvisi di contravvenzione al codice della strada, e procedere al pagamento online delle sanzioni previste.
@@ -158,9 +158,10 @@ azure-deployc49a:
   pec: comandopoliziamunicipale@cert.comune.palermo.it
   scope: LOCAL
 
+
 01DMNDFTJ4MGBW9CXA3Y5N91W4:
   description: |
-    Il servizio ZTL permette di gestire i propri permessi per la mobilità in città. 
+    Il servizio ZTL permette di gestire i propri permessi per la mobilità in città.
     Tramite IO potrai:
 
       * essere avvisato in tempi utili sulla scadenza del tuo permesso ZTL.
@@ -183,7 +184,7 @@ azure-deployc49a:
     SportelloFacile è un servizio on-line che consente a tutti i cittadini di effettuare delle prenotazioni di appuntamento presso diversi sportelli della Città di Torino.
     Tramite IO potrai:
 
-      * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale; 
+      * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale;
       * essere notificato in caso di modifica o disdetta dell'appuntamento.
 
   tos_url: http://www.comune.torino.it/condizioni.shtml
@@ -250,7 +251,7 @@ azure-deployc49a:
 #
 01DECE05RF356RDC7QV1DAT2QR:
   description: |
-    Il Comune di Ripalta Cremasca partecipa alla open-beta di IO. 
+    Il Comune di Ripalta Cremasca partecipa alla open-beta di IO.
     Tramite IO potrai:
 
       * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
@@ -264,7 +265,7 @@ azure-deployc49a:
 
 01DCER0VWBJVY6K6YXK1XM54C9:
   description: |
-    I servizi scolastici di Ripalta Cremasca includono asilo nido, refezione scolastica, trasporto scolastico, pre e post-scuola, centri estivi, integrazione scolastica, fornitura libri di testo e contributi per libri di testo e borse di studio. 
+    I servizi scolastici di Ripalta Cremasca includono asilo nido, refezione scolastica, trasporto scolastico, pre e post-scuola, centri estivi, integrazione scolastica, fornitura libri di testo e contributi per libri di testo e borse di studio.
     Tramite IO potrai:
 
       * procedere al pagamento della mensa scolastica.
@@ -295,7 +296,7 @@ azure-deployc49a:
 
 01DCER0ANWQF5908X5YX3NKJD0:
   description: |
-    Il servizio CIE include l'emissione della carta di identità elettronica per scadenza naturale della carta di identità precedente o per smarrimento o furto della carta di identità. 
+    Il servizio CIE include l'emissione della carta di identità elettronica per scadenza naturale della carta di identità precedente o per smarrimento o furto della carta di identità.
     Tramite IO potrai:
 
       * procedere al pagamento della nuova CIE (carta di identità elettronica).
@@ -341,7 +342,7 @@ azure-deployc49a:
 
 01DNEZT8BC7MFM96Q4J0MS72E2:
   description: |
-    Il servizio di Pagamenti per Servizi scolastici offre la possibilità di gestire dei pagamenti direttamente attraverso l'app. 
+    Il servizio di Pagamenti per Servizi scolastici offre la possibilità di gestire dei pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * gestire il pagamento di servizi scolastici come nido d’infanzia, trasporto scolastico, prolungamento d’orario e buoni pasto a debito.
@@ -384,7 +385,7 @@ azure-deployc49a:
 
 01DBCRDSXAT2CP73KVFHFSXD0P:
   description: |
-    Il servizio di Avvisi per Servizi scolastici fornisce informazioni legate alle attività scolastiche. 
+    Il servizio di Avvisi per Servizi scolastici fornisce informazioni legate alle attività scolastiche.
     Tramite IO potrai:
 
       * ricevere avvisi e informazioni sui bandi per l'iscrizione ai servizi scolastici.
@@ -414,11 +415,11 @@ azure-deployc49a:
 
 01E05AVT3X56X1Z4R19AT7CJ84:
   description: |
-    Il servizio INPS Risponde consente di inoltrare all'INPS, via email, quesiti e richieste di chiarimenti su aspetti normativi o procedimentali, richieste di informazioni o relative a servizi e a singole pratiche.                        
+    Il servizio INPS Risponde consente di inoltrare all'INPS, via email, quesiti e richieste di chiarimenti su aspetti normativi o procedimentali, richieste di informazioni o relative a servizi e a singole pratiche.
     Con INPS Risponde è possibile, inoltre, verificare lo stato delle proprie richieste (In attesa di lavorazione, Inviata alla struttura INPS, Evasa dal Contact center, Evasa dalla struttura INPS).
-    INPS Risponde è parte integrante del sistema telematico di Gestione dei rapporti con l’utenza (Customer Relationship Management – CRM) che I'Istituto ha sviluppato nel 2012 per integrare il servizio di Contact center multicanale (CCM), gestito online da operatori esterni (front office e back office di I livello) con l’attività di gestione dei rapporti con l’utenza degli esperti delle strutture territoriali INPS (back office di II livello).    
-    Questo servizio è il canale attraverso il quale inviare autonomamente quesiti o richieste di informazioni, nel caso non sia necessario l’aiuto degli operatori del Contact center multicanale, raggiungibile via telefono fisso o mobile (numero 803 164, gratuito da rete fissa o numero 06 164164 da telefono mobile a pagamento secondo la tariffa del proprio gestore) o via web (tramite VOIP o Web collaboration).                                                            
-    Se il backoffice di I livello (operatori INPS Risponde) non può evadere la richiesta, genera un quesito Linea INPS e lo inoltra alla struttura INPS competente (back office di II livello). Per questa ragione, se si accede a INPS Risponde autenticandosi con il proprio PIN, si potrà consultare con le funzioni di ricerca sia l’elenco e lo stato delle richieste inviate tramite il servizio INPS Risponde sia l’elenco delle richieste in attesa di risposta, inviate tramite gli operatori del Contact center alle strutture INPS (quesiti Linea INPS).                                                     
+    INPS Risponde è parte integrante del sistema telematico di Gestione dei rapporti con l’utenza (Customer Relationship Management – CRM) che I'Istituto ha sviluppato nel 2012 per integrare il servizio di Contact center multicanale (CCM), gestito online da operatori esterni (front office e back office di I livello) con l’attività di gestione dei rapporti con l’utenza degli esperti delle strutture territoriali INPS (back office di II livello).
+    Questo servizio è il canale attraverso il quale inviare autonomamente quesiti o richieste di informazioni, nel caso non sia necessario l’aiuto degli operatori del Contact center multicanale, raggiungibile via telefono fisso o mobile (numero 803 164, gratuito da rete fissa o numero 06 164164 da telefono mobile a pagamento secondo la tariffa del proprio gestore) o via web (tramite VOIP o Web collaboration).
+    Se il backoffice di I livello (operatori INPS Risponde) non può evadere la richiesta, genera un quesito Linea INPS e lo inoltra alla struttura INPS competente (back office di II livello). Per questa ragione, se si accede a INPS Risponde autenticandosi con il proprio PIN, si potrà consultare con le funzioni di ricerca sia l’elenco e lo stato delle richieste inviate tramite il servizio INPS Risponde sia l’elenco delle richieste in attesa di risposta, inviate tramite gli operatori del Contact center alle strutture INPS (quesiti Linea INPS).
     È possibile, infine, sollecitare la risposta ad un quesito Linea INPS, qualora non sia pervenuto un riscontro entro 15 giorni. Le risposte saranno inviate per email all’indirizzo indicato nella maschera di inserimento della richiesta; è consigliabile indicare anche il proprio recapito telefonico per poter essere contattati dagli esperti INPS per eventuali chiarimenti relativi al quesito posto, utili a gestire la propria richiesta. Gli eventuali documenti o certificati richiesti saranno trasmessi per posta prioritaria.
 
     Tramite IO potrai ricevere una notifica di conferma della richiesta inoltrata.
@@ -431,7 +432,7 @@ azure-deployc49a:
 
 01E05E5HA9WXBEPYXACMB1KX2B:
   description: |
-    Il servizio consente di visualizzare il dettaglio di un pagamento erogato dall’Istituto a favore dell’utente a fronte di una prestazione pensionistica o non pensionistica.                                        
+    Il servizio consente di visualizzare il dettaglio di un pagamento erogato dall’Istituto a favore dell’utente a fronte di una prestazione pensionistica o non pensionistica.
     Il servizio non visualizza i dati di pagamenti disposti da più di due mesi.
 
     Tramite IO potrai essere informato sul dettaglio del pagamento già erogato.
@@ -456,7 +457,7 @@ azure-deployc49a:
 
 01E1BR5ETNYBDMQCDY3QBC9FHA:
   description: |
-    Il servizio di Pagamento ai Lavoratori Domestici permette di eseguire: 
+    Il servizio di Pagamento ai Lavoratori Domestici permette di eseguire:
 
       * il pagamento online tramite pagoPA;
       * la visualizzazione e stampa dell'Avviso di Pagamento pagoPA;
@@ -473,8 +474,8 @@ azure-deployc49a:
 
 01E1BR63EK8ZZ5WWKRAXB473Y8:
   description: |
-    Il servizio permette di verificare lo stato della domanda della Nuova Assicurazione Sociale per l'Impiego (NASpI).               
-    La NASpI è una indennità mensile di disoccupazione, istituita dall'articolo 1, decreto legislativo 4 marzo 2015, n. 22, che sostituisce le precedenti prestazioni di disoccupazione ASpI e MiniASpI, in relazione agli eventi di disoccupazione involontaria che si sono verificati a decorrere dal 1° maggio 2015.               
+    Il servizio permette di verificare lo stato della domanda della Nuova Assicurazione Sociale per l'Impiego (NASpI).
+    La NASpI è una indennità mensile di disoccupazione, istituita dall'articolo 1, decreto legislativo 4 marzo 2015, n. 22, che sostituisce le precedenti prestazioni di disoccupazione ASpI e MiniASpI, in relazione agli eventi di disoccupazione involontaria che si sono verificati a decorrere dal 1° maggio 2015.
     La NASpI viene erogata su domanda dell'interessato.
 
     Tramite IO potrai ricevere una comunicazione che ti informa del diritto ad effettuare la domanda e le istruzioni necessarie.
@@ -492,14 +493,13 @@ azure-deployc49a:
     * ricevere messaggi informativi a carattere istituzionale che ti accompagnano nel corso della beta;
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
   scope: NATIONAL
-
 #
 # Municipality of Collecchio
 #
 
 01E2XCR1N4VNMG18XJ5BD4BV9Y:
   description: |
-    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
@@ -512,6 +512,7 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.collecchio.pr.it
   address: Viale Libertà 3 - 43044 Collecchio (PR)
   scope: LOCAL
+
 
 01E2XBVNSB2SZDJZGFP020C2YX:
   description: |
@@ -532,7 +533,7 @@ azure-deployc49a:
 
 01E36YVB7NDWK7FFF6DBNVDZTP:
   description: |
-    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
@@ -544,6 +545,7 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.sala-baganza.pr.it
   address: via Vittorio Emanuele II, 34 - 43038 Sala Baganza (PR)
   scope: LOCAL
+
 
 01E36YSSP6ZG76GDHHT8VM9EKE:
   description: |
@@ -564,7 +566,7 @@ azure-deployc49a:
 
 01E36YY11TMJAC7W9FH0ETF3QZ:
   description: |
-    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
@@ -577,6 +579,7 @@ azure-deployc49a:
   pec: protocollo@postacert.comune.montechiarugolo.pr.it
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
+
 
 01E36YXDGHHR9RQB465AH8NEJQ:
   description: |
@@ -591,13 +594,14 @@ azure-deployc49a:
   address: Piazza Rivasi 3 - 43022 Montechiarugolo (PR)
   scope: LOCAL
 
+
 #
 # Municipality of Felino
 #
 
 01E4XD5N8F4XH9ARGV3SAXMZT0:
   description: |
-    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
@@ -617,7 +621,7 @@ azure-deployc49a:
 
 01E6TTG0VG6DFVFMCEZJQDDM39:
   description: |
-    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app. 
+    I Servizi scolastici offrono la possibilità di gestire scadenze e pagamenti direttamente attraverso l'app.
     Tramite IO potrai:
 
       * ricevere promemoria per la scadenza dell'iscrizione ai servizi scolastici;
@@ -637,7 +641,7 @@ azure-deployc49a:
 
 01DVQZ21YD356PH8V5G1S5KMN3:
   description: |
-    Il servizio di Iscrizione Pre e Post Scuola è relativo alle attività di pre e post scuola oranizzate nelle scuole primarie e scuole dell'infanzia del Comune di Garbagnate. 
+    Il servizio di Iscrizione Pre e Post Scuola è relativo alle attività di pre e post scuola oranizzate nelle scuole primarie e scuole dell'infanzia del Comune di Garbagnate.
     Tramite IO potrai:
 
     * ricevere un promemoria e procedere al pagamento del servizio;
@@ -653,7 +657,7 @@ azure-deployc49a:
 
 01DVQZ2G99HQ0GW27MSD1ECC9P:
   description: |
-    Il servizio di trasporto scolastico è erogato a favore degli alunni frequentanti la Scuola Primaria Karol Wojtyla e le due scuole Secondarie di Primo Grado Galilei e Morante.  
+    Il servizio di trasporto scolastico è erogato a favore degli alunni frequentanti la Scuola Primaria Karol Wojtyla e le due scuole Secondarie di Primo Grado Galilei e Morante.
     Tramite IO potrai:
 
     * ricevere un promemoria e procedere al pagamento del servizio;
@@ -683,6 +687,7 @@ azure-deployc49a:
   pec: protocollo.attivitaproduttive@pec.comune.roma.it
   address: Dipartimento Attività Produttive, Via dei Cerchi, 6 - Roma
   scope: LOCAL
+
 
 01E1YAB4X63WG8BPBVR43KH3J1:
   description: |
@@ -740,7 +745,7 @@ azure-deployc49a:
 
 01EAC1S4YXN04WC6GZJ2HX9651:
   description: |
-    F.I.D.O. ti avvisa quando il Comune registra una posizione debitoria (detta anche pagamento in attesa) a tuo nome. 
+    F.I.D.O. ti avvisa quando il Comune registra una posizione debitoria (detta anche pagamento in attesa) a tuo nome.
     Tramite IO potrai:
 
     * essere avvisato all'emissione di una posizione debitoria.
@@ -752,6 +757,7 @@ azure-deployc49a:
   pec: comune.campi-bisenzio@postacert.toscana.it
   address: Piazza Dante, 36 - Campi Bisenzio
   scope: LOCAL
+
 
 01EAC1VBNAQ30AF1C0H8JTFGXN:
   description: |
@@ -788,6 +794,7 @@ azure-deployc49a:
   address: Via Toschi, 27 - 42121 Reggio Emilia
   scope: LOCAL
 
+
 01E9FQBB51N80EJ79Y1RFQC2XD:
   description: |
     Tramite il servizio SUAP del Comune di Reggio Emilia su IO potrai:
@@ -807,7 +814,7 @@ azure-deployc49a:
 
 01E9Z5M0N9FK3AQYXPZ4F0CKR9:
   description: |
-    Il servizio di Pagamenti per Refezione Scolastica offre la possibilità di gestire dei pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste. 
+    Il servizio di Pagamenti per Refezione Scolastica offre la possibilità di gestire dei pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste.
     Tramite IO potrai:
 
     * gestire il pagamento della mensa scolastica, ricevere avvisi e solleciti.
@@ -820,9 +827,10 @@ azure-deployc49a:
   address: Piazza Ranieri Campello, 4 - Campello sul Clitunno
   scope: LOCAL
 
+
 01E9Z5V0EK8HS8KZV0CB12421Z:
   description: |
-    Il servizio di Pagamenti dei Tributi limitatamente alla IMU e alla TARI avviene tramite F24, l'App IO per tali tributi provvedera' a inviare solleciti di versamento e avvisi vari. Per gli altri tributi comunali, in particolar modo la TOSAP riferita la Mercatino dell'Antiquariatodi Pissignano, la stessa offre la possibilità di gestire avvisi e solleciti ed i pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste. 
+    Il servizio di Pagamenti dei Tributi limitatamente alla IMU e alla TARI avviene tramite F24, l'App IO per tali tributi provvedera' a inviare solleciti di versamento e avvisi vari. Per gli altri tributi comunali, in particolar modo la TOSAP riferita la Mercatino dell'Antiquariatodi Pissignano, la stessa offre la possibilità di gestire avvisi e solleciti ed i pagamenti direttamente attraverso l'app. oltre alle normali modalità di pagamento già previste.
     Tramite IO potrai:
 
     * gestire il pagamento dei tributi comunali eccetto IMU e TARI la cui modalità rimane quella del F24, e ricevere comunicazioni e solleciti.
@@ -841,8 +849,8 @@ azure-deployc49a:
 
 01E983KMACRZ0MTWEKP6TVC0W6:
   description: |
-    Il Comune di Cremona aderisce al Sistema PagoPA per il pagamento TARI per utenze domestiche. 
-    Tramite IO potrai:
+    Il Comune di Cremona aderisce al Sistema PagoPA per il pagamento TARI per utenze domestiche.
+    Se ti sei registrato almeno 10 giorni prima della scadenza del pagamento, tramite IO potrai:
 
     * effettuare il pagamento dell’acconto TARI 2020 in rata unica;
     * effettuare il pagamento dell’acconto TARI 2020 in due rate separate;
@@ -863,12 +871,9 @@ azure-deployc49a:
   description: |
     L’incentivo per supportare le famiglie e il settore del turismo dopo il lockdown richiesto dal COVID-19.
     Tramite IO potrai:
-
     * Richiedere e attivare il Bonus Vacanze
     * Visualizzare il Bonus Vacanze per spenderlo presso una stuttura ricettiva
     * Condividere il Bonus Vacanze con gli altri beneficiari del tuo nucleo familiare.
-
-
   privacy_url: https://www.agenziaentrate.gov.it/portale/documents/20143/2546826/def+INFORMATIVA-BONUS+VACANZE+%281%29.DOC.pdf/2400e678-8dab-d833-a9cc-231658cdf250
   web_url: https://www.agenziaentrate.gov.it/portale/web/guest/contatta
   scope: NATIONAL

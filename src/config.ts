@@ -13,7 +13,6 @@ export const MUNICIPALITIES_OUTPUT_FOLDER = path.join(
   MUNICIPALITIES_OUTPUT_FOLDER_NAME
 );
 
-
 export const MUNICIPALITIES_INPUT_FOLDER_PATH = path.join(
   DATA_PATH,
   "municipalities"

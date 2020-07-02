@@ -11,8 +11,6 @@ const run = async () => {
   // export the foreign municipalities
   await exportForeignMunicipalities();
   checkMunicipalityOutput();
-
-
 };
 run()
   .then(() => console.log("done"))

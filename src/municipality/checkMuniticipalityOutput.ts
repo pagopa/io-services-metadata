@@ -21,8 +21,12 @@ const walkSync = (dir: string): ReadonlyArray<string> => {
  */
 export const checkMunicipalityOutput = () => {
   const jsons = walkSync(MUNICIPALITIES_OUTPUT_FOLDER).filter(j => {
-    const obj = JSON.parse(fs.readFileSync(j).toString());
-    return Municipality.decode(obj).isLeft();
+    try {
+      const obj = JSON.parse(fs.readFileSync(j).toString());
+      return Municipality.decode(obj).isLeft();
+    } catch {
+      return false;
+    }
   });
   jsons.forEach(invalid => {
     console.log(chalk.red(`${invalid} is not a valid Municipality`));

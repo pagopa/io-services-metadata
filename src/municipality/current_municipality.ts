@@ -54,7 +54,7 @@ export const exportCurrentMunicipalities = async () => {
         result.value.map(r => {
           decodeMunicipality(r).map(municipality =>
             serializeMunicipalityToJson({
-              codiceCatastale: r[18],
+              codiceCatastale: r[19],
               municipality
             })
           );

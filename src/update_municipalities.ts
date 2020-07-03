@@ -10,6 +10,7 @@ const run = async () => {
   await exportCurrentMunicipalities();
   // export the foreign municipalities
   await exportForeignMunicipalities();
+  // check if all json produces are valid. If not, an error message will be prompt
   checkMunicipalityOutput();
 };
 run()

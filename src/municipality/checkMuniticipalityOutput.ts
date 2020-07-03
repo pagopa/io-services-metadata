@@ -25,7 +25,7 @@ export const checkMunicipalityOutput = () => {
       const obj = JSON.parse(fs.readFileSync(j).toString());
       return Municipality.decode(obj).isLeft();
     } catch {
-      return false;
+      return true;
     }
   });
   jsons.forEach(invalid => {

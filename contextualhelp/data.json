@@ -80,13 +80,7 @@
       }
    },
    "en": {
-      "screens": [
-         {
-            "route_name": "PROFILE_MAIN",
-            "title": "title",
-            "content": "**content**"
-         }
-      ],
+      "screens": [],
       "idps": {
          "arubaid": {
             "description": "For problems encountered during the authentication process , you can reach the support desk of Aruba by selecting  one of the options presented below.",

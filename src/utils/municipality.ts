@@ -21,7 +21,7 @@ export const decodeMunicipality = (
     denominazione: record[5],
     denominazioneInItaliano: record[6],
     denominazioneRegione: record[10],
-    siglaProvincia: record[13]
+    siglaProvincia: record[14]
   };
   return Municipality.decode(municipality);
 };

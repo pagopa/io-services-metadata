@@ -5,9 +5,13 @@ export const ROOT = path.join(__dirname, "../");
 export const ITALIAN_MUNICIPALITIES_URL =
   "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv";
 
-export const MUNICIPALITIES_OUTPUT_FOLDER_NAME = "municipalities";
-
 export const DATA_PATH = "data";
+
+export const MUNICIPALITIES_OUTPUT_FOLDER_NAME = "municipalities";
+export const MUNICIPALITIES_OUTPUT_FOLDER = path.join(
+  ROOT,
+  MUNICIPALITIES_OUTPUT_FOLDER_NAME
+);
 
 export const MUNICIPALITIES_INPUT_FOLDER_PATH = path.join(
   DATA_PATH,

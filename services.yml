@@ -871,7 +871,7 @@ azure-deployc49a:
   description: |
     L’incentivo per supportare le famiglie e il settore del turismo dopo il lockdown richiesto dal COVID-19.
     Tramite IO potrai:
-    * Richiedere e attivare il Bonus Vacanze
+    * Richiedere e attivare il Bonus Vacanze dalla [sezione pagamenti](ioit://WALLET_HOME)
     * Visualizzare il Bonus Vacanze per spenderlo presso una stuttura ricettiva
     * Condividere il Bonus Vacanze con gli altri beneficiari del tuo nucleo familiare.
   privacy_url: https://io.italia.it/app-content/bonus_vacanze_tos.html

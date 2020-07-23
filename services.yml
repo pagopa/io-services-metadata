@@ -48,7 +48,7 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
-  email: supporto.io-app@aci.it
+  email: https://assistenzabollo.aci.it/dati-personali?rif=ioapp
   scope: NATIONAL
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
@@ -803,7 +803,7 @@ azure-deployc49a:
     * a breve, ricevere autorizzazioni COSAP.
 
   privacy_url: https://www.comune.re.it/privacy
-  web_url: https://www.comune.re.it/retecivica/urp/pes.nsf/web/vntdllvt?opendocument
+  web_url: https://www.comune.re.it/retecivica/urp/retecivi.nsf/PESUfficiTabellaWeb/73E1627A1503805AC12578620030D61B
   pec: comune.reggioemilia@pec.municipio.re.it
   address: Via Emilia a San Pietro, 12 - 42121 Reggio Emilia
   scope: LOCAL
@@ -876,3 +876,22 @@ azure-deployc49a:
     * Condividere il Bonus Vacanze con gli altri beneficiari del tuo nucleo familiare.
   privacy_url: https://io.italia.it/app-content/bonus_vacanze_tos.html
   scope: NATIONAL
+
+#
+# Municipality of Novellara
+#
+
+01E6C1NPEK6475G10YRJ139JJG:
+  description: |
+    I servizi anagrafici si occupano della gestione dei tuoi documenti d'identità. Tramite IO potrai:
+
+    * ricevere un promemoria in prossimità della scadenza del tuo documento d'identità, e prenotare un apppuntamento per ottenere il nuovo documento;
+    * rocedere al pagamento della nuova CIE (carta di identità elettronica).
+
+  privacy_url: https://www.comune.novellara.re.it/servizi/gestionedocumentale/visualizzadocumento.aspx?ID=26654
+  web_url: http://www.comune.novellara.re.it/servizi/procedimenti/ricerca_fase03.aspx?ID=8738
+  phone: 0522 655454
+  email: urp@comune.novellara.re.it
+  pec: novellara@cert.provincia.re.it
+  address: P.le Marconi, 1 - Novellara
+  scope: LOCAL

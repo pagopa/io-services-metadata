@@ -34,7 +34,6 @@ azure-deployc49a:
     * essere sempre aggiornato in caso di integrazione di nuovi servizi.
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
-  email: supporto.io-app@aci.it
   scope: NATIONAL
 
 01DBJNW5NR2M2VQTM7VG0SGNNZ:
@@ -48,7 +47,6 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
-  email: https://assistenzabollo.aci.it/dati-personali?rif=ioapp
   scope: NATIONAL
 
 01DBJNYDCT0Q5G0D0K7RFS2R2F:
@@ -62,7 +60,6 @@ azure-deployc49a:
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
-  email: supporto.io-app@aci.it
   scope: NATIONAL
 
 #
@@ -394,6 +391,37 @@ azure-deployc49a:
   web_url: https://www.comune.valsamoggia.bo.it/index.php/servizi-online-valsamoggia/98-aree-tematiche/scuola-e-giovani/servizi-scolastici/4147-pagamenti-nido-d-infanzia-trasporto-prolungamento-orario
   phone: 051 6723027
   email: inforette@comune.valsamoggia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01EDE5Z3RHY0G67Y29WZF11J6G:
+  description: |
+    Il Servizio Entrate del Comune di Valsamoggia si occupa della riscossione dei canoni di affitto e locazione di immobili e locali comunali. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
+    * ricevere l'avviso di accertamento per il mancato pagamento dei canoni, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  phone: 051 6723020
+  email: tributi@comune.valsamoggia.bo.it
+  pec: comune.valsamoggia@cert.provincia.bo.it
+  address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
+  scope: LOCAL
+
+01EDE62JTDFATVRYV0CGBPNXX2:
+  description: |
+    Il Servizio Entrate del Comune di Valsamoggia si occupa della riscossione dei canoni della Luce votiva nei cimiteri comunali. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
+    * ricevere l'avviso di accertamento per il mancato pagamento dei canoni, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/94-amministrazione-trasparente/2660-privacy-e-note-legali?Itemid=101
+  web_url: https://www.comune.valsamoggia.bo.it/index.php/component/content/article/91-aree-tematiche/famiglia-nascite-decessi-unioni-separazioni/844-gestione-servizio-illuminazione-votiva-nei-cimiteri-comunali
+  phone: 051 6723013
+  email: tributi@comune.valsamoggia.bo.it
+  pec: comune.valsamoggia@cert.provincia.bo.it
   address: Piazza Berozzi 3 (loc. Crespellano) - 40053 Valsamoggia (BO)
   scope: LOCAL
 

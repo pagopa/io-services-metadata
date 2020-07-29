@@ -923,3 +923,61 @@ azure-deployc49a:
   pec: novellara@cert.provincia.re.it
   address: P.le Marconi, 1 - Novellara
   scope: LOCAL
+
+#
+# Municipality of Sommacampagna
+#
+
+01EDVBSFKB1WHWHJW915SYER7F:
+  description: |
+    Il servizio di Pagamenti per i servizi demografici offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO (oltre alle normali modalità di pagamento già previste). 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento delle concessioni cimiteriali;
+    * pagamento dei servizi cimiteriali;
+    * pagamento dei diritti di segreteria su certificazioni anagrafiche;
+    * pagamento dei diritti di emissione carte d'identità.
+
+  privacy_url: https://www.comune.sommacampagna.vr.it/home/info/privacy.html
+  web_url: https://sommacampagna.comune.plugandpay.it
+  phone: 045 8971340
+  email: servizi.demografici@comune.sommacampagna.vr.it
+  pec: sommacampagna.vr@cert.ip-veneto.net
+  address: Piazza Carlo Alberto, 1 - 37066 Sommacampagna
+  scope: LOCAL
+
+
+01EDVC0034TXCADN1XFY4375VS:
+  description: |
+    Il servizio di Pagamenti per i servizi scolastici  offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO (oltre alle normali modalità di pagamento già previste). 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento delle Trasporto scolastico;
+    * pagamento della mensa scuola infanzia;
+    * pagamento della mensa scuola primaria;
+    * pagamento delle attività estive ed extrascolastiche.
+
+  privacy_url: https://www.comune.sommacampagna.vr.it/home/info/privacy.html
+  web_url: https://sommacampagna.comune.plugandpay.it
+  phone: 045 8971386
+  email: servizi.scuola@comune.sommacampagna.vr.it
+  pec: sommacampagna.vr@cert.ip-veneto.net
+  address: Piazza Carlo Alberto, 1 - 37066 Sommacampagna
+  scope: LOCAL
+
+
+01EDVC3RWMJV1NT9YH4J141B9S:
+  description: |
+    Il servizio di Pagamenti per i servizi tributi  offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO (oltre alle normali modalità di pagamento già previste). 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento della TOSAP;
+    * pagamento delle Tabelle Passo Carraio.
+
+  privacy_url: https://www.comune.sommacampagna.vr.it/home/info/privacy.html
+  web_url: https://sommacampagna.comune.plugandpay.it
+  phone: 045 8971335
+  email: ufficio.tributi@comune.sommacampagna.vr.it
+  pec: sommacampagna.vr@cert.ip-veneto.net
+  address: Piazza Carlo Alberto, 1 - 37066 Sommacampagna
+  scope: LOCAL

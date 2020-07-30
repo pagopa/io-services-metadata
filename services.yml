@@ -981,3 +981,19 @@ azure-deployc49a:
   pec: sommacampagna.vr@cert.ip-veneto.net
   address: Piazza Carlo Alberto, 1 - 37066 Sommacampagna
   scope: LOCAL
+
+#
+# Municipality of Carinaro
+#
+
+01EEA5C29SJEE918D2AE1SH68H:
+  description: |
+    Il servizio di avviso scadenza TARI permette di ricevere un promemoria alla scadenza del pagamento della TARI.
+
+  privacy_url: http://www.comune.carinaro.ce.it/carinaro/area_gen/demografico/privacy.jsp
+  web_url: www.comune.carinaro.ce.it
+  phone: 081 5029214
+  email: elena.barbato@comune.carinaro.ce.it
+  pec: elena.barbato@carinaro.telecompost.it
+  address: P.zza Municipio, 1 - Carinaro
+  scope: LOCAL

@@ -913,7 +913,7 @@ azure-deployc49a:
   description: |
     I servizi anagrafici si occupano della gestione dei tuoi documenti d'identità. Tramite IO potrai:
 
-    * ricevere un promemoria in prossimità della scadenza del tuo documento d'identità, e prenotare un apppuntamento per ottenere il nuovo documento;
+    * ricevere un promemoria in prossimità della scadenza del tuo documento d'identità, e prenotare un appuntamento per ottenere il nuovo documento;
     * procedere al pagamento della nuova CIE (carta di identità elettronica).
 
   privacy_url: https://www.comune.novellara.re.it/servizi/gestionedocumentale/visualizzadocumento.aspx?ID=26654
@@ -992,8 +992,34 @@ azure-deployc49a:
 
   privacy_url: http://www.comune.carinaro.ce.it/carinaro/area_gen/demografico/privacy.jsp
   web_url: http://www.comune.carinaro.ce.it
-  phone: 081 5029214
+  phone: 081 5029209
   email: elena.barbato@comune.carinaro.ce.it
   pec: elena.barbato@carinaro.telecompost.it
   address: P.zza Municipio, 1 - Carinaro
+  scope: LOCAL
+
+#
+# Municipality of Villaricca
+#
+
+01EDY252DS9HTNNHRJ83PRXAVA:
+  description: |
+    Il servizio di avviso scadenza TOSAP permette di ricevere un promemoria alla scadenza del pagamento della Tosap.
+
+  privacy_url: http://www.comune.villaricca.na.it/privacy.html
+  web_url: http://asp.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n200095
+  phone: 081 8191111
+  email: vittoriaferrara@comune.villaricca.na.it
+  address: Corso Vittorio Emanuele, 76 - 80010 Villaricca Napoli
+  scope: LOCAL
+
+01EDY3N93S3WR6ZTP5G1WZ9YG9:
+  description: |
+    Il servizio di avviso scadenza TARI permette di ricevere un promemoria alla scadenza del pagamento della TARI.
+
+  privacy_url: http://www.comune.villaricca.na.it/privacy.html
+  web_url: http://asp.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n200095
+  phone: 081 8191111
+  email: vittoriaferrara@comune.villaricca.na.it
+  address: Corso Vittorio Emanuele, 76 - 80010 Villaricca Napoli
   scope: LOCAL

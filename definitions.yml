@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  version: "0.1"
+  version: "0.2"
 paths:
 definitions:
   Service:
@@ -11,6 +11,8 @@ definitions:
       description:
         type: string
       web_url:
+        type: string
+      support_url:
         type: string
       app_ios:
         type: string

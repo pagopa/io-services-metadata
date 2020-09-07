@@ -1023,3 +1023,25 @@ azure-deployc49a:
   email: vittoriaferrara@comune.villaricca.na.it
   address: Corso Vittorio Emanuele, 76 - 80010 Villaricca Napoli
   scope: LOCAL
+
+#
+# Municipality of Russi
+#
+
+01EHC41R5RKPCZCEPNF8A8XWWN:
+  description: |
+    Il servizio offre la possibilità di gestire i pagamenti dei servizi scolastici direttamente attraverso l'applicazione IO. Qui riceverai l’avviso pagoPA e potrai decidere come pagarlo:
+    * subito con l’app IO e la carta di credito;
+    * sul sito del Comune scegliendo tra carta di credito, addebito in conto e altri metodi. 
+
+    I codici presenti nell’avviso pagoPA ti permetteranno, in alternativa, di scegliere se pagare:
+    * con il tuo home banking;
+    * presso gli sportelli della tua banca;
+    * presso gli uffici postali;
+    * presso i punti vendita SISAL, Lottomatica e Banca 5.
+
+  phone: 0544 587648 
+  email: istruzione@comune.russi.ra.it 
+  pec: pg.comune.russi.ra.it@legalmail.it 
+  address: Via Cavour, 21 - Russi
+  scope: LOCAL

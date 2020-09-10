@@ -1046,3 +1046,21 @@ azure-deployc49a:
   pec: pg.comune.russi.ra.it@legalmail.it 
   address: Via Cavour, 21 - Russi
   scope: LOCAL
+
+#
+# Municipality of Preganziol
+#
+
+01D88CM09S0SB72B7AN92XGKPC:
+  description: |
+    Il servizio di Scadenza e Rinnovo Documenti offre la possibilità di conoscere lo stato dei tuoi documenti. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria in prossimità della scadenza della tua carta d'identità;
+    * ricevere un avviso che ti ricorda che il permesso di soggiorno risulta scaduto da almeno 6 mesi e che devi esibire il nuovo permesso in anagrafe.
+
+  phone: 0422 632298 
+  email: anagrafe@comune.preganziol.tv.it 
+  pec: protocollo.comune.preganziol.tv@pecveneto.it 
+  address: Piazza Gabbin, 1 - Preganziol
+  scope: LOCAL

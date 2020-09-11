@@ -1064,3 +1064,74 @@ azure-deployc49a:
   pec: protocollo.comune.preganziol.tv@pecveneto.it 
   address: Piazza Gabbin, 1 - Preganziol
   scope: LOCAL
+
+#
+# Municipality of Grottaglie
+#
+
+01ED912D869F64PZCPR1XQR61E:
+  description: |
+    I Servizi Scolastici si occupano della gestione della mensa e del trasporto scolastico.  
+    Tramite IO potrai:
+
+    * pagare la mensa scolastica;
+    * pagare il trasporto scolastico;
+    * ricevere una conferma del pagamento avvenuto.
+
+  web_url: https://comune.grottaglie.ta.it/privacy-policy/
+  phone: 099 5620213 
+  email: istruzione@comune.grottaglie.ta.it
+  pec: istruzione.comunegrottaglie@pec.rupar.puglia.it 
+  address: Via Martiri d’Ungheria snc – 74023 Grottaglie (TA)
+  scope: LOCAL
+
+
+01EHC02SVSKQ2M97DDSY3HAJWN:
+  description: |
+    I Tributi Minori riguardano le concessioni di suolo pubblico, la pubblicità e le affissioni.   
+    Tramite IO potrai:
+
+    * pagare la COSAP Permanente e Temporanea;
+    * pagare le pubbliche affissioni;
+    * pagare l’Imposta Comunale sulla Pubblicità (ICP);
+    * ricevere una conferma del pagamento avvenuto.
+
+  web_url: https://comune.grottaglie.ta.it/privacy-policy/
+  phone: 099 5620248
+  email: tributi@comune.grottaglie.ta.it
+  pec: tributi.comunegrottaglie@pec.rupar.puglia.it
+  address: Via Martiri d’Ungheria snc – 74023 Grottaglie (TA)
+  scope: LOCAL
+
+
+01EHC0FY33PQFJXWQJ99K108J8:
+  description: |
+    I Servizi Demografici emettono le Carte di Identità e stilano atti vari che necessitano di Bollo.   
+    Tramite IO potrai:
+
+    * pagare la Carta d’Identità Elettronica o Cartacea;
+    * pagare il Bollo Virtuale per gli atti pubblici
+    * ricevere una conferma del pagamento avvenuto.
+
+  web_url: https://comune.grottaglie.ta.it/privacy-policy/
+  phone: 099 5620217
+  email: demografici@comune.grottaglie.ta.it
+  pec: anagrafe.comunegrottaglie@pec.rupar.puglia.it
+  address: Via Martiri d’Ungheria snc – 74023 Grottaglie (TA)
+  scope: LOCAL
+
+
+01EHC0HHDCT3WK0G04SFBMT44E:
+  description: |
+    I Servizi Cimiteriali si occupano delle concessioni per cappelle, loculi e quant’altro e gestiscono il servizio di lampade votive.   
+    Tramite IO potrai:
+
+    * pagare il canone Lampade Votive;
+    * ricevere una conferma del pagamento avvenuto.
+
+  web_url: https://comune.grottaglie.ta.it/privacy-policy/
+  phone: 099 5620280
+  email: ggdd@comune.grottaglie.ta.it
+  pec: ggdd.comunegrottaglie@pec.rupar.puglia.it
+  address: Via Martiri d’Ungheria snc – 74023 Grottaglie (TA)
+  scope: LOCAL

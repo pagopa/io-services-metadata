@@ -1135,3 +1135,119 @@ azure-deployc49a:
   pec: ggdd.comunegrottaglie@pec.rupar.puglia.it
   address: Via Martiri d’Ungheria snc – 74023 Grottaglie (TA)
   scope: LOCAL
+
+#
+# Municipality of Cancello ed Arnone
+#
+
+01ECMDBNECKX2FQATF37TQNSYQ:
+  description: |
+    Il Servizio Tributi si occupa della gestione delle scadenze dei vari pagamenti. 
+    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria  che ti avvisa della scadenza di pagamento della TARI, IMU, TOSAP;
+    * ricevere l'avviso di accertamento per il mancato pagamento di rate scadute, e pagare il relativo importo.  
+
+  privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
+  web_url: https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=wt00002765&areaAttiva=1
+  phone: 0823 1257516
+  email: comunedicancelloedarnone@gmail.com 
+  pec: ragioneria.cancelloarnone@asmepec.it
+  address: Via Municipio, n. 1 - 1° Piano 
+  scope: LOCAL
+
+01ECMDCWM0CAC98HZS7WHJZQQ1:
+  description: |
+    Il Servizio Refezione Scolastica si occupa della gestione della mensa.  
+    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria alla scadenza dell'iscrizione al servizio Refezione Scolastica;
+    * ricevere un promemoria alla scadenza dei Buoni Pasto.  
+
+  privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
+  web_url: https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=wt00002765&areaAttiva=1
+  phone: 0823 1257515
+  email: comunedicancelloedarnone@gmail.com 
+  pec: segreteria.cancelloarnone@asmepec.it
+  address: Via Municipio, n. 1 - 1° Piano  
+  scope: LOCAL
+
+01EHY17SEV6YYG6Z1CSAQGM8MC:
+  description: |
+    Il Servizio di Anagrafe offre la possibilità di gestire i propri dati anagrafici, documenti in scadenza e dichiarazioni.  
+    Tramite IO potrai:                                                                                                                                                                                                                                * essere informato sulla scadenza della tua carta d'identità;
+    * ricevere un avviso che ti ricorda che il permesso di soggiorno risulta scaduto da alemno 6 mesi e che devi esibire il nuovo permesso in anagrafe.   
+
+  privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
+  web_url: https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=wt00002765&areaAttiva=1
+  phone: 0823 1257507
+  email: comunedicancelloedarnone@gmail.com 
+  pec: anagrafe.cancelloarnone@asmepec.it
+  address: Via Municipio, n. 1 - Piano Terra 
+  scope: LOCAL
+
+01EHY18EHZEDCTEHNF3T6RP49F:
+  description: |
+    Il Servizio Cimiteri si occupa della riscossione dei canoni della Luce votiva e delle spese condominiali dei loculi.  
+    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
+    * ricevere l'avviso di accertamento per il mancato pagamento dei canoni, e pagare il relativo importo.   
+
+  privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
+  web_url: http://www.comune.cancelloedarnone.ce.it/
+  phone: 0823 856176
+  email: comunedicancelloedarnone@gmail.com 
+  pec: protocollo.cancelloarnone@asmepec.it
+  address: Via Municipio, n. 1  
+  scope: LOCAL
+
+01EHY18TQYNE7S325G7TEKF322:
+  description: |
+    Sportello Facile è un servizio on-line che consente a tutti i cittadini di effettuare delle prenotazioni di appuntamento presso diversi sportelli.  
+    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale;
+    * essere notificato in caso di modifica o disdetta dell'appuntamento.   
+
+  privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
+  web_url: http://www.comune.cancelloedarnone.ce.it/
+  phone: 0823 856176
+  email: comunedicancelloedarnone@gmail.com 
+  pec: protocollo.cancelloarnone@asmepec.it
+  address: Via Municipio, n. 1  
+  scope: LOCAL
+
+#
+# Municipality of Cornuda
+#
+
+01EHWBMQ91QPTWECS5AW8W6W5P:
+  description: |
+    Il servizio di Pagamenti per i servizi cimiteriali offre la possibilità di gestire dei pagamenti direttamente attraverso l'app oltre alle normali modalità di pagamento già previste.
+    Tramite IO potrai ricevere avvisi per:                                                                                                                                                                                                            
+    * pagamento delle concessioni cimiteriali;
+    * pagamento dei diritti cimiteriali;
+    * pagamento del rimborso di cremazione.  
+
+  privacy_url: https://www.comune.cornuda.tv.it/home/info/privacy-policy.html
+  web_url: https://cornuda.comune.plugandpay.it/
+  phone: 0423 040400
+  email: segreteria@comune.cornuda.tv.it
+  pec: protocollo.comune.cornuda.tv@pecveneto.it
+  address: Piazza Giovanni XXIII 1 - 31041 Cornuda
+  scope: LOCAL
+
+01EHWBSWXBJ3ZW7BABKG8Y5TMB:
+  description: |
+    Il servizio di Pagamenti per i servizi al cittadino offre la possibilità di gestire dei pagamenti direttamente attraverso l'app oltre alle normali modalità di pagamento già previste.
+    Tramite IO potrai ricevere avvisi per:                                                                                                                                                                                                            
+    * pagamento del trasporto scolastico;
+    * pagamento del trasporto soggiorni climatici;
+    * pagamento dei centri estivi;
+    * pagamento della tassa di concorso;
+    * pagamento delle celebrazioni matrimoni;
+    * pagamento del servizio di assistenza domiciliare;
+    * pagamento della trasporto;
+    * pagamento dell'utilizzo sale pubbliche;
+    * pagamento della vendita legname.
+
+  privacy_url: https://www.comune.cornuda.tv.it/home/info/privacy-policy.html
+  web_url: https://cornuda.comune.plugandpay.it/
+  phone: 0423 040400
+  email: ragioneria@comune.cornuda.tv.it
+  pec: protocollo.comune.cornuda.tv@pecveneto.it
+  address: Piazza Giovanni XXIII 1 - 31041 Cornuda
+  scope: LOCAL

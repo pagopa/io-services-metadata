@@ -40,7 +40,9 @@ const ServiceO = t.partial({
 
   email: t.string,
 
-  pec: t.string
+  pec: t.string,
+
+  cta: t.string
 });
 
 export const Service = t.exact(t.intersection([ServiceR, ServiceO], "Service"));

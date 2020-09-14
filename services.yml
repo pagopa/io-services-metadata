@@ -1186,7 +1186,7 @@ azure-deployc49a:
   description: |
     Il Servizio Cimiteri si occupa della riscossione dei canoni della Luce votiva e delle spese condominiali dei loculi.  
     Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
-    * ricevere l'avviso di acertamento per il mancato pagamento dei canoni, e pagare il relativo importo.   
+    * ricevere l'avviso di accertamento per il mancato pagamento dei canoni, e pagare il relativo importo.   
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
   web_url: http://www.comune.cancelloedarnone.ce.it/

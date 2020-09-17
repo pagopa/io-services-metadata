@@ -32,6 +32,8 @@ definitions:
         type: string
       cta:
         type: string
+      token_name:
+        type: string
       scope:
         type: string
         x-extensible-enum:
@@ -183,6 +185,8 @@ definitions:
       service_id:
         type: string
       is_active:
+        type: boolean
+      hidden:
         type: boolean
       cover:
         type: string

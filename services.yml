@@ -46,6 +46,7 @@ azure-deployc49a:
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
+  support_url: https://assistenzabollo.aci.it/dati-personali?rif=ioapp 
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   scope: NATIONAL
 
@@ -59,6 +60,7 @@ azure-deployc49a:
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
+  support_url: http://www.aci.it/laci/urp/urp-ufficio-relazioni-con-il-pubblico.html?no_cache=1
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   scope: NATIONAL
 
@@ -1250,4 +1252,23 @@ azure-deployc49a:
   email: ragioneria@comune.cornuda.tv.it
   pec: protocollo.comune.cornuda.tv@pecveneto.it
   address: Piazza Giovanni XXIII 1 - 31041 Cornuda
+  scope: LOCAL
+
+#
+# Consorzio di Bonifica 3 Medio Valdarno
+#
+
+01EHSJ7H1KEE33PMJTMP670Z35:
+  description: |
+    Il servizio offre la possibilità di gestire i pagamenti direttamente attraverso l'app, oltre alle normali modalità di pagamento già previste. Tramite IO potrai ricevere avvisi per il pagamento di:
+
+    * contributo consortile;
+    * canone di concessione precaria.  
+
+  privacy_url: https://www.cbmv.it/privacy-policy
+  tos_url: https://www.cbmv.it/contributi-di-bonifica
+  phone: 800 672 242
+  email: contributi@cbmv.it
+  pec: info@pec.cbmv.it
+  address: Via del Cantone 135 - 50019 Sesto Fiorentino (FI)
   scope: LOCAL

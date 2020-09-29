@@ -1274,15 +1274,15 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Consorzio di Rimini
+# Comune di Rimini
 #
 
 01E7MGBS956ADAH12N65TQZ83A:
   description: |
-    Il portale Istanze e Dichiarazioni Online permette lo svolgimento di procedimenti digitali che riguardano la Pubblica Amministrazione. 
+    Il portale permette l'inoltro di istanze e dichiarazioni digitali per lo svolgimento di procedimenti che riguardano la Pubblica Amministrazione.
     Tramite IO potrai: 
 
-    * ricevere aggiornamenti rispetto allo stato di avanzamento della procedura.
+    * ricevere notifica dell'avvenuta protocollazione dell'istanza e ricevere informazioni sul procedimento amministrativo.
 
   privacy_url: https://www.comune.rimini.it/privacy
   web_url: https://istanze-dichiarazioni.comune.rimini.it/
@@ -1290,5 +1290,39 @@ azure-deployc49a:
   email: hd@comune.rimini.it
   pec: protocollo.generale@pec.comune.rimini.it
   address: Piazza Cavour 27 - 47921 Rimini
+  scope: LOCAL
+
+#
+# Comune di Sarzana
+#
+
+01EA1R4S59VG36BPB7SDQXQKNN:
+  description: |
+    Il servizio informa il cittadino, impresa, professionista circa l'avvenuta richiesta di integrazioni prodotta dall'Ente in relazione al procedimento amministrativo avviato tramite portale e trasmesso per via telematica. 
+    Tramite IO potrai:
+
+    * ricevere eventuali avvisi di richiesta integrazione di una pratica precedentemente presentata.
+
+  privacy_url: https://www.comunesarzana.gov.it/privacy.html
+  web_url: https://www.cloud.urbi.it
+  phone: +39 0187 6141 
+  email: urp@comunesarzana.gov.it
+  pec: protocollo.comune.sarzana@postecert.it
+  address: Piazza Matteotti, 1 - Sarzana
+  scope: LOCAL
+
+01EA1RD59JJPWY254P0FRT3VHC:
+  description: |
+    Il servizio di avvisi per gli Atti Amministrativi permette di ricevere informazioni legate alle attività delle sedute collegiali (es. Giunta e Consiglio). 
+    Tramite IO potrai:
+
+    * ricevere l'avviso di convocazione alle sedute in programma.
+
+  privacy_url: https://www.comunesarzana.gov.it/privacy.html
+  web_url: https://www.cloud.urbi.it
+  phone: +39 0187 6141 
+  email: urp@comunesarzana.gov.it
+  pec: protocollo.comune.sarzana@postecert.it
+  address: Piazza Matteotti, 1 - Sarzana
   scope: LOCAL
   

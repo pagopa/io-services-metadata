@@ -55,8 +55,112 @@
       "application/json"
    ],
    "paths": {
-      "/v1/bancomat/abi": {},
-      "/v1/bancomat/add-wallets": {},
+      "/v1/bancomat/abi": {
+         "get": {
+            "tags": [
+               "bancomat-controller"
+            ],
+            "summary": "restituisce la lista paginata degli ABI salvati a DB.size = numero di elementi da visualizzare sulla pagina (max 15).start = posizione dell'elemento da cui partire all'interno della lista.abiQuery = sottostringa a contenuta nei valori di ABI o nome dell'elemento.",
+            "operationId": "getAbiListUsingGET",
+            "parameters": [
+               {
+                  "name": "size",
+                  "in": "query",
+                  "description": "size",
+                  "required": false,
+                  "type": "integer",
+                  "default": 10,
+                  "format": "int32"
+               },
+               {
+                  "name": "start",
+                  "in": "query",
+                  "description": "start",
+                  "required": false,
+                  "type": "integer",
+                  "default": 0,
+                  "format": "int32"
+               },
+               {
+                  "name": "abiQuery",
+                  "in": "query",
+                  "description": "abiQuery",
+                  "required": false,
+                  "type": "string"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/AbiListResponse"
+                  }
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
+      },
+      "/v1/bancomat/add-wallets": {
+         "post": {
+            "tags": [
+               "bancomat-controller"
+            ],
+            "summary": "addWalletsBancomatCard",
+            "operationId": "addWalletsBancomatCardUsingPOST",
+            "consumes": [
+               "application/json"
+            ],
+            "parameters": [
+               {
+                  "in": "body",
+                  "name": "bancomatCardsRequest",
+                  "description": "bancomatCardsRequest",
+                  "required": true,
+                  "schema": {
+                     "$ref": "#/definitions/BancomatCardsRequest"
+                  }
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/WalletsV2Response"
+                  }
+               },
+               "201": {
+                  "description": "Created"
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
+      },
       "/v1/bancomat/pans": {
          "get": {
             "tags": [

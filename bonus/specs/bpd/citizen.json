@@ -10,26 +10,6 @@
    "schemes": [
       "https"
    ],
-   "securityDefinitions": {
-      "apiKeyHeader": {
-         "type": "apiKey",
-         "name": "Ocp-Apim-Subscription-Key",
-         "in": "header"
-      },
-      "apiKeyQuery": {
-         "type": "apiKey",
-         "name": "subscription-key",
-         "in": "query"
-      }
-   },
-   "security": [
-      {
-         "apiKeyHeader": []
-      },
-      {
-         "apiKeyQuery": []
-      }
-   ],
    "paths": {
       "/": {
          "get": {
@@ -140,8 +120,14 @@
                "application/json"
             ],
             "responses": {
+               "200": {
+                  "description": ""
+               },
                "204": {
                   "description": "No Content"
+               },
+               "400": {
+                  "description": ""
                },
                "401": {
                   "description": "Unauthorized"

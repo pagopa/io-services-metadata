@@ -1,0 +1,1241 @@
+{
+   "swagger": "2.0",
+   "info": {
+      "description": "Api Documentation",
+      "version": "1.0",
+      "title": "Api Documentation",
+      "termsOfService": "urn:tos",
+      "contact": {},
+      "license": {
+         "name": "Apache 2.0",
+         "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+   },
+   "host": "acardste.vaservices.eu:443",
+   "basePath": "/pp-restapi-CD",
+   "tags": [
+      {
+         "name": "bancomat-controller",
+         "description": "Bancomat Controller"
+      },
+      {
+         "name": "otp-controller",
+         "description": "OTP Controller"
+      },
+      {
+         "name": "payments-controller",
+         "description": "Payments Controller"
+      },
+      {
+         "name": "psp-controller",
+         "description": "Psp Controller"
+      },
+      {
+         "name": "resource-controller",
+         "description": "Resource Controller"
+      },
+      {
+         "name": "transaction-controller",
+         "description": "Transaction Controller"
+      },
+      {
+         "name": "users-controller",
+         "description": "Users Controller"
+      },
+      {
+         "name": "wallet-controller",
+         "description": "Wallet Controller"
+      },
+      {
+         "name": "wallet-v-2-controller",
+         "description": "Wallet V 2 Controller"
+      }
+   ],
+   "produces": [
+      "application/json"
+   ],
+   "paths": {
+      "/v1/bancomat/abi": {},
+      "/v1/bancomat/add-wallets": {},
+      "/v1/bancomat/pans": {
+         "get": {
+            "tags": [
+               "bancomat-controller"
+            ],
+            "summary": "getPans",
+            "operationId": "getPansUsingGET",
+            "parameters": [
+               {
+                  "name": "abi",
+                  "in": "query",
+                  "description": "abi",
+                  "required": false,
+                  "type": "string"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/RestPanResponse"
+                  }
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
+      }
+   },
+   "securityDefinitions": {
+      "Bearer": {
+         "type": "apiKey",
+         "name": "Authorization",
+         "in": "header"
+      }
+   },
+   "definitions": {
+      "Abi": {
+         "type": "object",
+         "properties": {
+            "abi": {
+               "type": "string"
+            },
+            "logoUrl": {
+               "type": "string"
+            },
+            "name": {
+               "type": "string"
+            }
+         },
+         "title": "Abi"
+      },
+      "AbiListResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Abi"
+               }
+            },
+            "size": {
+               "type": "integer",
+               "format": "int32"
+            },
+            "start": {
+               "type": "integer",
+               "format": "int32"
+            },
+            "total": {
+               "type": "integer",
+               "format": "int32"
+            }
+         },
+         "title": "AbiListResponse"
+      },
+      "Amount": {
+         "type": "object",
+         "properties": {
+            "amount": {
+               "type": "integer"
+            },
+            "currency": {
+               "type": "string"
+            },
+            "currencyNumber": {
+               "type": "string"
+            },
+            "decimalDigits": {
+               "type": "integer",
+               "format": "int32"
+            }
+         },
+         "title": "Amount"
+      },
+      "BancomatCardsRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Card"
+               }
+            }
+         },
+         "title": "BancomatCardsRequest"
+      },
+      "Card": {
+         "type": "object",
+         "properties": {
+            "abi": {
+               "type": "string"
+            },
+            "cardNumber": {
+               "type": "string"
+            },
+            "cardPartialNumber": {
+               "type": "string"
+            },
+            "expiringDate": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "hpan": {
+               "type": "string"
+            },
+            "productType": {
+               "type": "string",
+               "enum": [
+                  "PP",
+                  "DEB"
+               ]
+            },
+            "tokens": {
+               "type": "array",
+               "items": {
+                  "type": "string"
+               }
+            },
+            "validityState": {
+               "type": "string",
+               "enum": [
+                  "V",
+                  "BR"
+               ]
+            }
+         },
+         "title": "Card"
+      },
+      "CardInfo": {
+         "type": "object",
+         "properties": {
+            "blurredNumber": {
+               "type": "string"
+            },
+            "brand": {
+               "type": "string"
+            },
+            "brandLogo": {
+               "type": "string"
+            },
+            "expireMonth": {
+               "type": "string"
+            },
+            "expireYear": {
+               "type": "string"
+            },
+            "hashPan": {
+               "type": "string"
+            },
+            "holder": {
+               "type": "string"
+            },
+            "htokenList": {
+               "type": "array",
+               "items": {
+                  "type": "string"
+               }
+            },
+            "issuerAbiCode": {
+               "type": "string"
+            },
+            "type": {
+               "type": "string",
+               "enum": [
+                  "PP",
+                  "DEB"
+               ]
+            }
+         },
+         "title": "CardInfo"
+      },
+      "CheckCardBin": {
+         "type": "object",
+         "properties": {
+            "cardBin": {
+               "type": "string"
+            },
+            "urlLogo": {
+               "type": "string"
+            }
+         },
+         "title": "CheckCardBin"
+      },
+      "CheckCardBinRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/CheckCardBin"
+            }
+         },
+         "title": "CheckCardBinRequest"
+      },
+      "CheckCardBinResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/CheckCardBin"
+            }
+         },
+         "title": "CheckCardBinResponse"
+      },
+      "CreditCard": {
+         "type": "object",
+         "properties": {
+            "brand": {
+               "type": "string"
+            },
+            "brandLogo": {
+               "type": "string"
+            },
+            "expireMonth": {
+               "type": "string"
+            },
+            "expireYear": {
+               "type": "string"
+            },
+            "flag3dsVerified": {
+               "type": "boolean"
+            },
+            "holder": {
+               "type": "string"
+            },
+            "hpan": {
+               "type": "string"
+            },
+            "id": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "onUs": {
+               "type": "boolean"
+            },
+            "pan": {
+               "type": "string"
+            },
+            "securityCode": {
+               "type": "string"
+            }
+         },
+         "title": "CreditCard"
+      },
+      "Dettaglio": {
+         "type": "object",
+         "properties": {
+            "CCP": {
+               "type": "string"
+            },
+            "IUV": {
+               "type": "string"
+            },
+            "codicePagatore": {
+               "type": "string"
+            },
+            "enteBeneficiario": {
+               "type": "string"
+            },
+            "idDominio": {
+               "type": "string"
+            },
+            "idPayment": {
+               "type": "string"
+            },
+            "importo": {
+               "type": "number"
+            },
+            "nomePagatore": {
+               "type": "string"
+            },
+            "tipoPagatore": {
+               "type": "string"
+            }
+         },
+         "title": "Dettaglio"
+      },
+      "JiffyInfoPsp": {
+         "type": "object",
+         "properties": {
+            "codiceEsito": {
+               "type": "string"
+            },
+            "numeroTelefonicoCriptato": {
+               "type": "string"
+            },
+            "numeroTelefonicoOffuscato": {
+               "type": "string"
+            },
+            "primitiva": {
+               "type": "string"
+            }
+         },
+         "title": "JiffyInfoPsp"
+      },
+      "Otp": {
+         "type": "object",
+         "properties": {
+            "value": {
+               "type": "string"
+            }
+         },
+         "title": "Otp"
+      },
+      "Pay": {
+         "type": "object",
+         "properties": {
+            "cvv": {
+               "type": "string"
+            },
+            "idWallet": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "mobileToken": {
+               "type": "string"
+            },
+            "tipo": {
+               "type": "string"
+            }
+         },
+         "title": "Pay"
+      },
+      "PayRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Pay"
+            }
+         },
+         "title": "PayRequest"
+      },
+      "Payment": {
+         "type": "object",
+         "properties": {
+            "amount": {
+               "$ref": "#/definitions/Amount"
+            },
+            "bolloDigitale": {
+               "type": "boolean"
+            },
+            "detailsList": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Dettaglio"
+               }
+            },
+            "email": {
+               "type": "string"
+            },
+            "fiscalCode": {
+               "type": "string"
+            },
+            "iban": {
+               "type": "string"
+            },
+            "id": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idCarrello": {
+               "type": "string"
+            },
+            "idPayment": {
+               "type": "string"
+            },
+            "isCancelled": {
+               "type": "boolean"
+            },
+            "origin": {
+               "type": "string"
+            },
+            "receiver": {
+               "type": "string"
+            },
+            "subject": {
+               "type": "string"
+            },
+            "urlRedirectEc": {
+               "type": "string"
+            }
+         },
+         "title": "Payment"
+      },
+      "PaymentMethodInfo": {
+         "type": "object",
+         "title": "PaymentMethodInfo"
+      },
+      "PaymentResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Payment"
+            }
+         },
+         "title": "PaymentResponse"
+      },
+      "Psp": {
+         "type": "object",
+         "properties": {
+            "appChannel": {
+               "type": "boolean"
+            },
+            "businessName": {
+               "type": "string"
+            },
+            "cancelled": {
+               "type": "boolean"
+            },
+            "codiceAbi": {
+               "type": "string"
+            },
+            "codiceConvenzione": {
+               "type": "string"
+            },
+            "favoriteSellerCharge": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "fixedCost": {
+               "$ref": "#/definitions/Amount"
+            },
+            "flagStamp": {
+               "type": "boolean"
+            },
+            "id": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idCard": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idChannel": {
+               "type": "string"
+            },
+            "idIntermediary": {
+               "type": "string"
+            },
+            "idPsp": {
+               "type": "string"
+            },
+            "isCancelled": {
+               "type": "boolean"
+            },
+            "isDirectAcquirer": {
+               "type": "boolean"
+            },
+            "isPspOnus": {
+               "type": "boolean"
+            },
+            "jiffyInfoPsp": {
+               "$ref": "#/definitions/JiffyInfoPsp"
+            },
+            "lingua": {
+               "type": "string",
+               "enum": [
+                  "IT",
+                  "EN",
+                  "FR",
+                  "DE",
+                  "SL"
+               ]
+            },
+            "logoPSP": {
+               "type": "string"
+            },
+            "participant": {
+               "type": "string"
+            },
+            "paymentModel": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "paymentType": {
+               "type": "string"
+            },
+            "serviceAvailability": {
+               "type": "string"
+            },
+            "serviceDescription": {
+               "type": "string"
+            },
+            "serviceLogo": {
+               "type": "string"
+            },
+            "serviceName": {
+               "type": "string"
+            },
+            "solvedByPan": {
+               "type": "boolean"
+            },
+            "tags": {
+               "type": "array",
+               "items": {
+                  "type": "string",
+                  "enum": [
+                     "VISA",
+                     "MASTERCARD",
+                     "MAESTRO",
+                     "VISA_ELECTRON",
+                     "AMEX",
+                     "OTHER"
+                  ]
+               }
+            },
+            "urlInfoChannel": {
+               "type": "string"
+            }
+         },
+         "title": "Psp"
+      },
+      "PspListResponseCD": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Psp"
+               }
+            }
+         },
+         "title": "PspListResponseCD"
+      },
+      "PspResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Psp"
+            }
+         },
+         "title": "PspResponse"
+      },
+      "ResourcesResponse": {
+         "type": "object",
+         "title": "ResourcesResponse"
+      },
+      "RestPanResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Card"
+               }
+            }
+         },
+         "title": "RestPanResponse"
+      },
+      "Resume": {
+         "type": "object",
+         "properties": {
+            "esito": {
+               "type": "string"
+            },
+            "paRes": {
+               "type": "string"
+            },
+            "xpay3DSResponse": {
+               "$ref": "#/definitions/Xpay3DSResponse"
+            }
+         },
+         "title": "Resume"
+      },
+      "ResumeRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Resume"
+            }
+         },
+         "title": "ResumeRequest"
+      },
+      "SendOtp": {
+         "type": "object",
+         "properties": {
+            "context": {
+               "type": "string",
+               "enum": [
+                  "SIGNIN",
+                  "SIGNIN_PUK",
+                  "LOGIN",
+                  "VERIFY_EMAIL",
+                  "RESET_PASSWORD",
+                  "MODIFY_PHONE_NUMBER",
+                  "MODIFY_EMAIL",
+                  "REGISTERED_PAYMENT",
+                  "PAYMENT_SUCCESS",
+                  "PAYMENT_STORNO"
+               ]
+            },
+            "newReceiver": {
+               "type": "string"
+            },
+            "provider": {
+               "type": "string",
+               "enum": [
+                  "EMAIL",
+                  "SMS",
+                  "PUSH"
+               ]
+            }
+         },
+         "title": "SendOtp"
+      },
+      "SendOtpRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/SendOtp"
+            }
+         },
+         "title": "SendOtpRequest"
+      },
+      "Session": {
+         "type": "object",
+         "properties": {
+            "idPayment": {
+               "type": "string"
+            },
+            "sessionToken": {
+               "type": "string"
+            },
+            "user": {
+               "$ref": "#/definitions/User"
+            }
+         },
+         "title": "Session"
+      },
+      "SessionResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Session"
+            }
+         },
+         "title": "SessionResponse"
+      },
+      "Transaction": {
+         "type": "object",
+         "properties": {
+            "accountingStatus": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "amount": {
+               "$ref": "#/definitions/Amount"
+            },
+            "authorizationCode": {
+               "type": "string"
+            },
+            "created": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "description": {
+               "type": "string"
+            },
+            "detailsList": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Dettaglio"
+               }
+            },
+            "directAcquirer": {
+               "type": "boolean"
+            },
+            "error": {
+               "type": "boolean"
+            },
+            "fee": {
+               "$ref": "#/definitions/Amount"
+            },
+            "grandTotal": {
+               "$ref": "#/definitions/Amount"
+            },
+            "id": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idPayment": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idPsp": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idStatus": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idWallet": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "merchant": {
+               "type": "string"
+            },
+            "nodoIdPayment": {
+               "type": "string"
+            },
+            "numAut": {
+               "type": "string"
+            },
+            "orderNumber": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "paymentCancelled": {
+               "type": "boolean"
+            },
+            "paymentModel": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "rrn": {
+               "type": "string"
+            },
+            "spcNodeDescription": {
+               "type": "string"
+            },
+            "spcNodeStatus": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "statusMessage": {
+               "type": "string"
+            },
+            "success": {
+               "type": "boolean"
+            },
+            "token": {
+               "type": "string"
+            },
+            "updated": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "urlCheckout3ds": {
+               "type": "string"
+            },
+            "urlRedirectPSP": {
+               "type": "string"
+            }
+         },
+         "title": "Transaction"
+      },
+      "TransactionListResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Transaction"
+               }
+            },
+            "size": {
+               "type": "integer",
+               "format": "int32"
+            },
+            "start": {
+               "type": "integer",
+               "format": "int32"
+            },
+            "total": {
+               "type": "integer",
+               "format": "int32"
+            }
+         },
+         "title": "TransactionListResponse"
+      },
+      "TransactionResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Transaction"
+            }
+         },
+         "title": "TransactionResponse"
+      },
+      "TransactionStatus": {
+         "type": "object",
+         "properties": {
+            "acsUrl": {
+               "type": "string"
+            },
+            "authorizationCode": {
+               "type": "string"
+            },
+            "expired": {
+               "type": "boolean"
+            },
+            "finalStatus": {
+               "type": "boolean"
+            },
+            "idPayment": {
+               "type": "string"
+            },
+            "idStatus": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idTransaction": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "paymentOrigin": {
+               "type": "string"
+            },
+            "result": {
+               "type": "string"
+            },
+            "statusMessage": {
+               "type": "string"
+            }
+         },
+         "title": "TransactionStatus"
+      },
+      "TransactionStatusResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/TransactionStatus"
+            }
+         },
+         "title": "TransactionStatusResponse"
+      },
+      "User": {
+         "type": "object",
+         "properties": {
+            "acceptTerms": {
+               "type": "boolean"
+            },
+            "activationDate": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "cellphone": {
+               "type": "string"
+            },
+            "cellphoneVerified": {
+               "type": "boolean"
+            },
+            "email": {
+               "type": "string"
+            },
+            "emailVerified": {
+               "type": "boolean"
+            },
+            "fiscalCode": {
+               "type": "string"
+            },
+            "name": {
+               "type": "string"
+            },
+            "notificationEmail": {
+               "type": "string"
+            },
+            "otp": {
+               "$ref": "#/definitions/Otp"
+            },
+            "puk": {
+               "type": "string"
+            },
+            "registeredDate": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "spidSessionId": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "status": {
+               "type": "string",
+               "enum": [
+                  "ANONYMOUS",
+                  "REGISTERED",
+                  "REGISTERED_SPID",
+                  "REGISTERED_CIE",
+                  "NEED_OTP",
+                  "NEED_PASSWORD",
+                  "WAITING_NEW_PASSWORD",
+                  "DELETED"
+               ]
+            },
+            "surname": {
+               "type": "string"
+            },
+            "temporaryCellphone": {
+               "type": "string"
+            },
+            "username": {
+               "type": "string"
+            }
+         },
+         "title": "User"
+      },
+      "UserResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/User"
+            }
+         },
+         "title": "UserResponse"
+      },
+      "VerifyOtp": {
+         "type": "object",
+         "properties": {
+            "context": {
+               "type": "string",
+               "enum": [
+                  "SIGNIN",
+                  "SIGNIN_PUK",
+                  "LOGIN",
+                  "VERIFY_EMAIL",
+                  "RESET_PASSWORD",
+                  "MODIFY_PHONE_NUMBER",
+                  "MODIFY_EMAIL",
+                  "REGISTERED_PAYMENT",
+                  "PAYMENT_SUCCESS",
+                  "PAYMENT_STORNO"
+               ]
+            },
+            "otp": {
+               "type": "string"
+            }
+         },
+         "title": "VerifyOtp"
+      },
+      "VerifyOtpRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/VerifyOtp"
+            }
+         },
+         "title": "VerifyOtpRequest"
+      },
+      "Wallet": {
+         "type": "object",
+         "properties": {
+            "bancomatCard": {
+               "$ref": "#/definitions/Card"
+            },
+            "buyerBankName": {
+               "type": "string"
+            },
+            "creditCard": {
+               "$ref": "#/definitions/CreditCard"
+            },
+            "favourite": {
+               "type": "boolean"
+            },
+            "idBuyerBank": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idPagamentoFromEC": {
+               "type": "string"
+            },
+            "idPsp": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "idWallet": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "isPspToIgnore": {
+               "type": "boolean"
+            },
+            "jiffyCellphoneNumber": {
+               "type": "string"
+            },
+            "lastUsage": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "matchedPsp": {
+               "type": "boolean"
+            },
+            "onboardingChannel": {
+               "type": "string"
+            },
+            "psp": {
+               "$ref": "#/definitions/Psp"
+            },
+            "pspEditable": {
+               "type": "boolean"
+            },
+            "pspListNotOnUs": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Psp"
+               }
+            },
+            "registeredNexi": {
+               "type": "boolean"
+            },
+            "saved": {
+               "type": "boolean"
+            },
+            "services": {
+               "type": "array",
+               "items": {
+                  "type": "string",
+                  "enum": [
+                     "pagoPA",
+                     "BPD",
+                     "FA"
+                  ]
+               }
+            },
+            "type": {
+               "type": "string",
+               "enum": [
+                  "CREDIT_CARD",
+                  "BANK_ACCOUNT",
+                  "EXTERNAL_PS"
+               ]
+            }
+         },
+         "title": "Wallet"
+      },
+      "WalletListResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/Wallet"
+               }
+            }
+         },
+         "title": "WalletListResponse"
+      },
+      "WalletRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Wallet"
+            }
+         },
+         "title": "WalletRequest"
+      },
+      "WalletResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Wallet"
+            }
+         },
+         "title": "WalletResponse"
+      },
+      "WalletV2": {
+         "type": "object",
+         "properties": {
+            "createDate": {
+               "type": "string",
+               "format": "date-time"
+            },
+            "enableableFunctions": {
+               "type": "array",
+               "items": {
+                  "type": "string"
+               }
+            },
+            "favourite": {
+               "type": "boolean"
+            },
+            "idWallet": {
+               "type": "integer",
+               "format": "int64"
+            },
+            "info": {
+               "$ref": "#/definitions/PaymentMethodInfo"
+            },
+            "onboardingChannel": {
+               "type": "string"
+            },
+            "pagoPA": {
+               "type": "boolean"
+            },
+            "updateDate": {
+               "type": "string",
+               "format": "date-time"
+            }
+         },
+         "title": "WalletV2"
+      },
+      "WalletV2ListResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/WalletV2"
+               }
+            }
+         },
+         "title": "WalletV2ListResponse"
+      },
+      "WalletsV2Response": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/WalletV2"
+               }
+            }
+         },
+         "title": "WalletsV2Response"
+      },
+      "Xpay3DSResponse": {
+         "type": "object",
+         "properties": {
+            "codice": {
+               "type": "string"
+            },
+            "esito": {
+               "type": "string",
+               "enum": [
+                  "OK",
+                  "KO"
+               ]
+            },
+            "idOperazione": {
+               "type": "string"
+            },
+            "mac": {
+               "type": "string"
+            },
+            "messaggio": {
+               "type": "string"
+            },
+            "resumeType": {
+               "type": "string"
+            },
+            "timestamp": {
+               "type": "string"
+            },
+            "xpayNonce": {
+               "type": "string"
+            }
+         },
+         "title": "Xpay3DSResponse"
+      }
+   }
+}

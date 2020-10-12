@@ -1528,5 +1528,25 @@ azure-deployc49a:
   address: Piazza Ciro Menotti, 1 - 41042 - Fiorano Modenese 
   scope: LOCAL
 
+#
+# Comune di Lecco
+#
+
+01EJXN09K6WA7QQPQ7YG5HA4XP:
+  description: |
+    Il servizio TARI del Comune di Lecco è disponibile sull'app IO.
+    Tramite IO potrai:
+
+    * ricevere notifiche sulle scadenze delle rate TARI;
+    * effettuare il pagamento della TARI;
+    * ricevere comunicazioni inerenti al servizio.
+
+  tos_url: http://www.comune.lecco.it/index.php/note-legali
+  privacy_url: http://www.comune.lecco.it/index.php/privacy
+  web_url: http://sportellotel.servizienti.it/lecco/
+  phone: 0341 481221
+  pec: comune@pec.comunedilecco.it
+  address: Piazza Diaz, 1 - 23900 Lecco (LC) 
+  scope: LOCAL
 
 

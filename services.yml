@@ -1304,7 +1304,7 @@ azure-deployc49a:
     * ricevere eventuali avvisi di richiesta integrazione di una pratica precedentemente presentata.
 
   privacy_url: https://www.comunesarzana.gov.it/privacy.html
-  web_url: https://www.comunesarzana.gov.it/
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201753&areaAttiva=10
   phone: +39 0187 6141 
   email: urp@comunesarzana.gov.it
   pec: protocollo.comune.sarzana@postecert.it
@@ -1325,4 +1325,228 @@ azure-deployc49a:
   pec: protocollo.comune.sarzana@postecert.it
   address: Piazza Matteotti, 1 - Sarzana
   scope: LOCAL
-  
+
+#
+# Comune di Sassuolo
+#
+
+01EM1AWDX0X4MWQW7D2FJHTC72:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.sassuolo.mo.it/footer/privacy
+  web_url: https://portale-sassuolo.entranext.it
+  phone: 0536 880801 
+  email: urp@comune.sassuolo.mo.it
+  pec: comune.sassuolo@cert.comune.sassuolo.mo.it
+  address: Via Fenuzzi, 5 - 41049 - Sassuolo
+  scope: LOCAL
+
+01EM1B5EX7RA6ER00KZYF7AEXG:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.sassuolo.mo.it/footer/privacy
+  web_url: https://portale-sassuolo.entranext.it
+  phone: 0536 880801 
+  email: urp@comune.sassuolo.mo.it
+  pec: comune.sassuolo@cert.comune.sassuolo.mo.it
+  address: Via Fenuzzi, 5 - 41049 - Sassuolo
+  scope: LOCAL
+
+#
+# Comune di Prignano sulla Secchia
+#
+
+01EM1AYAV7Z5J41ZNNH7RSEQ5F:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.prignano.mo.it/footer/privacy
+  web_url: https://portale-prignanoss.entranext.it/
+  phone: 0536 892911
+  email: segreteria@comune.prignano.mo.it 
+  pec: comune.prignano@pec.it
+  address: via Mario Allegretti, 216 - 41048 - Prignano s/S
+  scope: LOCAL
+
+#
+# Comune di Palagano
+#
+
+01EM1AZXRQ1PA5XKHHBN18W5C6:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.palagano.mo.it/footer/privacy
+  web_url: https://portale-palagano.entranext.it/
+  phone: 0536 970911
+  email: segreteria@comune.palagano.mo.it
+  pec: comune.palagano@pec.it
+  address: Via 23 Dicembre, 74 - 41046 - Palagano 
+  scope: LOCAL
+
+#
+# Comune di Montefiorino
+#
+
+01EM1B35MHJG5G47QPS0KE0KAR:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.montefiorino.mo.it/footer/privacy
+  web_url: https://portale-montefiorino.entranext.it/
+  phone: 0536 962811
+  email: segreteria@comune.montefiorino.mo.it
+  pec: comune.montefiorino@pec.it
+  address: Via Rocca, 1 - 41045 Montefiorino 
+  scope: LOCAL
+
+#
+# Comune di Maranello
+#
+
+01EM1B7JE2Z0PRNV23RVXTCEXC:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.maranello.mo.it/footer/privacy
+  web_url: https://portale-maranello.entranext.it/
+  phone: 0536 240000
+  email: urp@comune.maranello.mo.it
+  pec: comune.maranello@cert.comune.maranello.mo.it
+  address: Piazza Libertà, 33 - 41053 - Maranello 
+  scope: LOCAL
+
+#
+# Comune di Frassinoro
+#
+
+01EM1B8DNCVJD7VXJ5SFPEQD44:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.frassinoro.mo.it/footer/privacy
+  web_url: https://portale-frassinoro.entranext.it/
+  phone: 0536 971811
+  email: segreteria@comune.frassinoro.mo.it
+  pec: comune.frassinoro@pec.it
+  address: Piazza Miani, 16 - 41044 - Frassinoro 
+  scope: LOCAL
+
+#
+# Comune di Formagine
+#
+
+01EM1B9G8HCK2TM3NTF9W0N5D9:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.formigine.mo.it/footer/privacy
+  web_url: https://portale-formigine.entranext.it/
+  phone: 059 416333
+  email: urp@comune.formigine.mo.it
+  pec: comune.formigine@cert.comune.formigine.mo.it
+  address: Via Unità d'Italia, 26 - 41043 - Formigine
+  scope: LOCAL
+
+#
+# Comune di Fiorano Modenese
+#
+
+01EM1BAAY94S0B2XNFB615M1VW:
+  description: |
+    Il servizio informa il cittadino sull'andamento delle domande online e sullo stato delle posizioni debitorie. 
+    Tramite IO potrai:
+
+    * ricevere un avviso di apertura delle iscrizioni ai servizi scolastici;
+    * ricevere un avviso di apertura di bandi per la richiesta di contributi;
+    * ricevere un messaggio relativo all'emissione di un avviso di pagamento;
+    * ricevere la conferma di documenti disponibili;
+    * ricevere un avviso di pre-ruolo.
+
+  privacy_url: https://www.comune.fiorano-modenese.mo.it/footer/privacy
+  web_url: https://portale-fiorano-modenese.entranext.it/
+  phone: 0536 833111
+  email: info@comune.fiorano-modenese.mo.it
+  pec: comunefiorano@cert.fiorano.it
+  address: Piazza Ciro Menotti, 1 - 41042 - Fiorano Modenese 
+  scope: LOCAL
+
+#
+# Comune di Lecco
+#
+
+01EJXN09K6WA7QQPQ7YG5HA4XP:
+  description: |
+    Il servizio TARI del Comune di Lecco è disponibile sull'app IO.
+    Tramite IO potrai:
+
+    * ricevere notifiche sulle scadenze delle rate TARI;
+    * effettuare il pagamento della TARI;
+    * ricevere comunicazioni inerenti al servizio.
+
+  tos_url: http://www.comune.lecco.it/index.php/note-legali
+  privacy_url: http://www.comune.lecco.it/index.php/privacy
+  web_url: http://sportellotel.servizienti.it/lecco/
+  phone: 0341 481221
+  pec: comune@pec.comunedilecco.it
+  address: Piazza Diaz, 1 - 23900 Lecco (LC) 
+  scope: LOCAL
+
+

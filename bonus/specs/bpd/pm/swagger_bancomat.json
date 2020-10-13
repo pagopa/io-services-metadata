@@ -200,6 +200,100 @@
                }
             ]
          }
+      },
+      "/v2/payments/{id}/actions/pay": {
+         "post": {
+            "tags": [
+               "payments-controller"
+            ],
+            "summary": "pay3ds",
+            "operationId": "pay3dsUsingPOST",
+            "consumes": [
+               "application/json"
+            ],
+            "parameters": [
+               {
+                  "name": "id",
+                  "in": "path",
+                  "description": "id",
+                  "required": true,
+                  "type": "string"
+               },
+               {
+                  "in": "body",
+                  "name": "payRequest",
+                  "description": "payRequest",
+                  "required": true,
+                  "schema": {
+                     "$ref": "#/definitions/PayRequest"
+                  }
+               },
+               {
+                  "name": "language",
+                  "in": "query",
+                  "description": "language",
+                  "required": false,
+                  "type": "string",
+                  "default": "it"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/TransactionResponse"
+                  }
+               },
+               "201": {
+                  "description": "Created"
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
+      },
+      "/v2/wallet": {
+         "get": {
+            "tags": [
+               "wallet-v-2-controller"
+            ],
+            "summary": "Possibili sottotipi del campo info (PaymentMethodInfo): [CardInfo]",
+            "operationId": "getWalletsV2UsingGET",
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/WalletV2ListResponse"
+                  }
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
       }
    },
    "securityDefinitions": {

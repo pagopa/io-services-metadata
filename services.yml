@@ -1145,7 +1145,9 @@ azure-deployc49a:
 01ECMDBNECKX2FQATF37TQNSYQ:
   description: |
     Il Servizio Tributi si occupa della gestione delle scadenze dei vari pagamenti. 
-    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria  che ti avvisa della scadenza di pagamento della TARI, IMU, TOSAP;
+    Tramite IO potrai:
+
+    * ricevere un promemoria  che ti avvisa della scadenza di pagamento della TARI, IMU, TOSAP;
     * ricevere l'avviso di accertamento per il mancato pagamento di rate scadute, e pagare il relativo importo.  
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
@@ -1159,7 +1161,9 @@ azure-deployc49a:
 01ECMDCWM0CAC98HZS7WHJZQQ1:
   description: |
     Il Servizio Refezione Scolastica si occupa della gestione della mensa.  
-    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria alla scadenza dell'iscrizione al servizio Refezione Scolastica;
+    Tramite IO potrai:
+
+    * ricevere un promemoria alla scadenza dell'iscrizione al servizio Refezione Scolastica;
     * ricevere un promemoria alla scadenza dei Buoni Pasto.  
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
@@ -1173,7 +1177,9 @@ azure-deployc49a:
 01EHY17SEV6YYG6Z1CSAQGM8MC:
   description: |
     Il Servizio di Anagrafe offre la possibilità di gestire i propri dati anagrafici, documenti in scadenza e dichiarazioni.  
-    Tramite IO potrai:                                                                                                                                                                                                                                * essere informato sulla scadenza della tua carta d'identità;
+    Tramite IO potrai:
+
+    * essere informato sulla scadenza della tua carta d'identità;
     * ricevere un avviso che ti ricorda che il permesso di soggiorno risulta scaduto da alemno 6 mesi e che devi esibire il nuovo permesso in anagrafe.   
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
@@ -1187,7 +1193,9 @@ azure-deployc49a:
 01EHY18EHZEDCTEHNF3T6RP49F:
   description: |
     Il Servizio Cimiteri si occupa della riscossione dei canoni della Luce votiva e delle spese condominiali dei loculi.  
-    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
+    Tramite IO potrai:
+
+    * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
     * ricevere l'avviso di accertamento per il mancato pagamento dei canoni, e pagare il relativo importo.   
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
@@ -1201,7 +1209,9 @@ azure-deployc49a:
 01EHY18TQYNE7S325G7TEKF322:
   description: |
     Sportello Facile è un servizio on-line che consente a tutti i cittadini di effettuare delle prenotazioni di appuntamento presso diversi sportelli.  
-    Tramite IO potrai:                                                                                                                                                                                                                                * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale;
+    Tramite IO potrai:
+
+    * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale;
     * essere notificato in caso di modifica o disdetta dell'appuntamento.   
 
   privacy_url: https://www.comune.cancelloedarnone.ce.it/documenti/privacy.html
@@ -1274,7 +1284,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Rimini
+# Municipality of Rimini
 #
 
 01E7MGBS956ADAH12N65TQZ83A:
@@ -1293,7 +1303,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Sarzana
+# Municipality of Sarzana
 #
 
 01EA1R4S59VG36BPB7SDQXQKNN:
@@ -1327,7 +1337,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Sassuolo
+# Municipality of Sassuolo
 #
 
 01EM1AWDX0X4MWQW7D2FJHTC72:
@@ -1368,7 +1378,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Prignano sulla Secchia
+# Municipality of Prignano sulla Secchia
 #
 
 01EM1AYAV7Z5J41ZNNH7RSEQ5F:
@@ -1391,7 +1401,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Palagano
+# Municipality of Palagano
 #
 
 01EM1AZXRQ1PA5XKHHBN18W5C6:
@@ -1414,7 +1424,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Montefiorino
+# Municipality of Montefiorino
 #
 
 01EM1B35MHJG5G47QPS0KE0KAR:
@@ -1437,7 +1447,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Maranello
+# Municipality of Maranello
 #
 
 01EM1B7JE2Z0PRNV23RVXTCEXC:
@@ -1460,7 +1470,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Frassinoro
+# Municipality of Frassinoro
 #
 
 01EM1B8DNCVJD7VXJ5SFPEQD44:
@@ -1476,14 +1486,14 @@ azure-deployc49a:
 
   privacy_url: https://www.comune.frassinoro.mo.it/footer/privacy
   web_url: https://portale-frassinoro.entranext.it/
-  phone: 0536 971811
+  phone: 0536 971811
   email: segreteria@comune.frassinoro.mo.it
   pec: comune.frassinoro@pec.it
   address: Piazza Miani, 16 - 41044 - Frassinoro 
   scope: LOCAL
 
 #
-# Comune di Formagine
+# Municipality of Formagine
 #
 
 01EM1B9G8HCK2TM3NTF9W0N5D9:
@@ -1506,7 +1516,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Fiorano Modenese
+# Municipality of Fiorano Modenese
 #
 
 01EM1BAAY94S0B2XNFB615M1VW:
@@ -1529,7 +1539,7 @@ azure-deployc49a:
   scope: LOCAL
 
 #
-# Comune di Lecco
+# Municipality of Lecco
 #
 
 01EJXN09K6WA7QQPQ7YG5HA4XP:
@@ -1549,4 +1559,140 @@ azure-deployc49a:
   address: Piazza Diaz, 1 - 23900 Lecco (LC) 
   scope: LOCAL
 
+#
+# Municipality of Afragola
+#
 
+01EKD04W78N0TM0W0CE9T4N6NV:
+  description: |
+    Il servizio di Prenotazione Appuntamenti Uffici Comunali permette di gesitre i propri appuntamenti presso glu uffici comunali. 
+    Tramite IO potrai:
+
+    * essere notificato sulla prenotazione dell'appuntamento, cambio di date e orari.
+
+  privacy_url: http://www.comune.afragola.na.it/index.php/component/content/article/236-privacy?layout=edit&Itemid=101
+  web_url: https://spid.comune.afragola.na.it/kweb/sito/comune/servizi/201483-prenotazione-appuntamenti-misure-emergenza-coronavirus
+  phone: 081 8529238
+  support_url: https://spid.comune.afragola.na.it/kweb/sito/comune/servizi/201118-contatti-per-assistenza
+  pec:  protocollo@pec.comune.afragola.na.it
+  address: Piazza Municipio, 1 - 80021 Afragola (NA)
+  scope: LOCAL
+
+
+01EK01NRM0KB14JGW25J5365QX:
+  description: |
+    Tramite il servizio di Segnalazioni Disservizi, Pericoli e Malfunzionamenti puoi sottomettere la tua segnalazione comodamente online. 
+    Tramite IO potrai:
+
+    * essere notificato in tutti i passaggi amministrativi della tua istanza
+    * ricevere allerte sul procedimento amministrativo.
+
+
+  privacy_url: http://www.comune.afragola.na.it/index.php/component/content/article/236-privacy?layout=edit&Itemid=101
+  web_url: https://spid.comune.afragola.na.it/kweb/sito/comune/servizi/categoria/200517-segnalazioni
+  phone: 081 8529238
+  support_url: https://spid.comune.afragola.na.it/kweb/sito/comune/servizi/201118-contatti-per-assistenza
+  pec:  protocollo@pec.comune.afragola.na.it
+  address: Piazza Municipio, 1 - 80021 Afragola (NA)
+  scope: LOCAL
+
+#
+# Municipality of Silea
+#
+
+01EM3Z9QAQWTWHFEV9JS5JCN0B:
+  description: |
+    Il servizio di Pagamenti per i servizi cimiteriali offre la possibilità di gestire i pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento delle concessioni cimiteriali;
+    * pagamento dei diritti cimiteriali;
+    * pagamento dei servizi di cremazione.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365705
+  email: cimiteriali@comune.silea.tv.it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL
+
+01EM3ZD0HP8K222GV9S8JPC9C4:
+  description: |
+    Il servizio di Pagamenti per uso immobili  offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento utilizzo palestre;
+    * pagamento utilizzo locali.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365724
+  email: servizipersona@comune.silea.tv .it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL
+
+01EM3ZE3W7PBBYGSH27TSFH2DR:
+  description: |
+    Il servizio di Pagamenti per i canoni e tributi  offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento affitto fabbricati;
+    * pagamento COSAP permanente e temporanea.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365705
+  email: suap@comune.silea.tv.it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL
+
+01EM3ZF5YGN6KGN77S0H50W865:
+  description: |
+    Il servizio di Pagamenti per i servizi sociali  offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento del servizio di assistenza;
+    * pagamento dei pasti caldi a domicilio.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365729
+  email: servizipersona@comune.silea.tv .it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL
+
+01EM3ZGA1C6KVT7M66W4XPRA42:
+  description: |
+    Il servizio di Pagamenti per i servizi edilizia offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento del contributo di costruzione;
+    * pagamento dei diritti pratiche edilizie;
+    * pagamento per striscioni ed impianti pubblicitari.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365722
+  email: urbanistica@comune.silea.tv.it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL
+
+01EM3ZH9NSXSCZW5ZC267H69S0:
+  description: |
+    Il servizio di Pagamenti per i servizi anagrafe offre la possibilità di gestire dei pagamenti direttamente attraverso l'app IO, oltre alle modalità di pagamento già previste. 
+    Tramite IO potrai ricevere avvisi per:
+
+    * pagamento del rimborso spese per celebrazione matrimoni e unioni civili.
+
+  privacy_url: https://www.comune.silea.tv.it/home/info/privacy.html
+  web_url: https://silea.comune.plugandpay.it/
+  phone: 0422 365727
+  email: anagrafe@comune.silea.tv.it
+  pec: protocollo@comune.silea.legalmail.it
+  address: Via Don Minzoni, 12 - 31057 Silea 
+  scope: LOCAL

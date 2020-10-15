@@ -46,7 +46,7 @@ azure-deployc49a:
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://bollo.aci.it/#/main/home
-  support_url: https://assistenzabollo.aci.it/dati-personali?rif=ioapp 
+  support_url: https://assistenzabollo.aci.it/dati-personali?rif=ioapp
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   scope: NATIONAL
 
@@ -55,11 +55,33 @@ azure-deployc49a:
     Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico.
     Tramite IO potrai:
 
-    * ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
-    * ricevere un riepilogo dei certificati/attestati di proprietà dei veicoli di cui risulti intestatario al PRA al momento dell'invio del riepilogo.
+    * ricevere un riepilogo dei veicoli, e dei relativi certificati/attestazioni di proprietà,  di cui risulti intestatario al PRA aggiornato alla data di invio del messaggio;
+    * ricevere, se acquisisci un nuovo veicolo,  la notifica con il suo certificato/attestazione di proprietà digitale.
 
   privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
   web_url: https://iservizi.aci.it/consultacdpd/
+  phone: 800 18 34 34
+  support_url: http://www.aci.it/laci/urp/urp-ufficio-relazioni-con-il-pubblico.html?no_cache=1
+  address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
+  scope: NATIONAL
+
+01EMNQDSTD9F3WEFQYA5WWWHZY:
+  description: |
+    Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico.
+    Tramite IO potrai:
+
+    * ricevere una notifica quando viene trascritto al PRA un evento su un veicolo a te intestato a seguito di pratiche  presentate da te stesso o su richiesta di altri soggetti.
+
+    Ad esempio saranno inviate comunicazioni relativamente alle seguenti tipologie di registrazioni al PRA:
+      
+    * iscrizione/cancellazione del fermo amministrativo da parte di un Agente della riscossione;
+    * radiazione per la demolizione o  per definitiva esportazione all'estero;
+    * passaggio di proprietà al nuovo acquirente;
+    * perdita/rientro in possesso del veicolo.
+
+  privacy_url: http://www.aci.it/per-la-navigazione-del-sito/privacy-policy.html
+  web_url: http://www.aci.it/i-servizi/servizi-online/avvisaci.html
+  phone: 800 18 34 34
   support_url: http://www.aci.it/laci/urp/urp-ufficio-relazioni-con-il-pubblico.html?no_cache=1
   address: ACI - Sede Legale - Via Marsala 8, 00185 Roma
   scope: NATIONAL

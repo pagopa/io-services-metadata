@@ -1718,3 +1718,144 @@ azure-deployc49a:
   pec: protocollo@comune.silea.legalmail.it
   address: Via Don Minzoni, 12 - 31057 Silea 
   scope: LOCAL
+
+#
+# Municipality of Colli a Volturno
+#
+
+01EMGGTMA3N4794RMN751BVY7B:
+  description: |
+    Il Servizio Refezione Scolastica si occupa della gestione della mensa scolastica. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria alla scadenza dell'iscrizione al servizio Refezione Scolastica;
+    * ricevere un promemoria alla scadenza dei Buoni Pasto.
+
+  privacy_url: https://www.comune.colliavolturno.is.it/new/amministrazione/documentation/privacy-policy.html
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351&areaAttiva=7
+  phone: 0865 957901
+  pec: colliavolturno@pec.it
+  email: protocollo@comune.colliavolturno.is.it
+  address: Piazza Municipio, n.1 - 1° Piano
+  support_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351
+  scope: LOCAL
+
+01EMGGV2YMEMVFGC7ED2385FJB:
+  description: |
+    Il Servizio di Anagrafe offre la possibilità di gestire i propri dati anagrafici, documenti in scadenza e dichiarazioni.
+    Tramite IO potrai:
+
+    * essere informato sulla scadenza della tua carta d'identità;
+    * ricevere un avviso che ti ricorda che il permesso di soggiorno risulta scaduto da alemno 6 mesi e che devi esibire il nuovo permesso in anagrafe;
+    * ricevere un promemoria alla scadenza dell'iscrizione al servizio Refezione Scolastica;
+    * ricevere un promemoria alla scadenza dei Buoni Pasto.
+
+  privacy_url: https://www.comune.colliavolturno.is.it/new/amministrazione/documentation/privacy-policy.html
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351&areaAttiva=6
+  phone: 0865 957901
+  pec: colliavolturno@pec.it
+  email: protocollo@comune.colliavolturno.is.it
+  address: Piazza Municipio, n.1 - 1° Piano
+  support_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351
+  scope: LOCAL
+
+01EMGGVCRVS672MQGPJ32YYM7R:
+  description: |
+    Il Servizio Tributi si occupa della gestione delle scadenze dei vari pagamenti. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria  che ti avvisa della scadenza di pagamento della TARI, IMU, TOSAP;
+    * ricevere l'avviso di accertamento per il mancato pagamento di rate scadute, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.colliavolturno.is.it/new/amministrazione/documentation/privacy-policy.html
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351&areaAttiva=4
+  phone: 0865 957901
+  pec: colliavolturno@pec.it
+  email: protocollo@comune.colliavolturno.is.it
+  address: Piazza Municipio, n.1 - 1° Piano
+  support_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351
+  scope: LOCAL
+
+01EMGGVX6SS8AG70B8E72X4XCM:
+  description: |
+    Il Servizio Cimiteri si occupa della riscossione dei canoni della Luce votiva e delle spese condominiali dei loculi. Tramite IO potrai:
+
+    * ricevere un promemoria che ti avvisa della scadenza di pagamento dei canoni;
+    * ricevere l'avviso di acertamento per il mancato pagamento dei canoni, e pagare il relativo importo.
+
+  privacy_url: https://www.comune.colliavolturno.is.it/new/amministrazione/documentation/privacy-policy.html
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351&areaAttiva=9
+  phone: 0865 957901
+  pec: colliavolturno@pec.it
+  email: protocollo@comune.colliavolturno.is.it
+  address: Piazza Municipio, n.1 - 1° Piano
+  support_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351
+  scope: LOCAL
+
+01EMGGW8P485YCE80K0KCX8A8B:
+  description: |
+    Sportello Facile è un servizio on-line che consente a tutti i cittadini di effettuare delle prenotazioni di appuntamento presso diversi sportelli. 
+    Tramite IO potrai:
+
+    * ricevere un promemoria che ti ricorda data e orario di un appuntamento prenotato presso un ufficio comunale;
+    * essere notificato in caso di modifica o disdetta dell'appuntamento.
+
+  privacy_url: https://www.comune.colliavolturno.is.it/new/amministrazione/documentation/privacy-policy.html
+  web_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351&areaAttiva=1
+  phone: 0865 957901
+  pec: colliavolturno@pec.it
+  email: protocollo@comune.colliavolturno.is.it
+  address: Piazza Municipio, n.1 - 1° Piano
+  support_url: http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n201351
+  scope: LOCAL
+
+#
+# Garda Uno S.p.a.
+#
+
+01EK0738Y1HDNXFHRQZ54SQSK7:
+  description: |
+    Garda Uno svolge il Servizio di Illuminazione Votiva nei Comuni di Toscolano Maderno e di Gardone Riviera. 
+    Il servizio è rivolto a coloro che desiderano attivare un punto luminoso sulla tomba di un proprio Caro quale Luce Votiva.
+    Tramite IO potrai:
+
+    * ricevere l'avviso di pagamento all'emissione della bolletta, e procedere al pagamento.
+
+  privacy_url: https://www.gardauno.it/it/privacy-policy
+  web_url: https://www.gardauno.it/it/servizi/energia
+  phone: 030 9995401
+  pec: protocollo@pec.gardauno.it
+  address: Via Italo Barbieri 20 - 25080 Padenghe sul Garda SpA
+  support_url: www.gardauno.it
+  scope: LOCAL
+
+01EKAKNKAW7YY57P09ZT0BT3ND:
+  description: |
+    Garda Uno esercisce il Servizio di Igiene Urbana in 24 Comuni della Provincia di Brescia. Il servizio qui offerto consente il pagamento degli avvisi di pagamento emessi a fronte di specifiche prestazioni (passaggi straordinari e personalizzati, forniture di contenitori di raccolta, ecc.).
+    Tramite IO potrai:
+
+    * ricevere l'avviso di pagamento a fronte di specifiche prestazioni, e procedere al pagamento.
+
+  privacy_url: https://www.gardauno.it/it/privacy-policy
+  web_url: https://www.gardauno.it/it/servizi/igiene-urbana
+  phone: 030 9995401
+  pec: protocollo@pec.gardauno.it
+  address: Via Italo Barbieri 20 - 25080 Padenghe sul Garda SpA
+  support_url: www.gardauno.it
+  scope: LOCAL
+
+01EKAMCZ8592P034H91Y8MV7R5:
+  description: |
+    Garda Uno esercisce Servizi di Mobilità e di gestione di Impianti Fotovoltaici nel territorio gardesano a fronte dei quali possono essere emesse fatture con annesso un avviso di pagamento che potrà essere pagato attraverso questo canale.
+    Tramite IO potrai:
+
+    * ricevere l'avviso di pagamento, e procedere al pagamento.
+
+  privacy_url: https://www.gardauno.it/it/privacy-policy
+  web_url: https://www.gardauno.it/it/servizi/energia
+  phone: 030 9995401
+  pec: protocollo@pec.gardauno.it
+  address: Via Italo Barbieri 20 - 25080 Padenghe sul Garda SpA
+  support_url: www.gardauno.it
+  scope: LOCAL
+

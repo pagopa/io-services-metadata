@@ -220,9 +220,6 @@
         }
       }
     },
-    "BpdPayment-instruments-id-HistoryActiveGet200-Response": {
-      "type": "boolean"
-    },
     "EnrollPaymentInstrumentDTO": {
       "title": "EnrollmentPaymentInstrumentDto",
       "type": "object",

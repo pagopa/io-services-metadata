@@ -57,6 +57,9 @@
           "403": {
             "description": "Forbidden"
           },
+          "409": {
+            "description": "Conflict"
+          },
           "500": {
             "description": ""
           }
@@ -153,6 +156,9 @@
           },
           "403": {
             "description": ""
+          },
+          "409": {
+            "description": "Conflict"
           },
           "500": {
             "description": ""

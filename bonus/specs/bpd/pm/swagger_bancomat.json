@@ -15,6 +15,10 @@
    "basePath": "/pp-restapi-CD",
    "tags": [
       {
+         "name": "b-pay-controller",
+         "description": "B Pay Controller"
+      },
+      {
          "name": "bancomat-controller",
          "description": "Bancomat Controller"
       },
@@ -33,6 +37,10 @@
       {
          "name": "resource-controller",
          "description": "Resource Controller"
+      },
+      {
+         "name": "satispay-controller",
+         "description": "Satispay Controller"
       },
       {
          "name": "transaction-controller",
@@ -118,7 +126,7 @@
             "tags": [
                "bancomat-controller"
             ],
-            "summary": "addWalletsBancomatCard",
+            "summary": "Possibili sottotipi del campo info (PaymentMethodInfo): [CardInfo]",
             "operationId": "addWalletsBancomatCardUsingPOST",
             "consumes": [
                "application/json"
@@ -201,51 +209,76 @@
             ]
          }
       },
-      "/v2/payments/{id}/actions/pay": {
+      "/v1/bpay/add-wallets": {
          "post": {
             "tags": [
-               "payments-controller"
+               "b-pay-controller"
             ],
-            "summary": "pay3ds",
-            "operationId": "pay3dsUsingPOST",
+            "summary": "Possibili sottotipi del campo info (PaymentMethodInfo): [BPayInfo]",
+            "operationId": "addWalletsBPayUsingPOST",
             "consumes": [
                "application/json"
             ],
             "parameters": [
                {
-                  "name": "id",
-                  "in": "path",
-                  "description": "id",
-                  "required": true,
-                  "type": "string"
-               },
-               {
                   "in": "body",
-                  "name": "payRequest",
-                  "description": "payRequest",
+                  "name": "bPayRequest",
+                  "description": "bPayRequest",
                   "required": true,
                   "schema": {
-                     "$ref": "#/definitions/PayRequest"
+                     "$ref": "#/definitions/BPayRequest"
                   }
-               },
-               {
-                  "name": "language",
-                  "in": "query",
-                  "description": "language",
-                  "required": false,
-                  "type": "string",
-                  "default": "it"
                }
             ],
             "responses": {
                "200": {
                   "description": "OK",
                   "schema": {
-                     "$ref": "#/definitions/TransactionResponse"
+                     "$ref": "#/definitions/WalletsV2Response"
                   }
                },
                "201": {
                   "description": "Created"
+               },
+               "401": {
+                  "description": "Unauthorized"
+               },
+               "403": {
+                  "description": "Forbidden"
+               },
+               "404": {
+                  "description": "Not Found"
+               }
+            },
+            "security": [
+               {
+                  "Bearer": []
+               }
+            ]
+         }
+      },
+      "/v1/bpay/list": {
+         "get": {
+            "tags": [
+               "b-pay-controller"
+            ],
+            "summary": "getBpayList",
+            "operationId": "getBpayListUsingGET",
+            "parameters": [
+               {
+                  "name": "abi",
+                  "in": "query",
+                  "description": "abi",
+                  "required": false,
+                  "type": "string"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK",
+                  "schema": {
+                     "$ref": "#/definitions/RestBPayResponse"
+                  }
                },
                "401": {
                   "description": "Unauthorized"
@@ -269,7 +302,7 @@
             "tags": [
                "wallet-v-2-controller"
             ],
-            "summary": "Possibili sottotipi del campo info (PaymentMethodInfo): [CardInfo]",
+            "summary": "Possibili sottotipi del campo info (PaymentMethodInfo): [CardInfo, SatispayInfo, BPayInfo]",
             "operationId": "getWalletsV2UsingGET",
             "responses": {
                "200": {
@@ -361,6 +394,117 @@
             }
          },
          "title": "Amount"
+      },
+      "BPay": {
+         "type": "object",
+         "properties": {
+            "bankName": {
+               "type": "string"
+            },
+            "groupCode": {
+               "type": "string"
+            },
+            "instituteCode": {
+               "type": "string"
+            },
+            "nameObfuscated": {
+               "type": "string"
+            },
+            "numberEncrypted": {
+               "type": "string"
+            },
+            "numberObfuscated": {
+               "type": "string"
+            },
+            "paymentInstruments": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/BPayPaymentInstrument"
+               }
+            },
+            "serviceState": {
+               "type": "string"
+            },
+            "surnameObfuscated": {
+               "type": "string"
+            },
+            "token": {
+               "type": "string"
+            },
+            "uid": {
+               "type": "string"
+            },
+            "uidHash": {
+               "type": "string"
+            }
+         },
+         "title": "BPay"
+      },
+      "BPayInfo": {
+         "type": "object",
+         "properties": {
+            "bankName": {
+               "type": "string"
+            },
+            "brandLogo": {
+               "type": "string"
+            },
+            "instituteCode": {
+               "type": "string"
+            },
+            "numberObfuscated": {
+               "type": "string"
+            },
+            "paymentInstruments": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/BPayPaymentInstrumentWallet"
+               }
+            },
+            "uidHash": {
+               "type": "string"
+            }
+         },
+         "title": "BPayInfo"
+      },
+      "BPayPaymentInstrument": {
+         "type": "object",
+         "properties": {
+            "defaultReceive": {
+               "type": "boolean"
+            },
+            "defaultSend": {
+               "type": "boolean"
+            },
+            "ibanObfuscated": {
+               "type": "string"
+            }
+         },
+         "title": "BPayPaymentInstrument"
+      },
+      "BPayPaymentInstrumentWallet": {
+         "type": "object",
+         "properties": {
+            "defaultReceive": {
+               "type": "boolean"
+            },
+            "defaultSend": {
+               "type": "boolean"
+            }
+         },
+         "title": "BPayPaymentInstrumentWallet"
+      },
+      "BPayRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/BPay"
+               }
+            }
+         },
+         "title": "BPayRequest"
       },
       "BancomatCardsRequest": {
          "type": "object",
@@ -822,6 +966,18 @@
          "type": "object",
          "title": "ResourcesResponse"
       },
+      "RestBPayResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/BPay"
+               }
+            }
+         },
+         "title": "RestBPayResponse"
+      },
       "RestPanResponse": {
          "type": "object",
          "properties": {
@@ -833,6 +989,15 @@
             }
          },
          "title": "RestPanResponse"
+      },
+      "RestSatispayResponse": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Satispay"
+            }
+         },
+         "title": "RestSatispayResponse"
       },
       "Resume": {
          "type": "object",
@@ -857,6 +1022,45 @@
             }
          },
          "title": "ResumeRequest"
+      },
+      "Satispay": {
+         "type": "object",
+         "properties": {
+            "hasMore": {
+               "type": "boolean"
+            },
+            "token": {
+               "type": "string"
+            },
+            "uidSatispay": {
+               "type": "string"
+            },
+            "uidSatispayHash": {
+               "type": "string"
+            }
+         },
+         "title": "Satispay"
+      },
+      "SatispayInfo": {
+         "type": "object",
+         "properties": {
+            "brandLogo": {
+               "type": "string"
+            },
+            "uuid": {
+               "type": "string"
+            }
+         },
+         "title": "SatispayInfo"
+      },
+      "SatispayRequest": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/Satispay"
+            }
+         },
+         "title": "SatispayRequest"
       },
       "SendOtp": {
          "type": "object",
@@ -1228,6 +1432,9 @@
       "Wallet": {
          "type": "object",
          "properties": {
+            "bPay": {
+               "$ref": "#/definitions/BPay"
+            },
             "bancomatCard": {
                "$ref": "#/definitions/Card"
             },
@@ -1285,6 +1492,9 @@
             },
             "registeredNexi": {
                "type": "boolean"
+            },
+            "satispay": {
+               "$ref": "#/definitions/Satispay"
             },
             "saved": {
                "type": "boolean"
@@ -1373,6 +1583,15 @@
             "updateDate": {
                "type": "string",
                "format": "date-time"
+            },
+            "walletType": {
+               "type": "string",
+               "enum": [
+                  "Card",
+                  "Bancomat",
+                  "Satispay",
+                  "BPay"
+               ]
             }
          },
          "title": "WalletV2"
@@ -1388,6 +1607,15 @@
             }
          },
          "title": "WalletV2ListResponse"
+      },
+      "WalletV2Response": {
+         "type": "object",
+         "properties": {
+            "data": {
+               "$ref": "#/definitions/WalletV2"
+            }
+         },
+         "title": "WalletV2Response"
       },
       "WalletsV2Response": {
          "type": "object",

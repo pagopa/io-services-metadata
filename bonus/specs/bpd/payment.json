@@ -195,7 +195,6 @@
       "required": [
         "Status",
         "activationDate",
-        "deactivationDate",
         "fiscalCode",
         "hpan"
       ],
@@ -210,12 +209,10 @@
           "type": "string"
         },
         "activationDate": {
-          "format": "date-time",
           "description": "timestamp dell'attivazione dello strumento di pagamento. FORMATO  ISO8601 yyyy-MM-ddTHH:mm:ss.SSSXXXXX",
           "type": "string"
         },
         "deactivationDate": {
-          "format": "date-time",
           "description": "${swagger.paymentInstrument.cancellationDate}",
           "type": "string"
         },
@@ -246,7 +243,6 @@
       "type": "object",
       "properties": {
         "activationDate": {
-          "format": "date-time",
           "description": "Timestamp dell’attivazione dello strumento di pagamento. FORMATO  ISO8601 yyyy-MM-ddTHH:mm:ss.SSSXXXXX",
           "type": "string"
         }

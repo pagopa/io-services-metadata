@@ -36,7 +36,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/BpdAward-periodsGet200ApplicationJson;charset=UTF-8Response"
+              "$ref": "#/definitions/BpdAwardPeriods"
             }
           },
           "401": {
@@ -50,7 +50,7 @@
     }
   },
   "definitions": {
-    "BpdAward-periodsGet200ApplicationJson;charset=UTF-8Response": {
+    "BpdAwardPeriods": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/AwardPeriodResource"

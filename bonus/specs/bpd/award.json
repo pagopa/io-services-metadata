@@ -29,9 +29,6 @@
             "type": "string"
           }
         ],
-        "produces": [
-          "application/json;charset=UTF-8"
-        ],
         "responses": {
           "200": {
             "description": "OK",

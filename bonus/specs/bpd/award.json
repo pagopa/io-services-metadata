@@ -1,0 +1,166 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "BPD IO Award Period API",
+    "version": "1.0",
+    "description": "Api and Models"
+  },
+  "host": "bpd-dev.azure-api.net",
+  "basePath": "/bpd/io/award-periods",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "findAll",
+        "operationId": "findAllUsingGET",
+        "summary": "findAll",
+        "tags": [
+          "Bonus Pagamenti Digitali award-period Controller"
+        ],
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json;charset=UTF-8"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BpdAward-periodsGet200ApplicationJson;charset=UTF-8Response"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "BpdAward-periodsGet200ApplicationJson;charset=UTF-8Response": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/AwardPeriodResource"
+      },
+      "example": [
+        {
+          "awardPeriodId": 0,
+          "endDate": "string",
+          "startDate": "string"
+        }
+      ]
+    },
+    "AwardPeriodResource": {
+      "title": "AwardPeriodResource",
+      "required": [
+        "awardPeriodId",
+        "cashbackPercentage",
+        "endDate",
+        "gracePeriod",
+        "maxAmount",
+        "maxPeriodCashback",
+        "maxTransactionCashback",
+        "maxTransactionEvaluated",
+        "minPosition",
+        "minTransactionNumber",
+        "startDate",
+        "status"
+      ],
+      "type": "object",
+      "properties": {
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "Identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "cashbackPercentage": {
+          "format": "int64",
+          "description": "Percentuale applicata al cashback",
+          "type": "integer"
+        },
+        "endDate": {
+          "format": "date",
+          "description": "Data di fine periodo premiazione. FORMATO ISO8601 yyyy-MM-dd",
+          "type": "string"
+        },
+        "gracePeriod": {
+          "format": "int64",
+          "description": "Periodo di tolleranza",
+          "type": "integer"
+        },
+        "maxAmount": {
+          "format": "int64",
+          "description": "Importo massimo erogabile nel periodo",
+          "type": "integer"
+        },
+        "maxPeriodCashback": {
+          "format": "int64",
+          "description": "Cashback massimo accumulabile per l'intero periodo",
+          "type": "integer"
+        },
+        "maxTransactionCashback": {
+          "format": "int64",
+          "description": "Cashback massimo accumulabile per singola transazione",
+          "type": "integer"
+        },
+        "maxTransactionEvaluated": {
+          "format": "int64",
+          "description": "Valore massimo trattato sulla transazione",
+          "type": "integer"
+        },
+        "minPosition": {
+          "format": "int64",
+          "description": "Posizione minima per rientrare nel rimborso speciale",
+          "type": "integer"
+        },
+        "minTransactionNumber": {
+          "format": "int64",
+          "description": "Numero minimo di transazioni per accedere al cashback",
+          "type": "integer"
+        },
+        "startDate": {
+          "format": "date",
+          "description": "Data di inizio periodo premiazione. FORMATO ISO8601 yyyy-MM-dd",
+          "type": "string"
+        },
+        "status": {
+          "description": "Stato del periodo (ACTIVE- INACTIVE- CLOSED)",
+          "type": "string"
+        }
+      },
+      "example": {
+        "awardPeriodId": 0,
+        "cashbackPercentage": 0,
+        "endDate": "string",
+        "gracePeriod": 0,
+        "maxAmount": 0,
+        "maxPeriodCashback": 0,
+        "maxTransactionCashback": 0,
+        "maxTransactionEvaluated": 0,
+        "minPosition": 0,
+        "minTransactionNumber": 0,
+        "startDate": "string",
+        "status": "string"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Bonus Pagamenti Digitali award-period Controller",
+      "description": "Bpd Award Period Controller Impl"
+    }
+  ]
+}

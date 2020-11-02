@@ -1,0 +1,308 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "BPD IO Winning Transactions API",
+    "version": "1.0",
+    "description": "Api and Models"
+  },
+  "host": "bpd-dev.azure-api.net",
+  "basePath": "/bpd/io/winning-transactions",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "findWinningTransactions",
+        "operationId": "findWinningTransactionsUsingGET",
+        "summary": "findWinningTransactions",
+        "tags": [
+          "Bonus Pagamenti Digitali winning-transaction Controller"
+        ],
+        "parameters": [
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "Format - int64. identificativo univoco del periodo di premiazione",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "hpan",
+            "in": "query",
+            "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BpdWinningTransactions"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/total-cashback": {
+      "get": {
+        "description": "getTotalCashback",
+        "operationId": "getTotalScoreUsingGET",
+        "summary": "getTotalCashback",
+        "tags": [
+          "Bonus Pagamenti Digitali winning-transaction Controller"
+        ],
+        "parameters": [
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "Format - int64. identificativo univoco del periodo di premiazione",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/TotalCashbackResource"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "OperationType": {
+      "title": "OperationType",
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "WinningTransactionDTO": {
+      "title": "WinningTransactionDTO",
+      "required": [
+        "acquirerCode",
+        "acquirerId",
+        "amount",
+        "awardPeriodId",
+        "bin",
+        "correlationId",
+        "hpan",
+        "idTrxAcquirer",
+        "idTrxIssuer",
+        "mcc",
+        "merchantId",
+        "operationType",
+        "score",
+        "terminalId",
+        "trxDate"
+      ],
+      "type": "object",
+      "properties": {
+        "acquirerCode": {
+          "description": "codice univoco rilasciato da pagoPa SpA",
+          "type": "string"
+        },
+        "acquirerId": {
+          "description": "nel caso di transazione con carta rappresenta il valore omonimo veicolato nei tracciati dei circuiti internazionali",
+          "type": "string"
+        },
+        "amount": {
+          "description": "in centesimi di euro (es: 10 = 1000) ed in valore assoluto",
+          "type": "number"
+        },
+        "amountCurrency": {
+          "type": "string"
+        },
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "bin": {
+          "description": "${swagger.winningTransaction.bin}",
+          "type": "string"
+        },
+        "circuitType": {
+          "type": "string"
+        },
+        "correlationId": {
+          "description": "Identificativo di correlazione fra operazione di pagamento ed eventuale storno/reversa",
+          "type": "string"
+        },
+        "hpan": {
+          "description": "${swagger.winningTransaction.hpan}",
+          "type": "string"
+        },
+        "idTrxAcquirer": {
+          "description": "identificativo univoco della transazione a livello di Acquirer (all'interno di uno specifico periodo temporale, puÃ² coincidere per esempio con RRN+STAN)",
+          "type": "string"
+        },
+        "idTrxIssuer": {
+          "description": "codice autorizzativo rilasciato dall' Issuer (es: AuthCode)",
+          "type": "string"
+        },
+        "mcc": {
+          "description": "Merchant Category Code",
+          "type": "string"
+        },
+        "mccDescription": {
+          "type": "string"
+        },
+        "merchantId": {
+          "description": "Identificativo univoco del negozio fisico presso l'Acquirer. serve ad identificare l'esercente e la categoria merceologica.",
+          "type": "string"
+        },
+        "operationType": {
+          "description": "tipologia operazione, la codifica Ã¨ la stessa utilizzata nel file standard csv",
+          "type": "string"
+        },
+        "score": {
+          "description": "punteggio della transazione",
+          "type": "number"
+        },
+        "terminalId": {
+          "description": "${swagger.winningTransaction.terminalId}",
+          "type": "string"
+        },
+        "trxDate": {
+          "format": "date-time",
+          "description": "timestamp dell'operazione di pagamento effettuata presso l'esercente",
+          "type": "string"
+        }
+      }
+    },
+    "BpdWinningTransactions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/WinningTransactionResource"
+      }
+    },
+    "WinningTransactionResource": {
+      "title": "WinningTransactionResource",
+      "required": [
+        "amount",
+        "awardPeriodId",
+        "cashback",
+        "circuitType",
+        "hashPan",
+        "idTrxAcquirer",
+        "idTrxIssuer",
+        "trxDate"
+      ],
+      "type": "object",
+      "properties": {
+        "amount": {
+          "description": "in centesimi di euro (es: 10ï¿½ = 1000) ed in valore assoluto",
+          "type": "number"
+        },
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "cashback": {
+          "description": "Cashback transazione, indicato con segno \"-\" in caso di storno",
+          "type": "number"
+        },
+        "circuitType": {
+          "description": "Circuito sul quale ï¿½ stata effettuata la transazione",
+          "type": "string"
+        },
+        "hashPan": {
+          "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+          "type": "string"
+        },
+        "idTrxAcquirer": {
+          "description": "identificativo univoco della transazione a livello di Acquirer (all'interno di uno specifico periodo temporale, puï¿½ coincidere per esempio con RRN+STAN)",
+          "type": "string"
+        },
+        "idTrxIssuer": {
+          "description": "codice autorizzativo rilasciato dall' Issuer (es: AuthCode)",
+          "type": "string"
+        },
+        "trxDate": {
+          "format": "date-time",
+          "description": "timestamp dell'operazione di pagamento effettuata presso l'esercente",
+          "type": "string"
+        }
+      },
+      "example": {
+        "amount": 0.7114042004081611,
+        "awardPeriodId": 0,
+        "cashback": 0.5640133257839899,
+        "circuitType": "string",
+        "hashPan": "string",
+        "idTrxAcquirer": "string",
+        "idTrxIssuer": "string",
+        "trxDate": "string"
+      }
+    },
+    "TotalCashbackResource": {
+      "title": "TotalCashbackResource",
+      "required": [
+        "totalCashback",
+        "transactionNumber"
+      ],
+      "type": "object",
+      "properties": {
+        "totalCashback": {
+          "description": "Cashback transazione, indicato con segno '-' in caso di storno",
+          "type": "number"
+        },
+        "transactionNumber": {
+          "format": "int64",
+          "description": "Numero delle transazioni effettuate dall'utente",
+          "type": "integer"
+        }
+      },
+      "example": {
+        "totalScore": 0.06369130854478144,
+        "transactionNumber": 0
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Bonus Pagamenti Digitali winning-transaction Controller",
+      "description": "Bpd Winning Transaction Controller Impl"
+    }
+  ]
+}

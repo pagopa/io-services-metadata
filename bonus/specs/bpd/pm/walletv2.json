@@ -880,15 +880,7 @@
         },
         "code": {
           "type": "string",
-          "enum": [
-            "0",
-            "1",
-            "11",
-            "21",
-            "23",
-            "31",
-            "32"
-          ]
+          "description": "[patched] string in place of enum"
         }
       },
       "title": "Message"

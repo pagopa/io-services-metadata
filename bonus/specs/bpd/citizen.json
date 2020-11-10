@@ -5,10 +5,30 @@
       "version": "1.0",
       "description": "Api and Models"
    },
-   "host": "bpd-dev.azure-api.net",
+   "host": "test.cstar.pagopa.it",
    "basePath": "/bpd/io/citizen",
    "schemes": [
       "https"
+   ],
+   "securityDefinitions": {
+      "apiKeyHeader": {
+         "type": "apiKey",
+         "name": "Ocp-Apim-Subscription-Key",
+         "in": "header"
+      },
+      "apiKeyQuery": {
+         "type": "apiKey",
+         "name": "subscription-key",
+         "in": "query"
+      }
+   },
+   "security": [
+      {
+         "apiKeyHeader": []
+      },
+      {
+         "apiKeyQuery": []
+      }
    ],
    "paths": {
       "/": {
@@ -35,7 +55,7 @@
                }
             ],
             "produces": [
-               "application/json;charset=UTF-8"
+               "application/json"
             ],
             "responses": {
                "200": {
@@ -119,15 +139,18 @@
             "consumes": [
                "application/json"
             ],
+            "produces": [
+               "application/json"
+            ],
             "responses": {
                "200": {
-                  "description": ""
-               },
-               "204": {
-                  "description": "No Content"
+                  "description": "",
+                  "schema": {
+                     "$ref": "#/definitions/CitizenPatchResource"
+                  }
                },
                "400": {
-                  "description": ""
+                  "description": "Bad Request"
                },
                "401": {
                   "description": "Unauthorized"
@@ -190,7 +213,6 @@
                {
                   "name": "awardPeriodId",
                   "in": "query",
-                  "description": "identificativo univoco del periodo di premiazione",
                   "required": true,
                   "type": "string"
                },
@@ -209,7 +231,7 @@
                }
             ],
             "produces": [
-               "application/json;charset=UTF-8"
+               "application/json"
             ],
             "responses": {
                "200": {
@@ -242,51 +264,6 @@
             "timestampTC": {
                "format": "date-time",
                "description": "timestamp dell'accettazione di T&C. FORMATO  ISO8601 yyyy-MM-ddTHH:mm:ss.SSSXXXXX",
-               "type": "string"
-            }
-         }
-      },
-      "CitizenRankingResource": {
-         "title": "CitizenRankingResource",
-         "required": [
-            "totalParticipants",
-            "ranking"
-         ],
-         "type": "object",
-         "properties": {
-            "totalParticipants": {
-               "format": "int64",
-               "description": "numero totale di partecipanti al Bonus Pagamenti Digitali",
-               "type": "integer"
-            },
-            "ranking": {
-               "format": "int64",
-               "description": "posizione della graduatoria riferita al periodo di premiazione corrente",
-               "type": "integer"
-            }
-         },
-         "example": {
-            "totalParticipants": 0,
-            "ranking": 0
-         }
-      },
-      "CitizenPatchDTO": {
-         "title": "CitizenPatchDTO",
-         "required": [
-            "payoffInstr",
-            "payoffInstrType"
-         ],
-         "type": "object",
-         "properties": {
-            "payoffInstr": {
-               "description": "identificativo dello strumento di pagamento per la riscossione del premio",
-               "type": "string"
-            },
-            "payoffInstrType": {
-               "description": "tipologia di strumento di pagamento per la riscossione del premio",
-               "enum": [
-                  "IBAN"
-               ],
                "type": "string"
             }
          }
@@ -330,6 +307,113 @@
             "payoffInstr": "string",
             "payoffInstrType": "string",
             "timestampTC": "string"
+         }
+      },
+      "CitizenPatchDTO": {
+         "title": "CitizenPatchDTO",
+         "required": [
+            "accountHolderCF",
+            "accountHolderName",
+            "accountHolderSurname",
+            "payoffInstr",
+            "payoffInstrType"
+         ],
+         "type": "object",
+         "properties": {
+            "accountHolderCF": {
+               "description": "CF dell'intestatario dell'IBAN",
+               "type": "string"
+            },
+            "accountHolderName": {
+               "description": "Nome dell'intestatario dell'IBAN",
+               "type": "string"
+            },
+            "accountHolderSurname": {
+               "description": "Cognome dell'intestatario dell'IBAN",
+               "type": "string"
+            },
+            "payoffInstr": {
+               "description": "identificativo dello strumento di pagamento per la riscossione del premio",
+               "type": "string"
+            },
+            "payoffInstrType": {
+               "description": "tipologia di strumento di pagamento per la riscossione del premio",
+               "enum": [
+                  "IBAN"
+               ],
+               "type": "string"
+            }
+         },
+         "example": {
+            "accountHolderCF": "string",
+            "accountHolderName": "string",
+            "accountHolderSurname": "string",
+            "payoffInstr": "string",
+            "payoffInstrType": "string"
+         }
+      },
+      "CitizenPatchResource": {
+         "title": "CitizenPatchResource",
+         "required": [
+            "validationStatus"
+         ],
+         "type": "object",
+         "properties": {
+            "validationStatus": {
+               "description": "Stato di validazione a seguito della chiamata al servizio di checkIban.",
+               "type": "string"
+            }
+         },
+         "example": {
+            "validationStatus": "string"
+         }
+      },
+      "CitizenRankingResource": {
+         "title": "CitizenRankingResource",
+         "required": [
+            "totalParticipants",
+            "ranking",
+            "maxTransactionNumber",
+            "minTransactionNumber",
+            "transactionNumber",
+            "awardPeriodId"
+         ],
+         "type": "object",
+         "properties": {
+            "totalParticipants": {
+               "format": "int64",
+               "description": "numero totale di partecipanti al Bonus Pagamenti Digitali",
+               "type": "integer"
+            },
+            "ranking": {
+               "format": "int64",
+               "description": "posizione della graduatoria riferita al periodo di premiazione corrente",
+               "type": "integer"
+            },
+            "maxTransactionNumber": {
+               "format": "int64",
+               "description": "Numero massimo di transazioni effettuate dagli utenti che rientrano nel 'rimborso speciale'",
+               "type": "integer"
+            },
+            "minTransactionNumber": {
+               "format": "int64",
+               "description": "Numero minimo di transazioni effettuate dagli utenti che rientrano nel 'rimborso speciale'",
+               "type": "integer"
+            },
+            "transactionNumber": {
+               "format": "int64",
+               "description": "Numero di transazioni effettuate dall’utente",
+               "type": "integer"
+            },
+            "awardPeriodId": {
+               "format": "int64",
+               "description": "identificativo univoco del periodo di premiazione",
+               "type": "integer"
+            }
+         },
+         "example": {
+            "totalParticipants": 0,
+            "ranking": 0
          }
       }
    },

@@ -671,7 +671,8 @@
         },
         "expiringDate": {
           "type": "string",
-          "format": "date-time"
+          "format": "date",
+          "description" : "patched from date-time to date"
         },
         "hpan": {
           "type": "string"

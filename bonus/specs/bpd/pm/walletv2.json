@@ -879,8 +879,9 @@
           "format": "int32"
         },
         "code": {
-          "type": "string",
-          "description": "[patched] string in place of enum"
+          "type": "integer",
+          "format": "int32",
+          "description": "[patched] number in place of string enum"
         }
       },
       "title": "Message"

@@ -228,11 +228,11 @@ definitions:
     $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"
   BonusUrl:
     type: object
-      required:
-        - name
-        - url
-      properties:
-        name:
-          type: string
-        url:
-          type: string
+    required:
+      - name
+      - url
+    properties:
+      name:
+        type: string
+      url:
+        type: string

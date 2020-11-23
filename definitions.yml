@@ -222,8 +222,8 @@ definitions:
         type: string
       urls:
         type: array
-          items:
-            $ref: "#/definitions/BonusUrl"
+        items:
+          $ref: "#/definitions/BonusUrl"
   Timestamp:
     $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"
   BonusUrl:

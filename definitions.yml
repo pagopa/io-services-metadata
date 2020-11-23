@@ -233,6 +233,15 @@ definitions:
       - url
     properties:
       name:
-        type: string
+        $ref: "#/definitions/BonusUrlTitle"
       url:
+        type: string
+  BonusUrlTitle:
+    required:
+      - it
+      - en
+    properties:
+      it:
+        type: string
+      en:
         type: string

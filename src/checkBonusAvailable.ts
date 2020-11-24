@@ -8,5 +8,9 @@ const isRight = BonusesAvailable.decode(
     fs.readFileSync(__dirname + "/../bonus/bonus_available.json").toString()
   )
 ).isRight();
-
+if (!isRight) {
+  console.error(
+    "bonus/bonus_available.json is not compatibile with BonusesAvailable type"
+  );
+}
 process.exit(isRight ? 0 : 1);

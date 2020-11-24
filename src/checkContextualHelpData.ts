@@ -8,5 +8,9 @@ const isRight = ContextualHelp.decode(
     fs.readFileSync(__dirname + "/../contextualhelp/data.json").toString()
   )
 ).isRight();
-
+if (!isRight) {
+  console.error(
+    "contextualhelp/data.json is not compatible with ContextualHelp type"
+  );
+}
 process.exit(isRight ? 0 : 1);

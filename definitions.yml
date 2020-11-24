@@ -116,7 +116,9 @@ definitions:
       content:
         type: string
       faqs:
-        $ref: "#/definitions/Faq"
+        type: array
+        items:
+          $ref: "#/definitions/Faq"
   IdpData:
     type: object
     properties:

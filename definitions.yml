@@ -115,6 +115,8 @@ definitions:
         type: string
       content:
         type: string
+      faqs:
+        $ref: "#/definitions/Faq"
   IdpData:
     type: object
     properties:
@@ -235,4 +237,14 @@ definitions:
       name:
         type: string
       url:
+        type: string
+  Faq:
+    type: object
+    required:
+      - title
+      - body
+    properties:
+      title:
+        type: string
+      body:
         type: string

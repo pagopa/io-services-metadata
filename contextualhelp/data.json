@@ -14,7 +14,7 @@
                {
                "title": "Cosa serve per richiedere il Cashback?",
                "body": "Devi essere maggiorenne, risiedere in Italia e avere almeno un IBAN a te intestato o cointestato e almeno un metodo di pagamento elettronico."
-            },
+            }
             ]
          },
          {
@@ -58,7 +58,6 @@
             "route_name": "MainIbanScreen",
             "title": "Inserisci il tuo IBAN",
             "content": "In questa schermata puoi inserire l'IBAN di un conto o di una carta dotata di IBAN su cui vuoi ricevere gli eventuali rimborsi a periodo concluso. Il conto o la carta in questione **devono essere intestate o cointestate a te.**\nQuesto passaggio non è obbligatorio, ma ti raccomandiamo di farlo entro la fine del periodo per evitare eventuali problemi con i rimborsi.",
-            "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso.",
             "faqs": [
                {
                "title": "Posso cambiare l’IBAN con cui ho aderito al Cashback?",

@@ -1,7 +1,250 @@
 {
    "version": 1,
    "it": {
-      "screens": [],
+      "screens": [
+         {
+            "route_name": "BpdInformationScreen",
+            "title": "Programma Cashback",
+            "content": "Qui sono visualizzate tutte le informazioni relative al Cashback, il provvedimento istituito dal Ministero dell'Economia e delle Finanze per incentivare l'utilizzo della moneta elettronica anche per piccole somme.",
+            "faqs": [
+               {
+               "title": "Come faccio a richiedere il Cashback?",
+               "body": "Se sei maggiorenne e risiedi in Italia, semplicemente premi sul pulsante 'Attiva il Cashback' in fondo alla pagina e segui il flusso che ti viene proposto.\nA seguito dell'autodichiarazione, ti verrà chiesto di:\n- inserire un IBAN, che utilizzeremo a fine periodo per rimborsarti eventuali importi accumulati;\n- aggiungere metodi di pagamento elettronici (o attivare quelli già presenti nel tuo portafoglio).\n\nEntrambi i passaggi sono facoltativi, ma ti consigliamo di effettuarli subito per evitare di dimenticarti e iniziare quanto prima ad accumulare transazioni valide."
+            },
+               {
+               "title": "Cosa serve per richiedere il Cashback?",
+               "body": "Devi essere maggiorenne, risiedere in Italia e avere almeno un IBAN a te intestato o cointestato e almeno un metodo di pagamento elettronico."
+            },
+            ]
+         },
+         {
+            "route_name": "DeclarationScreen",
+            "title": "Iscrizione al Cashback",
+            "content": "Leggi le condizioni descritte in questa pagina e, se corrispondono al vero, spunta i relativi quadratini, premendoli.\nPuoi proseguire nell'attivazione del Cashback solo se tutti e 4 i quadratini sono spuntati.\nTi ricordiamo che dichiarando il falso potrai incorrere in sanzioni penali, oltre a perdere il diritto al rimborso di eventuali importi accumulati ai sensi degli [Articoli 46 e 47 del Dpr 28 dicembre 2000 n. 445](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2000-12-28;445)",
+            "faqs": [
+               {
+               "title": "Cosa vuole dire 'acquisti non legati ad attività di Impresa, Arte o Professione'?",
+               "body": "Significa che non sono valide le transazioni per acquisti legati alla propria attività professionale, ad esempio per l'acquisto di materiale per l'ufficio. I cittadini devono attivare al Cashback solo i metodi di pagamento con cui effettuano acquisti di carattere esclusivamente personale."
+            }
+            ]
+         },
+         {
+            "route_name": "EnrollPaymentMethodsScreen",
+            "title": "Abilita i tuoi metodi di pagamento al Cashback",
+            "content": "In questa schermata ti mostriamo i metodi di pagamento che hai già registrato nel tuo Portafoglio in IO.\nSeleziona quelli che vuoi attivare per il Cashback – premendo sull'icona grigia alla destra dell'elemento nella lista – e conferma la tua scelta.\nTi ricordiamo che puoi attivare ai fini del Cashback solo i metodi di pagamento **a te intestati.**",
+            "faqs": [
+               {
+               "title": "Cosa vuol dire 'Metodi di pagamento non attivabili o non compatibili'?",
+               "body": "Se nella lista vedi metodi di pagamento sotto questa dicitura, significa che alcuni metodi che hai salvato non possono essere attivati ai fini del Cashback. Puoi toccare la 'i' a fianco di ciascun elemento per leggere la motivazione."
+            },
+            {
+               "title": "Quali metodi di pagamento posso usare per il Cashback?",
+               "body": "Ti invitiamo a controllare la lista completa al seguente link: [Metodi di Pagamento](https://io.italia.it/metodi-pagamento).\nStiamo lavorando per includere quanti più metodi di pagamento elettronico possibile, per cui la lista si potrebbe presto aggiornare!"
+            }
+            ]
+         },
+         {
+            "route_name": "NoPaymentMethodsAvailableScreen",
+            "title": "Salva i tuoi metodi di pagamento e abilitali al Cashback",
+            "content": "Per iniziare a collezionare transazioni valide che ti permettano di accumulare il cashback, è necessario salvare in IO i tuoi metodi di pagamento elettronico e abilitarli al Cashback.\nPuoi farlo anche in un secondo momento, ma ti informiamo che inizieremo a collezionare le transazioni su un determinato metodo a partire dalle 00:01 del giorno successivo alla sua attivazione in IO.\nTi ricordiamo che puoi attivare ai fini del Cashback solo i metodi di pagamento **a te intestati**.",
+            "faqs": [
+               {
+               "title": "Quali metodi di pagamento posso usare per il Cashback?",
+               "body": "Ti invitiamo a controllare la lista completa al seguente link: [Metodi di Pagamento](https://io.italia.it/metodi-pagamento).\nStiamo lavorando per includere quanti più metodi di pagamento elettronico possibile, per cui la lista si potrebbe presto aggiornare!"
+            }
+            ]
+         },
+         {
+            "route_name": "MainIbanScreen",
+            "title": "Inserisci il tuo IBAN",
+            "content": "In questa schermata puoi inserire l'IBAN di un conto o di una carta dotata di IBAN su cui vuoi ricevere gli eventuali rimborsi a periodo concluso. Il conto o la carta in questione **devono essere intestate o cointestate a te.**\nQuesto passaggio non è obbligatorio, ma ti raccomandiamo di farlo entro la fine del periodo per evitare eventuali problemi con i rimborsi.",
+            "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso.",
+            "faqs": [
+               {
+               "title": "Posso cambiare l’IBAN con cui ho aderito al Cashback?",
+               "body": "Sì, puoi modificare l’IBAN in ogni momento fino alla scadenza di ciascun periodo."
+            },
+            {
+               "title": "Due partecipanti al Cashback possono indicare per i rimborsi lo stesso codice IBAN, se sono co-intestatari?",
+               "body": "Sì, dal momento che quel codice IBAN risulta associato ai Codici Fiscali di entrambi partecipanti, iscritti individualmente al programma."
+            }
+            ]
+         },
+         {
+            "route_name": "BpdDetailsScreen",
+            "title": "Cashback",
+            "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso.",
+            "faqs": [
+               {
+               "title": "Come devo leggere questa schermata?",
+               "body": "Nella card in alto è riportato il periodo relativo al Cashback e se si tratta di un periodo attivo, o concluso. Inoltre l'importo descrive la cifra di Cashback accumulato fino a questo momento. Se vicino all'importo c'è un lucchetto, significa che ancora non si è raggiunto il numero minimo di transazioni richieste.\n\nAppena sotto le statistiche descrivono lo stato e l'andamento nell'iniziativa, ad esempio il numero di transazioni accumulate ed eventualmente la posizione in classifica per ottenere il Super Cashback."
+            },
+            {
+               "title": "Cosa posso fare in questa schermata?",
+               "body": "Il modulo relativo ai metodi permette di attivare/disattivare o aggiungere nuovi metodi di pagamento, così come il modulo dell'IBAN permette di inserire o modificare l'IBAN già inserito.\n\nInfine i due pulsanti in basso permettono di visualizzare il dettaglio di tutte le transazioni valide registrate o disiscriversi dal Cashback."
+            }
+            ]
+         },
+         {
+            "route_name": "BpdTransactionsScreen",
+            "title": "Le tue transazioni valide ai fini del Cashback",
+            "content": "In questa pagina sono visualizzate tutte le transazioni che ti hanno permesso di accumulare dei rimborsi, o di acquisire posizioni nella classifica del Super Cashback (a partire da gennaio 2021).\n\nPremendo su una transazione si apre un dettaglio con maggiori informazioni.\n\nI dati relativi alle transazioni non contengono informazioni circa il tipo di esercente presso cui è avvenuta.",
+            "faqs": [
+               {
+               "title": "Quali sono le transazioni valide ai fini del Cashback?",
+               "body": "Sono tutte le transazioni effettuate con i tuoi metodi di pagamento elettronico, attivati per il Cashback, e realizzate presso punti vendita fisici.\nQuesti includono negozi, professionisti (es. studi dentistici, ecc) e tutti coloro che hanno a disposizione un lettore fisico di strumenti di pagamento elettronici (POS)."
+            },
+            {
+               "title": "Quando vengono aggiunte transazioni alla lista?",
+               "body": "Le transazioni vengono registrate il giorno dopo che i circuiti bancari le hanno contabilizzate.  Questo significa che normalmente possono passare fino a 72 ore prima che tu veda la tua transazione registrata su IO, anche se di solito il processo è più rapido.  Potrebbe volerci un po’ di più nel caso in cui l’acquisto sia a ridosso del weekend o di qualche festività, oppure in qualche altra condizione particolare.\n\nNon ti preoccupare: tutte le transazioni valide fatte durante il periodo del cashback verranno registrate e considerate per rimborsi e classifica!\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
+            },
+            {
+               "title": "Sono passati più di 5 giorni e ancora non vedo la mia transazione, cosa devo fare?",
+               "body": "Se sono già passati almeno 5 giorni dalla transazione, contatta l'assistenza, inviando un messaggio utilizzando il pulsante qui sotto."
+            },
+            {
+               "title": "Perché vedo una transazione con €0 di cashback?",
+               "body": "Se alcune transazioni della lista mostrano €0 come cashback accumulato, significa che probabilmente hai già raggiunto il massimo importo di Cashback ottenibile. Tutte le transazioni collezionate dopo aver raggiunto il traguardo, frutteranno €0, ma contribuiranno alla tua posizione per ottenere il Super Cashback, se attivo nel periodo corrente."
+            }
+            ]
+         },
+         {
+            "route_name": "SearchBankScreen",
+            "title": "Informativa sul trattamento dei dati personali",
+            "content": "In questa schermata ti invitiamo a leggere l'informativa prima di procedere all'aggiunta delle tue carte PagoBANCOMAT.",
+            "faqs": [
+               {
+               "title": "Cosa devo fare adesso?",
+               "body": "IO è in grado di risalire a tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene preso dall'account SPID o CIE con cui hai effettuato l'accesso. **In questo caso premi semplicemente su Continua.**\nSe vuoi puoi anche cercare il nome della tua banca, ma non è necessario."
+            },
+            {
+               "title": "Perché non trovo la mia banca?",
+               "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una Banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni.\n\n**Premi su Continua e IO cercherà tutte le carte PagoBANCOMAT a te intestate** sulla base del tuo codice fiscale, che viene preso dall'account SPID o CIE con cui hai effettuato l'accesso."
+            }
+            ]
+         },
+         {
+            "route_name": "SearchAvailableUserBancomatScreen",
+            "title": "Le tue carte PagoBANCOMAT",
+            "content": "In questa schermata ti mostriamo la o le carte PagoBANCOMAT a te intestate. Puoi aggiungerle premendo 'Aggiungi', oppure saltare la carta in questione per uscire dal flusso o passare alla carta successiva nel caso ne siano state trovate più di una.",
+            "faqs": [
+               {
+               "title": "Una volta abilitata la carta, posso iniziare subito a collezionare transazioni?",
+               "body": "No, quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
+            },
+            {
+               "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
+               "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
+            }
+            ]
+         },
+         {
+            "route_name": "SuggestBpdActivationScreen",
+            "title": "Vuoi iscriverti al programma Cashback?",
+            "content": "Se stai visualizzando questa schermata, significa che hai appena aggiunto metodi di pagamento compatibili con l'iniziativa Cashback.\nSe vuoi iscriverti per provare a ottenere un rimborso sui tuoi acquisti effettuati con strumenti di pagamento elettronico, premi su **Info e Attivazione**, altrimenti premi **No, grazie.**"
+         },
+         {
+            "route_name": "ActivateBpdOnNewBancomatScreen",
+            "title": "Attiva il Cashback sulle tue carte PagoBANCOMAT",
+            "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo."
+         },
+         {
+            "route_name": "ActivateBpdOnNewBancomatScreen",
+            "title": "Attiva il Cashback sulle tue carte",
+            "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo."
+         },
+         {
+            "route_name": "BANCOMATDETAILSCREEN",
+            "title": "La tua carta PagoBANCOMAT",
+            "content": "Questa è la schermata di dettaglio della tua carta PagoBANCOMAT. Sulla carta sono rappresentati il logo della banca che ha emesso la carta e la data di scadenza.",
+            "faqs": [
+               {
+               "title": "Cosa posso fare da qui?",
+               "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento, come ad esempio il Cashback.\nPer il momento non è possibile effettuare pagamenti tramite IO con le carte PagoBANCOMAT, ma se la tua carta presenta un secondo logo di circuito (es. Maestro, Mastercard, Visa) e ha un codice di sicurezza, **aggiungila nel wallet come Carta di debito. Potrai così anche effettuare pagamenti su IO e collezionare tutte le transazioni valide per il Cashback.**\nPuoi inoltre eliminare questo metodo di pagamento dal tuo wallet."
+            },
+            {
+               "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
+               "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
+            }
+            ]
+         },
+         {
+            "route_name": "WALLET_CARD_SECURITY_CHECK",
+            "title": "Verifica di sicurezza",
+            "content": "Per verificare la validità della tua carta e procedere alla conferma del pagamento, ti chiediamo di inserire il codice di sicurezza.",
+            "faqs": [
+               {
+               "title": "Dove trovo il codice di sicurezza?",
+               "body": "È un codice a tre cifre, chiamato CVV o CVS, che puoi trovare sul retro della tua carta.\nSulle carte American Express il codice (CID) è a quattro cifre ed è posizionato sul fronte."
+            },
+            {
+               "title": "La mia carta non ha alcun codice di sicurezza",
+               "body": "Controlla bene sul retro (per le carte Maestro, Mastercard, Visa) o sul fronte (per le carte American Express). Se non trovi alcun codice di sicurezza, molto probabilmente la tua carta non è abilitata ai pagamenti online. Contatta la tua banca per maggiori informazioni."
+            }
+            ]
+         },
+         {
+            "route_name": "WALLET_ADD_PAYMENT_METHOD",
+            "title": "Come aggiungere un metodo di pagamento",
+            "content": "Qui puoi aggiungere un nuovo metodo di pagamento, che verrà poi visualizzato tra i tuoi metodi salvati nella sezione Portafoglio. Potrai sempre modificare o cancellare il metodo inserito in un secondo momento, entrando nella sezione Portafoglio, e selezionando il metodo di pagamento su cui desideri intervenire all'interno della lista.",
+            "faqs": [
+               {
+               "title": "Quali metodi di pagamento puoi aggiungere?",
+               "body": "Al momento puoi aggiungere carte di debito, credito, prepagate e PagoBANCOMAT. L'aggiunta di ulteriori metodi di pagamento è in programma per i prossimi mesi. Consulta l'elenco aggiornato alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+            },
+            {
+               "title": "La mia carta PagoBANCOMAT è anche una carta di debito. Cosa devo selezionare?",
+               "body": "Ti suggeriamo di salvare la tua carta sia come **PagoBANCOMAT** sia come **Carta di debito**. Soltanto in questo modo potrai effettuare pagamenti su IO e collezionare tutte le transazioni valide per il Cashback."
+            },
+            {
+               "title": "Perché il salvataggio non va a buon fine?",
+               "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata ai pagamenti online.\n2. La tua carta è stata messa 'in pausa'.\n3. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n\nPuoi consultare un elenco dettagliato dei metodi supportati alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+            }
+            ]
+         },
+         {
+            "route_name": "WALLET_ADD_CARD",
+            "title": "Salva una carta su IO",
+            "content": "Stai procedendo con il salvataggio di un nuovo metodo di pagamento, che verrà visualizzato tra i tuoi metodi salvati nella sezione Pagamenti. Potrai sempre modificare o cancellare il metodo inserito in un secondo momento, entrando nella sezione Pagamenti, e selezionando il metodo di pagamento su cui desideri intervenire all'interno della lista.",
+            "faqs": [
+               {
+               "title": "La mia carta non ha alcun codice di sicurezza.",
+               "body": "Controlla bene sul retro (per le carte Maestro, Mastercard, Visa) o sul fronte (per le carte American Express). Se non trovi alcun codice di sicurezza, molto probabilmente la tua carta non è abilitata ai pagamenti online. Contatta la tua banca per maggiori informazioni."
+            },
+            {
+               "title": "La mia carta PagoBANCOMAT è anche una carta di debito. Cosa devo selezionare?",
+               "body": "Ti suggeriamo di salvare la tua carta sia come **PagoBANCOMAT** sia come **Carta di debito**. Soltanto in questo modo potrai effettuare pagamenti su IO e collezionare tutte le transazioni valide per il Cashback."
+            },
+            {
+               "title": "Perché il salvataggio non va a buon fine?",
+               "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata ai pagamenti online.\n2. La tua carta è stata messa 'in pausa'.\n3. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n\nPuoi consultare un elenco dettagliato dei metodi supportati alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+            }
+            ]
+         },
+         {
+            "route_name": "WALLET_LIST",
+            "title": "I tuoi metodi di pagamento",
+            "content": "Qui puoi gestire tutti i tuoi metodi di pagamento salvati, o aggiungerne di nuovi – inclusi quelli salvati precedentemente su PagoPa, la piattaforma di pagamenti per la Pubblica Amministrazione. IO supporta al momento solo pagamenti con carta di credito/debito, ma presto saranno aggiunti altri metodi di pagamento che potrai usare comodamente dall'app.",
+            "faqs": [
+               {
+               "title": "Come puoi aggiungere un metodo di pagamento?",
+               "body": "Nella sezione **Portafoglio** in alto trovi i tuoi metodi di pagamento. Il tasto **Aggiungi un metodo** ti consente di aggiungere un nuovo metodo di pagamento."
+            },
+               {
+               "title": "Quali metodi di pagamento puoi aggiungere?",
+               "body": "Al momento puoi aggiungere carte di debito, credito, prepagate e PagoBANCOMAT. L'aggiunta di ulteriori metodi di pagamento è in programma per i prossimi mesi. Consulta l'elenco aggiornato alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+            },
+            {
+               "title": "Perché il salvataggio non va a buon fine?",
+               "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata ai pagamenti online.\n2. La tua carta è stata messa 'in pausa'.\n3. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n\nPuoi consultare un elenco dettagliato dei metodi supportati alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+            },
+            {
+               "title": "Come puoi rimuovere un metodo di pagamento?",
+               "body": "I tuoi metodi di pagamento sono visualizzati come card (o tessere) nella parta alta dello schermo. Interagendo con quest'area, puoi selezionare uno dei metodi aggiunti in precedenza. I tre pallini verticali (in alto a destra) danno accesso a un menu da cui puoi effettuare due operazioni: aggiungere/rimuovere il metodo di pagamento dai preferiti oppure rimuovere definitivamente il metodo di pagamento dall'app IO. Se vuoi rimuovere il metodo, seleziona questa opzione."
+            }
+            ]
+         }
+      ],
       "idps": {
          "arubaid": {
             "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Aruba selezionando una delle opzioni disponibili qui.",
@@ -83,7 +326,7 @@
       "screens": [],
       "idps": {
          "arubaid": {
-            "description": "For problems encountered during the authentication process , you can reach the support desk of Aruba by selecting  one of the options presented below.",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Aruba by selecting  one of the options presented below.",
             "helpdesk_form": "https://selfcarespid.aruba.it/#/recovery-emergency-code",
             "phone": "003905750504",
             "web_site": "https://www.pec.it/richiedi-spid-aruba-id.aspx",
@@ -92,7 +335,7 @@
             "recover_emergency_code": "https://selfcarespid.aruba.it/#/recovery-emergency-code"
          },
          "infocertid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of InfoCert by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://help.infocert.it/Cerca?searchText=spid) gathered by your Identity Provider.",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of InfoCert by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://help.infocert.it/Cerca?searchText=spid) gathered by your Identity Provider.",
             "helpdesk_form": "https://contatta.infocert.it/ticket/",
             "phone": "00390654641489",
             "web_site": "https://identitadigitale.infocert.it/",
@@ -100,7 +343,7 @@
             "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
          },
          "intesaid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Intesa by selecting  one of the options presented below.",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Intesa by selecting  one of the options presented below.",
             "email": "hdintesa@advalia.com",
             "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
             "phone": "800805093",
@@ -109,7 +352,7 @@
             "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
          },
          "lepidaid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Lepida by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
             "email": "helpdesk@lepida.it",
             "helpdesk_form": "https://www.lepida.net/assistenza/richiesta-assistenza-lepidaid",
             "phone": "800445500",
@@ -118,7 +361,7 @@
             "recover_password": "https://id.lepida.it/lepidaid/recuperapassword"
          },
          "namirialid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Namirial by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
             "helpdesk_form": "https://support.namirial.com/it/supporto-tecnico",
             "phone": "003907163494",
             "web_site": "https://www.namirialtsp.com/spid/",
@@ -126,7 +369,7 @@
             "recover_password": "https://portal.namirialtsp.com/public/resetPassword.xhtml"
          },
          "posteid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Poste Italiane by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Poste Italiane by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
             "helpdesk_form": "https://www.poste.it/scrivici.html",
             "phone": "800007777",
             "web_site": "https://posteid.poste.it",
@@ -134,21 +377,21 @@
             "recover_password": "https://posteid.poste.it/recuperocredenziali.shtml"
          },
          "sielteid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Sielte by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
             "helpdesk_form": "https://www.sielteid.it/contact.html#blocco-contatti-form",
             "phone": "00390957171301",
             "web_site": "https://www.sielteid.it/che-cos-e-sielteid.html",
             "recover_password": "https://myid.sieltecloud.it/profile/forgotPassword"
          },
          "spiditalia": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Sielte by selecting  the button below. \n For further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting  the button below. \n For further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
             "phone": "+390355787979",
             "web_site": "https://www.register.it/spid/ ",
             "recover_username": "https://spid.register.it/selfcare/recovery/username ",
             "recover_password": "https://spid.register.it/selfcare/recovery/password"
          },
          "timid": {
-            "description": "For problems encountered during the authentication process,  you can reach the support desk of Tim by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
+            "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
             "email": "supportotimid@telecomitalia.it",
             "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
             "phone": "800405800",

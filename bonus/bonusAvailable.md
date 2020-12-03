@@ -8,13 +8,13 @@
 - only for tests purposes
 
 ### bonus_available_v1.json
-- pointed by app == `1.10.0.2`
-- from version `1.10.0.2`
+- pointed by app == `1.10.0.3` & `1.10.0.4`
+- from these versions
     - if you add a bonus or edit an existing one with `hidden=false` & `is_active=false` app does nothing
     - if you add a bonus or edit an existing one with `hidden=false` & `is_active=true` app asks for an update
 
 ### bonus_available_v2.json
-- pointed by app > `1.10.0.2`
+- pointed by app > `1.10.0.4`
 
 
 

@@ -218,6 +218,8 @@ definitions:
         type: string
       title:
         type: string
+      description:
+        type: string
       subtitle:
         type: string
       content:

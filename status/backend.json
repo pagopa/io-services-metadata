@@ -1,7 +1,65 @@
 {
   "is_alive": true,
   "message": {
-    "it-IT": "",
-    "en-EN": ""
+    "it-IT": "Messaggio personalizzabile in italiano test test",
+    "en-EN": "English message"
+  },
+  "sections": {
+    "messages": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "La sezione Messaggi è in manutenzione, tornerà operativa a breve.",
+        "en-EN": "Messages section is under maintenance, it will be up and running again soon."
+      }
+    },
+    "services": {
+      "is_visible": false,
+      "level": "critical",
+      "web_url": {
+        "it-IT": "https://io.italia.it/",
+        "en-EN": "https://io.italia.it/"
+      },
+      "message": {
+        "it-IT": "La sezione Messaggi è in manutenzione, tornerà operativa a breve.",
+        "en-EN": "Messages section is under maintenance, it will be up and running again soon."
+      }
+    },
+    "login": {
+      "is_visible": false,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/",
+        "en-EN": "https://io.italia.it/"
+      },
+      "message": {
+        "it-IT": "Il sistema di autenticazione è in manutenzione, tornerà operativo a breve.",
+        "en-EN": "The authentication system is under maintenance, it will be up and running again soon."
+      }
+    },
+    "wallets": {
+      "is_visible": false,
+      "level": "critical",
+      "web_url": {
+        "it-IT": "https://io.italia.it/",
+        "en-EN": "https://io.italia.it/"
+      },
+      "message": {
+        "it-IT": "La sezione Portafoglio è in manutenzione, tornerà operativa a breve.",
+        "en-EN": "Wallet section is under maintenance, it will be up and running again soon."
+      }
+    },
+    "ingress": {
+      "is_visible": false,
+      "level": "critical",
+      "web_url": {
+        "it-IT": "https://io.italia.it/",
+        "en-EN": "https://io.italia.it/"
+      },
+      "message": {
+        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
+        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+      }
+    }
   }
 }

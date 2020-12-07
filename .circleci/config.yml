@@ -58,6 +58,7 @@ jobs:
       - run: yarn generate:all
       - run: yarn check_contextual_help_data
       - run: yarn check_bonus_available_data
+      - run: yarn check_backend_status
 
   danger:
     <<: *defaults_js

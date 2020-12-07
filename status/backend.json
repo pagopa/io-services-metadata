@@ -26,11 +26,11 @@
       }
     },
     "login": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "Tutti i sistemi di autenticazione sono operativi",
-        "en-EN": "The authentication system is fully operating"
+        "it-IT": "Alcuni metodi di autenticazione potrebbero rispondere lentamente, in caso riprova",
+        "en-EN": "Some authentication methods may respond slowly, please retry"
       }
     },
     "wallets": {
@@ -42,8 +42,8 @@
       }
     },
     "ingress": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "message": {
         "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
         "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."

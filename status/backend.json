@@ -37,13 +37,13 @@
       "is_visible": true,
       "level": "critical",
       "message": {
-        "it-IT": "La sezione Portafoglio è in manutenzione, tornerà operativa a breve.",
+        "it-IT": "La sezione Portafoglio è in manutenzione, tornerà operativa appena possibile.",
         "en-EN": "Wallet section is under maintenance, it will be up and running again soon."
       }
     },
     "ingress": {
       "is_visible": true,
-      "level": "normal",
+      "level": "warning",
       "message": {
         "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
         "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."

@@ -5,9 +5,33 @@
     "en-EN": "English message"
   },
   "sections": {
+    "email_validation": {
+      "is_visible": true,
+      "level": "warning",
+      "web_url": {
+        "it-IT": "https://io.italia.it/status/#2012081628",
+        "en-EN": "https://io.italia.it/status/en/#2012081628"
+      },
+      "message": {
+        "it-IT": "Il messaggio di validazione indirizzo email potrebbe arrivare dopo diverse ore.",
+        "en-EN": "We are configuring the Cashback service: there may be some temporary disruptions."
+      }
+    },
+    "cashback": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
+        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+      }
+    },
     "messages": {
       "is_visible": true,
       "level": "warning",
+      "web_url": {
+        "it-IT": "https://io.italia.it/status",
+        "en-EN": "https://io.italia.it/status/en"
+      },
       "message": {
         "it-IT": "Stiamo configurando il Cashback: potrebbero esserci temporanei disservizi.",
         "en-EN": "We are configuring the Cashback service: there may be some temporary disruptions."
@@ -17,8 +41,8 @@
       "is_visible": false,
       "level": "critical",
       "web_url": {
-        "it-IT": "https://io.italia.it/app-content/status/it.html",
-        "en-EN": "https://io.italia.it/app-content/status/en.html"
+        "it-IT": "https://io.italia.it/status",
+        "en-EN": "https://io.italia.it/status/en"
       },
       "message": {
         "it-IT": "La sezione Servizi è in manutenzione, tornerà operativa a breve.",

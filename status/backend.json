@@ -14,7 +14,7 @@
       },
       "message": {
         "it-IT": "Il messaggio di validazione indirizzo email potrebbe arrivare dopo diverse ore.",
-        "en-EN": "We are configuring the Cashback service: there may be some temporary disruptions."
+        "en-EN": "The email validation message may arrive after several hours."
       }
     },
     "cashback": {

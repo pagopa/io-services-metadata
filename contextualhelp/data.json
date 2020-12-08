@@ -116,7 +116,7 @@
          {
             "route_name": "BPD_DETAILS",
             "title": "Cashback",
-            "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso.",
+            "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso. Se vuoi vedere tutte le informazioni relative al programma, visita il sito [io.italia.it/cashback](https://io.italia.it/cashback)",
             "faqs": [
                {
                   "title": "Come devo leggere questa schermata?",

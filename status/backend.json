@@ -6,7 +6,7 @@
   },
   "sections": {
     "email_validation": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status/#2012081628",

@@ -6,7 +6,7 @@
   },
   "sections": {
     "email_validation": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "critical",
       "web_url": {
         "it-IT": "https://io.italia.it/status/#2012081628",
@@ -26,7 +26,7 @@
       }
     },
     "messages": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status",
@@ -50,7 +50,7 @@
       }
     },
     "login": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Alcuni metodi di autenticazione potrebbero rispondere lentamente, in caso riprova",
@@ -58,7 +58,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "critical",
       "web_url": {
         "it-IT": "https://io.italia.it/status",
@@ -70,7 +70,7 @@
       }
     },
     "ingress": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",

@@ -127,6 +127,22 @@
                   "body": "Il modulo relativo ai metodi permette di attivare/disattivare o aggiungere nuovi metodi di pagamento, così come il modulo dell'IBAN permette di inserire o modificare l'IBAN già inserito.\n\nInfine i due pulsanti in basso permettono di visualizzare il dettaglio di tutte le transazioni valide registrate o disiscriversi dal Cashback."
                },
                {
+                  "title": "Quali sono le transazioni valide ai fini del Cashback?",
+                  "body": "Sono tutte le transazioni effettuate con i tuoi metodi di pagamento elettronico, attivati per il Cashback, e realizzate presso punti vendita fisici.\nQuesti includono negozi, professionisti (es. studi dentistici, ecc) e tutti coloro che hanno a disposizione un lettore fisico di strumenti di pagamento elettronici (POS)."
+               },
+               {
+                  "title": "Quando vengono aggiunte transazioni alla lista?",
+                  "body": "Le transazioni vengono registrate il giorno dopo che i circuiti bancari le hanno contabilizzate.  Questo significa che normalmente possono passare fino a 72 ore prima che tu veda la tua transazione registrata su IO, anche se di solito il processo è più rapido.  Potrebbe volerci un po’ di più nel caso in cui l’acquisto sia a ridosso del weekend o di qualche festività, oppure in qualche altra condizione particolare.\n\nNon ti preoccupare: tutte le transazioni valide fatte durante il periodo del cashback verranno registrate e considerate per rimborsi e classifica!\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
+               },
+               {
+                  "title": "Sono passati più di 5 giorni e ancora non vedo la mia transazione, cosa devo fare?",
+                  "body": "Se sono già passati almeno 5 giorni dalla transazione, contatta l'assistenza, inviando un messaggio utilizzando il pulsante qui sotto."
+               },
+               {
+                  "title": "Perché vedo carte che non riconosco nella sezione 'Attivati su altri canali'?",
+                  "body": "In questa sezione trovi tutti i metodi di pagamento elettronici attivati tramite i canali messi a disposizione dei cosiddetti [Issuer Convenzionati](https://io.italia.it/cashback/issuer).\nAlcuni operatori consentono anche l’aggiunta delle rispettive carte abilitate attraverso i cosiddetti 'wallet' come **Apple Pay, Google Pay o Samsung Pay**.\n\n**In questo periodo sperimentale**, detto 'Extra Cashback di Natale', potresti vedere perciò dei numeri di carta differenti rispetto a quello che vedi sulla carta fisica.\n\nTi assicuriamo che non c’è nessun errore o problema di privacy: **si tratta delle versioni virtuali associate alla tua carta**, composte da codici casuali (detti in gergo tecnico 'token'), utilizzati per mettere in sicurezza i pagamenti che effettui tramite smartphone.\n\nPer questo motivo, ad ogni transazione effettuata con il tuo smartphone, non viene mostrato all’esercente il numero della carta fisica, ma si ricorre a questo tipo di versione 'cifrata' (detta anche 'tokenizzata').\n\nStiamo lavorando con i soggetti del settore dei pagamenti coinvolti nell’iniziativa per migliorare la visualizzazione sull’app IO di questo tipo di carte.\n\nPer maggiori informazioni puoi rivolgerti all’[Issuer Convenzionato](https://io.italia.it/cashback/issuer) con cui hai attivato la tua carta per il Cashback."
+               },
+               {
                   "title": "Posso cambiare l’IBAN con cui ho aderito al Cashback?",
                   "body": "Sì, puoi modificare l’IBAN in ogni momento fino alla scadenza di ciascun periodo."
                },
@@ -168,6 +184,10 @@
                {
                   "title": "Sono passati più di 5 giorni e ancora non vedo la mia transazione, cosa devo fare?",
                   "body": "Se sono già passati almeno 5 giorni dalla transazione, contatta l'assistenza, inviando un messaggio utilizzando il pulsante qui sotto."
+               },
+               {
+                  "title": "Perché vedo carte che non riconosco nella lista delle transazioni?",
+                  "body": "Alcuni operatori consentono anche l’aggiunta delle rispettive carte abilitate attraverso i cosiddetti 'wallet' come **Apple Pay, Google Pay o Samsung Pay**.\n\n**In questo periodo sperimentale**, detto 'Extra Cashback di Natale', potresti vedere perciò dei numeri di carta differenti rispetto a quello che vedi sulla carta fisica.\n\nTi assicuriamo che non c’è nessun errore o problema di privacy: **si tratta delle versioni virtuali associate alla tua carta**, composte da codici casuali (detti in gergo tecnico 'token'), utilizzati per mettere in sicurezza i pagamenti che effettui tramite smartphone.\n\nPer questo motivo, ad ogni transazione effettuata con il tuo smartphone, non viene mostrato all’esercente il numero della carta fisica, ma si ricorre a questo tipo di versione 'cifrata' (detta anche 'tokenizzata').\n\nStiamo lavorando con i soggetti del settore dei pagamenti coinvolti nell’iniziativa per migliorare la visualizzazione sull’app IO di questo tipo di carte.\n\nPer maggiori informazioni puoi rivolgerti all’[Issuer Convenzionato](https://io.italia.it/cashback/issuer) con cui hai attivato la tua carta per il Cashback."
                },
                {
                   "title": "Perché vedo una transazione con €0 di cashback?",

@@ -25,6 +25,7 @@ const SectionStatusR = t.interface({
 });
 
 const SectionStatusO = t.partial({
+  badge: LocalizedMessage,
   web_url: LocalizedMessage
 });
 
@@ -35,12 +36,20 @@ export const SectionStatus = t.intersection(
 export type SectionStatus = t.TypeOf<typeof SectionStatus>;
 
 const Sections = t.interface({
+  bancomat: SectionStatus,
+  bancomatpay: SectionStatus,
+  cashback: SectionStatus,
+  credit_card: SectionStatus,
+  digital_payments: SectionStatus,
+  email_validation: SectionStatus,
   ingress: SectionStatus,
   login: SectionStatus,
   messages: SectionStatus,
+  satispay: SectionStatus,
   services: SectionStatus,
   wallets: SectionStatus
 });
+export type Sections = t.TypeOf<typeof Sections>;
 const BackendStatusO = t.partial({
   sections: Sections
 });
@@ -49,6 +58,7 @@ export const BackendStatus = t.intersection(
   [BackendStatusR, BackendStatusO],
   "BackendStatus"
 );
+export type SectionStatusKey = keyof Sections;
 export type BackendStatus = t.TypeOf<typeof BackendStatus>;
 
 const isRight = BackendStatus.decode(

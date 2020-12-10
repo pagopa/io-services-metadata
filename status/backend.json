@@ -117,12 +117,12 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "possibile lentezza",
-        "en-EN": "possible slowness"
+        "it-IT": "possibili rallentamenti",
+        "en-EN": "possible slowdowns"
       },
       "badge": {
-        "it-IT": "possibile lentezza",
-        "en-EN": "possible slowness"
+        "it-IT": "possibili rallentamenti",
+        "en-EN": "possible slowdowns"
       }
     },
     "digital_payments": {

@@ -114,15 +114,15 @@
       }
     },
     "credit_card": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "",
-        "en-EN": ""
+        "it-IT": "possibili rallentamenti",
+        "en-EN": "possible slowdowns"
       },
       "badge": {
-        "it-IT": "",
-        "en-EN": ""
+        "it-IT": "possibili rallentamenti",
+        "en-EN": "possible slowdowns"
       }
     },
     "digital_payments": {

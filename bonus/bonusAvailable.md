@@ -1,7 +1,7 @@
 ### vacanze/bonuses_available.json
 - pointed by app <= `1.9.0.4` with `bpnEnabled=false`
 - note: if you add a bonus, or adding an existing one, with flag `hidden=false` these versions, app opens an alert asking for an app update
-- it's recommended to **DO NOT EDIT** this file
+- it's recommended to **DO NOT EDIT** this file (wrong handling of the continue button)
 
 ### bonus_available.json
 - pointed by app <= `1.9.0.4` with `bpnEnabled=true`

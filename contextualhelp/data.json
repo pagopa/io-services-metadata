@@ -127,8 +127,8 @@
                   "body": "Il modulo relativo ai metodi permette di attivare/disattivare o aggiungere nuovi metodi di pagamento, così come il modulo dell'IBAN permette di inserire o modificare l'IBAN già inserito.\n\nInfine i due pulsanti in basso permettono di visualizzare il dettaglio di tutte le transazioni valide registrate o disiscriversi dal Cashback."
                },
                {
-                  "title": "Quali sono le transazioni valide ai fini del Cashback?",
-                  "body": "Sono tutte le transazioni effettuate con i tuoi metodi di pagamento elettronico, attivati per il Cashback, e realizzate presso punti vendita fisici.\nQuesti includono negozi, professionisti (es. studi dentistici, ecc) e tutti coloro che hanno a disposizione un lettore fisico di strumenti di pagamento elettronici (POS)."
+                  "title": "Quali acquisti sono validi ai fini del Cashback?",
+                  "body": "In generale, sono validi gli acquisti effettuati sul territorio nazionale, con i metodi di pagamento elettronico attivati al Cashback, tramite dispositivi fisici di accettazione, come i POS, forniti da [Acquirer Convenzionati che ti permettano di partecipare all’iniziativa](https://io.italia.it/cashback/acquirer). Per questo, prima di eseguire un pagamento verifica sempre con l’esercente se il suo sistema di incasso consente la partecipazione al Cashback. Gli acquisti effettuati con una carta PagoBANCOMAT risulteranno sempre validi a prescindere dal dispositivo di accettazione."
                },
                {
                   "title": "Quando vengono aggiunte transazioni alla lista?",
@@ -174,8 +174,8 @@
             "content": "In questa pagina sono visualizzate tutte le transazioni che ti hanno permesso di accumulare dei rimborsi, o di acquisire posizioni nella classifica del Super Cashback (a partire da gennaio 2021).\n\nPremendo su una transazione si apre un dettaglio con maggiori informazioni.\n\nI dati relativi alle transazioni non contengono informazioni circa il tipo di esercente presso cui è avvenuta.",
             "faqs": [
                {
-                  "title": "Quali sono le transazioni valide ai fini del Cashback?",
-                  "body": "Sono tutte le transazioni effettuate con i tuoi metodi di pagamento elettronico, attivati per il Cashback, e realizzate presso punti vendita fisici.\nQuesti includono negozi, professionisti (es. studi dentistici, ecc) e tutti coloro che hanno a disposizione un lettore fisico di strumenti di pagamento elettronici (POS)."
+                  "title": "Quali acquisti sono validi ai fini del Cashback?",
+                  "body": "In generale, sono validi gli acquisti effettuati sul territorio nazionale, con i metodi di pagamento elettronico attivati al Cashback, tramite dispositivi fisici di accettazione, come i POS, forniti da [Acquirer Convenzionati che ti permettano di partecipare all’iniziativa](https://io.italia.it/cashback/acquirer). Per questo, prima di eseguire un pagamento verifica sempre con l’esercente se il suo sistema di incasso consente la partecipazione al Cashback. Gli acquisti effettuati con una carta PagoBANCOMAT risulteranno sempre validi a prescindere dal dispositivo di accettazione."
                },
                {
                   "title": "Quando vengono aggiunte transazioni alla lista?",

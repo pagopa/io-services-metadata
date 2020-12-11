@@ -18,14 +18,6 @@
       }
     },
     "cashback": {
-      "is_visible": false,
-      "level": "warning",
-      "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
-      }
-    },
-    "cashback": {
       "is_visible": true,
       "level": "normal",
       "web_url": {

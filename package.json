@@ -16,6 +16,7 @@
     "check_contextual_help_data": "ts-node src/checkContextualHelpData.ts",
     "check_bonus_available_data": "ts-node src/checkBonusAvailable.ts",
     "check_backend_status": "ts-node src/checkBackendStatus.ts",
+    "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:all": "rimraf generated/definitions/content && mkdir -p generated/definitions/content && gen-api-models --api-spec $npm_package_content_specs --out-dir ./generated/definitions/content",
     "generate:definitions": "gen-api-models --api-spec definitions.yml --out-dir ./definitions"
   },

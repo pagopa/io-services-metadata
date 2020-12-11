@@ -117,8 +117,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "possibili rallentamenti",
-        "en-EN": "possible slowdowns"
+        "it-IT": "Per il grande numero di richieste, la verifica della tua carta potrebbe subire dei rallentamenti",
+        "en-EN": "Due to the big number of requests, the card verification process may be slowed down"
       },
       "badge": {
         "it-IT": "possibili rallentamenti",

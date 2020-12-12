@@ -25,8 +25,8 @@
         "en-EN": "https://io.italia.it/cashback/faq/#n44"
       },
       "message": {
-        "it-IT": "Le transazioni possono richiedere fino a 3 giorni lavorativi per essere confermate.",
-        "en-EN": "Transactions may take up to 3 business days to be confirmed."
+        "it-IT": "Le transazioni possono richiedere fino a 3 giorni lavorativi per essere visualizzate.",
+        "en-EN": "Transactions may take up to 3 business days to be displayed."
       }
     },
     "messages": {

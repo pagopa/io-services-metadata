@@ -30,15 +30,11 @@
       }
     },
     "messages": {
-      "is_visible": false,
-      "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status/en"
-      },
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "Stiamo configurando il Cashback: potrebbero esserci temporanei disservizi.",
-        "en-EN": "We are configuring the Cashback service: there may be some temporary disruptions."
+        "it-IT": "Hai già attivato il cashback sul tuo bancomat? Aggiungilo al portafoglio!",
+        "en-EN": "Have you already activated cashback on your bancomat? Add it to your wallet!"
       }
     },
     "services": {

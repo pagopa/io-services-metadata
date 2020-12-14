@@ -11,7 +11,9 @@ describe("Test Success Case", () => {
     const bank = fromNullable(
       updStatusAbi.data.find(myBank => myBank.abi === "08988")
     );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(/Ulivi/);
+    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
+      /degli Ulivi/
+    );
   });
 
   test("Should preserve hyphens inside words", () => {
@@ -53,12 +55,86 @@ describe("Test Success Case", () => {
     );
   });
 
+  test("Should preserve numbers", ()=> {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08425"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Banca Cambiano 1884 - SPA/);
+  });
+
+  test("Should split at apostrophes", ()=> {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08284"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/ll'Oltrepo/);
+  });
+
   test("Should transform B.C.C. to BCC", () => {
     const bank = fromNullable(
       updStatusAbi.data.find(myBank => myBank.abi === "08899")
     );
     expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /BCC Di Treviglio/
+      /BCC di Treviglio/
     );
+  });
+
+  test("Should transformm De* to lower caase (no capital letter)", () => {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08913"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/BCC della Valle/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08948"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/BCC Ericina di Val/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08997"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Marco dei Cavoti/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "03048"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Banca del Piemonte/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "06010"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Cassa dei Risparmi/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08284"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Banca di Credito Cooperativo dell'Oltrepo/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08514"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Banca di Credito Cooperativo dell’Oglio e del Serio SC/);
+  });
+
+  test("Should transformm E* to lower case (no capital letter)", () => {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "06090"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Risparmio di Biella e Vercelli/);
+
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08378"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/Rurale ed Artigiana/);
   });
 });

@@ -55,7 +55,7 @@ describe("Test Success Case", () => {
     );
   });
 
-  test("Should preserve numbers", ()=> {
+  test("Should preserve numbers", () => {
     expect(
       fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08425"))
         .map(myBank => myBank.name)
@@ -63,7 +63,7 @@ describe("Test Success Case", () => {
     ).toMatch(/Banca Cambiano 1884 - SPA/);
   });
 
-  test("Should split at apostrophes", ()=> {
+  test("Should split at apostrophes", () => {
     expect(
       fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08284"))
         .map(myBank => myBank.name)

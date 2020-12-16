@@ -114,7 +114,7 @@
       }
     },
     "credit_card": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Per il grande numero di richieste, la verifica della tua carta potrebbe subire dei rallentamenti",

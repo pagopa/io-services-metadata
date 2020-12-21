@@ -206,7 +206,8 @@
                {
                   "name": "Authorization",
                   "in": "header",
-                  "description": "removed required since it is not true",
+                  "description": "Bearer Auth Token",
+                  "required": true,
                   "type": "string"
                },
                {

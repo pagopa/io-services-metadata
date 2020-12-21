@@ -201,18 +201,16 @@
                {
                   "name": "awardPeriodId",
                   "in": "query",
-                  "required": true,
                   "type": "string"
                },
                {
                   "name": "Authorization",
                   "in": "header",
-                  "description": "Bearer Auth Token",
-                  "required": true,
+                  "description": "removed required since it is not true",
                   "type": "string"
                },
                {
-                  "name": "x_request_id",
+                  "name": "x-x_request_id-id",
                   "in": "header",
                   "description": "UUID for request identification",
                   "type": "string"
@@ -225,7 +223,7 @@
                "200": {
                   "description": "OK",
                   "schema": {
-                     "$ref": "#/definitions/CitizenRankingResource"
+                     "$ref": "#/definitions/CitizenRankingResourceArray"
                   }
                },
                "401": {
@@ -402,6 +400,31 @@
          "example": {
             "totalParticipants": 0,
             "ranking": 0
+         }
+      },
+      "CitizenRankingResourceArray": {
+         "type": "array",
+         "items": {
+            "$ref": "#/definitions/CitizenRankingResource"
+         }
+      },
+      "TotalCashbackResource": {
+         "title": "TotalCashbackResource",
+         "required": [
+            "totalCashback",
+            "transactionNumber"
+         ],
+         "type": "object",
+         "properties": {
+            "totalCashback": {
+               "description": "Cashback transazione, indicato con segno '-' in caso di storno",
+               "type": "number"
+            },
+            "transactionNumber": {
+               "format": "int64",
+               "description": "Numero delle transazioni effettuate dall'utente",
+               "type": "integer"
+            }
          }
       }
    },

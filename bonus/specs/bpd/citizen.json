@@ -210,7 +210,7 @@
                   "type": "string"
                },
                {
-                  "name": "x-x_request_id-id",
+                  "name": "x_request_id",
                   "in": "header",
                   "description": "UUID for request identification",
                   "type": "string"

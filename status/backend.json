@@ -4,6 +4,9 @@
     "it-IT": "",
     "en-EN": "English message"
   },
+  "config": {
+    "bpd_ranking": false
+  },
   "sections": {
     "email_validation": {
       "is_visible": false,

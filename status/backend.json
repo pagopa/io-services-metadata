@@ -30,7 +30,7 @@
       }
     },
     "messages": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Hai già attivato il Cashback sul tuo bancomat? Aggiungilo al portafoglio!",
@@ -78,15 +78,15 @@
       }
     },
     "bancomat": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "",
-        "en-EN": ""
+        "it-IT": "Possibili disservizi nell'aggiunta di carte PagoBANCOMAT",
+        "en-EN": "The PagoBANCOMAT card adding service is currently under maintenance"
       },
       "badge": {
-        "it-IT": "",
-        "en-EN": ""
+        "it-IT": "possibili disservizi",
+        "en-EN": "under maintenance"
       }
     },
     "satispay": {

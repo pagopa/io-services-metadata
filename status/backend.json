@@ -61,15 +61,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "critical",
-      "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status/en"
-      },
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "La sezione Portafoglio è in manutenzione, ci scusiamo per il disagio.",
-        "en-EN": "Wallet section is under maintenance, we apologize for the inconvenience."
+        "it-IT": "Entro l’11 gennaio sarà definitivo il calcolo delle transazioni valide e dei rimborsi relativi all'Extra Cashback di Natale",
+        "en-EN": "The calculation of valid transactions and refunds related to the Christmas Extra Cashback will be final by 11 January"
       }
     },
     "ingress": {

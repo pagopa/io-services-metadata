@@ -22,10 +22,14 @@
     },
     "cashback": {
       "is_visible": true,
-      "level": "warning",
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/cashback/faq/#n4_13",
+        "en-EN": "https://io.italia.it/cashback/faq/#n4_13"
+      },
       "message": {
-        "it-IT": "Potrebbero esserci dei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "Le transazioni possono richiedere fino a 3 giorni lavorativi per essere visualizzate.",
+        "en-EN": "Transactions may take up to 3 business days to be displayed."
       }
     },
     "messages": {
@@ -58,10 +62,10 @@
     },
     "wallets": {
       "is_visible": true,
-      "level": "critical",
+      "level": "normal",
       "message": {
-        "it-IT": "Stiamo aggiornando il Cashback al nuovo periodo: tornerai presto a vedere qui i tuoi rimborsi e le tue transazioni",
-        "en-EN": "We are updating the Cashback service: transactions and refunds will be back soon."
+        "it-IT": "Entro il 10 gennaio sarà definitivo il calcolo delle transazioni valide e dei rimborsi relativi all'Extra Cashback di Natale",
+        "en-EN": "The calculation of valid transactions and refunds related to the Christmas Extra Cashback will be final by January 10"
       }
     },
     "ingress": {

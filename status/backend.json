@@ -58,10 +58,10 @@
     },
     "wallets": {
       "is_visible": true,
-      "level": "warning",
+      "level": "critical",
       "message": {
-        "it-IT": "Potrebbero esserci dei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "Stiamo aggiornando il Cashback al nuovo periodo: tornerai presto a vedere qui i tuoi rimborsi e le tue transazioni",
+        "en-EN": "We are updating the Cashback service: transactions and refunds will be back soon."
       }
     },
     "ingress": {

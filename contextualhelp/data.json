@@ -3,17 +3,6 @@
    "it": {
       "screens": [
          {
-            "route_name": "BPD_DETAILS",
-            "title": "Dettaglio del Cashback",
-            "content": "Qui sono visualizzati i dettagli del Cashback, insieme alle azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso. Se vuoi vedere tutte le informazioni relative al programma, visita il sito [io.italia.it/cashback](https://io.italia.it/cashback)",
-            "faqs": [
-               {
-                  "title": "Perché vedo il cashback a cui ho diritto espresso in migliaia?",
-                  "body": "In alcuni dispositivi il messaggio sul cashback a cui hai diritto riporta la cifra in un formato errato: verrà corretto a partire dalla prossima versione dell'app. Il valore corretto è quello riportato nella card del Cashback: ti ricordiamo che in ciascun periodo puoi accumulare al massimo € 150,00 di rimborso."
-               }
-            ]
-         },
-         {
             "route_name": "BPD_INFORMATION_TOS",
             "title": "Programma Cashback",
             "content": "Qui sono visualizzate tutte le informazioni relative al Cashback, il provvedimento istituito dal Ministero dell'Economia e delle Finanze per incentivare l'utilizzo della moneta elettronica anche per piccole somme.",
@@ -129,6 +118,10 @@
             "title": "Cashback",
             "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso. Se vuoi vedere tutte le informazioni relative al programma, visita il sito [io.italia.it/cashback](https://io.italia.it/cashback)",
             "faqs": [
+               {
+                  "title": "Perché vedo il cashback a cui ho diritto espresso in migliaia?",
+                  "body": "In alcuni dispositivi il messaggio sul cashback a cui hai diritto riporta la cifra in un formato errato: verrà corretto a partire dalla prossima versione dell'app. Il valore corretto è quello riportato nella card del Cashback: ti ricordiamo che in ciascun periodo puoi accumulare al massimo € 150,00 di rimborso."
+               },
                {
                   "title": "Come devo leggere questa schermata?",
                   "body": "Nella card in alto è riportato il periodo relativo al Cashback e se si tratta di un periodo attivo, o concluso. Inoltre l'importo descrive la cifra di Cashback accumulato fino a questo momento. Se vicino all'importo c'è un lucchetto, significa che ancora non si è raggiunto il numero minimo di transazioni richieste.\n\nAppena sotto le statistiche descrivono lo stato e l'andamento nell'iniziativa, ad esempio il numero di transazioni accumulate ed eventualmente la posizione in classifica per ottenere il Super Cashback."

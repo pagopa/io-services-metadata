@@ -3,6 +3,17 @@
    "it": {
       "screens": [
          {
+            "route_name": "BPD_DETAILS",
+            "title": "Contextual help title - TO EDIT",
+            "content": "Contextual help content - TO EDIT",
+            "faqs": [
+               {
+                  "title": "faq title 1 - TO EDIT",
+                  "body": "faq body 1 - TO EDIT"
+               }
+            ]
+         },
+         {
             "route_name": "BPD_INFORMATION_TOS",
             "title": "Programma Cashback",
             "content": "Qui sono visualizzate tutte le informazioni relative al Cashback, il provvedimento istituito dal Ministero dell'Economia e delle Finanze per incentivare l'utilizzo della moneta elettronica anche per piccole somme.",

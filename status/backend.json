@@ -21,7 +21,7 @@
       }
     },
     "cashback": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "web_url": {
         "it-IT": "https://io.italia.it/cashback/faq/#n4_13",
@@ -62,10 +62,10 @@
     },
     "wallets": {
       "is_visible": true,
-      "level": "normal",
+      "level": "warning",
       "message": {
-        "it-IT": "Entro il 10 gennaio sarà definitivo il calcolo delle transazioni valide e dei rimborsi relativi all'Extra Cashback di Natale",
-        "en-EN": "The calculation of valid transactions and refunds related to the Christmas Extra Cashback will be final by January 10"
+        "it-IT": "Hai tempo fino alle 23 di oggi per verificare l'IBAN a cui riceverai l'eventuale Extra Cashback di Natale.",
+        "en-EN": "Until 11pm you can check the IBAN at which you may receive the Christmas Extra Cashback."
       }
     },
     "ingress": {

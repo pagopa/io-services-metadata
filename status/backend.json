@@ -53,11 +53,11 @@
       }
     },
     "login": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "Alcuni metodi di autenticazione potrebbero rispondere lentamente, in caso riprova",
-        "en-EN": "Some authentication methods may respond slowly, please retry"
+        "it-IT": "L'autenticazione tramite CIE è attualmente in manutenzione",
+        "en-EN": "The CIE authentication system is currently under maintenance"
       }
     },
     "wallets": {

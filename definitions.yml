@@ -206,6 +206,8 @@ definitions:
         $ref: "#/definitions/Timestamp"
       valid_to:
         $ref: "#/definitions/Timestamp"
+      visibility:
+        $ref: "#/definitions/BonusVisibility"
   BonusAvailableContent:
     type: object
     required:
@@ -232,6 +234,13 @@ definitions:
           $ref: "#/definitions/BonusUrl"
   Timestamp:
     $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"
+  BonusVisibility:
+    type: string
+    x-extensible-enum:
+      - visible
+      - hidden
+      - experimental
+    example: visible
   BonusUrl:
     type: object
     required:

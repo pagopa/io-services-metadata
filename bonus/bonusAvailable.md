@@ -19,3 +19,5 @@
   - `visible`: Visible for every app distributed starting from **WIP**
   - `hidden`: Hidden for every app
   - `experimental`: Bonus will be shown on any app with the related **Feature Flag** enabled by it's distributed config
+
+  With this new logic the `hidden` field will be deprecated and used only by app released before the implementation of the new visualization handler.

@@ -25,7 +25,7 @@
       "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "Entro il 21 gennaio verranno recuperate le eventuali transazioni PagoBANCOMAT mancanti",
+        "it-IT": "Entro il 20 gennaio verranno recuperate le eventuali transazioni PagoBANCOMAT mancanti",
         "en-EN": "Any missing PagoBANCOMAT transactions will be recovered by January, 21"
       }
     },

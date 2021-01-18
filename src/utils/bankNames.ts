@@ -16,6 +16,7 @@ const multiSpaceR = /\s+/g;
 const quoteR = /('|"|’)\s+/;
 const delR = /\s+(d(el|ell|ello|ella|elle|ei|egli|i))(\s+|'|’)/gi;
 const eR = /\s+E(d)?\s+/g;
+const unicreditR = /Unicredit/g;
 
 const options = {
   splitRegexp: /([a-z"'’])([A-Z0-9])/g,
@@ -36,6 +37,7 @@ const bankNameReducer = (
       .replace(quoteR, "$1")
       .replace(delR, " d$2$3")
       .replace(eR, " e$1 ")
+      .replace(unicreditR, "UniCredit")
   } as IBank);
 };
 

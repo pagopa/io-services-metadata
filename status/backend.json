@@ -4,6 +4,10 @@
     "it-IT": "",
     "en-EN": "English message"
   },
+  "config": {
+    "bpd_ranking": false,
+    "bpd_ranking_v2": true
+  },
   "sections": {
     "email_validation": {
       "is_visible": false,
@@ -20,17 +24,13 @@
     "cashback": {
       "is_visible": true,
       "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/cashback/faq/#n44",
-        "en-EN": "https://io.italia.it/cashback/faq/#n44"
-      },
       "message": {
-        "it-IT": "Le transazioni possono richiedere fino a 3 giorni lavorativi per essere visualizzate.",
-        "en-EN": "Transactions may take up to 3 business days to be displayed."
+        "it-IT": "Entro il 20 gennaio verranno recuperate le eventuali transazioni PagoBANCOMAT mancanti",
+        "en-EN": "Any missing PagoBANCOMAT transactions will be recovered by January, 20"
       }
     },
     "messages": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Hai già attivato il Cashback sul tuo bancomat? Aggiungilo al portafoglio!",
@@ -51,22 +51,18 @@
     },
     "login": {
       "is_visible": false,
-      "level": "normal",
+      "level": "warning",
       "message": {
-        "it-IT": "Alcuni metodi di autenticazione potrebbero rispondere lentamente, in caso riprova",
-        "en-EN": "Some authentication methods may respond slowly, please retry"
+        "it-IT": "L'autenticazione tramite CIE è attualmente in manutenzione",
+        "en-EN": "The CIE authentication system is currently under maintenance"
       }
     },
     "wallets": {
       "is_visible": false,
-      "level": "critical",
-      "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status/en"
-      },
+      "level": "warning",
       "message": {
-        "it-IT": "La sezione Portafoglio è in manutenzione, ci scusiamo per il disagio.",
-        "en-EN": "Wallet section is under maintenance, we apologize for the inconvenience."
+        "it-IT": "Hai tempo fino alle 23 di oggi per verificare l'IBAN a cui riceverai l'eventuale Extra Cashback di Natale.",
+        "en-EN": "Until 11pm you can check the IBAN at which you may receive the Christmas Extra Cashback."
       }
     },
     "ingress": {
@@ -114,7 +110,7 @@
       }
     },
     "credit_card": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Per il grande numero di richieste, la verifica della tua carta potrebbe subire dei rallentamenti",

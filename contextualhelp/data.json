@@ -119,6 +119,10 @@
             "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso. Se vuoi vedere tutte le informazioni relative al programma, visita il sito [io.italia.it/cashback](https://io.italia.it/cashback)",
             "faqs": [
                {
+                  "title": "Perché vedo il cashback a cui ho diritto espresso in migliaia?",
+                  "body": "In alcuni dispositivi il messaggio sul cashback a cui hai diritto riporta la cifra in un formato errato: verrà corretto a partire dalla prossima versione dell'app. Il valore corretto è quello riportato nella card del Cashback: ti ricordiamo che in ciascun periodo puoi accumulare al massimo € 150,00 di rimborso."
+               },
+               {
                   "title": "Come devo leggere questa schermata?",
                   "body": "Nella card in alto è riportato il periodo relativo al Cashback e se si tratta di un periodo attivo, o concluso. Inoltre l'importo descrive la cifra di Cashback accumulato fino a questo momento. Se vicino all'importo c'è un lucchetto, significa che ancora non si è raggiunto il numero minimo di transazioni richieste.\n\nAppena sotto le statistiche descrivono lo stato e l'andamento nell'iniziativa, ad esempio il numero di transazioni accumulate ed eventualmente la posizione in classifica per ottenere il Super Cashback."
                },
@@ -136,7 +140,7 @@
                },
                {
                   "title": "Quando vengono aggiunte transazioni alla lista?",
-                  "body": "Le transazioni vengono registrate il giorno dopo che i circuiti bancari le hanno contabilizzate.  Questo significa che normalmente possono passare fino a 72 ore prima che tu veda la tua transazione registrata su IO, anche se di solito il processo è più rapido.  Potrebbe volerci un po’ di più nel caso in cui l’acquisto sia a ridosso del weekend o di qualche festività, oppure in qualche altra condizione particolare.\n\nNon ti preoccupare: tutte le transazioni valide fatte durante il periodo del cashback verranno registrate e considerate per rimborsi e classifica!\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
+                  "body": "Possono passare in media 3 giorni lavorativi. Non vedi ancora la transazione?\n- Controlla se la tua banca ha già contabilizzato la transazione: i dati vengono trasmessi all’app entro 5 giorni lavorativi dalla contabilizzazione.\n- La transazione potrebbe essere stata gestita con il POS di un soggetto (acquirer) [non ancora convenzionato](https://io.italia.it/cashback/acquirer).\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
                },
                {
                   "title": "Perché vedo carte che non riconosco nella sezione 'Attivati su altri canali'?",
@@ -179,11 +183,7 @@
                },
                {
                   "title": "Quando vengono aggiunte transazioni alla lista?",
-                  "body": "Le transazioni vengono registrate il giorno dopo che i circuiti bancari le hanno contabilizzate.  Questo significa che normalmente possono passare fino a 72 ore prima che tu veda la tua transazione registrata su IO, anche se di solito il processo è più rapido.  Potrebbe volerci un po’ di più nel caso in cui l’acquisto sia a ridosso del weekend o di qualche festività, oppure in qualche altra condizione particolare.\n\nNon ti preoccupare: tutte le transazioni valide fatte durante il periodo del cashback verranno registrate e considerate per rimborsi e classifica!\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
-               },
-               {
-                  "title": "Sono passati più di 5 giorni e ancora non vedo la mia transazione, cosa devo fare?",
-                  "body": "Se sono già passati almeno 5 giorni dalla transazione, contatta l'assistenza, inviando un messaggio utilizzando il pulsante qui sotto."
+                  "body": "Possono passare in media 3 giorni lavorativi. Non vedi ancora la transazione?\n- Controlla se la tua banca ha già contabilizzato la transazione: i dati vengono trasmessi all’app entro 5 giorni lavorativi dalla contabilizzazione.\n- La transazione potrebbe essere stata gestita con il POS di un soggetto (acquirer) [non ancora convenzionato](https://io.italia.it/cashback/acquirer).\n\nRicorda! Quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
                },
                {
                   "title": "Perché vedo carte che non riconosco nella lista delle transazioni?",

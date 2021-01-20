@@ -15,6 +15,9 @@
 
 ### bonus_available_v2.json
 - pointed by app > `1.10.0.4`
+- **> `1.18.0.3`** A new logic for handling a bonus visibility has been implemented. Now every bonus has a new property `visibility` which can be evaluated with 3 different values:
+  - `visible`: Visible for every app
+  - `hidden`: Hidden for every app
+  - `experimental`: Bonus will be shown on any app with the related **Feature Flag** enabled by it's distributed config
 
-
-
+  With this new logic the `hidden` field will be deprecated and used only by app released before the implementation of the new visualization handler.

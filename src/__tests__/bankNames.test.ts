@@ -137,4 +137,12 @@ describe("Test Success Case", () => {
         .getOrElse("")
     ).toMatch(/Rurale ed Artigiana/);
   });
+
+  test("Should take care of brand name typographic rules", () => {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "03002"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/UniCredit Banca/);
+  });
 });

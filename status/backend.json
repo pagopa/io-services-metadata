@@ -22,7 +22,7 @@
       }
     },
     "cashback": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Entro il 20 gennaio verranno recuperate le eventuali transazioni PagoBANCOMAT mancanti",

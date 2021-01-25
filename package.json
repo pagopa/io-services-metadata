@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
-  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/7a82cfeaa6f9ad77fe95e650bd63d87c8c0958dd/pagopa/cobadge/abi_definitions.yml",
+  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/pagopa/cobadge/abi_definitions.yml",
+  "api_pagopa_walletv2": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/bonus/specs/bpd/pm/walletv2.json",
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -20,7 +21,8 @@
     "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:content-definitions": "rimraf ./generated/definitions/content && mkdir -p ./generated/definitions/content && gen-api-models --api-spec definitions.yml --out-dir ./generated/definitions/content",
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",
-    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge"
+    "generate:pagopa-walletv2-definitions": "rimraf generated/definitions/pagopa/walletv2 && mkdir -p generated/definitions/pagopa/walletv2 && gen-api-models --api-spec $npm_package_api_pagopa_walletv2 --out-dir ./generated/definitions/pagopa/walletv2",
+    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge generate:pagopa-walletv2-definitions"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

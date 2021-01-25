@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
-  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/316bc9782f3290aa0cbe71bde74e73df4817e3f6/pagopa/cobadge/abi_definitions.yml",
+  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/7a82cfeaa6f9ad77fe95e650bd63d87c8c0958dd/pagopa/cobadge/abi_definitions.yml",
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -16,6 +16,7 @@
     "check_contextual_help_data": "ts-node src/checks/checkContextualHelpData.ts",
     "check_bonus_available_data": "ts-node src/checks/checkBonusAvailable.ts",
     "check_backend_status": "ts-node src/checks/checkBackendStatus.ts",
+    "check_cobadge": "ts-node src/checks/checkCoBadge.ts",
     "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:content-definitions": "rimraf ./generated/definitions/content && mkdir -p ./generated/definitions/content && gen-api-models --api-spec definitions.yml --out-dir ./generated/definitions/content",
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",

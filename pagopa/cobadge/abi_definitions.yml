@@ -5,7 +5,19 @@ info:
   version: "0.1"
 paths:
 definitions:
-  CoBadgeIssuers:
+  CoBadgeServices:
     type: object
     additionalProperties:
-      type: boolean
+      $ref: "#/definitions/CoBadgeService"
+  CoBadgeService:
+    type: object
+    required:
+      - active
+      - abi
+    properties:
+      active:
+        type: boolean
+      abi:
+        type: array
+        items:
+          type: string

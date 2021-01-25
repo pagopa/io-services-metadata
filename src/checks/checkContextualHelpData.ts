@@ -5,7 +5,7 @@ import { ContextualHelp } from "../../generated/definitions/content/ContextualHe
 
 const isRight = ContextualHelp.decode(
   JSON.parse(
-    fs.readFileSync(__dirname + "/../contextualhelp/data.json").toString()
+    fs.readFileSync(__dirname + "/../../contextualhelp/data.json").toString()
   )
 ).isRight();
 if (!isRight) {

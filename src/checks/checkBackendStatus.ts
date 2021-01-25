@@ -2,7 +2,7 @@ import fs from "fs";
 import { BackendStatus } from "../@types/backendStatus";
 
 const fileContent = fs
-  .readFileSync(__dirname + "/../status/backend.json")
+  .readFileSync(__dirname + "/../../status/backend.json")
   .toString();
 const backendStatus = BackendStatus.decode(JSON.parse(fileContent));
 if (!backendStatus.isRight()) {

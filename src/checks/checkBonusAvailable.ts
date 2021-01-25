@@ -5,12 +5,12 @@ import { BonusesAvailable } from "../../generated/definitions/content/BonusesAva
 
 const isRight = BonusesAvailable.decode(
   JSON.parse(
-    fs.readFileSync(__dirname + "/../bonus/bonus_available.json").toString()
+    fs.readFileSync(__dirname + "/../../bonus/bonus_available.json").toString()
   )
 ).isRight();
 if (!isRight) {
   console.error(
-    "bonus/bonus_available.json is not compatibile with BonusesAvailable type"
+    "bonus/bonus_available.json is not compatible with BonusesAvailable type"
   );
 }
 process.exit(isRight ? 0 : 1);

@@ -1,0 +1,552 @@
+{
+    "data" :
+    [
+        {
+        "abi_code": "01015",
+        "abi_name": "BANCO DI SARDEGNA - S.P.A."
+        },
+        {
+        "abi_code": "03011",
+        "abi_name": "HYPO ALPE ADRIA BANK SPA"
+        },
+        {
+        "abi_code": "03017",
+        "abi_name": "INVEST BANCA - S.P.A."
+        },
+        {
+        "abi_code": "03018",
+        "abi_name": "NOVA LJUBLJANSKA BANKA"
+        },
+        {
+        "abi_code": "03019",
+        "abi_name": "CREDITO SICILIANO"
+        },
+        {
+        "abi_code": "03043",
+        "abi_name": "BANCA INTERMOBILIARE DI INVESTIMENTI E GESTIONI - S.P.A."
+        },
+        {
+        "abi_code": "03047",
+        "abi_name": "BANCA CAPASSO ANTONIO - S.P.A."
+        },
+        {
+        "abi_code": "03049",
+        "abi_name": "BANCA ARDITI GALATI SPA"
+        },
+        {
+        "abi_code": "03053",
+        "abi_name": "BANCA APERTA"
+        },
+        {
+        "abi_code": "03064",
+        "abi_name": "BANCA SELLA NORD EST BOVIO CALDERARI"
+        },
+        {
+        "abi_code": "03067",
+        "abi_name": "BANCA CARIME SPA"
+        },
+        {
+        "abi_code": "03083",
+        "abi_name": "IW BANK - S.P.A."
+        },
+        {
+        "abi_code": "03087",
+        "abi_name": "BANCA FINNAT EURAMERICA - S.P.A."
+        },
+        {
+        "abi_code": "03110",
+        "abi_name": "FARBANCA - S.P.A."
+        },
+        {
+        "abi_code": "03111",
+        "abi_name": "UNIONE DI BANCHE ITALIANE - S.P.A."
+        },
+        {
+        "abi_code": "03124",
+        "abi_name": "BANCA DEL FUCINO – S.P.A."
+        },
+        {
+        "abi_code": "03126",
+        "abi_name": "CA-INDOSUEZ WEALTH (ITALY) S.P.A"
+        },
+        {
+        "abi_code": "03127",
+        "abi_name": "UNIPOL BANCA SPA"
+        },
+        {
+        "abi_code": "03138",
+        "abi_name": "BANCA REALE - S.P.A."
+        },
+        {
+        "abi_code": "03141",
+        "abi_name": "BANCA DI TREVISO SPA"
+        },
+        {
+        "abi_code": "03158",
+        "abi_name": "BANCA SISTEMA S.P.A."
+        },
+        {
+        "abi_code": "03159",
+        "abi_name": "BANCA CONSULIA S.P.A"
+        },
+        {
+        "abi_code": "03165",
+        "abi_name": "IW BANK SPA"
+        },
+        {
+        "abi_code": "03185",
+        "abi_name": "BANCA IFIGEST - S.P.A."
+        },
+        {
+        "abi_code": "03190",
+        "abi_name": "EBP EUROBANCA PRIVATA SPA"
+        },
+        {
+        "abi_code": "03204",
+        "abi_name": "BANCA DI LEGNANO SPA"
+        },
+        {
+        "abi_code": "03211",
+        "abi_name": "BANCA PATRIMONI SELLA & C. - S.P.A."
+        },
+        {
+        "abi_code": "03216",
+        "abi_name": "BANCA 2000"
+        },
+        {
+        "abi_code": "03235",
+        "abi_name": "BANCA DI SCONTO E CONTI CORRENTI DI S. MARIA CAPUA VETERE - S.P.A."
+        },
+        {
+        "abi_code": "03244",
+        "abi_name": "BANCA DI VALLE CAMONICA SPA"
+        },
+        {
+        "abi_code": "03253",
+        "abi_name": "BANCA FEDERICO DEL VECCHIO SPA"
+        },
+        {
+        "abi_code": "03263",
+        "abi_name": "IBL BANCA - ISTITUTO BANCARIO DEL LAVORO S.P.A."
+        },
+        {
+        "abi_code": "03268",
+        "abi_name": "BANCA SELLA - S.P.A."
+        },
+        {
+        "abi_code": "03279",
+        "abi_name": "SANTANDER PRIVATE BANKING"
+        },
+        {
+        "abi_code": "03312",
+        "abi_name": "BANCA DEL SUD - BANCA MERCANTILE ITALIANA SPA"
+        },
+        {
+        "abi_code": "03323",
+        "abi_name": "GBM BANCA - S.P.A."
+        },
+        {
+        "abi_code": "03330",
+        "abi_name": "BANCA INTERREGIONALE SPA"
+        },
+        {
+        "abi_code": "03332",
+        "abi_name": "BANCA PASSADORE & C. - S.P.A."
+        },
+        {
+        "abi_code": "03336",
+        "abi_name": "CREDITO BERGAMASCO"
+        },
+        {
+        "abi_code": "03338",
+        "abi_name": "SERFINA BANCA SPA"
+        },
+        {
+        "abi_code": "03353",
+        "abi_name": "BANCA DEL SUD - S.P.A."
+        },
+        {
+        "abi_code": "03388",
+        "abi_name": "BANCA STABIESE - S.P.A."
+        },
+        {
+        "abi_code": "03399",
+        "abi_name": "EXTRABANCA - S. P. A."
+        },
+        {
+        "abi_code": "03402",
+        "abi_name": "WEBANK"
+        },
+        {
+        "abi_code": "03403",
+        "abi_name": "IMPREBANCA - S.P.A."
+        },
+        {
+        "abi_code": "03424",
+        "abi_name": "BANCO CHIAVARI E DELLA RIVIERA LIGURE SPA"
+        },
+        {
+        "abi_code": "03426",
+        "abi_name": "BANCA DI CREDITO PELORITANO - S.P.A."
+        },
+        {
+        "abi_code": "03441",
+        "abi_name": "BANCA SVILUPPO TUSCIA"
+        },
+        {
+        "abi_code": "03488",
+        "abi_name": "CASSA LOMBARDA - S.P.A."
+        },
+        {
+        "abi_code": "03500",
+        "abi_name": "BANCO DI BRESCIA SAN PAOLO SPA"
+        },
+        {
+        "abi_code": "03512",
+        "abi_name": "CREDITO ARTIGIANO SPA"
+        },
+        {
+        "abi_code": "03598",
+        "abi_name": "BANCA UBAE S.P.A."
+        },
+        {
+        "abi_code": "05000",
+        "abi_name": "DEPOBANK - BANCA DEPOSITARIA ITALIANA SPA"
+        },
+        {
+        "abi_code": "05015",
+        "abi_name": "BANCA PROGETTO SPA"
+        },
+        {
+        "abi_code": "05023",
+        "abi_name": "BANCA REGIONALE DI SVILUPPO - S.P.A."
+        },
+        {
+        "abi_code": "05025",
+        "abi_name": "BANCA FARNESE"
+        },
+        {
+        "abi_code": "05027",
+        "abi_name": "BANCA POPOLARE VALLE DI ITRIA E MAGNA GRECIA"
+        },
+        {
+        "abi_code": "05030",
+        "abi_name": "VIVIBANCA - S.P.A."
+        },
+        {
+        "abi_code": "05033",
+        "abi_name": "BANCA POPOLARE DELLE PROVINCE MOLISANE - SOCIETÀ COOPERATIVA PER AZIONI A RESPONSABILITÀ LIMITATA"
+        },
+        {
+        "abi_code": "05034",
+        "abi_name": "BANCO BPM - S.P.A."
+        },
+        {
+        "abi_code": "05035",
+        "abi_name": "VENETO BANCA S.P.A."
+        },
+        {
+        "abi_code": "05036",
+        "abi_name": "BANCA AGRICOLA POPOLARE DI RAGUSA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05037",
+        "abi_name": "BANCA POPOLARE DELLE PROVINCE CALABRE"
+        },
+        {
+        "abi_code": "05048",
+        "abi_name": "BANCA POPOLARE COMMERCIO E INDUSTRIA"
+        },
+        {
+        "abi_code": "05104",
+        "abi_name": "BANCA POPOLARE DEL LAZIO - SOCIETÀ COOPERATIVA"
+        },
+        {
+        "abi_code": "05116",
+        "abi_name": "BANCA VALSABBINA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05132",
+        "abi_name": "BANCA NUOVA SPA"
+        },
+        {
+        "abi_code": "05142",
+        "abi_name": "BANCA DI CREDITO POPOLARE - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05156",
+        "abi_name": "BANCA DI PIACENZA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05164",
+        "abi_name": "BANCA POPOLARE DI LODI"
+        },
+        {
+        "abi_code": "05188",
+        "abi_name": "BANCA POPOLARE DI VERONA - S. GEMINIANO E S. PROSPERO"
+        },
+        {
+        "abi_code": "05204",
+        "abi_name": "BANCA POPOLARE DI MANTOVA"
+        },
+        {
+        "abi_code": "05216",
+        "abi_name": "BANCA PICCOLO CREDITO VALTELLINESE - S.P.A."
+        },
+        {
+        "abi_code": "05228",
+        "abi_name": "BANCA POPOLARE DI CREMA"
+        },
+        {
+        "abi_code": "05232",
+        "abi_name": "BANCA POPOLARE DI LAJATICO - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05256",
+        "abi_name": "BANCA POPOLARE DEL MEZZOGIORNO"
+        },
+        {
+        "abi_code": "05262",
+        "abi_name": "BANCA POPOLARE PUGLIESE - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05297",
+        "abi_name": "BANCA POPOLARE DEL FRUSINATE - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05308",
+        "abi_name": "BANCA POPOLARE DI ANCONA"
+        },
+        {
+        "abi_code": "05336",
+        "abi_name": "CRÉDIT AGRICOLE FRIULADRIA S.P.A."
+        },
+        {
+        "abi_code": "05385",
+        "abi_name": "BANCA POPOLARE DI PUGLIA E BASILICATA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05387",
+        "abi_name": "BPER BANCA - S.P.A."
+        },
+        {
+        "abi_code": "05390",
+        "abi_name": "BANCA POPOLARE DELL'ETRURIA E DEL LAZIO SCRL"
+        },
+        {
+        "abi_code": "05392",
+        "abi_name": "BANCA DELLA CAMPANIA SPA"
+        },
+        {
+        "abi_code": "05398",
+        "abi_name": "BANCA POPOLARE DEL MATERANO"
+        },
+        {
+        "abi_code": "05414",
+        "abi_name": "BANCA POPOLARE DI APRILIA"
+        },
+        {
+        "abi_code": "05424",
+        "abi_name": "BANCA POPOLARE DI BARI - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05428",
+        "abi_name": "BANCA POPOLARE DI BERGAMO"
+        },
+        {
+        "abi_code": "05484",
+        "abi_name": "BANCA DI CIVIDALE S.C.P.A - CIVIBANK"
+        },
+        {
+        "abi_code": "05496",
+        "abi_name": "BANCA POPOLARE DI CORTONA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05512",
+        "abi_name": "BANCA POPOLARE DI CREMONA"
+        },
+        {
+        "abi_code": "05550",
+        "abi_name": "BANCA POPOLARE DI LANCIANO E SULMONA"
+        },
+        {
+        "abi_code": "05556",
+        "abi_name": "BANCA POPOLARE DI LUINO E VARESE"
+        },
+        {
+        "abi_code": "05572",
+        "abi_name": "BANCA POPOLARE DI MAROSTICA"
+        },
+        {
+        "abi_code": "05584",
+        "abi_name": "BANCA POPOLARE DI MILANO"
+        },
+        {
+        "abi_code": "05608",
+        "abi_name": "BANCA POPOLARE DI NOVARA"
+        },
+        {
+        "abi_code": "05630",
+        "abi_name": "BANCA NETWORK INVESTIMENTI"
+        },
+        {
+        "abi_code": "05640",
+        "abi_name": "BANCA POPOLARE DI RAVENNA"
+        },
+        {
+        "abi_code": "05650",
+        "abi_name": "BANCA POPOLARE DI ROMA"
+        },
+        {
+        "abi_code": "05676",
+        "abi_name": "BIBANCA S.P.A."
+        },
+        {
+        "abi_code": "05696",
+        "abi_name": "BANCA POPOLARE DI SONDRIO - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05728",
+        "abi_name": "BANCA POPOLARE DI VICENZA"
+        },
+        {
+        "abi_code": "05772",
+        "abi_name": "BANCA POPOLARE SANT'ANGELO - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "05787",
+        "abi_name": "BANCAPULIA S.P.A."
+        },
+        {
+        "abi_code": "05824",
+        "abi_name": "CASSA DI SOVVENZIONI E RISPARMIO FRA IL PERSONALE DELLA BANCA D'ITALIA - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "06015",
+        "abi_name": "C. R. LIVORNO"
+        },
+        {
+        "abi_code": "06030",
+        "abi_name": "C. R. DELLA SPEZIA"
+        },
+        {
+        "abi_code": "06040",
+        "abi_name": "CARISPAQ"
+        },
+        {
+        "abi_code": "06045",
+        "abi_name": "CASSA DI RISPARMIO DI BOLZANO - S.P.A."
+        },
+        {
+        "abi_code": "06050",
+        "abi_name": "BANCA TEATINA S.P.A."
+        },
+        {
+        "abi_code": "06055",
+        "abi_name": "BANCA DELLE MARCHE SPA"
+        },
+        {
+        "abi_code": "06060",
+        "abi_name": "TERCAS - CASSA DI RISP. DELLA PROV. DI TERAMO"
+        },
+        {
+        "abi_code": "06075",
+        "abi_name": "CASSA DI RISPARMIO DI ALESSANDRIA SPA"
+        },
+        {
+        "abi_code": "06095",
+        "abi_name": "CASSA DI RISPARMIO DI BRA SPA"
+        },
+        {
+        "abi_code": "06140",
+        "abi_name": "CASSA DI RISPARMIO DI FABRIANO E CUPRAMONTANA"
+        },
+        {
+        "abi_code": "06145",
+        "abi_name": "CASSA DI RISPARMIO DI FANO SPA"
+        },
+        {
+        "abi_code": "06150",
+        "abi_name": "CASSA DI RISPARMIO DI FERMO - S.P.A."
+        },
+        {
+        "abi_code": "06155",
+        "abi_name": "CASSA DI RISPARMIO DI FERRARA"
+        },
+        {
+        "abi_code": "06195",
+        "abi_name": "CASSA DI RISPARMIO DI LORETO SPA"
+        },
+        {
+        "abi_code": "06200",
+        "abi_name": "CASSA DI RISPARMIO DI LUCCA PISA E LIVORNO"
+        },
+        {
+        "abi_code": "06220",
+        "abi_name": "CASSA DI RISPARMIO DI ORVIETO - S.P.A."
+        },
+        {
+        "abi_code": "06230",
+        "abi_name": "CRÉDIT AGRICOLE ITALIA S.P.A"
+        },
+        {
+        "abi_code": "06245",
+        "abi_name": "BANCA CARIPE SPA"
+        },
+        {
+        "abi_code": "06255",
+        "abi_name": "CASSA DI RISPARMIO DI PISA SPA"
+        },
+        {
+        "abi_code": "06285",
+        "abi_name": "BANCA CARIM - CASSA DI RISPARMIO DI RIMINI SPA"
+        },
+        {
+        "abi_code": "06295",
+        "abi_name": "CASSA DI RISPARMIO DI SALUZZO SPA"
+        },
+        {
+        "abi_code": "06365",
+        "abi_name": "CASSA DI RISPARMIO DI VIGNOLA"
+        },
+        {
+        "abi_code": "06370",
+        "abi_name": "CASSA DI RISPARMIO DI VOLTERRA - S.P.A."
+        },
+        {
+        "abi_code": "06906",
+        "abi_name": "BANCA REGIONALE EUROPEA SPA"
+        },
+        {
+        "abi_code": "08425",
+        "abi_name": "BANCA CAMBIANO 1884 - S.P.A."
+        },
+        {
+        "abi_code": "08427",
+        "abi_name": "CREDITO COOPERATIVO FIORENTINO - CAMPI BISENZIO"
+        },
+        {
+        "abi_code": "08461",
+        "abi_name": "BANCA DI CREDITO COOPERATIVO DI CASTAGNETO CARDUCCI - SOCIETÀ COOPERATIVA PER AZIONI"
+        },
+        {
+        "abi_code": "08540",
+        "abi_name": "Banca di San Marino" 
+        },
+        {
+        "abi_code": "08562",
+        "abi_name": "BANCA DI PISA E FORNACETTE CREDITO COOPERATIVO SOC. COOP. PER AZIONI"
+        },
+        {
+        "abi_code": "08883",
+        "abi_name": "BANCA DI BOLOGNA CREDITO COOPERATIVO - SOCIETÀ COOPERATIVA"
+        },
+        {
+        "abi_code": "08931",
+        "abi_name": "BANCA LAZIO NORD CREDITO COOPERATIVO SOC.COOP. PER AZIONI"
+        }
+    ],
+  "total": 136,
+  "start": 0,
+  "size": 136
+}

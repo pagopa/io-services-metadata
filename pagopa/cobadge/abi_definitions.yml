@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: CoBadge Issuers
-  description: The issuer can handle the co-badge search [see](https://www.pivotaltracker.com/story/show/176575992).
+  description: The issuers can handle the co-badge cards search [see](https://www.pivotaltracker.com/story/show/176575992).
   version: "0.1"
 paths:
 definitions:

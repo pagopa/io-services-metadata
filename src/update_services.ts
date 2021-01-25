@@ -81,8 +81,9 @@ async function run(rootPath: string): Promise<void> {
     }
     noEmailAndPhoneServices.forEach(s => {
       const des = services[s].description;
+      const suffix: string = "...";
       console.log(
-        chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) + "..." : ""}`)
+        chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) + suffix : ""}`)
       );
       console.log(chalk.blue(`-`.repeat(40)));
     });

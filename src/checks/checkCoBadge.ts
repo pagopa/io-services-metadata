@@ -41,6 +41,7 @@ if (!maybeCobadgeServices.isRight()) {
     if (missingAbi.length > 0) {
       console.error(`can't find some abi in status/abi.json registry`);
       console.error(missingAbi);
+      process.exit(1);
     }
   }
 

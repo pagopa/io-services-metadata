@@ -60,6 +60,7 @@ jobs:
       - run: yarn check_contextual_help_data
       - run: yarn check_bonus_available_data
       - run: yarn check_backend_status
+      - run: yarn check_cobadge
 
   danger:
     <<: *defaults_js

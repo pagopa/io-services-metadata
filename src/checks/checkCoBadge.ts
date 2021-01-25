@@ -1,6 +1,7 @@
 import fs from "fs";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
+import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/cobadgeServices.json")
@@ -34,9 +35,8 @@ if (!maybeCobadgeServices.isRight()) {
     const abi = Object.keys(cobadgeServices)
       .map(serviceName => cobadgeServices[serviceName].abi)
       .reduce((acc, curr) => [...acc, ...curr], []);
-    const abiRegistry = new Set(
-      (maybeAbiRegistry.value.data || []).map(a => a.abi)
-    );
+    const data: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
+    const abiRegistry = new Set<string>(data.map(a => a.abi || ""));
     const missingAbi = abi.filter(a => !abiRegistry.has(a));
     if (missingAbi.length > 0) {
       console.error(`can't find some abi in status/abi.json registry`);

@@ -1,5 +1,4 @@
 import fs from "fs";
-import { BackendStatus } from "../@types/backendStatus";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 
@@ -35,7 +34,9 @@ if (!maybeCobadgeServices.isRight()) {
     const abi = Object.keys(cobadgeServices)
       .map(serviceName => cobadgeServices[serviceName].abi)
       .reduce((acc, curr) => [...acc, ...curr], []);
-    const abiRegistry = new Set(maybeAbiRegistry.value.data!.map(a => a.abi));
+    const abiRegistry = new Set(
+      (maybeAbiRegistry.value.data || []).map(a => a.abi)
+    );
     const missingAbi = abi.filter(a => !abiRegistry.has(a));
     if (missingAbi.length > 0) {
       console.error(`can't find some abi in status/abi.json registry`);

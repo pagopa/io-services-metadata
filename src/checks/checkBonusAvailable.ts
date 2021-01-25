@@ -1,7 +1,7 @@
 // a simple check that bonus available json respects type definition
 
 import * as fs from "fs";
-import { BonusesAvailable } from "../definitions/BonusesAvailable";
+import { BonusesAvailable } from "../../generated/definitions/content/BonusesAvailable";
 
 const isRight = BonusesAvailable.decode(
   JSON.parse(

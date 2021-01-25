@@ -1,7 +1,7 @@
 import parse from "csv-parse";
 import { Either, left, right } from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { Municipality } from "../../definitions/Municipality";
+import { Municipality } from "../../generated/definitions/content/Municipality";
 
 // try to decode municipality csv row in a Municipality object
 export const decodeMunicipality = (

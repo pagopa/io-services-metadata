@@ -1,5 +1,5 @@
 import fs from "fs";
-import { BackendStatus } from "./@types/backendStatus";
+import { BackendStatus } from "../@types/backendStatus";
 
 const fileContent = fs
   .readFileSync(__dirname + "/../status/backend.json")

@@ -1,4 +1,3 @@
-import { debug as cdebug } from "console";
 import { readFileSync, writeFileSync } from "fs";
 import { toCamelCase, IAbi } from "./utils/bankNames";
 

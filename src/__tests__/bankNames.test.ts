@@ -1,4 +1,4 @@
-import { fromNullable, some } from "fp-ts/lib/Option";
+import { fromNullable } from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
 import { toCamelCase, IAbi } from "../utils/bankNames";
 

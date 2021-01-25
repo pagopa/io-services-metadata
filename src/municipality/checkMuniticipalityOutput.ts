@@ -1,8 +1,8 @@
 import chalk from "chalk";
 import * as fs from "fs-extra";
 import * as path from "path";
-import { Municipality } from "../../definitions/Municipality";
 import { MUNICIPALITIES_OUTPUT_FOLDER } from "../config";
+import { Municipality } from "../../generated/definitions/content/Municipality";
 
 // walk recursively inside all paths in dir and return the list of files met
 const walkSync = (dir: string): ReadonlyArray<string> => {

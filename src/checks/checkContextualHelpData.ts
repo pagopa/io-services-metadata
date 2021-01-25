@@ -1,11 +1,11 @@
 // a simple check that bonus available json respects type definition
 
 import * as fs from "fs";
-import { ContextualHelp } from "../generated/definitions/content/ContextualHelp";
+import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";
 
 const isRight = ContextualHelp.decode(
   JSON.parse(
-    fs.readFileSync(__dirname + "/../contextualhelp/data.json").toString()
+    fs.readFileSync(__dirname + "/../../contextualhelp/data.json").toString()
   )
 ).isRight();
 if (!isRight) {

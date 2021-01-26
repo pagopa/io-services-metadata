@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "repository": "git@github.com:teamdigitale/italia-services-metadata.git",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
-  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/48d7c69b375ba16e7262efc6ba9d15901f74a803/pagopa/cobadge/abi_definitions.yml",
+  "model_pagopa_cobadge": "https://raw.githubusercontent.com/pagopa/io-services-metadata/5d91a17d726e01465696197410a3bfba4e6330f4/pagopa/cobadge/abi_definitions.yml",
   "api_pagopa_walletv2": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/bonus/specs/bpd/pm/walletv2.json",
   "license": "MIT",
   "scripts": {

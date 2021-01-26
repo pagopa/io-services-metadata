@@ -13,11 +13,22 @@ definitions:
     type: object
     required:
       - active
-      - abi
+      - issuers
     properties:
-      active:
-        type: boolean
-      abi:
+      status:
+        type: string
+        enum: [active,disabled,unavailable]
+      issuers:
         type: array
         items:
-          type: string
+          $ref: "#/definitions/CoBadgeIssuer"
+  CoBadgeIssuer:
+    type: object
+    required:
+      - name
+      - abi
+    properties:
+      abi:
+        type: string
+      name:
+        type: string

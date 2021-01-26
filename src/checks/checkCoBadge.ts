@@ -1,46 +1,107 @@
+/**
+ * this script checks about the cobadgeServices.json integrity and updates abi.json if necessary
+ * - cobadgeServices.json: this file is requested by the app
+ * - abi.json: this file is requested by the app
+ * - pm_abi.json: this file is NOT requested by the app is the data coming from PM as it is
+ * - abi.json is a file built merging the information coming from /bonus/bpd/abi/pm_abi.json and cobadgeServices.json
+ * - if an abi is present in cobadgeServices.json but not in abi.json it will be automatically added by this script
+ */
+
 import fs from "fs";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
+import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
+import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
+
+const error = (message: string) => {
+  console.error(message);
+  process.exit(1);
+};
 
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/cobadgeServices.json")
   .toString();
 const maybeCobadgeServices = CoBadgeServices.decode(JSON.parse(fileContent));
 if (!maybeCobadgeServices.isRight()) {
-  console.error(
+  error(
     "status/cobadgeServices.json is not compatible with CoBadgeServices type"
   );
-  process.exit(1);
 } else {
   const cobadgeServices = maybeCobadgeServices.value;
   // check for duplicated keys
   Object.keys(cobadgeServices).forEach(k => {
     const count = (fileContent.match(new RegExp(`"${k}"`, "gm")) || []).length;
     if (count > 1) {
-      console.error(`key '${k}' is duplicated!`);
-      process.exit(1);
+      error(`key '${k}' is duplicated!`);
     }
   });
   const abiRegistryFileContent = fs
-    .readFileSync(__dirname + "/../../status/abi.json")
+    .readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json")
     .toString();
   const maybeAbiRegistry = AbiListResponse.decode(
     JSON.parse(abiRegistryFileContent)
   );
   if (maybeAbiRegistry.isLeft()) {
-    console.error(`can't decode abi registry status/abi.json`);
-    process.exit(1);
+    error(`can't decode abi registry status/abi.json`);
   } else {
-    const abi = Object.keys(cobadgeServices)
-      .map(serviceName => cobadgeServices[serviceName].abi)
-      .reduce((acc, curr) => [...acc, ...curr], []);
-    const data: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
-    const abiRegistry = new Set<string>(data.map(a => a.abi || ""));
-    const missingAbi = abi.filter(a => !abiRegistry.has(a));
-    if (missingAbi.length > 0) {
-      console.error(`can't find some abi in status/abi.json registry`);
-      console.error(missingAbi);
+    const services = Object.keys(cobadgeServices).map<CoBadgeService>(
+      serviceName => cobadgeServices[serviceName]
+    );
+    const cobadgeIssuers = services.reduce<ReadonlyArray<CoBadgeIssuer>>(
+      (acc, curr) => [...acc, ...curr.issuers],
+      []
+    );
+
+    const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
+    // tslint:disable-next-line: no-let
+    let hasErrors = false;
+    // tslint:disable-next-line: readonly-array
+    const missingAbis: Abi[] = [];
+    /**
+     * for each issuer
+     * - check if some of them has empty name
+     * - check if some of them is not present in the abi registry (/bonus/bpd/abi/pm_abi.json). if yes, add it
+     * - check if some of them has a name different from the one present in the abi registry
+     */
+    cobadgeIssuers.forEach((service: CoBadgeIssuer) => {
+      const registryIssuer = registry.find(a => a.abi === service.abi);
+      if (registryIssuer === undefined) {
+        if (service.name.trim().length === 0) {
+          console.log(`abi ${service.abi} cannot have an empty name`);
+          hasErrors = true;
+          return;
+        }
+        missingAbis.push({ ...service });
+        return;
+      }
+      if (registryIssuer.name !== service.name) {
+        console.log(
+          `[${service.abi}] with name "${service.name}" should be "${
+            registryIssuer.name
+          }"`
+        );
+        hasErrors = true;
+      }
+    });
+    if (hasErrors) {
+      process.exit(1);
+    }
+    if (missingAbis.length > 0) {
+      const updatedRegistry = {
+        ...maybeAbiRegistry.value,
+        data: [...registry, ...missingAbis]
+      };
+      console.log(
+        `${
+          missingAbis.length
+        } in cobadgeServices.json are not present into abi.json, they will be added`
+      );
+      missingAbis.forEach(a => console.log(a));
+      fs.writeFileSync(
+        __dirname + "/../../status/abi.json",
+        JSON.stringify(AbiListResponse.encode(updatedRegistry), null, 2)
+      );
     }
   }
 

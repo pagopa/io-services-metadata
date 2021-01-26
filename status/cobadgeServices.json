@@ -1,7 +1,7 @@
 {
   "NEXI": {
     "active": true,
-    "abi": [
+    "issuers": [
       {
         "abi": "01015",
         "name": "BANCO DI SARDEGNA - S.P.A."
@@ -550,7 +550,7 @@
   },
   "ICCREA": {
     "active": false,
-    "abi": [
+    "issuers": [
       {
         "abi": "08000",
         "name": ""
@@ -559,7 +559,7 @@
   },
   "SIA": {
     "active": false,
-    "abi": [
+    "issuers": [
       {
         "abi": "02008",
         "name": "UNICREDIT S.P.A."

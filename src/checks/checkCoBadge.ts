@@ -3,7 +3,7 @@ import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBa
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
-import { CoBadgeAbi } from "../../generated/definitions/pagopa/cobadge/CoBadgeAbi";
+import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
 
 const error = (message: string) => {
   console.error(message);
@@ -28,7 +28,7 @@ if (!maybeCobadgeServices.isRight()) {
     }
   });
   const abiRegistryFileContent = fs
-    .readFileSync(__dirname + "/../../status/abi.json")
+    .readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json")
     .toString();
   const maybeAbiRegistry = AbiListResponse.decode(
     JSON.parse(abiRegistryFileContent)
@@ -39,12 +39,27 @@ if (!maybeCobadgeServices.isRight()) {
     const services = Object.keys(cobadgeServices).map<CoBadgeService>(
       serviceName => cobadgeServices[serviceName]
     );
-    const servicesBanks = services.reduce<ReadonlyArray<CoBadgeAbi>>((acc,curr) => [...acc,...(curr.abi)],[]);
+    const cobadgeIssuers = services.reduce<ReadonlyArray<CoBadgeIssuer>>(
+      (acc, curr) => [...acc, ...curr.issuers],
+      []
+    );
 
     const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
-    services.forEach((service: CoBadgeService) => {
-      if(!registry.some(a => a.name === service.name))
+    // tslint:disable-next-line: no-let
+    let hasErrors = false;
+    cobadgeIssuers.forEach((service: CoBadgeIssuer) => {
+      if (!registry.some(a => a.name === service.name)) {
+        console.log(
+          `abi ${service.abi} with name ${
+            service.name
+          } has a different name from the one in /bonus/bpd/abi/pm_abi.json`
+        );
+        hasErrors = true;
+      }
     });
+    if (hasErrors) {
+      process.exit(1);
+    }
   }
 
   process.exit(0);

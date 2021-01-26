@@ -1,3 +1,12 @@
+/**
+ * this script checks about the cobadgeServices.json integrity and updates abi.json if necessary
+ * - cobadgeServices.json: this file is requested by the app
+ * - abi.json: this file is requested by the app
+ * - pm_abi.json: this file is NOT requested by the app is the data coming from PM as it is
+ * - abi.json is a file built merging the information coming from /bonus/bpd/abi/pm_abi.json and cobadgeServices.json
+ * - if an abi is present in cobadgeServices.json but not in abi.json it will be automatically added by this script
+ */
+
 import fs from "fs";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";

@@ -48,7 +48,13 @@ if (!maybeCobadgeServices.isRight()) {
     // tslint:disable-next-line: no-let
     let hasErrors = false;
     // tslint:disable-next-line: readonly-array
-    const missingIssuers: Abi[] = [];
+    const missingAbis: Abi[] = [];
+    /**
+     * for each issuer
+     * - check if some of them has empty name
+     * - check if some of them is not present in the abi registry (/bonus/bpd/abi/pm_abi.json). if yes, add it
+     * - check if some of them has a name different from the one present in the abi registry
+     */
     cobadgeIssuers.forEach((service: CoBadgeIssuer) => {
       const registryIssuer = registry.find(a => a.abi === service.abi);
       if (registryIssuer === undefined) {
@@ -57,7 +63,7 @@ if (!maybeCobadgeServices.isRight()) {
           hasErrors = true;
           return;
         }
-        missingIssuers.push({ ...service });
+        missingAbis.push({ ...service });
         return;
       }
       if (registryIssuer.name !== service.name) {
@@ -72,7 +78,21 @@ if (!maybeCobadgeServices.isRight()) {
     if (hasErrors) {
       process.exit(1);
     }
-    if (missingIssuers.length > 0) {
+    if (missingAbis.length > 0) {
+      const updatedRegistry = {
+        ...maybeAbiRegistry.value,
+        data: [...registry, ...missingAbis]
+      };
+      console.log(
+        `${
+          missingAbis.length
+        } in cobadgeServices.json are not present into abi.json, they will be added`
+      );
+      missingAbis.forEach(a => console.log(a));
+      fs.writeFileSync(
+        __dirname + "/../../status/abi.json",
+        JSON.stringify(AbiListResponse.encode(updatedRegistry), null, 2)
+      );
     }
   }
 

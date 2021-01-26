@@ -5,6 +5,9 @@
  * - pm_abi.json: this file is NOT requested by the app is the data coming from PM as it is
  * - abi.json is a file built merging the information coming from /bonus/bpd/abi/pm_abi.json and cobadgeServices.json
  * - if an abi is present in cobadgeServices.json but not in abi.json it will be automatically added by this script
+ *
+ * NOTE: this script must be running every time a change is made on cobadgeServices.json file
+ * yarn check_cobadge
  */
 
 import fs from "fs";

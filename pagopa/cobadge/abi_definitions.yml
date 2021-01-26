@@ -17,11 +17,11 @@ definitions:
     properties:
       active:
         type: boolean
-      abi:
+      issuers:
         type: array
         items:
-          $ref: "#/definitions/CoBadgeAbi"
-  CoBadgeAbi:
+          $ref: "#/definitions/CoBadgeIssuer"
+  CoBadgeIssuer:
     type: object
     required:
       - name

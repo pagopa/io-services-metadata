@@ -3,6 +3,7 @@ import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBa
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
+import { CoBadgeAbi } from "../../generated/definitions/pagopa/cobadge/CoBadgeAbi";
 
 const error = (message: string) => {
   console.error(message);
@@ -38,12 +39,11 @@ if (!maybeCobadgeServices.isRight()) {
     const services = Object.keys(cobadgeServices).map<CoBadgeService>(
       serviceName => cobadgeServices[serviceName]
     );
+    const servicesBanks = services.reduce<ReadonlyArray<CoBadgeAbi>>((acc,curr) => [...acc,...(curr.abi)],[]);
 
     const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
     services.forEach((service: CoBadgeService) => {
-      if (service.name.trim().length === 0) {
-        error(`abi ${}`);
-      }
+      if(!registry.some(a => a.name === service.name))
     });
   }
 

@@ -20,7 +20,7 @@ definitions:
       abi:
         type: array
         items:
-          $ref: "#/definitions/CoBadgeService"
+          $ref: "#/definitions/CoBadgeAbi"
   CoBadgeAbi:
     type: object
     required:

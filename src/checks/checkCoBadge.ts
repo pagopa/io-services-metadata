@@ -3,25 +3,27 @@ import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBa
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
-import { CoBadgeAbi } from "../../generated/definitions/pagopa/cobadge/CoBadgeAbi";
+
+const error = (message: string) => {
+  console.error(message);
+  process.exit(1);
+};
 
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/cobadgeServices.json")
   .toString();
 const maybeCobadgeServices = CoBadgeServices.decode(JSON.parse(fileContent));
 if (!maybeCobadgeServices.isRight()) {
-  console.error(
+  error(
     "status/cobadgeServices.json is not compatible with CoBadgeServices type"
   );
-  process.exit(1);
 } else {
   const cobadgeServices = maybeCobadgeServices.value;
   // check for duplicated keys
   Object.keys(cobadgeServices).forEach(k => {
     const count = (fileContent.match(new RegExp(`"${k}"`, "gm")) || []).length;
     if (count > 1) {
-      console.error(`key '${k}' is duplicated!`);
-      process.exit(1);
+      error(`key '${k}' is duplicated!`);
     }
   });
   const abiRegistryFileContent = fs
@@ -31,24 +33,18 @@ if (!maybeCobadgeServices.isRight()) {
     JSON.parse(abiRegistryFileContent)
   );
   if (maybeAbiRegistry.isLeft()) {
-    console.error(`can't decode abi registry status/abi.json`);
-    process.exit(1);
+    error(`can't decode abi registry status/abi.json`);
   } else {
-    const issuers: ReadonlyArray<CoBadgeService> = Object.keys(cobadgeServices)
-      .map(serviceName => cobadgeServices[serviceName].abi)
-      .reduce((acc, curr) => [...acc, ...curr], []);
-    const issuersAbi = issuers
-      .reduce<ReadonlyArray<CoBadgeAbi>>((curr, acc) => [...acc, ...curr], [])
-      .map(a => a.abi);
+    const services = Object.keys(cobadgeServices).map<CoBadgeService>(
+      serviceName => cobadgeServices[serviceName]
+    );
 
-    const data: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
-    const abiRegistry = new Set<string>(data.map(a => a.abi || ""));
-    const missingAbi = issuers.filter(a => !abiRegistry.has(a));
-    if (missingAbi.length > 0) {
-      console.error(`can't find some abi in status/abi.json registry`);
-      console.error(missingAbi);
-      process.exit(1);
-    }
+    const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
+    services.forEach((service: CoBadgeService) => {
+      if (service.name.trim().length === 0) {
+        error(`abi ${}`);
+      }
+    });
   }
 
   process.exit(0);

@@ -2,6 +2,8 @@ import fs from "fs";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
+import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
+import { CoBadgeAbi } from "../../generated/definitions/pagopa/cobadge/CoBadgeAbi";
 
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/cobadgeServices.json")
@@ -32,12 +34,16 @@ if (!maybeCobadgeServices.isRight()) {
     console.error(`can't decode abi registry status/abi.json`);
     process.exit(1);
   } else {
-    const abi = Object.keys(cobadgeServices)
+    const issuers: ReadonlyArray<CoBadgeService> = Object.keys(cobadgeServices)
       .map(serviceName => cobadgeServices[serviceName].abi)
       .reduce((acc, curr) => [...acc, ...curr], []);
+    const issuersAbi = issuers
+      .reduce<ReadonlyArray<CoBadgeAbi>>((curr, acc) => [...acc, ...curr], [])
+      .map(a => a.abi);
+
     const data: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
     const abiRegistry = new Set<string>(data.map(a => a.abi || ""));
-    const missingAbi = abi.filter(a => !abiRegistry.has(a));
+    const missingAbi = issuers.filter(a => !abiRegistry.has(a));
     if (missingAbi.length > 0) {
       console.error(`can't find some abi in status/abi.json registry`);
       console.error(missingAbi);

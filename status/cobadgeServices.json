@@ -551,554 +551,554 @@
   "ICCREA": {
     "status": "disabled",
     "issuers": [
-        {
-          "abi": "03139",
-          "name": "BANCA SVILUPPO"
-        },
-        {
-          "abi": "07012",
-          "name": "BCC DI BARI"
-        },
-        {
-          "abi": "07048",
-          "name": "BCC DELL'ELBA"
-        },
-        {
-          "abi": "07062",
-          "name": "BCC MEDIOCRATI"
-        },
-        {
-          "abi": "07066",
-          "name": "BCC DEI COMUNI CILENTANI"
-        },
-        {
-          "abi": "07070",
-          "name": "CC ROMAGNOLO"
-        },
-        {
-          "abi": "07072",
-          "name": "EMIL BANCA"
-        },
-        {
-          "abi": "07075",
-          "name": "BANCA CENTRO"
-        },
-        {
-          "abi": "07076",
-          "name": "BCC CREMASCA E MANTOVANA"
-        },
-        {
-          "abi": "07084",
-          "name": "BANCA DELLA MARCA"
-        },
-        {
-          "abi": "07085",
-          "name": "CREDIFRIULI"
-        },
-        {
-          "abi": "07086",
-          "name": "BCC DELL'ADRIATICO TERAMANO"
-        },
-        {
-          "abi": "07087",
-          "name": "BCC DI TARANTO"
-        },
-        {
-          "abi": "07091",
-          "name": "BCC DEL CATANZARESE"
-        },
-        {
-          "abi": "07094",
-          "name": "BCC DI MASSAFRA"
-        },
-        {
-          "abi": "07096",
-          "name": "BCC DI CAGLIARI"
-        },
-        {
-          "abi": "07101",
-          "name": "BCC DI ANDRIA"
-        },
-        {
-          "abi": "07108",
-          "name": "BCC AGRIGENTINO"
-        },
-        {
-          "abi": "07110",
-          "name": "BCC DI NAPOLI"
-        },
-        {
-          "abi": "07113",
-          "name": "BCC DI PUTIGNANO"
-        },
-        {
-          "abi": "08003",
-          "name": "VIVAL BANCA"
-        },
-        {
-          "abi": "08030",
-          "name": "BCC DI BORGHETTO LODIGIANO"
-        },
-        {
-          "abi": "08086",
-          "name": "BCC DI FALCONARA MARITTINA"
-        },
-        {
-          "abi": "08126",
-          "name": "BCC DI MONTEPAONE"
-        },
-        {
-          "abi": "08149",
-          "name": "BCC DI BASCIANO"
-        },
-        {
-          "abi": "08154",
-          "name": "BCC DEL CILENTO"
-        },
-        {
-          "abi": "08189",
-          "name": "BCC DELLA VALLE DEL TRIGNO"
-        },
-        {
-          "abi": "08315",
-          "name": "VALPOLICELLA BENACO BANCA"
-        },
-        {
-          "abi": "08322",
-          "name": "BANCA VERONESE"
-        },
-        {
-          "abi": "08324",
-          "name": "BCC CENTROPADANA"
-        },
-        {
-          "abi": "08325",
-          "name": "BANCOFIORENTINO"
-        },
-        {
-          "abi": "08327",
-          "name": "BCC DI ROMA"
-        },
-        {
-          "abi": "08329",
-          "name": "BCC BRIANZA E LAGHI"
-        },
-        {
-          "abi": "08341",
-          "name": "BCC DI ALTOFONTE E CACCAMO"
-        },
-        {
-          "abi": "08345",
-          "name": "BCC DI ANGHIARI E STIA"
-        },
-        {
-          "abi": "08354",
-          "name": "BCC DI AVETRANA"
-        },
-        {
-          "abi": "08356",
-          "name": "BCC PORDENONESE E MONSILE"
-        },
-        {
-          "abi": "08358",
-          "name": "BCC DI PESCIA"
-        },
-        {
-          "abi": "08362",
-          "name": "BCC DI ARBOREA"
-        },
-        {
-          "abi": "08378",
-          "name": "BANCA DI CREDITO COOPERATIVO CAMPANIA CENTRO"
-        },
-        {
-          "abi": "08381",
-          "name": "BCC DI BELLEGRA"
-        },
-        {
-          "abi": "08386",
-          "name": "CRA BINASCO"
-        },
-        {
-          "abi": "08399",
-          "name": "BANCA DI BRENDOLA"
-        },
-        {
-          "abi": "08404",
-          "name": "BCC DI BUSTO GAROLFO E BUGUGGIATE"
-        },
-        {
-          "abi": "08409",
-          "name": "BCC DI BUONABITACOLO"
-        },
-        {
-          "abi": "08416",
-          "name": "BANCA DI VERONA"
-        },
-        {
-          "abi": "08430",
-          "name": "CRA CANTU'"
-        },
-        {
-          "abi": "08431",
-          "name": "BCC DI CAPACCIO PAESTUM"
-        },
-        {
-          "abi": "08434",
-          "name": "BCC ABRUZZESE"
-        },
-        {
-          "abi": "08437",
-          "name": "BCC DEL BASSO SEBINO"
-        },
-        {
-          "abi": "08440",
-          "name": "BCC DI CARATE BRIANZA"
-        },
-        {
-          "abi": "08441",
-          "name": "BCC CARAVAGGIO"
-        },
-        {
-          "abi": "08445",
-          "name": "BCC DI TERRA D OTRANTO"
-        },
-        {
-          "abi": "08450",
-          "name": "BANCA ALPI MARITTIME"
-        },
-        {
-          "abi": "08452",
-          "name": "BCC BANCA ANNIA"
-        },
-        {
-          "abi": "08453",
-          "name": "BCC DI MILANO"
-        },
-        {
-          "abi": "08454",
-          "name": "CREDITO PADANO BCC"
-        },
-        {
-          "abi": "08456",
-          "name": "BCC DEI SIBILLINI"
-        },
-        {
-          "abi": "08457",
-          "name": "BCC VALDARNO FIORENTINO"
-        },
-        {
-          "abi": "08469",
-          "name": "CRA DI CASTELLANA GROTTE"
-        },
-        {
-          "abi": "08473",
-          "name": "BCC DI CASTIGLIONE"
-        },
-        {
-          "abi": "08474",
-          "name": "BCC DEL PICENO"
-        },
-        {
-          "abi": "08481",
-          "name": "CEREABANCA 1897"
-        },
-        {
-          "abi": "08489",
-          "name": "BCC VALDICHIANA"
-        },
-        {
-          "abi": "08492",
-          "name": "BCC DI CITTANOVA"
-        },
-        {
-          "abi": "08514",
-          "name": "BCC DELL OGLIO E DEL SERIO"
-        },
-        {
-          "abi": "08515",
-          "name": "BCC DELLA VALSASSINA"
-        },
-        {
-          "abi": "08519",
-          "name": "BCC DI FANO"
-        },
-        {
-          "abi": "08530",
-          "name": "BCC DI ALBA"
-        },
-        {
-          "abi": "08537",
-          "name": "CASSA RURALE DI ERCHIE"
-        },
-        {
-          "abi": "08542",
-          "name": "CREDITO COOPERATIVO RAVENNATE E IMOLESE"
-        },
-        {
-          "abi": "08549",
-          "name": "BCC DI FILOTTRANO E CAMERANO"
-        },
-        {
-          "abi": "08554",
-          "name": "BCC DI GAUDIANO DI LAVELLO"
-        },
-        {
-          "abi": "08562",
-          "name": "BANCA DI PISA E FORNACETTE"
-        },
-        {
-          "abi": "08572",
-          "name": "BCC DI GAMBATESA"
-        },
-        {
-          "abi": "08575",
-          "name": "BCC AGROBRESCIANO"
-        },
-        {
-          "abi": "08595",
-          "name": "LA BANCA DEL CROTONESE"
-        },
-        {
-          "abi": "08597",
-          "name": "BCC BASILICATA"
-        },
-        {
-          "abi": "08601",
-          "name": "BCC VALLE DEL TORTO"
-        },
-        {
-          "abi": "08603",
-          "name": "BCC DI LEVERANO"
-        },
-        {
-          "abi": "08606",
-          "name": "BCC DI CANOSA"
-        },
-        {
-          "abi": "08618",
-          "name": "BCC DI LEZZENO"
-        },
-        {
-          "abi": "08673",
-          "name": "CHIANTI BANCA"
-        },
-        {
-          "abi": "08676",
-          "name": "B.C.C. DEL GARDA"
-        },
-        {
-          "abi": "08679",
-          "name": "BCC DI MOZZANICA"
-        },
-        {
-          "abi": "08688",
-          "name": "BCC DI MARINA DI GINOSA"
-        },
-        {
-          "abi": "08693",
-          "name": "BCC DI NETTUNO"
-        },
-        {
-          "abi": "08700",
-          "name": "BCC DEL METAURO"
-        },
-        {
-          "abi": "08704",
-          "name": "BCC DI OSTRA E MORRO D ALBA"
-        },
-        {
-          "abi": "08705",
-          "name": "BCC DI OSTRA VETERE"
-        },
-        {
-          "abi": "08706",
-          "name": "BCC DI OSTUNI"
-        },
-        {
-          "abi": "08708",
-          "name": "BCC DI OPPIDO LUCANO E RIPACANDIDA"
-        },
-        {
-          "abi": "08713",
-          "name": "BCC DI PACHINO"
-        },
-        {
-          "abi": "08715",
-          "name": "BCC DI UDINE"
-        },
-        {
-          "abi": "08717",
-          "name": "CRA PALIANO"
-        },
-        {
-          "abi": "08726",
-          "name": "BANCA VERSILIA LUNIGIANA E GARFAGNANA"
-        },
-        {
-          "abi": "08728",
-          "name": "BCC PATAVINA"
-        },
-        {
-          "abi": "08731",
-          "name": "BCC DI PERGOLA"
-        },
-        {
-          "abi": "08732",
-          "name": "BCC VICENTINO"
-        },
-        {
-          "abi": "08736",
-          "name": "BCC DI PONTASSIEVE"
-        },
-        {
-          "abi": "08738",
-          "name": "CRA DELL AGRO PONTINO"
-        },
-        {
-          "abi": "08747",
-          "name": "BCC DI PRATOLA PELIGNA"
-        },
-        {
-          "abi": "08749",
-          "name": "CENTROMARCA BANCA"
-        },
-        {
-          "abi": "08765",
-          "name": "BCC DI RECANATI E COLMURANO"
-        },
-        {
-          "abi": "08769",
-          "name": "BCC DI RIPATRANSONE E DEL FERMANO"
-        },
-        {
-          "abi": "08770",
-          "name": "CRA DI RIVAROLO MANTOVANO"
-        },
-        {
-          "abi": "08787",
-          "name": "BCC DELLA PROVINCIA ROMANA"
-        },
-        {
-          "abi": "08800",
-          "name": "BCC DI SAN BIAGIO PLATANI"
-        },
-        {
-          "abi": "08807",
-          "name": "BCC DI SAN GIORGIO"
-        },
-        {
-          "abi": "08811",
-          "name": "BCC DEL VALDARNO"
-        },
-        {
-          "abi": "08826",
-          "name": "BCC DI PESARO"
-        },
-        {
-          "abi": "08844",
-          "name": "BCC DI SANTERAMO IN COLLE"
-        },
-        {
-          "abi": "08851",
-          "name": "BANCA TEMA"
-        },
-        {
-          "abi": "08855",
-          "name": "BCC DI SCAFATI E CETARA"
-        },
-        {
-          "abi": "08869",
-          "name": "BCC BERGAMO E VALLI"
-        },
-        {
-          "abi": "08873",
-          "name": "BCC DI SPINAZZOLA"
-        },
-        {
-          "abi": "08877",
-          "name": "BCC DI STARANZANO E VILLESSE"
-        },
-        {
-          "abi": "08887",
-          "name": "BCC DEL VIBONESE"
-        },
-        {
-          "abi": "08899",
-          "name": "BCC DI TREVIGLIO"
-        },
-        {
-          "abi": "08901",
-          "name": "BCC DI TRIUGGIO E DELLA VALLE DEL LAMBRO"
-        },
-        {
-          "abi": "08913",
-          "name": "BCC DELLA VALLE DEL FITALIA"
-        },
-        {
-          "abi": "08917",
-          "name": "BCC TREVIGIANO"
-        },
-        {
-          "abi": "08922",
-          "name": "BANCA ALTA TOSCANA"
-        },
-        {
-          "abi": "08940",
-          "name": "BCC BERGAMASCA E OROBICA"
-        },
-        {
-          "abi": "08946",
-          "name": "BANCA DON RIZZO"
-        },
-        {
-          "abi": "08947",
-          "name": "BCC DON STELLA DI RESUTTANO"
-        },
-        {
-          "abi": "08951",
-          "name": "BCC DEI COLLI ALBANI"
-        },
-        {
-          "abi": "08952",
-          "name": "BCC G. TONIOLO DI SAN CATALDO"
-        },
-        {
-          "abi": "08958",
-          "name": "BCC DI GANGI"
-        },
-        {
-          "abi": "08969",
-          "name": "BCC SAN FRANCESCO"
-        },
-        {
-          "abi": "08975",
-          "name": "BCC SAN GIUSEPPE DI MUSSOMELI"
-        },
-        {
-          "abi": "08976",
-          "name": "BCC S. GIUSEPPE DELLE MADONIE"
-        },
-        {
-          "abi": "08979",
-          "name": "BCC SAN MICHELE DI CALTANISSETTA"
-        },
-        {
-          "abi": "08987",
-          "name": "BCC TERRA DI LAVORO SAN VINCENZO DE PAOLI"
-        },
-        {
-          "abi": "08988",
-          "name": "BCC DEGLI ULIVI - TERRA DI BARI"
-        },
-        {
-          "abi": "08995",
-          "name": "RIVIERA BANCA"
-        },
-        {
-          "abi": "08997",
-          "name": "BCC DI SAN MARCO DEI CAVOTI"
-        }
+      {
+        "abi": "03139",
+        "name": "BANCA PER LO SVILUPPO DELLA COOPERAZIONE DEL CREDITO"
+      },
+      {
+        "abi": "07012",
+        "name": "BANCA DI CREDITO COOPERATIVO DI BARI"
+      },
+      {
+        "abi": "07048",
+        "name": "BANCA DI CREDITO COOPERATIVO DELL'ELBA"
+      },
+      {
+        "abi": "07062",
+        "name": "BANCA DI CREDITO COOPERATIVO MEDIOCRATI"
+      },
+      {
+        "abi": "07066",
+        "name": "BANCA DI CREDITO COOPERATIVO DEI COMUNI CILENTANI"
+      },
+      {
+        "abi": "07070",
+        "name": "CREDITO COOPERATIVO ROMAGNOLO - BCC DI CESENA E GATTEO - SOCIETA COOPERATIVA "
+      },
+      {
+        "abi": "07072",
+        "name": "EMIL BANCA - CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "07075",
+        "name": "BCC UMBRIA CREDITO COOPERATIVO SOC. COOP."
+      },
+      {
+        "abi": "07076",
+        "name": "BANCA DI CREDITO COOPERATIVO CREMASCA E MANTOVANA"
+      },
+      {
+        "abi": "07084",
+        "name": "BANCA DELLA MARCA - CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "07085",
+        "name": "CREDITO COOPERATIVO FRIULI  - SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "07086",
+        "name": "BANCA DI CREDITO COOPERATIVO DELL'ADRIATICO TERAMANO"
+      },
+      {
+        "abi": "07087",
+        "name": "BANCA DI CREDITO COOPERATIVO DI TARANTO"
+      },
+      {
+        "abi": "07091",
+        "name": "BANCA DI CREDITO COOPERATIVO DEL CATANZARESE"
+      },
+      {
+        "abi": "07094",
+        "name": "BANCA DI CREDITO COOPERATIVO DI MASSAFRA"
+      },
+      {
+        "abi": "07096",
+        "name": "BANCA DI CREDITO COOPERATIVO DI CAGLIARI"
+      },
+      {
+        "abi": "07101",
+        "name": "BANCA DI CREDITO COOPERATIVO DI ANDRIA"
+      },
+      {
+        "abi": "07108",
+        "name": "BANCA DI CREDITO COOPERATIVO AGRIGENTINO"
+      },
+      {
+        "abi": "07110",
+        "name": "BANCA DI CREDITO COOPERATIVO DI NAPOLI"
+      },
+      {
+        "abi": "07113",
+        "name": "BANCA DI CREDITO COOPERATIVO DI PUTIGNANO"
+      },
+      {
+        "abi": "08003",
+        "name": "VIVAL BANCA – BANCA DI CREDITO COOPERATIVO DI MONTECATINI TERME , BIENTINA E S. PIETRO IN VINCIO S.C.  "
+      },
+      {
+        "abi": "08030",
+        "name": "BANCA DI CREDITO COOPERATIVO DI BORGHETTO LODIGIANO"
+      },
+      {
+        "abi": "08086",
+        "name": "BANCA DI CREDITO COOPERATIVO DI FALCONARA MARITTINA"
+      },
+      {
+        "abi": "08126",
+        "name": "BANCA DI CREDITO COOPERATIVO DI MONTEPAONE"
+      },
+      {
+        "abi": "08149",
+        "name": "BANCA DI CREDITO COOPERATIVO DI BASCIANO"
+      },
+      {
+        "abi": "08154",
+        "name": "BANCA DI CREDITO COOPERATIVO DEL CILENTO DI SASSANO E VALLE DI DIANO E DELLA LUCANIA "
+      },
+      {
+        "abi": "08189",
+        "name": "BANCA DI CREDITO COOPERATIVO DELLA VALLE DEL TRIGNO"
+      },
+      {
+        "abi": "08315",
+        "name": "VALPOLICELLA BENACO BANCA"
+      },
+      {
+        "abi": "08322",
+        "name": "BANCA VERONESE CREDITO COOPERATIVO DI CONCAMARISE"
+      },
+      {
+        "abi": "08324",
+        "name": "BANCA DI CREDITO COOPERATIVO CENTROPADANA"
+      },
+      {
+        "abi": "08325",
+        "name": "BANCO FIORENTINO - MUGELLO IMPRUNETA SIGNA - CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "08327",
+        "name": "B.C.C. DI ROMA"
+      },
+      {
+        "abi": "08329",
+        "name": "BCC BRIANZA E LAGHI CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "08341",
+        "name": "B.C.C. ALTOFONTE"
+      },
+      {
+        "abi": "08345",
+        "name": "B.C.C. DI ANGHIARI E STIA"
+      },
+      {
+        "abi": "08354",
+        "name": "B.C.C. DI AVETRANA"
+      },
+      {
+        "abi": "08356",
+        "name": "B.C.C. PORDENONESE E MONSILE"
+      },
+      {
+        "abi": "08358",
+        "name": "BANCA DI PESCIA E CASCINA CREDITO COOPERATIVO "
+      },
+      {
+        "abi": "08362",
+        "name": "B.C.C. DI ARBOREA"
+      },
+      {
+        "abi": "08378",
+        "name": "BANCA DI CREDITO COOPERATIVO CAMPANIA CENTRO – CASSA RURALE ED ARTIGIANA SOC. COOP.  "
+      },
+      {
+        "abi": "08381",
+        "name": "B.C.C. DI BELLEGRA"
+      },
+      {
+        "abi": "08386",
+        "name": "C.R.A. DI BINASCO"
+      },
+      {
+        "abi": "08399",
+        "name": "C.R.A. DI BRENDOLA CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "08404",
+        "name": "B.C.C. DI BUSTO GAROLFO"
+      },
+      {
+        "abi": "08409",
+        "name": "B.C.C. DI BUONABITACOLO"
+      },
+      {
+        "abi": "08416",
+        "name": "BANCA DI VERONA CREDITO COOPERATIVO CADIDAVID"
+      },
+      {
+        "abi": "08430",
+        "name": "C.R.A. DI CANTÙ"
+      },
+      {
+        "abi": "08431",
+        "name": "BANCA DI CREDITO COOPERATIVO DI CAPACCIO PAESTUM  E SERINO SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "08434",
+        "name": "B.C.C. ABRUZZESE DI CAPPELLE SUL TAVO"
+      },
+      {
+        "abi": "08437",
+        "name": "B.C.C. DEL BASSO SEBINO"
+      },
+      {
+        "abi": "08440",
+        "name": "B.C.C. DI CARATE BRIANZA"
+      },
+      {
+        "abi": "08441",
+        "name": "CREDITO COOPERATIVO DI CARAVAGGIO ADDA E CREMASCO - CASSA RURALE"
+      },
+      {
+        "abi": "08445",
+        "name": "B.C.C. DI TERRA D’OTRANTO"
+      },
+      {
+        "abi": "08450",
+        "name": "BANCA ALPI MARITTIME CREDITO COOPERATIVO CARRU"
+      },
+      {
+        "abi": "08452",
+        "name": "BANCA DI CREDITO COOPERATIVO DI VENEZIA, PADOVA E ROVIGO - BANCA ANNIA S.C"
+      },
+      {
+        "abi": "08453",
+        "name": "BANCA DI CREDITO COOPERATIVO DI MILANO - SOC. COOP."
+      },
+      {
+        "abi": "08454",
+        "name": "CREDITO PADANO BANCA DI CREDITO COOPERATIVO SOC. COOP."
+      },
+      {
+        "abi": "08456",
+        "name": "BANCA DEI SIBILLINI CREDITO COOPERATIVO DI CASAVECCHIA"
+      },
+      {
+        "abi": "08457",
+        "name": "CREDITO COOPERATIVO VALDARNO FIORENTINO BANCA DI CASCIA - SOCIETA' COOPERATIVA "
+      },
+      {
+        "abi": "08469",
+        "name": "C.R.A. DI CASTELLANA GROTTE"
+      },
+      {
+        "abi": "08473",
+        "name": "B.C.C. DI CASTIGLIONE MESSER RAIMONDO E PIANELLA"
+      },
+      {
+        "abi": "08474",
+        "name": "BANCA DEL PICENO CREDITO COOPERATIVO SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "08481",
+        "name": "CEREABANCA 1897 "
+      },
+      {
+        "abi": "08489",
+        "name": "BANCA VALDICHIANA CREDITO COOPERATIVO DI CHIUSI E MONTEPULCIANO"
+      },
+      {
+        "abi": "08492",
+        "name": "B.C.C. DI CITTANOVA"
+      },
+      {
+        "abi": "08514",
+        "name": "BANCA DI CREDITO COOPERATIVO DELL’OGLIO E DEL SERIO S.C."
+      },
+      {
+        "abi": "08515",
+        "name": "BANCA VALSASSINA CRED. COOP."
+      },
+      {
+        "abi": "08519",
+        "name": "B.C.C. DI FANO"
+      },
+      {
+        "abi": "08530",
+        "name": "B.C.C. D'ALBA, LANGHE, ROERO E DEL CANAVESE"
+      },
+      {
+        "abi": "08537",
+        "name": "C.R.A. DI ERCHIE"
+      },
+      {
+        "abi": "08542",
+        "name": "CRED. COOP. RAVENNATE FORLIVESE E IMOLESE"
+      },
+      {
+        "abi": "08549",
+        "name": "BANCA DI FILOTTRANO CREDITO COOPERATIVO DI FILOTTRANO E DI CAMERANO SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "08554",
+        "name": "B.C.C. DI GAUDIANO DI LAVELLO"
+      },
+      {
+        "abi": "08562",
+        "name": "BANCA DI PISA E FORNACETTE CREDITO COOPERATIVO SOC. COOP. PER AZIONI"
+      },
+      {
+        "abi": "08572",
+        "name": "B.C.C. DI GAMBATESA"
+      },
+      {
+        "abi": "08575",
+        "name": "B.C.C. DELL’AGRO BRESCIANO"
+      },
+      {
+        "abi": "08595",
+        "name": "BANCA DEL CROTONESE CRED. COOP."
+      },
+      {
+        "abi": "08597",
+        "name": "B.C.C. BASILICATA CREDITO COOPERATIVO DI LAURENZANA E COMUNI LUCANI"
+      },
+      {
+        "abi": "08601",
+        "name": "B.C.C. VALLE DEL TORTO"
+      },
+      {
+        "abi": "08603",
+        "name": "B.C.C. DI LEVERANO"
+      },
+      {
+        "abi": "08606",
+        "name": "B.C.C. DI CANOSA LOCONIA"
+      },
+      {
+        "abi": "08618",
+        "name": "B.C.C. DI LEZZENO"
+      },
+      {
+        "abi": "08673",
+        "name": "CHIANTIBANCA CREDITO COOPERATIVO - SOCIETÀ COOPERATIVA "
+      },
+      {
+        "abi": "08676",
+        "name": "B.C.C. DEL GARDA - BANCA DI CREDITO COOPERATIVO COLLI MORENICI DEL GARDA"
+      },
+      {
+        "abi": "08679",
+        "name": "B.C.C. DI MOZZANICA"
+      },
+      {
+        "abi": "08688",
+        "name": "B.C.C. DI MARINA DI GINOSA"
+      },
+      {
+        "abi": "08693",
+        "name": "B.C.C. DI NETTUNO"
+      },
+      {
+        "abi": "08700",
+        "name": "B.C.C. DEL METAURO"
+      },
+      {
+        "abi": "08704",
+        "name": "B.C.C. DI OSTRA E MORRO D’ALBA"
+      },
+      {
+        "abi": "08705",
+        "name": "B.C.C. DI OSTRA VETERE"
+      },
+      {
+        "abi": "08706",
+        "name": "B.C.C. DI OSTUNI"
+      },
+      {
+        "abi": "08708",
+        "name": "B.C.C. DI OPPIDO LUCANO E RIPACANDIDA"
+      },
+      {
+        "abi": "08713",
+        "name": "B.C.C. DI PACHINO"
+      },
+      {
+        "abi": "08715",
+        "name": "B.C.C. DI UDINE E BRESSA"
+      },
+      {
+        "abi": "08717",
+        "name": "C.R.A. DI PALIANO"
+      },
+      {
+        "abi": "08726",
+        "name": "B.C.C. DELLA VERSILIA DELLA LUNIGIANA E GARFAGNANA"
+      },
+      {
+        "abi": "08728",
+        "name": "BANCA PATAVINA CREDITO COOPERATIVO DI SANT’ELENA E PIOVE DI SACCO - SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "08731",
+        "name": "BANCA DI CREDITO COOPERATIVO DI PERGOLA E CORINALDO – SOCIETÀ COOPERATIVA "
+      },
+      {
+        "abi": "08732",
+        "name": "B.C.C. VICENTINO DI POJANA MAGGIORE"
+      },
+      {
+        "abi": "08736",
+        "name": "B.C.C. DI PONTASSIEVE"
+      },
+      {
+        "abi": "08738",
+        "name": "C.R.A. DELL’AGRO PONTINO"
+      },
+      {
+        "abi": "08747",
+        "name": "B.C.C. DI PRATOLA PELIGNA"
+      },
+      {
+        "abi": "08749",
+        "name": "CENTROMARCA BANCA CREDITO COOPERATIVO DI TREVISO "
+      },
+      {
+        "abi": "08765",
+        "name": "B.C.C. DI RECANATI E COLMURANO"
+      },
+      {
+        "abi": "08769",
+        "name": "B.C.C. DI RIPATRANSONE"
+      },
+      {
+        "abi": "08770",
+        "name": "C.R.A. DI RIVAROLO MANTOVANO"
+      },
+      {
+        "abi": "08787",
+        "name": "BANCA DI CREDITO COOPERATIVO DELLA PROVINCIA ROMANA"
+      },
+      {
+        "abi": "08800",
+        "name": "B.C.C. SAN BIAGIO PLATANI"
+      },
+      {
+        "abi": "08807",
+        "name": "BANCA DI S. GIORGIO QUINTO VALLE AGNO CRED. COOP."
+      },
+      {
+        "abi": "08811",
+        "name": "B.C.C. DI SAN GIOVANNI VALDARNO"
+      },
+      {
+        "abi": "08826",
+        "name": "B.C.C. DI PESARO."
+      },
+      {
+        "abi": "08844",
+        "name": "BANCA DI CREDITO COOPERATIVO DI SANTERAMO IN COLLE - SOCIETÀ COOPERATIVA"
+      },
+      {
+        "abi": "08851",
+        "name": "BANCA TERRE ETRUSCHE E DI MAREMMA CREDITO COOPERATIVO"
+      },
+      {
+        "abi": "08855",
+        "name": "B.C.C. DI SCAFATI E CETARA"
+      },
+      {
+        "abi": "08869",
+        "name": "BCC BERGAMO E VALLI SOC. COOP."
+      },
+      {
+        "abi": "08873",
+        "name": "B.C.C. DI SPINAZZOLA"
+      },
+      {
+        "abi": "08877",
+        "name": "B.C.C. DI STARANZANO E VILLESSE (14/12/2009)"
+      },
+      {
+        "abi": "08887",
+        "name": "CREDITO COOPERATIVO DI SAN CALOGERO E MAIERATO - BCC DEL VIBONESE"
+      },
+      {
+        "abi": "08899",
+        "name": "B.C.C. DI TREVIGLIO"
+      },
+      {
+        "abi": "08901",
+        "name": "B.C.C. DI TRIUGGIO E VALLE DEL LAMBRO"
+      },
+      {
+        "abi": "08913",
+        "name": "B.C.C. DELLA VALLE DEL FITALIA"
+      },
+      {
+        "abi": "08917",
+        "name": "CREDITO TREVIGIANO - B.C.C."
+      },
+      {
+        "abi": "08922",
+        "name": "BANCA ALTA TOSCANA CREDITO COOPERATIVO - SOC. COOP."
+      },
+      {
+        "abi": "08940",
+        "name": "BANCA DI CREDITO COOPERATIVO BERGAMASCA E OROBICA "
+      },
+      {
+        "abi": "08946",
+        "name": "BANCA DON RIZZO - CREDITO COOPERATIVO DELLA SICILIA OCCIDENTALE - SOCIETÀ COOPERATIVA "
+      },
+      {
+        "abi": "08947",
+        "name": "B.C.C. \"DON STELLA\" DI RESUTTANO"
+      },
+      {
+        "abi": "08951",
+        "name": "BANCA DI CREDITO COOPERATIVO DEI COLLI ALBANI SOCIETÀ COOPERATIVA  "
+      },
+      {
+        "abi": "08952",
+        "name": "B.C.C. \"G. TONIOLO\" DI SAN CATALDO - CALTANISSETTA"
+      },
+      {
+        "abi": "08958",
+        "name": "B.C.C. MUTUO SOCCORSO DI GANGI"
+      },
+      {
+        "abi": "08969",
+        "name": "BANCA SAN FRANCESCO - CRED. COOP. CANICATTÌ"
+      },
+      {
+        "abi": "08975",
+        "name": "B.C.C. \"S. GIUSPPE\" DI MUSSUMELI"
+      },
+      {
+        "abi": "08976",
+        "name": "BANCA DI CREDITO COOPERATIVO SAN GIUSEPPE DELLE MADONIE"
+      },
+      {
+        "abi": "08979",
+        "name": "BC.C. SAN MICHELE DI CALTANISSETTA E PIETRAPERZIA"
+      },
+      {
+        "abi": "08987",
+        "name": "BANCA DI CREDITO COOPERATIVO TERRA DI LAVORO S. VINCENZO DE' PAOLI"
+      },
+      {
+        "abi": "08988",
+        "name": "B.C.C. DEGLI ULIVI - TERRA DI BARI"
+      },
+      {
+        "abi": "08995",
+        "name": "RIVIERABANCA - CREDITO COOPERATIVO DI RIMINI E GRADARA - SOCIETA' COOPERATIVA"
+      },
+      {
+        "abi": "08997",
+        "name": "B.C.C. S. MARCO DEI CAVOTI DEL SANNIO (25/07/2011)"
+      }
     ]
   },
   "SIA": {

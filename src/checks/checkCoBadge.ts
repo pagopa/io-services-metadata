@@ -62,18 +62,17 @@ if (!maybeCobadgeServices.isRight()) {
       }
       if (registryIssuer.name !== service.name) {
         console.log(
-          `abi ${service.abi} with name "${
-            service.name
-          }" has a different name from the one in /bonus/bpd/abi/pm_abi.json "${
+          `[${service.abi}] with name "${service.name}" should be "${
             registryIssuer.name
           }"`
         );
         hasErrors = true;
       }
     });
-    console.log(missingIssuers);
     if (hasErrors) {
       process.exit(1);
+    }
+    if (missingIssuers.length > 0) {
     }
   }
 

@@ -15,7 +15,7 @@ definitions:
       - active
       - issuers
     properties:
-      active:
+      status:
         type: string
         enum: [active,disabled,unavailable]
       issuers:

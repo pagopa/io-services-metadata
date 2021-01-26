@@ -1,6 +1,6 @@
 {
   "NEXI": {
-    "active": true,
+    "status": "active",
     "issuers": [
       {
         "abi": "01015",
@@ -549,7 +549,7 @@
     ]
   },
   "ICCREA": {
-    "active": false,
+    "status": "disabled",
     "issuers": [
         {
           "abi": "03139",
@@ -1102,7 +1102,7 @@
     ]
   },
   "SIA": {
-    "active": false,
+    "status": "disabled",
     "issuers": [
       {
         "abi": "02008",

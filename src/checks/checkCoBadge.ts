@@ -52,7 +52,11 @@ if (!maybeCobadgeServices.isRight()) {
     cobadgeIssuers.forEach((service: CoBadgeIssuer) => {
       const registryIssuer = registry.find(a => a.abi === service.abi);
       if (registryIssuer === undefined) {
-        if(service.name.trim().length ==)
+        if (service.name.trim().length === 0) {
+          console.log(`abi ${service.abi} cannot have an empty name`);
+          hasErrors = true;
+          return;
+        }
         missingIssuers.push({ ...service });
         return;
       }

@@ -47,16 +47,27 @@ if (!maybeCobadgeServices.isRight()) {
     const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
     // tslint:disable-next-line: no-let
     let hasErrors = false;
+    // tslint:disable-next-line: readonly-array
+    const missingIssuers: Abi[] = [];
     cobadgeIssuers.forEach((service: CoBadgeIssuer) => {
-      if (!registry.some(a => a.name === service.name)) {
+      const registryIssuer = registry.find(a => a.abi === service.abi);
+      if (registryIssuer === undefined) {
+        if(service.name.trim().length ==)
+        missingIssuers.push({ ...service });
+        return;
+      }
+      if (registryIssuer.name !== service.name) {
         console.log(
-          `abi ${service.abi} with name ${
+          `abi ${service.abi} with name "${
             service.name
-          } has a different name from the one in /bonus/bpd/abi/pm_abi.json`
+          }" has a different name from the one in /bonus/bpd/abi/pm_abi.json "${
+            registryIssuer.name
+          }"`
         );
         hasErrors = true;
       }
     });
+    console.log(missingIssuers);
     if (hasErrors) {
       process.exit(1);
     }

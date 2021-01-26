@@ -16,7 +16,8 @@ definitions:
       - issuers
     properties:
       active:
-        type: boolean
+        type: string
+        enum: [active,disabled,unavailable]
       issuers:
         type: array
         items:

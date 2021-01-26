@@ -13,11 +13,21 @@ definitions:
     type: object
     required:
       - active
-      - abi
+      - issuers
     properties:
       active:
         type: boolean
       abi:
         type: array
         items:
-          type: string
+          $ref: "#/definitions/CoBadgeService"
+  CoBadgeAbi:
+    type: object
+    required:
+      - name
+      - abi
+    properties:
+      abi:
+        type: string
+      name:
+        type: string

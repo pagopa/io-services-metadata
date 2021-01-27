@@ -146,6 +146,11 @@
           "$ref": "#/definitions/Payload"
         },
         "status": {
+          "enum": [
+            "OK",
+            "KO",
+            "PENDING"
+          ],
           "type": "string"
         }
       },

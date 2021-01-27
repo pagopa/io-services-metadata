@@ -61,6 +61,7 @@ jobs:
       - run: yarn check_bonus_available_data
       - run: yarn check_backend_status
       - run: yarn check_cobadge
+      - run: yarn check_abi
 
   danger:
     <<: *defaults_js

@@ -196,8 +196,6 @@
           "type": "string"
         },
         "expiringDate": {
-          "format": "date",
-          "pattern": "^\\d{2}-\\d{2}-\\d{4}$",
           "type": "string"
         },
         "hpan": {
@@ -262,8 +260,6 @@
         },
         "createDate": {
           "example": "31-01-2020 00:00:00",
-          "format": "date",
-          "pattern": "^\\d{2}-\\d{2}-\\d{4} \\d{2}:\\d{2}:\\d{2}$",
           "type": "string"
         },
         "enableableFunctions": {
@@ -291,8 +287,6 @@
         },
         "updateDate": {
           "example": "31-01-2020 00:00:00",
-          "format": "date",
-          "pattern": "^\\d{2}-\\d{2}-\\d{4} \\d{2}:\\d{2}:\\d{2}$",
           "type": "string"
         },
         "walletType": {

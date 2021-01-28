@@ -1,5 +1,5 @@
 ### cobadgeServices.json
 #### changes
 **01.27.2021**
-- CobadgeResponse/status as enum instead of string: `OK`,`KO`,`PENDING`
-- date as string instead of pattern date. io-utils generates an invalid regex
+- change `CobadgeResponse/executionStatus` from string to enum: `OK`,`KO`,`PENDING`
+- remove pattern from date fields and change format from `date` to `date-time`. io-utils generates an invalid regex

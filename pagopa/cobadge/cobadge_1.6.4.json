@@ -146,11 +146,6 @@
           "$ref": "#/definitions/Payload"
         },
         "status": {
-          "enum": [
-            "OK",
-            "KO",
-            "PENDING"
-          ],
           "type": "string"
         }
       },
@@ -196,6 +191,7 @@
           "type": "string"
         },
         "expiringDate": {
+          "format": "date-time",
           "type": "string"
         },
         "hpan": {
@@ -242,6 +238,11 @@
     "SearchRequestMetadata": {
       "properties": {
         "executionStatus": {
+          "enum": [
+            "OK",
+            "KO",
+            "PENDING"
+          ],
           "type": "string"
         },
         "retrievedInstrumentsCount": {
@@ -260,6 +261,7 @@
         },
         "createDate": {
           "example": "31-01-2020 00:00:00",
+          "format": "date-time",
           "type": "string"
         },
         "enableableFunctions": {
@@ -287,6 +289,7 @@
         },
         "updateDate": {
           "example": "31-01-2020 00:00:00",
+          "format": "date-time",
           "type": "string"
         },
         "walletType": {

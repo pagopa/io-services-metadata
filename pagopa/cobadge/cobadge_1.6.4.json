@@ -27,7 +27,7 @@
           }
         ],
         "responses": {
-          "201": {
+          "200": {
             "description": "Wallet with credit card created",
             "schema": {
               "$ref": "#/definitions/WalletV2"
@@ -59,7 +59,7 @@
           }
         ],
         "responses": {
-          "201": {
+          "200": {
             "description": "Resource Cobadge created",
             "schema": {
               "$ref": "#/definitions/CobadgeResponse"
@@ -90,7 +90,7 @@
           }
         ],
         "responses": {
-          "201": {
+          "200": {
             "description": "Resource Cobadge created",
             "schema": {
               "$ref": "#/definitions/CobadgeResponse"

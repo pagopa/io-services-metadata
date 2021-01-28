@@ -9,6 +9,7 @@
   "paths": {
     "/cobadge/add-wallets": {
       "post": {
+        "operationId": "postAddCobadgeWallet",
         "consumes": [
           "application/json"
         ],
@@ -45,6 +46,7 @@
     },
     "/cobadge/pans": {
       "get": {
+        "operationId": "getCobadgePans",
         "produces": [
           "application/json"
         ],
@@ -75,6 +77,7 @@
     },
     "/cobadge/search/{searchRequestId}": {
       "get": {
+        "operationId": "searchCobadgePans",
         "produces": [
           "application/json"
         ],

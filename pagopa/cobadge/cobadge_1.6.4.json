@@ -41,7 +41,12 @@
           }
         },
         "description": "Save instruments information as credit card",
-        "x-codegen-request-body-name": "body"
+        "x-codegen-request-body-name": "body",
+        "security": [
+          {
+            "Bearer": []
+          }
+          ]
       }
     },
     "/cobadge/pans": {
@@ -72,7 +77,12 @@
             "description": "Internal Server Error"
           }
         },
-        "description": "Retrieve instruments information using ABI code"
+        "description": "Retrieve instruments information using ABI code",
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
       }
     },
     "/cobadge/search/{searchRequestId}": {
@@ -103,7 +113,12 @@
             "description": "Internal Server Error"
           }
         },
-        "description": "Retrieve instruments information using ABI code"
+        "description": "Retrieve instruments information using ABI code",
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
       }
     }
   },

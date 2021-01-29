@@ -41,8 +41,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Temporaneamente i servizi locali non sono visibili",
-        "en-EN": "Local services are temporarily not visible"
+        "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
+        "en-EN": "We're updating local services. The list will be back soon."
       }
     },
     "login": {

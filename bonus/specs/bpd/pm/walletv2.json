@@ -687,7 +687,7 @@
           ]
         },
         "expiringDate": {
-          "format": "date",
+          "format": "date-time",
           "type": "string"
         },
         "hpan": {

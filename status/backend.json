@@ -132,6 +132,18 @@
         "it-IT": "",
         "en-EN": ""
       }
+    },
+    "cobadge": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
     }
   }
 }

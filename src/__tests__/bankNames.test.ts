@@ -1,4 +1,4 @@
-import { fromNullable, some } from "fp-ts/lib/Option";
+import { fromNullable } from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
 import { toCamelCase, IAbi } from "../utils/bankNames";
 describe("Test Success Case", () => {
@@ -135,5 +135,13 @@ describe("Test Success Case", () => {
         .map(myBank => myBank.name)
         .getOrElse("")
     ).toMatch(/Rurale ed Artigiana/);
+  });
+
+  test("Should take care of brand name typographic rules", () => {
+    expect(
+      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "03002"))
+        .map(myBank => myBank.name)
+        .getOrElse("")
+    ).toMatch(/UniCredit Banca/);
   });
 });

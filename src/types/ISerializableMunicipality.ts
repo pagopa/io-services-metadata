@@ -1,4 +1,4 @@
-import { Municipality } from "../../definitions/Municipality";
+import { Municipality } from "../../generated/definitions/content/Municipality";
 
 export interface ISerializableMunicipality {
   codiceCatastale: string;

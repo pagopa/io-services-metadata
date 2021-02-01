@@ -6,12 +6,11 @@ import * as t from "io-ts";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import * as yaml from "js-yaml";
 import * as path from "path";
-
-import { scopeEnum, Service } from "../definitions/Service";
+import { Service, ScopeEnum } from "../generated/definitions/content/Service";
 
 const Services = t.dictionary(t.string, Service);
 // the keys are the scopeEnum (NATIONAL,LOCAL) and the value is the relative services id
-type ScopeServices = { [key in keyof typeof scopeEnum]: ReadonlyArray<string> };
+type ScopeServices = { [key in keyof typeof ScopeEnum]: ReadonlyArray<string> };
 const root = path.join(__dirname, "../");
 
 async function run(rootPath: string): Promise<void> {
@@ -56,12 +55,12 @@ async function run(rootPath: string): Promise<void> {
     // filter the services id which have scope LOCAL
     const locals = serviceIds.filter(sId => {
       const service = services[sId];
-      return service.scope === scopeEnum.LOCAL;
+      return service.scope === ScopeEnum.LOCAL;
     });
     // filter the services id which have scope NATIONAL
     const nationals = serviceIds.filter(sId => {
       const service = services[sId];
-      return service.scope === scopeEnum.NATIONAL;
+      return service.scope === ScopeEnum.NATIONAL;
     });
 
     const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
@@ -82,8 +81,9 @@ async function run(rootPath: string): Promise<void> {
     }
     noEmailAndPhoneServices.forEach(s => {
       const des = services[s].description;
+      const suffix: string = `${des ? "..." : ""}`;
       console.log(
-        chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) + "..." : ""}`)
+        chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) : ""}${suffix}`)
       );
       console.log(chalk.blue(`-`.repeat(40)));
     });

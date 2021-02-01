@@ -1,10 +1,9 @@
 import { fromNullable, some } from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
 import { toCamelCase, IAbi } from "../utils/bankNames";
-
 describe("Test Success Case", () => {
   const updStatusAbi = toCamelCase(JSON.parse(
-    readFileSync(__dirname + "/../../status/abi.json").toString()
+    readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json").toString()
   ) as IAbi);
 
   test("Should convert to Capital Case", () => {

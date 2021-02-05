@@ -676,19 +676,9 @@
         "abiCode": {
           "type": "string"
         },
-        "brand": {
-          "type": "string",
-          "enum": [
-            "MAESTRO",
-            "MASTERCARD",
-            "VISA_ELECTRON",
-            "VISA_CLASSIC",
-            "VPAY"
-          ]
-        },
         "expiringDate": {
-          "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "format": "date"
         },
         "hpan": {
           "type": "string"
@@ -698,6 +688,16 @@
         },
         "panPartialNumber": {
           "type": "string"
+        },
+        "paymentNetwork": {
+          "type": "string",
+          "enum": [
+            "MAESTRO",
+            "MASTERCARD",
+            "VISA_ELECTRON",
+            "VISA_CLASSIC",
+            "VPAY"
+          ]
         },
         "productType": {
           "type": "string",

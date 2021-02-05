@@ -39,6 +39,7 @@ const Sections = t.interface({
   bancomat: SectionStatus,
   bancomatpay: SectionStatus,
   cashback: SectionStatus,
+  cobadge: SectionStatus,
   credit_card: SectionStatus,
   digital_payments: SectionStatus,
   email_validation: SectionStatus,

@@ -37,7 +37,7 @@ if (!maybeCobadgeServices.isRight()) {
     }
   });
   const abiRegistryFileContent = fs
-    .readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json")
+    .readFileSync(__dirname + "/../../status/abi.json")
     .toString();
   const maybeAbiRegistry = AbiListResponse.decode(
     JSON.parse(abiRegistryFileContent)
@@ -95,13 +95,14 @@ if (!maybeCobadgeServices.isRight()) {
       console.log(
         `${
           missingAbis.length
-        } in cobadgeServices.json are not present into abi.json, they will be added`
+        } abi in cobadgeServices.json are not present into abi.json, they will be added`
       );
-      missingAbis.forEach(a => console.log(a));
+      missingAbis.forEach(console.log);
       fs.writeFileSync(
         __dirname + "/../../status/abi.json",
         JSON.stringify(AbiListResponse.encode(updatedRegistry), null, 2)
       );
+      process.exit(1);
     }
   }
 

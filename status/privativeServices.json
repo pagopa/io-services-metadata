@@ -1,0 +1,19 @@
+{
+    "N&TS": {
+      "active": false,
+      "issuers": [
+        {
+          "abi": "ESSEL",
+          "name": "Esselunga"
+        },
+        {
+            "abi": "COOP1",
+            "name": "COOP"
+          },
+          {
+            "abi": "CONAD",
+            "name": "Conad"
+          }
+      ]
+    }
+}

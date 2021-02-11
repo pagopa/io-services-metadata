@@ -1,19 +1,11 @@
 {
     "N&TS": {
-      "active": false,
+      "status": "disabled",
       "issuers": [
         {
-          "abi": "ESSEL",
-          "name": "Esselunga"
-        },
-        {
-            "abi": "COOP1",
-            "name": "COOP"
-          },
-          {
-            "abi": "CONAD",
-            "name": "Conad"
-          }
+          "gdo": "ESSEL",
+          "loyalty": "Esselunga"
+        }
       ]
     }
 }

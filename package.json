@@ -19,11 +19,14 @@
     "check_backend_status": "ts-node src/checks/checkBackendStatus.ts",
     "check_abi": "ts-node src/checks/checkAbi.ts",
     "check_cobadge": "ts-node src/checks/checkCoBadge.ts",
+    "check_privative": "ts-node src/checks/checkPrivative.ts",
     "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:content-definitions": "rimraf ./generated/definitions/content && mkdir -p ./generated/definitions/content && gen-api-models --api-spec definitions.yml --out-dir ./generated/definitions/content",
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",
+    "generate:pagopa-privative": "rimraf ./generated/definitions/pagopa/privative && mkdir -p ./generated/definitions/pagopa/privative && gen-api-models --api-spec ./pagopa/privative/definitions.yml --out-dir ./generated/definitions/pagopa/privative",
     "generate:pagopa-walletv2-definitions": "rimraf generated/definitions/pagopa/walletv2 && mkdir -p generated/definitions/pagopa/walletv2 && gen-api-models --api-spec $npm_package_api_pagopa_walletv2 --out-dir ./generated/definitions/pagopa/walletv2",
-    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge generate:pagopa-walletv2-definitions"
+    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions",
+    "run_checks": "npm-run-all check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

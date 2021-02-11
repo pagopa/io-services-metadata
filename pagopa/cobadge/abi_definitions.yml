@@ -12,7 +12,7 @@ definitions:
   CoBadgeService:
     type: object
     required:
-      - active
+      - status
       - issuers
     properties:
       status:

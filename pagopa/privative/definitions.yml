@@ -24,9 +24,12 @@ definitions:
   PrivativeServiceIssuer:
     type: object
     required:
+      - id
       - gdo
       - loyalty
     properties:
+      id:
+        type: string
       gdo:
         type: string
       loyalty:

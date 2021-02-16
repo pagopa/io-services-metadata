@@ -1102,7 +1102,7 @@
     ]
   },
   "SIA": {
-    "status": "disabled",
+    "status": "enabled",
     "issuers": [
       {
         "abi": "02008",

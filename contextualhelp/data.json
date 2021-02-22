@@ -338,7 +338,7 @@
             ]
          },
          {
-            "route_name": "BIVIO INIZIALE CO-BADGE",
+            "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
             "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
             "content": "Per aggiungere correttamente il circuito internazionale associato alla tua carta PagoBANCOMAT, ci serve sapere se hai mai utilizzato questa carta online, così da indirizzarti verso la pagina più adatta al tuo caso.",
             "faqs": [
@@ -357,7 +357,7 @@
             ]
          },
          {
-            "route_name": "ACCETTAZIONE PRIVACY CO-BADGE",
+            "route_name": "WALLET_ONBOARDING_COBADGE_START",
             "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
             "content": "Questo servizio ti permette di cercare tutte le carte con circuito internazionale (Maestro, Mastercard, Visa e V-Pay) a te intestate.",
             "faqs": [
@@ -368,7 +368,7 @@
             ]
          },
          {
-            "route_name": "RISULTATI RICERCA CO-BADGE",
+            "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
             "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
             "content": "In questa pagina vengono mostrate tutte le carte intestate a te, su circuito internazionale (Maestro, Mastercard, Visa e V-Pay) presso le banche aderenti al servizio. Se non desideri aggiungere una delle carte mostrate, premi 'Salta' per passare a quella successiva.",
             "faqs": [
@@ -387,7 +387,7 @@
             ]
          },
          {
-            "route_name": "DETTAGLIO CARTA CO-BADGE",
+            "route_name": "WALLET_COBADGE_DETAIL",
             "title": "La tua carta con circuito internazionale",
             "content": "Questa è la schermata di dettaglio della tua carta con circuito internazionale. Sulla carta sono rappresentati il logo della banca che ha emesso la carta, la data di scadenza e logo e numero relativi al circuito internazionale.",
             "faqs": [
@@ -418,7 +418,7 @@
             ]
          },
          {
-            "route_name": "DETTAGLIO CARTA DEBITO O CREDITO",
+            "route_name": "WALLET_CARD_TRANSACTION",
             "title": "La tua carta di debito (o credito)",
             "content": "Questa è la schermata di dettaglio della tua carta di debito (o credito). Sulla carta sono rappresentati il logo del circuito, l'intestatario, la data di scadenza e le ultime 4 cifre della carta.",
             "faqs": [

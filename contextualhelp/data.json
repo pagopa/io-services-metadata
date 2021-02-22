@@ -348,7 +348,7 @@
                },
                {
                   "title": "La mia carta ha il codice di sicurezza, ma non riesco comunque a salvarla in app.",
-                  "body": "Dopo aver inserito i dati della tua carta, la tua banca effettua una verifica—solitamente via SMS o con una notifica push tramite la propria app. Segui bene le istruzioni mostrate dalla tua banca e, in caso di problemi, contatta il loro servizio clienti.\n\nSe non ricevi alcun messaggio (oppure la transazione viene negata) significa che la tua carta non è abilitata ai pagamenti online. Rivolgiti alla tua banca e chiedi come attivare il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa)."
+                  "body": "Dopo aver inserito i dati della tua carta, la tua banca effettua una verifica, solitamente via SMS o con una notifica tramite la propria app. Segui bene le istruzioni mostrate dalla tua banca e, in caso di problemi, contatta il loro servizio clienti.\n\nSe non ricevi alcun messaggio (oppure la transazione viene negata) significa che la tua carta non è abilitata ai pagamenti online. Rivolgiti alla tua banca e chiedi come attivare il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa)."
                },
                {
                   "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",

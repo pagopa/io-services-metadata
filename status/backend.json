@@ -37,8 +37,8 @@
         "en-EN": "https://io.italia.it/status/en/#2102241930"
       },
       "message": {
-        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22:30 alle 23:30",
-        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10:30 to 11:30 p.m."
+        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22 a mezzanotte",
+        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10 p.m. to midnight"
       }
     },
     "services": {
@@ -65,8 +65,8 @@
         "en-EN": "https://io.italia.it/status/en/#2102241930"
       },
       "message": {
-        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22:30 alle 23:30",
-        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10:30 to 11:30 p.m."
+        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22 a mezzanotte",
+        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10 p.m. to midnight"
       }
     },
     "ingress": {

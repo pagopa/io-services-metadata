@@ -30,15 +30,15 @@
       }
     },
     "messages": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
-        "it-IT": "https://io.italia.it/status/#2102241930",
-        "en-EN": "https://io.italia.it/status/en/#2102241930"
+        "it-IT": "https://io.italia.it/status/#2102261200",
+        "en-EN": "https://io.italia.it/status/en/#2102261200"
       },
       "message": {
-        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22 a mezzanotte",
-        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10 p.m. to midnight"
+        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 14 alle 16",
+        "en-EN": "In-app payments and adding new methods will be down for maintenance from 2 to 4 p.m."
       }
     },
     "services": {
@@ -58,15 +58,15 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
-        "it-IT": "https://io.italia.it/status/#2102241930",
-        "en-EN": "https://io.italia.it/status/en/#2102241930"
+        "it-IT": "https://io.italia.it/status/#2102261200",
+        "en-EN": "https://io.italia.it/status/en/#2102261200"
       },
       "message": {
-        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 22 a mezzanotte",
-        "en-EN": "In-app payments and adding new methods will be down for maintenance from 10 p.m. to midnight"
+        "it-IT": "I servizi di pagamento e aggiunta metodi non saranno disponibili dalle 14 alle 16",
+        "en-EN": "In-app payments and adding new methods will be down for maintenance from 2 to 4 p.m."
       }
     },
     "ingress": {

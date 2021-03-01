@@ -30,7 +30,7 @@
       }
     },
     "messages": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status",
@@ -58,7 +58,7 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status",

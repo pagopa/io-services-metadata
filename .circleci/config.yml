@@ -57,11 +57,7 @@ jobs:
       - *restore_node_cache
       - *install_node_modules
       - run: yarn generate:all
-      - run: yarn check_contextual_help_data
-      - run: yarn check_bonus_available_data
-      - run: yarn check_backend_status
-      - run: yarn check_cobadge
-      - run: yarn check_abi
+      - run: yarn run_checks
 
   danger:
     <<: *defaults_js

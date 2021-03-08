@@ -532,6 +532,13 @@
             "description": "abiCode",
             "required": false,
             "type": "string"
+          },
+          {
+            "name": "panCode",
+            "in": "header",
+            "description": "panCode",
+            "required": false,
+            "type": "string"
           }
         ],
         "responses": {

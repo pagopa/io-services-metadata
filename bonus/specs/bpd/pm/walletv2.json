@@ -534,9 +534,9 @@
             "type": "string"
           },
           {
-            "name": "Pan-Code",
+            "name": "PanCode",
             "in": "header",
-            "description": "Pan-Code",
+            "description": "PanCode",
             "required": false,
             "type": "string"
           }

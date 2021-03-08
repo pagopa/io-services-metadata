@@ -1009,7 +1009,9 @@
           "type": "string",
           "enum": [
             "PP",
-            "DEB"
+            "DEB",
+            "CRD",
+            "PRV",
           ]
         }
       },
@@ -1081,16 +1083,6 @@
         },
         "securityCode": {
           "type": "string"
-        },
-        "productType": {
-          "type": "string",
-          "description": "TMP draft for develop, to be confirmed",
-          "enum": [
-            "CREDIT",
-            "PREPAID",
-            "DEBIT",
-            "PRIVATIVE"
-          ]
         }
       },
       "title": "CreditCard"

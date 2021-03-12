@@ -60,10 +60,6 @@
     "wallets": {
       "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status/en"
-      },
       "message": {
         "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
         "en-EN": "The Cashback service may be slowed down"

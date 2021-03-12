@@ -22,11 +22,11 @@
       }
     },
     "cashback": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "Entro il 20 gennaio verranno recuperate le eventuali transazioni PagoBANCOMAT mancanti",
-        "en-EN": "Any missing PagoBANCOMAT transactions will be recovered by January, 20"
+        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
+        "en-EN": "The Cashback service may be slowed down"
       }
     },
     "messages": {
@@ -58,15 +58,15 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status",
         "en-EN": "https://io.italia.it/status/en"
       },
       "message": {
-        "it-IT": "Potrebbero esserci disservizi sui pagamenti e sull'aggiunta dei metodi",
-        "en-EN": "There may be disruptions on payments and adding methods"
+        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
+        "en-EN": "The Cashback service may be slowed down"
       }
     },
     "ingress": {

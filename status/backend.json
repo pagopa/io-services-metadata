@@ -22,7 +22,7 @@
       }
     },
     "cashback": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
@@ -58,7 +58,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",

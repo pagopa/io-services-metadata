@@ -5,7 +5,7 @@
          {
             "route_name": "CGN_INFORMATION_TOS",
             "title": "Attiva la Carta Giovani Nazionale",
-            "content": "Qui sono visualizzate tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi."
+            "content": "Qui sono visualizzate tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi.",
             "faqs": [
                {
                   "title": "Come faccio a richiedere la Carta Giovani Nazionale?",
@@ -26,11 +26,11 @@
                {
                   "title": "Posso condividere le agevolazioni della Carta Giovani Nazionale con i miei familiari e amici?",
                   "body": "No, le agevolazioni promosse dalla Carta Giovani Nazionale hanno carattere individuale e nominativo, e possono quindi essere utilizzate esclusivamente dal titolare della Carta. L’uso improprio della carta può comportare la sua revoca."
-               }
+               },
                {
                   "title": "Devo aggiungere una carta di credito sull’app IO per richiedere e utilizzare la Carta Giovani Nazionale?",
                   "body": "No. Anche se trovi la funzione per richiedere la Carta Giovani all’interno della sezione “Portafoglio” dell’App IO, il suo utilizzo non è associato in alcun modo alla disponibilità di una carta di credito né di altri metodi di pagamento salvati nell’app. Quando utilizzerai le agevolazioni della Carta per ottenere uno sconto - sull’e-commerce o presso le strutture fisiche dell’esercente convenzionato - provvederai al pagamento con la modalità che preferisci."
-               }
+               },
                {
                   "title": "Se utilizzo le agevolazioni della mia Carta Giovani Nazionale per un acquisto online, l’applicazione dello sconto è immediata o riceverò un rimborso successivamente?",
                   "body": "L’applicazione dello sconto è immediata. Assicurati di digitare  correttamente il codice sconto in fase di acquisto, per vederlo subito applicato nel carrello dell’e-commerce dell’esercente."
@@ -40,7 +40,7 @@
          {
             "route_name": "CGN_DETAILS",
             "title": "La tua Carta Giovani Nazionale",
-            "content": "Questa è la schermata di dettaglio della tua Carta Giovani Nazionale. Da qui puoi visualizzare la lista degli esercenti che aderiscono all'iniziativa, generare un codice sconto temporaneo o copiare il tuo numero di carta EYCA se hai tra i 18 e i 30 anni."
+            "content": "Questa è la schermata di dettaglio della tua Carta Giovani Nazionale. Da qui puoi visualizzare la lista degli esercenti che aderiscono all'iniziativa, generare un codice sconto temporaneo o copiare il tuo numero di carta EYCA se hai tra i 18 e i 30 anni.",
             "faqs": [
                {
                   "title": "Come si usa la Carta Giovani Nazionale per ottenere gli sconti?",
@@ -61,15 +61,15 @@
                {
                   "title": "Posso disattivare la mia Carta Giovani Nazionale?",
                   "body": "No, la tua Carta verrà disattivata alla sua scadenza naturale. L’attivazione, in ogni caso, non comporta vincoli di alcun tipo; se non ti interessano gli sconti a cui dà diritto, puoi semplicemente non usarla."
-               }
+               },
                {
                   "title": "Posso condividere le agevolazioni della Carta Giovani Nazionale con i miei familiari e amici?",
                   "body": "No, le agevolazioni promosse dalla Carta Giovani Nazionale hanno carattere individuale e nominativo, e possono quindi essere utilizzate esclusivamente dal titolare della Carta. L’uso improprio della carta può comportare la sua revoca."
-               }
+               },
                {
                   "title": "Se utilizzo le agevolazioni della mia Carta Giovani Nazionale per un acquisto online, l’applicazione dello sconto è immediata o riceverò un rimborso successivamente?",
                   "body": "L’applicazione dello sconto è immediata. Assicurati di digitare  correttamente il codice sconto in fase di acquisto, per vederlo subito applicato nel carrello dell’e-commerce dell’esercente."
-               }
+               },
                {
                   "title": "Quanti acquisti, online o fisici, posso effettuare usufruendo delle agevolazioni della Carta Giovani Nazionale?",
                   "body": "L’iniziativa non prevede un limite al numero degli sconti utilizzabili. In ogni caso, ogni esercente convenzionato può disporre autonomamente delle modalità di utilizzo dei codici sconto che mette a disposizione rendendo esplicite eventuali condizioni relative alle proprie agevolazioni."
@@ -79,7 +79,7 @@
          {
             "route_name": "CGN_MERCHANTS_LIST",
             "title": "Lista esercenti",
-            "content": "Qui puoi visualizzare la lista sempre aggiornata degli esercenti che aderiscono all'iniziativa. La lista contiene sia strutture fisiche che operatori online."
+            "content": "Qui puoi visualizzare la lista sempre aggiornata degli esercenti che aderiscono all'iniziativa. La lista contiene sia strutture fisiche che operatori online.",
             "faqs": [
                {
                   "title": "Come si usa la Carta Giovani Nazionale per ottenere gli sconti?",
@@ -88,13 +88,13 @@
                {
                   "title": "Perchè il codice sconto temporaneo non funziona?",
                   "body": "Se il codice non risulta valido, può dipendere da diversi motivi: \n\n - non hai digitato correttamente il codice sconto in fase di acquisto; \n\n - l’esercente prescelto applica particolari condizioni relative alle modalità di utilizzo e alla validità dello sconto: verifica nella scheda servizi dell’esercente se ci sono indicazioni al riguardo. \n\n - hai utilizzato un codice generato tramite l’app IO, ma l’esercente fornisce uno specifico codice sconto per quel servizio: verifica nella scheda servizi dell’esercente se è già presente un codice sconto. \n\n Se i casi descritti sopra non ti aiutano a risolvere il tuo problema, contatta l'assistenza, aprendo una segnalazione qui sotto."
-               },
+               }
             ]
          },
          {
             "route_name": "CGN_MERCHANTS_DETAIL",
             "title": "Dettaglio esercente",
-            "content": "In questa schermata trovi tutte le informazioni relative all'esercente che hai selezionato, incluse le agevolazioni in corso."
+            "content": "In questa schermata trovi tutte le informazioni relative all'esercente che hai selezionato, incluse le agevolazioni in corso.",
             "faqs": [
                {
                   "title": "Come si usa la Carta Giovani Nazionale per ottenere gli sconti?",
@@ -103,18 +103,18 @@
                {
                   "title": "Perchè il codice sconto temporaneo non funziona?",
                   "body": "Se il codice non risulta valido, può dipendere da diversi motivi: \n\n - non hai digitato correttamente il codice sconto in fase di acquisto; \n\n - l’esercente prescelto applica particolari condizioni relative alle modalità di utilizzo e alla validità dello sconto: verifica nella scheda servizi dell’esercente se ci sono indicazioni al riguardo. \n\n - hai utilizzato un codice generato tramite l’app IO, ma l’esercente fornisce uno specifico codice sconto per quel servizio: verifica nella scheda servizi dell’esercente se è già presente un codice sconto. \n\n Se i casi descritti sopra non ti aiutano a risolvere il tuo problema, contatta l'assistenza, aprendo una segnalazione qui sotto."
-               },
+               }
             ]
          },
          {
             "route_name": "CGN_DETAILS_OTP",
             "title": "Il tuo codice sconto temporaneo",
-            "content": "Questa schermata mostra il codice sconto temporaneo che hai generato e che dovrai inserire nell'apposito campo presente nel portale dell'esercente aderente all'iniziativa di tuo interesse."
+            "content": "Questa schermata mostra il codice sconto temporaneo che hai generato e che dovrai inserire nell'apposito campo presente nel portale dell'esercente aderente all'iniziativa di tuo interesse.",
             "faqs": [
                {
                   "title": "Perchè il codice sconto temporaneo non funziona?",
                   "body": "Se il codice non risulta valido, può dipendere da diversi motivi: \n\n - non hai digitato correttamente il codice sconto in fase di acquisto; \n\n - l’esercente prescelto applica particolari condizioni relative alle modalità di utilizzo e alla validità dello sconto: verifica nella scheda servizi dell’esercente se ci sono indicazioni al riguardo. \n\n - hai utilizzato un codice generato tramite l’app IO, ma l’esercente fornisce uno specifico codice sconto per quel servizio: verifica nella scheda servizi dell’esercente se è già presente un codice sconto. \n\n Se i casi descritti sopra non ti aiutano a risolvere il tuo problema, contatta l'assistenza, aprendo una segnalazione qui sotto."
-               },
+               }
             ]
          },
          {

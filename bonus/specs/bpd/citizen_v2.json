@@ -28,9 +28,6 @@
             "type": "string"
           }
         ],
-        "produces": [
-          "application/json;charset=UTF-8"
-        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -98,12 +95,6 @@
             "description": "citizen"
           }
         ],
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
         "responses": {
           "200": {
             "description": "",
@@ -136,10 +127,7 @@
             "description": "Bearer Auth Token",
             "required": true,
             "type": "string"
-          },
-        ],
-        "produces": [
-          "application/json"
+          }
         ],
         "responses": {
           "200": {
@@ -178,9 +166,6 @@
             "required": true,
             "type": "string"
           }
-        ],
-        "produces": [
-          "application/json;charset=UTF-8"
         ],
         "responses": {
           "200": {

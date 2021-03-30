@@ -1,0 +1,668 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "BPD IO Winning Transactions API",
+    "version": "v2",
+    "description": "Api and Models"
+  },
+  "host": "prod.cstar.pagopa.it",
+  "basePath": "/bpd/io/winning-transactions/v2",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "findWinningTransactions",
+        "operationId": "findWinningTransactionsUsingGET",
+        "summary": "findWinningTransactions",
+        "tags": [
+          "Bonus Pagamenti Digitali winning-transaction Controller"
+        ],
+        "parameters": [
+          {
+            "name": "hpan",
+            "in": "query",
+            "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+            "type": "string"
+          },
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "awardPeriodId",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Limite massimo di elementi contenuti nella pagina di risposta",
+            "type": "integer"
+          },
+          {
+            "name": "nextCursor",
+            "in": "query",
+            "description": "Id cursore da usare per la prossima richiesta per proseguire con la prossima pagina",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json-patch+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/WinningTransactionPageResource"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/total-cashback": {
+      "get": {
+        "description": "getTotalCashback",
+        "operationId": "getTotalScoreUsingGET",
+        "summary": "getTotalCashback",
+        "tags": [
+          "Bonus Pagamenti Digitali winning-transaction Controller"
+        ],
+        "parameters": [
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "awardPeriodId",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/TotalCashbackResource"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/countbyday": {
+      "get": {
+        "description": "getCountByDay",
+        "operationId": "603564be9dbc61ba660487f6",
+        "summary": "getCountByDay",
+        "parameters": [
+          {
+            "name": "hpan",
+            "in": "query",
+            "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+            "type": "string"
+          },
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "awardPeriodId",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json-patch+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/TrxCountByDayResourceArray"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "BpdWinning-transactionsGet200ApplicationJson;charset=UTF-8Response": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/WinningTransactionResource"
+      }
+    },
+    "OperationType": {
+      "title": "OperationType",
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "WinningTransactionDTO": {
+      "title": "WinningTransactionDTO",
+      "required": [
+        "acquirerCode",
+        "acquirerId",
+        "amount",
+        "awardPeriodId",
+        "bin",
+        "correlationId",
+        "hpan",
+        "idTrxAcquirer",
+        "idTrxIssuer",
+        "mcc",
+        "merchantId",
+        "operationType",
+        "score",
+        "terminalId",
+        "trxDate"
+      ],
+      "type": "object",
+      "properties": {
+        "acquirerCode": {
+          "description": "codice univoco rilasciato da pagoPa SpA",
+          "type": "string"
+        },
+        "acquirerId": {
+          "description": "nel caso di transazione con carta rappresenta il valore omonimo veicolato nei tracciati dei circuiti internazionali",
+          "type": "string"
+        },
+        "amount": {
+          "description": "in centesimi di euro (es: 10 = 1000) ed in valore assoluto",
+          "type": "number"
+        },
+        "amountCurrency": {
+          "type": "string"
+        },
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "bin": {
+          "description": "${swagger.winningTransaction.bin}",
+          "type": "string"
+        },
+        "circuitType": {
+          "type": "string"
+        },
+        "correlationId": {
+          "description": "Identificativo di correlazione fra operazione di pagamento ed eventuale storno/reversa",
+          "type": "string"
+        },
+        "hpan": {
+          "description": "${swagger.winningTransaction.hpan}",
+          "type": "string"
+        },
+        "idTrxAcquirer": {
+          "description": "identificativo univoco della transazione a livello di Acquirer (all'interno di uno specifico periodo temporale, puÃ² coincidere per esempio con RRN+STAN)",
+          "type": "string"
+        },
+        "idTrxIssuer": {
+          "description": "codice autorizzativo rilasciato dall' Issuer (es: AuthCode)",
+          "type": "string"
+        },
+        "mcc": {
+          "description": "Merchant Category Code",
+          "type": "string"
+        },
+        "mccDescription": {
+          "type": "string"
+        },
+        "merchantId": {
+          "description": "Identificativo univoco del negozio fisico presso l'Acquirer. serve ad identificare l'esercente e la categoria merceologica.",
+          "type": "string"
+        },
+        "operationType": {
+          "description": "tipologia operazione, la codifica Ã¨ la stessa utilizzata nel file standard csv",
+          "type": "string"
+        },
+        "score": {
+          "description": "punteggio della transazione",
+          "type": "number"
+        },
+        "terminalId": {
+          "description": "${swagger.winningTransaction.terminalId}",
+          "type": "string"
+        },
+        "trxDate": {
+          "format": "date-time",
+          "description": "timestamp dell'operazione di pagamento effettuata presso l'esercente",
+          "type": "string"
+        }
+      }
+    },
+    "WinningTransactionResource": {
+      "title": "WinningTransactionResource",
+      "required": [
+        "acquirerCode",
+        "awardPeriodId",
+        "correlationId",
+        "hashPan",
+        "idTrxAcquirer",
+        "idTrxIssuer",
+        "mcc",
+        "operationType",
+        "score",
+        "trxDate"
+      ],
+      "type": "object",
+      "properties": {
+        "acquirerCode": {
+          "description": "codice univoco rilasciato da pagoPa SpA",
+          "type": "string"
+        },
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "correlationId": {
+          "description": "Identificativo di correlazione fra operazione di pagamento ed eventuale storno/reversa",
+          "type": "string"
+        },
+        "hashPan": {
+          "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+          "type": "string"
+        },
+        "idTrxAcquirer": {
+          "description": "identificativo univoco della transazione a livello di Acquirer (all'interno di uno specifico periodo temporale, puÃ² coincidere per esempio con RRN+STAN)",
+          "type": "string"
+        },
+        "idTrxIssuer": {
+          "description": "codice autorizzativo rilasciato dall' Issuer (es: AuthCode)",
+          "type": "string"
+        },
+        "mcc": {
+          "description": "Merchant Category Code",
+          "type": "string"
+        },
+        "operationType": {
+          "$ref": "#/definitions/OperationType"
+        },
+        "score": {
+          "description": "punteggio della transazione",
+          "type": "number"
+        },
+        "trxDate": {
+          "format": "date-time",
+          "description": "timestamp dell'operazione di pagamento effettuata presso l'esercente",
+          "type": "string"
+        }
+      }
+    },
+    "TotalCashbackResource": {
+      "title": "TotalCashbackResource",
+      "required": [
+        "totalCashback",
+        "transactionNumber"
+      ],
+      "type": "object",
+      "properties": {
+        "totalCashback": {
+          "description": "Cashback transazione, indicato con segno '-' in caso di storno",
+          "type": "number"
+        },
+        "transactionNumber": {
+          "format": "int64",
+          "description": "Numero delle transazioni effettuate dall'utente",
+          "type": "integer"
+        }
+      },
+      "example": {
+        "totalCashback": 0.708740587556467,
+        "transactionNumber": 0
+      }
+    },
+    "WinningTransactionPageResource": {
+      "title": "WinningTransactionPage",
+      "required": [
+        "nextCursor",
+        "prevCursor",
+        "transactions"
+      ],
+      "type": "object",
+      "properties": {
+        "nextCursor": {
+          "format": "int32",
+          "description": "Id cursore da usare per la prossima richiesta per proseguire con la prossima pagina",
+          "type": "integer"
+        },
+        "prevCursor": {
+          "format": "int32",
+          "description": "Id cursore da usare per la richiesta precedente per proseguire con la pagina precedente",
+          "type": "integer"
+        },
+        "transactions": {
+          "type": "array"
+        }
+      },
+      "example": {
+        "nextCursor": 0,
+        "transactions": [
+          {
+            "count": 0,
+            "date": "string",
+            "transactions": [
+              {
+                "amount": 0,
+                "awardPeriodId": 0,
+                "cashback": 0,
+                "cashbackNorm": 0,
+                "circuitType": "string",
+                "hashPan": "string",
+                "idTrx": 0,
+                "idTrxAcquirer": "string",
+                "idTrxIssuer": "string",
+                "isPivot": false,
+                "trxDate": "string"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "WinningTransactionsOfTheDayResource": {
+      "title": "WinningTransactionsOfTheDay",
+      "description": "Oggetto che raggruppa le transazioni effettuate in una giornata",
+      "required": [
+        "date",
+        "transactions"
+      ],
+      "type": "object",
+      "properties": {
+        "date": {
+          "format": "date",
+          "description": "La data del giorno di riferimento",
+          "type": "string"
+        },
+        "transactions": {
+          "description": "Lista delle transazioni effettuate nella giornata di riferimento",
+          "type": "array"
+        }
+      },
+      "example": {
+        "type": "string",
+        "required": [
+          "string"
+        ],
+        "properties": {
+          "count": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          },
+          "transactions": {
+            "type": "string",
+            "description": "string",
+            "items": {
+              "$ref": "string"
+            }
+          }
+        },
+        "title": "string",
+        "description": "string"
+      }
+    },
+    "WinningTransactionMilestoneResource": {
+      "title": "WinningTransactionMilestoneResource",
+      "required": [
+        "amount",
+        "awardPeriodId",
+        "cashback",
+        "circuitType",
+        "hashPan",
+        "idTrx",
+        "idTrxAcquirer",
+        "idTrxIssuer",
+        "trxDate"
+      ],
+      "type": "object",
+      "properties": {
+        "amount": {
+          "description": "in centesimi di euro (es: 10• = 1000) ed in valore assoluto",
+          "type": "number"
+        },
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "cashback": {
+          "description": "Cashback transazione, indicato con segno \"-\" in caso di storno",
+          "type": "number"
+        },
+        "circuitType": {
+          "description": "Circuito sul quale è stata effettuata la transazione",
+          "type": "string"
+        },
+        "hashPan": {
+          "description": "id dello strumento di pagamento, che corrisponde all'hash del PAN (Primary Account Number) del metodo di pagamento",
+          "type": "string"
+        },
+        "idTrx": {
+          "description": "Identificativo alfanumerico della transazione",
+          "type": "string"
+        },
+        "idTrxAcquirer": {
+          "description": "identificativo univoco della transazione a livello di Acquirer (all'interno di uno specifico periodo temporale, può coincidere per esempio con RRN+STAN)",
+          "type": "string"
+        },
+        "idTrxIssuer": {
+          "description": "codice autorizzativo rilasciato dall' Issuer (es: AuthCode)",
+          "type": "string"
+        },
+        "trxDate": {
+          "format": "date-time",
+          "description": "timestamp dell'operazione di pagamento effettuata presso l'esercente",
+          "type": "string"
+        }
+      },
+      "example": {
+        "type": "string",
+        "required": [
+          "string"
+        ],
+        "properties": {
+          "amount": {
+            "type": "string",
+            "description": "string"
+          },
+          "awardPeriodId": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          },
+          "cashback": {
+            "type": "string",
+            "description": "string"
+          },
+          "cashbackNorm": {
+            "type": "string",
+            "description": "string"
+          },
+          "circuitType": {
+            "type": "string",
+            "description": "string"
+          },
+          "hashPan": {
+            "type": "string",
+            "description": "string"
+          },
+          "idTrx": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          },
+          "idTrxAcquirer": {
+            "type": "string",
+            "description": "string"
+          },
+          "idTrxIssuer": {
+            "type": "string",
+            "description": "string"
+          },
+          "isPivot": {
+            "type": "string",
+            "description": "string"
+          },
+          "trxDate": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          }
+        },
+        "title": "string"
+      }
+    },
+    "TrxCountByDayResource": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "required": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "format": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            },
+            "trxDate": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "format": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "example": {
+        "type": "string",
+        "required": [
+          "string"
+        ],
+        "properties": {
+          "count": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          },
+          "trxDate": {
+            "type": "string",
+            "format": "string",
+            "description": "string"
+          }
+        },
+        "title": "string"
+      }
+    },
+    "TrxCountByDayResourceArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/TrxCountByDayResource"
+      },
+      "example": [
+        {
+          "type": "string",
+          "required": [
+            "string"
+          ],
+          "properties": {
+            "count": {
+              "type": "string",
+              "format": "string",
+              "description": "string"
+            },
+            "trxDate": {
+              "type": "string",
+              "format": "string",
+              "description": "string"
+            }
+          },
+          "title": "string"
+        }
+      ]
+    }
+  },
+  "tags": []
+}

@@ -25,7 +25,9 @@
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",
     "generate:pagopa-privative": "rimraf ./generated/definitions/pagopa/privative && mkdir -p ./generated/definitions/pagopa/privative && gen-api-models --api-spec ./pagopa/privative/definitions.yml --out-dir ./generated/definitions/pagopa/privative",
     "generate:pagopa-walletv2-definitions": "rimraf generated/definitions/pagopa/walletv2 && mkdir -p generated/definitions/pagopa/walletv2 && gen-api-models --api-spec $npm_package_api_pagopa_walletv2 --out-dir ./generated/definitions/pagopa/walletv2",
-    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions",
+    "generate:pagopa-bpd-citizen-v2": "rimraf generated/definitions/bpd/citizenv2 && mkdir -p generated/definitions/bpd/citizenv2 && gen-api-models --api-spec bonus/specs/bpd/citizen_v2.json --out-dir ./generated/definitions/bpd/citizenv2",
+    "generate:pagopa-bpd-winning-transactions-v2": "rimraf generated/definitions/bpd/winningTransactionsv2 && mkdir -p generated/definitions/bpd/winningTransactionsv2 && gen-api-models --api-spec bonus/specs/bpd/winning_transactions_v2.json --out-dir ./generated/definitions/bpd/winningTransactionsv2",
+    "generate:all": "npm-run-all generate:content-definitions generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions generate:pagopa-bpd-citizen-v2 generate:pagopa-bpd-winning-transactions-v2",
     "run_checks": "npm-run-all check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative"
   },
   "devDependencies": {

@@ -389,10 +389,7 @@
         "$ref": "#/definitions/CitizenRankingMilestoneResource"
       },
       "example": {
-        "type": "string",
-        "items": {
-          "$ref": "string"
-        }
+        "type": "string"
       }
     },
     "MilestoneResource": {

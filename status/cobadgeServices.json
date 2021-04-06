@@ -1081,7 +1081,7 @@
       },
       {
         "abi": "08979",
-        "name": "BC.C. SAN MICHELE DI CALTANISSETTA E PIETRAPERZIA"
+        "name": "B.C.C. SAN MICHELE DI CALTANISSETTA E PIETRAPERZIA"
       },
       {
         "abi": "08987",
@@ -1107,6 +1107,10 @@
       {
         "abi": "02008",
         "name": "UNICREDIT S.P.A."
+      },
+      {
+        "abi": "03599",
+        "name" "Cassa Centrale Banca"
       }
     ]
   }

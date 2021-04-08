@@ -185,6 +185,49 @@
           }
         }
       }
+    },
+    "/ranking/milestone": {
+      "get": {
+        "description": "findRankingMilestone",
+        "operationId": "findRankingMilestoneUsingGET",
+        "summary": "findRankingMilestone",
+        "tags": [
+          "Bonus Pagamenti Digitali Citizen Controller"
+        ],
+        "parameters": [
+          {
+            "name": "awardPeriodId",
+            "in": "query",
+            "description": "identificativo univoco del periodo di premiazione",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "Bearer Auth Token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/CitizenRankingMilestoneResourceArray"
+            }
+          },
+          "401": {
+            "description": ""
+          },
+          "404": {
+            "description": ""
+          },
+          "500": {
+            "description": ""
+          }
+        }
+      }
     }
   },
   "definitions": {
@@ -309,12 +352,6 @@
         "ranking": 0
       }
     },
-    "CitizenRankingResourceArray": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/CitizenRankingResource"
-      }
-    },
     "TotalCashbackResource": {
       "title": "TotalCashbackResource",
       "required": [
@@ -332,170 +369,6 @@
           "description": "Numero delle transazioni effettuate dall'utente",
           "type": "integer"
         }
-      }
-    },
-    "CitizenRankingMilestoneResource": {
-      "title": "CitizenRankingMilestoneResource",
-      "required": [
-        "awardPeriodId",
-        "maxTransactionNumber",
-        "minTransactionNumber",
-        "ranking",
-        "totalParticipants",
-        "transactionNumber"
-      ],
-      "type": "object",
-      "example": {
-        "awardPeriodId": 0,
-        "maxTransactionNumber": 0,
-        "milestoneResource": {
-          "type": "string",
-          "required": [
-            "string"
-          ],
-          "properties": {
-            "cashbackNorm": {
-              "type": "string",
-              "description": "string"
-            },
-            "idTrxMinTransactionNumber": {
-              "type": "string",
-              "description": "string"
-            },
-            "idTrxPivot": {
-              "type": "string",
-              "description": "string"
-            },
-            "maxCashback": {
-              "type": "string",
-              "description": "string"
-            },
-            "totalCashback": {
-              "type": "string",
-              "description": "string"
-            }
-          },
-          "title": "string"
-        },
-        "minTransactionNumber": 0,
-        "ranking": 0,
-        "totalParticipants": 0,
-        "transactionNumber": 0
-      }
-    },
-    "CitizenRankingMilestoneResourceArray": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/CitizenRankingMilestoneResource"
-      },
-      "example": {
-        "type": "string"
-      }
-    },
-    "MilestoneResource": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string"
-        },
-        "required": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "properties": {
-          "type": "object",
-          "properties": {
-            "cashbackNorm": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            },
-            "idTrxMinTransactionNumber": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            },
-            "idTrxPivot": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            },
-            "maxCashback": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            },
-            "totalCashback": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
-          }
-        },
-        "title": {
-          "type": "string"
-        }
-      },
-      "example": {
-        "type": "string",
-        "required": [
-          "string"
-        ],
-        "properties": {
-          "cashbackNorm": {
-            "type": "string",
-            "description": "string"
-          },
-          "idTrxMinTransactionNumber": {
-            "type": "string",
-            "description": "string"
-          },
-          "idTrxPivot": {
-            "type": "string",
-            "description": "string"
-          },
-          "maxCashback": {
-            "type": "string",
-            "description": "string"
-          },
-          "totalCashback": {
-            "type": "string",
-            "description": "string"
-          }
-        },
-        "title": "string"
       }
     },
     "CitizenResource": {
@@ -549,6 +422,135 @@
         "payoffInstr": "string",
         "payoffInstrType": "string",
         "timestampTC": "string"
+      }
+    },
+    "CitizenRankingMilestoneResourceArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/CitizenRankingMilestoneResource"
+      },
+      "example": [
+        {
+          "awardPeriodId": 0,
+          "maxTransactionNumber": 0,
+          "milestoneResource": {
+            "cashbackNorm": "string",
+            "idTrxMinTransactionNumber": "string",
+            "idTrxPivot": "string",
+            "maxCashback": "string",
+            "totalCashback": "string"
+          },
+          "minTransactionNumber": 0,
+          "ranking": 0,
+          "totalParticipants": 0,
+          "transactionNumber": 0
+        }
+      ]
+    },
+    "CitizenRankingResourceArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/CitizenRankingResource"
+      },
+      "example": [
+        {
+          "totalParticipants": 0,
+          "ranking": 0,
+          "maxTransactionNumber": 0,
+          "minTransactionNumber": 0,
+          "transactionNumber": 0,
+          "awardPeriodId": 0
+        }
+      ]
+    },
+    "CitizenRankingMilestoneResource": {
+      "title": "CitizenRankingMilestoneResource",
+      "required": [
+        "awardPeriodId",
+        "maxTransactionNumber",
+        "minTransactionNumber",
+        "ranking",
+        "totalParticipants",
+        "transactionNumber"
+      ],
+      "type": "object",
+      "properties": {
+        "awardPeriodId": {
+          "format": "int64",
+          "description": "identificativo univoco del periodo di premiazione",
+          "type": "integer"
+        },
+        "maxTransactionNumber": {
+          "format": "int64",
+          "description": "Numero massimo di transazioni effettuate dagli utenti che rientrano nel •rimborso speciale•",
+          "type": "integer"
+        },
+        "milestoneResource": {
+          "$ref": "#/definitions/MilestoneResource"
+        },
+        "minTransactionNumber": {
+          "format": "int64",
+          "description": "Numero minimo di transazioni effettuate dagli utenti che rientrano nel •rimborso speciale•",
+          "type": "integer"
+        },
+        "ranking": {
+          "format": "int64",
+          "description": "posizione della graduatoria riferita al periodo di premiazione corrente",
+          "type": "integer"
+        },
+        "totalParticipants": {
+          "format": "int64",
+          "description": "numero totale di partecipanti al Bonus Pagamenti Digitali",
+          "type": "integer"
+        },
+        "transactionNumber": {
+          "format": "int64",
+          "description": "Numero di transazioni effettuate dall•utente",
+          "type": "integer"
+        }
+      },
+      "example": {
+        "awardPeriodId": 0,
+        "maxTransactionNumber": 0,
+        "milestoneResource": {
+          "cashbackNorm": "string",
+          "idTrxMinTransactionNumber": "string",
+          "idTrxPivot": "string",
+          "maxCashback": "string",
+          "totalCashback": "string"
+        },
+        "minTransactionNumber": 0,
+        "ranking": 0,
+        "totalParticipants": 0,
+        "transactionNumber": 0
+      }
+    },
+    "MilestoneResource": {
+      "title": "MilestoneResource",
+      "type": "object",
+      "properties": {
+        "cashbackNorm": {
+          "type": "number"
+        },
+        "idTrxMinTransactionNumber": {
+          "type": "string"
+        },
+        "idTrxPivot": {
+          "type": "string"
+        },
+        "maxCashback": {
+          "type": "number"
+        },
+        "totalCashback": {
+          "type": "number"
+        }
+      },
+      "example": {
+        "cashbackNorm": "string",
+        "idTrxMinTransactionNumber": "string",
+        "idTrxPivot": "string",
+        "maxCashback": "string",
+        "totalCashback": "string"
       }
     }
   },

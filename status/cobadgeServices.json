@@ -1118,7 +1118,8 @@
     "status" : "enabled",
     "issuers" : [
       {
-        "abi": "06225"
+        "abi": "06225",
+        "name": "CASSA DI RISPARMIO DEL VENETO"
       }
     ]
   }

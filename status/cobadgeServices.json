@@ -1113,5 +1113,13 @@
         "name": "Cassa Centrale Banca – Credito Cooperativo Italiano S.p.A."
       }
     ]
+  },
+  "INTESA" : {
+    "status" : "enabled",
+    "issuers" : [
+      {
+        "abi": "06225"
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@
       "version": "1.0",
       "description": "Api and Models"
    },
-   "host": "test.cstar.pagopa.it",
+   "host": "prod.cstar.pagopa.it",
    "basePath": "/bpd/io/citizen",
    "schemes": [
       "https"

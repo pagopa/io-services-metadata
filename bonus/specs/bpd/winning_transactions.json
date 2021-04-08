@@ -5,7 +5,7 @@
     "version": "1.0",
     "description": "Api and Models"
   },
-  "host": "bpd-dev.azure-api.net",
+  "host": "prod.cstar.pagopa.it",
   "basePath": "/bpd/io/winning-transactions",
   "schemes": [
     "https"

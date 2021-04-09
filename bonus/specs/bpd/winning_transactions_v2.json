@@ -423,6 +423,7 @@
     "TrxCountByDayResource": {
       "title": "TrxCountByDayResource",
       "type": "object",
+      "required": ["count", "trxDate"],
       "properties": {
         "count": {
           "format": "int64",
@@ -430,8 +431,8 @@
           "type": "integer"
         },
         "trxDate": {
-          "format": "date-time",
-          "description": "data di riferimento delle transazioni",
+          "format": "date",
+          "description": "data di riferimento delle transazioni PATCH: date-time -> date, da validare",
           "type": "string"
         }
       },

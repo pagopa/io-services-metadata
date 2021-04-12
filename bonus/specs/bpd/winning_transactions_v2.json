@@ -374,8 +374,6 @@
     "WinningTransactionPageResource": {
       "title": "WinningTransactionPage",
       "required": [
-        "nextCursor",
-        "prevCursor",
         "transactions"
       ],
       "type": "object",
@@ -432,7 +430,7 @@
         },
         "trxDate": {
           "format": "date",
-          "description": "data di riferimento delle transazioni PATCH: date-time -> date, da validare",
+          "description": "data di riferimento delle transazioni",
           "type": "string"
         }
       },

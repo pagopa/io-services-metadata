@@ -1115,7 +1115,7 @@
     ]
   },
   "INTESA" : {
-    "status" : "enabled",
+    "status" : "disabled",
     "issuers" : [
       {
         "abi": "06225",

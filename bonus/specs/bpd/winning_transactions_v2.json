@@ -115,7 +115,7 @@
     "/countbyday": {
       "get": {
         "description": "getCountByDay",
-        "operationId": "603564be9dbc61ba660487f6",
+        "operationId": "getCountByDayGET",
         "summary": "getCountByDay",
         "parameters": [
           {

@@ -22,11 +22,11 @@
       }
     },
     "cashback": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "Le transazioni valide degli ultimi giorni saranno presto visibili, insieme al calcolo del Cashback",
+        "en-EN": "Valid transactions from the last few days will soon be visible, along with the Cashback calculation"
       }
     },
     "messages": {

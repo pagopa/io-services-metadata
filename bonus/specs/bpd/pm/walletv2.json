@@ -532,6 +532,13 @@
             "description": "abiCode",
             "required": false,
             "type": "string"
+          },
+          {
+            "name": "PanCode",
+            "in": "header",
+            "description": "PanCode",
+            "required": false,
+            "type": "string"
           }
         ],
         "responses": {
@@ -1009,7 +1016,9 @@
           "type": "string",
           "enum": [
             "PP",
-            "DEB"
+            "DEB",
+            "CRD",
+            "PRV"
           ]
         }
       },

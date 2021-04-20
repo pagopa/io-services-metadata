@@ -35,3 +35,5 @@ This repository contains data and metadata for services used by the IO app.
 1. Manually update or create new public services data (`services-data`)
 1. Manually update services description of all visible services
 1. Commit, push and create a Pull Request
+
+test pr

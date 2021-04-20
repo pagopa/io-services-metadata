@@ -1,4 +1,4 @@
-// a simple check that bonus available json respects type definition
+// check that bonus available json respects its type definition
 
 import * as fs from "fs";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";

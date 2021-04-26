@@ -9,8 +9,6 @@ import * as path from "path";
 import { Service, ScopeEnum } from "../generated/definitions/content/Service";
 
 const Services = t.dictionary(t.string, Service);
-// the keys are the scopeEnum (NATIONAL,LOCAL) and the value is the relative services id
-type ScopeServices = { [key in keyof typeof ScopeEnum]: ReadonlyArray<string> };
 const root = path.join(__dirname, "../");
 
 async function run(rootPath: string): Promise<void> {
@@ -19,7 +17,7 @@ async function run(rootPath: string): Promise<void> {
   const servicesYamlPath = path.join(rootPath, "services.yml");
   console.log("Services YAML:", chalk.blueBright(servicesYamlPath));
 
-  console.log(chalk.gray("[1/4]"), "Reading services data...");
+  console.log(chalk.gray("[1/3]"), "Reading services data...");
   const servicesYamlContent = await fs.readFile(servicesYamlPath);
   try {
     const servicesYamlData = yaml.safeLoad(servicesYamlContent.toString(), {
@@ -36,7 +34,7 @@ async function run(rootPath: string): Promise<void> {
     const serviceIds = Object.keys(services);
     console.log(chalk.greenBright(`Found ${serviceIds.length} service(s).`));
 
-    console.log(chalk.gray("[2/4]"), "Generating services JSON...");
+    console.log(chalk.gray("[2/3]"), "Generating services JSON...");
     await Promise.all(
       serviceIds.map(async serviceId => {
         const servicePath = path.join(
@@ -51,26 +49,7 @@ async function run(rootPath: string): Promise<void> {
       })
     );
 
-    console.log(chalk.gray("[3/4]"), "Generating scope services JSON...");
-    // filter the services id which have scope LOCAL
-    const locals = serviceIds.filter(sId => {
-      const service = services[sId];
-      return service.scope === ScopeEnum.LOCAL;
-    });
-    // filter the services id which have scope NATIONAL
-    const nationals = serviceIds.filter(sId => {
-      const service = services[sId];
-      return service.scope === ScopeEnum.NATIONAL;
-    });
-
-    const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
-    // dump scopeService as a json
-    await fs.writeFile(
-      path.join(root, path.join("services", "servicesByScope.json")),
-      JSON.stringify(scopeService)
-    );
-
-    console.log(chalk.gray("[4/4]"), "Checking data..");
+    console.log(chalk.gray("[3/3]"), "Checking data..");
     // print a warning if some services have no email and phone
     const noEmailAndPhoneServices = Object.keys(services).filter(sId => {
       const service = services[sId];

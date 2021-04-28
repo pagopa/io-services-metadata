@@ -40,7 +40,6 @@ jobs:
       - *install_node_modules
       - run: yarn generate:all
       - run: yarn test
-      - run: "bash <(curl -s https://codecov.io/bash)"
 
   lint:
     <<: *defaults_js

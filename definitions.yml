@@ -248,9 +248,14 @@ definitions:
       body:
         type: string
   Idps:
-    type: array
-    items:
-      $ref: "#/definitions/IdpEntry"
+    type: object
+    required:
+      - items
+    properties:
+      items:
+        type: array
+        items:
+          $ref: "#/definitions/IdpEntry"
   IdpEntry:
     type: object
     description: Entry used to generate the list of IDPs available to select on the login flow.

@@ -268,6 +268,18 @@ definitions:
     properties:
       id:
         type: string
+        x-extensible-enum:
+          - test
+          - arubaid
+          - infocertid
+          - intesaid
+          - lepidaid
+          - namirialid
+          - posteid
+          - sielteid
+          - spiditalia
+          - timid
+          - cie
       name:
         type: string
       logo:

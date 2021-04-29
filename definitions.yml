@@ -276,3 +276,5 @@ definitions:
         type: string
       profileUrl:
         type: string
+      isTestIdp:
+        type: boolean

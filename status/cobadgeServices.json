@@ -1131,7 +1131,7 @@
       },
       {
         "abi": "02002",
-        "name": ""
+        "name": "Banca Commerciale Italiana"
       },
       {
         "abi": "03001",
@@ -1163,7 +1163,7 @@
       },
       {
         "abi": "03309",
-        "name": ""
+        "name": "Banca Infrastrutture Innovazione e Sviluppo S.p.A."
       },
       {
         "abi": "03359",
@@ -1211,7 +1211,7 @@
       },
       {
         "abi": "06260",
-        "name": ""
+        "name": "Cassa di Risparmio di Pistoia e della Lucchesia"
       },
       {
         "abi": "06280",
@@ -1243,11 +1243,11 @@
       },
       {
         "abi": "03186",
-        "name": ""
+        "name": "B@nca 24-7 S.p.a."
       },
       {
         "abi": "05026",
-        "name": ""
+        "name": "BPU Banca - Banche Popolari Unite"
       },
       {
         "abi": "05352",
@@ -1267,9 +1267,8 @@
       },
       {
         "abi": "06325",
-        "name": ""
+        "name": "Cassa di Risparmio di Tortona S.p.A."
       }
     ]
   }
 }
-

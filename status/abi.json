@@ -1899,9 +1899,33 @@
     {
       "abi": "08540",
       "name": "Banca di San Marino"
+    },
+    {
+      "abi": "02002",
+      "name": "Banca Commerciale Italiana"
+    },
+    {
+      "abi": "03309",
+      "name": "Banca Infrastrutture Innovazione e Sviluppo S.p.A."
+    },
+    {
+      "abi": "06260",
+      "name": "Cassa di Risparmio di Pistoia e della Lucchesia"
+    },
+    {
+      "abi": "03186",
+      "name": "B@nca 24-7 S.p.a."
+    },
+    {
+      "abi": "05026",
+      "name": "BPU Banca - Banche Popolari Unite"
+    },
+    {
+      "abi": "06325",
+      "name": "Cassa di Risparmio di Tortona S.p.A."
     }
   ],
-  "total": 474,
+  "total": 480,
   "start": 0,
-  "size": 474
+  "size": 480
 }

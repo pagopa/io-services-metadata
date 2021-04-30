@@ -21,7 +21,7 @@ const maybeAbiRegistry = AbiListResponse.decode(JSON.parse(fileContent));
 if (maybeAbiRegistry.isLeft()) {
   error(`can't decode abi registry status/abi.json`);
 } else {
-  // tslint:disable-next-line
+  // tslint:disable-next-line: no-let
   let allLogoExists = true;
   (maybeAbiRegistry.value.data || []).forEach(issuer => {
     if (!fs.existsSync(abiLogoPath + `${issuer.abi}.png`)) {

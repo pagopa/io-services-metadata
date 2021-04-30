@@ -22,8 +22,16 @@ if (maybeAbiRegistry.isLeft()) {
   error(`can't decode abi registry status/abi.json`);
 } else {
   (maybeAbiRegistry.value.data || []).forEach(issuer => {
+    // tslint:disable-next-line
+    let allLogoExists = true;
     if (!fs.existsSync(abiLogoPath + `${issuer.abi}.png`)) {
-      error(`cannot find logo for abi ${issuer.abi} - "${issuer.name}"`);
+      console.error(
+        `cannot find logo for abi ${issuer.abi} - "${issuer.name}"`
+      );
+      allLogoExists = false;
+    }
+    if (!allLogoExists) {
+      error(`Please add the missing logo`);
     }
   });
   process.exit(0);

@@ -2119,9 +2119,13 @@
     {
       "abi": "06325",
       "name": "Cassa di Risparmio di Tortona S.p.A."
+    },
+    {
+      "abi": "07601",
+      "name": "Poste Italiane S.p.A."
     }
   ],
-  "total": 530,
+  "total": 531,
   "start": 0,
-  "size": 530
+  "size": 531
 }

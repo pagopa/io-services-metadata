@@ -1270,5 +1270,14 @@
         "name": "Cassa di Risparmio di Tortona S.p.A."
       }
     ]
+  },
+  "POSTE":{
+    "status" : "enabled",
+    "issuers" : [
+      {
+        "abi": "07601",
+        "name": "Poste Italiane S.p.A."
+      }
+    ]
   }
 }

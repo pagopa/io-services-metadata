@@ -247,7 +247,7 @@ definitions:
         type: string
       body:
         type: string
-  Idps:
+  SpidIdps:
     type: object
     required:
       - items
@@ -255,8 +255,8 @@ definitions:
       items:
         type: array
         items:
-          $ref: "#/definitions/IdpEntry"
-  IdpEntry:
+          $ref: "#/definitions/SpidIdp"
+  SpidIdp:
     type: object
     description: Entry used to generate the list of IDPs available to select on the login flow.
     required:

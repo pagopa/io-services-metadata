@@ -1,4 +1,4 @@
-// a simple check that bonus available json respects type definition
+// a simple check that idps list json respects type definition
 
 import * as fs from "fs";
 import { SpidIdps } from "../../generated/definitions/content/SpidIdps";

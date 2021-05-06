@@ -133,6 +133,13 @@ stages:
                 AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
               displayName: Copy to container blob ($(PRODUCTION_STORAGE_ACCOUNT_NAME))
 
+            - task: AzureCLI@1
+              displayName: 'Purge CDN'
+              inputs:
+                azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+                scriptLocation: inlineScript
+                inlineScript: |
+                  call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
 
   # D) Copy data from this repository to the storage to make them available on CDN nodes in TEST
   - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:

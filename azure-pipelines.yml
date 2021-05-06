@@ -139,7 +139,7 @@ stages:
                 azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
                 scriptLocation: inlineScript
                 inlineScript: |
-                  call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+                  call az cdn endpoint purge -g $(PRODUCTION_RESOURCE_GROUP) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
 
   # D) Copy data from this repository to the storage to make them available on CDN nodes in TEST
   - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:

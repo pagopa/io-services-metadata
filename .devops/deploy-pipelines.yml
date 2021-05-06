@@ -1,0 +1,81 @@
+# Azure DevOps pipeline to release a new version and deploy to production.
+
+# Only manual activations are intended
+trigger: none
+pr: none
+
+parameters:
+  - name: environment
+    displayName: Target Environment
+    type: string
+    default: prod
+    values:
+      - dev
+      - prod
+
+# variables set on azdevops to avoid circular dependency warning
+# $(DEFAULT_BRANCH)
+# $(BLOB_CONTAINER_NAME)
+variables:
+  YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
+  EXCLUSION_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;.devops'
+  ${{ if eq(parameters['environment'], 'dev') }}:
+    DEPLOY_TYPE: $[variables['DEV_DEPLOY_TYPE']]
+    AZURE_SUBSCRIPTION: $(DEV_AZURE_SUBSCRIPTION)
+    STORAGE_ACCOUNT_NAME: $(DEV_STORAGE_ACCOUNT_NAME)
+    PROFILE_CDN_NAME: $(DEV_PROFILE_CDN_NAME)
+    ENDPOINT_NAME: $(DEV_ENDPOINT_NAME)
+    RESOURCE_GROUP_NAME: $(DEV_RESOURCE_GROUP_NAME)
+  ${{ if eq(parameters['environment'], 'prod') }}:
+    DEPLOY_TYPE: $[variables['PROD_DEPLOY_TYPE']]
+    AZURE_SUBSCRIPTION: $(PROD_AZURE_SUBSCRIPTION)
+    STORAGE_ACCOUNT_NAME: $(PROD_STORAGE_ACCOUNT_NAME)
+    PROFILE_CDN_NAME: $(PROD_PROFILE_CDN_NAME)
+    ENDPOINT_NAME: $(PROD_ENDPOINT_NAME)
+    RESOURCE_GROUP_NAME: $(PROD_RESOURCE_GROUP_NAME)
+
+resources:
+  repositories:
+    - repository: pagopaCommons
+      type: github
+      name: pagopa/azure-pipeline-templates
+      ref: refs/tags/v14
+      endpoint: 'io-azure-devops-github-ro'
+
+stages:
+ 
+  # Deploy 
+  - stage: 'Deploy_to_${{ parameters.environment }}'
+    pool:
+      vmImage: 'windows-2019'
+    jobs:
+      - job: 'deploy_to_container'
+        steps:
+
+          - task: AzureFileCopy@4
+            displayName: 'Copy to storage ($(STORAGE_ACCOUNT_NAME))'
+            condition: eq(variables.DEPLOY_TYPE, 'copy_to_container')
+            inputs:
+              SourcePath: '$(System.DefaultWorkingDirectory)/*'
+              azureSubscription: '$(AZURE_SUBSCRIPTION)'
+              Destination: 'AzureBlob'
+              storage: '$(STORAGE_ACCOUNT_NAME)'
+              ContainerName: '$(BLOB_CONTAINER_NAME)'
+              AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+
+          - task: AzureCLI@1
+            displayName: 'Sync with storage ($(STORAGE_ACCOUNT_NAME))'
+            condition: eq(variables.DEPLOY_TYPE, 'sync_to_container')
+            inputs:
+              azureSubscription: '$(AZURE_SUBSCRIPTION)'
+              scriptLocation: inlineScript
+              inlineScript: |
+                call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(System.DefaultWorkingDirectory)\*" --exclude-path "$(EXCLUDE_PATH)"
+
+          - task: AzureCLI@1
+            displayName: 'Purge CDN'
+            inputs:
+              azureSubscription: '$(AZURE_SUBSCRIPTION)'
+              scriptLocation: inlineScript
+              inlineScript: |
+                call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"

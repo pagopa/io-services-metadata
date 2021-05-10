@@ -1111,6 +1111,14 @@
       {
         "abi": "03599",
         "name": "Cassa Centrale Banca – Credito Cooperativo Italiano S.p.A."
+      },
+      {
+        "abi" : "03032",
+        "name" :  "CREDITO EMILIANO S.P.A."
+      },
+      {
+        "abi" : "03250",
+        "name" :  "BANCA EUROMOBILIARE - S.P.A."
       }
     ]
   },
@@ -1272,7 +1280,7 @@
     ]
   },
   "POSTE":{
-    "status" : "enabled",
+    "status" : "disabled",
     "issuers" : [
       {
         "abi": "07601",

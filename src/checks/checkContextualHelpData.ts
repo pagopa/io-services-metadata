@@ -1,4 +1,4 @@
-// a simple check that bonus available json respects type definition
+// a simple check that contextual help data json respects type definition
 
 import * as fs from "fs";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";

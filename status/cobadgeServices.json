@@ -844,10 +844,6 @@
         "name": "B.C.C. DI GAUDIANO DI LAVELLO"
       },
       {
-        "abi": "08562",
-        "name": "BANCA DI PISA E FORNACETTE CREDITO COOPERATIVO SOC. COOP. PER AZIONI"
-      },
-      {
         "abi": "08572",
         "name": "B.C.C. DI GAMBATESA"
       },
@@ -1111,16 +1107,20 @@
       {
         "abi": "03599",
         "name": "Cassa Centrale Banca – Credito Cooperativo Italiano S.p.A."
+      },
+      {
+        "abi" : "03032",
+        "name" :  "CREDITO EMILIANO S.P.A."
+      },
+      {
+        "abi" : "03250",
+        "name" :  "BANCA EUROMOBILIARE - S.P.A."
       }
     ]
   },
   "INTESA" : {
     "status" : "enabled",
     "issuers" : [
-      {
-        "abi": "06225",
-        "name": "CASSA DI RISPARMIO DEL VENETO"
-      },
       {
         "abi": "01010",
         "name": "BANCO DI NAPOLI S.P.A."
@@ -1272,7 +1272,7 @@
     ]
   },
   "POSTE":{
-    "status" : "enabled",
+    "status" : "disabled",
     "issuers" : [
       {
         "abi": "07601",

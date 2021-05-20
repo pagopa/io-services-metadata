@@ -1,6 +1,6 @@
 /**
- * this script defines the types representing the json data contained in /services-webview
- * to ensure they are in the expected format by the client
+ * this script defines the types representing the json data contained in "/services-webview" folder
+ * to ensure they are in the expected and don't have semantic errors
  */
 
 import * as t from "io-ts";

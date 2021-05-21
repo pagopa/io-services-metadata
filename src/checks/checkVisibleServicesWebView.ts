@@ -1,6 +1,8 @@
 /**
  * this script defines the types representing the json data contained in "/services-webview" folder
  * to ensure they are in the expected and don't have semantic errors
+ * - visible-services-compact.json -> LOCAL services consumed by the IO app
+ * - visible-services-extended.json -> LOCAL + NATIONAL services comsumed by https://io.italia.it
  */
 
 import * as t from "io-ts";

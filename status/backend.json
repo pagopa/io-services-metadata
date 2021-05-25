@@ -26,8 +26,8 @@
       "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "Stiamo ottimizzando i sistemi: potrebbero verificarsi disservizi tra le 22 e le 22:30.",
-        "en-EN": "We are optimizing our systems: there may be disruption between 10pm and 10:30pm."
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
       }
     },
     "messages": {
@@ -59,11 +59,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
       }
     },
     "ingress": {

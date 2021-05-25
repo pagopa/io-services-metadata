@@ -23,7 +23,7 @@
       }
     },
     "cashback": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
@@ -59,7 +59,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",

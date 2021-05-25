@@ -23,11 +23,11 @@
       }
     },
     "cashback": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "Le transazioni valide degli ultimi giorni saranno presto visibili, insieme al calcolo del Cashback",
-        "en-EN": "Valid transactions from the last few days will soon be visible, along with the Cashback calculation"
+        "it-IT": "Stiamo ottimizzando i sistemi: potrebbero verificarsi disservizi tra le 22 e le 22:30.",
+        "en-EN": "We are optimizing our systems: there may be disruption between 10pm and 10:30pm."
       }
     },
     "messages": {

@@ -6,7 +6,8 @@
   },
   "config": {
     "bpd_ranking": false,
-    "bpd_ranking_v2": true
+    "bpd_ranking_v2": true,
+    "cgn_merchants_v2": false
   },
   "sections": {
     "email_validation": {
@@ -42,7 +43,7 @@
       }
     },
     "services": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",

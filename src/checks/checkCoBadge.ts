@@ -13,6 +13,7 @@ import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/Abi
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
 import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
+import { getDuplicates } from "../utils/collections";
 
 const error = (message: string) => {
   console.error(message);
@@ -84,6 +85,20 @@ if (!maybeCobadgeServices.isRight()) {
         hasErrors = true;
       }
     });
+    // check for repeated abi
+    const duplicated = getDuplicates(
+      cobadgeIssuers,
+      (a: Abi, b: Abi) => a.abi === b.abi
+    );
+    if (duplicated.length > 0) {
+      console.log(
+        `these abi are repeated more than one time:\n${duplicated
+          .map(d => d.abi)
+          .join("\n")}`
+      );
+      hasErrors = true;
+    }
+
     if (hasErrors) {
       process.exit(1);
     }

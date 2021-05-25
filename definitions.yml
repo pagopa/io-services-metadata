@@ -247,3 +247,31 @@ definitions:
         type: string
       body:
         type: string
+  SpidIdps:
+    type: object
+    required:
+      - items
+    properties:
+      items:
+        type: array
+        items:
+          $ref: "#/definitions/SpidIdp"
+  SpidIdp:
+    type: object
+    description: Entry used to generate the list of IDPs available to select on the login flow.
+    required:
+      - id
+      - name
+      - logo
+      - profileUrl
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      logo:
+        type: string
+      profileUrl:
+        type: string
+      isTestIdp:
+        type: boolean

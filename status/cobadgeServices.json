@@ -1272,7 +1272,7 @@
     ]
   },
   "POSTE":{
-    "status" : "disabled",
+    "status" : "enabled",
     "issuers" : [
       {
         "abi": "07601",

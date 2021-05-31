@@ -43,6 +43,7 @@ const Sections = t.interface({
   credit_card: SectionStatus,
   digital_payments: SectionStatus,
   email_validation: SectionStatus,
+  euCovidCert: SectionStatus,
   ingress: SectionStatus,
   login: SectionStatus,
   messages: SectionStatus,

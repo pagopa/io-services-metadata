@@ -145,6 +145,14 @@
         "it-IT": "",
         "en-EN": ""
       }
+    },
+    "euCovidCert": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": "."
+      }
     }
   }
 }

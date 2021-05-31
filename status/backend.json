@@ -148,10 +148,10 @@
     },
     "euCovidCert": {
       "is_visible": false,
-      "level": "warning",
+      "level": "normal",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "",
+        "en-EN": "."
       }
     }
   }

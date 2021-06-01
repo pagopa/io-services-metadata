@@ -6,7 +6,8 @@
   },
   "config": {
     "bpd_ranking": false,
-    "bpd_ranking_v2": true
+    "bpd_ranking_v2": true,
+    "cgn_merchants_v2": false
   },
   "sections": {
     "email_validation": {
@@ -25,8 +26,8 @@
       "is_visible": false,
       "level": "normal",
       "message": {
-        "it-IT": "Le transazioni valide degli ultimi giorni saranno presto visibili, insieme al calcolo del Cashback",
-        "en-EN": "Valid transactions from the last few days will soon be visible, along with the Cashback calculation"
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
       }
     },
     "messages": {
@@ -42,7 +43,7 @@
       }
     },
     "services": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
@@ -59,10 +60,10 @@
     },
     "wallets": {
       "is_visible": false,
-      "level": "warning",
+      "level": "normal",
       "message": {
-        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
       }
     },
     "ingress": {
@@ -143,6 +144,14 @@
       "badge": {
         "it-IT": "",
         "en-EN": ""
+      }
+    },
+    "euCovidCert": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": "."
       }
     }
   }

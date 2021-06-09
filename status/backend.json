@@ -51,11 +51,15 @@
       }
     },
     "login": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
+        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
+      },
       "message": {
-        "it-IT": "L'autenticazione tramite CIE è attualmente in manutenzione",
-        "en-EN": "The CIE authentication system is currently under maintenance"
+        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
+        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
       }
     },
     "wallets": {

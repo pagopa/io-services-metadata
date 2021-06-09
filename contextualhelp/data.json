@@ -585,8 +585,32 @@
                   "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
                },
                {
-                  "title": "",
-                  "body": ""
+                  "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
+               },
+               {
+                  "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere il certificato su IO anche se sono minorenne?",
+                  "body": "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
+               },
+               {
+                  "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
+                  "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito?",
+                  "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
+                  "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
                }
             ]
          }

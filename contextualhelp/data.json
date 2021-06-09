@@ -578,7 +578,7 @@
                },
                {
                   "title": "Posso ricevere su IO i certificati dei miei familiari?",
-                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente loggato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
                },
                {
                   "title": "Il certificato digitale che trovo su IO sostituisce quello cartaceo?",
@@ -613,7 +613,7 @@
                },
                {
                   "title": "Posso ricevere su IO i certificati dei miei familiari?",
-                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente loggato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
                },
                {
                   "title": "Il certificato digitale che trovo su IO sostituisce quello cartaceo?",

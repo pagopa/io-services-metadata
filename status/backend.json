@@ -59,8 +59,8 @@
       }
     },
     "wallets": {
-      "is_visible": true,
-      "level": "warning",
+      "is_visible": false,
+      "level": "normal",
       "message": {
         "it-IT": "I pagamenti in app potrebbero non funzionare, siamo al lavoro per risolvere il problema.",
         "en-EN": "In-app payments may not work, we are working to solve this issue."

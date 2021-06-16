@@ -3,6 +3,30 @@
    "it": {
       "screens": [
          {
+            "route_name": "BONUS_ACTIVE_DETAIL_SCREEN",
+            "title": "Il tuo Bonus Vacanze",
+            "content": "Qui sono visualizzati i dettagli del Bonus Vacanze e le informazioni necessarie per spendere il bonus.",
+            "faqs": [
+               {
+                  "title": "Come posso usare il Bonus Vacanze?",
+                  "body": "Il Bonus Vacanze può essere speso nelle strutture ricettive aderenti all'iniziativa e situate sul territorio nazionale. Il Bonus attribuito al tuo nucleo familiare è identificato da un codice univoco, a cui sarà associato anche un QR code (leggibile direttamente dallo schermo del tuo telefono). Ti basterà comunicare questo codice, insieme al tuo codice fiscale, o mostrare il QR code alla struttura dove trascorrerai le vacanze, all'agenzia viaggi o al tour operator, al momento di pagare il tuo soggiorno. /nPer maggiori informazioni: [io.italia.it/bonus-vacanze](https://io.italia.it/bonus-vacanze) /nInoltre, puoi consultare la [Guida d'uso](https://www.agenziaentrate.gov.it/portale/bonus-vacanze-guida) sul sito dell'Agenzia delle Entrate."
+               },
+               {
+                  "title": "Come posso condividere il Bonus con i miei familiari? ",
+                  "body": "Se un tuo familiare ha installato l’app sul proprio telefono e ha un account attivo su IO, potrà visualizzarlo in automatico all’interno della propria sezione “Pagamenti”. In alternativa, per chi non avesse un account sull’app IO, tramite la funzione “Condividi” presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che potrai condividere con gli altri componenti del nucleo familiare, via Whatsapp o altri strumenti disponibili sul tuo smartphone. /nAttenzione! È importante che il Bonus attribuito al tuo nucleo familiare sia condiviso SOLO con gli altri componenti autorizzati a spenderlo e con la struttura turistica dove trascorrerai le vacanze, oppure all'agenzia viaggi o al tour operator, al momento di pagare il soggiorno (richiedendo subito all'operatore la fattura in cui sarà indicato lo sconto ottenuto tramite il Bonus Vacanze). Diversamente, potresti correre il rischio che altri spendano il Bonus al posto tuo, rendendolo inutilizzabile per tutti i componenti del tuo nucleo familiare.
+"
+               },
+               {
+                  "title": "Dove trovo l'elenco delle strutture che accettano il Bonus Vacanze?",
+                  "body": "L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di "iscrizione" a nessun elenco. Sta alla struttura informare i clienti, attraverso propri canali, del fatto che accetta o meno il Bonus Vacanze. Assicurati che ti sarà possibile utilizzarlo presso la struttura dove soggiornerai, o presso l'agenzia viaggi o il tour operator che hai scelto per organizzare le tue prossime vacanze."
+               },
+               {
+                  "title": "Cosa succede se il costo del mio soggiorno è inferiore allo sconto di cui posso usufruire, indicatomi dall'app IO?",
+                  "body": "Se il costo della vacanza è inferiore all’importo massimo del tuo Bonus Vacanze, sia lo sconto sia la detrazione saranno ricalcolati in base al corrispettivo: saranno, cioè, rispettivamente pari all’80% e al 20% del costo del tuo soggiorno. Eventuali somme residue non saranno più spendibili in quanto il bonus deve essere speso in un’unica soluzione. Nella [Guida d’Uso sul sito dell’Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/bonus-vacanze-guida) trovi alcuni esempi utili e maggiori dettagli."
+               },
+            ]
+         },
+         {
             "route_name": "CGN_INFORMATION_TOS",
             "title": "Attiva la Carta Giovani Nazionale",
             "content": "Qui sono visualizzate tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi.",

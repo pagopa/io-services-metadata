@@ -30,6 +30,10 @@
                 {
                    "title": "Quando sarà attivo su IO il Certificato Verde COVID-19?",
                    "body": "La normativa italiana ha stabilito che la Certifcazione verde COVID-19, anche nota come Green Pass, verrà inviata anche su IO. Quindi, il servizio sarà disponibile in app non appena il Garante per la protezione dei dati personali avrà dato il via libera. I sistemi di IO sono già pronti a gestire questo servizio."
+                },
+                {
+                   "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                   "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia. \nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE. \nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
                 }
              ]
           },
@@ -53,6 +57,10 @@
                 {
                    "title": "Quando sarà attivo su IO il Certificato Verde COVID-19?",
                    "body": "La normativa italiana ha stabilito che la Certifcazione verde COVID-19, anche nota come Green Pass, verrà inviata anche su IO. Quindi, il servizio sarà disponibile in app non appena il Garante per la protezione dei dati personali avrà dato il via libera. I sistemi di IO sono già pronti a gestire questo servizio, che sarà attivo dal prossimo aggiornamento dell'app."
+                },
+                {
+                   "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                   "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia. \nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE. \nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
                 }
              ]
          },

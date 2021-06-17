@@ -66,8 +66,8 @@
       "is_visible": false,
       "level": "normal",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
-        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
+        "it-IT": "I pagamenti in app potrebbero non funzionare, siamo al lavoro per risolvere il problema.",
+        "en-EN": "In-app payments may not work, we are working to solve this issue."
       }
     },
     "ingress": {

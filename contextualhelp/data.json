@@ -110,10 +110,6 @@
                    "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
                 },
                 {
-                   "title": "Quando sarà attivo su IO il Certificato Verde COVID-19?",
-                   "body": "La normativa italiana ha stabilito che la Certificazione verde COVID-19, anche nota come Green Pass, verrà inviata anche su IO. Quindi, il servizio sarà disponibile in app non appena il Garante per la protezione dei dati personali avrà dato il via libera. I sistemi di IO sono già pronti a gestire questo servizio, che sarà attivo a breve."
-                },
-                {
                    "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
                    "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia. \nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE. \nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
                 }
@@ -135,10 +131,6 @@
                 {
                    "title": "I messaggi possono essere cancellati?",
                    "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘*Archiviati*’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘*Archiviati*’."
-                },
-                {
-                   "title": "Quando sarà attivo su IO il Certificato Verde COVID-19?",
-                   "body": "La normativa italiana ha stabilito che la Certificazione verde COVID-19, anche nota come Green Pass, verrà inviata anche su IO. Quindi, il servizio sarà disponibile in app non appena il Garante per la protezione dei dati personali avrà dato il via libera. I sistemi di IO sono già pronti a gestire questo servizio, che sarà attivo a breve."
                 },
                 {
                    "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",

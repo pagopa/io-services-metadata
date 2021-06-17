@@ -585,6 +585,10 @@
                   "body": "La Certificazione verde COVID-19, emessa dalla piattaforma nazionale del Ministero della Salute, è in formato digitale. Su alcuni canali alternativi all'app IO è anche disponibile in versione PDF stampabile per chi desideri averne una copia cartacea. \n In ogni caso, entrambi i formati contengono le stesse informazioni che identificano il tuo certificato (un QR Code e un sigillo elettronico qualificato). Per maggiori dettagli sugli altri canali: [dgc.gov.it](https://www.dgc.gov.it/)"
                },
                {
+                  "title": "Perché non vedo più il mio certificato verde su IO?",
+                  "body": "I certificati su IO non scompaiono, restano sempre a disposizione nell'elenco dei messaggi. Quando provi a visualizzare un certificato, questo viene scaricato in tempo reale dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. In alcuni casi (certificati scaduti o annullati) potresti non vedere più il QR code e le informazioni di dettaglio. Potrai comunque contattare l'assistenza dedicata per avere maggiori informazioni."
+               },
+               {
                   "title": "Cosa succede se, dopo aver ricevuto il certificato, disattivo IO?",
                   "body": "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
                },

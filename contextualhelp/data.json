@@ -3,6 +3,88 @@
    "it": {
       "screens": [
          {
+            "route_name": "EUCOVIDCERT_CERTIFICATE",
+            "title": "La tua Certificazione Verde COVID-19",
+            "content": "Questo è il messaggio contenente il codice QR e tutte le informazioni relative alla tua Certificazione Verde COVID-19, il documento che attesta un vaccino, l'esito di un tampone o l'avvenuta guarigione da COVID-19 e che permette di circolare in sicurezza in Italia e in Europa",
+            "faqs": [
+               {
+                  "title": "Posso ricevere su IO più di un certificato verde?",
+                  "body": "Sì, ad esempio perchè hai effettuato diversi tamponi, o perchè hai un certificato di guarigione e hai comunque fatto il vaccino."
+               },
+               {
+                  "title": "Come faccio a vedere il certificato se non ho disponibile la connessione ad Internet?",
+                  "body": "IO chiede il QR code dei certificati alla Piattaforma Nazionale DGC ogni volta che apri il relativo messaggio, quindi in quel momento devi essere connesso. Una volta ottenuto il certificato, puoi però salvare il relativo QR code nella galleria imagini del tuo dispositivo con l'apposito pulsante, così da poterlo mostrare all'occorrenza anche in assenza di connessione."
+               },
+               {
+                  "title": "Come faccio a distinguere fra due certificati, ad esempio vaccinazione o un tampone, se vedo solo il QR Code?",
+                  "body": "Quando esibirai il tuo Certificato Verde, chi lo verificherà non dovrà conoscere i tuoi dati sanitari ma solo essere sicuro che sia valido: per questo nessun dato sanitario è visibile nella schemata dove trovi il QR code. Per leggere i dati sanitari relativi al certificato premi il pulsante 'Dettagli'."
+               },
+               {
+                  "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Il certificato digitale che trovo su IO sostituisce quello cartaceo?",
+                  "body": "La Certificazione verde COVID-19, emessa dalla piattaforma nazionale del Ministero della Salute, è in formato digitale. Su alcuni canali alternativi all'app IO è anche disponibile in versione PDF stampabile per chi desideri averne una copia cartacea. \n In ogni caso, entrambi i formati contengono le stesse informazioni che identificano il tuo certificato (un QR Code e un sigillo elettronico qualificato). Per maggiori dettagli sugli altri canali: [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Perché non vedo più il mio certificato verde su IO?",
+                  "body": "I certificati su IO non scompaiono, restano sempre a disposizione nell'elenco dei messaggi. Quando provi a visualizzare un certificato, questo viene scaricato in tempo reale dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. In alcuni casi (certificati scaduti o annullati) potresti non vedere più il QR code e le informazioni di dettaglio. Potrai comunque contattare l'assistenza dedicata per avere maggiori informazioni."
+               },
+               {
+                  "title": "Cosa succede se, dopo aver ricevuto il certificato, disattivo IO?",
+                  "body": "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Fino a quando è valido il mio certificato su IO?",
+                  "body": "Il certificato Verde su IO ha la stessa validità dei certificati ottenibili presso gli altri canali. La decisione sulla durata della validità dei certificati è indipendente da IO e spetta alle autorità competenti. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/) ed eventualmente il sito del Ministero della Salute [www.salute.gov.it](www.salute.gov.it) per maggiori informazioni."
+               },
+               {
+                  "title": "Dove posso salvare il certificato sull'app IO?",
+                  "body": "Premendo il pulsante 'Salva', puoi salvare il QR code del certificato nella galleria immagini del tuo dispositivo per poterlo usare anche se non sei connesso ad internet."
+               },
+               {
+                  "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                  "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               }
+            ]
+         },
+         {
+            "route_name": "EUCOVIDCERT_MARKDOWN_DETAILS",
+            "title": "I dettagli della tua Certificazione Verde COVID-19",
+            "content": "Qui trovi tutte le informazioni relative alla tua Certificazione Verde COVID-19.",
+            "faqs": [
+               {
+                  "title": "Posso ricevere su IO più di un certificato verde?",
+                  "body": "Sì, ad esempio perchè hai effettuato diversi tamponi, o perchè hai un certificato di guarigione e hai comunque fatto il vaccino."
+               },
+               {
+                  "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Il certificato digitale che trovo su IO sostituisce quello cartaceo?",
+                  "body": "Sì, il certificato digitale e quello cartaceo contengono le stesse informazioni."
+               },
+               {
+                  "title": "Cosa succede se, dopo aver ricevuto il certificato, disattivo IO?",
+                  "body": "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Fino a quando è valido il mio certificato su IO?",
+                  "body": "Il certificato Verde su IO ha la stessa validità dei certificati ottenibili presso gli altri canali. La decisione sulla durata della validità dei certificati è indipendente da IO e spetta alle autorità competenti. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/) ed eventualmente il sito del Ministero della Salute [www.salute.gov.it](www.salute.gov.it) per maggiori informazioni."
+               },
+               {
+                  "title": "Dove posso salvare il certificato sull'app IO?",
+                  "body": "Premendo il pulsante 'Salva', puoi salvare il QR code del certificato nella galleria immagini del tuo dispositivo per poterlo usare anche se non sei connesso ad internet."
+               },
+               {
+                  "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                  "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               }
+            ]
+         },
+         {
             "route_name": "CGN_INFORMATION_TOS",
             "title": "Attiva la Carta Giovani Nazionale",
             "content": "Qui sono visualizzate tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi.",
@@ -556,6 +638,116 @@
                {
                   "title": "Ho disattivato il Cashback su una mia carta ma vedo che, con quella carta, continuo ancora a collezionare acquisti validi ai fini del programma, come mai?",
                   "body": "Se scegli di cancellare o sospendere temporaneamente un metodo di pagamento precedentemente registrato, la disattivazione o la sospensione della raccolta delle transazioni su quello strumento è effettiva a partire dalla mezzanotte del giorno successivo."
+               }
+            ]
+         },
+         {
+            "route_name": "AUTHENTICATION_LANDING",
+            "title": "Come accedere all'app IO",
+            "content": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.** \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https://www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti.\nSe invece desideri fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.",
+            "faqs": [
+               {
+                  "title": "Cos'è SPID?",
+                  "body": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online."
+               },
+               {
+                  "title": "Come puoi ottenere SPID?",
+                  "body": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, Infocert, Intesa, Namirial, Poste, Register, Sielte, Tim o Lepida. Questi soggetti (detti Identity Provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https://www.spid.gov.it/richiedi-spid](https://spid.gov.it/richiedi-spid)."
+               },
+               {
+                  "title": "Hai perso le tue credenziali SPID?",
+                  "body": "Non ti preoccupare, è sempre possibile recuperare le tue credenziali.\n- Se hai richiesto SPID a **Aruba** segui la procedura di recupero qui: [https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- Se hai richiesto SPID a **Infocert** segui la procedura di recupero qui: [https://my.infocert.it/selfcare/#/recoveryPin](https://my.infocert.it/selfcare/#/recoveryPin)\n- Se hai richiesto SPID a **Namirial** segui la procedura di recupero qui: [https://portale.namirialtsp.com/private/user/spid_reset.php](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- Se hai richiesto SPID a **Intesa** segui la procedura di recupero qui: [https://spid.intesa.it/area-privata/forgot-password.aspx](https://spid.intesa.it/area-privata/forgot-password.aspx)\n- Se hai richiesto SPID a **Poste** segui la procedura di recupero qui: [https://posteid.poste.it/recuperocredenziali.shtml](https://posteid.poste.it/recuperocredenziali.shtml)\n- Se hai richiesto SPID a **Register** segui la procedura di recupero qui:\n(username dimenticata) [https://spid.register.it/selfcare/recovery/username](https://spid.register.it/selfcare/recovery/username)\n(password dimenticata) [https://spid.register.it/selfcare/recovery/password](https://spid.register.it/selfcare/recovery/password)\n- Se hai richiesto SPID a **Sielte** segui la procedura di recupero qui:\n(password dimenticata) [https://myid.sieltecloud.it/profile/recovery/forgotPassword](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- Se hai richiesto SPID a **Tim** segui la procedura di recupero qui:\n(username dimenticata) [https://login.id.tim.it/mps/fu.php](https://login.id.tim.it/mps/fu.php)\n(password dimenticata) [https://login.id.tim.it/mps/fp.php](https://login.id.tim.it/mps/fp.php)\n- Se hai richiesto SPID a **Lepida** segui la procedura di recupero qui: [https://id.lepida.it/idm/app/recupero_credenziali.jsp](https://id.lepida.it/idm/app/recupero_credenziali.jsp)"
+               },
+               {
+                  "title": "Cos'è la CIE?",
+                  "body": "La CIE, la Carta d’Identità Elettronica, è un documento elettronico altamente sicuro, dotato di un microprocessore a radiofrequenza che ne permette l’utilizzo in svariati scenari, incluso l’accesso a servizi online. Risponde alle esigenze di sicurezza del nostro Paese e sostituisce la versione cartacea."
+               },
+               {
+                  "title": "Come puoi ottenere la CIE?",
+                  "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
+               },
+               {
+                  "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
+               },
+               {
+                  "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere il certificato su IO anche se sono minorenne?",
+                  "body": "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
+               },
+               {
+                  "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
+                  "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
+                  "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                   "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               }
+            ]
+         },
+         {
+            "route_name": "MESSAGES_HOME",
+            "title": "Cosa puoi fare nei tuoi Messaggi",
+            "content": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+            "faqs": [
+               {
+                  "title": "Che tipo di messaggi posso ricevere?",
+                  "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
+               },
+               {
+                  "title": "Cosa succede se archivio i messaggi?",
+                  "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
+               },
+               {
+                  "title": "I messaggi possono essere cancellati?",
+                  "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘*Archiviati*’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘*Archiviati*’."
+               },
+               {
+                  "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
+               },
+               {
+                  "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
+                  "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                  "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho appena fatto il vaccino, perché non trovo il mio certificato su IO?",
+                  "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
+               },
+               {
+                  "title": "Ho appena fatto un tampone, perché non trovo il mio certificato su IO?",
+                  "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
+               },
+               {
+                  "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
+                  "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito?",
+                  "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
+                  "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                   "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
                }
             ]
          }

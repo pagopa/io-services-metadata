@@ -607,6 +607,10 @@
                {
                   "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
                   "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                   "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
                }
             ]
          },
@@ -658,6 +662,10 @@
                {
                   "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
                   "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                   "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
                }
             ]
          }

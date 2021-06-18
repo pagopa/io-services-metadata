@@ -752,6 +752,10 @@
                {
                    "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
                    "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                   "title": "Usi Android e non riesci ad aggiornare IO?",
+                   "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
                }
             ]
          }

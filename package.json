@@ -50,7 +50,7 @@
     "fs-extra": "^7.0.0",
     "italia-ts-commons": "^5.1.5",
     "italia-tslint-rules": "^1.1.0",
-    "italia-utils": "^4.0.0",
+    "italia-utils": "^4.1.1",
     "jest": "24.8.0",
     "js-yaml": "^3.12.0",
     "request": "^2.87.0",

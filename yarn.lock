@@ -1991,7 +1991,7 @@ italia-tslint-rules@^1.1.0:
     tslint-sonarts "^1.9.0"
     typestrict "^1.0.2"
 
-italia-utils@^4.0.0:
+italia-utils@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/italia-utils/-/italia-utils-4.3.0.tgz#a59755333013364018194e181c4de98404ff8240"
   integrity sha512-xPuRI+Mf5ualHhQvhsG9GDi1jNcBikDjNam5lz28BvEd1jPUKDgLpnVpw0g+MZrbV+pFN7i/Fkt6uQVlttssTA==

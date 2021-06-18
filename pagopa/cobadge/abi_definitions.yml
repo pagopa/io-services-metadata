@@ -1,0 +1,35 @@
+swagger: "2.0"
+info:
+  title: CoBadge Issuers
+  description: The issuers can handle the co-badge cards search [see](https://www.pivotaltracker.com/story/show/176575992).
+  version: "0.1"
+paths:
+definitions:
+  CoBadgeServices:
+    type: object
+    additionalProperties:
+      $ref: "#/definitions/CoBadgeService"
+  CoBadgeService:
+    type: object
+    required:
+      - status
+      - issuers
+    properties:
+      status:
+        type: string
+        enum: [enabled,disabled,unavailable]
+        description: "enabled: the service is up&running, disabled: the service is not running at the moment,unavailable: the service is not available"
+      issuers:
+        type: array
+        items:
+          $ref: "#/definitions/CoBadgeIssuer"
+  CoBadgeIssuer:
+    type: object
+    required:
+      - name
+      - abi
+    properties:
+      abi:
+        type: string
+      name:
+        type: string

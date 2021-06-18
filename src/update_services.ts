@@ -6,12 +6,9 @@ import * as t from "io-ts";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import * as yaml from "js-yaml";
 import * as path from "path";
-
-import { scopeEnum, Service } from "../definitions/Service";
+import { Service, ScopeEnum } from "../generated/definitions/content/Service";
 
 const Services = t.dictionary(t.string, Service);
-// the keys are the scopeEnum (NATIONAL,LOCAL) and the value is the relative services id
-type ScopeServices = { [key in keyof typeof scopeEnum]: ReadonlyArray<string> };
 const root = path.join(__dirname, "../");
 
 async function run(rootPath: string): Promise<void> {
@@ -52,24 +49,23 @@ async function run(rootPath: string): Promise<void> {
       })
     );
 
-    console.log(chalk.gray("[3/3]"), "Generating scope services JSON...");
-    // filter the services id which have scope LOCAL
-    const locals = serviceIds.filter(sId => {
+    console.log(chalk.gray("[3/3]"), "Checking data..");
+    // print a warning if some services have no email and phone
+    const noEmailAndPhoneServices = Object.keys(services).filter(sId => {
       const service = services[sId];
-      return service.scope === scopeEnum.LOCAL;
+      return service.email === undefined && service.phone === undefined;
     });
-    // filter the services id which have scope NATIONAL
-    const nationals = serviceIds.filter(sId => {
-      const service = services[sId];
-      return service.scope === scopeEnum.NATIONAL;
+    if (noEmailAndPhoneServices.length > 0) {
+      console.log(chalk.yellow("⚠️ these services have no email and phone:"));
+    }
+    noEmailAndPhoneServices.forEach(s => {
+      const des = services[s].description;
+      const suffix: string = `${des ? "..." : ""}`;
+      console.log(
+        chalk.yellowBright(`[${s}] ${des ? des.substring(0, 30) : ""}${suffix}`)
+      );
+      console.log(chalk.blue(`-`.repeat(40)));
     });
-
-    const scopeService: ScopeServices = { NATIONAL: nationals, LOCAL: locals };
-    // dump scopeService as a json
-    await fs.writeFile(
-      path.join(root, path.join("services", "servicesByScope.json")),
-      JSON.stringify(scopeService)
-    );
   } catch (e) {
     console.log(chalk.red(e.message));
     throw e;

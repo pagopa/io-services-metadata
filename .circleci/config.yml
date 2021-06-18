@@ -38,8 +38,8 @@ jobs:
       - checkout
       - *restore_node_cache
       - *install_node_modules
+      - run: yarn generate:all
       - run: yarn test
-      - run: "bash <(curl -s https://codecov.io/bash)"
 
   lint:
     <<: *defaults_js
@@ -48,6 +48,15 @@ jobs:
       - *restore_node_cache
       - *install_node_modules
       - run: yarn lint
+
+  checks:
+    <<: *defaults_js
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+      - run: yarn generate:all
+      - run: yarn run_checks
 
   danger:
     <<: *defaults_js
@@ -64,6 +73,7 @@ workflows:
       - compile
       - tests
       - lint
+      - checks
       - danger:
           filters:
             branches:

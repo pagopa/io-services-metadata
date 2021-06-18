@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  version: "0.1"
+  version: "0.2"
 paths:
 definitions:
   Service:
@@ -11,6 +11,8 @@ definitions:
       description:
         type: string
       web_url:
+        type: string
+      support_url:
         type: string
       app_ios:
         type: string
@@ -27,6 +29,10 @@ definitions:
       email:
         type: string
       pec:
+        type: string
+      cta:
+        type: string
+      token_name:
         type: string
       scope:
         type: string
@@ -55,17 +61,217 @@ definitions:
         type: string
       siglaProvincia:
         type: string
-  ServicesByScope:
+  ContextualHelp:
     type: object
     required:
-      - LOCAL
-      - NATIONAL
+      - version
+      - it
+      - en
     properties:
-      LOCAL:
+      version:
+        type: number
+      it:
+        $ref: "#/definitions/ContextualHelpData"
+      en:
+        $ref: "#/definitions/ContextualHelpData"
+  ContextualHelpData:
+    type: object
+    required:
+      - idps
+      - screens
+    properties:
+      idps:
+        $ref: "#/definitions/IdpData"
+      screens:
+        $ref: "#/definitions/ScreensCHData"
+  ScreensCHData:
+    type: array
+    items:
+      $ref: "#/definitions/ScreenCHData"
+  ScreenCHData:
+    type: object
+    required:
+      - route_name
+      - title
+      - content
+    properties:
+      route_name:
+        type: string
+      title:
+        type: string
+      content:
+        type: string
+      faqs:
         type: array
         items:
-          type: string
-      NATIONAL:
+          $ref: "#/definitions/Faq"
+  IdpData:
+    type: object
+    properties:
+      arubaid:
+        $ref: "#/definitions/Idp"
+      infocertid:
+        $ref: "#/definitions/Idp"
+      intesaid:
+        $ref: "#/definitions/Idp"
+      lepidaid:
+        $ref: "#/definitions/Idp"
+      namirialid:
+        $ref: "#/definitions/Idp"
+      posteid:
+        $ref: "#/definitions/Idp"
+      sielteid:
+        $ref: "#/definitions/Idp"
+      spiditalia:
+        $ref: "#/definitions/Idp"
+      timid:
+        $ref: "#/definitions/Idp"
+      cie:
+        $ref: "#/definitions/Idp"
+      test:
+        $ref: "#/definitions/Idp"
+  Idp:
+    type: object
+    required:
+      - description
+      - recover_password
+      - phone
+      - web_site
+    properties:
+      description:
+        type: string
+      email:
+        type: string
+      helpdesk_form:
+        type: string
+      phone:
+        type: string
+      phone_international:
+        type: string
+      web_site:
+        type: string
+      recover_username:
+        type: string
+      recover_password:
+        type: string
+      recover_emergency_code:
+        type: string
+  BonusesAvailable:
+    type: array
+    items:
+      $ref: "#/definitions/BonusAvailable"
+  BonusAvailable:
+    type: object
+    required:
+      - id_type
+      - is_active
+      - valid_from
+      - valid_to
+      - it
+      - en
+    properties:
+      id_type:
+        type: number
+      service_id:
+        type: string
+      is_active:
+        type: boolean
+      hidden:
+        type: boolean
+      cover:
+        type: string
+      sponsorship_cover:
+        type: string
+      sponsorship_description:
+        type: string
+      it:
+        $ref: "#/definitions/BonusAvailableContent"
+      en:
+        $ref: "#/definitions/BonusAvailableContent"
+      valid_from:
+        $ref: "#/definitions/Timestamp"
+      valid_to:
+        $ref: "#/definitions/Timestamp"
+      visibility:
+        $ref: "#/definitions/BonusVisibility"
+  BonusAvailableContent:
+    type: object
+    required:
+      - name
+      - title
+      - subtitle
+      - content
+    properties:
+      name:
+        type: string
+      title:
+        type: string
+      description:
+        type: string
+      subtitle:
+        type: string
+      content:
+        type: string
+      tos_url:
+        type: string
+      urls:
         type: array
         items:
-          type: string
+          $ref: "#/definitions/BonusUrl"
+  Timestamp:
+    $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"
+  BonusVisibility:
+    type: string
+    x-extensible-enum:
+      - visible
+      - hidden
+      - experimental
+    example: visible
+  BonusUrl:
+    type: object
+    required:
+      - name
+      - url
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+  Faq:
+    type: object
+    required:
+      - title
+      - body
+    properties:
+      title:
+        type: string
+      body:
+        type: string
+  SpidIdps:
+    type: object
+    required:
+      - items
+    properties:
+      items:
+        type: array
+        items:
+          $ref: "#/definitions/SpidIdp"
+  SpidIdp:
+    type: object
+    description: Entry used to generate the list of IDPs available to select on the login flow.
+    required:
+      - id
+      - name
+      - logo
+      - profileUrl
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      logo:
+        type: string
+      profileUrl:
+        type: string
+      isTestIdp:
+        type: boolean

@@ -1,0 +1,45 @@
+swagger: "2.0"
+info:
+  title: Privative Issuers
+  description: The issuers can handle the privative cards search [see](https://www.pivotaltracker.com/story/show/176905759).
+  version: "0.1"
+paths:
+definitions:
+  PrivativeServices:
+    type: object
+    description: "A list of services that allows the user to search for a privative card"
+    additionalProperties:
+      $ref: "#/definitions/PrivativeService"
+  PrivativeService:
+    type: object
+    description: "A service that allows to search for privative cards for linked issuers"
+    required:
+      - status
+      - issuers
+    properties:
+      status:
+        $ref: "#/definitions/PrivativeServiceStatus"
+      issuers:
+        type: array
+        items:
+          $ref: "#/definitions/PrivativeServiceIssuer"
+  PrivativeServiceIssuer:
+    type: object
+    required:
+      - id
+      - gdo
+      - loyalty
+    properties:
+      id:
+        type: string
+        description: "Unique identifier for the privative issuer"
+      gdo:
+        type: string
+        description: "Display name for the issuer"
+      loyalty:
+        type: string
+        description: "Display name for the loyalty program associated with the issuer"
+  PrivativeServiceStatus:
+    type: string
+    enum: [ enabled,disabled,unavailable ]
+    description: "enabled: the service is up&running, disabled: the service is not running at the moment,unavailable: the service is not available"

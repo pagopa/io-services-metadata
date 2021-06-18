@@ -7,7 +7,7 @@
 Create a `id.png` PNG image with dimensions of 400x400 pixels, where `id` (in lower case) is the **ID** of the service, e.g **abcedef0123.png**
 
 You can find the **ID** in the service detail screen in the IO app
-![Service Logo how to](id_service.png)
+<img src="id_service.png" height="600"/>
 
 ## Compress the logo
 

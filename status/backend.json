@@ -6,7 +6,8 @@
   },
   "config": {
     "bpd_ranking": false,
-    "bpd_ranking_v2": true
+    "bpd_ranking_v2": true,
+    "cgn_merchants_v2": false
   },
   "sections": {
     "email_validation": {
@@ -25,24 +26,24 @@
       "is_visible": false,
       "level": "normal",
       "message": {
-        "it-IT": "Le transazioni valide degli ultimi giorni saranno presto visibili, insieme al calcolo del Cashback",
-        "en-EN": "Valid transactions from the last few days will soon be visible, along with the Cashback calculation"
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
       }
     },
     "messages": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status/en"
+        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
+        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
       },
       "message": {
-        "it-IT": "Potrebbero esserci disservizi sui pagamenti e sull'aggiunta dei metodi",
-        "en-EN": "There may be disruptions on payments and adding methods"
+        "it-IT": "L’invio dei Certificati Verdi è in corso e potrebbe richiedere diversi giorni.",
+        "en-EN": "EU Digital COVID Certificates delivery is ongoing and may take several days."
       }
     },
     "services": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
@@ -50,19 +51,23 @@
       }
     },
     "login": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
+        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
+      },
       "message": {
-        "it-IT": "L'autenticazione tramite CIE è attualmente in manutenzione",
-        "en-EN": "The CIE authentication system is currently under maintenance"
+        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
+        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
       }
     },
     "wallets": {
       "is_visible": false,
-      "level": "warning",
+      "level": "normal",
       "message": {
-        "it-IT": "Potrebbero esserci dei temporanei rallentamenti nella consultazione del Cashback",
-        "en-EN": "The Cashback service may be slowed down"
+        "it-IT": "I pagamenti in app potrebbero non funzionare, siamo al lavoro per risolvere il problema.",
+        "en-EN": "In-app payments may not work, we are working to solve this issue."
       }
     },
     "ingress": {
@@ -143,6 +148,14 @@
       "badge": {
         "it-IT": "",
         "en-EN": ""
+      }
+    },
+    "euCovidCert": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": "."
       }
     }
   }

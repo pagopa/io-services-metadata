@@ -43,6 +43,7 @@ const Sections = t.interface({
   credit_card: SectionStatus,
   digital_payments: SectionStatus,
   email_validation: SectionStatus,
+  euCovidCert: SectionStatus,
   ingress: SectionStatus,
   login: SectionStatus,
   messages: SectionStatus,
@@ -56,7 +57,8 @@ export type Sections = t.TypeOf<typeof Sections>;
 const Config = t.interface({
   // bpd_ranking is legacy, don't use it anymore see https://www.pivotaltracker.com/story/show/176498731
   bpd_ranking: t.boolean,
-  bpd_ranking_v2: t.boolean
+  bpd_ranking_v2: t.boolean,
+  cgn_merchants_v2: t.boolean
 });
 
 export type Config = t.TypeOf<typeof Config>;

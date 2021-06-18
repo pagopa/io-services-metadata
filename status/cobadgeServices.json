@@ -844,10 +844,6 @@
         "name": "B.C.C. DI GAUDIANO DI LAVELLO"
       },
       {
-        "abi": "08562",
-        "name": "BANCA DI PISA E FORNACETTE CREDITO COOPERATIVO SOC. COOP. PER AZIONI"
-      },
-      {
         "abi": "08572",
         "name": "B.C.C. DI GAMBATESA"
       },
@@ -1126,10 +1122,6 @@
     "status" : "enabled",
     "issuers" : [
       {
-        "abi": "06225",
-        "name": "CASSA DI RISPARMIO DEL VENETO"
-      },
-      {
         "abi": "01010",
         "name": "BANCO DI NAPOLI S.P.A."
       },
@@ -1280,7 +1272,7 @@
     ]
   },
   "POSTE":{
-    "status" : "disabled",
+    "status" : "enabled",
     "issuers" : [
       {
         "abi": "07601",

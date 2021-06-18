@@ -1,4 +1,5 @@
 import {
+  decodeForeignCountry,
   decodeMunicipality,
   parseCsvMunicipality
 } from "../utils/municipality";
@@ -37,6 +38,24 @@ const validMunicipalityCsvRow: ReadonlyArray<string> = [
   "ITI43"
 ];
 
+const validForeignCountryCsvRow: ReadonlyArray<string> = [
+  "S",
+  "5",
+  "Oceania",
+  "50",
+  "Oceania",
+  "719",
+  "Nuova Zelanda",
+  "New Zealand",
+  "719",
+  "Z719",
+  "554",
+  "NZ",
+  "NZL",
+  "",
+  ""
+];
+
 const invalidMunicipalityCsvRow: ReadonlyArray<string> = [
   "12",
   "258",
@@ -70,6 +89,16 @@ describe("decode Municipality", () => {
     if (validMunicipality.isRight()) {
       expect(validMunicipality.value.denominazioneInItaliano).toEqual(
         "Subiaco"
+      );
+    }
+  });
+
+  it("should recognize a valid Foreign Country csv row", () => {
+    const validForeignCountry = decodeForeignCountry(validForeignCountryCsvRow);
+    expect(validForeignCountry.isRight()).toBeTruthy();
+    if (validForeignCountry.isRight()) {
+      expect(validForeignCountry.value.denominazioneInItaliano).toEqual(
+        "Nuova Zelanda"
       );
     }
   });

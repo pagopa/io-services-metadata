@@ -1,0 +1,177 @@
+# Azure DevOps pipeline for validating and testing the tools implemented in this
+# repositories and for publishing the data to a CDN.
+#
+# The main goal of this pipeline is the uploading of the files from this repository 
+# to a container on Azure storage account that is served up via the static website 
+# support and fronted via an Azure CDN. 
+# 
+# WARNING. The current implementation is based on DevOps AzureFileCopy task that  
+# copies the new files up to Azure Storage overwriting the existing ones but never 
+# removes the old files.
+# In most scenarios, this is not a problem and avoid to remove assets that could be
+# still requested by old client versions (e.g. mobile apps). By the way, in the
+# future we could add the option to copy out the new files, update existing files 
+# and remove the ones that no longer exist (using AzCopy sync command). 
+#
+# To enable the copying of data to the remote blob container, you first have to 
+# set the following pipeline variable to true, otherwise all jobs will be skipped 
+# regardless the environment:
+# - ENABLE_DATA_COPY = true
+#
+# The following parameters needs to be set to identify the target environment where
+# copying the GitHub content for the specified branch (tipically master):
+# - PRODUCTION_ENABLE_DATA_COPY: true || false   (default is true)
+# - TEST_ENABLE_DATA_COPY:       true || false   (default is false)
+#
+# The following pipeline variables have to be added and configured based on the
+# environment:
+# - PRODUCTION_AZURE_SUBSCRIPTION: service connection name
+# - PRODUCTION_STORAGE_ACCOUNT_NAME: storage account name
+#
+# - TEST_AZURE_SUBSCRIPTION: service connection name for test only
+# - TEST_STORAGE_ACCOUNT_NAME: storage account name for test only
+
+parameters:
+  - name: 'PRODUCTION_ENABLE_DATA_COPY'
+    displayName: 'Copy files in production environment'
+    type: boolean
+    default: true
+
+  - name: 'TEST_ENABLE_DATA_COPY'
+    displayName: 'Copy files in test environment'
+    type: boolean
+    default: false
+
+variables:
+  - name: BLOB_CONTAINER_NAME
+    value: '$web'
+  - name: EXCLUDE_PATH
+    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git'
+  - name: NODE_VERSION
+    value: '8.11.3'
+  - name: YARN_CACHE_FOLDER
+    value: $(Pipeline.Workspace)/.yarn
+
+# Linux is the preferred VM because jobs are run faster 
+# Use Windows VM only for publishing because the AzureFileCopy task is supported only on that OS
+pool:
+  vmImage: 'ubuntu-latest'
+
+# This pipeline can be manually run on any branch or is automatically triggered  
+# in production whenever a push is made to the 'master' branch.
+trigger:
+  branches:
+    include:
+      - '*'
+
+stages:
+  # A) Code validation
+  - stage: Validation
+    dependsOn: []
+    jobs:            
+      # A1) Analyze source code to find errors with lint
+      - job: lint   
+        steps:
+        - template: azure-templates/make-build-steps.yml
+          parameters:
+            make: install_dependencies
+
+        - script: |
+            yarn lint
+          displayName: 'Lint'
+
+      # A2) Run Danger (skipping if not executing on a PR): TO ADD in devDependencies 
+
+
+  # B) Run unit tests if there is a push or pull request on any branch.
+  - stage: Test
+    dependsOn: []
+    jobs:
+      - job: unit_tests
+        steps:
+        - template: azure-templates/make-build-steps.yml
+          parameters:
+            make: install_dependencies
+
+        - bash: |
+            bash <(curl -s https://codecov.io/bash)
+          displayName: 'Code coverage'
+
+
+  # C) Copy data from this repository to the storage to make them available on CDN nodes in PROD
+  - ${{ if eq(parameters.PRODUCTION_ENABLE_DATA_COPY, true) }}:
+    - stage: Publish_production
+      condition: 
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
+            )
+          )
+        )
+      pool:
+        vmImage: 'windows-2019'
+      dependsOn:
+        - Validation
+        - Test
+      jobs:
+        - job: publish_assets_prod
+          steps:  
+            - task: AzureFileCopy@4
+              inputs:
+                SourcePath: '$(System.DefaultWorkingDirectory)/*'
+                azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+                Destination: 'AzureBlob'
+                storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+                ContainerName: '$(BLOB_CONTAINER_NAME)'
+                AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+              displayName: Copy to container blob ($(PRODUCTION_STORAGE_ACCOUNT_NAME))
+
+            - task: AzureCLI@1
+              displayName: 'Purge CDN'
+              inputs:
+                azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+                scriptLocation: inlineScript
+                inlineScript: |
+                  call az cdn endpoint purge -g $(PRODUCTION_RESOURCE_GROUP) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+
+  # D) Copy data from this repository to the storage to make them available on CDN nodes in TEST
+  - ${{ if eq(parameters.TEST_ENABLE_DATA_COPY, true) }}:
+    - stage: Publish_test
+      condition:
+        and(
+          succeeded(),
+          and (
+            eq(variables['ENABLE_DATA_COPY'], true),
+            or(
+              and(
+                eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+                ne(variables['Build.Reason'], 'Manual')
+              ),
+              eq(variables['Build.Reason'], 'Manual')
+            )
+          )
+        )
+      pool:
+        vmImage: 'windows-2019'  
+      dependsOn:
+        - Validation
+        - Test
+      jobs:
+        - job: publish_assets_test
+          steps:  
+            - task: AzureFileCopy@4
+              inputs:
+                SourcePath: '$(System.DefaultWorkingDirectory)/*'
+                azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'
+                Destination: 'AzureBlob'
+                storage: '$(TEST_STORAGE_ACCOUNT_NAME)'
+                ContainerName: '$(BLOB_CONTAINER_NAME)'
+                AdditionalArgumentsForBlobCopy: '--recursive --exclude-path "$(EXCLUDE_PATH)"'
+              displayName: Copy to container blob ($(TEST_STORAGE_ACCOUNT_NAME))

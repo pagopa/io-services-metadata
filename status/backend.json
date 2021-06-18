@@ -1,0 +1,162 @@
+{
+  "is_alive": true,
+  "message": {
+    "it-IT": "",
+    "en-EN": "English message"
+  },
+  "config": {
+    "bpd_ranking": false,
+    "bpd_ranking_v2": true,
+    "cgn_merchants_v2": false
+  },
+  "sections": {
+    "email_validation": {
+      "is_visible": false,
+      "level": "critical",
+      "web_url": {
+        "it-IT": "https://io.italia.it/status/#2012081628",
+        "en-EN": "https://io.italia.it/status/en/#2012081628"
+      },
+      "message": {
+        "it-IT": "Il messaggio di validazione indirizzo email potrebbe arrivare dopo diverse ore.",
+        "en-EN": "The email validation message may arrive after several hours."
+      }
+    },
+    "cashback": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
+        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
+      }
+    },
+    "messages": {
+      "is_visible": true,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
+        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
+      },
+      "message": {
+        "it-IT": "L’invio dei Certificati Verdi è in corso e potrebbe richiedere diversi giorni.",
+        "en-EN": "EU Digital COVID Certificates delivery is ongoing and may take several days."
+      }
+    },
+    "services": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
+        "en-EN": "We're updating local services. The list will be back soon."
+      }
+    },
+    "login": {
+      "is_visible": true,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
+        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
+      },
+      "message": {
+        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
+        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
+      }
+    },
+    "wallets": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "I pagamenti in app potrebbero non funzionare, siamo al lavoro per risolvere il problema.",
+        "en-EN": "In-app payments may not work, we are working to solve this issue."
+      }
+    },
+    "ingress": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
+        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+      }
+    },
+    "bancomat": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "satispay": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "bancomatpay": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "credit_card": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "Per il grande numero di richieste, la verifica della tua carta potrebbe subire dei rallentamenti",
+        "en-EN": "Due to the big number of requests, the card verification process may be slowed down"
+      },
+      "badge": {
+        "it-IT": "possibili rallentamenti",
+        "en-EN": "possible slowdowns"
+      }
+    },
+    "digital_payments": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "cobadge": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "euCovidCert": {
+      "is_visible": false,
+      "level": "normal",
+      "message": {
+        "it-IT": "",
+        "en-EN": "."
+      }
+    }
+  }
+}

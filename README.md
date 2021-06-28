@@ -24,7 +24,7 @@ This repository contains data and metadata for services used by the IO app.
 1. Commit, push and create a Pull Request
 
 > It could happen some municipalities are missing. For those cases simply add the json files in the relative folder
-> ex: a municipality with codice castale code `C234`:
+> ex: a municipality with codice catastale code `C234`:
 > - create a json file `C234.json`
 > - add it inside `municipalities/C/2`
 > - run `yarn update_municipalites` to execute an healty check on the added data

@@ -63,11 +63,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "I pagamenti in app potrebbero non funzionare, siamo al lavoro per risolvere il problema.",
-        "en-EN": "In-app payments may not work, we are working to solve this issue."
+        "it-IT": "Hai tempo fino alle 23 per verificare l'IBAN a cui riceverai l'eventuale Cashback accumulato.",
+        "en-EN": "Please verify the IBAN to which you will receive any collected Cashback by 11pm."
       }
     },
     "ingress": {

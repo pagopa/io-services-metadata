@@ -66,8 +66,8 @@
       "is_visible": true,
       "level": "normal",
       "message": {
-        "it-IT": "Hai tempo fino alle 23 del 30/6 per verificare l'IBAN a cui riceverai l'eventuale Cashback accumulato.",
-        "en-EN": "Until 11 pm on 30/6, you can check the IBAN at which you may receive your Cashback."
+        "it-IT": "Hai tempo fino alle 23 per verificare l'IBAN a cui riceverai l'eventuale Cashback accumulato.",
+        "en-EN": "Please verify the IBAN to which you will receive your Cashback by 11pm."
       }
     },
     "ingress": {

@@ -63,7 +63,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Hai tempo fino alle 23 per verificare l'IBAN a cui riceverai l'eventuale Cashback accumulato.",

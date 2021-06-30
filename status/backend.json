@@ -23,11 +23,11 @@
       }
     },
     "cashback": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 potrebbero esserci dei disservizi nella consultazione del Cashback.",
-        "en-EN": "Between 10pm and 10:30pm there may be disruptions in accessing Cashback."
+        "it-IT": "Il prossimo periodo del Cashback inizierà il 1° gennaio 2022.",
+        "en-EN": "The next Cashback period will begin on January 1, 2022."
       }
     },
     "messages": {
@@ -63,7 +63,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "Hai tempo fino alle 23 per verificare l'IBAN a cui riceverai l'eventuale Cashback accumulato.",

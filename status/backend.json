@@ -25,9 +25,13 @@
     "cashback": {
       "is_visible": true,
       "level": "warning",
+      "web_url": {
+        "it-IT": "https://io.italia.it/cashback/faq/",
+        "en-EN": "https://io.italia.it/cashback/faq/"
+      },
       "message": {
-        "it-IT": "Il prossimo periodo del Cashback inizierà il 1° gennaio 2022.",
-        "en-EN": "The next Cashback period will begin on January 1, 2022."
+        "it-IT": "Il periodo del Cashback dall’1/07 al 31/12/21 è sospeso.",
+        "en-EN": "The Cashback period from 1/07 to 31/12/21 is suspended."
       }
     },
     "messages": {
@@ -65,9 +69,13 @@
     "wallets": {
       "is_visible": true,
       "level": "warning",
+      "web_url": {
+        "it-IT": "https://io.italia.it/cashback/faq/",
+        "en-EN": "https://io.italia.it/cashback/faq/"
+      },
       "message": {
-        "it-IT": "Il prossimo periodo del Cashback inizierà il 1° gennaio 2022.",
-        "en-EN": "The next Cashback period will begin on January 1, 2022."
+        "it-IT": "Il periodo del Cashback dall’1/07 al 31/12/21 è sospeso.",
+        "en-EN": "The Cashback period from 1/07 to 31/12/21 is suspended."
       }
     },
     "ingress": {

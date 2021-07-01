@@ -615,7 +615,7 @@
             ]
          },
          {
-            "route_name": "WALLET_CARD_TRANSACTION",
+            "route_name": "WALLET_PAYMENT_METHOD_DETAIL",
             "title": "La tua carta di debito (o credito)",
             "content": "Questa è la schermata di dettaglio della tua carta di debito (o credito). Sulla carta sono rappresentati il logo del circuito, l'intestatario, la data di scadenza e le ultime 4 cifre della carta.",
             "faqs": [

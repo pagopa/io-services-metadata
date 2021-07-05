@@ -64,7 +64,7 @@ const BpdConfig = t.interface({
 
 // it represents a remote config to switch on/off a specific section,feature,module,etc
 const Config = t.interface({
-  bpd_config: BpdConfig,
+  bpd: BpdConfig,
   // bpd_ranking is legacy, don't use it anymore see https://www.pivotaltracker.com/story/show/176498731
   bpd_ranking: t.boolean,
   bpd_ranking_v2: t.boolean,

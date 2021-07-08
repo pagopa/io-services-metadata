@@ -3,6 +3,83 @@
    "it": {
       "screens": [
          {
+        "route_name": "MESSAGE_DETAIL",
+        "title": "Dettagli del messaggio",
+        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai  dubbi o delle domande sul conenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
+        "faqs": [
+          {
+            "title": "Questo messaggio non ti interessa?",
+            "body": "Su IO è possibile disattivare la comunicazione dai servizi che non ti interessano in qualsiasi momento: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi)."
+          },
+          {
+            "title": "C'è un errore nella comunicazione che hai ricevuto?",
+            "body": "Se pensi che ci sia un errore nel messaggio che hai ricevuto, puoi utilizzare i recapiti di contatto dell'ente erogatore del servizio per fare una segnalazione o chiedere chiarimenti. \nI recapiti sono disponibili dall'area dettagli del messaggio oppure nella sezione 'Servizi' dell'app IO, selezionando lo specifico ente e servizio in questione. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+          },
+          {
+            "title": "Questo ente ha il permesso di scriverti?",
+            "body": "Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Profilo > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
+          },
+          {
+            "title": "Vuoi contattare l'ente?",
+            "body": "Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+          }
+        ]
+      },
+      {
+        "route_name": "SERVICES_HOME",
+        "title": "Cosa puoi fare nei tuoi Servizi",
+        "content": "Qui puoi visualizzare la lista dei servizi nazionali o locali disponibili su IO. \nPremi sul nome di un servizio per visualizzarne i dettagli.",
+        "faqs": [
+          {
+            "title": "Come gestire i servizi su IO?",
+            "body": "SUtilizza le configurazioni disponibili nella sezione 'Profilo > Preferenze > Gestione servizi', oppure le opzioni contenute nel dettaglio di ciascun servizio per decidere come riceverne le comunicazioni (messaggio in app, notifica push, inoltro del messaggio via e-mail). \n \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti."
+          },
+          {
+            "title": "Puoi contattare gli enti tramite IO?",
+            "body": "Non puoi direttamente contattare gli enti dall'app IO ma puoi visualizzare le loro informazioni di contatto all'interno della sezione 'Servizi', nella scheda di ciascun servizio."
+          }
+        ]
+      },
+      {
+        "route_name": "SERVICE_DETAIL",
+        "title": "Dettagli del Servizio",
+        "content": "In questa schermata puoi visualizzare la descrizione del servizio, l'informativa privacy e condizioni d'uso, i dati di contatto dell'ente o del servizio e puoi configurare le modalità di comunicazione per questo specifico servizio. \n \nRicorda che su IO ti scriveranno solo servizi che hanno qualche informazione personalizzata da comunicarti: non riceverai messaggi di spam o contenuti che non ti riguardano direttamente. \n \nSe vuoi comunque impedire al servizio di contattarti puoi farlo nell'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nDa questa pagina puoi inoltre gestire l'invio di notifiche push e l'inoltro dei messaggi anche al tuo indirizzo e-mail.",
+        "faqs": [
+          {
+            "title": "Cosa succede se disattivi un servizio?",
+            "body": "Non riceverai più le comunicazioni di quello specifico servizio nell'app IO. L'ente che eroga il servizio potrà comunque contattarti o essere contattato attraverso altri canali quali sito, email, numero di telefono o ufficio di pertinenza."
+          },
+          {
+            "title": "Come funzionano le notifiche push?",
+            "body": "Le notifiche push ti informano che è arrivato un nuovo messaggio nell'app IO, e ti invitano a procedere alla lettura. \n \nSe preferisci disattivarle, disabilita nell'area 'Questo servizio può' l'opzione 'Inviarti notifiche push'. Nella sezione Messaggi potrai comunque distinguere i messaggi non letti grazie al pallino blu."
+          },
+          {
+            "title": "Come funziona l'inoltro via email dei messaggi?",
+            "body": "Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO. \nL'inoltro via mail non è disponibile per alcuni servizi, sulla base di decisioni prese dall'ente in merito alla sensibilità dei contenuti del messaggio stesso."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_EMAIL FORWARD",
+        "title": "Come gestire l'inoltro dei messaggi",
+        "content": "Qui puoi abilitare o disabilitare l'inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_SERVICES",
+        "title": "Gestisci servizi in app",
+        "content": "Qui puoi decidere come gestire la comunicazione dei servizi. \nL'app IO vuole essere un canale di comunicazione aggiuntivo per gli enti nazionali o locali che hanno qualcosa da dire proprio a te. \nNon manda messaggi broadcast o spam e per questo ti consigliamo di utilizzare la configurazione rapida, mantenendo la comunicazione dei servizi sempre attiva.",
+        "faqs": [
+          {
+            "title": "Perché dovrei usare la configurazione rapida?",
+            "body": "Perchè IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \nSe decidi comunque di usare la configurazione manuale, sappi che gli enti potranno contattarti attraverso i canali tradizionali a loro disposizione."
+          },
+          {
+            "title": "Cosa succede se utilizzo la confgurazione manuale?",
+            "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. \nPer ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \nAttenzione! Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
+          }
+        ]
+      },
+         {
             "route_name": "EUCOVIDCERT_CERTIFICATE",
             "title": "La tua Certificazione Verde COVID-19",
             "content": "Questo è il messaggio contenente il codice QR e tutte le informazioni relative alla tua Certificazione Verde COVID-19, il documento che attesta un vaccino, l'esito di un tampone o l'avvenuta guarigione da COVID-19 e che permette di circolare in sicurezza in Italia e in Europa",

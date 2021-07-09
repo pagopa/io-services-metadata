@@ -5,7 +5,7 @@
          {
         "route_name": "MESSAGE_DETAIL",
         "title": "Dettagli del messaggio",
-        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai  dubbi o delle domande sul conenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
+        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai  dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
           {
             "title": "Questo messaggio non ti interessa?",
@@ -32,7 +32,7 @@
         "faqs": [
           {
             "title": "Come gestire i servizi su IO?",
-            "body": "SUtilizza le configurazioni disponibili nella sezione 'Profilo > Preferenze > Gestione servizi', oppure le opzioni contenute nel dettaglio di ciascun servizio per decidere come riceverne le comunicazioni (messaggio in app, notifica push, inoltro del messaggio via e-mail). \n \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti."
+            "body": "Utilizza le configurazioni disponibili nella sezione 'Profilo > Preferenze > Gestione servizi', oppure le opzioni contenute nel dettaglio di ciascun servizio per decidere come riceverne le comunicazioni (messaggio in app, notifica push, inoltro del messaggio via e-mail). \n \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti."
           },
           {
             "title": "Puoi contattare gli enti tramite IO?",
@@ -60,7 +60,7 @@
         ]
       },
       {
-        "route_name": "PROFILE_PREFERENCES_EMAIL FORWARD",
+        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
         "title": "Come gestire l'inoltro dei messaggi",
         "content": "Qui puoi abilitare o disabilitare l'inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
       },
@@ -74,7 +74,7 @@
             "body": "Perchè IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \nSe decidi comunque di usare la configurazione manuale, sappi che gli enti potranno contattarti attraverso i canali tradizionali a loro disposizione."
           },
           {
-            "title": "Cosa succede se utilizzo la confgurazione manuale?",
+            "title": "Cosa succede se utilizzo la configurazione manuale?",
             "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. \nPer ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \nAttenzione! Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
           }
         ]

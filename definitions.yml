@@ -282,6 +282,10 @@ definitions:
       - is_alive
       - message
     properties:
+      config:
+        $ref: "#/definitions/Config"
+      sections:
+        $ref: "#/definitions/Sections"
       is_alive:
         type: boolean
       message:
@@ -297,3 +301,99 @@ definitions:
         type: string
       en-EN:
         type: string
+  Sections:
+    type: object
+    description: The status of the app sections
+    required:
+      - bancomat
+      - bancomatpay
+      - cashback
+      - cobadge
+      - credit_card
+      - digital_payments
+      - email_validation
+      - euCovidCert
+      - ingress
+      - login
+      - messages
+      - satispay
+      - services
+      - wallets
+    properties:
+      bancomat:
+        $ref: "#/definitions/SectionStatus"
+      bancomatpay:
+        $ref: "#/definitions/SectionStatus"
+      cashback:
+        $ref: "#/definitions/SectionStatus"
+      cobadge:
+        $ref: "#/definitions/SectionStatus"
+      credit_card:
+        $ref: "#/definitions/SectionStatus"
+      digital_payments:
+        $ref: "#/definitions/SectionStatus"
+      email_validation:
+        $ref: "#/definitions/SectionStatus"
+      euCovidCert:
+        $ref: "#/definitions/SectionStatus"
+      ingress:
+        $ref: "#/definitions/SectionStatus"
+      login:
+        $ref: "#/definitions/SectionStatus"
+      messages:
+        $ref: "#/definitions/SectionStatus"
+      satispay:
+        $ref: "#/definitions/SectionStatus"
+      services:
+        $ref: "#/definitions/SectionStatus"
+      wallets:
+        $ref: "#/definitions/SectionStatus"
+  SectionStatus:
+    type: object
+    description: The status of a specific app section
+    required:
+      - is_visible
+      - level
+      - message
+    properties:
+      badge:
+        $ref: "#/definitions/BackendStatusMessage"
+      web_url:
+        $ref: "#/definitions/BackendStatusMessage"
+      is_visible:
+        type: boolean
+      message:
+        $ref: "#/definitions/BackendStatusMessage"
+      level:
+        type: string
+        x-extensible-enum:
+          - critical
+          - warning
+          - normal
+  Config:
+    type: object
+    description: A remote config to enable/disable specific app features
+    required:
+      - bpd
+      - bpd_ranking
+      - bpd_ranking_v2
+      - cgn_merchants_v2
+    properties:
+      bpd:
+        $ref: "#/definitions/BpdConfig"
+      bpd_ranking:
+        description: "bpd_ranking is legacy, don't use it anymore see https://www.pivotaltracker.com/story/show/176498731"
+        type: boolean
+      bpd_ranking_v2:
+        type: boolean
+      cgn_merchants_v2:
+        type: boolean
+  BpdConfig:
+    type: object
+    description: A specific config for BPD bonus
+    required:
+      - enroll_bpd_after_add_payment_method
+    properties:
+      enroll_bpd_after_add_payment_method:
+        type: boolean
+

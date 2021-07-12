@@ -281,6 +281,8 @@ definitions:
     required:
       - is_alive
       - message
+      - sections
+      - config
     properties:
       config:
         $ref: "#/definitions/Config"

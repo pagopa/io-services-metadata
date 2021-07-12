@@ -51,7 +51,7 @@
       }
     },
     "services": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
         "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",

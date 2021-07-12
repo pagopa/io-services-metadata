@@ -275,3 +275,25 @@ definitions:
         type: string
       isTestIdp:
         type: boolean
+  BackendStatus:
+    type: object
+    description: "A complex object representing multiple things: backend status, section status (a.k.a IO-App banners), remote config"
+    required:
+      - is_alive
+      - message
+    properties:
+      is_alive:
+        type: boolean
+      message:
+        $ref: "#/definitions/BackendStatusMessage"
+  BackendStatusMessage:
+    type: object
+    description: The message shown in IO-App when the backend is not alive
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+      en-EN:
+        type: string

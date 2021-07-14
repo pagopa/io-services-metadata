@@ -321,6 +321,7 @@ definitions:
       - satispay
       - services
       - wallets
+      - favourite_language
     properties:
       bancomat:
         $ref: "#/definitions/SectionStatus"

@@ -351,6 +351,8 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       wallets:
         $ref: "#/definitions/SectionStatus"
+      favourite_language:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section

@@ -404,5 +404,5 @@ definitions:
         description: "If true and the user is not enrolled to the cashback, the user is asked to activate the cashback after adding a new payment method"
         type: boolean
       program_active:
-        description: "If true, the cashback program is active and all the related in app functionalities are activess"
+        description: "If true, the cashback program is active and all the related in app functionalities are enabled"
         type: boolean

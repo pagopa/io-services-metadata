@@ -10,7 +10,8 @@
     "cgn_merchants_v2": false,
     "bpd":
     {
-      "enroll_bpd_after_add_payment_method": false
+      "enroll_bpd_after_add_payment_method": false,
+      "program_active": true
     }
   },
   "sections": {

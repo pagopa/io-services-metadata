@@ -172,11 +172,15 @@
       }
     },
     "favourite_language": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "normal",
+      "web_url": {
+        "it-IT": "https://github.com/pagopa/io-app/issues/new/choose",
+        "en-EN": "https://github.com/pagopa/io-app/issues/new/choose"
+      },
       "message": {
-        "it-IT": "",
-        "en-EN": ""
+        "it-IT": "La traduzione in tedesco è in corso. Contribuisci su GitHub!",
+        "en-EN": "German translation is in progress. Contribute on GitHub!"
       }
     }
   }

@@ -1818,80 +1818,6 @@
           }
         ]
       }
-    },
-    "/v1/wallet/{idWallet}/payment-status": {
-      "post": {
-        "summary": "change the ability to pay",
-        "operationId": "changePayOption",
-        "parameters": [
-          {
-            "in": "path",
-            "name": "idWallet",
-            "type": "integer",
-            "required": true,
-            "description": "Numeric ID of the wallet"
-          },
-          {
-            "in": "body",
-            "name": "payRequest",
-            "description": "New Status required",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/WalletPaymentstatus"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "New wallet State",
-            "schema": {
-              "$ref": "#/definitions/WalletPaymentstatus"
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {}
-          },
-          "404": {
-            "description": "Not Found or Wallet not assigned to the user",
-            "content": {}
-          },
-          "500": {
-            "description": "Internal Server Error",
-            "content": {}
-          }
-        }
-      },
-      "get": {
-        "summary": "get the ability to pay (optional)",
-        "operationId": "getPayOption",
-        "parameters": [
-          {
-            "in": "path",
-            "name": "idWallet",
-            "type": "integer",
-            "required": true,
-            "description": "Numeric ID of the wallet"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Info about cryptographic hash function used with wallets",
-            "schema": {
-              "$ref": "#/definitions/WalletPaymentstatus"
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "404": {
-            "description": "Not Found or Wallet not assigned to the user"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
     }
   },
   "securityDefinitions": {
@@ -3222,17 +3148,6 @@
         }
       },
       "title": "WalletV2Response"
-    },
-    "WalletPaymentstatus": {
-      "type": "object",
-      "required": [
-        "pagoPA"
-      ],
-      "properties": {
-        "pagoPA": {
-          "type": "boolean"
-        }
-      }
     },
     "Xpay3DSResponse": {
       "type": "object",

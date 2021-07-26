@@ -1860,7 +1860,12 @@
             "description": "Internal Server Error",
             "content": {}
           }
-        }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
       },
       "get": {
         "summary": "get the ability to pay (optional)",
@@ -1890,7 +1895,12 @@
           "500": {
             "description": "Internal Server Error"
           }
-        }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
       }
     }
   },

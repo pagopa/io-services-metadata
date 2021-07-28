@@ -182,6 +182,18 @@
         "it-IT": "La traduzione in tedesco è in corso. Contribuisci su GitHub!",
         "en-EN": "German translation is in progress. Contribute on GitHub!"
       }
+    },
+    "app_update_required": {
+      "is_visible": false,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      }
     }
   }
 }

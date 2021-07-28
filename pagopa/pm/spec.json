@@ -3198,6 +3198,17 @@
       },
       "title": "WalletV2Response"
     },
+    "WalletPaymentstatus": {
+      "type": "object",
+      "required": [
+        "pagoPA"
+      ],
+      "properties": {
+        "pagoPA": {
+          "type": "boolean"
+        }
+      }
+    },
     "Xpay3DSResponse": {
       "type": "object",
       "properties": {

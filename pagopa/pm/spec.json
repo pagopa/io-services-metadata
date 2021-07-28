@@ -1845,7 +1845,7 @@
           "200": {
             "description": "New wallet State",
             "schema": {
-              "$ref": "#/definitions/WalletResponse"
+              "$ref": "#/definitions/WalletV2Response"
             }
           },
           "400": {

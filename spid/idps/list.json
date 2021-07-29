@@ -4,7 +4,7 @@
             "id": "arubaid",
             "name": "Aruba",
             "logo":  "https://assets.cdn.io.italia.it/spid/idps/spid-idp-arubaid.png",
-            "profileUrl": "http://selfcarespid.aruba.it"
+            "profileUrl": "https://selfcarespid.aruba.it"
           },
           {
             "id": "infocertid",

@@ -1849,16 +1849,13 @@
             }
           },
           "400": {
-            "description": "Bad Request",
-            "content": {}
+            "description": "Bad Request"
           },
           "404": {
-            "description": "Not Found or Wallet not assigned to the user",
-            "content": {}
+            "description": "Not Found or Wallet not assigned to the user"
           },
           "500": {
-            "description": "Internal Server Error",
-            "content": {}
+            "description": "Internal Server Error"
           }
         },
         "security": [

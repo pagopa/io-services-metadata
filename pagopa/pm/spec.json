@@ -1819,7 +1819,7 @@
         ]
       }
     },
-    "/v1/wallet/{idWallet}/payment-status": {
+    "/v2/wallet/{idWallet}/payment-status": {
       "put": {
         "summary": "change the ability to pay",
         "operationId": "changePayOption",

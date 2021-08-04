@@ -322,6 +322,7 @@ definitions:
       - services
       - wallets
       - favourite_language
+      - app_update_required
     properties:
       bancomat:
         $ref: "#/definitions/SectionStatus"
@@ -352,6 +353,8 @@ definitions:
       wallets:
         $ref: "#/definitions/SectionStatus"
       favourite_language:
+        $ref: "#/definitions/SectionStatus"
+      app_update_required:
         $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object

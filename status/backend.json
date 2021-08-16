@@ -40,15 +40,11 @@
       }
     },
     "messages": {
-      "is_visible": false,
-      "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "L’invio dei Certificati Verdi è in corso e potrebbe richiedere diversi giorni.",
-        "en-EN": "EU Digital COVID Certificates delivery is ongoing and may take several days."
+        "it-IT": "È in corso una manutenzione programmata: IO tornerà presto disponibile.",
+        "en-EN": "Scheduled maintenance is in progress: IO services will be back soon."
       }
     },
     "services": {
@@ -62,13 +58,9 @@
     "login": {
       "is_visible": true,
       "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
       "message": {
-        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
-        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
+        "it-IT": "È in corso una manutenzione programmata: IO tornerà presto disponibile.",
+        "en-EN": "Scheduled maintenance is in progress: IO services will be back soon."
       }
     },
     "wallets": {
@@ -84,11 +76,11 @@
       }
     },
     "ingress": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "È in corso una manutenzione programmata: IO tornerà presto disponibile.",
+        "en-EN": "Scheduled maintenance is in progress: IO services will be back soon."
       }
     },
     "bancomat": {

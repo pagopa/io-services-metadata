@@ -72,15 +72,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/cashback/faq/",
-        "en-EN": "https://io.italia.it/cashback/faq/"
-      },
       "message": {
-        "it-IT": "Il periodo del Cashback dall’1/07 al 31/12/21 è sospeso.",
-        "en-EN": "The Cashback period from 1/07 to 31/12/21 is suspended."
+        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
+        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
       }
     },
     "ingress": {

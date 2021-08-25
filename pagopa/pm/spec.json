@@ -1837,7 +1837,7 @@
             "description": "New Status required",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/WalletPaymentstatus"
+              "$ref": "#/definitions/WalletPaymentStatusRequest"
             }
           }
         ],

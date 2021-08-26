@@ -3124,6 +3124,14 @@
       },
       "title": "WalletResponse"
     },
+    "EnableableFunctionsEnum": {
+      "type": "string",
+      "enum": [
+        "pagoPA",
+        "BPD",
+        "FA"
+      ]
+    },
     "WalletV2": {
       "type": "object",
       "properties": {
@@ -3134,12 +3142,7 @@
         "enableableFunctions": {
           "type": "array",
           "items": {
-            "type": "string",
-            "enum": [
-              "pagoPA",
-              "BPD",
-              "FA"
-            ]
+            "$ref": "#/definitions/EnableableFunctionsEnum"
           }
         },
         "favourite": {

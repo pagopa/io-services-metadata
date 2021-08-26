@@ -1837,7 +1837,7 @@
             "description": "New Status required",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/WalletPaymentstatus"
+              "$ref": "#/definitions/WalletPaymentStatusRequest"
             }
           }
         ],
@@ -3195,16 +3195,26 @@
       },
       "title": "WalletV2Response"
     },
-    "WalletPaymentstatus": {
+    "WalletPaymentStatus": {
       "type": "object",
-      "required": [
-        "pagoPA"
-      ],
       "properties": {
         "pagoPA": {
           "type": "boolean"
         }
-      }
+      },
+      "title": "WalletPaymentStatus"
+    },
+    "WalletPaymentStatusRequest": {
+      "type": "object",
+      "required": [
+        "data"
+      ],
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/WalletPaymentStatus"
+        }
+      },
+      "title": "WalletPaymentStatusRequest"
     },
     "Xpay3DSResponse": {
       "type": "object",

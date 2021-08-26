@@ -3124,7 +3124,7 @@
       },
       "title": "WalletResponse"
     },
-    "EnableableFunctionsEnum": {
+    "EnableableFunctions": {
       "type": "string",
       "enum": [
         "pagoPA",
@@ -3142,7 +3142,7 @@
         "enableableFunctions": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/EnableableFunctionsEnum"
+            "$ref": "#/definitions/EnableableFunctions"
           }
         },
         "favourite": {

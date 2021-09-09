@@ -72,11 +72,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
-        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
+        "it-IT": "Cashback in manutenzione. Torna a trovarci dalle 9:00.",
+        "en-EN": "Cashback is under scheduled maintenance until 9:00 am."
       }
     },
     "ingress": {

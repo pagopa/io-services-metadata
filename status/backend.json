@@ -73,7 +73,7 @@
     },
     "wallets": {
       "is_visible": true,
-      "level": "warning",
+      "level": "normal",
       "message": {
         "it-IT": "Cashback in manutenzione. Torna a trovarci dalle 9:00.",
         "en-EN": "Cashback is under scheduled maintenance until 9:00 am."

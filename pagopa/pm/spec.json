@@ -1864,6 +1864,42 @@
           }
         ]
       }
+    },
+    "/v2/wallet/delete-wallets": {
+      "delete": {
+        "operationId": "deleteWalletsByServiceUsingDELETE",
+        "parameters": [
+          {
+            "name": "service",
+            "in": "query",
+            "description": "service",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/DeletedWalletsResponse"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
+      }
     }
   },
   "securityDefinitions": {
@@ -3252,6 +3288,27 @@
         }
       },
       "title": "Xpay3DSResponse"
+    },
+    "DeletedWallets": {
+      "type": "object",
+      "properties": {
+        "deletedWallets": {
+          "type": "integer"
+        },
+        "notDeletedWallets": {
+          "type": "integer"
+        }
+      },
+      "title": "DeletedWallets"
+    },
+    "DeletedWalletsResponse": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/DeletedWallets"
+        }
+      },
+      "title": "DeletedWalletsResponse"
     }
   }
 }

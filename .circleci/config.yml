@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/repo
 
-node_cache_key: &node_cache_key v1-dependencies-{{ checksum "yarn.lock" }}
+node_cache_key: &node_cache_key v1.1-dependencies-{{ checksum "yarn.lock" }}
 
 defaults_js: &defaults_js
   <<: *defaults

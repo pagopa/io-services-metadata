@@ -12,7 +12,6 @@
     "update_indicepa": "ts-node src/update_indicepa.ts",
     "update_municipalities": "ts-node src/update_municipalities.ts",
     "update_services": "ts-node src/update_services.ts",
-    "check_services_webview_data": "ts-node src/checks/checkVisibleServicesWebView.ts",
     "check_contextual_help_data": "ts-node src/checks/checkContextualHelpData.ts",
     "check_idps_list_data": "ts-node src/checks/checkIdpsData.ts",
     "check_bonus_available_data": "ts-node src/checks/checkBonusAvailable.ts",
@@ -30,7 +29,7 @@
     "generate:pagopa-bpd-winning-transactions-v2": "rimraf ./generated/definitions/bpd/winningTransactionsv2 && mkdir -p generated/definitions/bpd/winningTransactionsv2 && gen-api-models --api-spec ./bonus/specs/bpd/winning_transactions_v2.json --out-dir ./generated/definitions/bpd/winningTransactionsv2 --no-strict --request-types --response-decoders",
     "generate:pagopa": "npm-run-all generate:pagopa-api-definitions generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions generate:pagopa-bpd-citizen-v2 generate:pagopa-bpd-winning-transactions-v2",
     "generate:all": "npm-run-all generate:content-definitions generate:pagopa",
-    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative check_services_webview_data"
+    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

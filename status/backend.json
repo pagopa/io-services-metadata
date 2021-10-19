@@ -55,44 +55,28 @@
         "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
-
-    
-
-
-    "services": {
+    "wallets": {
       "is_visible": false,
-      "level": "warning",
+      "level": "critical",
       "message": {
-        "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
-        "en-EN": "We're updating local services. The list will be back soon."
+        "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
+        "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
     "login": {
-      "is_visible": true,
-      "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
-      "message": {
-        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
-        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
-      }
-    },
-    "wallets": {
       "is_visible": false,
-      "level": "warning",
+      "level": "critical",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
-        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
+        "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
+        "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
     "ingress": {
       "is_visible": false,
-      "level": "warning",
+      "level": "critical",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
+        "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
     "bancomat": {

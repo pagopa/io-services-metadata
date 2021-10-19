@@ -41,16 +41,24 @@
     },
     "messages": {
       "is_visible": false,
-      "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
+      "level": "critical",
       "message": {
-        "it-IT": "L’invio dei Certificati Verdi è in corso e potrebbe richiedere diversi giorni.",
-        "en-EN": "EU Digital COVID Certificates delivery is ongoing and may take several days."
+        "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
+        "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
+    "services": {
+      "is_visible": false,
+      "level": "critical",
+      "message": {
+        "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
+        "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
+      }
+    },
+
+    
+
+
     "services": {
       "is_visible": false,
       "level": "warning",

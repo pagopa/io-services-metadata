@@ -40,7 +40,7 @@
       }
     },
     "messages": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",

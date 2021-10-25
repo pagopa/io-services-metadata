@@ -42,10 +42,6 @@
     "messages": {
       "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
       "message": {
         "it-IT": "Dalle 21:00 fino alle 23:30 l’app sarà in manutenzione, potresti riscontrare dei disservizi.",
         "en-EN": "From 9:00 pm to 11:30 pm, you might experience disruptions due to maintenance."

@@ -113,6 +113,10 @@
                   "body": "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
                },
                {
+                  "title": "Perchè il mio certificato ora risulta non più valido?",
+                  "body": "La durata della validità dei certificati è definita nella piattaforma nazionale del Ministero della Salute, che è responsabile del rilascio dei certificati. Consulta le FAQ dedicate sul sito [dgc.gov.it](https://www.dgc.gov.it/web/faq.html) per maggiori informazioni."
+               },
+               {
                   "title": "Fino a quando è valido il mio certificato su IO?",
                   "body": "Il certificato Verde su IO ha la stessa validità dei certificati ottenibili presso gli altri canali. La decisione sulla durata della validità dei certificati è indipendente da IO e spetta alle autorità competenti. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/) ed eventualmente il sito del Ministero della Salute [https://www.salute.gov.it](https://www.salute.gov.it) per maggiori informazioni."
                },
@@ -146,10 +150,6 @@
                {
                   "title": "Cosa succede se, dopo aver ricevuto il certificato, disattivo IO?",
                   "body": "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
-               },
-               {
-                  "title": "Perchè il mio certificato ora risulta non più valido?",
-                  "body": "La durata della validità dei certificati è definita nella piattaforma nazionale del Ministero della Salute, che è responsabile del rilascio dei certificati. Consulta le FAQ dedicate sul sito [dgc.gov.it](https://www.dgc.gov.it/web/faq.html) per maggiori informazioni."
                },
                {
                   "title": "Fino a quando è valido il mio certificato su IO?",

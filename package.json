@@ -12,7 +12,6 @@
     "update_indicepa": "ts-node src/update_indicepa.ts",
     "update_municipalities": "ts-node src/update_municipalities.ts",
     "update_services": "ts-node src/update_services.ts",
-    "check_services_webview_data": "ts-node src/checks/checkVisibleServicesWebView.ts",
     "check_contextual_help_data": "ts-node src/checks/checkContextualHelpData.ts",
     "check_idps_list_data": "ts-node src/checks/checkIdpsData.ts",
     "check_bonus_available_data": "ts-node src/checks/checkBonusAvailable.ts",
@@ -22,15 +21,14 @@
     "check_privative": "ts-node src/checks/checkPrivative.ts",
     "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:content-definitions": "rimraf ./generated/definitions/content && mkdir -p ./generated/definitions/content && gen-api-models --api-spec definitions.yml --out-dir ./generated/definitions/content",
-    "generate:pagopa-api-definitions": "rimraf ./generated/definitions/pagopa && mkdir -p ./generated/definitions/pagopa && gen-api-models --api-spec ./pagopa/pm/spec.json --out-dir ./generated/definitions/pagopa",
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",
     "generate:pagopa-privative": "rimraf ./generated/definitions/pagopa/privative && mkdir -p ./generated/definitions/pagopa/privative && gen-api-models --api-spec ./pagopa/privative/definitions.yml --out-dir ./generated/definitions/pagopa/privative",
     "generate:pagopa-walletv2-definitions": "rimraf generated/definitions/pagopa/walletv2 && mkdir -p generated/definitions/pagopa/walletv2 && gen-api-models --api-spec ./bonus/specs/bpd/pm/walletv2.json --out-dir ./generated/definitions/pagopa/walletv2 --no-strict --request-types --response-decoders",
     "generate:pagopa-bpd-citizen-v2": "rimraf ./generated/definitions/bpd/citizenv2 && mkdir -p ./generated/definitions/bpd/citizenv2 && gen-api-models --api-spec ./bonus/specs/bpd/citizen_v2.json --out-dir ./generated/definitions/bpd/citizenv2 --no-strict --request-types --response-decoders",
     "generate:pagopa-bpd-winning-transactions-v2": "rimraf ./generated/definitions/bpd/winningTransactionsv2 && mkdir -p generated/definitions/bpd/winningTransactionsv2 && gen-api-models --api-spec ./bonus/specs/bpd/winning_transactions_v2.json --out-dir ./generated/definitions/bpd/winningTransactionsv2 --no-strict --request-types --response-decoders",
-    "generate:pagopa": "npm-run-all generate:pagopa-api-definitions generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions generate:pagopa-bpd-citizen-v2 generate:pagopa-bpd-winning-transactions-v2",
+    "generate:pagopa": "npm-run-all generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions generate:pagopa-bpd-citizen-v2 generate:pagopa-bpd-winning-transactions-v2",
     "generate:all": "npm-run-all generate:content-definitions generate:pagopa",
-    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative check_services_webview_data"
+    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

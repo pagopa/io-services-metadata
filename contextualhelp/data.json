@@ -3,9 +3,32 @@
    "it": {
       "screens": [
          {
+        "route_name": "TBD-SCHERMATA-INTRODUTTIVA-PAYPAL",
+        "title": "Paga su IO con PayPal",
+        "content": "In questa pagina potrai aggiungere PayPal come metodo di pagamento nell’app IO.\n\nPayPal ti permette di pagare senza inserire ogni volta i tuoi dati finanziari. Ti permette anche di collegare il tuo conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.",
+        "faqs": [
+          {
+            "title": "Cos’è PayPal?",
+            "body": "PayPal è il servizio che ti consente di pagare, inviare denaro e accettare pagamenti in modo più rapido, semplice e sicuro, senza dover immettere ogni volta i tuoi dati finanziari. Per approfondire o aprire un conto gratuitamente, vai sul sito [paypal.com](https://www.paypal.com)."
+          },
+          {
+            "title": "",
+            "body": ""
+          },
+          {
+            "title": "",
+            "body": ""
+          },
+          {
+            "title": "",
+            "body": ""
+          }
+        ]
+      },
+         {
         "route_name": "MESSAGE_DETAIL",
         "title": "Dettagli del messaggio",
-        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai  dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
+        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
           {
             "title": "Questo messaggio non ti interessa?",

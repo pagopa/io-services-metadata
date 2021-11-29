@@ -26,7 +26,7 @@
         ]
       },
         {
-        "route_name": "TBD-SCHERMATA-GESTORE TRANSAZIONE",
+        "route_name": "WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
         "title": "Scegli il gestore della transazione",
         "content": "Il gestore della transazione, ovvero il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore, può applicare ad ogni pagamento una commissione variabile. In questa pagina, puoi scegliere quale gestore della transazione utilizzare. Potrai modificare questa scelta ad ogni pagamento, scegliendo in base alla commissione proposta.",
         "faqs": [
@@ -53,7 +53,7 @@
         ]
       },
          {
-        "route_name": "TBD-SCHERMATA-INTRODUTTIVA-PAYPAL",
+        "route_name": "WALLET_ONBOARDING_PAYPAL_START",
         "title": "Paga su IO con PayPal",
         "content": "In questa pagina potrai aggiungere PayPal come metodo di pagamento nell’app IO.\n\nPayPal ti permette di pagare senza inserire ogni volta i tuoi dati finanziari. Ti permette anche di collegare il tuo conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.",
         "faqs": [

@@ -68,11 +68,11 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "Potresti avere difficoltà nel pagare un avviso pagoPA. Stiamo lavorando per risolvere il problema.",
-        "en-EN": "You might experience issues paying a pagoPA notice. We're working to fix the problem."
+        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
+        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
       }
     },
     "ingress": {

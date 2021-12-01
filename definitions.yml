@@ -396,6 +396,8 @@ definitions:
         type: boolean
       cgn_merchants_v2:
         type: boolean
+      zendesk:
+        $ref: "#/definitions/ZendeskConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -409,3 +411,13 @@ definitions:
       program_active:
         description: "If true, the cashback program is active and all the related in app functionalities are enabled"
         type: boolean
+  ZendeskConfig:
+    type: object
+    description: A specific config for Zendesk
+    required:
+      - active
+    properties:
+      active:
+        description: "If true, Zendesk is active while Instabug is deactivated"
+        type: boolean
+

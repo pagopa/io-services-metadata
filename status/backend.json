@@ -40,8 +40,8 @@
       }
     },
     "messages": {
-      "is_visible": false,
-      "level": "critical",
+      "is_visible": true,
+      "level": "warning",
       "message": {
         "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
         "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
@@ -64,16 +64,16 @@
       }
     },
     "login": {
-      "is_visible": false,
-      "level": "critical",
+      "is_visible": true,
+      "level": "warning",
       "message": {
         "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
         "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."
       }
     },
     "ingress": {
-      "is_visible": false,
-      "level": "critical",
+      "is_visible": true,
+      "level": "warning",
       "message": {
         "it-IT": "Spiacenti, l’app è in manutenzione. Tutte le funzionalità torneranno operative a breve.",
         "en-EN": "Sorry, the app is under maintenance. All features will be up and running again shortly."

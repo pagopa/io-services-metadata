@@ -416,9 +416,10 @@ definitions:
     type: object
     description: A specific config for Zendesk
     required:
-      - active
+      - assistanceTool
     properties:
-      active:
-        description: "If true, Zendesk is active while Instabug is deactivated"
-        type: boolean
+      assistanceTool:
+        type: string
+        enum: [ none,zendesk,instabug,web ]
+        description: "none: also used as default, the assistance is not visible; zendesk: the assistance is managed with zendesk; instabug: the assistance is managed with instabug; web: the assistance is managed with a web form;"
 

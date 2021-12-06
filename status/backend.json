@@ -14,7 +14,7 @@
       "program_active": true
     },
     "assistanceTool": {
-      "tools": "none"
+      "tool": "none"
     }
   },
   "sections": {

@@ -13,8 +13,8 @@
       "enroll_bpd_after_add_payment_method": false,
       "program_active": true
     },
-    "zendesk": {
-      "assistanceTool": "none"
+    "assistanceTool": {
+      "tools": "none"
     }
   },
   "sections": {

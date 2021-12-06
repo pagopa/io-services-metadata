@@ -14,7 +14,7 @@
       "program_active": true
     },
     "zendesk": {
-      "active": false
+      "assistanceTool": "none"
     }
   },
   "sections": {

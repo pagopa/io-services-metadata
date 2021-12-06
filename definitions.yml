@@ -414,7 +414,7 @@ definitions:
         type: boolean
   AssistanceToolConfig:
     type: object
-    description: A specific config for the configuration of the assistance tool
+    description: A specific config for the assistance tool
     required:
       - tool
     properties:

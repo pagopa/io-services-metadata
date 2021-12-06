@@ -397,8 +397,8 @@ definitions:
         type: boolean
       cgn_merchants_v2:
         type: boolean
-      zendesk:
-        $ref: "#/definitions/ZendeskConfig"
+      assistanceTool:
+        $ref: "#/definitions/AssistanceToolConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -412,13 +412,13 @@ definitions:
       program_active:
         description: "If true, the cashback program is active and all the related in app functionalities are enabled"
         type: boolean
-  ZendeskConfig:
+  AssistanceToolConfig:
     type: object
     description: A specific config for Zendesk
     required:
-      - assistanceTool
+      - tools
     properties:
-      assistanceTool:
+      tools:
         type: string
         enum: [ none,zendesk,instabug,web ]
         description: "none: also used as default, the assistance is not visible; zendesk: the assistance is managed with zendesk; instabug: the assistance is managed with instabug; web: the assistance is managed with a web form;"

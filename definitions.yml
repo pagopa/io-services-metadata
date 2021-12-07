@@ -414,7 +414,7 @@ definitions:
         type: boolean
   AssistanceToolConfig:
     type: object
-    description: A specific config for the assistance tool
+    description: "A specific config for the assistance tool"
     required:
       - tool
     properties:
@@ -422,4 +422,83 @@ definitions:
         type: string
         enum: [ none,zendesk,instabug,web ]
         description: "none: also used as default, the assistance is not visible; zendesk: the assistance is managed with zendesk; instabug: the assistance is managed with instabug; web: the assistance is managed with a web form;"
+  Zendesk:
+    type: object
+    description: "A specific config for Zendesk"
+    required:
+      - panicMode
+    properties:
+      panicMode:
+        type: boolean
+        description: "If true is not possible open a ticket"
+      zendeskCategories:
+        $ref: "#/definitions/ZendeskCategories"
+  ZendeskCategories:
+    type: object
+    description: "Map the id and the categories created in Zendesk"
+    required:
+      - id
+      - categories
+    properties:
+      id:
+        type: string
+        description: "Identify the category field in Zendesk"
+      categories:
+        type: array
+        items:
+          $ref: "#/definitions/ZendeskCategory"
+        description: "The array of categories set in Zendesk"
+  ZendeskCategory:
+    type: object
+    description: "Represents a category in Zendesk. Is identified by a value, has an IT and an EN description and can have an array of sub-categories"
+    required:
+      - value
+      - it-IT
+      - en-EN
+    properties:
+      value:
+        type: string
+        description: "Map the value setted in Zendesk"
+      it-IT:
+        type: string
+        description: "The italian description shown in the app"
+      en-EN:
+        type: string
+        description: "The english description shown in the app"
+      zendeskSubCategories:
+        $ref: "#/definitions/ZendeskSubCategories"
+  ZendeskSubCategories:
+    type: object
+    description: "The array of the possible sub-categories set in Zendesk for the specific category identified by an id"
+    required:
+      - id
+      - subCategories
+    properties:
+      id:
+        type: string
+        description: "Identify the sub-category field in Zendesk"
+      subCategories:
+        type: array
+        items:
+          $ref: "#/definitions/ZendeskSubCategory"
+  ZendeskSubCategory:
+    type: object
+    description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"
+    required:
+      - value
+      - it-IT
+      - en-EN
+    properties:
+      value:
+        type: string
+        description: "Map the value setted in Zendesk"
+      it-IT:
+        type: string
+        description: "The italian description shown in the app"
+      en-EN:
+        type: string
+        description: "The english description shown in the app"
+
+
+
 

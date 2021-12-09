@@ -448,6 +448,17 @@ definitions:
         items:
           $ref: "#/definitions/ZendeskCategory"
         description: "The array of categories set in Zendesk"
+  ZendeskDescriptionMessage:
+    type: object
+    description: The category description shown in IO-App
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+      en-EN:
+        type: string
   ZendeskCategory:
     type: object
     description: "Represents a category in Zendesk. Is identified by a value, has an IT and an EN description and can have an array of sub-categories"
@@ -459,12 +470,8 @@ definitions:
       value:
         type: string
         description: "Map the value setted in Zendesk"
-      it-IT:
-        type: string
-        description: "The italian description shown in the app"
-      en-EN:
-        type: string
-        description: "The english description shown in the app"
+      description:
+        $ref: "#/definitions/ZendeskDescriptionMessage"
       zendeskSubCategories:
         $ref: "#/definitions/ZendeskSubCategories"
   ZendeskSubCategories:
@@ -492,12 +499,8 @@ definitions:
       value:
         type: string
         description: "Map the value setted in Zendesk"
-      it-IT:
-        type: string
-        description: "The italian description shown in the app"
-      en-EN:
-        type: string
-        description: "The english description shown in the app"
+      description:
+        $ref: "#/definitions/ZendeskDescriptionMessage"
 
 
 

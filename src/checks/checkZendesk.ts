@@ -16,7 +16,7 @@ const error = (message: string) => {
 };
 
 const fileContent = fs
-  .readFileSync(__dirname + "/../../zendesk/data.json")
+  .readFileSync(__dirname + "/../../assistenceTools/zendesk.json")
   .toString();
 const maybeZendeskConfig = Zendesk.decode(JSON.parse(fileContent));
 
@@ -44,10 +44,5 @@ if (maybeZendeskConfig.isLeft()) {
           .join("\n")}`
       );
     }
-
-    // check for duplicated id
-    // tslint:disable-next-line: no-let
-    let duplicatedId = [zendeskCategories.id];
-    
   }
 }

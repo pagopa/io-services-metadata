@@ -464,8 +464,7 @@ definitions:
     description: "Represents a category in Zendesk. Is identified by a value, has an IT and an EN description and can have an array of sub-categories"
     required:
       - value
-      - it-IT
-      - en-EN
+      - description
     properties:
       value:
         type: string
@@ -493,8 +492,7 @@ definitions:
     description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"
     required:
       - value
-      - it-IT
-      - en-EN
+      - description
     properties:
       value:
         type: string

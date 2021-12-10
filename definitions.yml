@@ -461,14 +461,14 @@ definitions:
         type: string
   ZendeskCategory:
     type: object
-    description: "Represents a category in Zendesk. Is identified by a value, has an IT and an EN description and can have an array of sub-categories"
+    description: "Represents a category in Zendesk. It is identified by a value, it has an IT and an EN description and can have an array of sub-categories"
     required:
       - value
       - description
     properties:
       value:
         type: string
-        description: "Map the value setted in Zendesk"
+        description: "Map the value set in Zendesk"
       description:
         $ref: "#/definitions/ZendeskDescriptionMessage"
       zendeskSubCategories:

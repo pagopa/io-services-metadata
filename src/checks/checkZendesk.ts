@@ -14,12 +14,12 @@ const error = (message: string) => {
 };
 
 const fileContent = fs
-  .readFileSync(__dirname + "/../../assistenceTools/zendesk.json")
+  .readFileSync(__dirname + "/../../assistanceTools/zendesk.json")
   .toString();
 const maybeZendeskConfig = Zendesk.decode(JSON.parse(fileContent));
 
 if (maybeZendeskConfig.isLeft()) {
-  error(`can't decode zendesk config assistenceTools/zendesk.json`);
+  error(`can't decode zendesk config assistanceTools/zendesk.json`);
 } else {
   if (
     maybeZendeskConfig.value.zendeskCategories &&

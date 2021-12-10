@@ -14,7 +14,7 @@
       "program_active": true
     },
     "assistanceTool": {
-      "tool": "none"
+      "tool": "instabug"
     }
   },
   "sections": {

@@ -134,12 +134,12 @@
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "TBD",
-        "en-EN": "TBD"
+        "it-IT": "",
+        "en-EN": ""
       },
       "badge": {
-        "it-IT": "TBD badge",
-        "en-EN": "TBD badge"
+        "it-IT": "",
+        "en-EN": ""
       }
     },
     "digital_payments": {

@@ -312,6 +312,7 @@ definitions:
       - cashback
       - cobadge
       - credit_card
+      - paypal
       - digital_payments
       - email_validation
       - euCovidCert
@@ -333,6 +334,8 @@ definitions:
       cobadge:
         $ref: "#/definitions/SectionStatus"
       credit_card:
+        $ref: "#/definitions/SectionStatus"
+      paypal:
         $ref: "#/definitions/SectionStatus"
       digital_payments:
         $ref: "#/definitions/SectionStatus"

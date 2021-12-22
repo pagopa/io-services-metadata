@@ -1,7 +1,7 @@
 {
   "panicMode": false,
   "zendeskCategories": {
-    "id": "1900002821093",
+    "id": "1900004702053",
     "categories": [
       {
         "value": "certificazione_verde_covid-19",
@@ -10,7 +10,7 @@
           "en-EN": "COVID-19 Green Certification"
         },
         "zendeskSubCategories": {
-          "id": "360027411097",
+          "id": "360029178738",
           "subCategories": [
             {
               "value": "informazioni_generali",

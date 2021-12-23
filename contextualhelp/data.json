@@ -2,10 +2,60 @@
    "version": 1,
    "it": {
       "screens": [
+        {
+        "route_name": "WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
+        "title": "Scegli il gestore della transazione",
+        "content": "Il gestore della transazione, ovvero il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore, può applicare ad ogni pagamento una commissione variabile. In questa pagina, puoi scegliere quale gestore della transazione utilizzare. Potrai modificare questa scelta ad ogni pagamento, scegliendo in base alla commissione proposta.",
+        "faqs": [
+          {
+            "title": "Cos’è il gestore della transazione?",
+            "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione.\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
+          },
+          {
+            "title": "Perché devo scegliere il gestore della transazione?",
+            "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso."
+          },
+          {
+            "title": "Quale gestore devo scegliere?",
+            "body": "Puoi selezionare il gestore che preferisci, che tu sia cliente o no e anche se non lo hai mai utilizzato prima. La scelta del gestore non è definitiva: puoi modificarla ad ogni pagamento."
+          },
+          {
+            "title": "A cosa è dovuto il costo della transazione?",
+            "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente."
+          },
+           {
+            "title": "Non riesco ad aggiungere PayPal come metodo di pagamento su IO.",
+            "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal su IO, ti suggeriamo di:\n\n1.Controllare che il tuo dispositivo sia connesso a una rete.\n\n2.Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n3.Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
+          }
+        ]
+      },
+         {
+        "route_name": "WALLET_ONBOARDING_PAYPAL_START",
+        "title": "Paga su IO con PayPal",
+        "content": "In questa pagina potrai aggiungere PayPal come metodo di pagamento nell’app IO.\n\nPayPal ti permette di pagare senza inserire ogni volta i tuoi dati finanziari. Ti permette anche di collegare il tuo conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.",
+        "faqs": [
+          {
+            "title": "Cos’è PayPal?",
+            "body": "PayPal è il servizio che ti consente di pagare, inviare denaro e accettare pagamenti in modo più rapido, semplice e sicuro, senza dover immettere ogni volta i tuoi dati finanziari. Per approfondire o aprire un conto gratuitamente, vai sul sito [paypal.com](https://www.paypal.com/it)."
+          },
+          {
+            "title": "Come funziona?",
+            "body": "Per utilizzare PayPal su IO, registrati con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it) e collega la tua carta di credito, di debito, prepagata o il conto corrente.\n\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO. Per farlo, ti verranno richiesti l’indirizzo email e la password del tuo conto PayPal. Dovrai inoltre completare l’autenticazione a due fattori utilizzando una modalità a scelta tra app PayPal, SMS o chiamata."
+          },
+          {
+            "title": "Che vantaggi ho ad utilizzare PayPal per pagare tramite IO?",
+            "body": "PayPal ti permetterà di autorizzare le operazioni di pagamento su IO in modo semplice e veloce, senza che tu debba inserire i tuoi dati finanziari.\n\nPuoi collegare al tuo conto PayPal non solo la carta di credito, di debito o prepagata, ma anche il conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.\n\n[Scopri qui](https://www.paypal.com/it/smarthelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-faq686) come collegare il tuo conto bancario a PayPal."
+          },
+          {
+            "title": "Non ho un conto PayPal. Come posso crearne uno?",
+            "body": "Per creare un conto PayPal, devi registrarti con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it). Per farlo, devi essere maggiorenne e collegare almeno un metodo di pagamento."
+          }
+        ]
+      },
          {
         "route_name": "MESSAGE_DETAIL",
         "title": "Dettagli del messaggio",
-        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai  dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
+        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
           {
             "title": "Questo messaggio non ti interessa?",

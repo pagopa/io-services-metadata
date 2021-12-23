@@ -40,7 +40,7 @@
           },
           {
             "title": "Come funziona?",
-            "body": "Per utilizzare PayPal su IO, registrati con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it) e collega il tuo conto bancario o la tua carta di credito, di debito o prepagata.\n\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO. Per farlo, ti verranno richiesti l’indirizzo email e la password del tuo conto PayPal. Dovrai inoltre completare l’autenticazione a due fattori utilizzando una modalità a scelta tra app PayPal, SMS o chiamata."
+            "body": "Per utilizzare PayPal su IO, registrati con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it) e collega la tua carta di credito, di debito, prepagata o il conto corrente.\n\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO. Per farlo, ti verranno richiesti l’indirizzo email e la password del tuo conto PayPal. Dovrai inoltre completare l’autenticazione a due fattori utilizzando una modalità a scelta tra app PayPal, SMS o chiamata."
           },
           {
             "title": "Che vantaggi ho ad utilizzare PayPal per pagare tramite IO?",
@@ -48,7 +48,7 @@
           },
           {
             "title": "Non ho un conto PayPal. Come posso crearne uno?",
-            "body": "Per creare un conto PayPal, devi registrarti con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it). Per farlo, devi essere maggiorenne e collegare uno o più metodi di pagamento tra conto bancario, carta di credito, carta di debito o prepagata."
+            "body": "Per creare un conto PayPal, devi registrarti con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it). Per farlo, devi essere maggiorenne e collegare almeno un metodo di pagamento."
           }
         ]
       },

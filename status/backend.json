@@ -12,6 +12,9 @@
     {
       "enroll_bpd_after_add_payment_method": false,
       "program_active": true
+    },
+    "assistanceTool": {
+      "tool": "zendesk"
     }
   },
   "sections": {
@@ -43,8 +46,8 @@
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "Dalle 21:00 fino alle 23:30 l’app sarà in manutenzione, potresti riscontrare dei disservizi.",
-        "en-EN": "From 9:00 pm to 11:30 pm, you might experience disruptions due to maintenance."
+        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
+        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
       }
     },
     "services": {
@@ -56,15 +59,11 @@
       }
     },
     "login": {
-      "is_visible": true,
-      "level": "normal",
-      "web_url": {
-        "it-IT": "https://io.italia.it/certificato-verde-green-pass-covid",
-        "en-EN": "https://io.italia.it/certificato-verde-green-pass-covid"
-      },
+      "is_visible": false,
+      "level": "warning",
       "message": {
-        "it-IT": "Accedi con SPID o CIE per ricevere messaggi su IO, compresa la Certificazione Verde COVID-19",
-        "en-EN": "Sign in with SPID or CIE to receive in-app messages, including the EU Digital COVID Certificate"
+        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
+        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
       }
     },
     "wallets": {
@@ -129,6 +128,18 @@
       "badge": {
         "it-IT": "possibili rallentamenti",
         "en-EN": "possible slowdowns"
+      }
+    },
+    "paypal": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
       }
     },
     "digital_payments": {

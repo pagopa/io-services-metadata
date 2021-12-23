@@ -7,7 +7,7 @@
         "value": "certificazione_verde_covid-19",
         "description": {
           "it-IT": "Certificazione Verde COVID-19",
-          "en-EN": "COVID-19 Green Certification"
+          "en-EN": "EU Digital COVID Certificate"
         },
         "zendeskSubCategories": {
           "id": "360029178738",
@@ -15,40 +15,47 @@
             {
               "value": "informazioni_generali",
               "description": {
-                "it-IT": "Informazioni generali",
-                "en-EN": "General informations"
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "I would like to have more information"
               }
             },
             {
               "value": "non_ho_ricevuto_nulla",
               "description": {
-                "it-IT": "Non ho ricevuto nulla",
-                "en-EN": "I have not received anything"
+                "it-IT": "Non ho ricevuto la Certificazione",
+                "en-EN": "I haven't received the Certificate"
               }
             },
             {
               "value": "problemi_tecnici_su_io",
               "description": {
-                "it-IT": "Problemi tecnici su IO",
-                "en-EN": "Technical problems on IO"
+                "it-IT": "Ho un problema con IO",
+                "en-EN": "I have a problem with IO"
               }
             }
           ]
 
         }
       },
+        {
+        "value": "accesso_spid",
+        "description": {
+          "it-IT": "Accesso tramite SPID",
+          "en-EN": "Login with SPID"
+        }
+      },
       {
         "value": "accesso_cie",
         "description": {
           "it-IT": "Accesso tramite CIE",
-          "en-EN": "Access via CIE"
+          "en-EN": "Login with CIE"
         }
       },
       {
         "value": "pagamenti_pagopa",
         "description": {
           "it-IT": "Pagamento pagoPA",
-          "en-EN": "PagoPA payment"
+          "en-EN": "pagoPA payment"
         }
       },
       {
@@ -75,8 +82,8 @@
       {
         "value": "accessibilità_/_usabilità",
         "description": {
-          "it-IT": "Accessibilità / Usabilità",
-          "en-EN": "Accessibility / Usability"
+          "it-IT": "Accessibilità e Usabilità",
+          "en-EN": "Accessibility and Usability"
         }
       },
       {

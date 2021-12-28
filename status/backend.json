@@ -14,7 +14,7 @@
       "program_active": true
     },
     "assistanceTool": {
-      "tool": "zendesk"
+      "tool": "instabug"
     }
   },
   "sections": {

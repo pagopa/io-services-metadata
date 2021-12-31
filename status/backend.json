@@ -33,13 +33,9 @@
     "cashback": {
       "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/cashback/",
-        "en-EN": "https://io.italia.it/cashback/"
-      },
       "message": {
-        "it-IT": "Il Programma Cashback è terminato, come stabilito nel Decreto Legge XXX del XXX.",
-        "en-EN": "The Cashback Program has ended, as established in Decree Law XXX of XXX."
+        "it-IT": "Il periodo del Cashback dall’1/07 al 31/12/21 è sospeso.",
+        "en-EN": "The Cashback period from 1/07 to 31/12/21 is suspended."
       }
     },
     "messages": {

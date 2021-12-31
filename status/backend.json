@@ -38,8 +38,8 @@
         "en-EN": "https://io.italia.it/cashback/"
       },
       "message": {
-        "it-IT": "Il Programma Cashback è terminato, come stabilito nel Decreto Legge XXX del XXX.",
-        "en-EN": "The Cashback Program has ended, as established in Decree Law XXX of XXX."
+        "it-IT": "L’iniziativa del Cashback si è conclusa.",
+        "en-EN": "The Cashback initiative has ended."
       }
     },
     "messages": {

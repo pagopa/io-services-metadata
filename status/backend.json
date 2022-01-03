@@ -33,6 +33,10 @@
     "cashback": {
       "is_visible": true,
       "level": "warning",
+      "web_url": {
+        "it-IT": "https://io.italia.it/cashback",
+        "en-EN": "https://io.italia.it/cashback"
+      },
       "message": {
         "it-IT": "L’iniziativa del Cashback si è conclusa.",
         "en-EN": "The Cashback initiative has ended."

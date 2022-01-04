@@ -390,6 +390,7 @@ definitions:
       - bpd_ranking_v2
       - cgn_merchants_v2
       - assistanceTool
+      - paypal
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -402,6 +403,8 @@ definitions:
         type: boolean
       assistanceTool:
         $ref: "#/definitions/AssistanceToolConfig"
+      paypal:
+        $ref: "#/definitions/PaypalConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -415,6 +418,15 @@ definitions:
       program_active:
         description: "If true, the cashback program is active and all the related in app functionalities are enabled"
         type: boolean
+  PaypalConfig:
+    type: object
+    description: "dedicated config for the Paypal payment method"
+    required:
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true paypal is available in those app that support it"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

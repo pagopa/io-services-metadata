@@ -2,10 +2,12 @@
 
 import * as fs from "fs";
 import { SpidIdps } from "../../generated/definitions/content/SpidIdps";
+import * as jsonValidator from "json-dup-key-validator";
 
 const isRight = SpidIdps.decode(
-  JSON.parse(
-    fs.readFileSync(__dirname + "/../../spid/idps/list.json").toString()
+  jsonValidator.parse(
+    fs.readFileSync(__dirname + "/../../spid/idps/list.json").toString(),
+    false
   )
 ).isRight();
 if (!isRight) {

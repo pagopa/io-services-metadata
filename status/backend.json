@@ -15,6 +15,9 @@
     },
     "assistanceTool": {
       "tool": "instabug"
+    },
+    "paypal": {
+      "enabled": false
     }
   },
   "sections": {

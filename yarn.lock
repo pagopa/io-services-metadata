@@ -376,6 +376,11 @@
   version "3.11.2"
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-3.11.2.tgz#699ad86054cc20043c30d66a6fcde30bbf5d3d5e"
 
+"@types/json-dup-key-validator@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/json-dup-key-validator/-/json-dup-key-validator-1.0.0.tgz#3a666ab980e5e957960e9341e13eabd4fd9a24f3"
+  integrity sha512-D/pvJeKintUSW4G+aBRSvReECxCHbMcE9IuSU7cfWQAtYStE/vH8OLXFw38JJ37dSEnpcOkEV7q4WmdvtV0zHg==
+
 "@types/node@*", "@types/node@^10.5.3":
   version "10.5.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.3.tgz#5bcfaf088ad17894232012877669634c06b20cc5"
@@ -611,6 +616,11 @@ babel-preset-jest@^24.6.0:
   dependencies:
     "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
     babel-plugin-jest-hoist "^24.6.0"
+
+backslash@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/backslash/-/backslash-0.2.0.tgz#6c3c1fce7e7e714ccfc10fd74f0f73410677375f"
+  integrity sha1-bDwfzn5+cUzPwQ/XTw9zQQZ3N18=
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -2415,6 +2425,13 @@ jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
   integrity sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==
+
+json-dup-key-validator@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/json-dup-key-validator/-/json-dup-key-validator-1.0.3.tgz#ec147e457ef600bd2a794121e88f4ec9f3edef85"
+  integrity sha512-JvJcV01JSiO7LRz7DY1Fpzn4wX2rJ3dfNTiAfnlvLNdhhnm0Pgdvhi2SGpENrZn7eSg26Ps3TPhOcuD/a4STXQ==
+  dependencies:
+    backslash "^0.2.0"
 
 json-parse-better-errors@^1.0.1:
   version "1.0.2"

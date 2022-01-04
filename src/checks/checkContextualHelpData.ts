@@ -3,6 +3,7 @@
 import * as fs from "fs";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";
 import { getDuplicates } from "../utils/collections";
+import * as jsonValidator from "json-dup-key-validator";
 
 const error = (message: string) => {
   console.error(message);
@@ -10,8 +11,9 @@ const error = (message: string) => {
 };
 
 const contextualHelpData = ContextualHelp.decode(
-  JSON.parse(
-    fs.readFileSync(__dirname + "/../../contextualhelp/data.json").toString()
+  jsonValidator.parse(
+    fs.readFileSync(__dirname + "/../../contextualhelp/data.json").toString(),
+    false
   )
 );
 if (!contextualHelpData.isRight()) {

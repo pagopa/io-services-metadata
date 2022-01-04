@@ -2,10 +2,12 @@
 
 import * as fs from "fs";
 import { BonusesAvailable } from "../../generated/definitions/content/BonusesAvailable";
+import * as jsonValidator from "json-dup-key-validator";
 
 const isRight = BonusesAvailable.decode(
-  JSON.parse(
-    fs.readFileSync(__dirname + "/../../bonus/bonus_available.json").toString()
+  jsonValidator.parse(
+    fs.readFileSync(__dirname + "/../../bonus/bonus_available.json").toString(),
+    false
   )
 ).isRight();
 if (!isRight) {

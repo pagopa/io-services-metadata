@@ -2,6 +2,7 @@ import fs from "fs";
 import { Zendesk } from "../../generated/definitions/content/Zendesk";
 import { ZendeskCategory } from "../../generated/definitions/content/ZendeskCategory";
 import { getDuplicates } from "../utils/collections";
+import * as jsonValidator from "json-dup-key-validator";
 
 /**
  * this script checks the zendesk config
@@ -16,7 +17,9 @@ const error = (message: string) => {
 const fileContent = fs
   .readFileSync(__dirname + "/../../assistanceTools/zendesk.json")
   .toString();
-const maybeZendeskConfig = Zendesk.decode(JSON.parse(fileContent));
+const maybeZendeskConfig = Zendesk.decode(
+  jsonValidator.parse(fileContent, false)
+);
 
 if (maybeZendeskConfig.isLeft()) {
   error(`can't decode zendesk config assistanceTools/zendesk.json`);

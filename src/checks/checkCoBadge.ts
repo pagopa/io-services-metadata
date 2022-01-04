@@ -14,6 +14,7 @@ import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
 import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
 import { getDuplicates } from "../utils/collections";
+import * as jsonValidator from "json-dup-key-validator";
 
 const error = (message: string) => {
   console.error(message);
@@ -23,7 +24,9 @@ const error = (message: string) => {
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/cobadgeServices.json")
   .toString();
-const maybeCobadgeServices = CoBadgeServices.decode(JSON.parse(fileContent));
+const maybeCobadgeServices = CoBadgeServices.decode(
+  jsonValidator.parse(fileContent, false)
+);
 if (!maybeCobadgeServices.isRight()) {
   error(
     "status/cobadgeServices.json is not compatible with CoBadgeServices type"

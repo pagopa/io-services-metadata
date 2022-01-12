@@ -21,7 +21,7 @@
     },
     "cgn": {
       "enabled": false,
-      "cgn_merchants_v2": false
+      "merchants_v2": false
     }
   },
   "sections": {

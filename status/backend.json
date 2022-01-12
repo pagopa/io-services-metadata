@@ -14,7 +14,7 @@
       "program_active": false
     },
     "assistanceTool": {
-      "tool": "instabug"
+      "tool": "zendesk"
     },
     "paypal": {
       "enabled": true

@@ -359,6 +359,8 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       app_update_required:
         $ref: "#/definitions/SectionStatus"
+      cgn:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section

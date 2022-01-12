@@ -393,6 +393,7 @@ definitions:
       - cgn_merchants_v2
       - assistanceTool
       - paypal
+      - cgn
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -403,10 +404,13 @@ definitions:
         type: boolean
       cgn_merchants_v2:
         type: boolean
+        description: "This has been deprecated since the introduction of CgnConfig definition"
       assistanceTool:
         $ref: "#/definitions/AssistanceToolConfig"
       paypal:
         $ref: "#/definitions/PaypalConfig"
+      cgn:
+        $ref: "#/definitions/CgnConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -429,6 +433,19 @@ definitions:
       enabled:
         type: boolean
         description: "If true paypal is available in those app that support it"
+  CgnConfig:
+    type: object
+    description: "dedicated config for the CGN app flow"
+    required:
+      - enabled
+      - merchants_v2
+    properties:
+      enabled:
+        type: boolean
+        description: "If true CGN app components and logic is available in those app that support it"
+      merchants_v2:
+        type: boolean
+        description: "If true the merchants search screen will display one tab per merchant type (online or local) NOTE: this version may still be under development"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

@@ -441,7 +441,7 @@ definitions:
       enabled:
         type: boolean
         description: "If true CGN app components and logic is available in those app that support it"
-      cgn_merchants_v2:
+      merchants_v2:
         type: boolean
         description: "If true the merchants search screen will display one tab per merchant type (online or local) NOTE: this version may still be under development"
   AssistanceToolConfig:

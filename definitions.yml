@@ -436,7 +436,7 @@ definitions:
     description: "dedicated config for the CGN app flow"
     required:
       - enabled
-      - cgn_merchants_v2
+      - merchants_v2
     properties:
       enabled:
         type: boolean

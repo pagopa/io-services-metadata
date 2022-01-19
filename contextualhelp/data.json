@@ -678,9 +678,13 @@
             "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
             "content": "Questo servizio ti permette di cercare tutte le carte con circuito internazionale (Maestro, Mastercard, Visa e V-Pay) a te intestate.",
             "faqs": [
+              {
+                  "title": "Posso aggiungere anche carte con circuito internazionale?",
+                  "body": "Sì, puoi aggiungere anche carte di debito o credito con circuito internazionale (Maestro, Mastercard, VISA e V-Pay), anche se non sono abilitate ai pagamenti online. Le carte devono essere intestate a te ed emesse dalle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online) al servizio."
+               },
                {
                   "title": "Perché non trovo alcuna carta?",
-                  "body": "Il servizio cerca soltanto carte intestate a te, su circuito internazionale (Maestro, Mastercard, Visa e V-Pay) presso le banche aderenti al servizio. Assicurati che la carta in tuo possesso sia effettivamente intestata a te."
+                  "body": "Il servizio cerca solo carte con circuito internazionale intestate a te. Assicurati che la carta in tuo possesso sia effettivamente intestata a te e che sia emessa da una delle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)"
                }
             ]
          },

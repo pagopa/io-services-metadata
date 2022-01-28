@@ -65,10 +65,6 @@ export const printDecodeOutcome = <T>(
 
 // Errors to Error utilities
 
-export const toError = (errors: Errors): Error => {
-  return new Error(errorsToReadableMessages(errors).join(","));
-};
-
 const getContextPath = (context: Context): string => {
   if (context.length === 0) {
     return "] (decoder info n/a)";
@@ -91,3 +87,7 @@ const getMessage = (value: unknown, context: Context): string =>
  */
 export const errorsToReadableMessages = (es: Errors): ReadonlyArray<string> =>
   es.map(e => getMessage(e.value, e.context));
+
+export const toError = (errors: Errors): Error => {
+  return new Error(errorsToReadableMessages(errors).join(","));
+};

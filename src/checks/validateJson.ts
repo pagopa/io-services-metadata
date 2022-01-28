@@ -42,24 +42,6 @@ export const readFileSync = (path: string): Either<Error, string> => {
 };
 
 /**
- * Perform a validation for a Json in a specific path, using a decoder. Check if:
- * - The file exists
- * - The file is a valid Json
- * - The Json doesn't have duplicate keys
- * - The Json can be decoded using the provided decoder
- * Any other specific semantic check can be chained to this basic check
- * @param jsonPath
- * @param decoder
- */
-export const basicJsonFileValidator = <T>(
-  jsonPath: string,
-  decoder: t.Decoder<unknown, T>
-) =>
-  readFileSync(jsonPath)
-    .chain(parseJson)
-    .chain(rawJson => decodeJson(decoder, rawJson).mapLeft(toError));
-
-/**
  * Print the result of an Either<Error, T>
  * @param result
  * @param path
@@ -110,3 +92,21 @@ export const errorsToReadableMessages = (es: Errors): ReadonlyArray<string> =>
 export const toError = (errors: Errors): Error => {
   return new Error(errorsToReadableMessages(errors).join(","));
 };
+
+/**
+ * Perform a validation for a Json in a specific path, using a decoder. Check if:
+ * - The file exists
+ * - The file is a valid Json
+ * - The Json doesn't have duplicate keys
+ * - The Json can be decoded using the provided decoder
+ * Any other specific semantic check can be chained to this basic check
+ * @param jsonPath
+ * @param decoder
+ */
+export const basicJsonFileValidator = <T>(
+  jsonPath: string,
+  decoder: t.Decoder<unknown, T>
+) =>
+  readFileSync(jsonPath)
+    .chain(parseJson)
+    .chain(rawJson => decodeJson(decoder, rawJson).mapLeft(toError));

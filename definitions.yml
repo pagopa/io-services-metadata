@@ -539,7 +539,7 @@ definitions:
         $ref: "#/definitions/ZendeskDescriptionMessage"
   VersionInfo:
     type: object
-    description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"
+    description: "Information related to the app version"
     required:
       - min_app_version
       - latest_released_app_version

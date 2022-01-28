@@ -3,6 +3,7 @@ import { Errors, Context } from "io-ts";
 import { Either, left, right, tryCatch, tryCatch2v } from "fp-ts/lib/Either";
 import * as jsonValidator from "json-dup-key-validator";
 import fs from "fs";
+import { VersionInfo } from "../../generated/definitions/content/VersionInfo";
 
 /**
  * Try to decode a Json content using a specific decoder
@@ -39,6 +40,24 @@ export const readFileSync = (path: string): Either<Error, string> => {
     return left(e);
   }
 };
+
+/**
+ * Perform a validation for a Json in a specific path, using a decoder. Check if:
+ * - The file exists
+ * - The file is a valid Json
+ * - The Json doesn't have duplicate keys
+ * - The Json can be decoded using the provided decoder
+ * Any other specific semantic check can be chained to this basic check
+ * @param jsonPath
+ * @param decoder
+ */
+export const basicJsonFileValidator = <T>(
+  jsonPath: string,
+  decoder: t.Decoder<unknown, T>
+) =>
+  readFileSync(jsonPath)
+    .chain(parseJson)
+    .chain(rawJson => decodeJson(decoder, rawJson).mapLeft(toError));
 
 /**
  * Print the result of an Either<Error, T>

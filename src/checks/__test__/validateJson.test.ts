@@ -53,6 +53,16 @@ const syntaxError = "Syntax error";
 
 const expectedSyntaxError = "Should return a left(error) with Syntax error";
 
+const expectSyntaxError = (value: string) => {
+  const result = parseJson(value);
+  if (result.isLeft()) {
+    expect(result.value.message).toContain(syntaxError);
+  } else {
+    // tslint:disable-next-line:no-duplicate-string
+    fail("result should be left");
+  }
+};
+
 describe("validateJson", () => {
   describe("When readFileSync is used", () => {
     describe("And an invalid path is provided", () => {
@@ -148,12 +158,3 @@ describe("validateJson", () => {
     });
   });
 });
-
-const expectSyntaxError = (value: string) => {
-  const result = parseJson(value);
-  if (result.isLeft()) {
-    expect(result.value.message).toContain(syntaxError);
-  } else {
-    fail("result should be left");
-  }
-};

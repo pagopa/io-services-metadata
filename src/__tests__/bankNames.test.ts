@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { fromNullable } from "fp-ts/lib/Option";
-import { toCamelCase, IAbi } from "../utils/bankNames";
+import { IAbi, toCamelCase } from "../utils/bankNames";
+
 describe("Test Success Case", () => {
   const updStatusAbi = toCamelCase(
     JSON.parse(
@@ -52,7 +53,7 @@ describe("Test Success Case", () => {
       updStatusAbi.data.find(myBank => myBank.abi === "08947")
     );
     expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /\"Don Stella\"/
+      /"Don Stella"/
     );
   });
 

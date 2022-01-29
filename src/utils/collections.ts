@@ -8,7 +8,6 @@ export const getDuplicates = <T>(
   items: ReadonlyArray<T>,
   equals: (a: T, b: T) => boolean
 ): ReadonlyArray<T> => {
-  // tslint:disable-next-line: readonly-array
   const duplicates: Array<T> = [];
   items.forEach(item => {
     if (duplicates.some(d => equals(d, item))) {
@@ -16,6 +15,7 @@ export const getDuplicates = <T>(
     }
     const filtered = items.filter(innerItem => equals(item, innerItem));
     if (filtered.length > 1) {
+      // eslint-disable-next-line functional/immutable-data
       duplicates.push(item);
     }
   });

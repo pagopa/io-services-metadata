@@ -13,20 +13,21 @@ const bccR = /(B\s*C\s+C)|(Bcc)/i;
 const spaR = /(S\s+P\s+A)|(Spa)/;
 const scR = /(S\s+C)|(Sc)/;
 const multiSpaceR = /\s+/g;
-const quoteR = /('|"|’)\s+/;
+const quoteR = /(['"’])\s+/;
 const delR = /\s+(d(el|ell|ello|ella|elle|ei|egli|i))(\s+|'|’)/gi;
 const eR = /\s+E(d)?\s+/g;
 const unicreditR = /Unicredit/g;
 
 const options = {
   splitRegexp: /([a-z"'’])([A-Z0-9])/g,
-  stripRegexp: /[^A-Z0-9àèéòùì'’"&\-]/gi
+  stripRegexp: /[^A-Z0-9àèéòùì'’"&\\-]/gi
 };
 
 const bankNameReducer = (
   accumulator: ReadonlyArray<IBank>,
   currentBank: IBank
-) => accumulator.concat({
+) =>
+  accumulator.concat({
     abi: currentBank.abi,
     name: capitalCase(currentBank.name, options)
       .replace(bccR, "BCC")

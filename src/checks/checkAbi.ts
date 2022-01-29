@@ -26,7 +26,7 @@ const maybeAbiRegistry = AbiListResponse.decode(
 if (maybeAbiRegistry.isLeft()) {
   error(`can't decode abi registry status/abi.json`);
 } else {
-  // tslint:disable-next-line: no-let
+  // eslint-disable-next-line functional/no-let
   let allLogoExists = true;
   const data = maybeAbiRegistry.value.data || [];
   data.forEach(issuer => {

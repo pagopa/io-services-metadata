@@ -58,9 +58,10 @@ if (!maybeCobadgeServices.isRight()) {
     );
 
     const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
-    // tslint:disable-next-line: no-let
+
+    // eslint-disable-next-line functional/no-let
     let hasErrors = false;
-    // tslint:disable-next-line: readonly-array
+
     const missingAbis: Array<Abi> = [];
     /**
      * for each issuer
@@ -76,6 +77,7 @@ if (!maybeCobadgeServices.isRight()) {
           hasErrors = true;
           return;
         }
+        // eslint-disable-next-line functional/immutable-data
         missingAbis.push({ ...service });
         return;
       }

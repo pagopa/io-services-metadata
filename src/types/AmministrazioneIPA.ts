@@ -1,4 +1,3 @@
-// tslint:disable-next-line: interface-name
 export interface AmministrazioneIPA {
   cod_amm: string;
   des_amm: string;

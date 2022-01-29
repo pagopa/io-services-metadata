@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "lint": "tslint -p . -c tslint.json -t verbose",
+    "lint": "eslint . -c .eslintrc.js --ext .ts,.tsx",
+    "prettify": "prettier --write \"src/**/*.(ts|tsx)\"",
+    "prettier:check": "prettier --check \"src/**/*.(ts|tsx)\"",
     "update_indicepa": "ts-node src/update_indicepa.ts",
     "update_municipalities": "ts-node src/update_municipalities.ts",
     "update_services": "ts-node src/update_services.ts",

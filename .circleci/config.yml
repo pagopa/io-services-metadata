@@ -49,6 +49,18 @@ jobs:
       - *install_node_modules
       - run: yarn lint
 
+  # Check if all files respect the prettier rules
+  check-prettier:
+    <<: *defaults_js
+
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+
+      # Run linter
+      - run: yarn prettier:check
+
   checks:
     <<: *defaults_js
     steps:
@@ -73,6 +85,7 @@ workflows:
       - compile
       - tests
       - lint
+      - check-prettier
       - checks
       - danger:
           filters:

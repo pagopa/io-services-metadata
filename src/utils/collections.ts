@@ -9,7 +9,7 @@ export const getDuplicates = <T>(
   equals: (a: T, b: T) => boolean
 ): ReadonlyArray<T> => {
   // tslint:disable-next-line: readonly-array
-  const duplicates: T[] = [];
+  const duplicates: Array<T> = [];
   items.forEach(item => {
     if (duplicates.some(d => equals(d, item))) {
       return;

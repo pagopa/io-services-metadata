@@ -4,8 +4,7 @@ import { StringMatrix } from "./municipality";
 export const parseCsvPromise = (
   content: string,
   options: parse.Options
-): Promise<StringMatrix> => {
-  return new Promise((resolve, reject) => {
+): Promise<StringMatrix> => new Promise((resolve, reject) => {
     parse(
       content,
       options,
@@ -17,4 +16,3 @@ export const parseCsvPromise = (
       }
     );
   });
-};

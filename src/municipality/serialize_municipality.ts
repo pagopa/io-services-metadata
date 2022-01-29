@@ -1,6 +1,6 @@
+import path from "path";
 import chalk from "chalk";
 import * as fs from "fs-extra";
-import path from "path";
 import { MUNICIPALITIES_OUTPUT_FOLDER_NAME, ROOT } from "../config";
 import { ISerializableMunicipality } from "../types/ISerializableMunicipality";
 import { CodiceCatastale } from "../types/MunicipalityCodiceCatastale";
@@ -10,14 +10,12 @@ import { CodiceCatastale } from "../types/MunicipalityCodiceCatastale";
   For example, json path for L513 codice catastale:
   `municipalities/L/5/L513.json
  */
-const calculateMunicipalityPath = (codiceCatastale: string) => {
-  return path.join(
+const calculateMunicipalityPath = (codiceCatastale: string) => path.join(
     MUNICIPALITIES_OUTPUT_FOLDER_NAME,
     codiceCatastale.charAt(0),
     codiceCatastale.charAt(1),
     `${codiceCatastale}.json`
   );
-};
 
 export const serializeMunicipalityToJson = async (
   serializableMunicipality: ISerializableMunicipality

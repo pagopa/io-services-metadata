@@ -8,13 +8,13 @@
  */
 
 import fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
 import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
 import { getDuplicates } from "../utils/collections";
-import * as jsonValidator from "json-dup-key-validator";
 
 const error = (message: string) => {
   console.error(message);
@@ -61,7 +61,7 @@ if (!maybeCobadgeServices.isRight()) {
     // tslint:disable-next-line: no-let
     let hasErrors = false;
     // tslint:disable-next-line: readonly-array
-    const missingAbis: Abi[] = [];
+    const missingAbis: Array<Abi> = [];
     /**
      * for each issuer
      * - check if some of them has empty name

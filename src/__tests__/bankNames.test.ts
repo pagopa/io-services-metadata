@@ -1,5 +1,5 @@
-import { fromNullable } from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
+import { fromNullable } from "fp-ts/lib/Option";
 import { toCamelCase, IAbi } from "../utils/bankNames";
 describe("Test Success Case", () => {
   const updStatusAbi = toCamelCase(

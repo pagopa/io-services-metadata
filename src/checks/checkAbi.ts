@@ -1,8 +1,8 @@
 import fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { getDuplicates } from "../utils/collections";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
-import * as jsonValidator from "json-dup-key-validator";
 
 /**
  * this script checks abi.json file

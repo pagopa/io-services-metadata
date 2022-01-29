@@ -57,8 +57,7 @@ const loadMunicipalityToCatastale = async (): Promise<
 const fromAbolishedMunicipalityToSerializableMunicipality = (
   abolishedMunicipality: t.TypeOf<typeof AbolishedMunicipality>,
   codiceCatastale: string
-) => {
-  return {
+) => ({
     codiceCatastale,
     municipality: {
       codiceProvincia: "",
@@ -68,8 +67,7 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
       denominazioneRegione: "",
       siglaProvincia: abolishedMunicipality.provincia
     }
-  } as ISerializableMunicipality;
-};
+  } as ISerializableMunicipality);
 
 /**
  * load the abolished municipality and filter the municipality without catastal code
@@ -77,8 +75,7 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
  */
 const loadAbolishedMunicipalities = (
   municipalityToCatastale: Map<string, string>
-): Either<Error, ReadonlyArray<ISerializableMunicipality>> => {
-  return readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
+): Either<Error, ReadonlyArray<ISerializableMunicipality>> => readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
     .chain(rawFile =>
       AbolishedMunicipalityArray.decode(JSON.parse(rawFile)).mapLeft(
         // TODO: a better description of the error could be obtained updating
@@ -99,7 +96,6 @@ const loadAbolishedMunicipalities = (
           )
         )
     );
-};
 
 /**
  * This function export the data of the abolished municipalities, creating the data starting from two dataset:

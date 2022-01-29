@@ -1,11 +1,11 @@
 // tslint:disable:no-console
 
+import * as path from "path";
 import chalk from "chalk";
 import * as fs from "fs-extra";
 import * as t from "io-ts";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import * as yaml from "js-yaml";
-import * as path from "path";
 import { Service, ScopeEnum } from "../generated/definitions/content/Service";
 
 const Services = t.dictionary(t.string, Service);

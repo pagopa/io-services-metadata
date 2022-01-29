@@ -26,8 +26,7 @@ const options = {
 const bankNameReducer = (
   accumulator: ReadonlyArray<IBank>,
   currentBank: IBank
-) => {
-  return accumulator.concat({
+) => accumulator.concat({
     abi: currentBank.abi,
     name: capitalCase(currentBank.name, options)
       .replace(bccR, "BCC")
@@ -39,7 +38,6 @@ const bankNameReducer = (
       .replace(eR, " e$1 ")
       .replace(unicreditR, "UniCredit")
   } as IBank);
-};
 
 export function toCamelCase(sourceAbi: IAbi): IAbi {
   const updBanks = sourceAbi.data.reduce(bankNameReducer, []);

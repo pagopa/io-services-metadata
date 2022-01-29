@@ -81,9 +81,7 @@ if (!maybeCobadgeServices.isRight()) {
       }
       if (registryIssuer.name !== service.name) {
         console.log(
-          `[${service.abi}] with name "${service.name}" should be "${
-            registryIssuer.name
-          }"`
+          `[${service.abi}] with name "${service.name}" should be "${registryIssuer.name}"`
         );
         hasErrors = true;
       }
@@ -111,9 +109,7 @@ if (!maybeCobadgeServices.isRight()) {
         data: [...registry, ...missingAbis]
       };
       console.log(
-        `${
-          missingAbis.length
-        } abi in cobadgeServices.json are not present into abi.json, they will be added`
+        `${missingAbis.length} abi in cobadgeServices.json are not present into abi.json, they will be added`
       );
       missingAbis.forEach(console.log);
       fs.writeFileSync(

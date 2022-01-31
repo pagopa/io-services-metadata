@@ -10,7 +10,8 @@ import { CodiceCatastale } from "../types/MunicipalityCodiceCatastale";
   For example, json path for L513 codice catastale:
   `municipalities/L/5/L513.json
  */
-const calculateMunicipalityPath = (codiceCatastale: string) => path.join(
+const calculateMunicipalityPath = (codiceCatastale: string) =>
+  path.join(
     MUNICIPALITIES_OUTPUT_FOLDER_NAME,
     codiceCatastale.charAt(0),
     codiceCatastale.charAt(1),

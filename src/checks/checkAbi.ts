@@ -1,8 +1,9 @@
 import fs from "fs";
-import * as jsonValidator from "json-dup-key-validator";
+import { Either, left, right } from "fp-ts/lib/Either";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { getDuplicates } from "../utils/collections";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 
 /**
  * this script checks abi.json file
@@ -10,51 +11,75 @@ import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
  * - check each issuer has its own logo
  */
 
-const error = (message: string) => {
-  console.error(message);
-  process.exit(1);
-};
-
-const fileContent = fs
-  .readFileSync(__dirname + "/../../status/abi.json")
-  .toString();
+const filename = "status/abi.json";
+const jsonPath = __dirname + `/../../${filename}`;
 const abiLogoPath = __dirname + "/../../logos/abi/";
-const maybeAbiRegistry = AbiListResponse.decode(
-  jsonValidator.parse(fileContent, false)
-);
 
-if (maybeAbiRegistry.isLeft()) {
-  error(`can't decode abi registry status/abi.json`);
-} else {
-  // eslint-disable-next-line functional/no-let
-  let allLogoExists = true;
-  const data = maybeAbiRegistry.value.data || [];
-  data.forEach(issuer => {
-    if (!fs.existsSync(abiLogoPath + `${issuer.abi}.png`)) {
-      console.error(
-        `cannot find logo for abi ${issuer.abi} - "${issuer.name}"`
-      );
-      allLogoExists = false;
-    }
-  });
-  if (!allLogoExists) {
-    error(`Please add the missing logo`);
-  }
-  // check if the total and size match the array length
-  if (
-    data.length !== maybeAbiRegistry.value.total ||
-    data.length !== maybeAbiRegistry.value.size
-  ) {
-    error(`total & size should be: ${data.length}`);
-  }
-  // check for duplicates
-  const duplicated = getDuplicates(data, (a: Abi, b: Abi) => a.abi === b.abi);
-  if (duplicated.length > 0) {
-    error(
-      `these abi are repeated more than one time:\n${duplicated
-        .map(d => d.abi)
-        .join("\n")}`
+const checkAllLogosExist = (
+  abiListResponse: AbiListResponse
+): Either<Error, AbiListResponse> => {
+  const data = abiListResponse.data || [];
+  const errors = data
+    .filter(issuer => !fs.existsSync(abiLogoPath + `${issuer.abi}.png`))
+    .map(issuer => `${issuer.abi} - "${issuer.name}"`);
+  if (errors.length > 0) {
+    return left(
+      new Error(
+        `Please add the missing logo${
+          errors.length > 1 ? "s" : ""
+        }:\n${errors.join("\n")}`
+      )
     );
   }
-  process.exit(0);
-}
+  return right(abiListResponse);
+};
+/**
+ * check if the total and size match the array length
+ * @param abiListResponse
+ */
+const checkSizeAndTotalMatch = (
+  abiListResponse: AbiListResponse
+): Either<Error, AbiListResponse> => {
+  const data = abiListResponse.data || [];
+  if (
+    data.length !== abiListResponse.total ||
+    data.length !== abiListResponse.size
+  ) {
+    return left(new Error(`total & size should be: ${data.length}`));
+  }
+  return right(abiListResponse);
+};
+
+/**
+ * check for duplicates
+ * @param abiListResponse
+ */
+const checkForDuplicates = (
+  abiListResponse: AbiListResponse
+): Either<Error, AbiListResponse> => {
+  const data = abiListResponse.data || [];
+  const duplicated = getDuplicates(data, (a: Abi, b: Abi) => a.abi === b.abi);
+  if (duplicated.length > 0) {
+    return left(
+      new Error(
+        `these abi are repeated more than one time:\n${duplicated
+          .map(d => d.abi)
+          .join("\n")}`
+      )
+    );
+  }
+  return right(abiListResponse);
+};
+
+const returnCode = printDecodeOutcome(
+  basicJsonFileValidator(jsonPath, AbiListResponse)
+    .chain(checkAllLogosExist)
+    .chain(checkSizeAndTotalMatch)
+    .chain(checkForDuplicates),
+  filename
+).fold(
+  _ => 1,
+  __ => 0
+);
+
+process.exit(returnCode);

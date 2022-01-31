@@ -1,43 +1,47 @@
 // a simple check that contextual help data json respects type definition
 
-import * as fs from "fs";
-import * as jsonValidator from "json-dup-key-validator";
+import { Either, left, right } from "fp-ts/lib/Either";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";
 import { getDuplicates } from "../utils/collections";
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 
-const error = (message: string) => {
-  console.error(message);
-  process.exit(1);
-};
+const filename = "contextualhelp/data.json";
+const jsonPath = __dirname + `/../../${filename}`;
 
-const contextualHelpData = ContextualHelp.decode(
-  jsonValidator.parse(
-    fs.readFileSync(__dirname + "/../../contextualhelp/data.json").toString(),
-    false
-  )
-);
-if (!contextualHelpData.isRight()) {
-  error("contextualhelp/data.json is not compatible with ContextualHelp type");
-} else {
-  // check for duplicates
+const checkNonEmptyCategories = (
+  contextualHelp: ContextualHelp
+): Either<Error, ContextualHelp> => {
   const itScreens = getDuplicates(
-    contextualHelpData.value.it.screens,
+    contextualHelp.it.screens,
     (a, b) => a.route_name === b.route_name
   );
   const enScreens = getDuplicates(
-    contextualHelpData.value.en.screens,
+    contextualHelp.en.screens,
     (a, b) => a.route_name === b.route_name
   );
   if (itScreens.length + enScreens.length > 0) {
-    error(
-      `these screens are repeated more than one time :\n${[
-        ...itScreens,
-        ...enScreens
-      ]
-        .map(d => d.route_name)
-        .join("\n")}`
+    return left(
+      new Error(
+        `these screens are repeated more than one time :\n${[
+          ...itScreens,
+          ...enScreens
+        ]
+          .map(d => d.route_name)
+          .join("\n")}`
+      )
     );
   }
-}
+  return right(contextualHelp);
+};
 
-process.exit(0);
+const returnCode = printDecodeOutcome(
+  basicJsonFileValidator(jsonPath, ContextualHelp).chain(
+    checkNonEmptyCategories
+  ),
+  filename
+).fold(
+  _ => 1,
+  __ => 0
+);
+
+process.exit(returnCode);

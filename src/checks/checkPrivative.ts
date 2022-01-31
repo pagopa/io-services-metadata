@@ -1,17 +1,15 @@
-import fs from "fs";
-import * as jsonValidator from "json-dup-key-validator";
 import { PrivativeServices } from "../../generated/definitions/pagopa/privative/PrivativeServices";
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 
-const fileContent = fs
-  .readFileSync(__dirname + "/../../status/privativeServices.json")
-  .toString();
-const privativeServices = PrivativeServices.decode(
-  jsonValidator.parse(fileContent, false)
+const filename = "status/privativeServices.json";
+const jsonPath = __dirname + `/../../${filename}`;
+
+const returnCode = printDecodeOutcome(
+  basicJsonFileValidator(jsonPath, PrivativeServices),
+  filename
+).fold(
+  _ => 1,
+  __ => 0
 );
-if (!privativeServices.isRight()) {
-  console.error(
-    "status/privativeServices.json is not compatible with PrivativeServices type"
-  );
-  process.exit(1);
-}
-process.exit(0);
+
+process.exit(returnCode);

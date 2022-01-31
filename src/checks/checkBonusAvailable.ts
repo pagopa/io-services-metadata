@@ -1,8 +1,8 @@
 // a simple check that bonus available json respects type definition
 
 import * as fs from "fs";
-import { BonusesAvailable } from "../../generated/definitions/content/BonusesAvailable";
 import * as jsonValidator from "json-dup-key-validator";
+import { BonusesAvailable } from "../../generated/definitions/content/BonusesAvailable";
 
 const isRight = BonusesAvailable.decode(
   jsonValidator.parse(

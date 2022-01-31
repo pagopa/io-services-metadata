@@ -1,9 +1,9 @@
 // a simple check that contextual help data json respects type definition
 
 import * as fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";
 import { getDuplicates } from "../utils/collections";
-import * as jsonValidator from "json-dup-key-validator";
 
 const error = (message: string) => {
   console.error(message);

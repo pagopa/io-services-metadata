@@ -6,7 +6,7 @@ node_cache_key: &node_cache_key v1.1-dependencies-{{ checksum "yarn.lock" }}
 defaults_js: &defaults_js
   <<: *defaults
   docker:
-    - image: circleci/node:8.11.3
+    - image: cimg/node:14.17.4
 
 restore_node_cache: &restore_node_cache
   restore_cache:
@@ -49,6 +49,18 @@ jobs:
       - *install_node_modules
       - run: yarn lint
 
+  # Check if all files respect the prettier rules
+  check-prettier:
+    <<: *defaults_js
+
+    steps:
+      - checkout
+      - *restore_node_cache
+      - *install_node_modules
+
+      # Run linter
+      - run: yarn prettier:check
+
   checks:
     <<: *defaults_js
     steps:
@@ -73,6 +85,7 @@ workflows:
       - compile
       - tests
       - lint
+      - check-prettier
       - checks
       - danger:
           filters:

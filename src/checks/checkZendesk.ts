@@ -1,8 +1,8 @@
 import fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { Zendesk } from "../../generated/definitions/content/Zendesk";
 import { ZendeskCategory } from "../../generated/definitions/content/ZendeskCategory";
 import { getDuplicates } from "../utils/collections";
-import * as jsonValidator from "json-dup-key-validator";
 
 /**
  * this script checks the zendesk config

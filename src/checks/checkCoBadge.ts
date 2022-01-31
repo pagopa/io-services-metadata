@@ -8,13 +8,13 @@
  */
 
 import fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
 import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
 import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
 import { getDuplicates } from "../utils/collections";
-import * as jsonValidator from "json-dup-key-validator";
 
 const error = (message: string) => {
   console.error(message);
@@ -58,10 +58,11 @@ if (!maybeCobadgeServices.isRight()) {
     );
 
     const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
-    // tslint:disable-next-line: no-let
+
+    // eslint-disable-next-line functional/no-let
     let hasErrors = false;
-    // tslint:disable-next-line: readonly-array
-    const missingAbis: Abi[] = [];
+
+    const missingAbis: Array<Abi> = [];
     /**
      * for each issuer
      * - check if some of them has empty name
@@ -76,14 +77,13 @@ if (!maybeCobadgeServices.isRight()) {
           hasErrors = true;
           return;
         }
+        // eslint-disable-next-line functional/immutable-data
         missingAbis.push({ ...service });
         return;
       }
       if (registryIssuer.name !== service.name) {
         console.log(
-          `[${service.abi}] with name "${service.name}" should be "${
-            registryIssuer.name
-          }"`
+          `[${service.abi}] with name "${service.name}" should be "${registryIssuer.name}"`
         );
         hasErrors = true;
       }
@@ -111,9 +111,7 @@ if (!maybeCobadgeServices.isRight()) {
         data: [...registry, ...missingAbis]
       };
       console.log(
-        `${
-          missingAbis.length
-        } abi in cobadgeServices.json are not present into abi.json, they will be added`
+        `${missingAbis.length} abi in cobadgeServices.json are not present into abi.json, they will be added`
       );
       missingAbis.forEach(console.log);
       fs.writeFileSync(

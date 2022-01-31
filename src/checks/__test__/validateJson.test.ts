@@ -1,7 +1,5 @@
 import { right } from "fp-ts/lib/Either";
 import { parseJson, readFileSync } from "../validateJson";
-import { VersionInfo } from "../../../generated/definitions/content/VersionInfo";
-import { Zendesk } from "../../../generated/definitions/content/Zendesk";
 
 const expectedValidJson =
   "{\n" +
@@ -139,21 +137,6 @@ describe("validateJson", () => {
       it("Should return right(object) with the parsed json", () => {
         const result = parseJson(expectedValidJson);
         expect(result).toStrictEqual(right(expectedValidJsonObject));
-      });
-    });
-  });
-
-  describe("When decodeJson is used", () => {
-    describe("And the provided Codec matches the Json object", () => {
-      it("Should return a right with the validated object", () => {
-        const result = decodeJson(VersionInfo, expectedValidJsonObject);
-        expect(result).toStrictEqual(right(expectedValidJsonObject));
-      });
-    });
-    describe("And the provided Codec doesn't match the Json object", () => {
-      it("Should return a left", () => {
-        const result = decodeJson(Zendesk, expectedValidJsonObject);
-        expect(result.isLeft()).toBeTruthy();
       });
     });
   });

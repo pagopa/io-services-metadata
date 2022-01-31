@@ -537,6 +537,37 @@ definitions:
         description: "Map the value setted in Zendesk"
       description:
         $ref: "#/definitions/ZendeskDescriptionMessage"
+  VersionInfo:
+    type: object
+    description: "Information related to the app version"
+    required:
+      - min_app_version
+      - latest_released_app_version
+      - rollout_app_version
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+      min_app_version_pagopa:
+        $ref: "#/definitions/VersionPerPlatform"
+      latest_released_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+      rollout_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+  VersionPerPlatform:
+    type: object
+    description: "Associate an app version with a platform "
+    required:
+      - ios
+      - android
+    properties:
+      ios:
+        type: string
+        pattern: '^\\d+.\\d+.\\d+(.\\d+)?$'
+        description: "The iOS version"
+      android:
+        type: string
+        pattern: '^\\d+.\\d+.\\d+(.\\d+)?$'
+        description: "The Android version"
 
 
 

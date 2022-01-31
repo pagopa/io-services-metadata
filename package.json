@@ -22,6 +22,7 @@
     "check_cobadge": "ts-node src/checks/checkCoBadge.ts",
     "check_privative": "ts-node src/checks/checkPrivative.ts",
     "check_zendesk": "ts-node src/checks/checkZendesk.ts",
+    "check_versionInfo": "ts-node src/checks/checkVersionInfo.ts",
     "abi-camel-case": "ts-node src/bankNamesToCamelCase.ts",
     "generate:content-definitions": "rimraf ./generated/definitions/content && mkdir -p ./generated/definitions/content && gen-api-models --api-spec definitions.yml --out-dir ./generated/definitions/content",
     "generate:pagopa-cobadge": "rimraf ./generated/definitions/pagopa/cobadge && mkdir -p ./generated/definitions/pagopa/cobadge && gen-api-models --api-spec ./pagopa/cobadge/abi_definitions.yml --out-dir ./generated/definitions/pagopa/cobadge",
@@ -31,7 +32,7 @@
     "generate:pagopa-bpd-winning-transactions-v2": "rimraf ./generated/definitions/bpd/winningTransactionsv2 && mkdir -p generated/definitions/bpd/winningTransactionsv2 && gen-api-models --api-spec ./bonus/specs/bpd/winning_transactions_v2.json --out-dir ./generated/definitions/bpd/winningTransactionsv2 --no-strict --request-types --response-decoders",
     "generate:pagopa": "npm-run-all generate:pagopa-cobadge generate:pagopa-privative generate:pagopa-walletv2-definitions generate:pagopa-bpd-citizen-v2 generate:pagopa-bpd-winning-transactions-v2",
     "generate:all": "npm-run-all generate:content-definitions generate:pagopa",
-    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative check_zendesk"
+    "run_checks": "npm-run-all check_idps_list_data check_contextual_help_data check_bonus_available_data check_backend_status check_abi check_cobadge check_privative check_zendesk check_versionInfo"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

@@ -1,4 +1,4 @@
-import { decodeJson, parseJson, readFileSync } from "../validateJson";
+import { parseJson, readFileSync } from "../validateJson";
 import { right } from "fp-ts/lib/Either";
 import { VersionInfo } from "../../../generated/definitions/content/VersionInfo";
 import { Zendesk } from "../../../generated/definitions/content/Zendesk";

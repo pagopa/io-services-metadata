@@ -7,7 +7,10 @@ const jsonPath = __dirname + `/../../${filename}`;
 const returnCode = printDecodeOutcome(
   basicJsonFileValidator(jsonPath, VersionInfo),
   filename
-).fold(_ => 1, __ => 0);
+).fold(
+  _ => 1,
+  __ => 0
+);
 
 // TODO: when the release is implemented in io-app, add a check to control that the versions are <= latest released version
 

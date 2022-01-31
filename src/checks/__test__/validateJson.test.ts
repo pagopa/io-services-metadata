@@ -1,25 +1,24 @@
 import { right } from "fp-ts/lib/Either";
 import { parseJson, readFileSync } from "../validateJson";
 
-const expectedValidJson =
-  "{\n" +
-  '  "min_app_version": {\n' +
-  '    "ios": "1.27.0",\n' +
-  '    "android": "1.27.0"\n' +
-  "  },\n" +
-  '  "min_app_version_pagopa": {\n' +
-  '    "ios": "0.0.0",\n' +
-  '    "android": "0.0.0"\n' +
-  "  },\n" +
-  '  "latest_released_app_version" : {\n' +
-  '    "ios": "2.1.0.1",\n' +
-  '    "android": "2.1.0.1"\n' +
-  "  },\n" +
-  '  "rollout_app_version" : {\n' +
-  '    "ios": "0.0.0",\n' +
-  '    "android": "0.0.0"\n' +
-  "  }\n" +
-  "}";
+const expectedValidJson = `{
+  "min_app_version": {
+    "ios": "1.27.0",
+    "android": "1.27.0"
+  },
+  "min_app_version_pagopa": {
+    "ios": "0.0.0",
+    "android": "0.0.0"
+  },
+  "latest_released_app_version" : {
+    "ios": "2.1.0.1",
+    "android": "2.1.0.1"
+  },
+  "rollout_app_version" : {
+    "ios": "0.0.0",
+    "android": "0.0.0"
+  }
+}`;
 
 const expectedValidJsonObject = {
   min_app_version: {

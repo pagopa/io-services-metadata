@@ -1,6 +1,6 @@
 import fs from "fs";
-import { BackendStatus } from "../../generated/definitions/content/BackendStatus";
 import * as jsonValidator from "json-dup-key-validator";
+import { BackendStatus } from "../../generated/definitions/content/BackendStatus";
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/backend.json")
   .toString();

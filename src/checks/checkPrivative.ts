@@ -1,6 +1,6 @@
 import fs from "fs";
-import { PrivativeServices } from "../../generated/definitions/pagopa/privative/PrivativeServices";
 import * as jsonValidator from "json-dup-key-validator";
+import { PrivativeServices } from "../../generated/definitions/pagopa/privative/PrivativeServices";
 
 const fileContent = fs
   .readFileSync(__dirname + "/../../status/privativeServices.json")

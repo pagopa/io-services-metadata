@@ -1,8 +1,8 @@
 // a simple check that idps list json respects type definition
 
 import * as fs from "fs";
-import { SpidIdps } from "../../generated/definitions/content/SpidIdps";
 import * as jsonValidator from "json-dup-key-validator";
+import { SpidIdps } from "../../generated/definitions/content/SpidIdps";
 
 const isRight = SpidIdps.decode(
   jsonValidator.parse(

@@ -1,8 +1,8 @@
 import fs from "fs";
+import * as jsonValidator from "json-dup-key-validator";
 import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { getDuplicates } from "../utils/collections";
 import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
-import * as jsonValidator from "json-dup-key-validator";
 
 /**
  * this script checks abi.json file
@@ -26,7 +26,7 @@ const maybeAbiRegistry = AbiListResponse.decode(
 if (maybeAbiRegistry.isLeft()) {
   error(`can't decode abi registry status/abi.json`);
 } else {
-  // tslint:disable-next-line: no-let
+  // eslint-disable-next-line functional/no-let
   let allLogoExists = true;
   const data = maybeAbiRegistry.value.data || [];
   data.forEach(issuer => {

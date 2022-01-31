@@ -1,5 +1,5 @@
-import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 import { VersionInfo } from "../../generated/definitions/content/VersionInfo";
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 
 const filename = "status/versionInfo.json";
 const jsonPath = __dirname + `/../../${filename}`;

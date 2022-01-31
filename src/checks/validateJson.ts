@@ -1,8 +1,8 @@
+import fs from "fs";
 import * as t from "io-ts";
 import { Context, Errors } from "io-ts";
 import { Either, left, right } from "fp-ts/lib/Either";
 import * as jsonValidator from "json-dup-key-validator";
-import fs from "fs";
 
 /**
  * Parse a string to a json object, checking for duplicate keys
@@ -72,9 +72,8 @@ const getMessage = (value: unknown, context: Context): string =>
 export const errorsToReadableMessages = (es: Errors): ReadonlyArray<string> =>
   es.map(e => getMessage(e.value, e.context));
 
-export const toError = (errors: Errors): Error => {
-  return new Error(errorsToReadableMessages(errors).join(","));
-};
+export const toError = (errors: Errors): Error =>
+  new Error(errorsToReadableMessages(errors).join(","));
 
 /**
  * Perform a validation for a Json in a specific path, using a decoder. Check if:

@@ -23,23 +23,18 @@ const expectedValidJson = `{
 const expectedValidJsonObject = {
   min_app_version: {
     ios: "1.27.0",
-    // tslint:disable-next-line:object-literal-sort-keys
     android: "1.27.0"
   },
   min_app_version_pagopa: {
     ios: "0.0.0",
-    // tslint:disable-next-line:object-literal-sort-keys
     android: "0.0.0"
   },
-  // tslint:disable-next-line:object-literal-sort-keys
   latest_released_app_version: {
     ios: "2.1.0.1",
-    // tslint:disable-next-line:object-literal-sort-keys
     android: "2.1.0.1"
   },
   rollout_app_version: {
     ios: "0.0.0",
-    // tslint:disable-next-line:object-literal-sort-keys
     android: "0.0.0"
   }
 };
@@ -55,7 +50,6 @@ const expectSyntaxError = (value: string) => {
   if (result.isLeft()) {
     expect(result.value.message).toContain(syntaxError);
   } else {
-    // tslint:disable-next-line:no-duplicate-string
     fail("result should be left");
   }
 };
@@ -69,7 +63,6 @@ describe("validateJson", () => {
           if (result.isLeft()) {
             expect(result.value.message).toStrictEqual(readDirectoryError);
           } else {
-            // tslint:disable-next-line:no-duplicate-string
             fail("result should be left");
           }
         });
@@ -120,13 +113,11 @@ describe("validateJson", () => {
         expectSyntaxError("");
       });
     });
-    // tslint:disable-next-line:no-identical-functions
     describe("And an wrong formatted json is provided", () => {
       it(expectedSyntaxError, () => {
         expectSyntaxError('{"key":}');
       });
     });
-    // tslint:disable-next-line:no-identical-functions
     describe("And an json with duplicate key is provided", () => {
       it(expectedSyntaxError, () => {
         expectSyntaxError('{"key": 5,"key": 5 }');

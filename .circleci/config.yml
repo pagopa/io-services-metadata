@@ -47,6 +47,7 @@ jobs:
       - checkout
       - *restore_node_cache
       - *install_node_modules
+      - run: ls
       - run: yarn lint
 
   # Check if all files respect the prettier rules

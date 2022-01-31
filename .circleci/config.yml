@@ -6,7 +6,7 @@ node_cache_key: &node_cache_key v1.1-dependencies-{{ checksum "yarn.lock" }}
 defaults_js: &defaults_js
   <<: *defaults
   docker:
-    - image: cimg/node:14.17
+    - image: cimg/node:14.17.4
 
 restore_node_cache: &restore_node_cache
   restore_cache:

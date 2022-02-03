@@ -378,7 +378,8 @@
         "fiscalCode",
         "payoffInstr",
         "payoffInstrType",
-        "timestampTC"
+        "timestampTC",
+        "optInStatus"
       ],
       "type": "object",
       "properties": {
@@ -414,6 +415,11 @@
         "issuerCardId": {
           "description": "Identificativo univoco dello strumento di pagamento rilasciato dall'issuer",
           "type": "string"
+        },
+        "optInStatus": {
+          "enum": ["NOREQ","ACCEPTED","DENIED"],
+          "type": "string",
+          "description": "stato della richiesta utente di Opt-In per il mantenimento delle carte in AppIO"
         }
       },
       "example": {

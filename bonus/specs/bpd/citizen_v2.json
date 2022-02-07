@@ -425,9 +425,7 @@
           "type": "string"
         },
         "optInStatus": {
-          "schema": {
-            "$ref": "#/definitions/CitizenOptInStatus"
-          }
+          "$ref": "#/definitions/CitizenOptInStatus"
         }
       },
       "example": {
@@ -440,7 +438,11 @@
     },
     "CitizenOptInStatus": {
       "type": "string",
-      "enum": ["NOREQ","ACCEPTED","DENIED"],
+      "enum": [
+        "NOREQ",
+        "ACCEPTED",
+        "DENIED"
+      ],
       "description": "stato della richiesta utente di Opt-In per il mantenimento delle carte in AppIO"
     },
     "CitizenRankingMilestoneResourceArray": {

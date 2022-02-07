@@ -127,6 +127,14 @@
             "description": "Bearer Auth Token",
             "required": true,
             "type": "string"
+          },
+          {
+            "name": "CitizenOptInStatus",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/CitizenOptInStatus"
+            },
+            "description": "CitizenOptInStatus"
           }
         ],
         "responses": {
@@ -417,9 +425,9 @@
           "type": "string"
         },
         "optInStatus": {
-          "enum": ["NOREQ","ACCEPTED","DENIED"],
-          "type": "string",
-          "description": "stato della richiesta utente di Opt-In per il mantenimento delle carte in AppIO"
+          "schema": {
+            "$ref": "#/definitions/CitizenOptInStatus"
+          }
         }
       },
       "example": {
@@ -429,6 +437,11 @@
         "payoffInstrType": "string",
         "timestampTC": "string"
       }
+    },
+    "CitizenOptInStatus": {
+      "type": "string",
+      "enum": ["NOREQ","ACCEPTED","DENIED"],
+      "description": "stato della richiesta utente di Opt-In per il mantenimento delle carte in AppIO"
     },
     "CitizenRankingMilestoneResourceArray": {
       "type": "array",

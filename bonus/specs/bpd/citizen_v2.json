@@ -129,7 +129,7 @@
             "type": "string"
           },
           {
-            "name": "CitizenOptInStatus",
+            "name": "optInStatus",
             "in": "body",
             "schema": {
               "$ref": "#/definitions/CitizenOptInStatus"

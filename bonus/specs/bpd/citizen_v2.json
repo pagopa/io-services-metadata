@@ -127,6 +127,14 @@
             "description": "Bearer Auth Token",
             "required": true,
             "type": "string"
+          },
+          {
+            "name": "optInStatus",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/CitizenOptInStatus"
+            },
+            "description": "CitizenOptInStatus"
           }
         ],
         "responses": {
@@ -378,7 +386,8 @@
         "fiscalCode",
         "payoffInstr",
         "payoffInstrType",
-        "timestampTC"
+        "timestampTC",
+        "optInStatus"
       ],
       "type": "object",
       "properties": {
@@ -414,6 +423,9 @@
         "issuerCardId": {
           "description": "Identificativo univoco dello strumento di pagamento rilasciato dall'issuer",
           "type": "string"
+        },
+        "optInStatus": {
+          "$ref": "#/definitions/CitizenOptInStatus"
         }
       },
       "example": {
@@ -423,6 +435,15 @@
         "payoffInstrType": "string",
         "timestampTC": "string"
       }
+    },
+    "CitizenOptInStatus": {
+      "type": "string",
+      "enum": [
+        "NOREQ",
+        "ACCEPTED",
+        "DENIED"
+      ],
+      "description": "stato della richiesta utente di Opt-In per il mantenimento delle carte in AppIO"
     },
     "CitizenRankingMilestoneResourceArray": {
       "type": "array",

@@ -21,7 +21,7 @@
       "enabled": true
     },
     "cgn": {
-      "enabled": true,
+      "enabled": false,
       "merchants_v2": false
     }
   },

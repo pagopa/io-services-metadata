@@ -87,10 +87,10 @@
       "tos_url": "https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari",
       "urls": []
     },
-    "hidden": true,
+    "hidden": false,
     "service_id": "01F0V4627SXZMVDSPD69GMXE53",
-    "is_active": false,
-    "visibility": "experimental",
+    "is_active": true,
+    "visibility": "visible",
     "valid_from": "2020-07-01T00:00:00.000Z",
     "valid_to": "2020-12-31T00:00:00.000Z",
     "cover": "https://assets.cdn.io.italia.it/bonus/cgn/logo/logo-cgn.png",

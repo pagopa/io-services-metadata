@@ -92,6 +92,20 @@
           "it-IT": "Privacy",
           "en-EN": "Privacy"
         }
+      },
+      {
+        "value": "suggerimento",
+        "description": {
+          "it-IT": "Suggerimento",
+          "en-EN": "Suggestion"
+        }
+      },
+      {
+        "value": "nessuno_dei_precedenti",
+        "description": {
+          "it-IT": "Nessuno dei precedenti",
+          "en-EN": "None of the above"
+        }
       }
     ]
   }

@@ -63,7 +63,7 @@
       }
     },
     "messages": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
@@ -187,7 +187,7 @@
       }
     },
     "euCovidCert": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",

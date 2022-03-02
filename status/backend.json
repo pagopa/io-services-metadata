@@ -87,11 +87,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
-        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
+        "it-IT": "Tra le 23 e le 23:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
+        "en-EN": "Between 11 pm and 11:30 pm, you won't be able to make in-app payments or manage your saved methods."
       }
     },
     "ingress": {

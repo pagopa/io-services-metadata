@@ -4,40 +4,6 @@
     "id": "1900004702053",
     "categories": [
       {
-        "value": "certificazione_verde_covid-19",
-        "description": {
-          "it-IT": "Certificazione Verde COVID-19",
-          "en-EN": "EU Digital COVID Certificate"
-        },
-        "zendeskSubCategories": {
-          "id": "360029178738",
-          "subCategories": [
-            {
-              "value": "informazioni_generali",
-              "description": {
-                "it-IT": "Vorrei più informazioni",
-                "en-EN": "I would like to have more information"
-              }
-            },
-            {
-              "value": "non_ho_ricevuto_nulla",
-              "description": {
-                "it-IT": "Non ho ricevuto la Certificazione",
-                "en-EN": "I haven't received the Certificate"
-              }
-            },
-            {
-              "value": "problemi_tecnici_su_io",
-              "description": {
-                "it-IT": "Ho un problema con IO",
-                "en-EN": "I have a problem with IO"
-              }
-            }
-          ]
-
-        }
-      },
-        {
         "value": "accesso_spid",
         "description": {
           "it-IT": "Accesso tramite SPID",
@@ -66,6 +32,46 @@
         }
       },
       {
+        "value": "certificazione_verde_covid-19",
+        "description": {
+          "it-IT": "Certificazione Verde COVID-19",
+          "en-EN": "EU Digital COVID Certificate"
+        },
+        "zendeskSubCategories": {
+          "id": "360029178738",
+          "subCategories": [
+            {
+              "value": "non_ho_ricevuto_nulla",
+              "description": {
+                "it-IT": "Non ho ricevuto la Certificazione",
+                "en-EN": "I haven't received the Certificate"
+              }
+            },
+            {
+              "value": "informazioni_generali",
+              "description": {
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "I would like to have more information"
+              }
+            },
+            {
+              "value": "problemi_tecnici_su_io",
+              "description": {
+                "it-IT": "Ho un problema con IO",
+                "en-EN": "I have a problem with IO"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "value": "carta_giovani_nazionale",
+        "description": {
+          "it-IT": "Carta Giovani Nazionale",
+          "en-EN": "Carta Giovani Nazionale"
+        }
+      },
+      {
         "value": "cashback",
         "description": {
           "it-IT": "Cashback",
@@ -91,6 +97,20 @@
         "description": {
           "it-IT": "Privacy",
           "en-EN": "Privacy"
+        }
+      },
+      {
+        "value": "suggerimento",
+        "description": {
+          "it-IT": "Suggerimento",
+          "en-EN": "Suggestions"
+        }
+      },
+      {
+        "value": "nessuno_dei_precedenti",
+        "description": {
+          "it-IT": "Nessuno dei precedenti",
+          "en-EN": "None of the above"
         }
       }
     ]

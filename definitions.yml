@@ -394,6 +394,7 @@ definitions:
       - assistanceTool
       - paypal
       - cgn
+      - uaDonations
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -411,6 +412,8 @@ definitions:
         $ref: "#/definitions/PaypalConfig"
       cgn:
         $ref: "#/definitions/CgnConfig"
+      uaDonations:
+        $ref: "#/definitions/UaDonationsConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -568,6 +571,45 @@ definitions:
         type: string
         pattern: '^\\d+.\\d+.\\d+(.\\d+)?$'
         description: "The Android version"
+  UaDonationsConfig:
+    type: object
+    description: "dedicated config for the Ukrainian donation app flow"
+    required:
+      - enabled
+      - banner
+    properties:
+      enabled:
+        type: boolean
+        description: "If true Ukrainian donations app components and logic is available in those app that support it"
+      banner:
+        $ref: "#/definitions/UaDonationsBanner"
+  UaDonationsBanner:
+    type: object
+    description: "Configuration of the Ukrainian donations banner shown in the IO app message section"
+    required:
+      - visible
+      - url
+      - description
+    properties:
+      visible:
+        type: boolean
+        description: "If true the Ukrainian donations banner is visible to the user"
+      description:
+        $ref: "#/definitions/UaDonationsBannerDescription"
+      url:
+        type: string
+        description: "The URL that must be loaded from the app's webview"
+  UaDonationsBannerDescription:
+    type: object
+    description: "The text shown in the Ukrainian donations banner"
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+      en-EN:
+        type: string
 
 
 

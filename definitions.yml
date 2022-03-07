@@ -394,6 +394,7 @@ definitions:
       - assistanceTool
       - paypal
       - cgn
+      - donation
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -411,6 +412,8 @@ definitions:
         $ref: "#/definitions/PaypalConfig"
       cgn:
         $ref: "#/definitions/CgnConfig"
+      donation:
+        $ref: "#/definitions/DonationConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -568,6 +571,45 @@ definitions:
         type: string
         pattern: '^\\d+.\\d+.\\d+(.\\d+)?$'
         description: "The Android version"
+  DonationConfig:
+    type: object
+    description: "dedicated config for the donation app flow"
+    required:
+      - enabled
+      - banner
+    properties:
+      enabled:
+        type: boolean
+        description: "If true donation app components and logic is available in those app that support it"
+      banner:
+        $ref: "#/definitions/DonationBanner"
+  DonationBanner:
+    type: object
+    description: "Configuration of the banner shown in the IO app message section"
+    required:
+      - visible
+      - url
+      - description
+    properties:
+      visible:
+        type: boolean
+        description: "If true the banner is visible to the user"
+      description:
+        $ref: "#/definitions/DonationBannerDescription"
+      url:
+        type: string
+        description: "The URL that must be loaded from the app's webview"
+  DonationBannerDescription:
+    type: object
+    description: The category description shown in IO-App
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+      en-EN:
+        type: string
 
 
 

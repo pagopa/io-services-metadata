@@ -29,8 +29,8 @@
       "banner": {
         "visible": false,
         "description": {
-          "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili del conflitto in Ucraina. Dona ora",
-          "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the conflict in Ukraine. Donate now"
+          "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
+          "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"
         },
         "url": "https://assets.cdn.io.italia.it/html/donate.html"
       }

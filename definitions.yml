@@ -324,6 +324,8 @@ definitions:
       - wallets
       - favourite_language
       - app_update_required
+      - cgn
+      - fims
     properties:
       bancomat:
         $ref: "#/definitions/SectionStatus"
@@ -361,6 +363,8 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       cgn:
         $ref: "#/definitions/SectionStatus"
+      fims:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section
@@ -395,6 +399,7 @@ definitions:
       - paypal
       - cgn
       - uaDonations
+      - fims
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -414,6 +419,8 @@ definitions:
         $ref: "#/definitions/CgnConfig"
       uaDonations:
         $ref: "#/definitions/UaDonationsConfig"
+      fims:
+        $ref: "#/definitions/FimsConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -453,6 +460,15 @@ definitions:
       merchants_v2:
         type: boolean
         description: "If true the merchants search screen will display one tab per merchant type (online or local) NOTE: this version may still be under development"
+  FimsConfig:
+    type: object
+    description: "dedicated config for the FIMS (Federated Identity Management System) feature"
+    required:
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true FIMS feature is available in those app that support it"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

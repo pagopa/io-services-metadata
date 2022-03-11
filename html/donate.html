@@ -6,346 +6,406 @@
   <title>Donazioni</title>
   <link rel="stylesheet" href="https://io.italia.it/assets/selfhostedfonts.css">
 </head>
+
 <style>
-    :root {
-        --bluegrey-dark: #17324D;
-        --bluegrey-light: #CCD4DC;
-        --main-blue: #0073E6;
-        --main-bluegrey: #475A6D;
-        --disabled-text: #97A2AF;
-        --grey-light: #E6E9F2;
+  :root {
+    --bluegrey-dark: #17324D;
+    --bluegrey-light: #CCD4DC;
+    --main-blue: #0073E6;
+    --main-bluegrey: #475A6D;
+    --disabled-text: #97A2AF;
+    --grey-light: #E6E9F2;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 24px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  section {
+    margin: 0 24px;
+  }
+
+  h1,
+  h2,
+  p,
+  a,
+  span,
+  label,
+  button {
+    font-family: "Titillium Web", sans-serif;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  h1,
+  h2,
+  p {
+    color: var(--bluegrey-dark);
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  a {
+    color: var(--main-blue);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px 24px 0px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  ul.tiers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+  }
+
+  .charity-details {
+    flex: 1;
+  }
+
+  li {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  li.charity {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--bluegrey-light);
+    padding: 24px 0px;
+  }
+
+  li.charity.selected input {
+    /** Temporarily disabled. UI still being worked out */
+    /*opacity: 0;*/
+  }
+
+  li.charity:last-child {
+    border: none;
+  }
+
+  section.how-much {
+    margin-top: 24px;
+    border-top: 1px solid var(--bluegrey-light);
+  }
+
+  li.tier {
+    justify-self: center;
+    width: 100%;
+  }
+
+  li.tier>input {
+    display: none;
+  }
+
+  li.tier>label {
+    background-color: white;
+    color: var(--main-blue);
+    display: flex;
+    height: 40px;
+    border: 1px solid var(--main-blue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  li.tier>input:checked+label {
+    color: white;
+    background-color: var(--main-blue);
+  }
+
+  img.charity-logo {
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+    margin-right: 16px;
+  }
+
+  input.charity-selector {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  input.charity-selector+label.charity-selector-view {
+    border: 2px solid var(--main-blue);
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  input.charity-selector:checked+label.charity-selector-view:after {
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: var(--main-blue);
+    border-radius: 100%;
+  }
+
+  .charity-selector-container {
+    padding-left: 16px;
+  }
+
+  .info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    color: var(--bluegrey-dark);
+    font-weight: 700;
+    border-radius: 50%;
+    border: 2px var(--bluegrey-dark) solid;
+    margin-right: 14px;
+  }
+
+  .info-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--main-bluegrey)
+  }
+
+  .info-box {
+    margin-top: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    height: 64px
+  }
+
+  .info-section {
+    display: flex;
+    flex: 1 1 auto;
+
+    padding-bottom: 200px;
+  }
+
+  .submit-section {
+    margin: 0;
+    padding: 0 24px;
+    box-shadow: 0px -5px 20px 0px #e0e0e0;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .submit-btn {
+    color: white;
+    background-color: var(--main-blue);
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .submit-btn.disabled {
+    color: var(--bluegrey-light);
+    background-color: var(--grey-light);
+  }
+
+  #loader {
+    display: flex;
+    align-items: center;
+  }
+
+  #loader p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  #instructions {
+    color: var(--disabled-text);
+  }
+
+  /* Utility classes */
+  .hidden {
+    display: none !important;
+  }
+
+  .disabled {
+    color: var(--disabled-text);
+  }
+
+  /* Spinned for loader */
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+  }
+
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    border: 2px solid var(--main-blue);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: var(--main-blue) transparent transparent transparent;
+  }
+
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
     }
 
-    html, body {
-        height: 100%;
+    100% {
+      transform: rotate(360deg);
     }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        box-sizing: border-box;
-        padding-top: 24px;
-    }
-
-    section {
-        margin: 0 24px;
-    }
-
-    h1, h2, p, a, span, label, button {
-        font-family: "Titillium Web", sans-serif;
-        font-style: normal;
-        letter-spacing: 0px;
-        text-align: left;
-    }
-
-    h1, h2, p {
-        color: var(--bluegrey-dark);
-    }
-
-    h1 {
-        font-size: 20px;
-        font-weight: bold;
-        padding: 0;
-        margin: 0;
-    }
-
-    h2, p {
-        margin: 0;
-        padding: 0;
-    }
-
-
-    p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-    }
-
-    a {
-        color: var(--main-blue);
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 18px;
-    }
-
-    h2 {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 25px;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 16px 0px 24px 0px;
-    }
-
-    ul {
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-
-    ul.tiers {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 24px;
-    }
-
-    .charity-details {
-        flex: 1;
-    }
-
-    li {
-        display: flex;
-        flex: 1 1 auto;
-    }
-
-    li.charity {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid var(--bluegrey-light);
-        padding: 24px 0px;
-    }
-
-    li.charity.selected input {
-        /** Temporarily disabled. UI still being worked out */
-        /*opacity: 0;*/
-    }
-
-    li.charity:last-child {
-        border: none;
-    }
-
-    section.how-much {
-        margin-top: 24px;
-        border-top: 1px solid var(--bluegrey-light);
-    }
-
-    li.tier {
-        justify-self: center;
-        width: 100%;
-    }
-
-    li.tier > input {
-        display: none;
-    }
-
-    li.tier > label {
-        background-color: white;
-        color: var(--main-blue);
-        display: flex;
-        height: 40px;
-        border: 1px solid var(--main-blue);
-        box-sizing: border-box;
-        border-radius: 4px;
-        flex: 1;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
-    }
-
-    li.tier > input:checked + label {
-        color: white;
-        background-color: var(--main-blue);
-    }
-
-    img.charity-logo {
-        width: 64px;
-        height: 64px;
-        min-width: 64px;
-        min-height: 64px;
-        margin-right: 16px;
-    }
-
-    input.charity-selector {
-        color: var(--main-blue);
-        min-width: 32px;
-        width: 32px;
-        height: 32px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .info-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 20px;
-        height: 20px;
-        min-width: 20px;
-        min-height: 20px;
-        color: var(--bluegrey-dark);
-        font-weight: 700;
-        border-radius: 50%;
-        border: 2px var(--bluegrey-dark) solid;
-        margin-right: 14px;
-    }
-
-    .info-text {
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        color: var(--main-bluegrey)
-    }
-
-    .info-box {
-        margin-top: 30px;
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        align-items: center;
-        height: 64px
-    }
-
-    .info-section {
-        display: flex;
-        flex: 1 1 auto;
-    }
-
-    .submit-section {
-        margin: 0;
-        padding: 0 24px;
-        box-shadow: 0px -5px 20px 0px #e0e0e0;
-    }
-
-    .submit-btn {
-        color: white;
-        background-color: var(--main-blue);
-        display: block;
-        height: 40px;
-        width: 100%;
-        border-radius: 4px;
-        border: none;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18px;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-
-    .submit-btn.disabled {
-        color: var(--bluegrey-light);
-        background-color: var(--grey-light);
-    }
-
-    #loader {
-        display: flex;
-        align-items: center;
-    }
-
-    #loader p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-    }
-
-    #instructions {
-        color: var(--disabled-text);
-    }
-
-    /* Utility classes */
-    .hidden {
-        display: none !important;
-    }
-
-    .disabled {
-        color: var(--disabled-text);
-    }
-
-    /* Spinned for loader */
-    .lds-ring {
-        display: inline-block;
-        position: relative;
-        width: 32px;
-        height: 32px;
-        margin-right: 16px;
-    }
-
-    .lds-ring div {
-        box-sizing: border-box;
-        display: block;
-        position: absolute;
-        width: 32px;
-        height: 32px;
-        margin: 2px;
-        border: 2px solid var(--main-blue);
-        border-radius: 50%;
-        animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-        border-color: var(--main-blue) transparent transparent transparent;
-    }
-
-    .lds-ring div:nth-child(1) {
-        animation-delay: -0.45s;
-    }
-
-    .lds-ring div:nth-child(2) {
-        animation-delay: -0.3s;
-    }
-
-    .lds-ring div:nth-child(3) {
-        animation-delay: -0.15s;
-    }
-
-    @keyframes lds-ring {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
-    }
+  }
 </style>
+
 <body onload="main()">
-<section>
-  <header>
-    <h1>A chi vuoi donare?</h1>
-    <a id="edit" class="hidden" href="#" onclick="resetSelection()">modifica</a>
-  </header>
-  <div id="entities-container"></div>
-  <div id="loader">
-    <div class="lds-ring">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+  <section>
+    <header>
+      <h1>A chi vuoi donare?</h1>
+      <a id="edit" class="hidden" href="#" onclick="resetSelection()">modifica</a>
+    </header>
+    <div id="entities-container"></div>
+    <div id="loader">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p>Stiamo caricando la lista delle organizzazioni</p>
     </div>
-    <p>Stiamo caricando la lista delle organizzazioni</p>
-  </div>
-</section>
+  </section>
 
-<section class="how-much">
-  <header>
-    <h1 id="how-much-title" class="disabled">Quanto vuoi donare?</h1>
-  </header>
-  <ul class="tiers" id="tiers-container" onchange="selectTier(event)"></ul>
-  <p id="instructions">Scegli a chi donare per conoscere gli importi disponibili</p>
-</section>
+  <section class="how-much">
+    <header>
+      <h1 id="how-much-title" class="disabled">Quanto vuoi donare?</h1>
+    </header>
+    <ul class="tiers" id="tiers-container" onchange="selectTier(event)"></ul>
+    <p id="instructions">Scegli a chi donare per conoscere gli importi disponibili</p>
+  </section>
 
-<section class="info-section">
-  <div id="info" class="info-box hidden">
-    <span class="info-icon">i</span>
-    <p class="info-text">
-      Puoi donare con carta di credito, debito o prepagata, senza costi di commissione. Riceverai un’email con i dati utili ai fini della detrazione.
-    </p>
-  </div>
-</section>
+  <section class="info-section">
+    <div id="info" class="info-box hidden">
+      <span class="info-icon">i</span>
+      <p class="info-text">
+        Puoi donare con carta di credito, debito o prepagata, senza costi di commissione. Riceverai un’email con i dati utili ai
+        fini della detrazione.
+      </p>
+    </div>
+  </section>
 
-<section class="submit-section">
-  <button id="submit-btn" class="submit-btn disabled" onclick="submit()">Continua</button>
-</section>
+  <section class="submit-section">
+    <button id="submit-btn" class="submit-btn disabled" onclick="submit()">Continua</button>
+  </section>
 </body>
 
 <script>
   let allCharities = "";
+
+  function replaceChildren(target, children) {
+    target.textContent = '';
+
+    children.forEach(child => {
+      target.appendChild(child);
+    });
+  }
 
   function fetchData() {
     // Use this URL to get actual data
@@ -360,7 +420,7 @@
   }
 
   function printAmount(amount) {
-    return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR" }).format(amount / 100);
+    return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", minimumFractionDigits: 0 }).format(amount / 100);
   }
 
   function parseEntities(entities) {
@@ -372,9 +432,13 @@
                     <div class="charity-details">
                         <h2>${entity.name}</h2>
                         <p>${entity.reason}</p>
-                        <a data-url="${entity.web_site}" href="#" onclick="openUrl(event)">Scopri di piu'</a>
+                        <a data-url="${entity.web_site}" href="#" onclick="openUrl(event)">Scopri di più</a>
                     </div>
-                    <input type="radio" name="charity" class="charity-selector" value="${entity.cf}" id="input-${entity.cf}" />
+
+                    <div class="charity-selector-container">
+                      <input type="radio" name="charity" class="charity-selector" value="${entity.cf}" id="input-${entity.cf}" />
+                      <label for="input-${entity.cf}" class="charity-selector-view"></label>
+                    </div>
                 </li>`;
       return { id: entity.cf, charity, tiers };
     });
@@ -400,7 +464,7 @@
       btn.classList.add("disabled");
       const list = document.getElementById("entities-container").children[0];
       const selectedCharity = document.getElementById(charityID);
-      list.replaceChildren(selectedCharity);
+      replaceChildren(list, [selectedCharity]);
       selectedCharity.classList.add("selected");
     } catch (e) {
       reportError(e);
@@ -490,4 +554,5 @@
     });
   }
 </script>
+
 </html>

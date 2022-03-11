@@ -76,6 +76,18 @@
         "en-EN": ""
       }
     },
+    "fims": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
     "messages": {
       "is_visible": false,
       "level": "warning",

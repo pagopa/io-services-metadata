@@ -90,11 +90,11 @@
       }
     },
     "login": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "C’è un disservizio in corso, siamo al lavoro per risolvere il problema.",
+        "en-EN": "There is an ongoing disruption, we are working to solve the problem."
       }
     },
     "wallets": {
@@ -106,11 +106,11 @@
       }
     },
     "ingress": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "C’è un disservizio in corso, siamo al lavoro per risolvere il problema.",
+        "en-EN": "There is an ongoing disruption, we are working to solve the problem."
       }
     },
     "bancomat": {

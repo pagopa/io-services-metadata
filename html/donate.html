@@ -372,7 +372,7 @@
   <div id="info" class="info-box hidden">
     <span class="info-icon">i</span>
     <p class="info-text">
-      Puoi donare con carta di credito, debito o prepagata, senza costi di commissione. Riceverai un’email con i dati utili ai fini della detrazione.
+      Se doni con carta di credito, debito o prepagata non hai costi di commissione. Riceverai un’email con i dati utili ai fini delle agevolazioni fiscali
     </p>
   </div>
 </section>
@@ -395,7 +395,9 @@
 
   function fetchData() {
     // Use this URL to get actual data
-    const url = "https://api.dev.platform.pagopa.it/donations/api/v1/availabledonations";
+    // const url = "https://api.dev.platform.pagopa.it/donations/api/v1/availabledonations";
+    // UAT
+    const url = "https://api.uat.platform.pagopa.it/donations/api/v1/availabledonations";
     // const url = "http://localhost:3000/donations/availabledonations";
     return fetch(url).then(res => res.json());
   }

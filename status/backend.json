@@ -25,7 +25,7 @@
       "merchants_v2": false
     },
     "uaDonations": {
-      "enabled": true,
+      "enabled": false,
       "banner": {
         "visible": true,
         "description": {

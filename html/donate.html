@@ -397,7 +397,9 @@
     // Use this URL to get actual data
     // const url = "https://api.dev.platform.pagopa.it/donations/api/v1/availabledonations";
     // UAT
-    const url = "https://api.uat.platform.pagopa.it/donations/api/v1/availabledonations";
+    // const url = "https://api.uat.platform.pagopa.it/donations/api/v1/availabledonations";
+    // PROD
+    const url = "https://api.platform.pagopa.it/donations/api/v1/availabledonations";
     // const url = "http://localhost:3000/donations/availabledonations";
     return fetch(url).then(res => res.json());
   }

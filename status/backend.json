@@ -24,6 +24,9 @@
       "enabled": true,
       "merchants_v2": false
     },
+    "fims": {
+      "enabled": false
+    },
     "uaDonations": {
       "enabled": false,
       "banner": {
@@ -62,6 +65,18 @@
       }
     },
     "cgn": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
+    "fims": {
       "is_visible": false,
       "level": "warning",
       "message": {

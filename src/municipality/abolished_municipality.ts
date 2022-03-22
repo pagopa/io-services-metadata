@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import * as fs from "fs-extra";
 import * as t from "io-ts";
-import { Either, left, right } from "../../node_modules/fp-ts/lib/Either";
+import { Either, left, right } from "fp-ts/lib/Either";
 import {
   ABOLISHED_MUNICIPALITIES_FILEPATH,
   MUNICIPALITIES_CATASTALI_FILEPATH
@@ -57,8 +57,8 @@ const loadMunicipalityToCatastale = async (): Promise<
 const fromAbolishedMunicipalityToSerializableMunicipality = (
   abolishedMunicipality: t.TypeOf<typeof AbolishedMunicipality>,
   codiceCatastale: string
-) => {
-  return {
+) =>
+  ({
     codiceCatastale,
     municipality: {
       codiceProvincia: "",
@@ -68,8 +68,7 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
       denominazioneRegione: "",
       siglaProvincia: abolishedMunicipality.provincia
     }
-  } as ISerializableMunicipality;
-};
+  } as ISerializableMunicipality);
 
 /**
  * load the abolished municipality and filter the municipality without catastal code
@@ -77,13 +76,13 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
  */
 const loadAbolishedMunicipalities = (
   municipalityToCatastale: Map<string, string>
-): Either<Error, ReadonlyArray<ISerializableMunicipality>> => {
-  return readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
+): Either<Error, ReadonlyArray<ISerializableMunicipality>> =>
+  readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
     .chain(rawFile =>
       AbolishedMunicipalityArray.decode(JSON.parse(rawFile)).mapLeft(
         // TODO: a better description of the error could be obtained updating
         //  the library io-ts to the latest version.
-        errors =>
+        _ =>
           new Error(
             "Fail to parse the json file: " + ABOLISHED_MUNICIPALITIES_FILEPATH
           )
@@ -95,11 +94,11 @@ const loadAbolishedMunicipalities = (
         .map(am =>
           fromAbolishedMunicipalityToSerializableMunicipality(
             am,
+            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
             municipalityToCatastale.get(am.comune.toLowerCase())!
           )
         )
     );
-};
 
 /**
  * This function export the data of the abolished municipalities, creating the data starting from two dataset:

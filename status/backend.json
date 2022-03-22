@@ -11,7 +11,8 @@
     "bpd":
     {
       "enroll_bpd_after_add_payment_method": false,
-      "program_active": false
+      "program_active": false,
+      "opt_in_payment_methods": false
     },
     "assistanceTool": {
       "tool": "zendesk"
@@ -20,8 +21,22 @@
       "enabled": true
     },
     "cgn": {
-      "enabled": false,
+      "enabled": true,
       "merchants_v2": false
+    },
+    "fims": {
+      "enabled": false
+    },
+    "uaDonations": {
+      "enabled": false,
+      "banner": {
+        "visible": true,
+        "description": {
+          "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
+          "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"
+        },
+        "url": "https://assets.cdn.io.italia.it/html/donate.html"
+      }
     }
   },
   "sections": {
@@ -61,12 +76,24 @@
         "en-EN": ""
       }
     },
+    "fims": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
     "messages": {
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
+        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
       }
     },
     "services": {
@@ -89,8 +116,8 @@
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "Tra le 22 e le 22:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
-        "en-EN": "Between 10 pm and 10:30 pm, you won't be able to make in-app payments or manage your saved methods."
+        "it-IT": "Tra le 23 e le 23:30 non sarà possibile effettuare pagamenti in app o gestire i metodi salvati.",
+        "en-EN": "Between 11 pm and 11:30 pm, you won't be able to make in-app payments or manage your saved methods."
       }
     },
     "ingress": {
@@ -187,10 +214,10 @@
     },
     "euCovidCert": {
       "is_visible": false,
-      "level": "normal",
+      "level": "warning",
       "message": {
-        "it-IT": "",
-        "en-EN": "."
+        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
+        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
       }
     },
     "favourite_language": {

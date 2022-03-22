@@ -175,6 +175,10 @@
                   "body": "Premendo il pulsante 'Salva', puoi salvare il QR code del certificato nella galleria immagini del tuo dispositivo per poterlo usare anche se non sei connesso ad internet."
                },
                {
+                  "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
+                  "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
+               },
+               {
                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
                   "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
                }
@@ -208,6 +212,10 @@
                {
                   "title": "Dove posso salvare il certificato sull'app IO?",
                   "body": "Premendo il pulsante 'Salva', puoi salvare il QR code del certificato nella galleria immagini del tuo dispositivo per poterlo usare anche se non sei connesso ad internet."
+               },
+               {
+                  "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
+                  "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
                },
                {
                   "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
@@ -511,6 +519,10 @@
                {
                   "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
                   "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+               },
+               {
+                  "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
+                  "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
                },
                {
                    "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",

@@ -1,16 +1,15 @@
-import fs from "fs";
 import { BackendStatus } from "../../generated/definitions/content/BackendStatus";
-import * as jsonValidator from "json-dup-key-validator";
-const fileContent = fs
-  .readFileSync(__dirname + "/../../status/backend.json")
-  .toString();
-const backendStatus = BackendStatus.decode(
-  jsonValidator.parse(fileContent, false)
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
+
+const filename = "status/backend.json";
+const jsonPath = __dirname + `/../../${filename}`;
+
+const returnCode = printDecodeOutcome(
+  basicJsonFileValidator(jsonPath, BackendStatus),
+  filename
+).fold(
+  _ => 1,
+  __ => 0
 );
-if (!backendStatus.isRight()) {
-  console.error(
-    "status/backend.json is not compatible with BackendStatus type"
-  );
-  process.exit(1);
-}
-process.exit(0);
+
+process.exit(returnCode);

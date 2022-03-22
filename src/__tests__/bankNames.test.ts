@@ -1,10 +1,13 @@
-import { fromNullable } from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
-import { toCamelCase, IAbi } from "../utils/bankNames";
+import { fromNullable } from "fp-ts/lib/Option";
+import { IAbi, toCamelCase } from "../utils/bankNames";
+
 describe("Test Success Case", () => {
-  const updStatusAbi = toCamelCase(JSON.parse(
-    readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json").toString()
-  ) as IAbi);
+  const updStatusAbi = toCamelCase(
+    JSON.parse(
+      readFileSync(__dirname + "/../../bonus/bpd/abi/pm_abi.json").toString()
+    ) as IAbi
+  );
 
   test("Should convert to Capital Case", () => {
     const bank = fromNullable(
@@ -50,7 +53,7 @@ describe("Test Success Case", () => {
       updStatusAbi.data.find(myBank => myBank.abi === "08947")
     );
     expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /\"Don Stella\"/
+      /"Don Stella"/
     );
   });
 

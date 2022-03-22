@@ -1,16 +1,17 @@
 // a simple check that idps list json respects type definition
 
-import * as fs from "fs";
 import { SpidIdps } from "../../generated/definitions/content/SpidIdps";
-import * as jsonValidator from "json-dup-key-validator";
+import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 
-const isRight = SpidIdps.decode(
-  jsonValidator.parse(
-    fs.readFileSync(__dirname + "/../../spid/idps/list.json").toString(),
-    false
-  )
-).isRight();
-if (!isRight) {
-  console.error("spid/idps/list.json is not compatible with SpidIdps type");
-}
-process.exit(isRight ? 0 : 1);
+const filename = "spid/idps/list.json";
+const jsonPath = __dirname + `/../../${filename}`;
+
+const returnCode = printDecodeOutcome(
+  basicJsonFileValidator(jsonPath, SpidIdps),
+  filename
+).fold(
+  _ => 1,
+  __ => 0
+);
+
+process.exit(returnCode);

@@ -549,7 +549,7 @@
     ]
   },
   "ICCREA": {
-    "status": "enabled",
+    "status": "disabled",
     "issuers": [
       {
         "abi": "03139",

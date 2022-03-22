@@ -27,39 +27,41 @@ export const exportCurrentMunicipalities = async () => {
     chalk.blueBright(ITALIAN_MUNICIPALITIES_URL)
   );
 
-  // tslint:disable-next-line: no-any
-  request.get(options, async (error: Error, _: request.Response, body: any) => {
-    if (error) {
-      console.log(
-        "some error occurred while retrieving data",
-        chalk.red(error.message)
-      );
-      return;
-    }
-    console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
-    const buffer = Buffer.from(body);
-
-    const csvContent = buffer.toString();
-    // parse the content string in csv records
-    parseCsvMunicipality(csvContent, parserOption, async result => {
-      if (result.isLeft()) {
+  request.get(
+    options,
+    async (error: Error, _: request.Response, body: unknown) => {
+      if (error) {
         console.log(
-          "some error occurred while parsing data:",
-          chalk.red(result.value.message)
+          "some error occurred while retrieving data",
+          chalk.red(error.message)
         );
         return;
       }
-      // process each csv record with generateJsonFiles function
-      return Promise.all(
-        result.value.map(r => {
-          decodeMunicipality(r).map(municipality =>
-            serializeMunicipalityToJson({
-              codiceCatastale: r[19],
-              municipality
-            })
+      console.log(chalk.gray("[2/2]"), "Generating municipalities JSON...");
+      const buffer = Buffer.from(body as ArrayBuffer);
+
+      const csvContent = buffer.toString();
+      // parse the content string in csv records
+      parseCsvMunicipality(csvContent, parserOption, async result => {
+        if (result.isLeft()) {
+          console.log(
+            "some error occurred while parsing data:",
+            chalk.red(result.value.message)
           );
-        })
-      );
-    });
-  });
+          return;
+        }
+        // process each csv record with generateJsonFiles function
+        return Promise.all(
+          result.value.map(r => {
+            decodeMunicipality(r).map(municipality =>
+              serializeMunicipalityToJson({
+                codiceCatastale: r[19],
+                municipality
+              })
+            );
+          })
+        );
+      });
+    }
+  );
 };

@@ -28,9 +28,9 @@
       "enabled": false
     },
     "uaDonations": {
-      "enabled": false,
+      "enabled": true,
       "banner": {
-        "visible": false,
+        "visible": true,
         "description": {
           "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
           "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"

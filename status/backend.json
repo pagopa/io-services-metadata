@@ -28,7 +28,7 @@
       "enabled": false
     },
     "uaDonations": {
-      "enabled": false,
+      "enabled": true,
       "banner": {
         "visible": true,
         "description": {

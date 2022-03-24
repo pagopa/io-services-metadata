@@ -3,6 +3,37 @@
    "it": {
       "screens": [
         {
+        "route_name": "UADONATION_ROUTES_WEBVIEW",
+        "title": "Donazioni Ucraina",
+        "content": "In questa pagina, puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina.",
+        "faqs": [
+          {
+            "title": "Come posso donare?",
+            "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi “Continua”. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi “Paga” per completare la donazione."
+          },
+          {
+            "title": "Con che metodi di pagamento posso fare la donazione?",
+            "body": "Puoi donare con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard e con conto PayPal."
+          },
+          {
+            "title": "C'è un importo minimo?",
+            "body": "Sì, puoi donare da un minimo di 5 € a un massimo di 200 €. Se vuoi donare importi superiori, ripeti la donazione."
+          },
+          {
+            "title": "La donazione prevede dei costi di commissione?",
+            "body": "Se doni con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard non hai costi di commissione."
+          },
+          {
+            "title": "Non ho ricevuto l'email con i dettagli della donazione. Cosa posso fare?",
+            "body": "Se non hai ricevuto nessuna email, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto."
+          },
+          {
+            "title": "Rappresento un'organizzazione umanitaria: posso partecipare all'iniziativa?",
+            "body": "Per avere informazioni su come partecipare all'iniziativa, scrivi un'email a affari.istituzionali@pagopa.it."
+          }
+        ]
+      },
+         {
         "route_name": "WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
         "title": "Scegli il gestore della transazione",
         "content": "Il gestore della transazione, ovvero il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore, può applicare ad ogni pagamento una commissione variabile. In questa pagina, puoi scegliere quale gestore della transazione utilizzare. Potrai modificare questa scelta ad ogni pagamento, scegliendo in base alla commissione proposta.",
@@ -974,7 +1005,38 @@
       }
    },
    "en": {
-      "screens": [],
+      "screens": [
+        {
+        "route_name": "UADONATION_ROUTES_WEBVIEW",
+        "title": "Donations for Ukraine",
+        "content": "In this page, you can make a donation to charities assisting the civilian victims of the crisis in Ukraine.",
+        "faqs": [
+          {
+            "title": "How can I make a donation?",
+            "body": "To donate, choose a charity from the list. Then select the amount you want to donate and press 'Continue'. Use a supported payment method or select it from your Wallet. Finally, press 'Pay' to complete the donation."
+          },
+          {
+            "title": "What payment methods can I use to make the donation?",
+            "body": "You can donate with a Visa, Maestro and Mastercard credit, debit or prepaid card and with PayPal."
+          },
+          {
+            "title": "Is there a minimum amount?",
+            "body": "Yes, you can donate from a minimum of €5 to a maximum of €200. If you want to donate higher amounts, you can repeat the donation."
+          },
+          {
+            "title": "Is there a commission cost associated with the donation?",
+            "body": " If you donate with a Visa, Maestro and Mastercard credit, debit or prepaid card, no commissions are charged."
+          },
+          {
+            "title": "I did not receive the email with the donation details. What can I do?",
+            "body": "If you donated with the IO app and didn't receive an email, check your spam folder and make sure the address you find under Profile > Your data is correct."
+          },
+          {
+            "title": "I represent a charity: can I participate in the initiative?",
+            "body": "For information on how to participate in the initiative, email affari.istituzionali@pagopa.it."
+          }
+        ]
+      }],
       "idps": {
          "arubaid": {
             "description": "For problems encountered during the authentication process, you can reach the support desk of Aruba by selecting  one of the options presented below.",

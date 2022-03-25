@@ -3,7 +3,7 @@ The file "status/versionInfo.json" contains some information related to the app 
 Each key contains a `VersionPerPlatform` in order to distinguish the semantic between the two different supported platforms. 
 
 ### `min_app_version`
-This value indicates the minimum app version required to use the app.
+This value indicates the minimum app version required to use the app. 
 #### Examples
 ```
 "min_app_version": {

@@ -24,8 +24,8 @@
             "body": "Se doni con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard non hai costi di commissione."
           },
           {
-            "title": "Non ho ricevuto l'email con i dettagli della donazione. Cosa posso fare?",
-            "body": "Se non hai ricevuto nessuna email, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto."
+            "title": "Dopo la donazione, non ho ricevuto nessuna email con la ricevuta. Cosa posso fare?",
+            "body": "Dopo la donazione, ti invieremo un'email con la ricevuta. Se non la ricevi, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto. Ti consigliamo di conservare la ricevuta della donazione, insieme alla documentazione originale del versamento (come l'estratto conto della banca o della carta di credito) per fini fiscali."
           },
           {
             "title": "Rappresento un'organizzazione umanitaria: posso partecipare all'iniziativa?",
@@ -1008,7 +1008,7 @@
       "screens": [
         {
         "route_name": "UADONATION_ROUTES_WEBVIEW",
-        "title": "Donations for Ukraine",
+        "title": "Donations Ukraine",
         "content": "In this page, you can make a donation to charities assisting the civilian victims of the crisis in Ukraine.",
         "faqs": [
           {
@@ -1028,8 +1028,8 @@
             "body": " If you donate with a Visa, Maestro and Mastercard credit, debit or prepaid card, no commissions are charged."
           },
           {
-            "title": "I did not receive the email with the donation details. What can I do?",
-            "body": "If you donated with the IO app and didn't receive an email, check your spam folder and make sure the address you find under Profile > Your data is correct."
+            "title": "After donating, I did not receive the email with the receipt. What can I do?",
+            "body": "After donating, you will receive an email with the receipt. If you don't, check your spam folder and make sure the address you find under Profile > Your Information is correct. We recommend that you keep your receipt, along with original documentation of the payment (such as the bank or credit card statement) for tax purposes."
           },
           {
             "title": "I represent a charity: can I participate in the initiative?",

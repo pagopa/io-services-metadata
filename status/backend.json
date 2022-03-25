@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": false
+      "enabled": true
     },
     "cgn": {
       "enabled": true,

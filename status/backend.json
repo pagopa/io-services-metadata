@@ -92,8 +92,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
-        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
+        "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Our technicians are working to restore service."
       }
     },
     "services": {
@@ -220,8 +220,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
-        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
+        "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Our technicians are working to restore service."
       }
     },
     "favourite_language": {

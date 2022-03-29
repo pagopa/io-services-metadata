@@ -400,6 +400,7 @@ definitions:
       - cgn
       - uaDonations
       - fims
+      - premiumMessages
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -421,6 +422,8 @@ definitions:
         $ref: "#/definitions/UaDonationsConfig"
       fims:
         $ref: "#/definitions/FimsConfig"
+      premiumMessages:
+        $ref: "#/definitions/PremiumMessagesConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -626,7 +629,15 @@ definitions:
         type: string
       en-EN:
         type: string
-
+  PremiumMessagesConfig:
+    type: object
+    description: "A configuration for the Premium Messages feature"
+    required:
+      - opt_in_out_enabled
+    properties:
+      opt_in_out_enabled:
+        type: boolean
+        description: "If true, an opt-in/out screen for the Premium Messages feature will be showed to the user while onboarding and in the settings"
 
 
 

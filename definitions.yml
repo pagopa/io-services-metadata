@@ -633,9 +633,9 @@ definitions:
     type: object
     description: "A configuration for the Premium Messages feature"
     required:
-      - opt_in_enabled
+      - opt_in_out_enabled
     properties:
-      opt_in_enabled:
+      opt_in_out_enabled:
         type: boolean
         description: "If true, an opt-in/out screen for the Premium Messages feature will be showed to the user while onboarding and in the settings"
 

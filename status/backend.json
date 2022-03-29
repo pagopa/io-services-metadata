@@ -39,7 +39,7 @@
       }
     },
     "premiumMessages": {
-      "opt_in_enable": false
+      "opt_in_enabled": false
     }
   },
   "sections": {

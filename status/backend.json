@@ -93,7 +93,7 @@
       "level": "warning",
       "message": {
         "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
-        "en-EN": "We’re having issues showing EU digital COVID certificates. Our technicians are working to restore service."
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
       }
     },
     "services": {
@@ -221,7 +221,7 @@
       "level": "warning",
       "message": {
         "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
-        "en-EN": "We’re having issues showing EU digital COVID certificates. Our technicians are working to restore service."
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
       }
     },
     "favourite_language": {

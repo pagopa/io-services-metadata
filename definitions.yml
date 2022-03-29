@@ -633,7 +633,7 @@ definitions:
     type: object
     description: "A configuration for the Premium Messages feature"
     required:
-      - enabled
+      - opt_in_enabled
     properties:
       opt_in_enabled:
         type: boolean

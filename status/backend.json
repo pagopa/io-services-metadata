@@ -37,6 +37,9 @@
         },
         "url": "https://assets.cdn.io.italia.it/html/donate.html"
       }
+    },
+    "premiumMessages": {
+      "opt_in_enable": false
     }
   },
   "sections": {

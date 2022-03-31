@@ -25,7 +25,8 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": false
+      "enabled": false,
+      "domain": ""
     },
     "uaDonations": {
       "enabled": true,

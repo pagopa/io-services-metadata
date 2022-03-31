@@ -468,10 +468,14 @@ definitions:
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"
     required:
       - enabled
+      - domain
     properties:
       enabled:
         type: boolean
         description: "If true FIMS feature is available in those app that support it"
+      domain:
+        type: string
+        description: "This is the url that will be used to store the session cookie inside the app dedicated webview"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

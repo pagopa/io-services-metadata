@@ -21,8 +21,9 @@
       "enabled": true
     },
     "bancomatPay": {
+      "display": true,
       "onboarding": true,
-      "payment": true
+      "payment": false
     },
     "cgn": {
       "enabled": true,

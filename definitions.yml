@@ -459,7 +459,11 @@ definitions:
     required:
       - onboarding
       - payment
+      - display
     properties:
+      display:
+        type: boolean
+        description: "If true BPay can be showed in the wallet section"
       onboarding:
         type: boolean
         description: "If true BPay can be added in the user's wallet"

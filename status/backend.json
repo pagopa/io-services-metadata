@@ -20,6 +20,10 @@
     "paypal": {
       "enabled": true
     },
+    "bancomatPay": {
+      "onboarding": true,
+      "payment": true
+    },
     "cgn": {
       "enabled": true,
       "merchants_v2": false

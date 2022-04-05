@@ -1066,7 +1066,7 @@
   "en": {
     "screens": [
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSER_ISSUE",
+        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Pay with your supermarket card",
         "content": "Here you can add your supermarket card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
         "faqs": [

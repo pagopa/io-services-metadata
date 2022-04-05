@@ -3,6 +3,160 @@
    "it": {
       "screens": [
         {
+        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSER_ISSUE",
+        "title": "Paga con la tua carta supermercato",
+        "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
+        "faqs": [
+          {
+            "title": "Quali carte supermercato posso aggiungere?",
+            "body": "Puoi aggiungere soltanto le carte supermercato che permettono di pagare. Non sono valide le carte supermercato che non consentono di effettuare pagamenti, ma solo di accumulare punti o avere accesso a sconti."
+          }
+          {
+        "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
+        "title": "Paga con la tua carta PagoBANCOMAT",
+        "content": "In questa pagina puoi aggiungere una carta PagoBANCOMAT come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio. Prima di procedere all'aggiunta delle tue carte PagoBANCOMAT, ti invitiamo a leggere l'informativa.",
+        "faqs": [
+          {
+            "title": "Perché non trovo la mia banca?",
+            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su “Continua”, IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_ADD_CARD",
+        "title": "Paga con una carta credito, debito o prepagata",
+        "content": "In questa pagina puoi aggiungere una carta di credito, debito o prepagata come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
+        "faqs": [
+          {
+            "title": "Dove trovo il codice di sicurezza?",
+            "body": "Il codice di sicurezza, chiamato anche CVV o CVS, è un codice a tre cifre che si trova sul retro della tua carta. Sulle carte American Express si chiama CID, è a quattro cifre e si trova sul fronte. Se non lo trovi, probabilmente la tua carta non è abilitata ai pagamenti online."
+          },
+          {
+            "title": "Non riesco ad aggiungere la mia carta. Come mai?",
+            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n*La tua carta non è abilitata agli acquisti online;\n\n*La tua carta è stata messa “in pausa”;\n\n*Non hai ancora attivato il servizio 3DS, un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento] (https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_PRIVATIVE_DETAIL",
+        "title": "La tua carta supermercato",
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
+        "faqs": [
+          {
+            "title": "Come posso impostare questo metodo di pagamento come preferito?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
+          },
+          {
+            "title": "Come posso eliminare questo metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_BANCOMAT_DETAIL",
+        "title": "La tua carta PagoBANCOMAT",
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
+        "faqs": [
+          {
+            "title": "Come posso impostare questo metodo di pagamento come preferito?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
+          },
+          {
+            "title": "Come posso eliminare questo metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          },
+        {
+            "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
+            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
+          },
+          {
+            "title": "Perché c'è scritto che la mia carta non è compatibile con i pagamenti in app?",
+            "body": "Il circuito PagoBANCOMAT non ti consente di effettuare pagamenti online. Se vuoi pagare con la tua carta, puoi: \n\n*Aggiungere al Portafoglio BANCOMAT Pay, se la tua banca offre questo servizio;\n\n*Aggiungere il secondo circuito, se la tua carta ha il codice di sicurezza ed è già abilitata ai pagamenti online."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_PAYPAL_DETAIL",
+        "title": "Il tuo account PayPal",
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
+        "faqs": [
+          {
+            "title": "Come posso impostare questo metodo di pagamento come preferito?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
+          },
+          {
+            "title": "Come posso eliminare questo metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_CREDIT_CARD_DETAIL",
+        "title": "La tua carta",
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
+        "faqs": [
+          {
+            "title": "Come posso impostare questo metodo di pagamento come preferito?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
+          },
+          {
+            "title": "Come posso eliminare questo metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          }
+        ]
+      },
+        {
+        "route_name": "WALLET_HOME",
+        "title": "Cosa puoi fare nel tuo Portafoglio",
+        "content": "Nel Portafoglio trovi i metodi di pagamento che hai aggiunto, i bonus e le iniziative a cui hai aderito e lo storico delle transazioni effettuate con pagoPA, la piattaforma dei pagamenti verso la Pubblica Amministrazione. In questa sezione, puoi anche pagare tutti gli avvisi di pagamento cartacei con il logo pagoPA.",
+        "faqs": [
+          {
+            "title": "Come posso pagare su IO?",
+            "body": "Puoi pagare con carte di debito, credito e prepagate o con PayPal. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento] (https://io.italia.it/metodi-pagamento)."
+          },
+          {
+            "title": "Come posso aggiungere un metodo di pagamento?",
+            "body": "Vai al Portafoglio, premi “Aggiungi” e “Metodo di Pagamento”. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
+          },
+          {
+            "title": "Quali bonus, sconti o altre iniziative posso richiedere?",
+            "body": "Vai al Portafoglio, premi “Aggiungi” e “Sconti, bonus e altre iniziative”. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
+          },
+          {
+            "title": "Non riesco ad aggiungere un metodo di pagamento. Cosa posso fare?",
+            "body": "Accedi alla pagina [stato aggiunta metodi di pagamento] (ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), seleziona il tentativo di aggiunta fallito e contatta l’assistenza."
+          },
+          {
+            "title": "Come posso eliminare un metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          },
+          {
+            "title": "Ho un problema con un pagamento. Cosa posso fare?",
+            "body": "Accedi alla pagina [stato dei tuoi pagamenti] (ioit://PAYMENTS_HISTORY_SCREEN), seleziona il tentativo di pagamento fallito e contatta l’assistenza."
+          },
+          {
+            "title": "Dove trovo i pagamenti che ho effettuato?",
+            "body": "Nel Portafoglio trovi una lista che contiene i pagamenti effettuati con successo tramite l’app IO. La lista include anche i pagamenti effettuati tramite il sito o l’app degli enti aderenti, se ti sei autenticato con SPID."
+          },
+          {
+            "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
+            "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il Codice Avviso. Per farlo, vai nel Portafoglio, scansiona il QR o inserisci il Codice Avviso e completa il pagamento."
+          },
+          {
+            "title": "Che cos’è un codice QR?",
+            "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su “Paga un avviso” e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
+          },
+          {
+            "title": "Che cos’è pagoPA?",
+            "body": "pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA] (https://www.pagopa.gov.it/)."
+          },
+          {
+            "title": "Come posso saperne di più sui pagamenti digitali?",
+            "body": "Per approfondire i temi di tuo interesse legati al mondo dei pagamenti, puoi consultare i materiali messi a disposizione dalla Banca d’Italia nell’ambito dei programmi di Educazione Finanziaria, tra cui la [sezione dedicata] (https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti] (https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico] (https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come [carta di credito] (https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [carta di debito] (https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [carta prepagata] (https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [carta co-badge] (https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) o altri servizi digitali, [come PayPal] (https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
+          },
+        ]
+      },
+        {
         "route_name": "UADONATION_ROUTES_WEBVIEW",
         "title": "Donazioni Ucraina",
         "content": "In questa pagina, puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina.",
@@ -55,14 +209,14 @@
             "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente."
           },
            {
-            "title": "Non riesco ad aggiungere PayPal come metodo di pagamento su IO.",
-            "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal su IO, ti suggeriamo di:\n\n1.Controllare che il tuo dispositivo sia connesso a una rete.\n\n2.Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n3.Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
+            "title": "Non riesco ad aggiungere PayPal come metodo di pagamento.",
+            "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal, ti suggeriamo di:\n\n1.Controllare che il tuo dispositivo sia connesso a una rete.\n\n2.Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n3.Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
           }
         ]
       },
          {
         "route_name": "WALLET_ONBOARDING_PAYPAL_START",
-        "title": "Paga su IO con PayPal",
+        "title": "Paga con PayPal",
         "content": "In questa pagina potrai aggiungere PayPal come metodo di pagamento nell’app IO.\n\nPayPal ti permette di pagare senza inserire ogni volta i tuoi dati finanziari. Ti permette anche di collegare il tuo conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.",
         "faqs": [
           {
@@ -75,7 +229,7 @@
           },
           {
             "title": "Che vantaggi ho ad utilizzare PayPal per pagare tramite IO?",
-            "body": "PayPal ti permetterà di autorizzare le operazioni di pagamento su IO in modo semplice e veloce, senza che tu debba inserire i tuoi dati finanziari.\n\nPuoi collegare al tuo conto PayPal non solo la carta di credito, di debito o prepagata, ma anche il conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.\n\n[Scopri qui](https://www.paypal.com/it/smarthelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-faq686) come collegare il tuo conto bancario a PayPal."
+            "body": "PayPal ti permetterà di autorizzare le operazioni di pagamento in modo semplice e veloce, senza che tu debba inserire i tuoi dati finanziari.\n\nPuoi collegare al tuo conto PayPal non solo la carta di credito, di debito o prepagata, ma anche il conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.\n\n[Scopri qui](https://www.paypal.com/it/smarthelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-faq686) come collegare il tuo conto bancario a PayPal."
           },
           {
             "title": "Non ho un conto PayPal. Come posso crearne uno?",
@@ -560,51 +714,14 @@
             ]
          },
          {
-            "route_name": "WALLET_ONBOARDING_BANCOMAT_CHOOSE_BANK",
-            "title": "Informativa sul trattamento dei dati personali",
-            "content": "In questa schermata ti invitiamo a leggere l'informativa prima di procedere all'aggiunta delle tue carte PagoBANCOMAT.",
-            "faqs": [
-               {
-                  "title": "Cosa devo fare adesso?",
-                  "body": "IO è in grado di risalire a tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene preso dall'account SPID o CIE con cui hai effettuato l'accesso. **In questo caso premi semplicemente su Continua.**\nSe vuoi puoi anche cercare il nome della tua banca, ma non è necessario."
-               },
-               {
-                  "title": "Perché non trovo la mia banca?",
-                  "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una Banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni.\n\n**Premi su Continua e IO cercherà tutte le carte PagoBANCOMAT a te intestate** sulla base del tuo codice fiscale, che viene preso dall'account SPID o CIE con cui hai effettuato l'accesso."
-               }
-            ]
-         },
-         {
             "route_name": "WALLET_ONBOARDING_BANCOMAT_SEARCH_AVAILABLE_USER_BANCOMAT",
             "title": "Le tue carte PagoBANCOMAT",
             "content": "In questa schermata ti mostriamo la o le carte PagoBANCOMAT a te intestate. Puoi aggiungerle premendo 'Aggiungi', oppure saltare la carta in questione per uscire dal flusso o passare alla carta successiva nel caso ne siano state trovate più di una.",
             "faqs": [
                {
-                  "title": "Una volta abilitata la carta, posso iniziare subito a collezionare transazioni?",
-                  "body": "No, quando si aggiunge un nuovo metodo di pagamento, verranno collezionate le transazioni effettuate a partire dalle 00:01 del giorno successivo a quello dell'attivazione."
-               },
-               {
                   "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
                   "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
                },
-               {
-                  "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-                  "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-               },
-               {
-                  "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-                  "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-               },
-               {
-                  "title": "Posso salvare tra i metodi di pagamento per il Cashback una carta già registrata ai fini del programma da un altro partecipante?",
-                  "body": "No, lo stesso metodo di pagamento non può essere attivato contemporaneamente da due o più partecipanti al programma."
-               },
-               {
-                  "title": "Ho appena registrato un metodo di pagamento al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
-                  "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
-               }
-            ]
-         },
          {
             "route_name": "WALLET_ONBOARDING_BANCOMAT_SUGGEST_BPD_ACTIVATION",
             "title": "Vuoi iscriverti al programma Cashback?",
@@ -663,33 +780,6 @@
                {
                   "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
                   "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
-               }
-            ]
-         },
-         {
-            "route_name": "WALLET_BANCOMAT_DETAIL",
-            "title": "La tua carta PagoBANCOMAT",
-            "content": "Questa è la schermata di dettaglio della tua carta PagoBANCOMAT. Sulla carta sono rappresentati il logo della banca che ha emesso la carta e la data di scadenza.",
-            "faqs": [
-               {
-                  "title": "Cosa posso fare da qui?",
-                  "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento, come ad esempio il Cashback.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
-               },
-               {
-                  "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
-                  "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-               },
-               {
-                  "title": "Perché c'è scritto che la mia carta non è compatibile con i pagamenti in app?",
-                  "body": "Il circuito PagoBANCOMAT non ti consente di effettuare pagamenti online, ma esistono altri modi per pagare su IO con la tua carta: \n- aggiungi al Portafoglio BANCOMAT Pay, se la tua banca offre questo servizio;\n- aggiungi il secondo circuito, se la tua carta ha il codice di sicurezza ed è già abilitata ai pagamenti online."
-               },
-               {
-                  "title": "Cosa succede se disattivo o elimino dall’app IO un metodo di pagamento su cui è attivo il Cashback?",
-                  "body": "Continuerai a vedere le transazioni valide effettuate con quel metodo fino a quel giorno, ma non potrai accumularne di nuove dopo la mezzanotte del giorno in cui l’hai cancellato."
-               },
-               {
-                  "title": "Ho disattivato il Cashback su una mia carta ma vedo che, con quella carta, continuo ancora a collezionare acquisti validi ai fini del programma, come mai?",
-                  "body": "Se scegli di cancellare o sospendere temporaneamente un metodo di pagamento precedentemente registrato, la disattivazione o la sospensione della raccolta delle transazioni su quello strumento è effettiva a partire dalla mezzanotte del giorno successivo."
                }
             ]
          },
@@ -753,7 +843,7 @@
             "faqs": [
                {
                   "title": "Cosa posso fare da qui?",
-                  "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento, come ad esempio il Cashback.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
+                  "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
                },
                {
                   "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
@@ -767,41 +857,6 @@
                   "title": "Perché il numero della carta è diverso?",
                   "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
                },
-               {
-                  "title": "Cosa succede se disattivo o elimino dall’app IO un metodo di pagamento su cui è attivo il Cashback?",
-                  "body": "Continuerai a vedere le transazioni valide effettuate con quel metodo fino a quel giorno, ma non potrai accumularne di nuove dopo la mezzanotte del giorno in cui l’hai cancellato."
-               },
-               {
-                  "title": "Ho disattivato il Cashback su una mia carta ma vedo che, con quella carta, continuo ancora a collezionare acquisti validi ai fini del programma, come mai?",
-                  "body": "Se scegli di cancellare o sospendere temporaneamente un metodo di pagamento precedentemente registrato, la disattivazione o la sospensione della raccolta delle transazioni su quello strumento è effettiva a partire dalla mezzanotte del giorno successivo."
-               }
-            ]
-         },
-         {
-            "route_name": "WALLET_PAYMENT_METHOD_DETAIL",
-            "title": "La tua carta di debito (o credito)",
-            "content": "Questa è la schermata di dettaglio della tua carta di debito (o credito). Sulla carta sono rappresentati il logo del circuito, l'intestatario, la data di scadenza e le ultime 4 cifre della carta.",
-            "faqs": [
-               {
-                  "title": "Cosa posso fare da qui?",
-                  "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento, come ad esempio il Cashback.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
-               },
-               {
-                  "title": "Cosa sono i pagamenti in app?",
-                  "body": "Se lo desideri, questo metodo ti permette di pagare su IO tutti gli avvisi pagoPA, anche quelli cartacei."
-               },
-               {
-                  "title": "Cosa significa 'Usa come preferito'?",
-                  "body": "Quando paghi in app, IO può mostrare in automatico questo metodo di pagamento se lo imposti come preferito. È necessario avere almeno un metodo preferito nel tuo Portafoglio."
-               },
-               {
-                  "title": "Cosa succede se disattivo o elimino dall’app IO un metodo di pagamento su cui è attivo il Cashback?",
-                  "body": "Continuerai a vedere le transazioni valide effettuate con quel metodo fino a quel giorno, ma non potrai accumularne di nuove dopo la mezzanotte del giorno in cui l’hai cancellato."
-               },
-               {
-                  "title": "Ho disattivato il Cashback su una mia carta ma vedo che, con quella carta, continuo ancora a collezionare acquisti validi ai fini del programma, come mai?",
-                  "body": "Se scegli di cancellare o sospendere temporaneamente un metodo di pagamento precedentemente registrato, la disattivazione o la sospensione della raccolta delle transazioni su quello strumento è effettiva a partire dalla mezzanotte del giorno successivo."
-               }
             ]
          },
          {
@@ -1003,10 +1058,240 @@
             "recover_password": "https://login.id.tim.it/mps/fp.php"
          }
       }
-   },
+   }],
    "en": {
       "screens": [
         {
+        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSER_ISSUE",
+        "title": "Pay with your supermarket card",
+        "content": "Here you can add your supermarket card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
+        "faqs": [
+          {
+            "title": "Which supermarket cards can I add?",
+            "body": "You can add only supermarket cards that allow you to pay. Supermarket cards that allow you to collect points or get access to discounts only are not valid."
+          }
+          {
+        "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
+        "title": "Pay with your PagoBANCOMAT card",
+        "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
+        "faqs": [
+          {
+            "title": "Why can't I find my bank?",
+            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press “Add”, IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_ADD_CARD",
+        "title": "Pay with a credit, debit, or prepaid card",
+        "content": "Here you can add your credit, debit, or prepaid card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
+        "faqs": [
+            {
+            "title": "Where do I find the security code?",
+            "body": "The security code, also called CVV or CVS, is a three-digit code on the back of your card. In American Express cards it's called CID, it has four digits and is located on the front. If you can't find the security code, your card probably isn't enabled for online payments."
+          },
+          {
+            "title": "I’m having trouble adding my card. What can I do?",
+            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n*Your card is not enabled for online purchases; \n\n*Your card has been “paused”\n\n*;You have not yet activated the 3DS service, a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page] (https://io.italia.it/metodi-pagamento/)."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_PRIVATIVE_DETAIL",
+        "title": "Your supermarket card",
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
+        "faqs": [
+          {
+            "title": "How can I set this payment method as favorite?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
+          },
+          {
+            "title": "How can I delete this payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_BANCOMAT_DETAIL",
+        "title": "Your PagoBANCOMAT card",
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
+        "faqs": [
+          {
+            "title": "How can I set this payment method as favorite?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
+          },
+          {
+            "title": "How can I delete this payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+          },
+        {
+            "title": "Why is the bank's name and logo different from the name and logo on my card?",
+            "body": "Your PagoBANCOMAT card has probably been issued by a different bank. This happens mostly with online banks or in case of mergers."
+          },
+          {
+            "title": "Why does it say my card is not compatible with in-app payments?",
+            "body": "The PagoBANCOMAT network does not let you make online payments. If you want to pay on IO with your card, you can: \n*Add BANCOMAT Pay to the Wallet, if your bank offers this service;\n*Add the second circuit, if your card has the security code and is already enabled for online payments."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_PAYPAL_DETAIL",
+        "title": "Your PayPal account",
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
+        "faqs": [
+          {
+            "title": "How can I set this payment method as favorite?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
+          },
+          {
+            "title": "How can I delete this payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_CREDIT_CARD_DETAIL",
+        "title": "Your card",
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
+        "faqs": [
+          {
+            "title": "How can I set this payment method as favorite?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
+          },
+          {
+            "title": "How can I delete this payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_HOME",
+        "title": "What can you do in your Wallet",
+        "content": "In the Wallet you can find the payment methods you have added, the bonuses and initiatives you have joined and the history of transactions made with pagoPA, the platform for payments to the Public Administration. Here, you can also pay all the payment notices with the pagoPA logo.",
+        "faqs": [
+          {
+            "title": "How can I pay on IO?",
+            "body": "You can pay with credit, debit and prepaid cards or with PayPal. You can find the updated list of available methods on the [payment methods page] (https://io.italia.it/metodi-pagamento)."
+          },
+          {
+            "title": "How do I add a payment method?",
+            "body": "Go to the Wallet, press “Add”, and then “Payment method”. Select the method you want to add and enter the required information."
+          },
+          {
+            "title": "What bonuses, discounts or other initiatives can I apply for?",
+            "body": "Go to Wallet, select “Add” and “Discounts, bonuses and other initiatives”. You will see a list with all the bonuses and initiatives you can apply for through IO."
+          },
+          {
+            "title": "I have trouble adding a payment method. What can I do?",
+            "body": "Go to the [payment method addition status page] (ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), select the failed addition attempt and contact Support."
+          },
+          {
+            "title": "How can I delete a payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+          },
+          {
+            "title": "I have trouble with a payment. What can I do?",
+            "body": "Go to [your payment status page] (ioit://PAYMENTS_HISTORY_SCREEN), select the failed payment attempt and contact Support."
+          },
+          {
+            "title": "Where do I find the payments I have made?",
+            "body": "In the Wallet you will find a list of successful payments you have made through IO. The list also includes payments made through the partner institutions' website or app, if you logged in with SPID."
+          },
+          {
+            "title": "Can I pay a notice that I did not receive through IO?",
+            "body": "Yes, if the notice features the pagoPA logo and QR code or Notice Code. To do so, go to the Wallet, scan the QR or enter the Notice Code and complete the payment."
+          },
+          {
+            "title": "What is a QR code?",
+            "body": "The QR code is a square image made of white and black elements. When you scan it with a device's camera, it provides direct access to digital content, such as a website, a payment, or an item.\The QR code you find on payment notices is linked to a Notice Code. If you go to your Wallet, press "Pay Notice" and scan the code with your camera, you can pay the notice without having to manually enter information such as a description, amount or tax code."
+          },
+          {
+            "title": "What is pagoPA?",
+            "body": "pagoPA is a platform that makes payments to the Public Administration easier, safer and more transparent. Among other benefits, it helps increase the use of e-payment methods and make individuals able to choose how to pay, highlighting the commission costs. To learn more, [go to the pagoPA website] (https://www.pagopa.gov.it/)."
+          },
+          {
+            "title": "How can I learn more about digital payments?",
+            "body": "In order to learn more about the topics of your interest related to the world of payments, you can read the resources provided by Banca d’Italia as part of its Financial Education programs, such as the [dedicated section] (https://economiapertutti.bancaditalia.it/pagare/) of the website [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) and the [Guide to Payments in Electronic Commerce]. \n\nFor example, if you want to learn more about the payment methods you can add to the Wallet of the IO app, you can read the dedicated information sheets, such as [credit card] (https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [debit card] (https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [prepaid card] (https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [co-badge card] (https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) or other digital services, [such as PayPal] (https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
+          },
+        ]
+      },
+      {
+            "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
+            "title": "Add the second network of your PagoBANCOMAT card",
+            "content": "In order to properly add the international network associated to your PagoBANCOMAT card, we need to know if you have ever used this card online, so that we can redirect you to the relevant page.",
+            "faqs": [
+               {
+                  "title": "How do I understand if my card is enabled for online payments?",
+                  "body": "Your card must have a security code: it is a 3 digit code and is printed on the back. If you can't find it, it means that you can only use your card in stores.\n\n Also make sure that you have enabled the 3D Secure service (Mastercard Identity Check for Mastercard cards and Verified By Visa/Visa Secure for Visa cards). For more information, go to your home banking or contact your bank."
+               },
+               {
+                  "title": "My card has the security code, but I still can't add it to the Wallet.",
+                  "body": "After entering your card details, your bank runs a check, usually via SMS or with a notification through its app. Follow the instructions given by your bank and, in case of trouble, contact their customer service.\n\nIf you do not receive any message (or the transaction is denied) it means that your card is not enabled for online payments. Contact your bank and ask how to activate 3D Secure (Mastercard Identity Check for Mastercard cards and Verified By Visa/Visa Secure for Visa cards)."
+               },
+               {
+                  "title": "I have already added the second network. What should I do?",
+                  "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+               }
+            ]
+         },
+         {
+            "route_name": "WALLET_ONBOARDING_COBADGE_START",
+            "title": "Add the second network of your PagoBANCOMAT card",
+            "content": "This feature allows you to search for all the cards with international network (Maestro, Mastercard, Visa and V-Pay) in your name.",
+            "faqs": [
+              {
+                  "title": "Can I add cards with an international network?",
+                  "body": "Yes, you can add debit or credit cards with an international network (Maestro, Mastercard, VISA and V-Pay), even if they are not enabled for online payments. The cards must be in your name and issued by the [participating banks](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)."
+               },
+               {
+                  "title": "Why can't I find any cards?",
+                  "body": "The service searches only for international network cards in your name. Make sure that the card is actually in your name and is issued by one of the [participating banks](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)."
+               }
+            ]
+         },
+         {
+            "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
+            "title": "Add the second network of your PagoBANCOMAT card",
+            "content": "Here you can see all the cards in your name with an international network (Maestro, Mastercard, Visa and V-Pay), issued by the banks participating in the service. If you don't want to add one of the cards listed, press “Skip" and go to the next one.",
+            "faqs": [
+               {
+                  "title": "Why is the expiration date different?",
+                  "body": "In some cases, the expiration date displayed in the app may be different from the date printed on the card, but this does not affect the addition."
+               },
+               {
+                  "title": "Why is the card number different?",
+                  "body": "IO shows you the last 4 digits of the international network. This number is also indicated on the receipts of purchases made with this network. In some cases, the card may show a different number, but this does not affect the addition."
+               },
+               {
+                  "title": "I have already added the second network, what should I do?",
+                  "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+               }
+            ]
+         },
+         {
+            "route_name": "WALLET_COBADGE_DETAIL",
+            "title": "Your card with international network",
+            "content": "Here you can see the details of your international network card. You can see the logo of the bank that issued the card, the expiration date and the logo and number of the international network.",
+            "faqs": [
+               {
+                  "title": "What can I do here?",
+                  "body": "You can enable or disable some features for this payment method.\n\n You can also delete this payment method from your Wallet."
+               },
+               {
+                  "title": "Why is the bank's name and logo different from the name and logo on my card?",
+                  "body": "Your card has probably been issued by a different bank. This happens mostly with online banks or in case of mergers."
+               },
+              {
+                  "title": "Why is the expiration date different?",
+                  "body": "In some cases, the expiration date displayed in the app may be different from the date printed on the card, but this does not affect the addition."
+               },
+               {
+                  "title": "Why is the card number different?",
+                  "body": "IO shows you the last 4 digits of the international network. This number is also indicated on the receipts of purchases made with this network. In some cases, the card may show a different number, but this does not affect the addition."
+               },
+            ]
+          },
+          {
         "route_name": "UADONATION_ROUTES_WEBVIEW",
         "title": "Donations Ukraine",
         "content": "In this page, you can make a donation to charities assisting the civilian victims of the crisis in Ukraine.",
@@ -1114,4 +1399,3 @@
          }
       }
    }
-}

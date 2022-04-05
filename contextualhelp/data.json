@@ -3,7 +3,7 @@
   "it": {
     "screens": [
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSER_ISSUE",
+        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Paga con la tua carta supermercato",
         "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
         "faqs": [
@@ -723,265 +723,265 @@
           {
             "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
             "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_SUGGEST_BPD_ACTIVATION",
-        "title": "Vuoi iscriverti al programma Cashback?",
-        "content": "Se stai visualizzando questa schermata, significa che hai appena aggiunto metodi di pagamento compatibili con l'iniziativa Cashback.\nSe vuoi iscriverti per provare a ottenere un rimborso sui tuoi acquisti effettuati con strumenti di pagamento elettronico, premi su **Info e Attivazione**, altrimenti premi **No, grazie.**",
-        "faqs": [
-          {
-            "title": "Quali metodi di pagamento posso usare per partecipare al Cashback?",
-            "body": "Puoi partecipare al Cashback con:\n- carte di credito;\n-carte di debito su circuiti internazionali e su circuito PagoBANCOMAT;\n- carte prepagate;\n- le cosiddette carte fedeltà, ovvero carte e app di pagamento connesse a circuiti privativi e/o a spendibilità limitata (esclusi, quindi, quelli solo per accumulo punti);\n- app di pagamento, come ad esempio Satispay o BANCOMAT Pay;\n- altri sistemi di pagamento, come ad esempio Google Pay e Apple Pay (a partire dal 2021)."
           },
           {
-            "title": "Posso cancellarmi dal Cashback in qualsiasi momento?",
-            "body": "Sì. Se ti sei iscritto al programma tramite app IO, puoi sempre recedere cliccando su 'Cancella la tua iscrizione al Cashback' dalla schermata di dettaglio Cashback nella sezione 'Portafoglio'.\nSe invece per iscriverti hai usato uno di uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer), puoi cancellarti  solo se non hai attivi altri metodi di pagamento su altri canali."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_ACTIVATE_BPD_NEW",
-        "title": "Attiva il Cashback sulle tue carte PagoBANCOMAT",
-        "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
-        "faqs": [
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+            "route_name": "WALLET_ONBOARDING_BANCOMAT_SUGGEST_BPD_ACTIVATION",
+            "title": "Vuoi iscriverti al programma Cashback?",
+            "content": "Se stai visualizzando questa schermata, significa che hai appena aggiunto metodi di pagamento compatibili con l'iniziativa Cashback.\nSe vuoi iscriverti per provare a ottenere un rimborso sui tuoi acquisti effettuati con strumenti di pagamento elettronico, premi su **Info e Attivazione**, altrimenti premi **No, grazie.**",
+            "faqs": [
+              {
+                "title": "Quali metodi di pagamento posso usare per partecipare al Cashback?",
+                "body": "Puoi partecipare al Cashback con:\n- carte di credito;\n-carte di debito su circuiti internazionali e su circuito PagoBANCOMAT;\n- carte prepagate;\n- le cosiddette carte fedeltà, ovvero carte e app di pagamento connesse a circuiti privativi e/o a spendibilità limitata (esclusi, quindi, quelli solo per accumulo punti);\n- app di pagamento, come ad esempio Satispay o BANCOMAT Pay;\n- altri sistemi di pagamento, come ad esempio Google Pay e Apple Pay (a partire dal 2021)."
+              },
+              {
+                "title": "Posso cancellarmi dal Cashback in qualsiasi momento?",
+                "body": "Sì. Se ti sei iscritto al programma tramite app IO, puoi sempre recedere cliccando su 'Cancella la tua iscrizione al Cashback' dalla schermata di dettaglio Cashback nella sezione 'Portafoglio'.\nSe invece per iscriverti hai usato uno di uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer), puoi cancellarti  solo se non hai attivi altri metodi di pagamento su altri canali."
+              }
+            ]
           },
           {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+            "route_name": "WALLET_ONBOARDING_BANCOMAT_ACTIVATE_BPD_NEW",
+            "title": "Attiva il Cashback sulle tue carte PagoBANCOMAT",
+            "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
+            "faqs": [
+              {
+                "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
+                "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+              },
+              {
+                "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
+                "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+              },
+              {
+                "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
+                "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
+              },
+              {
+                "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
+                "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
+              }
+            ]
           },
           {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
+            "route_name": "WALLET_ONBOARDING_CREDIT_CARD_ACTIVATE_BPD_NEW",
+            "title": "Attiva il Cashback sulle tue carte",
+            "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
+            "faqs": [
+              {
+                "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
+                "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+              },
+              {
+                "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
+                "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+              },
+              {
+                "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
+                "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
+              },
+              {
+                "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
+                "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
+              }
+            ]
           },
           {
-            "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
-            "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_CREDIT_CARD_ACTIVATE_BPD_NEW",
-        "title": "Attiva il Cashback sulle tue carte",
-        "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
-        "faqs": [
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+            "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
+            "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
+            "content": "Per aggiungere correttamente il circuito internazionale associato alla tua carta PagoBANCOMAT, ci serve sapere se hai mai utilizzato questa carta online, così da indirizzarti verso la pagina più adatta al tuo caso.",
+            "faqs": [
+              {
+                "title": "Come faccio a capire se la mia carta è abilitata ai pagamenti online?",
+                "body": "La tua carta deve avere un codice di sicurezza: è di 3 cifre ed è stampato sul retro. Se non lo trovi, significa che puoi utilizzare la tua carta soltanto nei negozi.\n\nAssicurati inoltre di aver abilitato il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa). Per maggiori informazioni, accedi al tuo Home Banking o contatta la tua banca."
+              },
+              {
+                "title": "La mia carta ha il codice di sicurezza, ma non riesco comunque a salvarla in app.",
+                "body": "Dopo aver inserito i dati della tua carta, la tua banca effettua una verifica, solitamente via SMS o con una notifica tramite la propria app. Segui bene le istruzioni mostrate dalla tua banca e, in caso di problemi, contatta il loro servizio clienti.\n\nSe non ricevi alcun messaggio (oppure la transazione viene negata) significa che la tua carta non è abilitata ai pagamenti online. Rivolgiti alla tua banca e chiedi come attivare il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa)."
+              },
+              {
+                "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
+                "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
+              }
+            ]
           },
           {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
+            "route_name": "WALLET_ONBOARDING_COBADGE_START",
+            "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
+            "content": "Questo servizio ti permette di cercare tutte le carte con circuito internazionale (Maestro, Mastercard, Visa e V-Pay) a te intestate.",
+            "faqs": [
+              {
+                "title": "Posso aggiungere anche carte con circuito internazionale?",
+                "body": "Sì, puoi aggiungere anche carte di debito o credito con circuito internazionale (Maestro, Mastercard, VISA e V-Pay), anche se non sono abilitate ai pagamenti online. Le carte devono essere intestate a te ed emesse dalle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online) al servizio."
+              },
+              {
+                "title": "Perché non trovo alcuna carta?",
+                "body": "Il servizio cerca solo carte con circuito internazionale intestate a te. Assicurati che la carta in tuo possesso sia effettivamente intestata a te e che sia emessa da una delle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)"
+              }
+            ]
           },
           {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
+            "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
+            "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
+            "content": "In questa pagina vengono mostrate tutte le carte intestate a te, su circuito internazionale (Maestro, Mastercard, Visa e V-Pay) presso le banche aderenti al servizio. Se non desideri aggiungere una delle carte mostrate, premi 'Salta' per passare a quella successiva.",
+            "faqs": [
+              {
+                "title": "Perché la data di scadenza è diversa?",
+                "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
+              },
+              {
+                "title": "Perché il numero della carta è diverso?",
+                "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
+              },
+              {
+                "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
+                "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
+              }
+            ]
           },
           {
-            "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
-            "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "Per aggiungere correttamente il circuito internazionale associato alla tua carta PagoBANCOMAT, ci serve sapere se hai mai utilizzato questa carta online, così da indirizzarti verso la pagina più adatta al tuo caso.",
-        "faqs": [
-          {
-            "title": "Come faccio a capire se la mia carta è abilitata ai pagamenti online?",
-            "body": "La tua carta deve avere un codice di sicurezza: è di 3 cifre ed è stampato sul retro. Se non lo trovi, significa che puoi utilizzare la tua carta soltanto nei negozi.\n\nAssicurati inoltre di aver abilitato il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa). Per maggiori informazioni, accedi al tuo Home Banking o contatta la tua banca."
+            "route_name": "WALLET_COBADGE_DETAIL",
+            "title": "La tua carta con circuito internazionale",
+            "content": "Questa è la schermata di dettaglio della tua carta con circuito internazionale. Sulla carta sono rappresentati il logo della banca che ha emesso la carta, la data di scadenza e logo e numero relativi al circuito internazionale.",
+            "faqs": [
+              {
+                "title": "Cosa posso fare da qui?",
+                "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
+              },
+              {
+                "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
+                "body": "Probabilmente la tua carta è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
+              },
+              {
+                "title": "Perché la data di scadenza è diversa?",
+                "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
+              },
+              {
+                "title": "Perché il numero della carta è diverso?",
+                "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
+              }
+            ]
           },
           {
-            "title": "La mia carta ha il codice di sicurezza, ma non riesco comunque a salvarla in app.",
-            "body": "Dopo aver inserito i dati della tua carta, la tua banca effettua una verifica, solitamente via SMS o con una notifica tramite la propria app. Segui bene le istruzioni mostrate dalla tua banca e, in caso di problemi, contatta il loro servizio clienti.\n\nSe non ricevi alcun messaggio (oppure la transazione viene negata) significa che la tua carta non è abilitata ai pagamenti online. Rivolgiti alla tua banca e chiedi come attivare il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa)."
+            "route_name": "AUTHENTICATION_LANDING",
+            "title": "Come accedere all'app IO",
+            "content": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.** \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https://www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti.\nSe invece desideri fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.",
+            "faqs": [
+              {
+                "title": "Cos'è SPID?",
+                "body": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online."
+              },
+              {
+                "title": "Come puoi ottenere SPID?",
+                "body": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, Infocert, Intesa, Namirial, Poste, Register, Sielte, Tim o Lepida. Questi soggetti (detti Identity Provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https://www.spid.gov.it/cos-e-spid/come-attivare-spid/](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/)."
+              },
+              {
+                "title": "Hai perso le tue credenziali SPID?",
+                "body": "Non ti preoccupare, è sempre possibile recuperare le tue credenziali.\n- Se hai richiesto SPID a **Aruba** segui la procedura di recupero qui: [https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- Se hai richiesto SPID a **Infocert** segui la procedura di recupero qui: [https://my.infocert.it/selfcare/#/recoveryPin](https://my.infocert.it/selfcare/#/recoveryPin)\n- Se hai richiesto SPID a **Namirial** segui la procedura di recupero qui: [https://portale.namirialtsp.com/private/user/spid_reset.php](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- Se hai richiesto SPID a **Intesa** segui la procedura di recupero qui: [https://spid.intesa.it/area-privata/forgot-password.aspx](https://spid.intesa.it/area-privata/forgot-password.aspx)\n- Se hai richiesto SPID a **Poste** segui la procedura di recupero qui: [https://posteid.poste.it/recuperocredenziali.shtml](https://posteid.poste.it/recuperocredenziali.shtml)\n- Se hai richiesto SPID a **Register** segui la procedura di recupero qui:\n(username dimenticata) [https://spid.register.it/selfcare/recovery/username](https://spid.register.it/selfcare/recovery/username)\n(password dimenticata) [https://spid.register.it/selfcare/recovery/password](https://spid.register.it/selfcare/recovery/password)\n- Se hai richiesto SPID a **Sielte** segui la procedura di recupero qui:\n(password dimenticata) [https://myid.sieltecloud.it/profile/recovery/forgotPassword](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- Se hai richiesto SPID a **Tim** segui la procedura di recupero qui:\n(username dimenticata) [https://login.id.tim.it/mps/fu.php](https://login.id.tim.it/mps/fu.php)\n(password dimenticata) [https://login.id.tim.it/mps/fp.php](https://login.id.tim.it/mps/fp.php)\n- Se hai richiesto SPID a **Lepida** segui la procedura di recupero qui: [https://id.lepida.it/idm/app/recupero_credenziali.jsp](https://id.lepida.it/idm/app/recupero_credenziali.jsp)"
+              },
+              {
+                "title": "Cos'è la CIE?",
+                "body": "La CIE, la Carta d’Identità Elettronica, è un documento elettronico altamente sicuro, dotato di un microprocessore a radiofrequenza che ne permette l’utilizzo in svariati scenari, incluso l’accesso a servizi online. Risponde alle esigenze di sicurezza del nostro Paese e sostituisce la versione cartacea."
+              },
+              {
+                "title": "Come puoi ottenere la CIE?",
+                "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
+              },
+              {
+                "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
+              },
+              {
+                "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
+                "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Posso ricevere il certificato su IO anche se sono minorenne?",
+                "body": "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
+              },
+              {
+                "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
+                "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
+                "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
+                "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
+              },
+              {
+                "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Usi Android e non riesci ad aggiornare IO?",
+                "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
+              }
+            ]
           },
           {
-            "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
-            "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_START",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "Questo servizio ti permette di cercare tutte le carte con circuito internazionale (Maestro, Mastercard, Visa e V-Pay) a te intestate.",
-        "faqs": [
-          {
-            "title": "Posso aggiungere anche carte con circuito internazionale?",
-            "body": "Sì, puoi aggiungere anche carte di debito o credito con circuito internazionale (Maestro, Mastercard, VISA e V-Pay), anche se non sono abilitate ai pagamenti online. Le carte devono essere intestate a te ed emesse dalle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online) al servizio."
-          },
-          {
-            "title": "Perché non trovo alcuna carta?",
-            "body": "Il servizio cerca solo carte con circuito internazionale intestate a te. Assicurati che la carta in tuo possesso sia effettivamente intestata a te e che sia emessa da una delle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)"
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "In questa pagina vengono mostrate tutte le carte intestate a te, su circuito internazionale (Maestro, Mastercard, Visa e V-Pay) presso le banche aderenti al servizio. Se non desideri aggiungere una delle carte mostrate, premi 'Salta' per passare a quella successiva.",
-        "faqs": [
-          {
-            "title": "Perché la data di scadenza è diversa?",
-            "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Perché il numero della carta è diverso?",
-            "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
-            "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_COBADGE_DETAIL",
-        "title": "La tua carta con circuito internazionale",
-        "content": "Questa è la schermata di dettaglio della tua carta con circuito internazionale. Sulla carta sono rappresentati il logo della banca che ha emesso la carta, la data di scadenza e logo e numero relativi al circuito internazionale.",
-        "faqs": [
-          {
-            "title": "Cosa posso fare da qui?",
-            "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
-          },
-          {
-            "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
-            "body": "Probabilmente la tua carta è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          },
-          {
-            "title": "Perché la data di scadenza è diversa?",
-            "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Perché il numero della carta è diverso?",
-            "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
-          }
-        ]
-      },
-      {
-        "route_name": "AUTHENTICATION_LANDING",
-        "title": "Come accedere all'app IO",
-        "content": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.** \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https://www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti.\nSe invece desideri fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.",
-        "faqs": [
-          {
-            "title": "Cos'è SPID?",
-            "body": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online."
-          },
-          {
-            "title": "Come puoi ottenere SPID?",
-            "body": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, Infocert, Intesa, Namirial, Poste, Register, Sielte, Tim o Lepida. Questi soggetti (detti Identity Provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https://www.spid.gov.it/cos-e-spid/come-attivare-spid/](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/)."
-          },
-          {
-            "title": "Hai perso le tue credenziali SPID?",
-            "body": "Non ti preoccupare, è sempre possibile recuperare le tue credenziali.\n- Se hai richiesto SPID a **Aruba** segui la procedura di recupero qui: [https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- Se hai richiesto SPID a **Infocert** segui la procedura di recupero qui: [https://my.infocert.it/selfcare/#/recoveryPin](https://my.infocert.it/selfcare/#/recoveryPin)\n- Se hai richiesto SPID a **Namirial** segui la procedura di recupero qui: [https://portale.namirialtsp.com/private/user/spid_reset.php](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- Se hai richiesto SPID a **Intesa** segui la procedura di recupero qui: [https://spid.intesa.it/area-privata/forgot-password.aspx](https://spid.intesa.it/area-privata/forgot-password.aspx)\n- Se hai richiesto SPID a **Poste** segui la procedura di recupero qui: [https://posteid.poste.it/recuperocredenziali.shtml](https://posteid.poste.it/recuperocredenziali.shtml)\n- Se hai richiesto SPID a **Register** segui la procedura di recupero qui:\n(username dimenticata) [https://spid.register.it/selfcare/recovery/username](https://spid.register.it/selfcare/recovery/username)\n(password dimenticata) [https://spid.register.it/selfcare/recovery/password](https://spid.register.it/selfcare/recovery/password)\n- Se hai richiesto SPID a **Sielte** segui la procedura di recupero qui:\n(password dimenticata) [https://myid.sieltecloud.it/profile/recovery/forgotPassword](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- Se hai richiesto SPID a **Tim** segui la procedura di recupero qui:\n(username dimenticata) [https://login.id.tim.it/mps/fu.php](https://login.id.tim.it/mps/fu.php)\n(password dimenticata) [https://login.id.tim.it/mps/fp.php](https://login.id.tim.it/mps/fp.php)\n- Se hai richiesto SPID a **Lepida** segui la procedura di recupero qui: [https://id.lepida.it/idm/app/recupero_credenziali.jsp](https://id.lepida.it/idm/app/recupero_credenziali.jsp)"
-          },
-          {
-            "title": "Cos'è la CIE?",
-            "body": "La CIE, la Carta d’Identità Elettronica, è un documento elettronico altamente sicuro, dotato di un microprocessore a radiofrequenza che ne permette l’utilizzo in svariati scenari, incluso l’accesso a servizi online. Risponde alle esigenze di sicurezza del nostro Paese e sostituisce la versione cartacea."
-          },
-          {
-            "title": "Come puoi ottenere la CIE?",
-            "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
-          },
-          {
-            "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
-            "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
-          },
-          {
-            "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
-            "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO i certificati dei miei familiari?",
-            "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere il certificato su IO anche se sono minorenne?",
-            "body": "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
-          },
-          {
-            "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
-            "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
-            "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
-          },
-          {
-            "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
-            "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Usi Android e non riesci ad aggiornare IO?",
-            "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
-          }
-        ]
-      },
-      {
-        "route_name": "MESSAGES_HOME",
-        "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
-        "faqs": [
-          {
-            "title": "Che tipo di messaggi posso ricevere?",
-            "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
-          },
-          {
-            "title": "Cosa succede se archivio i messaggi?",
-            "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
-          },
-          {
-            "title": "I messaggi possono essere cancellati?",
-            "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘*Archiviati*’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘*Archiviati*’."
-          },
-          {
-            "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
-            "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
-          },
-          {
-            "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
-            "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO i certificati dei miei familiari?",
-            "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho appena fatto il vaccino, perché non trovo il mio certificato su IO?",
-            "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
-          },
-          {
-            "title": "Ho appena fatto un tampone, perché non trovo il mio certificato su IO?",
-            "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
-          },
-          {
-            "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
-            "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
-            "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Usi Android e non riesci ad aggiornare IO?",
-            "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
+            "route_name": "MESSAGES_HOME",
+            "title": "Cosa puoi fare nei tuoi Messaggi",
+            "content": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+            "faqs": [
+              {
+                "title": "Che tipo di messaggi posso ricevere?",
+                "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
+              },
+              {
+                "title": "Cosa succede se archivio i messaggi?",
+                "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
+              },
+              {
+                "title": "I messaggi possono essere cancellati?",
+                "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘*Archiviati*’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘*Archiviati*’."
+              },
+              {
+                "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
+                "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
+              },
+              {
+                "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
+                "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Posso ricevere su IO i certificati dei miei familiari?",
+                "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Ho appena fatto il vaccino, perché non trovo il mio certificato su IO?",
+                "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
+              },
+              {
+                "title": "Ho appena fatto un tampone, perché non trovo il mio certificato su IO?",
+                "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
+              },
+              {
+                "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
+                "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito?",
+                "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
+                "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
+                "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
+              },
+              {
+                "title": "Usi Android e non riesci ad aggiornare IO?",
+                "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
+              }
+            ]
           }
         ]
       }

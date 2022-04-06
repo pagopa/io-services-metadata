@@ -35,24 +35,14 @@
           },
           {
             "title": "Non riesco ad aggiungere la mia carta. Come mai?",
-            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n*La tua carta non è abilitata agli acquisti online;\n\n*La tua carta è stata messa “in pausa”;\n\n*Non hai ancora attivato il servizio 3DS, un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento] (https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
+            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa “in pausa”;\n\n- Non hai ancora attivato il servizio 3DS, un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
       },
       {
         "route_name": "WALLET_PRIVATIVE_DETAIL",
         "title": "La tua carta supermercato",
-        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
-        "faqs": [
-          {
-            "title": "Come posso impostare questo metodo di pagamento come preferito?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
-          },
-          {
-            "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
-          }
-        ]
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",
@@ -73,7 +63,7 @@
           },
           {
             "title": "Perché c'è scritto che la mia carta non è compatibile con i pagamenti in app?",
-            "body": "Il circuito PagoBANCOMAT non ti consente di effettuare pagamenti online. Se vuoi pagare con la tua carta, puoi: \n\n*Aggiungere al Portafoglio BANCOMAT Pay, se la tua banca offre questo servizio;\n\n*Aggiungere il secondo circuito, se la tua carta ha il codice di sicurezza ed è già abilitata ai pagamenti online."
+            "body": "Il circuito PagoBANCOMAT non ti consente di effettuare pagamenti online. Se vuoi pagare con la tua carta, puoi: \n\n- Aggiungere al Portafoglio BANCOMAT Pay, se la tua banca offre questo servizio;\n\n- Aggiungere il secondo circuito, se la tua carta ha il codice di sicurezza ed è già abilitata ai pagamenti online."
           }
         ]
       },
@@ -114,7 +104,7 @@
         "faqs": [
           {
             "title": "Come posso pagare su IO?",
-            "body": "Puoi pagare con carte di debito, credito e prepagate o con PayPal. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento] (https://io.italia.it/metodi-pagamento)."
+            "body": "Puoi pagare con carte di debito, credito e prepagate o con PayPal. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento)."
           },
           {
             "title": "Come posso aggiungere un metodo di pagamento?",
@@ -126,7 +116,7 @@
           },
           {
             "title": "Non riesco ad aggiungere un metodo di pagamento. Cosa posso fare?",
-            "body": "Accedi alla pagina [stato aggiunta metodi di pagamento] (ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), seleziona il tentativo di aggiunta fallito e contatta l’assistenza."
+            "body": "Accedi alla pagina [stato aggiunta metodi di pagamento](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), seleziona il tentativo di aggiunta fallito e contatta l’assistenza."
           },
           {
             "title": "Come posso eliminare un metodo di pagamento?",
@@ -134,7 +124,7 @@
           },
           {
             "title": "Ho un problema con un pagamento. Cosa posso fare?",
-            "body": "Accedi alla pagina [stato dei tuoi pagamenti] (ioit://PAYMENTS_HISTORY_SCREEN), seleziona il tentativo di pagamento fallito e contatta l’assistenza."
+            "body": "Accedi alla pagina [stato dei tuoi pagamenti](ioit://PAYMENTS_HISTORY_SCREEN), seleziona il tentativo di pagamento fallito e contatta l’assistenza."
           },
           {
             "title": "Dove trovo i pagamenti che ho effettuato?",
@@ -150,11 +140,11 @@
           },
           {
             "title": "Che cos’è pagoPA?",
-            "body": "pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA] (https://www.pagopa.gov.it/)."
+            "body": "pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA](https://www.pagopa.gov.it/)."
           },
           {
             "title": "Come posso saperne di più sui pagamenti digitali?",
-            "body": "Per approfondire i temi di tuo interesse legati al mondo dei pagamenti, puoi consultare i materiali messi a disposizione dalla Banca d’Italia nell’ambito dei programmi di Educazione Finanziaria, tra cui la [sezione dedicata] (https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti] (https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico] (https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come [carta di credito] (https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [carta di debito] (https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [carta prepagata] (https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [carta co-badge] (https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) o altri servizi digitali, [come PayPal] (https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
+            "body": "Per approfondire i temi di tuo interesse legati al mondo dei pagamenti, puoi consultare i materiali messi a disposizione dalla Banca d’Italia nell’ambito dei programmi di Educazione Finanziaria, tra cui la [sezione dedicata](https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come [carta di credito](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [carta di debito](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [carta prepagata](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [carta co-badge](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) o altri servizi digitali, [come PayPal](https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
           }
         ]
       },
@@ -212,7 +202,7 @@
           },
           {
             "title": "Non riesco ad aggiungere PayPal come metodo di pagamento.",
-            "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal, ti suggeriamo di:\n\n1.Controllare che il tuo dispositivo sia connesso a una rete.\n\n2.Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n3.Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
+            "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal, ti suggeriamo di:\n\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n\n1. Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n1. Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
           }
         ]
       },
@@ -515,102 +505,6 @@
         ]
       },
       {
-        "route_name": "BPD_INFORMATION_TOS",
-        "title": "Programma Cashback",
-        "content": "Qui sono visualizzate tutte le informazioni relative al Cashback, il provvedimento istituito dal Ministero dell'Economia e delle Finanze per incentivare l'utilizzo della moneta elettronica anche per piccole somme.",
-        "faqs": [
-          {
-            "title": "Come faccio a richiedere il Cashback?",
-            "body": "Se sei maggiorenne e risiedi in Italia, semplicemente premi sul pulsante 'Attiva il Cashback' in fondo alla pagina e segui il flusso che ti viene proposto.\nA seguito dell'autodichiarazione, ti verrà chiesto di:\n- inserire un IBAN, che utilizzeremo a fine periodo per rimborsarti eventuali importi accumulati;\n- aggiungere metodi di pagamento elettronici (o attivare quelli già presenti nel tuo portafoglio).\n\nEntrambi i passaggi sono facoltativi, ma ti consigliamo di effettuarli subito per evitare di dimenticarti e iniziare quanto prima ad accumulare transazioni valide."
-          },
-          {
-            "title": "Cosa serve per richiedere il Cashback?",
-            "body": "Devi essere maggiorenne, risiedere in Italia e avere almeno un IBAN a te intestato o cointestato e almeno un metodo di pagamento elettronico."
-          },
-          {
-            "title": "Ci sono limiti di reddito? Serve presentare una DSU per il calcolo dell’ISEE per accedere al Cashback?",
-            "body": "No, l’erogazione dei rimborsi previsti dal programma non è legata in alcun modo al reddito né alla situazione patrimoniale dei partecipanti."
-          },
-          {
-            "title": "Possono partecipare tutti i componenti maggiorenni dello stesso nucleo familiare?",
-            "body": "Per aderire al Cashback non c’è un limite al numero di partecipanti per nucleo familiare. Ogni componente maggiorenne e residente in Italia può iscriversi individualmente al programma e ricevere il proprio rimborso."
-          },
-          {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
-          }
-        ]
-      },
-      {
-        "route_name": "BPD_DECLARATION",
-        "title": "Iscrizione al Cashback",
-        "content": "Leggi le condizioni descritte in questa pagina e, se corrispondono al vero, spunta i relativi quadratini, premendoli.\nPuoi proseguire nell'attivazione del Cashback solo se tutti e 4 i quadratini sono spuntati.\nTi ricordiamo che dichiarando il falso potrai incorrere in sanzioni penali, oltre a perdere il diritto al rimborso di eventuali importi accumulati ai sensi degli [Articoli 46 e 47 del Dpr 28 dicembre 2000 n. 445](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2000-12-28;445)",
-        "faqs": [
-          {
-            "title": "Cosa vuole dire \"acquisti non legati ad attività di Impresa, Arte o Professione\"?",
-            "body": "Significa che non sono valide le transazioni per acquisti legati alla propria attività professionale, ad esempio per l'acquisto di materiale per l'ufficio. I cittadini devono attivare al Cashback solo i metodi di pagamento con cui effettuano acquisti di carattere esclusivamente personale."
-          },
-          {
-            "title": "Per aderire devo avere la cittadinanza italiana?",
-            "body": "No, è sufficiente che tu abbia la residenza in Italia."
-          },
-          {
-            "title": "Mio/a figlio/a è minorenne, ma ha una carta; può partecipare all’iniziativa?",
-            "body": "No, un minorenne non può partecipare al Cashback. Solo se sei il o la titolare della carta di tuo/a figlio/a, puoi registrarla tra i metodi di pagamento elettronici e attivarla sul tuo profilo ai fini del Cashback."
-          }
-        ]
-      },
-      {
-        "route_name": "BPD_ENROLL_PAYMENT_METHODS",
-        "title": "Abilita i tuoi metodi di pagamento al Cashback",
-        "content": "In questa schermata ti mostriamo i metodi di pagamento che hai già registrato nel tuo Portafoglio in IO.\nSeleziona quelli che vuoi attivare per il Cashback – premendo sull'icona grigia alla destra dell'elemento nella lista – e conferma la tua scelta.\nTi ricordiamo che puoi attivare ai fini del Cashback solo i metodi di pagamento **a te intestati.**",
-        "faqs": [
-          {
-            "title": "Cosa vuol dire 'Metodi di pagamento non attivabili o non compatibili'?",
-            "body": "Se nella lista vedi metodi di pagamento sotto questa dicitura, significa che alcuni metodi che hai salvato non possono essere attivati ai fini del Cashback. Puoi toccare la 'i' a fianco di ciascun elemento per leggere la motivazione."
-          },
-          {
-            "title": "Quali metodi di pagamento posso usare per il Cashback?",
-            "body": "Ti invitiamo a controllare la lista completa al seguente link: [Metodi di Pagamento](https://io.italia.it/metodi-pagamento).\nStiamo lavorando per includere quanti più metodi di pagamento elettronico possibile, per cui la lista si potrebbe presto aggiornare!"
-          },
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
-          }
-        ]
-      },
-      {
-        "route_name": "BPD_NO_PAYMENT_METHODS",
-        "title": "Salva i tuoi metodi di pagamento e abilitali al Cashback",
-        "content": "Per iniziare a collezionare transazioni valide che ti permettano di accumulare il cashback, è necessario salvare in IO i tuoi metodi di pagamento elettronico e abilitarli al Cashback.\nPuoi farlo anche in un secondo momento, ma ti informiamo che inizieremo a collezionare le transazioni su un determinato metodo a partire dalle 00:01 del giorno successivo alla sua attivazione in IO.\nTi ricordiamo che puoi attivare ai fini del Cashback solo i metodi di pagamento **a te intestati**.",
-        "faqs": [
-          {
-            "title": "Quali metodi di pagamento posso usare per il Cashback?",
-            "body": "Ti invitiamo a controllare la lista completa al seguente link: [Metodi di Pagamento](https://io.italia.it/metodi-pagamento).\nStiamo lavorando per includere quanti più metodi di pagamento elettronico possibile, per cui la lista si potrebbe presto aggiornare!"
-          },
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)."
-          },
-          {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)."
-          },
-          {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
-          }
-        ]
-      },
-      {
         "route_name": "BPD_IBAN",
         "title": "Inserisci il tuo IBAN",
         "content": "In questa schermata puoi inserire l'IBAN di un conto o di una carta dotata di IBAN su cui vuoi ricevere gli eventuali rimborsi a periodo concluso. Il conto o la carta in questione **devono essere intestate o cointestate a te.**\nQuesto passaggio non è obbligatorio, ma ti raccomandiamo di farlo entro la fine del periodo per evitare eventuali problemi con i rimborsi.",
@@ -723,67 +617,6 @@
           {
             "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
             "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_SUGGEST_BPD_ACTIVATION",
-        "title": "Vuoi iscriverti al programma Cashback?",
-        "content": "Se stai visualizzando questa schermata, significa che hai appena aggiunto metodi di pagamento compatibili con l'iniziativa Cashback.\nSe vuoi iscriverti per provare a ottenere un rimborso sui tuoi acquisti effettuati con strumenti di pagamento elettronico, premi su **Info e Attivazione**, altrimenti premi **No, grazie.**",
-        "faqs": [
-          {
-            "title": "Quali metodi di pagamento posso usare per partecipare al Cashback?",
-            "body": "Puoi partecipare al Cashback con:\n- carte di credito;\n-carte di debito su circuiti internazionali e su circuito PagoBANCOMAT;\n- carte prepagate;\n- le cosiddette carte fedeltà, ovvero carte e app di pagamento connesse a circuiti privativi e/o a spendibilità limitata (esclusi, quindi, quelli solo per accumulo punti);\n- app di pagamento, come ad esempio Satispay o BANCOMAT Pay;\n- altri sistemi di pagamento, come ad esempio Google Pay e Apple Pay (a partire dal 2021)."
-          },
-          {
-            "title": "Posso cancellarmi dal Cashback in qualsiasi momento?",
-            "body": "Sì. Se ti sei iscritto al programma tramite app IO, puoi sempre recedere cliccando su 'Cancella la tua iscrizione al Cashback' dalla schermata di dettaglio Cashback nella sezione 'Portafoglio'.\nSe invece per iscriverti hai usato uno di uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer), puoi cancellarti  solo se non hai attivi altri metodi di pagamento su altri canali."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_ACTIVATE_BPD_NEW",
-        "title": "Attiva il Cashback sulle tue carte PagoBANCOMAT",
-        "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
-        "faqs": [
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
-          },
-          {
-            "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
-            "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_CREDIT_CARD_ACTIVATE_BPD_NEW",
-        "title": "Attiva il Cashback sulle tue carte",
-        "content": "In questa schermata ti chiediamo di abilitare i metodi di pagamento appena aggiunti per il Cashback.\nUna volta attivi, potrai iniziare a collezionare transazioni valide a partire dal giorno successivo alla data di attivazione.\n\nPer attivare i metodi, devi semplicemente premere sull'icona grigia alla destra dell'elemento. Se l'icona diventa blu, allora il metodo selezionato è attivo.",
-        "faqs": [
-          {
-            "title": "Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?",
-            "body": "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Quanti metodi di pagamento elettronico posso attivare per il Cashback?",
-            "body": "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](https://io.italia.it/metodi-pagamento)"
-          },
-          {
-            "title": "Posso partecipare al Cashback anche con una carta intestata a un'altra persona?",
-            "body": "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento."
-          },
-          {
-            "title": "Ho appena registrato la mia carta al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?",
-            "body": "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
           }
         ]
       },
@@ -941,7 +774,7 @@
           },
           {
             "title": "I messaggi possono essere cancellati?",
-            "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘*Archiviati*’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘*Archiviati*’."
+            "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘**Archiviati**’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘**Archiviati**’."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -1098,24 +931,14 @@
           },
           {
             "title": "I’m having trouble adding my card. What can I do?",
-            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n*Your card is not enabled for online purchases; \n\n*Your card has been “paused”\n\n*;You have not yet activated the 3DS service, a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page] (https://io.italia.it/metodi-pagamento/)."
+            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been “paused”\n\n*;You have not yet activated the 3DS service, a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
       },
       {
         "route_name": "WALLET_PRIVATIVE_DETAIL",
         "title": "Your supermarket card",
-        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
-        "faqs": [
-          {
-            "title": "How can I set this payment method as favorite?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
-          },
-          {
-            "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
-          }
-        ]
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",
@@ -1136,7 +959,7 @@
           },
           {
             "title": "Why does it say my card is not compatible with in-app payments?",
-            "body": "The PagoBANCOMAT network does not let you make online payments. If you want to pay on IO with your card, you can: \n*Add BANCOMAT Pay to the Wallet, if your bank offers this service;\n*Add the second circuit, if your card has the security code and is already enabled for online payments."
+            "body": "The PagoBANCOMAT network does not let you make online payments. If you want to pay on IO with your card, you can: \n* Add BANCOMAT Pay to the Wallet, if your bank offers this service;\n* Add the second circuit, if your card has the security code and is already enabled for online payments."
           }
         ]
       },
@@ -1177,7 +1000,7 @@
         "faqs": [
           {
             "title": "How can I pay on IO?",
-            "body": "You can pay with credit, debit and prepaid cards or with PayPal. You can find the updated list of available methods on the [payment methods page] (https://io.italia.it/metodi-pagamento)."
+            "body": "You can pay with credit, debit and prepaid cards or with PayPal. You can find the updated list of available methods on the [payment methods page](https://io.italia.it/metodi-pagamento)."
           },
           {
             "title": "How do I add a payment method?",
@@ -1189,7 +1012,7 @@
           },
           {
             "title": "I have trouble adding a payment method. What can I do?",
-            "body": "Go to the [payment method addition status page] (ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), select the failed addition attempt and contact Support."
+            "body": "Go to the [payment method addition status page](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), select the failed addition attempt and contact Support."
           },
           {
             "title": "How can I delete a payment method?",
@@ -1197,7 +1020,7 @@
           },
           {
             "title": "I have trouble with a payment. What can I do?",
-            "body": "Go to [your payment status page] (ioit://PAYMENTS_HISTORY_SCREEN), select the failed payment attempt and contact Support."
+            "body": "Go to [your payment status page](ioit://PAYMENTS_HISTORY_SCREEN), select the failed payment attempt and contact Support."
           },
           {
             "title": "Where do I find the payments I have made?",
@@ -1213,11 +1036,11 @@
           },
           {
             "title": "What is pagoPA?",
-            "body": "pagoPA is a platform that makes payments to the Public Administration easier, safer and more transparent. Among other benefits, it helps increase the use of e-payment methods and make individuals able to choose how to pay, highlighting the commission costs. To learn more, [go to the pagoPA website] (https://www.pagopa.gov.it/)."
+            "body": "pagoPA is a platform that makes payments to the Public Administration easier, safer and more transparent. Among other benefits, it helps increase the use of e-payment methods and make individuals able to choose how to pay, highlighting the commission costs. To learn more, [go to the pagoPA website](https://www.pagopa.gov.it/)."
           },
           {
             "title": "How can I learn more about digital payments?",
-            "body": "In order to learn more about the topics of your interest related to the world of payments, you can read the resources provided by Banca d’Italia as part of its Financial Education programs, such as the [dedicated section] (https://economiapertutti.bancaditalia.it/pagare/) of the website [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) and the [Guide to Payments in Electronic Commerce]. \n\nFor example, if you want to learn more about the payment methods you can add to the Wallet of the IO app, you can read the dedicated information sheets, such as [credit card] (https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [debit card] (https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [prepaid card] (https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [co-badge card] (https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) or other digital services, [such as PayPal] (https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
+            "body": "In order to learn more about the topics of your interest related to the world of payments, you can read the resources provided by Banca d’Italia as part of its Financial Education programs, such as the [dedicated section](https://economiapertutti.bancaditalia.it/pagare/) of the website [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) and the [Guide to Payments in Electronic Commerce]. \n\nFor example, if you want to learn more about the payment methods you can add to the Wallet of the IO app, you can read the dedicated information sheets, such as [credit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), [debit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), [prepaid card](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/), [co-badge card](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/) or other digital services, [such as PayPal](https://economiapertutti.bancaditalia.it/notizie/parliamo-di-pagamenti-elettronici-e-online/#B4)."
           }
         ]
       },

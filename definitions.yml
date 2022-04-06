@@ -402,6 +402,7 @@ definitions:
       - uaDonations
       - fims
       - premiumMessages
+      - cdc
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -427,6 +428,8 @@ definitions:
         $ref: "#/definitions/FimsConfig"
       premiumMessages:
         $ref: "#/definitions/PremiumMessagesConfig"
+      cdc:
+        $ref: "#/definitions/CdcConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -658,6 +661,15 @@ definitions:
       opt_in_out_enabled:
         type: boolean
         description: "If true, an opt-in/out screen for the Premium Messages feature will be showed to the user while onboarding and in the settings"
+  CdcConfig:
+    type: object
+    description: "A configuration for the carta della cultura feature"
+    required:
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
 
 
 

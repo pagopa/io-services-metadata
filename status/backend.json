@@ -20,12 +20,18 @@
     "paypal": {
       "enabled": true
     },
+    "bancomatPay": {
+      "display": true,
+      "onboarding": true,
+      "payment": false
+    },
     "cgn": {
       "enabled": true,
       "merchants_v2": false
     },
     "fims": {
-      "enabled": false
+      "enabled": false,
+      "domain": ""
     },
     "uaDonations": {
       "enabled": true,
@@ -37,6 +43,12 @@
         },
         "url": "https://assets.cdn.io.italia.it/html/donate.html"
       }
+    },
+    "premiumMessages": {
+      "opt_in_out_enabled": false
+    },
+    "cdc": {
+      "enabled": false
     }
   },
   "sections": {
@@ -92,8 +104,8 @@
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
-        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
+        "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
       }
     },
     "services": {
@@ -113,7 +125,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/status",
@@ -220,8 +232,8 @@
       "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "C’è un problema con la visualizzazione delle Certificazioni Verdi COVID-19. I tecnici della Piattaforma Nazionale del Ministero della Salute sono al lavoro per ripristinare il servizio.",
-        "en-EN": "There is an issue with COVID-19 Green Certifications. The Ministry of Health technicians are working to restore service."
+        "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
       }
     },
     "favourite_language": {

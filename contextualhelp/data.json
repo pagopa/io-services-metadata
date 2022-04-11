@@ -762,19 +762,27 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",
-            "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
+            "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
+          },
+                    {
+            "title": "Cosa posso fare nei miei messaggi?",
+            "body": "All’interno dei messaggi, puoi:\n- visualizzare un’informazione, come per esempio il Codice QR della tua Certificazione Verde;\n- fissare un promemoria per ricordarti di una scadenza;\n- procedere al pagamento di un avviso."
           },
           {
-            "title": "Cosa succede se archivio i messaggi?",
-            "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
+            "title": "Come posso archiviare un messaggio?",
+            "body": "Per archiviare un messaggio, tienilo premuto e seleziona il pulsante 'Archivia' che vedrai comparire sullo schermo. Il messaggio si sposterà nella scheda 'Archiviati'. Con la stessa modalità, puoi spostare i messaggi da 'Archiviati' a 'Ricevuti'."
           },
           {
-            "title": "I messaggi possono essere cancellati?",
-            "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘**Archiviati**’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘**Archiviati**’."
+            "title": "Posso cancellare un messaggio?",
+            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in “Archiviati”. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
+          },
+                    {
+            "title": "Perché non vedo più la scheda 'In scadenza'?",
+            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata “In scadenza”. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -811,10 +819,6 @@
           {
             "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
             "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Usi Android e non riesci ad aggiornare IO?",
-            "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
           }
         ]
       }

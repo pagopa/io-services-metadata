@@ -762,7 +762,7 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi..",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",

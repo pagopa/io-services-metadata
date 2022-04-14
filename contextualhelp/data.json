@@ -186,11 +186,11 @@
         "faqs": [
           {
             "title": "Cos’è il gestore della transazione?",
-            "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione.\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
+            "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione. Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/).\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
           },
           {
             "title": "Perché devo scegliere il gestore della transazione?",
-            "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso."
+            "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
           },
           {
             "title": "Quale gestore devo scegliere?",
@@ -198,7 +198,7 @@
           },
           {
             "title": "A cosa è dovuto il costo della transazione?",
-            "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente."
+            "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
           },
           {
             "title": "Non riesco ad aggiungere PayPal come metodo di pagamento.",

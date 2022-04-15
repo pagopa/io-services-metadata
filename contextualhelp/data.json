@@ -159,7 +159,7 @@
           },
           {
             "title": "Con che metodi di pagamento posso fare la donazione?",
-            "body": "Puoi donare con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard e con conto PayPal."
+            "body": "Puoi donare con carta di credito, debito o prepagata e con conto PayPal."
           },
           {
             "title": "C'è un importo minimo?",
@@ -167,7 +167,7 @@
           },
           {
             "title": "La donazione prevede dei costi di commissione?",
-            "body": "Se doni con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard non hai costi di commissione."
+            "body": "Se doni con carta di credito, debito o prepagata non hai costi di commissione."
           },
           {
             "title": "Dopo la donazione, non ho ricevuto nessuna email con la ricevuta. Cosa posso fare?",
@@ -1135,7 +1135,7 @@
           },
           {
             "title": "What payment methods can I use to make the donation?",
-            "body": "You can donate with a Visa, Maestro and Mastercard credit, debit or prepaid card and with PayPal."
+            "body": "You can donate with credit, debit or prepaid card and with PayPal."
           },
           {
             "title": "Is there a minimum amount?",
@@ -1143,7 +1143,7 @@
           },
           {
             "title": "Is there a commission cost associated with the donation?",
-            "body": " If you donate with a Visa, Maestro and Mastercard credit, debit or prepaid card, no commissions are charged."
+            "body": " If you donate with credit, debit or prepaid card, no commissions are charged."
           },
           {
             "title": "After donating, I did not receive the email with the receipt. What can I do?",

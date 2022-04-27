@@ -397,9 +397,12 @@ definitions:
       - cgn_merchants_v2
       - assistanceTool
       - paypal
+      - bancomatPay
       - cgn
       - uaDonations
       - fims
+      - premiumMessages
+      - cdc
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -415,12 +418,18 @@ definitions:
         $ref: "#/definitions/AssistanceToolConfig"
       paypal:
         $ref: "#/definitions/PaypalConfig"
+      bancomatPay:
+        $ref: "#/definitions/BancomatPayConfig"
       cgn:
         $ref: "#/definitions/CgnConfig"
       uaDonations:
         $ref: "#/definitions/UaDonationsConfig"
       fims:
         $ref: "#/definitions/FimsConfig"
+      premiumMessages:
+        $ref: "#/definitions/PremiumMessagesConfig"
+      cdc:
+        $ref: "#/definitions/CdcConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -447,6 +456,23 @@ definitions:
       enabled:
         type: boolean
         description: "If true paypal is available in those app that support it"
+  BancomatPayConfig:
+    type: object
+    description: "dedicated config for the BancomatPay payment method"
+    required:
+      - onboarding
+      - payment
+      - display
+    properties:
+      display:
+        type: boolean
+        description: "If true BPay can be showed in the wallet section"
+      onboarding:
+        type: boolean
+        description: "If true BPay can be added in the user's wallet"
+      payment:
+        type: boolean
+        description: "If true BPay can be used to pay"
   CgnConfig:
     type: object
     description: "dedicated config for the CGN app flow"
@@ -465,10 +491,14 @@ definitions:
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"
     required:
       - enabled
+      - domain
     properties:
       enabled:
         type: boolean
         description: "If true FIMS feature is available in those app that support it"
+      domain:
+        type: string
+        description: "This is the url that will be used to store the session cookie inside the app dedicated webview"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"
@@ -626,7 +656,24 @@ definitions:
         type: string
       en-EN:
         type: string
-
+  PremiumMessagesConfig:
+    type: object
+    description: "A configuration for the Premium Messages feature"
+    required:
+      - opt_in_out_enabled
+    properties:
+      opt_in_out_enabled:
+        type: boolean
+        description: "If true, an opt-in/out screen for the Premium Messages feature will be showed to the user while onboarding and in the settings"
+  CdcConfig:
+    type: object
+    description: "A configuration for the carta della cultura feature"
+    required:
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
 
 
 

@@ -159,7 +159,7 @@
           },
           {
             "title": "Con che metodi di pagamento posso fare la donazione?",
-            "body": "Puoi donare con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard e con conto PayPal."
+            "body": "Puoi donare con carta di credito, debito o prepagata e con conto PayPal."
           },
           {
             "title": "C'è un importo minimo?",
@@ -167,7 +167,7 @@
           },
           {
             "title": "La donazione prevede dei costi di commissione?",
-            "body": "Se doni con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard non hai costi di commissione."
+            "body": "Se doni con carta di credito, debito o prepagata non hai costi di commissione."
           },
           {
             "title": "Dopo la donazione, non ho ricevuto nessuna email con la ricevuta. Cosa posso fare?",
@@ -186,11 +186,11 @@
         "faqs": [
           {
             "title": "Cos’è il gestore della transazione?",
-            "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione.\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
+            "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione. Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/).\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
           },
           {
             "title": "Perché devo scegliere il gestore della transazione?",
-            "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso."
+            "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
           },
           {
             "title": "Quale gestore devo scegliere?",
@@ -198,7 +198,7 @@
           },
           {
             "title": "A cosa è dovuto il costo della transazione?",
-            "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente."
+            "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
           },
           {
             "title": "Non riesco ad aggiungere PayPal come metodo di pagamento.",
@@ -762,19 +762,27 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",
-            "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
+            "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
+          },
+                    {
+            "title": "Cosa posso fare nei miei messaggi?",
+            "body": "All’interno dei messaggi, puoi:\n- visualizzare un’informazione, come per esempio il Codice QR della tua Certificazione Verde;\n- fissare un promemoria per ricordarti di una scadenza;\n- procedere al pagamento di un avviso."
           },
           {
-            "title": "Cosa succede se archivio i messaggi?",
-            "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
+            "title": "Come posso archiviare un messaggio?",
+            "body": "Per archiviare un messaggio, tienilo premuto e seleziona il pulsante 'Archivia' che vedrai comparire sullo schermo. Il messaggio si sposterà nella scheda 'Archiviati'. Con la stessa modalità, puoi spostare i messaggi da 'Archiviati' a 'Ricevuti'."
           },
           {
-            "title": "I messaggi possono essere cancellati?",
-            "body": "No, i messaggi ricevuti non possono essere cancellati dall'app.\nPer questo abbiamo creato la sezione ‘**Archiviati**’, dove puoi spostare i messaggi che non vuoi più vedere tra quelli ricevuti. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente nella scheda ‘**Archiviati**’."
+            "title": "Posso cancellare un messaggio?",
+            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in “Archiviati”. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
+          },
+                    {
+            "title": "Perché non vedo più la scheda 'In scadenza'?",
+            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata “In scadenza”. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -811,10 +819,6 @@
           {
             "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
             "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Usi Android e non riesci ad aggiornare IO?",
-            "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
           }
         ]
       }
@@ -1131,7 +1135,7 @@
           },
           {
             "title": "What payment methods can I use to make the donation?",
-            "body": "You can donate with a Visa, Maestro and Mastercard credit, debit or prepaid card and with PayPal."
+            "body": "You can donate with credit, debit or prepaid card and with PayPal."
           },
           {
             "title": "Is there a minimum amount?",
@@ -1139,7 +1143,7 @@
           },
           {
             "title": "Is there a commission cost associated with the donation?",
-            "body": " If you donate with a Visa, Maestro and Mastercard credit, debit or prepaid card, no commissions are charged."
+            "body": " If you donate with credit, debit or prepaid card, no commissions are charged."
           },
           {
             "title": "After donating, I did not receive the email with the receipt. What can I do?",

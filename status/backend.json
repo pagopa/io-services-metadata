@@ -31,7 +31,7 @@
     },
     "fims": {
       "enabled": false,
-      "domain": ""
+      "domain": "https://fims-dev-app-provider.azurewebsites.net/"
     },
     "uaDonations": {
       "enabled": true,

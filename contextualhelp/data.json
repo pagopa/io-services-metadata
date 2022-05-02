@@ -35,7 +35,7 @@
           },
           {
             "title": "Non riesco ad aggiungere la mia carta. Come mai?",
-            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa “in pausa”;\n\n- Non hai ancora attivato il servizio 3DS, un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
+            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa “in pausa”;\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
       },
@@ -935,7 +935,7 @@
           },
           {
             "title": "I’m having trouble adding my card. What can I do?",
-            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been “paused”\n\n*;You have not yet activated the 3DS service, a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
+            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been “paused”\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
       },

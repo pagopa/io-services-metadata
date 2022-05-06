@@ -245,24 +245,19 @@
           {
             "title": "Non ho un account BANCOMAT Pay, come posso fare?",
             "body": "[Scopri qui](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE) se la tua banca offre il servizio. Se presente, puoi richiedere l’abilitazione tramite l’home banking o l’app della tua banca.\nPer altre informazioni consulta le [domande più frequenti](https://bancomat.it/it/faq-questions-top)."
+          },
+          {
+            "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
+            "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."
           }
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BPAY_START",
-        "faqs": [
-          {
-            "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
-            "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."         
-          }
-        ]
-      },
-          {
         "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
         "faqs": [
           {
             "title": "Ho BANCOMAT Pay ma non riesco a pagare",
-            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile e riprova ad effettuare il pagamento."         
+            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile e riprova ad effettuare il pagamento."
           }
         ]
       },
@@ -805,7 +800,7 @@
             "title": "Che tipo di messaggi posso ricevere?",
             "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
           },
-                    {
+          {
             "title": "Cosa posso fare nei miei messaggi?",
             "body": "All’interno dei messaggi, puoi:\n- visualizzare un’informazione, come per esempio il Codice QR della tua Certificazione Verde;\n- fissare un promemoria per ricordarti di una scadenza;\n- procedere al pagamento di un avviso."
           },
@@ -817,7 +812,7 @@
             "title": "Posso cancellare un messaggio?",
             "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in “Archiviati”. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
           },
-                    {
+          {
             "title": "Perché non vedo più la scheda 'In scadenza'?",
             "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata “In scadenza”. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
           },
@@ -1034,7 +1029,7 @@
           }
         ]
       },
-            {
+      {
         "route_name": "WALLET_ONBOARDING_BPAY_START",
         "title": "Pay with your PagoBANCOMAT card",
         "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
@@ -1043,11 +1038,11 @@
             "title": "What is BANCOMAT Pay??",
             "body": "BANCOMAT Pay is a digital payment service that allows you to pay, send money and accept payments quickly and easily. Once the service has been activated, you just need to use your mobile number to carry out the operations. To learn more, go to the[BANCOMAT Pay website](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE)."
           },
-         {
+          {
             "title": "How does it work?",
             "body": "BANCOMAT Pay associates your mobile number with an IBAN, which can be a bank account or a prepaid card.\nTo use BANCOMAT Pay on IO, check if your bank is [among those participating](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) and activate the service via the BANCOMAT Pay app or your bank app.\nThen, add it as a payment method in the Wallet section of IO, selecting the account you want to add."
           },
-                  {
+          {
             "title": "I don’t have an BANCOMAT Pay account, how can I do that?",
             "body": "Find out here if your bank offers the service. If it does, you can request it enabled via your bank’s home banking or app.\nFor more information see the [FAQ](https://bancomat.it/it/faq-questions-top)."
           }

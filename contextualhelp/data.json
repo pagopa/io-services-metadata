@@ -104,7 +104,7 @@
         "faqs": [
           {
             "title": "Come posso pagare su IO?",
-            "body": "Puoi pagare con carte di debito, credito e prepagate o con PayPal. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento)."
+            "body": "Puoi pagare con carte di debito, credito e prepagate, con PayPal o BANCOMAT Pay. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento)."
           },
           {
             "title": "Come posso aggiungere un metodo di pagamento?",
@@ -227,6 +227,34 @@
             "title": "Non ho un conto PayPal. Come posso crearne uno?",
             "body": "Per creare un conto PayPal, devi registrarti con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it). Per farlo, devi essere maggiorenne e collegare almeno un metodo di pagamento."
           }
+        ]
+      },
+      {
+        "route_name": "WALLET_ONBOARDING_BPAY_START",
+        "title": "Paga con BANCOMAT Pay",
+        "content": "In questa pagina puoi aggiungere BANCOMAT Pay come metodo di pagamento nell’app IO. BANCOMAT Pay ti permette di effettuare pagamenti in modo semplice, rapido e sicuro.",
+        "faqs": [
+          {
+            "title": "Cos’è BANCOMAT Pay?",
+            "body": "BANCOMAT Pay è un servizio di pagamento digitale che ti consente di pagare, inviare denaro e accettare pagamenti in modo semplice e veloce. Una volta attivato il servizio, infatti, ti basterà utilizzare il tuo numero di cellulare per effettuare le operazioni. Per approfondire, vai sul sito di [BANCOMAT Pay](https://bancomat.it/it/bancomat/bancomat-pay®)."
+          },
+          {
+            "title": "Come funziona?",
+            "body": "BANCOMAT Pay associa il tuo numero di cellulare a un’IBAN, che può essere di un conto corrente o di una carta prepagata.\nPer utilizzare BANCOMAT Pay su IO, verifica se la tua banca è [tra quelle aderenti](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) e attiva il servizio tramite l’app BANCOMAT Pay o l’app della tua banca.\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO, selezionando l’account che vuoi aggiungere."
+          },
+          {
+            "title": "Non ho un account BANCOMAT Pay, come posso fare?",
+            "body": "[Scopri qui](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE) se la tua banca offre il servizio. Se presente, puoi richiedere l’abilitazione tramite l’home banking o l’app della tua banca.\nPer altre informazioni consulta le [domande più frequenti](https://bancomat.it/it/faq-questions-top)."
+          }
+        ]
+      },
+      {
+        "route_name": "WALLET_ONBOARDING_BPAY_START",
+        "faqs": [
+          {
+            "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
+            "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."         
+          },
         ]
       },
       {
@@ -997,6 +1025,25 @@
           }
         ]
       },
+            {
+        "route_name": "WALLET_ONBOARDING_BPAY_START",
+        "title": "Pay with your PagoBANCOMAT card",
+        "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
+        "faqs": [
+          {
+            "title": "What is BANCOMAT Pay??",
+            "body": "BANCOMAT Pay is a digital payment service that allows you to pay, send money and accept payments quickly and easily. Once the service has been activated, you just need to use your mobile number to carry out the operations. To learn more, go to the[BANCOMAT Pay website](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE)."
+          }
+         {
+            "title": "How does it work?",
+            "body": "BANCOMAT Pay associates your mobile number with an IBAN, which can be a bank account or a prepaid card.\nTo use BANCOMAT Pay on IO, check if your bank is [among those participating](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) and activate the service via the BANCOMAT Pay app or your bank app.\nThen, add it as a payment method in the Wallet section of IO, selecting the account you want to add."
+          },
+                  {
+            "title": "I don’t have an BANCOMAT Pay account, how can I do that?",
+            "body": "Find out here if your bank offers the service. If it does, you can request it enabled via your bank’s home banking or app.\nFor more information see the [FAQ](https://bancomat.it/it/faq-questions-top)."
+          },
+        ]
+      },
       {
         "route_name": "WALLET_HOME",
         "title": "What can you do in your Wallet",
@@ -1004,7 +1051,7 @@
         "faqs": [
           {
             "title": "How can I pay on IO?",
-            "body": "You can pay with credit, debit and prepaid cards or with PayPal. You can find the updated list of available methods on the [payment methods page](https://io.italia.it/metodi-pagamento)."
+            "body": "You can pay with credit, debit and prepaid cards, with PayPal or BANCOMAT Pay. You can find the updated list of available methods on the [payment methods page](https://io.italia.it/metodi-pagamento)."
           },
           {
             "title": "How do I add a payment method?",
@@ -1046,6 +1093,15 @@
             "title": "How can I learn more about digital payments?",
             "body": "In order to learn more about the topics of your interest related to the world of digital payments, you can read the resources provided by [Banca d’Italia](https://www.bancaditalia.it/) as part of its financial education programs, such as the [dedicated section](https://economiapertutti.bancaditalia.it/pagare/) of the website [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) and the [Guide to Payments in Electronic Commerce](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf). \n\nFor example, if you want to learn more about the payment methods you can add to the Wallet of the IO app, you can read the dedicated information sheets, such as the [credit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), the [debit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), the [prepaid card](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) and the [co-badge card](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
           }
+        ]
+      },
+      {
+        "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAIABLE_USER_ACCOUNT",
+        "faqs": [
+          {
+            "title": "I cannot add BANCOMAT Pay as a payment method.",
+            "body": "If you have problems adding your ATM Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the ATM Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."
+          },
         ]
       },
       {

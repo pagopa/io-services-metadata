@@ -257,6 +257,15 @@
           },
         ]
       },
+          {
+        "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
+        "faqs": [
+          {
+            "title": "Ho BANCOMAT Pay ma non riesco a pagare",
+            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile e riprova ad effettuare il pagamento."         
+          },
+        ]
+      },
       {
         "route_name": "MESSAGE_DETAIL",
         "title": "Dettagli del messaggio",

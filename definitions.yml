@@ -365,6 +365,8 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       fims:
         $ref: "#/definitions/SectionStatus"
+      cdc:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section

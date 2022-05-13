@@ -79,6 +79,18 @@
         "en-EN": "The Cashback initiative has ended."
       }
     },
+    "cdc": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
+      }
+    },
     "cgn": {
       "is_visible": false,
       "level": "warning",

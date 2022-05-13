@@ -82,6 +82,25 @@
           }
         ]
       },
+            {
+        "route_name": "WALLET_BPAY_DETAIL",
+        "title": "Il tuo account BANCOMAT Pay",
+        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
+        "faqs": [
+          {
+            "title": "Come posso impostare questo metodo di pagamento come preferito?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
+          },
+          {
+            "title": "Come posso eliminare questo metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+          }
+          {
+            "title": "Non riesco ad abilitare i pagamenti in app con BANCOMAT Pay. Cosa posso fare?",
+            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile.\nUna volta fatto, elimina il metodo di pagamento dal tuo Portafoglio, aggiungilo nuovamente e riprova ad effettuare il pagamento."
+          }
+        ]
+      },
       {
         "route_name": "WALLET_CREDIT_CARD_DETAIL",
         "title": "La tua carta",
@@ -1011,6 +1030,25 @@
           {
             "title": "How can I delete this payment method?",
             "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+          }
+        ]
+      },
+          {
+        "route_name": "WALLET_BPAY_DETAIL",
+        "title": "Your BANCOMAT Pay account",
+        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
+        "faqs": [
+          {
+            "title": "How can I set this payment method as favorite?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
+          },
+          {
+            "title": "How can I delete this payment method?",
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+          }
+         {
+            "title": "I can’t enable in-app payments with BANCOMAT Pay. What can I do?",
+            "body": "To fix this, try updating the app to the latest version.\nOnce done, delete the payment method from your Wallet, add it again and try to make the payment."
           }
         ]
       },

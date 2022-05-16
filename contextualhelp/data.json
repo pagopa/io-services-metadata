@@ -1141,6 +1141,8 @@
       },
       {
         "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
+        "title": "TBD",
+        "content": "TBD",
         "faqs": [
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",

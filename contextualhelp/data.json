@@ -273,10 +273,12 @@
       },
       {
         "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
+        "title": "Scelta del metodo di pagamento",
+        "content": "Qui puoi scegliere il metodo con cui procedere al pagamento.",
         "faqs": [
           {
             "title": "Ho BANCOMAT Pay ma non riesco a pagare",
-            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile e riprova ad effettuare il pagamento."
+            "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile.\nUna volta fatto, elimina il metodo di pagamento dal tuo Portafoglio, aggiungilo nuovamente e riprova ad effettuare il pagamento."
           }
         ]
       },

@@ -94,7 +94,7 @@
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
             "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
-          }
+          },
           {
             "title": "Non riesco ad abilitare i pagamenti in app con BANCOMAT Pay. Cosa posso fare?",
             "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile.\nUna volta fatto, elimina il metodo di pagamento dal tuo Portafoglio, aggiungilo nuovamente e riprova ad effettuare il pagamento."
@@ -1045,7 +1045,7 @@
           {
             "title": "How can I delete this payment method?",
             "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
-          }
+          },
          {
             "title": "I can’t enable in-app payments with BANCOMAT Pay. What can I do?",
             "body": "To fix this, try updating the app to the latest version.\nOnce done, delete the payment method from your Wallet, add it again and try to make the payment."

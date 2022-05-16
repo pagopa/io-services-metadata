@@ -135,6 +135,14 @@
             "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il Codice Avviso. Per farlo, vai nel Portafoglio, scansiona il QR o inserisci il Codice Avviso e completa il pagamento."
           },
           {
+            "title": "Perché il Cashback è terminato?",
+            "body": "La fine del programma Cashback è stata stabilita dalla [legge n.234 del 30 dicembre 2021](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-12-31&atto.codiceRedazionale=21G00256&elenco30giorni=true) (art.1, commi 637-644). Pertanto, il relativo servizio su IO non è più attivo. Questo significa che non si apriranno nuovi periodi, e che non sarà più possibile maturare nuovi importi."
+          },
+          {
+            "title": "Nel 2021 ho maturato degli importi che non mi sono ancora stati rimborsati. Cosa posso fare?",
+            "body": "Probabilmente non hai indicato l’IBAN del conto su cui desideri ricevere l’accredito, oppure quello che hai indicato non è valido.Per inserire l’IBAN o verificarne la correttezza, apri l’app, vai al Portafoglio e premi sulla card del Cashback. Poi, inseriscilo o modificalo e seleziona “Continua”. Entro 90 giorni riceverai tramite l’app IO un messaggio sullo stato del rimborso. Le attività tra PagoPA S.p.A. e Consap S.p.A. per i pagamenti dei rimborsi sono in corso di dismissione, quindi, se non inserisci o non correggi l’IBAN entro il 31/07/2022, potrebbe non essere più possibile effettuare il bonifico per il rimborso."
+          },
+          {
             "title": "Che cos’è un codice QR?",
             "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su “Paga un avviso” e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
           },
@@ -1033,6 +1041,14 @@
           {
             "title": "Can I pay a notice that I did not receive through IO?",
             "body": "Yes, if the notice features the pagoPA logo and QR code or Notice Code. To do so, go to the Wallet, scan the QR or enter the Notice Code and complete the payment."
+          },
+          {
+            "title": "Why has the Cashback initiative ended?",
+            "body": "The end of the programme has been established by the [law n.234 of 30/12/2021](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-12-31&atto.codiceRedazionale=21G00256&elenco30giorni=true) (section 1, paragraphs 637-644). Therefore, the related service on IO is inactive. This means that there won’t be new cashback periods, and that it won’t be possible to earn cashback rewards anymore."
+          },
+          {
+            "title": "In 2021 I earned Cashback rewards but I haven’t been refunded. What can I do?",
+            "body": "You probably didn't provide the IBAN of the account you want to be credited to. If you provided one, it may not be valid. To enter the IBAN or make sure it is correct, go to the Wallet and press on the Cashback card. Then, enter the IBAN or amend it and select “Continue”. Within 90 days you will receive on IO a message about the status of your refund."
           },
           {
             "title": "What is a QR code?",

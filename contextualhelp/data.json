@@ -1138,7 +1138,7 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAIABLE_USER_ACCOUNT",
+        "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
         "faqs": [
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",

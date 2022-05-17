@@ -1096,7 +1096,7 @@
           {
             "title": "I don’t have an BANCOMAT Pay account, how can I do that?",
             "body": "Find out here if your bank offers the service. If it does, you can request it enabled via your bank’s home banking or app.\nFor more information see the [FAQ](https://bancomat.it/it/faq-questions-top)."
-          }
+          },
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",
             "body": "If you have problems adding your BANCOMAT Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the BANCOMAT Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."

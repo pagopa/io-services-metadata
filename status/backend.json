@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": true
+      "enabled": false
     },
     "bancomatPay": {
       "display": true,
@@ -49,6 +49,9 @@
     },
     "cdc": {
       "enabled": false
+    },
+    "barcodesScanner": {
+      "dataMatrixPosteEnabled": false
     }
   },
   "sections": {
@@ -74,6 +77,18 @@
       "message": {
         "it-IT": "L’iniziativa del Cashback si è conclusa.",
         "en-EN": "The Cashback initiative has ended."
+      }
+    },
+    "cdc": {
+      "is_visible": false,
+      "level": "warning",
+      "message": {
+        "it-IT": "",
+        "en-EN": ""
+      },
+      "badge": {
+        "it-IT": "",
+        "en-EN": ""
       }
     },
     "cgn": {
@@ -125,12 +140,8 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://io.italia.it/status",
-        "en-EN": "https://io.italia.it/status"
-      },
       "message": {
         "it-IT": "In questo momento non è possibile pagare con PayPal. Stiamo lavorando per risolvere il problema.",
         "en-EN": "Payments with PayPal are temporarily unavailable. We are working to solve the problem."

@@ -365,6 +365,8 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       fims:
         $ref: "#/definitions/SectionStatus"
+      cdc:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section
@@ -403,6 +405,7 @@ definitions:
       - fims
       - premiumMessages
       - cdc
+      - barcodesScanner
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -430,6 +433,8 @@ definitions:
         $ref: "#/definitions/PremiumMessagesConfig"
       cdc:
         $ref: "#/definitions/CdcConfig"
+      barcodesScanner:
+        $ref: "#/definitions/BarcodesScannerConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -674,6 +679,15 @@ definitions:
       enabled:
         type: boolean
         description: "If true, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
+  BarcodesScannerConfig:
+    type: object
+    description: "A configuration for the barcodes scanner in the payment section"
+    required:
+      - dataMatrixPosteEnabled
+    properties:
+      dataMatrixPosteEnabled:
+        type: boolean
+        description: "If true, a Poste Data Matrix can be scansioned to make a payment"
 
 
 

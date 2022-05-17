@@ -271,7 +271,7 @@
           }
         ]
       },
-          {
+      {
         "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
         "title": "Aggiungi BANCOMAT Pay",
         "content": "In questa pagina puoi visualizzare i tuoi account BANCOMAT Pay e aggiungerli al Portafoglio.",
@@ -1100,7 +1100,7 @@
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",
             "body": "If you have problems adding your BANCOMAT Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the BANCOMAT Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."
-          },
+          }
         ]
       },
       {

@@ -271,6 +271,17 @@
           }
         ]
       },
+          {
+        "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
+        "title": "Aggiungi BANCOMAT Pay",
+        "content": "In questa pagina puoi visualizzare i tuoi account BANCOMAT Pay e aggiungerli al Portafoglio.",
+        "faqs": [
+          {
+            "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
+            "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."
+          }
+        ]
+      },
       {
         "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
         "title": "Scelta del metodo di pagamento",
@@ -1086,6 +1097,10 @@
             "title": "I don’t have an BANCOMAT Pay account, how can I do that?",
             "body": "Find out here if your bank offers the service. If it does, you can request it enabled via your bank’s home banking or app.\nFor more information see the [FAQ](https://bancomat.it/it/faq-questions-top)."
           }
+          {
+            "title": "I cannot add BANCOMAT Pay as a payment method.",
+            "body": "If you have problems adding your BANCOMAT Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the BANCOMAT Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."
+          },
         ]
       },
       {
@@ -1141,8 +1156,8 @@
       },
       {
         "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
-        "title": "TBD",
-        "content": "TBD",
+        "title": "Add BANCOMAT Pay",
+        "content": "Here you can view your BANCOMAT Pay accounts and add them to your Wallet.",
         "faqs": [
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",

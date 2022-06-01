@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": true
+      "enabled": false
     },
     "bancomatPay": {
       "display": true,
@@ -140,7 +140,7 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
         "it-IT": "In questo momento non è possibile pagare con PayPal. Stiamo lavorando per risolvere il problema.",

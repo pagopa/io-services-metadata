@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": true
+      "enabled": false
     },
     "bancomatPay": {
       "display": true,
@@ -140,11 +140,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "In questo momento non è possibile pagare con PayPal. Stiamo lavorando per risolvere il problema.",
-        "en-EN": "Payments with PayPal are temporarily unavailable. We are working to solve the problem."
+        "it-IT": "Dalle 21 alle 22 non sarà possibile pagare con PayPal.",
+        "en-EN": "PayPal services won't be available from 9 to 10 PM."
       }
     },
     "ingress": {

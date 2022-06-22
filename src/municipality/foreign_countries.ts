@@ -45,12 +45,14 @@ export const exportForeignMunicipalities = async () => {
       await Promise.all(
         notEmptyData.map(r => {
           pipe(
-          decodeForeignCountry(r), E.map(fc =>
-            serializeMunicipalityToJson({
-              codiceCatastale: r[9],
-              municipality: fc
-            })
-          ));
+            decodeForeignCountry(r),
+            E.map(fc =>
+              serializeMunicipalityToJson({
+                codiceCatastale: r[9],
+                municipality: fc
+              })
+            )
+          );
         })
       );
     }

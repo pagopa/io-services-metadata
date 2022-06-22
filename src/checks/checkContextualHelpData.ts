@@ -43,7 +43,10 @@ const returnCode = pipe(
     ),
     filename
   ),
-  E.fold(_ => 1, _ => 0)
+  E.fold(
+    _ => 1,
+    _ => 0
+  )
 );
 
 process.exit(returnCode);

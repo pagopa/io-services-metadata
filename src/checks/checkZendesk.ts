@@ -13,7 +13,9 @@ import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 const filename = "assistanceTools/zendesk.json";
 const jsonPath = __dirname + `/../../${filename}`;
 
-const checkNonEmptyCategories = (zendesk: Zendesk): E.Either<Error, Zendesk> => {
+const checkNonEmptyCategories = (
+  zendesk: Zendesk
+): E.Either<Error, Zendesk> => {
   if (
     zendesk.zendeskCategories &&
     zendesk.zendeskCategories.categories.length === 0
@@ -23,7 +25,9 @@ const checkNonEmptyCategories = (zendesk: Zendesk): E.Either<Error, Zendesk> => 
   return E.right(zendesk);
 };
 
-const checkDuplicateCategories = (zendesk: Zendesk): E.Either<Error, Zendesk> => {
+const checkDuplicateCategories = (
+  zendesk: Zendesk
+): E.Either<Error, Zendesk> => {
   if (zendesk.zendeskCategories) {
     const zendeskCategories = zendesk.zendeskCategories;
     // check for duplicates in categories
@@ -48,11 +52,15 @@ const returnCode = pipe(
   printDecodeOutcome(
     pipe(
       basicJsonFileValidator(jsonPath, Zendesk),
-        E.chain(checkNonEmptyCategories),
-        E.chain(checkDuplicateCategories)
+      E.chain(checkNonEmptyCategories),
+      E.chain(checkDuplicateCategories)
     ),
     filename
-  ), E.fold(_ => 1, __ => 0)
+  ),
+  E.fold(
+    _ => 1,
+    __ => 0
+  )
 );
 
 process.exit(returnCode);

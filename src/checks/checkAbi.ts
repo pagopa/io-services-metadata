@@ -62,9 +62,13 @@ const checkForDuplicates = (
   const data = abiListResponse.data || [];
   const duplicated = getDuplicates(data, (a: Abi, b: Abi) => a.abi === b.abi);
   if (duplicated.length > 0) {
-    return E.left(new Error(`these abi are repeated more than one time:\n${duplicated
+    return E.left(
+      new Error(
+        `these abi are repeated more than one time:\n${duplicated
           .map(d => d.abi)
-          .join("\n")}`));
+          .join("\n")}`
+      )
+    );
   }
   return E.right(abiListResponse);
 };
@@ -79,7 +83,10 @@ const returnCode = pipe(
     ),
     filename
   ),
-  E.fold(_ => 1, __ => 0)
+  E.fold(
+    _ => 1,
+    __ => 0
+  )
 );
 
 process.exit(returnCode);

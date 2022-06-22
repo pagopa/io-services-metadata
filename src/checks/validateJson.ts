@@ -87,10 +87,13 @@ export const toError = (errors: Errors): Error =>
  * @param jsonPath
  * @param decoder
  */
-export const basicJsonFileValidator = <T>(jsonPath: string, decoder: t.Decoder<unknown, T>): E.Either<Error, T> => 
+export const basicJsonFileValidator = <T>(
+  jsonPath: string,
+  decoder: t.Decoder<unknown, T>
+): E.Either<Error, T> =>
   pipe(
     readFileSync(jsonPath),
     E.chain(parseJson),
     E.chainW(decoder.decode),
-    E.mapLeft(E.toError),
-    );
+    E.mapLeft(E.toError)
+  );

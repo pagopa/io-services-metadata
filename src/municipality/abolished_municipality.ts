@@ -80,15 +80,18 @@ const loadAbolishedMunicipalities = (
 ): E.Either<Error, ReadonlyArray<ISerializableMunicipality>> =>
   pipe(
     readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH),
-    E.chain(rawFile => pipe(
-      AbolishedMunicipalityArray.decode(JSON.parse(rawFile)),
-      E.mapLeft(
-        _ =>
-          new Error(
-            "Fail to parse the json file: " + ABOLISHED_MUNICIPALITIES_FILEPATH
-          )
+    E.chain(rawFile =>
+      pipe(
+        AbolishedMunicipalityArray.decode(JSON.parse(rawFile)),
+        E.mapLeft(
+          _ =>
+            new Error(
+              "Fail to parse the json file: " +
+                ABOLISHED_MUNICIPALITIES_FILEPATH
+            )
+        )
       )
-    )),
+    ),
     E.map(abolishedMunArray =>
       abolishedMunArray
         .filter(am => municipalityToCatastale.has(am.comune.toLowerCase()))
@@ -97,7 +100,8 @@ const loadAbolishedMunicipalities = (
             am,
             // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
             municipalityToCatastale.get(am.comune.toLowerCase())!
-          ))
+          )
+        )
     )
   );
 
@@ -111,7 +115,8 @@ export const exportAbolishedMunicipality = async () => {
     chalk.gray("[1/2]"),
     "Start generation of abolished municipalites from local dataset"
   );
-  const serializeMunicipalityPromise = pipe((await loadMunicipalityToCatastale()),
+  const serializeMunicipalityPromise = pipe(
+    await loadMunicipalityToCatastale(),
     E.chain(municipalityToCatastale =>
       loadAbolishedMunicipalities(municipalityToCatastale)
     ),
@@ -119,10 +124,14 @@ export const exportAbolishedMunicipality = async () => {
       abolishedMunicipalities.map(municipality =>
         serializeMunicipalityToJson(municipality)
       )
-    ));
+    )
+  );
 
   if (E.isLeft(serializeMunicipalityPromise)) {
-    logError(serializeMunicipalityPromise.left, "Error while exporting abolished municipalities");
+    logError(
+      serializeMunicipalityPromise.left,
+      "Error while exporting abolished municipalities"
+    );
     return;
   }
   await Promise.all(serializeMunicipalityPromise.right);

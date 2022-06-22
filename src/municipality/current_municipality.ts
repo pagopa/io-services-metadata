@@ -58,11 +58,12 @@ export const exportCurrentMunicipalities = async () => {
             pipe(
               decodeMunicipality(r),
               E.map(municipality =>
-              serializeMunicipalityToJson({
-                codiceCatastale: r[19],
-                municipality
-              })
-            ));
+                serializeMunicipalityToJson({
+                  codiceCatastale: r[19],
+                  municipality
+                })
+              )
+            );
           })
         );
       });

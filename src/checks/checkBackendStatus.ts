@@ -8,7 +8,10 @@ const jsonPath = __dirname + `/../../${filename}`;
 
 const returnCode = pipe(
   printDecodeOutcome(basicJsonFileValidator(jsonPath, BackendStatus), filename),
-  E.fold(_ => 1, __ => 0)
+  E.fold(
+    _ => 1,
+    __ => 0
+  )
 );
 
 process.exit(returnCode);

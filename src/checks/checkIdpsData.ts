@@ -9,13 +9,11 @@ const filename = "spid/idps/list.json";
 const jsonPath = __dirname + `/../../${filename}`;
 
 const returnCode = pipe(
-  printDecodeOutcome(
-  basicJsonFileValidator(jsonPath, SpidIdps),
-  filename
-),
-E.foldW(
-  _ => 1,
-  __ => 0
-));
+  printDecodeOutcome(basicJsonFileValidator(jsonPath, SpidIdps), filename),
+  E.foldW(
+    _ => 1,
+    __ => 0
+  )
+);
 
 process.exit(returnCode);

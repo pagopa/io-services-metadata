@@ -11,7 +11,10 @@ const returnCode = pipe(
     basicJsonFileValidator(jsonPath, PrivativeServices),
     filename
   ),
-  E.fold(_ => 1, __ => 0)
+  E.fold(
+    _ => 1,
+    __ => 0
+  )
 );
 
 process.exit(returnCode);

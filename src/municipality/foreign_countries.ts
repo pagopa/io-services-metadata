@@ -1,4 +1,6 @@
 import chalk from "chalk";
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import * as fs from "fs-extra";
 import { FOREIGN_COUNTRIES_FILEPATH } from "../config";
 import {
@@ -31,23 +33,24 @@ export const exportForeignMunicipalities = async () => {
     csvForeignCountriesContent.toString("utf8"),
     optionCsvParseForeignCountries,
     async result => {
-      if (result.isLeft()) {
+      if (E.isLeft(result)) {
         console.log(
           "some error occurred while parsing foreign countries data:",
-          chalk.red(result.value.message)
+          chalk.red(result.left.message)
         );
         return;
       }
-      const notEmptyData = result.value.filter(r => r[9] !== "");
+      const notEmptyData = result.right.filter(r => r[9] !== "");
       // process each csv record with generateForeignCountryJsonFile function
       await Promise.all(
         notEmptyData.map(r => {
-          decodeForeignCountry(r).map(fc =>
+          pipe(
+          decodeForeignCountry(r), E.map(fc =>
             serializeMunicipalityToJson({
               codiceCatastale: r[9],
               municipality: fc
             })
-          );
+          ));
         })
       );
     }

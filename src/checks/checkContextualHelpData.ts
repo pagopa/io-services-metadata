@@ -1,6 +1,7 @@
 // a simple check that contextual help data json respects type definition
 
-import { Either, left, right } from "fp-ts/lib/Either";
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import { ContextualHelp } from "../../generated/definitions/content/ContextualHelp";
 import { getDuplicates } from "../utils/collections";
 import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
@@ -10,7 +11,7 @@ const jsonPath = __dirname + `/../../${filename}`;
 
 const checkNonEmptyCategories = (
   contextualHelp: ContextualHelp
-): Either<Error, ContextualHelp> => {
+): E.Either<Error, ContextualHelp> => {
   const itScreens = getDuplicates(
     contextualHelp.it.screens,
     (a, b) => a.route_name === b.route_name
@@ -20,7 +21,7 @@ const checkNonEmptyCategories = (
     (a, b) => a.route_name === b.route_name
   );
   if (itScreens.length + enScreens.length > 0) {
-    return left(
+    return E.left(
       new Error(
         `these screens are repeated more than one time :\n${[
           ...itScreens,
@@ -31,17 +32,18 @@ const checkNonEmptyCategories = (
       )
     );
   }
-  return right(contextualHelp);
+  return E.right(contextualHelp);
 };
 
-const returnCode = printDecodeOutcome(
-  basicJsonFileValidator(jsonPath, ContextualHelp).chain(
-    checkNonEmptyCategories
+const returnCode = pipe(
+  printDecodeOutcome(
+    pipe(
+      basicJsonFileValidator(jsonPath, ContextualHelp),
+      E.chain(checkNonEmptyCategories)
+    ),
+    filename
   ),
-  filename
-).fold(
-  _ => 1,
-  __ => 0
+  E.fold(_ => 1, _ => 0)
 );
 
 process.exit(returnCode);

@@ -1,4 +1,6 @@
 import chalk from "chalk";
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import request from "request";
 import { ITALIAN_MUNICIPALITIES_URL } from "../config";
 import {
@@ -43,22 +45,24 @@ export const exportCurrentMunicipalities = async () => {
       const csvContent = buffer.toString();
       // parse the content string in csv records
       parseCsvMunicipality(csvContent, parserOption, async result => {
-        if (result.isLeft()) {
+        if (E.isLeft(result)) {
           console.log(
             "some error occurred while parsing data:",
-            chalk.red(result.value.message)
+            chalk.red(result.left.message)
           );
           return;
         }
         // process each csv record with generateJsonFiles function
         return Promise.all(
-          result.value.map(r => {
-            decodeMunicipality(r).map(municipality =>
+          result.right.map(r => {
+            pipe(
+              decodeMunicipality(r),
+              E.map(municipality =>
               serializeMunicipalityToJson({
                 codiceCatastale: r[19],
                 municipality
               })
-            );
+            ));
           })
         );
       });

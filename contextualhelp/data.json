@@ -3,6 +3,94 @@
   "it": {
     "screens": [
       {
+        "route_name": "PROFILE_MAIN",
+        "title": "Cosa puoi fare nel tuo Profilo",
+        "content": "Qui puoi gestire le tue preferenze e il tuo account, trovare informazioni sul trattamento dei dati personali e visualizzare la versione digitale del tuo Codice Fiscale.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi in questa sezione alla voce “Privacy e Condizioni d’uso”."
+          },
+          {
+            "title": "A cosa serve la versione digitale del mio Codice Fiscale? ",
+            "body": "Nella parte alta della sezione trovi la versione digitale del tuo Codice Fiscale. Questo fac-simile non sostituisce il documento fisico, ma può essere utilizzato per la lettura dei dati e del codice a barre da parte degli esercenti che lo richiedono, per esempio in farmacia o negli uffici postali.\n\nPer vedere i dettagli del Codice Fiscale, premi sulla card. Se premi di nuovo, il documento si ingrandirà a tutto schermo."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_DATA",
+        "title": "I tuoi dati",
+        "content": "Qui puoi visualizzare il tuo nome e cognome e modificare l’indirizzo e-mail associato a IO.",
+        "faqs": [
+          {
+            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
+            "body": "Vai alla voce “Privacy e Condizioni d’uso” che trovi in questa sezione e seleziona “Elimina il tuo account”. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+          },
+          {
+            "title": "Come posso modificare il mio indirizzo email?",
+            "body": "Premi “Indirizzo email”, poi seleziona “Modifica email” e inserisci il nuovo indirizzo."
+          }
+        ]
+      },
+      {
+        "route_name": "READ_EMAIL_SCREEN",
+        "title": "Il tuo indirizzo email",
+        "content": "Questo è l’indirizzo email che hai confermato in fase di registrazione. Lì ti inviamo le ricevute dei pagamenti e, se hai abilitato l’opzione, ti inoltriamo i messaggi che ricevi in app."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_HOME",
+        "title": "Le tue preferenze",
+        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_SERVICES",
+        "title": "La configurazione dei servizi",
+        "content": "Qui puoi decidere come configurare i servizi in app. IO veicola messaggi da parte di enti nazionali o locali che hanno qualcosa da dire proprio a te. Per questo, ti consigliamo di utilizzare la configurazione rapida: così, se un ente ha qualcosa da dirti, potrà farlo.",
+        "faqs": [
+          {
+            "title": "Perché dovrei usare la configurazione rapida?",
+            "body": "Perché IO manda solo messaggi rivolti proprio a te e non manda messaggi broadcast o spam. Usando la configurazione rapida, riceverai messaggi anche dai servizi che arriveranno in futuro."
+          },
+          {
+            "title": "Cosa succede se utilizzo la configurazione manuale?",
+            "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, sia quelli attualmente presenti che di quelli che arriveranno in futuro. Per ricevere messaggi dai servizi che ti interessano, dovrai configurarli uno a uno dalle relative schede servizio. Gli enti potranno comunque contattarti attraverso altri canali."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
+        "title": "L'inoltro dei messaggi",
+        "content": "Qui puoi abilitare o disabilitare l’inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_LANGUAGE",
+        "title": "Come cambiare la lingua",
+        "content": "Di default, IO usa la lingua del sistema operativo del tuo dispositivo. Puoi modificarla in ogni momento da questa pagina. La lingua del contenuto dei messaggi, invece, è definita da ciascun ente, che decide se inviare il contenuto tradotto in diverse lingue."
+      },
+      {
+        "route_name": "PROFILE_SECURITY",
+        "title": "Le tue modalità di autenticazione",
+        "content": "Qui puoi modificare il codice di sblocco e attivare o disattivare il riconoscimento biometrico.",
+        "faqs": [
+          {
+            "title": "Cos’è il codice di sblocco?",
+            "body": "È un codice di sei cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Va inserito anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+          },
+          {
+            "title": "Come posso cambiare il codice di sblocco?",
+            "body": "Seleziona “Reimposta Codice di sblocco”, autenticati con SPID o CIE e inserisci il nuovo codice."
+          },
+          {
+            "title": "A cosa serve il riconoscimento biometrico?",
+            "body": "Il riconoscimento biometrico, se attivato, sostituisce il codice di sblocco e permette di accedere più velocemente all'app."
+          },
+          {
+            "title": "Il riconoscimento biometrico è sicuro?",
+            "body": "Sì: il riconoscimento biometrico è considerato più sicuro delle password numeriche o alfanumeriche, spesso vulnerabili o involontariamente comunicate ad altre persone."
+          }
+        ]
+      },
+      {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Paga con la tua carta supermercato",
         "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
@@ -355,26 +443,6 @@
           {
             "title": "Come funziona l'inoltro via email dei messaggi?",
             "body": "Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO. \nL'inoltro via mail non è disponibile per alcuni servizi, sulla base di decisioni prese dall'ente in merito alla sensibilità dei contenuti del messaggio stesso."
-          }
-        ]
-      },
-      {
-        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
-        "title": "Come gestire l'inoltro dei messaggi",
-        "content": "Qui puoi abilitare o disabilitare l'inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
-      },
-      {
-        "route_name": "PROFILE_PREFERENCES_SERVICES",
-        "title": "Gestisci servizi in app",
-        "content": "Qui puoi decidere come gestire la comunicazione dei servizi. \nL'app IO vuole essere un canale di comunicazione aggiuntivo per gli enti nazionali o locali che hanno qualcosa da dire proprio a te. \nNon manda messaggi broadcast o spam e per questo ti consigliamo di utilizzare la configurazione rapida, mantenendo la comunicazione dei servizi sempre attiva.",
-        "faqs": [
-          {
-            "title": "Perché dovrei usare la configurazione rapida?",
-            "body": "Perchè IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \nSe decidi comunque di usare la configurazione manuale, sappi che gli enti potranno contattarti attraverso i canali tradizionali a loro disposizione."
-          },
-          {
-            "title": "Cosa succede se utilizzo la configurazione manuale?",
-            "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. \nPer ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \nAttenzione! Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
           }
         ]
       },
@@ -974,6 +1042,99 @@
   },
   "en": {
     "screens": [
+      {
+        "route_name": "PROFILE_MAIN",
+        "title": "What you can do in your Profile",
+        "content": "Here you can manage your preferences and account, read our Privacy Policy and Terms of Service, and access the digital version of your Tax Code.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under "Privacy and Terms of Use."
+          },
+          {
+            "title": "A cosa serve la versione digitale del mio Codice Fiscale? ",
+            "body": "Nella parte alta della sezione trovi la versione digitale del tuo Codice Fiscale. Questo fac-simile non sostituisce il documento fisico, ma può essere utilizzato per la lettura dei dati e del codice a barre da parte degli esercenti che lo richiedono, per esempio in farmacia o negli uffici postali.\n\nPer vedere i dettagli del Codice Fiscale, premi sulla card. Se premi di nuovo, il documento si ingrandirà a tutto schermo."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_DATA",
+        "title": "I tuoi dati",
+        "content": "Qui puoi visualizzare il tuo nome e cognome e modificare l’indirizzo e-mail associato a IO.",
+        "faqs": [
+          {
+            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
+            "body": "Vai alla voce “Privacy e Condizioni d’uso” che trovi in questa sezione e seleziona “Elimina il tuo account”. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+          },
+          {
+            "title": "Come posso modificare il mio indirizzo email?",
+            "body": "Premi “Indirizzo email”, poi seleziona “Modifica email” e inserisci il nuovo indirizzo."
+      },
+      {
+        "route_name": "READ_EMAIL_SCREEN",
+        "title": "Il tuo indirizzo email",
+        "content": "Questo è l’indirizzo email che hai confermato in fase di registrazione. Lì ti inviamo le ricevute dei pagamenti e, se hai abilitato l’opzione, ti inoltriamo i messaggi che ricevi in app."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_HOME ",
+        "title": "Le tue preferenze",
+        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_SERVICES",
+        "title": "La configurazione dei servizi",
+        "content": "Qui puoi decidere come configurare i servizi in app. IO veicola messaggi da parte di enti nazionali o locali che hanno qualcosa da dire proprio a te. Per questo, ti consigliamo di utilizzare la configurazione rapida: così, se un ente ha qualcosa da dirti, potrà farlo.",
+        "faqs": [
+          {
+            "title": "Perché dovrei usare la configurazione rapida?",
+            "body": "Perché IO manda solo messaggi rivolti proprio a te e non manda messaggi broadcast o spam. Usando la configurazione rapida, riceverai messaggi anche dai servizi che arriveranno in futuro."
+          },
+          {
+            "title": "Cosa succede se utilizzo la configurazione manuale?",
+            "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, sia quelli attualmente presenti che di quelli che arriveranno in futuro. Per ricevere messaggi dai servizi che ti interessano, dovrai configurarli uno a uno dalle relative schede servizio. Gli enti potranno comunque contattarti attraverso altri canali."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
+        "title": "L'inoltro dei messaggi",
+        "content": "Qui puoi abilitare o disabilitare l’inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_LANGUAGE",
+        "title": "Come cambiare la lingua",
+        "content": "Di default, IO usa la lingua del sistema operativo del tuo dispositivo. Puoi modificarla in ogni momento da questa pagina. La lingua del contenuto dei messaggi, invece, è definita da ciascun ente, che decide se inviare il contenuto tradotto in diverse lingue."
+      },
+      {
+        "route_name": "PROFILE_SECURITY",
+        "title": "Le tue modalità di autenticazione",
+        "content": "Qui puoi modificare il codice di sblocco e attivare o disattivare il riconoscimento biometrico.",
+        "faqs": [
+          {
+            "title": "Cos’è il codice di sblocco?",
+            "body": "È un codice di sei cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Va inserito anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+          },
+          {
+            "title": "Come posso cambiare il codice di sblocco?",
+            "body": "Seleziona “Reimposta Codice di sblocco”, autenticati con SPID o CIE e inserisci il nuovo codice."
+          },
+          {
+            "title": "A cosa serve il riconoscimento biometrico?",
+            "body": "Il riconoscimento biometrico, se attivato, sostituisce il codice di sblocco e permette di accedere più velocemente all'app."
+          },
+          {
+            "title": "Il riconoscimento biometrico è sicuro?",
+            "body": "Sì: il riconoscimento biometrico è considerato più sicuro delle password numeriche o alfanumeriche, spesso vulnerabili o involontariamente comunicate ad altre persone."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_LANGUAGE",
+        "title": "Privacy e Condizioni d’uso",
+        "content": "Qui trovi informazioni sul trattamento dei tuoi dati personali e sulle condizioni d’uso di IO. In particolare, puoi consultare l’Informativa Privacy, scaricare una copia dei dati associati al tuo account o eliminarlo."
+          }
+        ]
+      },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Pay with your supermarket card",

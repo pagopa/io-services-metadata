@@ -342,7 +342,7 @@
       {
         "route_name": "SERVICE_DETAIL",
         "title": "Dettagli del Servizio",
-        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi essere contattato da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area “Questo servizio può”, disabilitando l'opzione “Contattarti in app”. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
+        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area “Questo servizio può”, disabilitando l'opzione “Contattarti in app”. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
         "faqs": [
           {
             "title": "Cosa succede se disattivo un servizio?",
@@ -1265,7 +1265,7 @@
           {
             "title": "How can I change the settings of each service?",
             "body": "For each service, you can decide if you want to receive in-app messages and push notifications. At Profile > Preferences > Email Message Forwarding you can also enable message forwarding of all active services to your email address.\n \nEven if you see the full list of services, you’ll be contacted only by  institutions that know your Fiscal Code and have a communication that concerns you directly."
-          }
+          },
           {
             "title": "Can I contact institutions through IO?",
             "body": "No, you cannot directly contact institutions through the app. If you need to contact an institution, you can do so through the contacts detailed in each service detail page."
@@ -1275,16 +1275,16 @@
          {
         "route_name": "SERVICES_DETAIL",
         "title": "Service detail",
-        "content": "Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or mail."
+        "content": "Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or mail.",
         "faqs": [
           {
             "title": "What happens if I turn off a service?",
             "body": "You will no longer receive communications from that service in the IO app. The institution providing the service may still contact you or be contacted through other channels such as website, email or phone number."
-          }
+          },
           {
             "title": "What are push notifications and how do they work?",
             "body": "Push notifications are instant messages that you can receive on your device. They inform you that a new message has arrived in the IO app and invite you to read it. If you prefer to turn them off, disable the 'Send you push notifications' option in the 'This service may' area."
-          }
+          },
           {
             "title": "How does email forwarding of messages work?",
             "body": "By enabling email forwarding of messages, you will receive a copy of the message you receive on IO to your email address associated with the app.\n \n Email forwarding is not available for some services, as the institution may decide not to forward messages with sensitive content."

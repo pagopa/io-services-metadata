@@ -45,7 +45,7 @@
       }
     },
     "premiumMessages": {
-      "opt_in_out_enabled": false
+      "opt_in_out_enabled": true
     },
     "cdc": {
       "enabled": false

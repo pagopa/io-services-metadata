@@ -52,6 +52,9 @@
     },
     "barcodesScanner": {
       "dataMatrixPosteEnabled": true
+    },
+    "fci": {
+      "enabled": false
     }
   },
   "sections": {

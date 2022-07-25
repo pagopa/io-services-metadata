@@ -55,6 +55,10 @@
     },
     "fci": {
       "enabled": false
+    },
+    "pn": {
+      "enabled": true,
+      "frontend_url": "https://notifichedigitali.it"
     }
   },
   "sections": {

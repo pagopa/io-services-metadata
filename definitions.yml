@@ -708,7 +708,6 @@ definitions:
     description: "A configuration for the PN feature"
     required:
       - enabled
-      - frontend_url
     properties:
       enabled:
         type: boolean

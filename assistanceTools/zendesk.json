@@ -69,6 +69,32 @@
         "description": {
           "it-IT": "Carta Giovani Nazionale",
           "en-EN": "Carta Giovani Nazionale"
+        },
+        "zendeskSubCategories": {
+          "id": "7840326533265",
+          "subCategories": [
+            {
+              "value": "carta_giovani_nazionale_info",
+              "description": {
+                "it-IT": "Vorrei più informazioni su come richiedere e utilizzare la Carta",
+                "en-EN": "I need more info on how to request or use the Card"
+              }
+            },
+            {
+              "value": "carta_giovani_nazionale_agevolazionespecifica",
+              "description": {
+                "it-IT": "Ho un problema con un'agevolazione specifica",
+                "en-EN": "I have an issue with a specific discount"
+              }
+            },
+            {
+              "value": "carta_giovani_nazionale_problema",
+              "description": {
+                "it-IT": "Ho un altro problema",
+                "en-EN": "I have a different issue"
+              }
+            }
+          ]
         }
       },
       {

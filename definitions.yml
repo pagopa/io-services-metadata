@@ -406,6 +406,8 @@ definitions:
       - premiumMessages
       - cdc
       - barcodesScanner
+      - fci
+      - pn
     properties:
       bpd:
         $ref: "#/definitions/BpdConfig"
@@ -435,6 +437,10 @@ definitions:
         $ref: "#/definitions/CdcConfig"
       barcodesScanner:
         $ref: "#/definitions/BarcodesScannerConfig"
+      fci:
+        $ref: "#/definitions/FciConfig"
+      pn:
+        $ref: "#/definitions/PnConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -688,6 +694,27 @@ definitions:
       dataMatrixPosteEnabled:
         type: boolean
         description: "If true, a Poste Data Matrix can be scansioned to make a payment"
-
+  FciConfig:
+    type: object
+    description: "A configuration for the Firma con IO feature"
+    required:
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, the user (signer) can digitally signs documents"
+  PnConfig:
+    type: object
+    description: "A configuration for the PN feature"
+    required:
+      - enabled
+      - frontend_url
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, the app can activate the PN service and open messages (aka avvisi di cortesia) from PN"
+      frontend_url:
+        type: string
+        description: "The URL of the PN web frontend"
 
 

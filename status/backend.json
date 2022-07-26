@@ -45,13 +45,20 @@
       }
     },
     "premiumMessages": {
-      "opt_in_out_enabled": false
+      "opt_in_out_enabled": true
     },
     "cdc": {
       "enabled": false
     },
     "barcodesScanner": {
       "dataMatrixPosteEnabled": true
+    },
+    "fci": {
+      "enabled": false
+    },
+    "pn": {
+      "enabled": true,
+      "frontend_url": "https://notifichedigitali.it"
     }
   },
   "sections": {

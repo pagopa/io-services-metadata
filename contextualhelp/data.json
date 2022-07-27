@@ -286,7 +286,7 @@
           },
           {
             "title": "Dopo la donazione, non ho ricevuto nessuna email con la ricevuta. Cosa posso fare?",
-            "body": "Dopo la donazione, ti invieremo un'email con la ricevuta. Se non la ricevi, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto. Ti consigliamo di conservare la ricevuta della donazione, insieme alla documentazione originale del versamento (come l'estratto conto della banca o della carta di credito) per fini fiscali."
+            "body": "Se doni tramite un dispositivo Android, ti invieremo un'email con la ricevuta. Se non la ricevi, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto. Ti consigliamo di conservare la ricevuta della donazione, insieme alla documentazione originale del versamento (come l'estratto conto della banca o della carta di credito) per fini fiscali."
           },
           {
             "title": "Rappresento un'organizzazione umanitaria: posso partecipare all'iniziativa?",
@@ -414,35 +414,35 @@
       },
       {
         "route_name": "SERVICES_HOME",
-        "title": "Cosa puoi fare nei tuoi Servizi",
-        "content": "Qui puoi visualizzare la lista dei servizi nazionali o locali disponibili su IO. \nPremi sul nome di un servizio per visualizzarne i dettagli.",
+        "title": "Cosa puoi fare nei Servizi",
+        "content": "Qui puoi visualizzare la lista dei servizi nazionali e locali disponibili in app.\nPremi sul nome di un servizio per visualizzarne i dettagli. Dalla pagina di dettaglio del servizio, puoi anche gestire l'invio di notifiche push e l'inoltro dei messaggi al tuo indirizzo e-mail.",
         "faqs": [
           {
-            "title": "Come gestire i servizi su IO?",
-            "body": "Utilizza le configurazioni disponibili nella sezione 'Profilo > Preferenze > Gestione servizi', oppure le opzioni contenute nel dettaglio di ciascun servizio per decidere come riceverne le comunicazioni (messaggio in app, notifica push, inoltro del messaggio via e-mail). \n \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti."
+            "title": "Come posso configurare i servizi?",
+            "body": "Per ogni servizio, puoi decidere se vuoi ricevere messaggi in app e notifiche push. Nella sezione Profilo > Preferenze > Inoltro invio messaggi via email puoi anche attivare l’inoltro dei messaggi di tutti i servizi attivi al tuo indirizzo e-mail.\n \nAnche se vedi la lista completa dei servizi, ti contatteranno solo  gli enti che conoscono il tuo Codice Fiscale che hanno una comunicazione che ti riguarda personalmente."
           },
           {
-            "title": "Puoi contattare gli enti tramite IO?",
-            "body": "Non puoi direttamente contattare gli enti dall'app IO ma puoi visualizzare le loro informazioni di contatto all'interno della sezione 'Servizi', nella scheda di ciascun servizio."
+            "title": "Posso contattare gli enti tramite IO?",
+            "body": "No, non puoi contattare direttamente gli enti dall'app. Se hai bisogno di contattare un ente, puoi farlo tramite i contatti che trovi nella scheda di ciascun servizio all'interno della sezione Servizi."
           }
         ]
       },
       {
         "route_name": "SERVICE_DETAIL",
         "title": "Dettagli del Servizio",
-        "content": "In questa schermata puoi visualizzare la descrizione del servizio, l'informativa privacy e condizioni d'uso, i dati di contatto dell'ente o del servizio e puoi configurare le modalità di comunicazione per questo specifico servizio. \n \nRicorda che su IO ti scriveranno solo servizi che hanno qualche informazione personalizzata da comunicarti: non riceverai messaggi di spam o contenuti che non ti riguardano direttamente. \n \nSe vuoi comunque impedire al servizio di contattarti puoi farlo nell'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nDa questa pagina puoi inoltre gestire l'invio di notifiche push e l'inoltro dei messaggi anche al tuo indirizzo e-mail.",
+        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area “Questo servizio può”, disabilitando l'opzione “Contattarti in app”. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
         "faqs": [
           {
-            "title": "Cosa succede se disattivi un servizio?",
-            "body": "Non riceverai più le comunicazioni di quello specifico servizio nell'app IO. L'ente che eroga il servizio potrà comunque contattarti o essere contattato attraverso altri canali quali sito, email, numero di telefono o ufficio di pertinenza."
+            "title": "Cosa succede se disattivo un servizio?",
+            "body": "Non riceverai più comunicazioni da quel servizio nell'app IO. L'ente che eroga il servizio potrà comunque contattarti o essere contattato attraverso altri canali come sito, email o numero di telefono."
           },
           {
-            "title": "Come funzionano le notifiche push?",
-            "body": "Le notifiche push ti informano che è arrivato un nuovo messaggio nell'app IO, e ti invitano a procedere alla lettura. \n \nSe preferisci disattivarle, disabilita nell'area 'Questo servizio può' l'opzione 'Inviarti notifiche push'. Nella sezione Messaggi potrai comunque distinguere i messaggi non letti grazie al pallino blu."
+            "title": "Cosa sono e come funzionano le notifiche push?",
+            "body": "Le notifiche push sono messaggi istantanei che puoi ricevere sul tuo dispositivo. Ti informano che è arrivato un nuovo messaggio nell'app IO e ti invitano a leggerlo. Se preferisci disattivarle, disabilita nell'area “Questo servizio può” l'opzione “Inviarti notifiche push”."
           },
           {
             "title": "Come funziona l'inoltro via email dei messaggi?",
-            "body": "Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO. \nL'inoltro via mail non è disponibile per alcuni servizi, sulla base di decisioni prese dall'ente in merito alla sensibilità dei contenuti del messaggio stesso."
+            "body": "Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO.\n \nL'inoltro via email non è disponibile per alcuni servizi, poichè l’ente può decidere di non inoltrare messaggi dal contenuto sensibile."
           }
         ]
       },
@@ -1419,6 +1419,40 @@
         ]
       },
       {
+        "route_name": "SERVICES_HOME",
+        "title": "What you can do in Services",
+        "content": "Here you can view a list of national and local services available in the app. Press on a service name to check its details. From the service detail page, you can also manage the settings for push notifications and message forwarding to your email address.",
+        "faqs": [
+          {
+            "title": "How can I change the settings of each service?",
+            "body": "For each service, you can decide if you want to receive in-app messages and push notifications. At Profile > Preferences > Email Message Forwarding you can also enable message forwarding of all active services to your email address.\n \nEven if you see the full list of services, you’ll be contacted only by  institutions that know your Fiscal Code and have a communication that concerns you directly."
+          },
+          {
+            "title": "Can I contact institutions through IO?",
+            "body": "No, you cannot directly contact institutions through the app. If you need to contact an institution, you can do so through the contacts detailed in each service detail page."
+          }
+        ]
+      },
+         {
+        "route_name": "SERVICES_DETAIL",
+        "title": "Service detail",
+        "content": "Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or mail.",
+        "faqs": [
+          {
+            "title": "What happens if I turn off a service?",
+            "body": "You will no longer receive communications from that service in the IO app. The institution providing the service may still contact you or be contacted through other channels such as website, email or phone number."
+          },
+          {
+            "title": "What are push notifications and how do they work?",
+            "body": "Push notifications are instant messages that you can receive on your device. They inform you that a new message has arrived in the IO app and invite you to read it. If you prefer to turn them off, disable the 'Send you push notifications' option in the 'This service may' area."
+          },
+          {
+            "title": "How does email forwarding of messages work?",
+            "body": "By enabling email forwarding of messages, you will receive a copy of the message you receive on IO to your email address associated with the app.\n \n Email forwarding is not available for some services, as the institution may decide not to forward messages with sensitive content."
+          }
+        ]
+      },
+      {
         "route_name": "UADONATION_ROUTES_WEBVIEW",
         "title": "Donations Ukraine",
         "content": "In this page, you can make a donation to charities assisting the civilian victims of the crisis in Ukraine.",
@@ -1441,7 +1475,7 @@
           },
           {
             "title": "After donating, I did not receive the email with the receipt. What can I do?",
-            "body": "After donating, you will receive an email with the receipt. If you don't, check your spam folder and make sure the address you find under Profile > Your Information is correct. We recommend that you keep your receipt, along with original documentation of the payment (such as the bank or credit card statement) for tax purposes."
+            "body": "If you donate through an Android device, you will receive an email with the receipt. If you don't, check your spam folder and make sure the address you find under Profile > Your Information is correct. We recommend that you keep your receipt, along with original documentation of the payment (such as the bank or credit card statement) for tax purposes."
           },
           {
             "title": "I represent a charity: can I participate in the initiative?",

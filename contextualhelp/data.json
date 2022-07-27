@@ -3,6 +3,41 @@
   "it": {
     "screens": [
       {
+        "route_name": "PN_ROUTES_MESSAGE_DETAILS",
+        "title": "Dettagli della notifica",
+        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese.",
+        "faqs": [
+          {
+            "title": "Cos'è una notifica?",
+            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione pubblica, come multe, avvisi di accertamento di tributi, esiti di pratiche amministrative o rimborsi, che fino ad ora hai ricevuto tramite raccomandata."
+          },
+          {
+            "title": "Cos'è Piattaforma Notifiche?",
+            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app. In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](notifichedigitali.it/cittadini)."
+          },
+          {
+            "title": "Come funziona?",
+            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, App IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](https://notifichedigitali.it/leggi/cittadino) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, App IO, e email o SMS. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
+          },
+          {
+            "title": "Perché ricevo questo messaggio?",
+            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio “Avvisi di cortesia” di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio e, di conseguenza, accedere al contenuto della notifica su IO, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale: la comunicazione a valore legale risulta quindi correttamente recapitata."
+          },
+          {
+            "title": "Ho aperto il messaggio. Ora cosa devo fare?",
+            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
+          },
+          {
+            "title": "Cosa succede se ignoro questo messaggio?",
+            "body": "Questa comunicazione ha valore legale a tutti gli effetti; pertanto, non pagare eventuali spese o ignorare la notifica è come ignorare una raccomandata cartacea."
+          },
+          {
+            "title": "Ho un problema con questa notifica. Come posso fare?",
+            "body": "Se hai problemi o domande relativi al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta> Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+          },
+        ]
+      },
+      {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Paga con la tua carta supermercato",
         "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",

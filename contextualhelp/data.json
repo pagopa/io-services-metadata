@@ -38,13 +38,13 @@
             "title": "Che cos’è un Identity Provider?",
             "body": "L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
           }
-         ]
+        ]
       },
       {
         "route_name": "CIE_PIN_SCREEN",
         "title": "Il codice PIN della tua CIE",
         "content": "Il codice PIN della tua Carta d’Identità Elettronica è un codice di 8 cifre, necessario per l’accesso.",
-        "faqs":  [
+        "faqs": [
           {
             "title": "Dove trovo i codici PIN e PUK della CIE?",
             "body": "I codici PIN e PUK sono composti da 8 cifre ciascuno: le prime 4 cifre ti sono state consegnate all'anagrafe, mentre le ultime 4 ti sono state spedite a casa, insieme alla Carta d’Identità Elettronica. Il codice PUK serve a sbloccare il codice PIN dopo tre tentativi errati."
@@ -1152,7 +1152,7 @@
             "title": "What is an Identity Provider?",
             "body": "SPID identity is issued by Identity Providers, who provide digital identities and manage user authentication. Your Identity Provider is the entity you chose as your SPID provider."
           }
-         ]
+        ]
       },
       {
         "route_name": "CIE_PIN_SCREEN",
@@ -1173,7 +1173,7 @@
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "How biometric recognition works",
         "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Profile section of the app.",
-         "faqs": [
+        "faqs": [
           {
             "title": "When will I be asked for biometric recognition?",
             "body": "If you have enabled it, you can use biometric recognition in place of the unlock code. Just like the unlock code, this authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate."
@@ -1235,17 +1235,19 @@
           {
             "title": "How can I delete my account and data?",
             "body": "Go to “Privacy and Terms of Use” and select “Delete your account.” When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
-          },
-          {
-            "title": "How I change my email address?",
-            "body": "Tap “Email Address”, then “Change Email” and enter the new address."
+          }
+        ]
+      },
+      {
+        "title": "How I change my email address?",
+        "body": "Tap “Email Address”, then “Change Email” and enter the new address."
       },
       {
         "route_name": "READ_EMAIL_SCREEN",
         "title": "Your email address",
         "content": "This is the email address you confirmed when you registered. It's where we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
       },
-            {
+      {
         "route_name": "INSERT_EMAIL_SCREEN",
         "title": "Change your email address",
         "content": "Here you can change your email address. Once entered, we'll send you an email with a verification link to confirm it.There we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
@@ -1268,7 +1270,7 @@
             "title": "What happens if I choose the manual configuration?",
             "body": "With manual configuration, the services on IO, present or future, will not be able to contact you. To allow the services you are interested in to contact you, you will have to configure them one by one by enabling “Contact you in app” in each service detail page. Institutions will still be able to contact you through other channels.\n\nSome services, such as bonuses, require you to register. In these cases, once you have completed your registration, you cannot disable “Contact you in app”. If you do not want to receive messages from these services anymore, you must unregister, but you will also lose the related benefits."
           }
-          ]
+        ]
       },
       {
         "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
@@ -1288,7 +1290,7 @@
           {
             "title": "What is the unlock code?",
             "body": "The unlock code is a six-digit code that you set up the first time you enter IO. It allows you to enter the app without having to insert SPID or CIE credentials each time. It is also required to view sensitive data, and to confirm specific operations, such as making a payment and deleting the account. This authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate and set up a new unlock code."
-          },  
+          },
           {
             "title": "I forgot the unlock code. What can I do?",
             "body": "Press “Did you forget the unlock code?”, insert your SPID or CIE credentials, and enter the new code."
@@ -1304,11 +1306,11 @@
           {
             "title": "How can I enable biometric recognition?",
             "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the ”Profile” section of the IO app and enable it there too."
-         },
-         {
+          },
+          {
             "title": "How can I disable biometric recognition?",
             "body": "Go to the “Profile” section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
-         }
+          }
         ]
       },
       {
@@ -1637,7 +1639,7 @@
           }
         ]
       },
-         {
+      {
         "route_name": "SERVICES_DETAIL",
         "title": "Service detail",
         "content": "Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or mail.",

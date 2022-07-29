@@ -1235,12 +1235,12 @@
           {
             "title": "How can I delete my account and data?",
             "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+          },
+          {
+            "title": "How I change my email address?",
+            "body": "Tap 'Email Address', then 'Change Email' and enter the new address."
           }
         ]
-      },
-      {
-        "title": "How I change my email address?",
-        "content": "Tap 'Email Address', then 'Change Email' and enter the new address."
       },
       {
         "route_name": "READ_EMAIL_SCREEN",

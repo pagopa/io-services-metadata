@@ -1240,7 +1240,7 @@
       },
       {
         "title": "How I change my email address?",
-        "body": "Tap “Email Address”, then “Change Email” and enter the new address."
+        "body": "Tap 'Email Address', then 'Change Email' and enter the new address."
       },
       {
         "route_name": "READ_EMAIL_SCREEN",

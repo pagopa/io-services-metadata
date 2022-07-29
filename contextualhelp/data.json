@@ -58,7 +58,7 @@
       {
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione “Profilo“",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -66,18 +66,18 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione “Profilo” e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Vai alla sezione “Profilo”. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+            "body": "Vai alla sezione 'Profilo'. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_PIN",
         "title": "Come funziona il codice di sblocco",
-        "content": "Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo utilizzare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi “Hai dimenticato il codice di sblocco?” e impostane uno nuovo. Se vuoi modificarlo, premi “Modifica il codice di sblocco”.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",
+        "content": "Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo utilizzare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi 'Hai dimenticato il codice di sblocco?' e impostane uno nuovo. Se vuoi modificarlo, premi 'Modifica il codice di sblocco'.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",
         "faqs": [
           {
             "title": "Cos’è il codice di sblocco?",
@@ -85,11 +85,11 @@
           },
           {
             "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
-            "body": "Premi “Hai dimenticato il codice di sblocco?”, autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Premi 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
           },
           {
             "title": "Come posso cambiare il codice di sblocco?",
-            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona “Reimposta Codice di sblocco”, autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona 'Reimposta Codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
           }
         ]
       },
@@ -105,7 +105,7 @@
         "faqs": [
           {
             "title": "Come viene tutelata la mia privacy?",
-            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi in questa sezione alla voce “Privacy e Condizioni d’uso”."
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi in questa sezione alla voce 'Privacy e Condizioni d’uso'."
           },
           {
             "title": "A cosa serve la versione digitale del mio Codice Fiscale? ",
@@ -120,11 +120,11 @@
         "faqs": [
           {
             "title": "Come posso eliminare il mio account e cancellare i miei dati?",
-            "body": "Vai alla voce “Privacy e Condizioni d’uso” che trovi in questa sezione e seleziona “Elimina il tuo account”. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+            "body": "Vai alla voce 'Privacy e Condizioni d’uso' che trovi in questa sezione e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
           },
           {
             "title": "Come posso modificare il mio indirizzo email?",
-            "body": "Premi “Indirizzo email”, poi seleziona “Modifica email” e inserisci il nuovo indirizzo."
+            "body": "Premi 'Indirizzo email', poi seleziona 'Modifica email' e inserisci il nuovo indirizzo."
           }
         ]
       },
@@ -154,7 +154,7 @@
           },
           {
             "title": "Cosa succede se utilizzo la configurazione manuale?",
-            "body": "Con la configurazione manuale i servizi di IO, presenti o futuri, non possono inviarti messaggi. Per permettere ai servizi che ti interessano di scriverti, devi configurarli uno a uno selezionando la voce “Contattarti in app” che trovi in ogni scheda servizio. Gli enti potranno comunque contattarti attraverso altri canali.\n\nAlcuni servizi, come per esempio i bonus, prevedono una richiesta di iscrizione da parte tua. In questi casi, una volta completata l’iscrizione, non puoi disabilitare la voce “Contattarti in app”. Se non vuoi ricevere più messaggi da questi servizi devi disiscriverti, ma perderai anche i benefici connessi."
+            "body": "Con la configurazione manuale i servizi di IO, presenti o futuri, non possono inviarti messaggi. Per permettere ai servizi che ti interessano di scriverti, devi configurarli uno a uno selezionando la voce 'Contattarti in app' che trovi in ogni scheda servizio. Gli enti potranno comunque contattarti attraverso altri canali.\n\nAlcuni servizi, come per esempio i bonus, prevedono una richiesta di iscrizione da parte tua. In questi casi, una volta completata l’iscrizione, non puoi disabilitare la voce 'Contattarti in app'. Se non vuoi ricevere più messaggi da questi servizi devi disiscriverti, ma perderai anche i benefici connessi."
           }
         ]
       },
@@ -179,11 +179,11 @@
           },
           {
             "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
-            "body": "Premi “Hai dimenticato il codice di sblocco?”, autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Premi 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
           },
           {
             "title": "Come posso cambiare il codice di sblocco?",
-            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona “Reimposta Codice di sblocco”, autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona 'Reimposta Codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
           },
           {
             "title": "A cosa serve il riconoscimento biometrico?",
@@ -191,11 +191,11 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione “Profilo” dell’app IO e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' dell’app IO e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Vai alla sezione “Profilo” dell'app. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+            "body": "Vai alla sezione 'Profilo' dell'app. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
           }
         ]
       },
@@ -210,11 +210,11 @@
           },
           {
             "title": "Come posso eliminare il mio account e cancellare i miei dati?",
-            "body": "Seleziona “Elimina il tuo account” e segui le istruzioni. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+            "body": "Seleziona 'Elimina il tuo account' e segui le istruzioni. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
           },
           {
             "title": "Come posso chiedere una copia dei dati associati al mio account IO?",
-            "body": "Seleziona “Accedi ai tuoi dati”, poi premi “Richiedi una copia dei tuoi dati”. Riceverai un’email con un file che contiene una copia dei dati associati al tuo account."
+            "body": "Seleziona 'Accedi ai tuoi dati', poi premi 'Richiedi una copia dei tuoi dati'. Riceverai un’email con un file che contiene una copia dei dati associati al tuo account."
           },
           {
             "title": "Ho delle domande sulla privacy e sull’uso dei miei dati. A chi posso rivolgermi?",
@@ -245,7 +245,7 @@
         "faqs": [
           {
             "title": "Perché non trovo la mia banca?",
-            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su “Continua”, IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
+            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su 'Continua', IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
           }
         ]
       },
@@ -260,7 +260,7 @@
           },
           {
             "title": "Non riesco ad aggiungere la mia carta. Come mai?",
-            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa “in pausa”;\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
+            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa 'in pausa';\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
       },
@@ -280,7 +280,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
@@ -303,7 +303,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           }
         ]
       },
@@ -318,7 +318,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Non riesco ad abilitare i pagamenti in app con BANCOMAT Pay. Cosa posso fare?",
@@ -337,7 +337,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           }
         ]
       },
@@ -352,11 +352,11 @@
           },
           {
             "title": "Come posso aggiungere un metodo di pagamento?",
-            "body": "Vai al Portafoglio, premi “Aggiungi” e “Metodo di Pagamento”. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
+            "body": "Vai al Portafoglio, premi 'Aggiungi' e 'Metodo di Pagamento'. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
           },
           {
             "title": "Quali bonus, sconti o altre iniziative posso richiedere?",
-            "body": "Vai al Portafoglio, premi “Aggiungi” e “Sconti, bonus e altre iniziative”. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
+            "body": "Vai al Portafoglio, premi 'Aggiungi' e 'Sconti, bonus e altre iniziative'. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
           },
           {
             "title": "Non riesco ad aggiungere un metodo di pagamento. Cosa posso fare?",
@@ -364,7 +364,7 @@
           },
           {
             "title": "Come posso eliminare un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Ho un problema con un pagamento. Cosa posso fare?",
@@ -384,11 +384,11 @@
           },
           {
             "title": "Nel 2021 ho maturato degli importi che non mi sono ancora stati rimborsati. Cosa posso fare?",
-            "body": "Probabilmente non hai indicato l’IBAN del conto su cui desideri ricevere l’accredito, oppure quello che hai indicato non è valido.Per inserire l’IBAN o verificarne la correttezza, apri l’app, vai al Portafoglio e premi sulla card del Cashback. Poi, inseriscilo o modificalo e seleziona “Continua”. Entro 90 giorni riceverai tramite l’app IO un messaggio sullo stato del rimborso. Le attività tra PagoPA S.p.A. e Consap S.p.A. per i pagamenti dei rimborsi sono in corso di dismissione, quindi, se non inserisci o non correggi l’IBAN entro il 31/07/2022, potrebbe non essere più possibile effettuare il bonifico per il rimborso."
+            "body": "Probabilmente non hai indicato l’IBAN del conto su cui desideri ricevere l’accredito, oppure quello che hai indicato non è valido.Per inserire l’IBAN o verificarne la correttezza, apri l’app, vai al Portafoglio e premi sulla card del Cashback. Poi, inseriscilo o modificalo e seleziona 'Continua'. Entro 90 giorni riceverai tramite l’app IO un messaggio sullo stato del rimborso. Le attività tra PagoPA S.p.A. e Consap S.p.A. per i pagamenti dei rimborsi sono in corso di dismissione, quindi, se non inserisci o non correggi l’IBAN entro il 31/07/2022, potrebbe non essere più possibile effettuare il bonifico per il rimborso."
           },
           {
             "title": "Che cos’è un codice QR?",
-            "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su “Paga un avviso” e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
+            "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su 'Paga un avviso' e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
           },
           {
             "title": "Che cos’è pagoPA?",
@@ -407,7 +407,7 @@
         "faqs": [
           {
             "title": "Come posso donare?",
-            "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi “Continua”. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi “Paga” per completare la donazione."
+            "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi 'Continua'. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi 'Paga' per completare la donazione."
           },
           {
             "title": "Con che metodi di pagamento posso fare la donazione?",
@@ -567,7 +567,7 @@
       {
         "route_name": "SERVICE_DETAIL",
         "title": "Dettagli del Servizio",
-        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area “Questo servizio può”, disabilitando l'opzione “Contattarti in app”. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
+        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
         "faqs": [
           {
             "title": "Cosa succede se disattivo un servizio?",
@@ -575,7 +575,7 @@
           },
           {
             "title": "Cosa sono e come funzionano le notifiche push?",
-            "body": "Le notifiche push sono messaggi istantanei che puoi ricevere sul tuo dispositivo. Ti informano che è arrivato un nuovo messaggio nell'app IO e ti invitano a leggerlo. Se preferisci disattivarle, disabilita nell'area “Questo servizio può” l'opzione “Inviarti notifiche push”."
+            "body": "Le notifiche push sono messaggi istantanei che puoi ricevere sul tuo dispositivo. Ti informano che è arrivato un nuovo messaggio nell'app IO e ti invitano a leggerlo. Se preferisci disattivarle, disabilita nell'area 'Questo servizio può' l'opzione 'Inviarti notifiche push'."
           },
           {
             "title": "Come funziona l'inoltro via email dei messaggi?",
@@ -598,7 +598,7 @@
           },
           {
             "title": "Come faccio a distinguere fra due certificati, ad esempio vaccinazione o un tampone, se vedo solo il QR Code?",
-            "body": "Quando esibirai il tuo Certificato Verde, chi lo verificherà non dovrà conoscere i tuoi dati sanitari ma solo essere sicuro che sia valido: per questo nessun dato sanitario è visibile nella schemata dove trovi il QR code. Per leggere i dati sanitari relativi al certificato premi il pulsante “Dettagli“."
+            "body": "Quando esibirai il tuo Certificato Verde, chi lo verificherà non dovrà conoscere i tuoi dati sanitari ma solo essere sicuro che sia valido: per questo nessun dato sanitario è visibile nella schemata dove trovi il QR code. Per leggere i dati sanitari relativi al certificato premi il pulsante 'Dettagli'."
           },
           {
             "title": "Posso ricevere su IO i certificati dei miei familiari?",
@@ -731,11 +731,11 @@
           },
           {
             "title": "Quando scade la mia Carta Giovani Nazionale?",
-            "body": "La tua Carta Giovani Nazionale perde validità al compimento del 36esimo anno di età. La data di scadenza è indicata nel dettaglio della tua Carta sempre consultabile nella sezione “Portafoglio” dell’App. Dopo i 30 anni, in ogni caso, puoi usufruire soltanto delle agevolazioni promosse sul territorio nazionale, dal momento che quelle offerte dal circuito EYCA a livello europeo sono valide fino al compimento del 31° anno di età."
+            "body": "La tua Carta Giovani Nazionale perde validità al compimento del 36esimo anno di età. La data di scadenza è indicata nel dettaglio della tua Carta sempre consultabile nella sezione 'Portafoglio' dell’App. Dopo i 30 anni, in ogni caso, puoi usufruire soltanto delle agevolazioni promosse sul territorio nazionale, dal momento che quelle offerte dal circuito EYCA a livello europeo sono valide fino al compimento del 31° anno di età."
           },
           {
             "title": "Posso disattivare la mia Carta Giovani Nazionale?",
-            "body": "Sì. Dalla schermata di dettaglio della CGN premi “Disattiva la tua carta” e conferma. Da quel momento non vedrai più la CGN nel portafoglio. Disattivando la CGN, perdi anche i diritti relativi al circuito EYCA."
+            "body": "Sì. Dalla schermata di dettaglio della CGN premi 'Disattiva la tua carta' e conferma. Da quel momento non vedrai più la CGN nel portafoglio. Disattivando la CGN, perdi anche i diritti relativi al circuito EYCA."
           },
           {
             "title": "Posso condividere le agevolazioni della Carta Giovani Nazionale con i miei familiari e amici?",
@@ -889,7 +889,7 @@
       {
         "route_name": "WALLET_ONBOARDING_BANCOMAT_SEARCH_AVAILABLE_USER_BANCOMAT",
         "title": "Le tue carte PagoBANCOMAT",
-        "content": "In questa schermata ti mostriamo la o le carte PagoBANCOMAT a te intestate. Puoi aggiungerle premendo “Aggiungi“, oppure saltare la carta in questione per uscire dal flusso o passare alla carta successiva nel caso ne siano state trovate più di una.",
+        "content": "In questa schermata ti mostriamo la o le carte PagoBANCOMAT a te intestate. Puoi aggiungerle premendo 'Aggiungi', oppure saltare la carta in questione per uscire dal flusso o passare alla carta successiva nel caso ne siano state trovate più di una.",
         "faqs": [
           {
             "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
@@ -976,7 +976,7 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi.",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",
@@ -992,11 +992,11 @@
           },
           {
             "title": "Posso cancellare un messaggio?",
-            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in “Archiviati”. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
+            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in 'Archiviati'. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
           },
           {
-            "title": "Perché non vedo più la scheda ”In scadenza”?",
-            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata “In scadenza”. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
+            "title": "Perché non vedo più la scheda 'In scadenza'?",
+            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata 'In scadenza'. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -1180,18 +1180,18 @@
           },
           {
             "title": "How can I enable biometric recognition?",
-            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the “Profile“ section and enable it there too."
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section and enable it there too."
           },
           {
             "title": "How can I disable biometric recognition?",
-            "body": "Go to the “Profile” section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+            "body": "Go to the 'Profile' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_PIN",
         "title": "How the unlock code works",
-        "content": "Here you can set up or change your unlock code. If this is your first time in the app, choose a code and memorize it so you can use it each time you need to log in. If you have already set it and can't remember it, press “Did you forget the unlock code?” and set a new one. If you want to change it, press “Change the unlock code”.\n\nThe unlock code is tied to the device you set it on: if you change devices, you will have to set it again the first time you log in to the app.",
+        "content": "Here you can set up or change your unlock code. If this is your first time in the app, choose a code and memorize it so you can use it each time you need to log in. If you have already set it and can't remember it, press 'Did you forget the unlock code?' and set a new one. If you want to change it, press 'Change the unlock code'.\n\nThe unlock code is tied to the device you set it on: if you change devices, you will have to set it again the first time you log in to the app.",
         "faqs": [
           {
             "title": "What is the unlock code?",
@@ -1199,11 +1199,11 @@
           },
           {
             "title": "I forgot the unlock code. What can I do?",
-            "body": "Press “Did you forget the unlock code?”, insert your SPID or CIE credentials, and enter the new code."
+            "body": "Press 'Did you forget the unlock code?', insert your SPID or CIE credentials, and enter the new code."
           },
           {
             "title": "How can I change the unlock code?",
-            "body": "Select “Change the unlock code”, insert your SPID or CIE credentials, and enter the new code."
+            "body": "Select 'Change the unlock code', insert your SPID or CIE credentials, and enter the new code."
           }
         ]
       },
@@ -1219,7 +1219,7 @@
         "faqs": [
           {
             "title": "How is my privacy protected?",
-            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under “Privacy and Terms of Use.“"
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under 'Privacy and Terms of Use.'"
           },
           {
             "title": "What is the digital version of my Tax Code for?",
@@ -1234,7 +1234,7 @@
         "faqs": [
           {
             "title": "How can I delete my account and data?",
-            "body": "Go to “Privacy and Terms of Use” and select “Delete your account.” When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+            "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
           }
         ]
       },
@@ -1268,7 +1268,7 @@
           },
           {
             "title": "What happens if I choose the manual configuration?",
-            "body": "With manual configuration, the services on IO, present or future, will not be able to contact you. To allow the services you are interested in to contact you, you will have to configure them one by one by enabling “Contact you in app” in each service detail page. Institutions will still be able to contact you through other channels.\n\nSome services, such as bonuses, require you to register. In these cases, once you have completed your registration, you cannot disable “Contact you in app”. If you do not want to receive messages from these services anymore, you must unregister, but you will also lose the related benefits."
+            "body": "With manual configuration, the services on IO, present or future, will not be able to contact you. To allow the services you are interested in to contact you, you will have to configure them one by one by enabling 'Contact you in app' in each service detail page. Institutions will still be able to contact you through other channels.\n\nSome services, such as bonuses, require you to register. In these cases, once you have completed your registration, you cannot disable 'Contact you in app'. If you do not want to receive messages from these services anymore, you must unregister, but you will also lose the related benefits."
           }
         ]
       },
@@ -1293,11 +1293,11 @@
           },
           {
             "title": "I forgot the unlock code. What can I do?",
-            "body": "Press “Did you forget the unlock code?”, insert your SPID or CIE credentials, and enter the new code."
+            "body": "Press 'Did you forget the unlock code?', insert your SPID or CIE credentials, and enter the new code."
           },
           {
             "title": "How can I change the unlock code?",
-            "body": "Select “Change the unlock code”, insert your SPID or CIE credentials, and enter the new code."
+            "body": "Select 'Change the unlock code', insert your SPID or CIE credentials, and enter the new code."
           },
           {
             "title": "What is biometric recognition for?",
@@ -1305,11 +1305,11 @@
           },
           {
             "title": "How can I enable biometric recognition?",
-            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the ”Profile” section of the IO app and enable it there too."
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section of the IO app and enable it there too."
           },
           {
             "title": "How can I disable biometric recognition?",
-            "body": "Go to the “Profile” section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+            "body": "Go to the 'Profile' section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
           }
         ]
       },
@@ -1324,11 +1324,11 @@
           },
           {
             "title": "How can I delete my account and data?",
-            "body": "Select “Delete your account” and follow the instructions. When the deletion is complete, you will receive a confirmation message to the email address associated with the app.This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+            "body": "Select 'Delete your account' and follow the instructions. When the deletion is complete, you will receive a confirmation message to the email address associated with the app.This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
           },
           {
             "title": "How can I get a copy of the data associated with my IO account?",
-            "body": "Select “Access your data”,  then press “Request a copy of your data”. You will receive an email with a file containing a copy of the data associated with your account."
+            "body": "Select 'Access your data',  then press 'Request a copy of your data'. You will receive an email with a file containing a copy of the data associated with your account."
           },
           {
             "title": " I have questions about privacy and the use of my data. Who can I contact?",
@@ -1359,7 +1359,7 @@
         "faqs": [
           {
             "title": "Why can't I find my bank?",
-            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press “Add”, IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
+            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press 'Add', IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
           }
         ]
       },
@@ -1374,7 +1374,7 @@
           },
           {
             "title": "I’m having trouble adding my card. What can I do?",
-            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been “paused”\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
+            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been 'paused'\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
       },
@@ -1394,7 +1394,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           },
           {
             "title": "Why is the bank's name and logo different from the name and logo on my card?",
@@ -1417,7 +1417,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           }
         ]
       },
@@ -1432,7 +1432,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           },
           {
             "title": "I can’t enable in-app payments with BANCOMAT Pay. What can I do?",
@@ -1451,7 +1451,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press 'Delete this payment method'."
           }
         ]
       },
@@ -1489,11 +1489,11 @@
           },
           {
             "title": "How do I add a payment method?",
-            "body": "Go to the Wallet, press “Add”, and then “Payment method”. Select the method you want to add and enter the required information."
+            "body": "Go to the Wallet, press 'Add', and then 'Payment method'. Select the method you want to add and enter the required information."
           },
           {
             "title": "What bonuses, discounts or other initiatives can I apply for?",
-            "body": "Go to Wallet, select “Add” and “Discounts, bonuses and other initiatives”. You will see a list with all the bonuses and initiatives you can apply for through IO."
+            "body": "Go to Wallet, select 'Add' and 'Discounts, bonuses and other initiatives'. You will see a list with all the bonuses and initiatives you can apply for through IO."
           },
           {
             "title": "I have trouble adding a payment method. What can I do?",
@@ -1501,7 +1501,7 @@
           },
           {
             "title": "How can I delete a payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press 'Delete this payment method'."
           },
           {
             "title": "I have trouble with a payment. What can I do?",
@@ -1521,7 +1521,7 @@
           },
           {
             "title": "In 2021 I earned Cashback rewards but I haven’t been refunded. What can I do?",
-            "body": "You probably didn't provide the IBAN of the account you want to be credited to. If you provided one, it may not be valid. To enter the IBAN or make sure it is correct, go to the Wallet and press on the Cashback card. Then, enter the IBAN or amend it and select “Continue”. Within 90 days you will receive on IO a message about the status of your refund."
+            "body": "You probably didn't provide the IBAN of the account you want to be credited to. If you provided one, it may not be valid. To enter the IBAN or make sure it is correct, go to the Wallet and press on the Cashback card. Then, enter the IBAN or amend it and select 'Continue'. Within 90 days you will receive on IO a message about the status of your refund."
           },
           {
             "title": "What is a QR code?",
@@ -1563,7 +1563,7 @@
           },
           {
             "title": "I have already added the second network. What should I do?",
-            "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
           }
         ]
       },
@@ -1597,7 +1597,7 @@
           },
           {
             "title": "I have already added the second network, what should I do?",
-            "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
           }
         ]
       },

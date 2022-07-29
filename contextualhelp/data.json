@@ -26,7 +26,7 @@
           {
             "title": "Come posso richiedere la CIE?",
             "body": "[Vai a questo sito](https://www.prenotazionicie.interno.gov.it/) e digita il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, procedi alla prenotazione dell'appuntamento. In caso contrario, chiedi un appuntamento dal sito del tuo Comune o vai in un ufficio comunale."
-          },
+          }
         ]
       },
       {
@@ -37,7 +37,7 @@
           {
             "title": "Che cos’è un Identity Provider?",
             "body": "L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
-          },
+          }
          ]
       },
       {
@@ -52,7 +52,7 @@
           {
             "title": "Non ho il codice PIN e/o PUK. Cosa posso fare?",
             "body": "[In questo sito](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) trovi tutte le informazioni per recuperarli."
-          },
+          }
         ]
       },
       {
@@ -71,7 +71,7 @@
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
             "body": "Vai alla sezione “Profilo”. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
-          },
+          }
         ]
       },
       {
@@ -96,7 +96,7 @@
       {
         "route_name": "ONBOARDING_TOS",
         "title": "Privacy e Condizioni d’uso",
-        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app.",
+        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app."
       },
       {
         "route_name": "PROFILE_MAIN",
@@ -225,7 +225,7 @@
       {
         "route_name": "PROFILE_PRIVACY",
         "title": "Privacy e Condizioni d’uso",
-        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app.",
+        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app."
       },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
@@ -1140,7 +1140,7 @@
           {
             "title": "How can I request the CIE?",
             "body": "[Go to this website](https://www.prenotazionicie.interno.gov.it/) and type in the name of your municipality to see if it uses the Agenda CIE online appointment system. If it does, book an appointment. If it doesn’t, request an appointment from your municipality's website or go to a municipal office."
-          },
+          }
         ]
       },
       {
@@ -1151,7 +1151,7 @@
           {
             "title": "What is an Identity Provider?",
             "body": "SPID identity is issued by Identity Providers, who provide digital identities and manage user authentication. Your Identity Provider is the entity you chose as your SPID provider."
-          },
+          }
          ]
       },
       {
@@ -1166,7 +1166,7 @@
           {
             "title": "I don't have the PIN and/or PUK code. What can I do?",
             "body": "[At this website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) you will find how to recover them."
-          },
+          }
         ]
       },
       {
@@ -1185,8 +1185,7 @@
           {
             "title": "How can I disable biometric recognition?",
             "body": "Go to the “Profile” section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
-          },
-
+          }
         ]
       },
       {
@@ -1211,7 +1210,7 @@
       {
         "route_name": "ONBOARDING_TOS",
         "title": "Privacy Policy and Terms of Service",
-        "content": "Here you can find the full description of how IO handles your personal data and the terms of service of the app.",
+        "content": "Here you can find the full description of how IO handles your personal data and the terms of service of the app."
       },
       {
         "route_name": "PROFILE_MAIN",
@@ -1268,7 +1267,7 @@
           {
             "title": "What happens if I choose the manual configuration?",
             "body": "With manual configuration, the services on IO, present or future, will not be able to contact you. To allow the services you are interested in to contact you, you will have to configure them one by one by enabling “Contact you in app” in each service detail page. Institutions will still be able to contact you through other channels.\n\nSome services, such as bonuses, require you to register. In these cases, once you have completed your registration, you cannot disable “Contact you in app”. If you do not want to receive messages from these services anymore, you must unregister, but you will also lose the related benefits."
-          },
+          }
           ]
       },
       {
@@ -1309,7 +1308,7 @@
          {
             "title": "How can I disable biometric recognition?",
             "body": "Go to the “Profile” section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
-         },
+         }
         ]
       },
       {
@@ -1338,7 +1337,7 @@
       {
         "route_name": "PROFILE_PRIVACY",
         "title": " Privacy Policy and Terms of Service",
-        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app.",
+        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app."
       },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
@@ -1764,3 +1763,6 @@
         "recover_username": "https://login.id.tim.it/mps/fu.php",
         "recover_password": "https://login.id.tim.it/mps/fp.php"
       }
+    }
+  }
+}

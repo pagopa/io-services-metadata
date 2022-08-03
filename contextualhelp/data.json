@@ -30,7 +30,7 @@
         ]
       },
       {
-        "route_name": "AUTHENTICATION_IDP_SELECTION",
+        "route_name": "AUTHENTICATION_IPD_SELECTION",
         "title": "Il tuo Identity Provider",
         "content": "L'Identity Provider è il gestore della tua identità digitale. Puoi autenticarti solo dopo aver selezionato l'Identity Provider che ha rilasciato il tuo SPID.",
         "faqs": [
@@ -141,7 +141,8 @@
       {
         "route_name": "PROFILE_PREFERENCES_HOME",
         "title": "Le tue preferenze",
-        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua."
+        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua.",
+        "faqs": []
       },
       {
         "route_name": "PROFILE_PREFERENCES_SERVICES",
@@ -225,7 +226,8 @@
       {
         "route_name": "PROFILE_PRIVACY",
         "title": "Privacy e Condizioni d’uso",
-        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app."
+        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app.",
+        "faqs": []
       },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
@@ -1144,7 +1146,7 @@
         ]
       },
       {
-        "route_name": "AUTHENTICATION_IDP_SELECTION",
+        "route_name": "AUTHENTICATION_IPD_SELECTION",
         "title": "Your Identity Provider",
         "content": "The Identity Provider is the manager of your digital identity. You can authenticate only after selecting the Identity Provider that issued your SPID.",
         "faqs": [
@@ -1255,7 +1257,8 @@
       {
         "route_name": "PROFILE_PREFERENCES_HOME",
         "title": "Your preferences",
-        "content": "Here you can see and change the settings used by all services on IO. You can also select the default calendar for your reminders, turn on or off the automatic forward of your messages to an email address, and change the language."
+        "content": "Here you can see and change the settings used by all services on IO. You can also select the default calendar for your reminders, turn on or off the automatic forward of your messages to an email address, and change the language.",
+        "faqs": []
       },
       {
         "route_name": "PROFILE_PREFERENCES_SERVICES",
@@ -1339,7 +1342,8 @@
       {
         "route_name": "PROFILE_PRIVACY",
         "title": " Privacy Policy and Terms of Service",
-        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app."
+        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app.",
+        "faqs": []
       },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",

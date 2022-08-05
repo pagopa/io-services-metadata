@@ -173,7 +173,7 @@
           {
             "title": "Come posso eliminare il mio account e cancellare i miei dati?",
             "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
-          },
+          }
         ]
       },
       {
@@ -263,7 +263,7 @@
           {
             "title": "Come viene tutelata la mia privacy?",
             "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. Per maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi in questa sezione alla voce 'Privacy e Condizioni d’uso'."
-          },
+          }
         ]
       },
       {
@@ -1171,12 +1171,12 @@
           },
           {
             "title": "I did everything right but I can't log in. What can I do?",
-            "body": "In this case, go to the bottom of this page and select 'Open a request' to write to us: our Support will help you solve the problem.",
+            "body": "In this case, go to the bottom of this page and select 'Open a request' to write to us: our Support will help you solve the problem."
           },
           {
             "title": "How is my privacy protected?",
             "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a secure tool that protects your information and your rights."
-          },
+          }
         ]
       },
       {
@@ -1327,7 +1327,7 @@
           {
             "title": "How can I delete my account and data?",
             "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
-          },
+          }
         ]
       },
       {
@@ -1417,7 +1417,7 @@
          {
             "title": "How is my privacy protected?",
             "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
-          },
+          }
         ]
       },
       {

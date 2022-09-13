@@ -3,6 +3,51 @@
   "it": {
     "screens": [
       {
+        "route_name": "PN_ROUTES_MESSAGE_DETAILS",
+        "title": "Dettagli della notifica",
+        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese.",
+        "faqs": [
+          {
+            "title": "Cos'è una notifica?",
+            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione pubblica, come multe, avvisi di accertamento di tributi, esiti di pratiche amministrative o rimborsi, che fino ad ora hai ricevuto tramite raccomandata."
+          },
+          {
+            "title": "Cos'è Piattaforma Notifiche?",
+            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app.In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](https:/www.notifichedigitali.pagopa.it/)."
+          },
+          {
+            "title": "Come funziona?",
+            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, app IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](cittadini.notifichedigitali.it) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, app IO, email o numero di telefono. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
+          },
+          {
+            "title": "Perché ricevo questo messaggio?",
+            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."                                                   },
+          {
+            "title": "Ho aperto il messaggio. Ora cosa devo fare?",
+            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
+          },
+          {
+            "title": "Ho aperto il messaggio. Cosa succede se lo ignoro?",
+            "body": "Avendo aperto il messaggio, non pagare eventuali spese o ignorare il suo contenuto è come ignorare una raccomandata cartacea."
+          },
+          {
+            "title": "Ho un problema con questa notifica. Come posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+          },
+        ]
+      },
+      {
+        "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
+        "title": "Gli allegati della notifica",
+        "content": "Qui puoi visualizzare, salvare e condividere gli allegati della notifica.",
+        "faqs": [
+          {
+            "title": "Ho un problema con un allegato. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto degli allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+          },
+        ]
+      },
+      {
         "route_name": "AUTHENTICATION_IDP_LOGIN",
         "title": "Le tue credenziali",
         "content": "Per entrare in IO tramite SPID, devi inserire il tuo nome utente e password. Poi, conferma la richiesta di accesso tramite OTP o nell’app del tuo Identity Provider e tornare sull’app IO.",

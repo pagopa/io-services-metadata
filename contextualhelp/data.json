@@ -21,7 +21,8 @@
           },
           {
             "title": "Perché ricevo questo messaggio?",
-            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."                                                   },
+            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
+          },
           {
             "title": "Ho aperto il messaggio. Ora cosa devo fare?",
             "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
@@ -33,7 +34,7 @@
           {
             "title": "Ho un problema con questa notifica. Come posso fare?",
             "body": "Se hai problemi o domande relative al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
-          },
+          }
         ]
       },
       {
@@ -44,7 +45,7 @@
           {
             "title": "Ho un problema con un allegato. Cosa posso fare?",
             "body": "Se hai problemi o domande relative al contenuto degli allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
-          },
+          }
         ]
       },
       {

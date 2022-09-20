@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": false
+      "enabled": true
     },
     "bancomatPay": {
       "display": true,
@@ -147,7 +147,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Dalle 20:30 alle 22:40 non sarà possibile pagare con PayPal.",

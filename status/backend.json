@@ -61,7 +61,7 @@
       "frontend_url": "https://cittadini.notifichedigitali.it"
     },
     "payments": {
-      "allowedPspsByOrigin": {
+      "preferredPspsByOrigin": {
         "poste_datamatrix_scan": ["BPPIITRRXXX"]
       }
     }

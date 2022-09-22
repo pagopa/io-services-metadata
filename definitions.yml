@@ -723,9 +723,9 @@ definitions:
     type: object
     description: "Configuration data related to payments"
     properties: 
-      allowedPspsByOrigin:
-       $ref: "#/definitions/AllowedPspsByOrigin"
-  AllowedPspsByOrigin:
+      preferredPspsByOrigin:
+       $ref: "#/definitions/PreferredPspsByOrigin"
+  PreferredPspsByOrigin:
     type: object
     properties: 
       "poste_datamatrix_scan":

@@ -59,6 +59,11 @@
     "pn": {
       "enabled": true,
       "frontend_url": "https://cittadini.notifichedigitali.it"
+    },
+    "payments": {
+      "allowedPspsByOrigin": {
+        "poste_datamatrix_scan": ["BPPIITRRXXX"]
+      }
     }
   },
   "sections": {

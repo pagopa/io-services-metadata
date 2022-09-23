@@ -408,7 +408,10 @@ definitions:
       - barcodesScanner
       - fci
       - pn
+      - payments
     properties:
+      payments:
+        $ref: "#/definitions/PaymentsConfig"
       bpd:
         $ref: "#/definitions/BpdConfig"
       bpd_ranking:
@@ -716,5 +719,16 @@ definitions:
       frontend_url:
         type: string
         description: "The URL of the PN web frontend"
-
-
+  PaymentsConfig:
+    type: object
+    description: "Configuration data related to payments"
+    properties: 
+      preferredPspsByOrigin:
+       $ref: "#/definitions/PreferredPspsByOrigin"
+  PreferredPspsByOrigin:
+    type: object
+    properties: 
+      "poste_datamatrix_scan":
+        type: array
+        items:
+          type: string

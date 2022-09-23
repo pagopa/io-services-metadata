@@ -13,27 +13,302 @@
           },
           {
             "title": "Cos'è Piattaforma Notifiche?",
-            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app. In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](notifichedigitali.it/cittadini)."
+            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app. In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](https://www.notifichedigitali.pagopa.it/)."
           },
           {
             "title": "Come funziona?",
-            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, App IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](https://notifichedigitali.it/leggi/cittadino) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, App IO, e email o SMS. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
+            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, app IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](cittadini.notifichedigitali.it) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, app IO, email o numero di telefono. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
           },
           {
             "title": "Perché ricevo questo messaggio?",
-            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio “Avvisi di cortesia” di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio e, di conseguenza, accedere al contenuto della notifica su IO, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale: la comunicazione a valore legale risulta quindi correttamente recapitata."
+            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
           },
           {
             "title": "Ho aperto il messaggio. Ora cosa devo fare?",
             "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
           },
           {
-            "title": "Cosa succede se ignoro questo messaggio?",
-            "body": "Questa comunicazione ha valore legale a tutti gli effetti; pertanto, non pagare eventuali spese o ignorare la notifica è come ignorare una raccomandata cartacea."
+            "title": "Ho aperto il messaggio. Cosa succede se lo ignoro?",
+            "body": "Avendo aperto il messaggio, non pagare eventuali spese o ignorare il suo contenuto è come ignorare una raccomandata cartacea."
           },
           {
             "title": "Ho un problema con questa notifica. Come posso fare?",
-            "body": "Se hai problemi o domande relativi al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta> Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+            "body": "Se hai problemi o domande relative al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+          }
+        ]
+      },
+      {
+        "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
+        "title": "Gli allegati della notifica",
+        "content": "Qui puoi visualizzare, salvare e condividere gli allegati della notifica.",
+        "faqs": [
+          {
+            "title": "Ho un problema con un allegato. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto degli allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+          }
+        ]
+      },
+      {
+        "route_name": "AUTHENTICATION_IDP_LOGIN",
+        "title": "Le tue credenziali",
+        "content": "Per entrare in IO tramite SPID, devi inserire il tuo nome utente e password. Poi, conferma la richiesta di accesso tramite OTP o nell’app del tuo Identity Provider e tornare sull’app IO.",
+        "faqs": [
+          {
+            "title": "Qual è la mia password?",
+            "body": "È il codice alfanumerico che hai impostato quando hai attivato SPID."
+          },
+          {
+            "title": "Ho perso le mie credenziali SPID. Come posso fare?",
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)."
+          },
+          {
+            "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
+            "body": "In questo caso, vai in fondo a questa pagina e seleziona ‘Apri una richiesta’ per scriverci: la nostra Assistenza ti aiuterà a risolvere il problema."
+          },
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti."
+          }
+        ]
+      },
+      {
+        "route_name": "AUTHENTICATION_LANDING",
+        "title": "Come accedere a IO",
+        "content": "Per accedere a IO, devi autenticarti con la tua identità SPID o con la Carta d'Identità Elettronica (CIE). Per attivare SPID, segui la procedura che trovi [in questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). Per richiedere la CIE, vai sul sito del tuo Comune.",
+        "faqs": [
+          {
+            "title": "Cos’è SPID?",
+            "body": "SPID è il sistema di autenticazione che permette a cittadini e imprese di accedere ai servizi online della Pubblica Amministrazione e dei privati aderenti con un’identità digitale unica, costituita da un nome utente e una password."
+          },
+          {
+            "title": "Come posso attivare SPID?",
+            "body": "[In questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) trovi tutte le informazioni su dove e come attivare SPID."
+          },
+          {
+            "title": "Ho perso le mie credenziali SPID. Come posso fare?",
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)."
+          },
+          {
+            "title": "Cos’è la CIE?",
+            "body": "La Carta d’Identità Elettronica (CIE) è il documento d’identità dei cittadini italiani. Permette l’accertamento dell’identità di chi la possiede e l’accesso ai servizi online delle Pubbliche Amministrazioni."
+          },
+          {
+            "title": "Come posso richiedere la CIE?",
+            "body": "[Vai a questo sito](https://www.prenotazionicie.interno.gov.it/) e digita il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, procedi alla prenotazione dell'appuntamento. In caso contrario, chiedi un appuntamento dal sito del tuo Comune o vai in un ufficio comunale."
+          }
+        ]
+      },
+      {
+        "route_name": "AUTHENTICATION_IPD_SELECTION",
+        "title": "Il tuo Identity Provider",
+        "content": "L'Identity Provider è il gestore della tua identità digitale. Puoi autenticarti solo dopo aver selezionato l'Identity Provider che ha rilasciato il tuo SPID.",
+        "faqs": [
+          {
+            "title": "Che cos’è un Identity Provider?",
+            "body": "L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
+          }
+        ]
+      },
+      {
+        "route_name": "CIE_PIN_SCREEN",
+        "title": "Il codice PIN della tua CIE",
+        "content": "Il codice PIN della tua Carta d’Identità Elettronica è un codice di 8 cifre, necessario per l’accesso.",
+        "faqs": [
+          {
+            "title": "Dove trovo i codici PIN e PUK della CIE?",
+            "body": "I codici PIN e PUK sono composti da 8 cifre ciascuno: le prime 4 cifre ti sono state consegnate all'anagrafe, mentre le ultime 4 ti sono state spedite a casa, insieme alla Carta d’Identità Elettronica. Il codice PUK serve a sbloccare il codice PIN dopo tre tentativi errati."
+          },
+          {
+            "title": "Non ho il codice PIN e/o PUK. Cosa posso fare?",
+            "body": "[In questo sito](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) trovi tutte le informazioni per recuperarli."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_FINGERPRINT",
+        "title": "Come funziona il riconoscimento biometrico",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "faqs": [
+          {
+            "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
+            "body": "Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+          },
+          {
+            "title": "Come posso abilitare il riconoscimento biometrico?",
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+          },
+          {
+            "title": "Come posso disabilitare il riconoscimento biometrico?",
+            "body": "Vai alla sezione 'Profilo'. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_PIN",
+        "title": "Come funziona il codice di sblocco",
+        "content": "Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo utilizzare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi 'Hai dimenticato il codice di sblocco?' e impostane uno nuovo. Se vuoi modificarlo, premi 'Modifica il codice di sblocco'.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",
+        "faqs": [
+          {
+            "title": "Cos’è il codice di sblocco?",
+            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Dovrai inserirlo anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+          },
+          {
+            "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
+            "body": "Premi 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
+          },
+          {
+            "title": "Come posso cambiare il codice di sblocco?",
+            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona 'Reimposta Codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_TOS",
+        "title": "Privacy e Condizioni d’uso",
+        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app."
+      },
+      {
+        "route_name": "PROFILE_MAIN",
+        "title": "Cosa puoi fare nel tuo Profilo",
+        "content": "Qui puoi gestire le tue preferenze e il tuo account, trovare informazioni sul trattamento dei dati personali e visualizzare la versione digitale del tuo Codice Fiscale.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi alla voce 'Privacy e Condizioni d’uso'."
+          },
+          {
+            "title": "A cosa serve la versione digitale del mio Codice Fiscale? ",
+            "body": "Nella parte alta della sezione trovi la versione digitale del tuo Codice Fiscale. Questo fac-simile non sostituisce il documento fisico, ma può essere utilizzato per la lettura dei dati e del codice a barre da parte degli esercenti che lo richiedono, per esempio in farmacia o negli uffici postali.\n\nPer vedere i dettagli del Codice Fiscale, premi sulla card. Se premi di nuovo, il documento si ingrandirà a tutto schermo."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_DATA",
+        "title": "I tuoi dati",
+        "content": "Qui puoi visualizzare il tuo nome e cognome e modificare l’indirizzo e-mail associato a IO.",
+        "faqs": [
+          {
+            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
+            "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+          },
+          {
+            "title": "Come posso modificare il mio indirizzo email?",
+            "body": "Premi 'Indirizzo email', poi seleziona 'Modifica email' e inserisci il nuovo indirizzo."
+          }
+        ]
+      },
+      {
+        "route_name": "READ_EMAIL_SCREEN",
+        "title": "Il tuo indirizzo email",
+        "content": "Questo è l’indirizzo email che hai confermato in fase di registrazione. Lì ti inviamo le ricevute dei pagamenti e, se hai abilitato l’opzione, ti inoltriamo i messaggi che ricevi in app."
+      },
+      {
+        "route_name": "INSERT_EMAIL_SCREEN",
+        "title": "Modifica il tuo indirizzo email",
+        "content": "Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_HOME",
+        "title": "Le tue preferenze",
+        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali alla voce 'Privacy e Condizioni d’uso'."
+          },
+          {
+            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
+            "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_SERVICES",
+        "title": "La configurazione dei servizi",
+        "content": "Qui puoi decidere come configurare i servizi in app. IO veicola messaggi da parte di enti nazionali o locali che hanno qualcosa da dire proprio a te. Per questo, ti consigliamo di utilizzare la configurazione rapida: così, se un ente ha qualcosa da dirti, potrà farlo.",
+        "faqs": [
+          {
+            "title": "Perché dovrei usare la configurazione rapida?",
+            "body": "Perché IO manda solo messaggi rivolti proprio a te e non manda messaggi broadcast o spam. Usando la configurazione rapida, riceverai messaggi anche dai servizi che arriveranno in futuro."
+          },
+          {
+            "title": "Cosa succede se utilizzo la configurazione manuale?",
+            "body": "Con la configurazione manuale i servizi di IO, presenti o futuri, non possono inviarti messaggi. Per permettere ai servizi che ti interessano di scriverti, devi configurarli uno a uno selezionando la voce 'Contattarti in app' che trovi in ogni scheda servizio. Gli enti potranno comunque contattarti attraverso altri canali.\n\nAlcuni servizi, come per esempio i bonus, prevedono una richiesta di iscrizione da parte tua. In questi casi, una volta completata l’iscrizione, non puoi disabilitare la voce 'Contattarti in app'. Se non vuoi ricevere più messaggi da questi servizi devi disiscriverti, ma perderai anche i benefici connessi."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
+        "title": "L'inoltro dei messaggi",
+        "content": "Qui puoi abilitare o disabilitare l’inoltro dei messaggi che ricevi su IO al tuo indirizzo e-mail."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_LANGUAGE",
+        "title": "Come cambiare la lingua",
+        "content": "Di default, IO usa la lingua del sistema operativo del tuo dispositivo. Puoi modificarla in ogni momento da questa pagina. La lingua del contenuto dei messaggi, invece, è definita da ciascun ente, che decide se inviare il contenuto tradotto in diverse lingue."
+      },
+      {
+        "route_name": "PROFILE_SECURITY",
+        "title": "Le tue modalità di autenticazione",
+        "content": "Qui puoi modificare il codice di sblocco e attivare o disattivare il riconoscimento biometrico.",
+        "faqs": [
+          {
+            "title": "Cos’è il codice di sblocco?",
+            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Va inserito anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+          },
+          {
+            "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
+            "body": "Premi 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
+          },
+          {
+            "title": "Come posso cambiare il codice di sblocco?",
+            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona 'Reimposta Codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
+          },
+          {
+            "title": "A cosa serve il riconoscimento biometrico?",
+            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+          },
+          {
+            "title": "Come posso abilitare il riconoscimento biometrico?",
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' dell’app IO e abilitalo anche lì."
+          },
+          {
+            "title": "Come posso disabilitare il riconoscimento biometrico?",
+            "body": "Vai alla sezione 'Profilo' dell'app. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PRIVACY_MAIN",
+        "title": "Le tue impostazioni privacy",
+        "content": "Qui trovi informazioni sul trattamento dei tuoi dati personali e sulle condizioni d’uso di IO. In particolare, puoi consultare l’Informativa Privacy, scaricare una copia dei dati associati al tuo account o eliminarlo e dare o revocare il permesso a IO di raccogliere i tuoi dati di utilizzo.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti."
+          },
+          {
+            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
+            "body": "Seleziona 'Elimina il tuo account' e segui le istruzioni. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+          },
+          {
+            "title": "Come posso chiedere una copia dei dati associati al mio account IO?",
+            "body": "Seleziona 'Accedi ai tuoi dati', poi premi 'Richiedi una copia dei tuoi dati'. Riceverai un’email con un file che contiene una copia dei dati associati al tuo account."
+          },
+          {
+            "title": "Ho delle domande sulla privacy e sull’uso dei miei dati. A chi posso rivolgermi?",
+            "body": "Compila [questo modulo](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8), dedicato esclusivamente alle richieste che riguardano il trattamento dei dati personali in app."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PRIVACY",
+        "title": "Privacy e Condizioni d’uso",
+        "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. Per maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali che trovi in questa sezione alla voce 'Privacy e Condizioni d’uso'."
           }
         ]
       },
@@ -55,7 +330,7 @@
         "faqs": [
           {
             "title": "Perché non trovo la mia banca?",
-            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su “Continua”, IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
+            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su 'Continua', IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
           }
         ]
       },
@@ -70,7 +345,7 @@
           },
           {
             "title": "Non riesco ad aggiungere la mia carta. Come mai?",
-            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa “in pausa”;\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
+            "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa 'in pausa';\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
       },
@@ -90,7 +365,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
@@ -113,7 +388,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           }
         ]
       },
@@ -128,7 +403,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Non riesco ad abilitare i pagamenti in app con BANCOMAT Pay. Cosa posso fare?",
@@ -147,7 +422,7 @@
           },
           {
             "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           }
         ]
       },
@@ -162,11 +437,11 @@
           },
           {
             "title": "Come posso aggiungere un metodo di pagamento?",
-            "body": "Vai al Portafoglio, premi “Aggiungi” e “Metodo di Pagamento”. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
+            "body": "Vai al Portafoglio, premi 'Aggiungi' e 'Metodo di Pagamento'. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
           },
           {
             "title": "Quali bonus, sconti o altre iniziative posso richiedere?",
-            "body": "Vai al Portafoglio, premi “Aggiungi” e “Sconti, bonus e altre iniziative”. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
+            "body": "Vai al Portafoglio, premi 'Aggiungi' e 'Sconti, bonus e altre iniziative'. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
           },
           {
             "title": "Non riesco ad aggiungere un metodo di pagamento. Cosa posso fare?",
@@ -174,7 +449,7 @@
           },
           {
             "title": "Come posso eliminare un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi “Elimina questo metodo”."
+            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
           },
           {
             "title": "Ho un problema con un pagamento. Cosa posso fare?",
@@ -194,11 +469,11 @@
           },
           {
             "title": "Nel 2021 ho maturato degli importi che non mi sono ancora stati rimborsati. Cosa posso fare?",
-            "body": "Probabilmente non hai indicato l’IBAN del conto su cui desideri ricevere l’accredito, oppure quello che hai indicato non è valido.Per inserire l’IBAN o verificarne la correttezza, apri l’app, vai al Portafoglio e premi sulla card del Cashback. Poi, inseriscilo o modificalo e seleziona “Continua”. Entro 90 giorni riceverai tramite l’app IO un messaggio sullo stato del rimborso. Le attività tra PagoPA S.p.A. e Consap S.p.A. per i pagamenti dei rimborsi sono in corso di dismissione, quindi, se non inserisci o non correggi l’IBAN entro il 31/07/2022, potrebbe non essere più possibile effettuare il bonifico per il rimborso."
+            "body": "Probabilmente non hai indicato l’IBAN del conto su cui desideri ricevere l’accredito, oppure quello che hai indicato non è valido.Per inserire l’IBAN o verificarne la correttezza, apri l’app, vai al Portafoglio e premi sulla card del Cashback. Poi, inseriscilo o modificalo e seleziona 'Continua'. Entro 90 giorni riceverai tramite l’app IO un messaggio sullo stato del rimborso. Le attività tra PagoPA S.p.A. e Consap S.p.A. per i pagamenti dei rimborsi sono in corso di dismissione, quindi, se non inserisci o non correggi l’IBAN entro il 31/07/2022, potrebbe non essere più possibile effettuare il bonifico per il rimborso."
           },
           {
             "title": "Che cos’è un codice QR?",
-            "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su “Paga un avviso” e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
+            "body": "Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su 'Paga un avviso' e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
           },
           {
             "title": "Che cos’è pagoPA?",
@@ -217,7 +492,7 @@
         "faqs": [
           {
             "title": "Come posso donare?",
-            "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi “Continua”. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi “Paga” per completare la donazione."
+            "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi 'Continua'. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi 'Paga' per completare la donazione."
           },
           {
             "title": "Con che metodi di pagamento posso fare la donazione?",
@@ -377,7 +652,7 @@
       {
         "route_name": "SERVICE_DETAIL",
         "title": "Dettagli del Servizio",
-        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area “Questo servizio può”, disabilitando l'opzione “Contattarti in app”. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
+        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
         "faqs": [
           {
             "title": "Cosa succede se disattivo un servizio?",
@@ -385,31 +660,11 @@
           },
           {
             "title": "Cosa sono e come funzionano le notifiche push?",
-            "body": "Le notifiche push sono messaggi istantanei che puoi ricevere sul tuo dispositivo. Ti informano che è arrivato un nuovo messaggio nell'app IO e ti invitano a leggerlo. Se preferisci disattivarle, disabilita nell'area “Questo servizio può” l'opzione “Inviarti notifiche push”."
+            "body": "Le notifiche push sono messaggi istantanei che puoi ricevere sul tuo dispositivo. Ti informano che è arrivato un nuovo messaggio nell'app IO e ti invitano a leggerlo. Se preferisci disattivarle, disabilita nell'area 'Questo servizio può' l'opzione 'Inviarti notifiche push'."
           },
           {
             "title": "Come funziona l'inoltro via email dei messaggi?",
             "body": "Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO.\n \nL'inoltro via email non è disponibile per alcuni servizi, poichè l’ente può decidere di non inoltrare messaggi dal contenuto sensibile."
-          }
-        ]
-      },
-      {
-        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
-        "title": "Come gestire l'inoltro dei messaggi",
-        "content": "Qui puoi abilitare o disabilitare l'inoltro al tuo indirizzo e-mail dei messaggi che ricevi su IO."
-      },
-      {
-        "route_name": "PROFILE_PREFERENCES_SERVICES",
-        "title": "Gestisci servizi in app",
-        "content": "Qui puoi decidere come gestire la comunicazione dei servizi. \nL'app IO vuole essere un canale di comunicazione aggiuntivo per gli enti nazionali o locali che hanno qualcosa da dire proprio a te. \nNon manda messaggi broadcast o spam e per questo ti consigliamo di utilizzare la configurazione rapida, mantenendo la comunicazione dei servizi sempre attiva.",
-        "faqs": [
-          {
-            "title": "Perché dovrei usare la configurazione rapida?",
-            "body": "Perchè IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \nSe decidi comunque di usare la configurazione manuale, sappi che gli enti potranno contattarti attraverso i canali tradizionali a loro disposizione."
-          },
-          {
-            "title": "Cosa succede se utilizzo la configurazione manuale?",
-            "body": "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. \nPer ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \nAttenzione! Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
           }
         ]
       },
@@ -561,11 +816,11 @@
           },
           {
             "title": "Quando scade la mia Carta Giovani Nazionale?",
-            "body": "La tua Carta Giovani Nazionale perde validità al compimento del 36esimo anno di età. La data di scadenza è indicata nel dettaglio della tua Carta sempre consultabile nella sezione “Portafoglio” dell’App. Dopo i 30 anni, in ogni caso, puoi usufruire soltanto delle agevolazioni promosse sul territorio nazionale, dal momento che quelle offerte dal circuito EYCA a livello europeo sono valide fino al compimento del 31° anno di età."
+            "body": "La tua Carta Giovani Nazionale perde validità al compimento del 36esimo anno di età. La data di scadenza è indicata nel dettaglio della tua Carta sempre consultabile nella sezione 'Portafoglio' dell’App. Dopo i 30 anni, in ogni caso, puoi usufruire soltanto delle agevolazioni promosse sul territorio nazionale, dal momento che quelle offerte dal circuito EYCA a livello europeo sono valide fino al compimento del 31° anno di età."
           },
           {
             "title": "Posso disattivare la mia Carta Giovani Nazionale?",
-            "body": "Sì. Dalla schermata di dettaglio della CGN premi “Disattiva la tua carta” e conferma. Da quel momento non vedrai più la CGN nel portafoglio. Disattivando la CGN, perdi anche i diritti relativi al circuito EYCA."
+            "body": "Sì. Dalla schermata di dettaglio della CGN premi 'Disattiva la tua carta' e conferma. Da quel momento non vedrai più la CGN nel portafoglio. Disattivando la CGN, perdi anche i diritti relativi al circuito EYCA."
           },
           {
             "title": "Posso condividere le agevolazioni della Carta Giovani Nazionale con i miei familiari e amici?",
@@ -804,72 +1059,9 @@
         ]
       },
       {
-        "route_name": "AUTHENTICATION_LANDING",
-        "title": "Come accedere all'app IO",
-        "content": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.** \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https://www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti.\nSe invece desideri fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.",
-        "faqs": [
-          {
-            "title": "Cos'è SPID?",
-            "body": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online."
-          },
-          {
-            "title": "Come puoi ottenere SPID?",
-            "body": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, Infocert, Intesa, Namirial, Poste, Register, Sielte, Tim o Lepida. Questi soggetti (detti Identity Provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https://www.spid.gov.it/cos-e-spid/come-attivare-spid/](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/)."
-          },
-          {
-            "title": "Hai perso le tue credenziali SPID?",
-            "body": "Non ti preoccupare, è sempre possibile recuperare le tue credenziali.\n- Se hai richiesto SPID a **Aruba** segui la procedura di recupero qui: [https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- Se hai richiesto SPID a **Infocert** segui la procedura di recupero qui: [https://my.infocert.it/selfcare/#/recoveryPin](https://my.infocert.it/selfcare/#/recoveryPin)\n- Se hai richiesto SPID a **Namirial** segui la procedura di recupero qui: [https://portale.namirialtsp.com/private/user/spid_reset.php](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- Se hai richiesto SPID a **Intesa** segui la procedura di recupero qui: [https://spid.intesa.it/area-privata/forgot-password.aspx](https://spid.intesa.it/area-privata/forgot-password.aspx)\n- Se hai richiesto SPID a **Poste** segui la procedura di recupero qui: [https://posteid.poste.it/recuperocredenziali.shtml](https://posteid.poste.it/recuperocredenziali.shtml)\n- Se hai richiesto SPID a **Register** segui la procedura di recupero qui:\n(username dimenticata) [https://spid.register.it/selfcare/recovery/username](https://spid.register.it/selfcare/recovery/username)\n(password dimenticata) [https://spid.register.it/selfcare/recovery/password](https://spid.register.it/selfcare/recovery/password)\n- Se hai richiesto SPID a **Sielte** segui la procedura di recupero qui:\n(password dimenticata) [https://myid.sieltecloud.it/profile/recovery/forgotPassword](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- Se hai richiesto SPID a **Tim** segui la procedura di recupero qui:\n(username dimenticata) [https://login.id.tim.it/mps/fu.php](https://login.id.tim.it/mps/fu.php)\n(password dimenticata) [https://login.id.tim.it/mps/fp.php](https://login.id.tim.it/mps/fp.php)\n- Se hai richiesto SPID a **Lepida** segui la procedura di recupero qui: [https://id.lepida.it/idm/app/recupero_credenziali.jsp](https://id.lepida.it/idm/app/recupero_credenziali.jsp)"
-          },
-          {
-            "title": "Cos'è la CIE?",
-            "body": "La CIE, la Carta d’Identità Elettronica, è un documento elettronico altamente sicuro, dotato di un microprocessore a radiofrequenza che ne permette l’utilizzo in svariati scenari, incluso l’accesso a servizi online. Risponde alle esigenze di sicurezza del nostro Paese e sostituisce la versione cartacea."
-          },
-          {
-            "title": "Come puoi ottenere la CIE?",
-            "body": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. In caso positivo, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternativa, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
-          },
-          {
-            "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
-            "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
-          },
-          {
-            "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
-            "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO i certificati dei miei familiari?",
-            "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere il certificato su IO anche se sono minorenne?",
-            "body": "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
-          },
-          {
-            "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
-            "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?",
-            "body": "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.\n Questa certificazione è valida solo in Italia fino alla data indicata sulla certificazione e può essere utilizzata per accedere dove è richiesta una Certificazione Verde COVID-19.\n Per maggiori informazioni sulla Certificazione di esenzione dalla vaccinazione anti-COVID-19, consulta le FAQ dedicate [https://www.dgc.gov.it/web/esenzione.html](https://www.dgc.gov.it/web/esenzione.html)."
-          },
-          {
-            "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
-            "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Usi Android e non riesci ad aggiornare IO?",
-            "body": "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: https://play.google.com/store/apps/details?id=it.pagopa.io.app \nIn alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
-          }
-        ]
-      },
-      {
         "route_name": "MESSAGES_HOME",
         "title": "Cosa puoi fare nei tuoi Messaggi",
-        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: “Ricevuti”, che contiene i messaggi che ricevi, e “Archiviati”, che contiene i messaggi che archivi.",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",
@@ -885,11 +1077,11 @@
           },
           {
             "title": "Posso cancellare un messaggio?",
-            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in “Archiviati”. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
+            "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in 'Archiviati'. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
           },
           {
             "title": "Perché non vedo più la scheda 'In scadenza'?",
-            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata “In scadenza”. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
+            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata 'In scadenza'. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -916,7 +1108,7 @@
             "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
           },
           {
-            "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito?",
+            "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale). Dove va inserito?",
             "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
           },
           {
@@ -949,7 +1141,7 @@
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
       },
       "intesaid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Intesa  selezionando una delle opzioni disponibili qui di seguito.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Intesa selezionando una delle opzioni disponibili qui di seguito.",
         "email": "hdintesa@advalia.com",
         "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
         "phone": "800805093",
@@ -975,7 +1167,7 @@
         "recover_password": "https://portal.namirialtsp.com/public/resetPassword.xhtml"
       },
       "posteid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Poste Italiane  selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.poste.it/faq-poste-id.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Poste Italiane selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.poste.it/faq-poste-id.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
         "helpdesk_form": "https://www.poste.it/scrivici.html",
         "phone": "800007777",
         "web_site": "https://posteid.poste.it",
@@ -983,7 +1175,7 @@
         "recover_password": "https://posteid.poste.it/recuperocredenziali.shtml"
       },
       "sielteid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Sielte  selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.sielteid.it/faq.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://www.sielteid.it/documents/ManualeUtente.pdf).",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Sielte selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.sielteid.it/faq.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://www.sielteid.it/documents/ManualeUtente.pdf).",
         "helpdesk_form": "https://www.sielteid.it/contact.html#blocco-contatti-form",
         "phone": "00390957171301",
         "web_site": "https://www.sielteid.it/che-cos-e-sielteid.html",
@@ -997,7 +1189,7 @@
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim  selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf) fornito dal tuo Identity Provider.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf) fornito dal tuo Identity Provider.",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",
@@ -1009,6 +1201,271 @@
   },
   "en": {
     "screens": [
+
+      {
+        "route_name": "AUTHENTICATION_IDP_LOGIN",
+        "title": "Your credentials",
+        "content": "To enter IO via SPID, you must enter your username and password. Then, confirm the request via OTP or in your Identity Provider's app and head back to IO.",
+        "faqs": [
+          {
+            "title": "What's my password?",
+            "body": "È il codice alfanumerico che hai impostato quando hai attivato SPID."
+          },
+          {
+            "title": "I forgot my SPID credentials. What can I do?",
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)."
+          },
+          {
+            "title": "I did everything right but I can't log in. What can I do?",
+            "body": "In this case, go to the bottom of this page and select 'Open a request' to write to us: our Support will help you solve the problem."
+          },
+          {
+            "title": "How is my privacy protected?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a secure tool that protects your information and your rights."
+          }
+        ]
+      },
+      {
+        "route_name": "AUTHENTICATION_LANDING",
+        "title": "How to access IO",
+        "content": "To access IO, you must authenticate with either your SPID identity or Electronic Identity Card (CIE). To activate SPID, follow the information found [on this website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). To request your CIE, go to your Municipality's website.",
+        "faqs": [
+          {
+            "title": "What is SPID?",
+            "body": "SPID is the authentication system that allows citizens and businesses to access online services of the Public Administration and participating individuals with a unique digital identity consisting of a username and password."
+          },
+          {
+            "title": "How can I get SPID?",
+            "body": "[At this website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) you will find all the information about where and how to activate SPID."
+          },
+          {
+            "title": "I have lost my SPID credentials. What can I do?",
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)."
+          },
+          {
+            "title": "What is the CIE?",
+            "body": "The Electronic Identity Card (CIE) is the identity document of Italian citizens. It allows the verification of the identity of its holder and access to online services of public administrations."
+          },
+          {
+            "title": "How can I request the CIE?",
+            "body": "[Go to this website](https://www.prenotazionicie.interno.gov.it/) and type in the name of your municipality to see if it uses the Agenda CIE online appointment system. If it does, book an appointment. If it doesn’t, request an appointment from your municipality's website or go to a municipal office."
+          }
+        ]
+      },
+      {
+        "route_name": "AUTHENTICATION_IPD_SELECTION",
+        "title": "Your Identity Provider",
+        "content": "The Identity Provider is the manager of your digital identity. You can authenticate only after selecting the Identity Provider that issued your SPID.",
+        "faqs": [
+          {
+            "title": "What is an Identity Provider?",
+            "body": "SPID identity is issued by Identity Providers, who provide digital identities and manage user authentication. Your Identity Provider is the entity you chose as your SPID provider."
+          }
+        ]
+      },
+      {
+        "route_name": "CIE_PIN_SCREEN",
+        "title": "The PIN code of your CIE",
+        "content": "The PIN code on your Electronic Identity Card is an eight-digit code required to access the app.",
+        "faqs": [
+          {
+            "title": "Where do I find the PIN and PUK codes of the CIE?",
+            "body": "PIN and PUK codes are each composed of 8 digits: the first 4 digits were given to you at the registry office, while the last 4 were sent to your home address, along with the Electronic Identity Card. The PUK code is for unlocking the PIN code after three failed attempts."
+          },
+          {
+            "title": "I don't have the PIN and/or PUK code. What can I do?",
+            "body": "[At this website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) you will find how to recover them."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_FINGERPRINT",
+        "title": "How biometric recognition works",
+        "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Profile section of the app.",
+        "faqs": [
+          {
+            "title": "When will I be asked for biometric recognition?",
+            "body": "If you have enabled it, you can use biometric recognition in place of the unlock code. Just like the unlock code, this authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate."
+          },
+          {
+            "title": "How can I enable biometric recognition?",
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section and enable it there too."
+          },
+          {
+            "title": "How can I disable biometric recognition?",
+            "body": "Go to the 'Profile' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_PIN",
+        "title": "How the unlock code works",
+        "content": "Here you can set up or change your unlock code. If this is your first time in the app, choose a code and memorize it so you can use it each time you need to log in. If you have already set it and can't remember it, press 'Did you forget the unlock code?' and set a new one. If you want to change it, press 'Change the unlock code'.\n\nThe unlock code is tied to the device you set it on: if you change devices, you will have to set it again the first time you log in to the app.",
+        "faqs": [
+          {
+            "title": "What is the unlock code?",
+            "body": "The unlock code is a six-digit code that you set up the first time you enter IO. It allows you to enter the app without having to insert SPID or CIE credentials each time. It is also required to view sensitive data, and to confirm specific operations, such as making a payment and deleting the account.\n\nThis authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate and set up a new unlock code."
+          },
+          {
+            "title": "I forgot the unlock code. What can I do?",
+            "body": "Press 'Did you forget the unlock code?', insert your SPID or CIE credentials, and enter the new code."
+          },
+          {
+            "title": "How can I change the unlock code?",
+            "body": "Select 'Change the unlock code', insert your SPID or CIE credentials, and enter the new code."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_TOS",
+        "title": "Privacy Policy and Terms of Service",
+        "content": "Here you can find the full description of how IO handles your personal data and the terms of service of the app."
+      },
+      {
+        "route_name": "PROFILE_MAIN",
+        "title": "What you can do in your Profile",
+        "content": "Here you can manage your preferences and account, read our Privacy Policy and Terms of Service, and access the digital version of your Tax Code.",
+        "faqs": [
+          {
+            "title": "How is my privacy protected?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under 'Privacy and Terms of Use.'"
+          },
+          {
+            "title": "What is the digital version of my Tax Code for?",
+            "body": "At the top of the page you will find the digital version of your Tax Code. This facsimile does not replace the actual card. You can show it to retailers who need its details or barcode, such as pharmacies or post offices.\n\nTo see the Tax Code details, tap the card. If you tap again, the document will zoom to full screen."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_DATA",
+        "title": "Your data",
+        "content": "Here you can view your first and last name and change the email address associated with IO.",
+        "faqs": [
+          {
+            "title": "How can I delete my account and data?",
+            "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+          },
+          {
+            "title": "How I change my email address?",
+            "body": "Tap 'Email Address', then 'Change Email' and enter the new address."
+          }
+        ]
+      },
+      {
+        "route_name": "READ_EMAIL_SCREEN",
+        "title": "Your email address",
+        "content": "This is the email address you confirmed when you registered. It's where we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
+      },
+      {
+        "route_name": "INSERT_EMAIL_SCREEN",
+        "title": "Change your email address",
+        "content": "Here you can change your email address. Once entered, we'll send you an email with a verification link to confirm it.There we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_HOME",
+        "title": "Your preferences",
+        "content": "Here you can see and change the settings used by all services on IO. You can also select the default calendar for your reminders, turn on or off the automatic forward of your messages to an email address, and change the language.",
+        "faqs": [
+          {
+            "title": "How is my privacy protected?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under 'Privacy and Terms of Use.'"
+          },
+          {
+            "title": "How can I delete my account and data?",
+            "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_SERVICES",
+        "title": "Your services setup",
+        "content": "Here you can choose between the quick and manual setups for the services on the app. IO conveys messages that are directed to you specifically. For this reason, we recommend that you use the quick setup, so that institutions can get in touch with you if they need to.",
+        "faqs": [
+          {
+            "title": "Why should I use the quick setup?",
+            "body": "Because IO only sends messages that are meaningful and addressed specifically to you and doesn't send broadcast or spam messages. With the quick setup, you also allow services that will be available in the future on IO to contact you."
+          },
+          {
+            "title": "What happens if I choose the manual configuration?",
+            "body": "With manual configuration, the services on IO, present or future, will not be able to contact you. To allow the services you are interested in to contact you, you will have to configure them one by one by enabling 'Contact you in app' in each service detail page. Institutions will still be able to contact you through other channels.\n\nSome services, such as bonuses, require you to register. In these cases, once you have completed your registration, you cannot disable 'Contact you in app'. If you do not want to receive messages from these services anymore, you must unregister, but you will also lose the related benefits."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
+        "title": "Message forwarding",
+        "content": "Here you can turn on or off the automatic forward of the messages you receive on IO to an email address."
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_LANGUAGE",
+        "title": "How to change language",
+        "content": "By default, IO uses the language of your device's operating system. You can change it at any time from this page. The language of messages, on the other hand, is defined by each institution, which decides whether to send translated content in different languages."
+      },
+      {
+        "route_name": "PROFILE_SECURITY",
+        "title": "Your authentication modes",
+        "content": "Here you can change the unlock code and enable or disable biometric recognition.",
+        "faqs": [
+          {
+            "title": "What is the unlock code?",
+            "body": "The unlock code is a six-digit code that you set up the first time you enter IO. It allows you to enter the app without having to insert SPID or CIE credentials each time. It is also required to view sensitive data, and to confirm specific operations, such as making a payment and deleting the account. This authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate and set up a new unlock code."
+          },
+          {
+            "title": "I forgot the unlock code. What can I do?",
+            "body": "Press 'Did you forget the unlock code?', insert your SPID or CIE credentials, and enter the new code."
+          },
+          {
+            "title": "How can I change the unlock code?",
+            "body": "Select 'Change the unlock code', insert your SPID or CIE credentials, and enter the new code."
+          },
+          {
+            "title": "What is biometric recognition for?",
+            "body": "You can use biometric recognition, when enabled, in place of the unlock code. Just like the unlock code, this authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate."
+          },
+          {
+            "title": "How can I enable biometric recognition?",
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section of the IO app and enable it there too."
+          },
+          {
+            "title": "How can I disable biometric recognition?",
+            "body": "Go to the 'Profile' section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PRIVACY_MAIN",
+        "title": "Your privacy settings",
+        "content": "Here you can find information about the processing of your personal data and IO's terms of use. More specifically, you can read the Privacy Policy, download a copy of the data associated with your account or delete it and give or withdraw permission to the app to collect your usage data.",
+        "faqs": [
+          {
+            "title": "How is my privacy protected?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
+          },
+          {
+            "title": "How can I delete my account and data?",
+            "body": "Select 'Delete your account' and follow the instructions. When the deletion is complete, you will receive a confirmation message to the email address associated with the app.This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+          },
+          {
+            "title": "How can I get a copy of the data associated with my IO account?",
+            "body": "Select 'Access your data',  then press 'Request a copy of your data'. You will receive an email with a file containing a copy of the data associated with your account."
+          },
+          {
+            "title": " I have questions about privacy and the use of my data. Who can I contact?",
+            "body": "Fill out [this form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8), which is dedicated exclusively to requests concerning the processing of personal data in the app."
+          }
+        ]
+      },
+      {
+        "route_name": "PROFILE_PRIVACY",
+        "title": " Privacy Policy and Terms of Service",
+        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app.",
+        "faqs": [
+         {
+            "title": "How is my privacy protected?",
+            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
+          }
+        ]
+      },
       {
         "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
         "title": "Pay with your supermarket card",
@@ -1027,7 +1484,7 @@
         "faqs": [
           {
             "title": "Why can't I find my bank?",
-            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press “Add”, IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
+            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press 'Add', IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
           }
         ]
       },
@@ -1042,7 +1499,7 @@
           },
           {
             "title": "I’m having trouble adding my card. What can I do?",
-            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been “paused”\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
+            "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been 'paused'\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
       },
@@ -1062,7 +1519,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           },
           {
             "title": "Why is the bank's name and logo different from the name and logo on my card?",
@@ -1085,7 +1542,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           }
         ]
       },
@@ -1100,7 +1557,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
           },
           {
             "title": "I can’t enable in-app payments with BANCOMAT Pay. What can I do?",
@@ -1119,7 +1576,7 @@
           },
           {
             "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press 'Delete this payment method'."
           }
         ]
       },
@@ -1129,7 +1586,7 @@
         "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
         "faqs": [
           {
-            "title": "What is BANCOMAT Pay??",
+            "title": "What is BANCOMAT Pay?",
             "body": "BANCOMAT Pay is a digital payment service that allows you to pay, send money and accept payments quickly and easily. Once the service has been activated, you just need to use your mobile number to carry out the operations. To learn more, go to the[BANCOMAT Pay website](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE)."
           },
           {
@@ -1157,11 +1614,11 @@
           },
           {
             "title": "How do I add a payment method?",
-            "body": "Go to the Wallet, press “Add”, and then “Payment method”. Select the method you want to add and enter the required information."
+            "body": "Go to the Wallet, press 'Add', and then 'Payment method'. Select the method you want to add and enter the required information."
           },
           {
             "title": "What bonuses, discounts or other initiatives can I apply for?",
-            "body": "Go to Wallet, select “Add” and “Discounts, bonuses and other initiatives”. You will see a list with all the bonuses and initiatives you can apply for through IO."
+            "body": "Go to Wallet, select 'Add' and 'Discounts, bonuses and other initiatives'. You will see a list with all the bonuses and initiatives you can apply for through IO."
           },
           {
             "title": "I have trouble adding a payment method. What can I do?",
@@ -1169,7 +1626,7 @@
           },
           {
             "title": "How can I delete a payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press “Delete this payment method”."
+            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press 'Delete this payment method'."
           },
           {
             "title": "I have trouble with a payment. What can I do?",
@@ -1189,7 +1646,7 @@
           },
           {
             "title": "In 2021 I earned Cashback rewards but I haven’t been refunded. What can I do?",
-            "body": "You probably didn't provide the IBAN of the account you want to be credited to. If you provided one, it may not be valid. To enter the IBAN or make sure it is correct, go to the Wallet and press on the Cashback card. Then, enter the IBAN or amend it and select “Continue”. Within 90 days you will receive on IO a message about the status of your refund."
+            "body": "You probably didn't provide the IBAN of the account you want to be credited to. If you provided one, it may not be valid. To enter the IBAN or make sure it is correct, go to the Wallet and press on the Cashback card. Then, enter the IBAN or amend it and select 'Continue'. Within 90 days you will receive on IO a message about the status of your refund."
           },
           {
             "title": "What is a QR code?",
@@ -1231,7 +1688,7 @@
           },
           {
             "title": "I have already added the second network. What should I do?",
-            "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
           }
         ]
       },
@@ -1265,7 +1722,7 @@
           },
           {
             "title": "I have already added the second network, what should I do?",
-            "body": "If you have already added the international network to the Wallet as a “debit/credit card”, there is no need to add the card again with this feature."
+            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
           }
         ]
       },
@@ -1307,7 +1764,7 @@
           }
         ]
       },
-         {
+      {
         "route_name": "SERVICES_DETAIL",
         "title": "Service detail",
         "content": "Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or mail.",
@@ -1377,7 +1834,7 @@
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
       },
       "intesaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Intesa by selecting  one of the options presented below.",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Intesa by selecting one of the options presented below.",
         "email": "hdintesa@advalia.com",
         "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
         "phone": "800805093",
@@ -1386,7 +1843,7 @@
         "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
       },
       "lepidaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting one of the options presented below. \n For further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
         "email": "helpdesk@lepida.it",
         "helpdesk_form": "https://www.lepida.net/assistenza/richiesta-assistenza-lepidaid",
         "phone": "800445500",
@@ -1395,7 +1852,7 @@
         "recover_password": "https://id.lepida.it/lepidaid/recuperapassword"
       },
       "namirialid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
         "helpdesk_form": "https://support.namirial.com/it/supporto-tecnico",
         "phone": "003907163494",
         "web_site": "https://www.namirialtsp.com/spid/",
@@ -1403,7 +1860,7 @@
         "recover_password": "https://portal.namirialtsp.com/public/resetPassword.xhtml"
       },
       "posteid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Poste Italiane by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Poste Italiane by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
         "helpdesk_form": "https://www.poste.it/scrivici.html",
         "phone": "800007777",
         "web_site": "https://posteid.poste.it",
@@ -1411,21 +1868,21 @@
         "recover_password": "https://posteid.poste.it/recuperocredenziali.shtml"
       },
       "sielteid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
         "helpdesk_form": "https://www.sielteid.it/contact.html#blocco-contatti-form",
         "phone": "00390957171301",
         "web_site": "https://www.sielteid.it/che-cos-e-sielteid.html",
         "recover_password": "https://myid.sieltecloud.it/profile/forgotPassword"
       },
       "spiditalia": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting  the button below. \n For further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting the button below. \n For further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
         "phone": "+390355787979",
         "web_site": "https://www.register.it/spid/ ",
         "recover_username": "https://spid.register.it/selfcare/recovery/username ",
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting  one of the options presented below. \n For further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting one of the options presented below. \n For further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",

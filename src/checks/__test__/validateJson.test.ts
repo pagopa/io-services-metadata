@@ -1,4 +1,4 @@
-import { right } from "fp-ts/lib/Either";
+import * as E from "fp-ts/lib/Either";
 import { parseJson, readFileSync } from "../validateJson";
 
 const expectedValidJson = `{
@@ -39,7 +39,8 @@ const expectedValidJsonObject = {
   }
 };
 
-const readDirectoryError = "EISDIR: illegal operation on a directory, read";
+const readDirectoryError =
+  "Error: EISDIR: illegal operation on a directory, read";
 const fileDoesntExistError = "ENOENT: no such file or directory, open";
 const syntaxError = "Syntax error";
 
@@ -47,8 +48,8 @@ const expectedSyntaxError = "Should return a left(error) with Syntax error";
 
 const expectSyntaxError = (value: string) => {
   const result = parseJson(value);
-  if (result.isLeft()) {
-    expect(result.value.message).toContain(syntaxError);
+  if (E.isLeft(result)) {
+    expect(result.left.message).toContain(syntaxError);
   } else {
     fail("result should be left");
   }
@@ -60,8 +61,8 @@ describe("validateJson", () => {
       describe("And is a folder path", () => {
         it("Should return a left(Error)", () => {
           const result = readFileSync(__dirname + `/../__mock__/`);
-          if (result.isLeft()) {
-            expect(result.value.message).toStrictEqual(readDirectoryError);
+          if (E.isLeft(result)) {
+            expect(result.left.message).toStrictEqual(readDirectoryError);
           } else {
             fail("result should be left");
           }
@@ -72,8 +73,8 @@ describe("validateJson", () => {
           const result = readFileSync(
             __dirname + `/../__mock__/fileDoesntExists.fantasy`
           );
-          if (result.isLeft()) {
-            expect(result.value.message).toContain(fileDoesntExistError);
+          if (E.isLeft(result)) {
+            expect(result.left.message).toContain(fileDoesntExistError);
           } else {
             fail("result should be left");
           }
@@ -87,13 +88,13 @@ describe("validateJson", () => {
           const result = readFileSync(
             __dirname + `/../__mock__/file/valid.json`
           );
-          expect(result).toStrictEqual(right(expectedValidJson));
+          expect(result).toStrictEqual(E.right(expectedValidJson));
         });
       });
       describe("And is an empty file", () => {
         it("Should return a right(string)", () => {
           const result = readFileSync(__dirname + `/../__mock__/file/empty`);
-          expect(result).toStrictEqual(right(""));
+          expect(result).toStrictEqual(E.right(""));
         });
       });
       describe("And is a binary file", () => {
@@ -101,7 +102,7 @@ describe("validateJson", () => {
           const result = readFileSync(
             __dirname + `/../__mock__/file/binary.png`
           );
-          expect(result.isRight()).toBeTruthy();
+          expect(E.isRight(result)).toBeTruthy();
         });
       });
     });
@@ -126,7 +127,7 @@ describe("validateJson", () => {
     describe("And a valid string is provided", () => {
       it("Should return right(object) with the parsed json", () => {
         const result = parseJson(expectedValidJson);
-        expect(result).toStrictEqual(right(expectedValidJsonObject));
+        expect(result).toStrictEqual(E.right(expectedValidJsonObject));
       });
     });
   });

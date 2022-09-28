@@ -219,7 +219,7 @@ definitions:
         items:
           $ref: "#/definitions/BonusUrl"
   Timestamp:
-    $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v10.2.3/openapi/definitions.yaml#/Timestamp"
+    $ref: "https://raw.githubusercontent.com/pagopa/io-functions-commons/v25.5.0/openapi/definitions.yaml#/Timestamp"
   BonusVisibility:
     type: string
     x-extensible-enum:

@@ -1,8 +1,10 @@
-import * as path from "path";
 import chalk from "chalk";
+import * as E from "fp-ts/lib/Either";
 import * as fs from "fs-extra";
-import { MUNICIPALITIES_OUTPUT_FOLDER } from "../config";
+// eslint-disable-next-line import/order
+import * as path from "path";
 import { Municipality } from "../../generated/definitions/content/Municipality";
+import { MUNICIPALITIES_OUTPUT_FOLDER } from "../config";
 
 // walk recursively inside all paths in dir and return the list of files met
 const walkSync = (dir: string): ReadonlyArray<string> => {
@@ -23,7 +25,7 @@ export const checkMunicipalityOutput = () => {
   const jsons = walkSync(MUNICIPALITIES_OUTPUT_FOLDER).filter(j => {
     try {
       const obj = JSON.parse(fs.readFileSync(j).toString());
-      return Municipality.decode(obj).isLeft();
+      return E.isLeft(Municipality.decode(obj));
     } catch {
       return true;
     }

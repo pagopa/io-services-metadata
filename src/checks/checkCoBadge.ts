@@ -1,3 +1,4 @@
+/* eslint-disable import/order */
 /**
  * this script checks about the cobadgeServices.json integrity and updates abi.json if necessary
  * - cobadgeServices.json: this file is requested by the app
@@ -6,14 +7,14 @@
  * - abi.json is a file built merging the information coming from /bonus/bpd/abi/pm_abi.json and cobadgeServices.json
  * - if an abi is present in cobadgeServices.json but not in abi.json it will be automatically added by this script
  */
-
+import * as E from "fp-ts/lib/Either";
 import fs from "fs";
 import * as jsonValidator from "json-dup-key-validator";
-import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
-import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
-import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
-import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
 import { CoBadgeIssuer } from "../../generated/definitions/pagopa/cobadge/CoBadgeIssuer";
+import { CoBadgeService } from "../../generated/definitions/pagopa/cobadge/CoBadgeService";
+import { CoBadgeServices } from "../../generated/definitions/pagopa/cobadge/CoBadgeServices";
+import { Abi } from "../../generated/definitions/pagopa/walletv2/Abi";
+import { AbiListResponse } from "../../generated/definitions/pagopa/walletv2/AbiListResponse";
 import { getDuplicates } from "../utils/collections";
 
 const error = (message: string) => {
@@ -27,12 +28,12 @@ const fileContent = fs
 const maybeCobadgeServices = CoBadgeServices.decode(
   jsonValidator.parse(fileContent, false)
 );
-if (!maybeCobadgeServices.isRight()) {
+if (E.isLeft(maybeCobadgeServices)) {
   error(
     "status/cobadgeServices.json is not compatible with CoBadgeServices type"
   );
 } else {
-  const cobadgeServices = maybeCobadgeServices.value;
+  const cobadgeServices = maybeCobadgeServices.right;
   // check for duplicated keys
   Object.keys(cobadgeServices).forEach(k => {
     const count = (fileContent.match(new RegExp(`"${k}"`, "gm")) || []).length;
@@ -46,7 +47,7 @@ if (!maybeCobadgeServices.isRight()) {
   const maybeAbiRegistry = AbiListResponse.decode(
     JSON.parse(abiRegistryFileContent)
   );
-  if (maybeAbiRegistry.isLeft()) {
+  if (E.isLeft(maybeAbiRegistry)) {
     error(`can't decode abi registry status/abi.json`);
   } else {
     const services = Object.keys(cobadgeServices).map<CoBadgeService>(
@@ -57,7 +58,7 @@ if (!maybeCobadgeServices.isRight()) {
       []
     );
 
-    const registry: ReadonlyArray<Abi> = maybeAbiRegistry.value.data || [];
+    const registry: ReadonlyArray<Abi> = maybeAbiRegistry.right.data || [];
 
     // eslint-disable-next-line functional/no-let
     let hasErrors = false;
@@ -107,7 +108,7 @@ if (!maybeCobadgeServices.isRight()) {
     }
     if (missingAbis.length > 0) {
       const updatedRegistry = {
-        ...maybeAbiRegistry.value,
+        ...maybeAbiRegistry.right,
         data: [...registry, ...missingAbis]
       };
       console.log(

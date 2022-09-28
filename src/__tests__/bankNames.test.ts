@@ -1,5 +1,7 @@
+/* eslint-disable import/order */
+import { pipe } from "fp-ts/lib/function";
+import * as O from "fp-ts/lib/Option";
 import { readFileSync } from "fs";
-import { fromNullable } from "fp-ts/lib/Option";
 import { IAbi, toCamelCase } from "../utils/bankNames";
 
 describe("Test Success Case", () => {
@@ -9,142 +11,77 @@ describe("Test Success Case", () => {
     ) as IAbi
   );
 
+  const findBank = (abiCode: string) =>
+    pipe(
+      updStatusAbi.data.find(myBank => myBank.abi === abiCode),
+      O.fromNullable,
+      O.map(myBank => myBank.name),
+      O.getOrElse(() => "")
+    );
+
   test("Should convert to Capital Case", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "08988")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /degli Ulivi/
-    );
+    expect(findBank("08988")).toMatch(/degli Ulivi/);
   });
 
   test("Should preserve hyphens inside words", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "09506")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(/A-tono/);
+    expect(findBank("09506")).toMatch(/A-tono/);
   });
 
   test("Should preserve hyphens outside words", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "01005")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(/\s+-\s+SPA/);
+    expect(findBank("01005")).toMatch(/\s+-\s+SPA/);
   });
 
   test("Should preserve ampersand outside words", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "03332")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /Passadore & C/
-    );
+    expect(findBank("03332")).toMatch(/Passadore & C/);
   });
 
   test("Should preserve accents in lower case", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "08883")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(/Società/);
+    expect(findBank("08883")).toMatch(/Società/);
   });
 
   test("Should preserve double quotes", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "08947")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /"Don Stella"/
-    );
+    expect(findBank("08947")).toMatch(/"Don Stella"/);
   });
 
   test("Should preserve numbers", () => {
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08425"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Banca Cambiano 1884 - SPA/);
+    expect(findBank("08425")).toMatch(/Banca Cambiano 1884 - SPA/);
   });
 
   test("Should split at apostrophes", () => {
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08284"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/ll'Oltrepo/);
+    expect(findBank("08284")).toMatch(/ll'Oltrepo/);
   });
 
   test("Should transform B.C.C. to BCC", () => {
-    const bank = fromNullable(
-      updStatusAbi.data.find(myBank => myBank.abi === "08899")
-    );
-    expect(bank.map(myBank => myBank.name).getOrElse("")).toMatch(
-      /BCC di Treviglio/
-    );
+    expect(findBank("08899")).toMatch(/BCC di Treviglio/);
   });
 
   test("Should transformm De* to lower caase (no capital letter)", () => {
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08913"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/BCC della Valle/);
+    expect(findBank("08913")).toMatch(/BCC della Valle/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08948"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/BCC Ericina di Val/);
+    expect(findBank("08948")).toMatch(/BCC Ericina di Val/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08997"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Marco dei Cavoti/);
+    expect(findBank("08997")).toMatch(/Marco dei Cavoti/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "03048"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Banca del Piemonte/);
+    expect(findBank("03048")).toMatch(/Banca del Piemonte/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "06010"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Cassa dei Risparmi/);
+    expect(findBank("06010")).toMatch(/Cassa dei Risparmi/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08284"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Banca di Credito Cooperativo dell'Oltrepo/);
+    expect(findBank("08284")).toMatch(
+      /Banca di Credito Cooperativo dell'Oltrepo/
+    );
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08514"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Banca di Credito Cooperativo dell’Oglio e del Serio SC/);
+    expect(findBank("08514")).toMatch(
+      /Banca di Credito Cooperativo dell’Oglio e del Serio SC/
+    );
   });
 
   test("Should transformm E* to lower case (no capital letter)", () => {
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "06090"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Risparmio di Biella e Vercelli/);
+    expect(findBank("06090")).toMatch(/Risparmio di Biella e Vercelli/);
 
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "08378"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/Rurale ed Artigiana/);
+    expect(findBank("08378")).toMatch(/Rurale ed Artigiana/);
   });
 
   test("Should take care of brand name typographic rules", () => {
-    expect(
-      fromNullable(updStatusAbi.data.find(myBank => myBank.abi === "03002"))
-        .map(myBank => myBank.name)
-        .getOrElse("")
-    ).toMatch(/UniCredit Banca/);
+    expect(findBank("03002")).toMatch(/UniCredit Banca/);
   });
 });

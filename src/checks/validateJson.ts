@@ -1,18 +1,20 @@
+/* eslint-disable import/order */
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import fs from "fs";
 import * as t from "io-ts";
 import { Context, Errors } from "io-ts";
-import { Either, left, right } from "fp-ts/lib/Either";
 import * as jsonValidator from "json-dup-key-validator";
 
 /**
  * Parse a string to a json object, checking for duplicate keys
  * @param content
  */
-export const parseJson = (content: string): Either<Error, object> => {
+export const parseJson = (content: string): E.Either<Error, object> => {
   try {
-    return right(jsonValidator.parse(content, false));
+    return E.right(jsonValidator.parse(content, false));
   } catch (e) {
-    return left(e);
+    return E.left(E.toError(e));
   }
 };
 
@@ -20,11 +22,11 @@ export const parseJson = (content: string): Either<Error, object> => {
  * Read a file async transforming the results in Either
  * @param path
  */
-export const readFileSync = (path: string): Either<Error, string> => {
+export const readFileSync = (path: string): E.Either<Error, string> => {
   try {
-    return right(fs.readFileSync(path).toString());
+    return E.right(fs.readFileSync(path).toString());
   } catch (e) {
-    return left(e);
+    return E.left(E.toError(e));
   }
 };
 
@@ -34,12 +36,12 @@ export const readFileSync = (path: string): Either<Error, string> => {
  * @param path
  */
 export const printDecodeOutcome = <T>(
-  result: Either<Error, T>,
+  result: E.Either<Error, T>,
   path: string
 ) => {
-  if (result.isLeft()) {
+  if (E.isLeft(result)) {
     console.error(
-      `An error occurred while checking "${path}": ${result.value.message}`
+      `An error occurred while checking "${path}": ${result.left.message}`
     );
   } else {
     console.log(`"${path}" correctly read and decoded!`);
@@ -88,7 +90,10 @@ export const toError = (errors: Errors): Error =>
 export const basicJsonFileValidator = <T>(
   jsonPath: string,
   decoder: t.Decoder<unknown, T>
-): Either<Error, T> =>
-  readFileSync(jsonPath)
-    .chain(parseJson)
-    .chain(x => decoder.decode(x).mapLeft(toError));
+): E.Either<Error, T> =>
+  pipe(
+    readFileSync(jsonPath),
+    E.chain(parseJson),
+    E.chainW(decoder.decode),
+    E.mapLeft(E.toError)
+  );

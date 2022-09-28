@@ -1,3 +1,4 @@
+import * as E from "fp-ts/lib/Either";
 import {
   decodeForeignCountry,
   decodeMunicipality,
@@ -66,17 +67,17 @@ const invalidMunicipalityCsvRow: ReadonlyArray<string> = [
 describe("parse csv string", () => {
   it("should return a valid record", () => {
     parseCsvMunicipality(validMunicipalityRow, parserOption, result => {
-      expect(result.isRight()).toBeTruthy();
+      expect(E.isRight(result)).toBeTruthy();
     });
   });
 
   it("should return a valid record with expected size and values", () => {
     parseCsvMunicipality(validMunicipalityRow, parserOption, result => {
-      expect(result.isRight()).toBeTruthy();
-      if (result.isRight()) {
-        expect(result.value.length).toEqual(1);
-        expect(result.value[0].length).toEqual(23);
-        expect(result.value[0][5]).toEqual("Subiaco");
+      expect(E.isRight(result)).toBeTruthy();
+      if (E.isRight(result)) {
+        expect(result.right.length).toEqual(1);
+        expect(result.right[0].length).toEqual(23);
+        expect(result.right[0][5]).toEqual("Subiaco");
       }
     });
   });
@@ -85,9 +86,9 @@ describe("parse csv string", () => {
 describe("decode Municipality", () => {
   it("should recognize a valid Municipality csv row", () => {
     const validMunicipality = decodeMunicipality(validMunicipalityCsvRow);
-    expect(validMunicipality.isRight()).toBeTruthy();
-    if (validMunicipality.isRight()) {
-      expect(validMunicipality.value.denominazioneInItaliano).toEqual(
+    expect(E.isRight(validMunicipality)).toBeTruthy();
+    if (E.isRight(validMunicipality)) {
+      expect(validMunicipality.right.denominazioneInItaliano).toEqual(
         "Subiaco"
       );
     }
@@ -95,9 +96,9 @@ describe("decode Municipality", () => {
 
   it("should recognize a valid Foreign Country csv row", () => {
     const validForeignCountry = decodeForeignCountry(validForeignCountryCsvRow);
-    expect(validForeignCountry.isRight()).toBeTruthy();
-    if (validForeignCountry.isRight()) {
-      expect(validForeignCountry.value.denominazioneInItaliano).toEqual(
+    expect(E.isRight(validForeignCountry)).toBeTruthy();
+    if (E.isRight(validForeignCountry)) {
+      expect(validForeignCountry.right.denominazioneInItaliano).toEqual(
         "Nuova Zelanda"
       );
     }
@@ -105,6 +106,6 @@ describe("decode Municipality", () => {
 
   it("should recognize an invalid Municipality row (wrong length)", () => {
     const validMunicipality = decodeMunicipality(invalidMunicipalityCsvRow);
-    expect(validMunicipality.isLeft()).toBeTruthy();
+    expect(E.isLeft(validMunicipality)).toBeTruthy();
   });
 });

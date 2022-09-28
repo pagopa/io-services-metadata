@@ -1,7 +1,8 @@
 import chalk from "chalk";
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import * as fs from "fs-extra";
 import * as t from "io-ts";
-import { Either, left, right } from "fp-ts/lib/Either";
 import {
   ABOLISHED_MUNICIPALITIES_FILEPATH,
   MUNICIPALITIES_CATASTALI_FILEPATH
@@ -28,7 +29,7 @@ const optionMunicipalitiesWithCatastale = {
  * load all the codici catastali and create a mapping between the name of the municipality and the codice catastale
  */
 const loadMunicipalityToCatastale = async (): Promise<
-  Either<Error, Map<string, string>>
+  E.Either<Error, Map<string, string>>
 > => {
   // read raw data from csv
   try {
@@ -43,14 +44,14 @@ const loadMunicipalityToCatastale = async (): Promise<
     );
 
     // transform raw data to: [municipalityName] : codiceCatastale
-    return right(
+    return E.right(
       municipalitiesCatastaleRows.reduce((map: Map<string, string>, row) => {
         map.set(row[1].toLowerCase(), row[0]);
         return map;
       }, new Map<string, string>())
     );
   } catch (e) {
-    return left(new Error(String(e)));
+    return E.left(new Error(String(e)));
   }
 };
 
@@ -76,19 +77,22 @@ const fromAbolishedMunicipalityToSerializableMunicipality = (
  */
 const loadAbolishedMunicipalities = (
   municipalityToCatastale: Map<string, string>
-): Either<Error, ReadonlyArray<ISerializableMunicipality>> =>
-  readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH)
-    .chain(rawFile =>
-      AbolishedMunicipalityArray.decode(JSON.parse(rawFile)).mapLeft(
-        // TODO: a better description of the error could be obtained updating
-        //  the library io-ts to the latest version.
-        _ =>
-          new Error(
-            "Fail to parse the json file: " + ABOLISHED_MUNICIPALITIES_FILEPATH
-          )
+): E.Either<Error, ReadonlyArray<ISerializableMunicipality>> =>
+  pipe(
+    readFileToString(ABOLISHED_MUNICIPALITIES_FILEPATH),
+    E.chain(rawFile =>
+      pipe(
+        AbolishedMunicipalityArray.decode(JSON.parse(rawFile)),
+        E.mapLeft(
+          _ =>
+            new Error(
+              "Fail to parse the json file: " +
+                ABOLISHED_MUNICIPALITIES_FILEPATH
+            )
+        )
       )
-    )
-    .map(abolishedMunArray =>
+    ),
+    E.map(abolishedMunArray =>
       abolishedMunArray
         .filter(am => municipalityToCatastale.has(am.comune.toLowerCase()))
         .map(am =>
@@ -98,7 +102,8 @@ const loadAbolishedMunicipalities = (
             municipalityToCatastale.get(am.comune.toLowerCase())!
           )
         )
-    );
+    )
+  );
 
 /**
  * This function export the data of the abolished municipalities, creating the data starting from two dataset:
@@ -110,24 +115,26 @@ export const exportAbolishedMunicipality = async () => {
     chalk.gray("[1/2]"),
     "Start generation of abolished municipalites from local dataset"
   );
-  const serializeMunicipalityPromise = (await loadMunicipalityToCatastale())
-    .chain(municipalityToCatastale =>
+  const serializeMunicipalityPromise = pipe(
+    await loadMunicipalityToCatastale(),
+    E.chain(municipalityToCatastale =>
       loadAbolishedMunicipalities(municipalityToCatastale)
-    )
-    .map(abolishedMunicipalities =>
+    ),
+    E.map(abolishedMunicipalities =>
       abolishedMunicipalities.map(municipality =>
         serializeMunicipalityToJson(municipality)
       )
-    );
+    )
+  );
 
-  if (serializeMunicipalityPromise.isLeft()) {
+  if (E.isLeft(serializeMunicipalityPromise)) {
     logError(
-      serializeMunicipalityPromise.value,
+      serializeMunicipalityPromise.left,
       "Error while exporting abolished municipalities"
     );
     return;
   }
-  await Promise.all(serializeMunicipalityPromise.value);
+  await Promise.all(serializeMunicipalityPromise.right);
   console.log(
     chalk.gray("[2/2]"),
     "Generation of abolished municipalites completed"

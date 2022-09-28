@@ -1,4 +1,5 @@
-import { Either, left, right } from "fp-ts/lib/Either";
+import * as E from "fp-ts/lib/Either";
+import { pipe } from "fp-ts/lib/function";
 import { Zendesk } from "../../generated/definitions/content/Zendesk";
 import { ZendeskCategory } from "../../generated/definitions/content/ZendeskCategory";
 import { getDuplicates } from "../utils/collections";
@@ -12,17 +13,21 @@ import { basicJsonFileValidator, printDecodeOutcome } from "./validateJson";
 const filename = "assistanceTools/zendesk.json";
 const jsonPath = __dirname + `/../../${filename}`;
 
-const checkNonEmptyCategories = (zendesk: Zendesk): Either<Error, Zendesk> => {
+const checkNonEmptyCategories = (
+  zendesk: Zendesk
+): E.Either<Error, Zendesk> => {
   if (
     zendesk.zendeskCategories &&
     zendesk.zendeskCategories.categories.length === 0
   ) {
-    return left(new Error(`The categories field can't be an empty array`));
+    return E.left(new Error(`The categories field can't be an empty array`));
   }
-  return right(zendesk);
+  return E.right(zendesk);
 };
 
-const checkDuplicateCategories = (zendesk: Zendesk): Either<Error, Zendesk> => {
+const checkDuplicateCategories = (
+  zendesk: Zendesk
+): E.Either<Error, Zendesk> => {
   if (zendesk.zendeskCategories) {
     const zendeskCategories = zendesk.zendeskCategories;
     // check for duplicates in categories
@@ -31,7 +36,7 @@ const checkDuplicateCategories = (zendesk: Zendesk): Either<Error, Zendesk> => {
       (a: ZendeskCategory, b: ZendeskCategory) => a.value === b.value
     );
     if (duplicatedCategoriesValue.length > 0) {
-      return left(
+      return E.left(
         new Error(
           `these categories are repeated more than one time:\n${duplicatedCategoriesValue
             .map(d => d.value)
@@ -40,17 +45,22 @@ const checkDuplicateCategories = (zendesk: Zendesk): Either<Error, Zendesk> => {
       );
     }
   }
-  return right(zendesk);
+  return E.right(zendesk);
 };
 
-const returnCode = printDecodeOutcome(
-  basicJsonFileValidator(jsonPath, Zendesk)
-    .chain(checkNonEmptyCategories)
-    .chain(checkDuplicateCategories),
-  filename
-).fold(
-  _ => 1,
-  __ => 0
+const returnCode = pipe(
+  printDecodeOutcome(
+    pipe(
+      basicJsonFileValidator(jsonPath, Zendesk),
+      E.chain(checkNonEmptyCategories),
+      E.chain(checkDuplicateCategories)
+    ),
+    filename
+  ),
+  E.fold(
+    _ => 1,
+    __ => 0
+  )
 );
 
 process.exit(returnCode);

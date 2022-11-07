@@ -18,7 +18,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": true
+      "enabled": false
     },
     "bancomatPay": {
       "display": true,
@@ -152,11 +152,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "warning",
+      "is_visible": true,
+      "level": "normal",
       "message": {
-        "it-IT": "Dalle 20 alle 23 non sarà possibile pagare con PayPal.",
-        "en-EN": "PayPal services won't be available from 8 to 11 PM."
+        "it-IT": "PayPal è in manutenzione, tornerà presto disponibile.",
+        "en-EN": "PayPal is under maintenance, it will be back soon."
       }
     },
     "ingress": {

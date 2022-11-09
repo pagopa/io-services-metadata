@@ -451,6 +451,7 @@ definitions:
       - enroll_bpd_after_add_payment_method
       - program_active
       - opt_in_payment_methods
+      - opt_in_payment_methods_v2
     properties:
       enroll_bpd_after_add_payment_method:
         description: "If true and the user is not enrolled to the cashback, the user is asked to activate the cashback after adding a new payment method"
@@ -459,7 +460,11 @@ definitions:
         description: "If true, the cashback program is active and all the related in app functionalities are enabled"
         type: boolean
       opt_in_payment_methods:
-        description: "If true, when the user enter in the wallet the information wall regarding the opt-in of the payment methods is shown"
+        description: "DEPRECATED This field would be considered only by app version prior to 2.19.0.1 and should be kept in false value"
+        type: boolean
+        deprecated: true
+      opt_in_payment_methods_v2:
+        description: "If true, when the user enter in the wallet the information wall regarding the opt-in of the payment methods is shown starting from app version 2.19.0.1"
         type: boolean
   PaypalConfig:
     type: object

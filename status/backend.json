@@ -19,7 +19,7 @@
       "tool": "zendesk"
     },
     "paypal": {
-      "enabled": false
+      "enabled": true
     },
     "bancomatPay": {
       "display": true,
@@ -153,7 +153,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "message": {
         "it-IT": "PayPal è in manutenzione, tornerà presto disponibile.",

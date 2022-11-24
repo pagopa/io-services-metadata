@@ -1205,7 +1205,7 @@
       },
       "namirialid": {
         "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Namirial selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) fornite dal tuo Identity Provider.",
-        "helpdesk_form": "https://support.namirial.com/it/supporto-tecnico",
+        "helpdesk_form": "https://servicedesk.namirial.com/hc/it",
         "phone": "003907163494",
         "web_site": "https://www.namirialtsp.com/spid/",
         "recover_username": "https://portal.namirialtsp.com/public/retrieveUsername.xhtml",
@@ -1942,7 +1942,7 @@
       },
       "namirialid": {
         "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
-        "helpdesk_form": "https://support.namirial.com/it/supporto-tecnico",
+        "helpdesk_form": "https://servicedesk.namirial.com/hc/it",
         "phone": "003907163494",
         "web_site": "https://www.namirialtsp.com/spid/",
         "recover_username": "https://portal.namirialtsp.com/public/retrieveUsername.xhtml",

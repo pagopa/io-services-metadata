@@ -53,6 +53,12 @@
             "name": "Telecom Italia",
             "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-timid.png",
             "profileUrl": "https://id.tim.it/identity/private/"
+          },
+          {
+            "id": "teamsystemid",
+            "name": "TeamSystem",
+            "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-teamsystemid.png",
+            "profileUrl": ""
           }
     ]
 }

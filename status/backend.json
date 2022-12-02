@@ -153,11 +153,15 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
+      "web_url": {
+        "it-IT": "https://status.pagopa.gov.it/incidents/z6mn93mpvyyd",
+        "en-EN": "https://status.pagopa.gov.it/incidents/z6mn93mpvyyd"
+      },
       "message": {
-        "it-IT": "PayPal è in manutenzione, tornerà presto disponibile.",
-        "en-EN": "PayPal is under maintenance, it will be back soon."
+        "it-IT": "pagoPA è in manutenzione, tornerà presto disponibile.",
+        "en-EN": "pagoPA is under maintenance, it will be back soon."
       }
     },
     "ingress": {

@@ -85,10 +85,13 @@
   }
 
   header {
+    padding: 16px 0px 24px 0px;
+  }
+
+  header > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0px 24px 0px;
   }
 
   header.main {
@@ -375,9 +378,9 @@
 <body onload="main()">
 <section>
   <header class="main">
-    <h1>A chi vuoi donare?</h1>
+    <div><h1>A chi vuoi donare?</h1>
+    <a id="edit" class="hidden" href="#" onclick="resetSelection()">modifica</a></div>
     <p>Hai tempo fino al 23 dicembre.</p>
-    <a id="edit" class="hidden" href="#" onclick="resetSelection()">modifica</a>
   </header>
   <div id="entities-container"></div>
   <div id="loader">

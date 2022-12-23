@@ -88,14 +88,18 @@
     padding: 16px 0px 24px 0px;
   }
 
-  header > div {
+  header.main {
     display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    padding-top: 0px;
   }
 
-  header.main {
-    padding-top: 0px;
+  header > p {
+    padding: 16px;
+    text-align: center;
   }
 
   ul {
@@ -287,13 +291,16 @@
   }
 
   .submit-btn {
-    color: white;
-    background-color: var(--main-blue);
+    color: var(--main-blue);
+    background-color: white;
+    text-decoration: none;
     display: block;
     height: 40px;
     width: 100%;
     border-radius: 4px;
-    border: none;
+    border-width: 2px;
+    border-color: var(--main-blue);
+    border-style: solid;
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
@@ -302,6 +309,9 @@
     margin-top: 20px;
   }
 
+  .submit-btn > a {
+    text-decoration: none;
+  }
   .submit-btn.disabled {
     color: var(--bluegrey-light);
     background-color: var(--grey-light);
@@ -375,298 +385,20 @@
     }
   }
 </style>
-<body onload="main()">
+<body>
 <section>
   <header class="main">
-    <div><h1>A chi vuoi donare?</h1>
-    <a id="edit" class="hidden" href="#" onclick="resetSelection()">modifica</a></div>
-    <p>Hai tempo fino al 23 dicembre.</p>
-  </header>
-  <div id="entities-container"></div>
-  <div id="loader">
-    <div class="lds-ring">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <img src="https://checkout.pagopa.it/heart.0df2d804.svg" alt="Icona cuore" aria-hidden="true" style="width: 80px; height: auto;">
+    <div>
+      <h1>Il servizio non è più attivo</h1>
     </div>
-    <p>Stiamo caricando la lista delle organizzazioni</p>
-  </div>
-</section>
-
-<section class="how-much" aria-hidden="true">
-  <header>
-    <h1 id="how-much-title" class="disabled" tabindex="0">Quanto vuoi donare?</h1>
+    <p>Se vuoi puoi donare a una delle organizzazioni umanitarie che avevano aderito all’iniziativa.</p>
   </header>
-  <ul class="tiers" role="listbox" id="tiers-container"></ul>
-  <p id="instructions">Scegli a chi donare per conoscere gli importi disponibili</p>
-</section>
-
-<section class="info-section" aria-hidden="true">
-  <div id="info" class="info-box hidden">
-    <span class="info-icon" aria-hidden="true">i</span>
-    <p class="info-text">
-      Se doni con carta di credito, debito o prepagata non hai costi di commissione. Riceverai un’email con i dati utili ai fini delle agevolazioni fiscali.
-    </p>
-  </div>
-
-  <div id="privacy" class="privacy hidden" data-checkconfig="privacyUrl">
-    Proseguendo dichiari di aver letto e compreso i <a href="#" onclick="openPrivacyUrl(event)">Termini e condizioni d’uso e l’Informativa Privacy</a>
-  </div>
-</section>
-
 <section class="submit-section">
-  <button id="submit-btn" class="submit-btn disabled" onclick="submit()" disabled>Continua</button>
+  <button id="submit-btn" class="submit-btn">
+    <a href="https://www.pagopa.gov.it/it/notizie/2022-12-23-conclusa-iniziativa-donazioni-ucraina.html">Vedi le organizzazioni</a>
+  </button>
 </section>
 </body>
 
-<script>
-  let allCharities = "";
-
-  const config = {
-    apiUrl: "https://api.platform.pagopa.it/donations/api/v1/availabledonations",
-    privacyUrl: "https://www.pagopa.gov.it/it/privacy-policy-donazioni-ucraina"
-  };
-
-  function replaceChildren(target, children) {
-    target.textContent = '';
-
-    children.forEach(child => {
-      target.appendChild(child);
-    });
-  }
-
-  function fetchData() {
-    const url = config.apiUrl;
-    return fetch(url).then(res => res.json());
-  }
-
-  function setLoader(show) {
-    const loader = document.getElementById("loader");
-    loader.className = show ? "" : "hidden";
-  }
-
-  function printAmount(amount) {
-    return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", minimumFractionDigits: 0 }).format(amount / 100);
-  }
-
-  function generateCharityLabel(name, reason, step, steps) {
-    return `${name}, ${reason}, pulsante di scelta, ${step} di ${steps}`
-  }
-
-  function generateTierLabel(value, step, steps) {
-    return `${value}, pulsante di scelta, ${step} di ${steps}`
-  }
-
-  function parseEntities(entities) {
-    return entities.map((entity, index) => {
-      const tiers = entity.slices.map((tier, index) => `<li class="tier" onclick="selectTier(event)"><div class="tier-item" aria-label="${generateTierLabel(printAmount(tier.amount), index + 1, entity.slices.length)}" data-tier="${tier.nav}" data-amount="${tier.amount}" aria-selected="false" role="option" tabindex="0">${printAmount(tier.amount)}</div></li>`).join("");
-      const charity = `<li class="charity" id="${entity.cf}" data-charity-id="${entity.cf}" data-tiers="${encodeURI(tiers)}" onclick="selectCharity(event)">
-                    <div class="charity-main" tabindex="0" aria-label="${generateCharityLabel(entity.name, entity.reason, index + 1, entities.length)}" aria-selected="false" role="option">
-                      <div class="charity-selector-container">
-                        <div class="charity-selector-radio" id="input-${entity.cf}" data-charity="${entity.cf}"></div>
-                      </div>
-
-                      <div class="charity-details">
-                          <h2 aria-hidden="true">${entity.name}</h2>
-                          <p aria-hidden="true">${entity.reason}</p>
-                      </div>
-
-                      <img class="charity-logo"
-                          src="data:image/png;base64,${entity.base64Logo}" alt="${entity.name} logo" aria-hidden="true"/>
-                    </div>
-
-                    <div class="charity-info">
-                      <a data-url="${entity.web_site}" aria-label="${entity.name}, scopri di più" href="#" onclick="openUrl(event)">Scopri di più</a>
-                    </div>
-                </li>`;
-      return { id: entity.cf, charity, tiers };
-    });
-  }
-
-  function selectCharity(event) {
-    try {
-      const dataTiers = event.currentTarget.getAttribute("data-tiers");
-      const charityID = event.currentTarget.getAttribute("data-charity-id");
-
-      const input = document.getElementById(`input-${charityID}`);
-      input.classList.add('active');
-
-      event.currentTarget.querySelector('.charity-main').setAttribute("aria-selected", "true")
-
-      const editBtn = document.getElementById("edit");
-      editBtn.classList.remove("hidden");
-
-      const tiersContainer = document.getElementById("tiers-container");
-      tiersContainer.innerHTML = decodeURI(dataTiers);
-
-      const howMuch = document.querySelector(".how-much")
-      howMuch.setAttribute("aria-hidden", "false")
-
-      const howMuchTitle = document.getElementById("how-much-title");
-      howMuchTitle.classList.remove("disabled");
-
-      const infoSection = document.querySelector(".info-section")
-      infoSection.setAttribute("aria-hidden", "false")
-
-      const info = document.getElementById("info");
-      info.classList.remove("hidden");
-
-      const privacy = document.getElementById("privacy");
-      if (privacy) privacy.classList.remove("hidden");
-
-      const instructions = document.getElementById("instructions");
-      instructions.classList.add("hidden");
-
-      const btn = document.getElementById("submit-btn");
-      btn.classList.add("disabled");
-
-      const list = document.getElementById("entities-container").children[0];
-      const selectedCharity = document.getElementById(charityID);
-      replaceChildren(list, [selectedCharity]);
-      selectedCharity.classList.add("selected");
-
-      document.getElementById("how-much-title").focus()
-    } catch (e) {
-      reportError(e);
-    }
-  }
-
-  function resetSelection() {
-    try {
-      const editBtn = document.getElementById("edit");
-      editBtn.classList.add("hidden");
-
-      const tiersContainer = document.getElementById("tiers-container");
-      tiersContainer.innerHTML = "";
-
-      const howMuch = document.querySelector(".how-much")
-      howMuch.setAttribute("aria-hidden", "true")
-
-      const howMuchTitle = document.getElementById("how-much-title");
-      howMuchTitle.classList.add("disabled");
-
-      const info = document.getElementById("info");
-      info.classList.add("hidden");
-
-      const privacy = document.getElementById("privacy");
-      if (privacy) privacy.classList.add("hidden");
-
-      const infoSection = document.querySelector(".info-section")
-      infoSection.setAttribute("aria-hidden", "true")
-
-      const instructions = document.getElementById("instructions");
-      instructions.classList.remove("hidden");
-
-      const btn = document.getElementById("submit-btn");
-      btn.classList.add("disabled");
-      btn.setAttribute("disabled", "true")
-
-      const list = document.getElementById("entities-container").children[0];
-      list.innerHTML = allCharities;
-
-      document.querySelector('.charity-selector-radio').focus()
-    } catch (e) {
-      reportError(e);
-    }
-  }
-
-  function selectTier(event) {
-    const tierItem = event.currentTarget.querySelector(".tier-item")
-
-    // Reset the selection
-    event.currentTarget.parentNode.querySelectorAll(".tier-item").forEach(el => {
-      el.setAttribute("aria-selected", "false");
-      el.classList.remove("active");
-    });
-
-    tierItem.setAttribute("aria-selected", "true");
-    tierItem.classList.add('active');
-
-    const btn = document.getElementById("submit-btn");
-    btn.classList.remove("disabled");
-    btn.removeAttribute("disabled")
-
-    btn.focus()
-  }
-
-  function submit() {
-    try {
-      const charityId = document.querySelectorAll(".charity-selector-radio.active")[0].dataset.charity;
-      const tierNode = document.querySelectorAll(".tier-item.active")[0];
-
-      const tierId = tierNode.dataset.tier
-      const tierAmount = parseInt(tierNode.dataset.amount, 10);
-
-      const paymentPayload = {
-        kind: "payment",
-        payload: {
-          nav: tierId,
-          cf: charityId,
-          amount: tierAmount
-        }
-      };
-      sendMessage(paymentPayload);
-    } catch (e) {
-      reportError(e);
-    }
-  }
-
-  function reportError(error) {
-    sendMessage({
-      kind: "error",
-      payload: error.message || "UNKNOWN_ERROR",
-      stack: error.stack
-    });
-  }
-
-  function sendUrlMessage(url) {
-    const openWebUrlPayload = {
-      kind: "webUrl",
-      payload: url
-    };
-    sendMessage(openWebUrlPayload);
-  }
-
-  function openUrl(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    const url = event.target.getAttribute("data-url");
-    sendUrlMessage(url);
-  }
-
-  function openPrivacyUrl(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    sendUrlMessage(config.privacyUrl);
-  }
-
-  function sendMessage(message) {
-    if (window.ReactNativeWebView) {
-      window.ReactNativeWebView.postMessage(JSON.stringify(message));
-    }
-  }
-
-  function main() {
-    const entitiesContainer = document.getElementById("entities-container");
-
-    fetchData().then(parseEntities).then(entities => {
-      const content = entities.map(e => e.charity).join("");
-      setLoader(false);
-      entitiesContainer.innerHTML = `<ul class="entities-container" role="listbox">${content}</ul>`;
-      allCharities = content;
-    }).catch(e => {
-      reportError(e);
-    });
-
-    // Hide all the elements that have a `data-checkconfig`
-    // attribute which is not present inside the config object.
-    document.querySelectorAll("[data-checkconfig]").forEach(el => {
-      const watchedConfig = el.dataset.checkconfig;
-
-      if (!!watchedConfig && !config[watchedConfig])
-        el.remove()
-    })
-  }
-</script>
 </html>

@@ -35,9 +35,9 @@
       "domain": "https://fims-dev-app-provider.azurewebsites.net/"
     },
     "uaDonations": {
-      "enabled": true,
+      "enabled": false,
       "banner": {
-        "visible": true,
+        "visible": false,
         "description": {
           "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
           "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"

@@ -707,7 +707,7 @@ definitions:
     description: "A configuration for the Firma con IO feature"
     required:
       - test
-      - production
+      - prod
     properties:
       test:
         type: object

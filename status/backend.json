@@ -55,7 +55,12 @@
       "dataMatrixPosteEnabled": true
     },
     "fci": {
-      "enabled": false
+      "test": {
+        "enabled": true
+      },
+      "prod": {
+        "enabled": false
+      }
     },
     "pn": {
       "enabled": true,

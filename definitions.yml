@@ -706,11 +706,21 @@ definitions:
     type: object
     description: "A configuration for the Firma con IO feature"
     required:
-      - enabled
+      - test
+      - production
     properties:
-      enabled:
-        type: boolean
-        description: "If true, the user (signer) can digitally signs documents"
+      test:
+        type: object
+        properties:
+          enabled:
+            type: boolean
+            description: "If true, the test user (signer) can digitally signs documents"
+      prod:
+        type: object
+        properties:
+          enabled:
+            type: boolean
+            description: "If true, the user (signer) can digitally signs documents"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

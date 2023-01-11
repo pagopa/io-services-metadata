@@ -710,7 +710,7 @@ definitions:
     properties:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
-        description: "If true, the test user (signer) can digitally signs documents"
+        description: "If min app version supported, the test user (signer) can digitally signs documents"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

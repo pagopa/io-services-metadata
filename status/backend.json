@@ -57,6 +57,9 @@
     "fci": {
       "enabled": false
     },
+    "lollipop": {
+      "enabled": false
+    },
     "pn": {
       "enabled": true,
       "frontend_url": "https://cittadini.notifichedigitali.it"

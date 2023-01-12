@@ -1,6 +1,6 @@
 {
   "name": "italia-services-metadata",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Services metadata",
   "main": "src/index.ts",
   "repository": "git@github.com:pagopa/io-services-metadata.git",

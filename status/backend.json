@@ -55,10 +55,7 @@
       "dataMatrixPosteEnabled": true
     },
     "fci": {
-      "min_app_version": {
-        "ios": "2.22.0.3",
-        "android": "2.22.0.3"
-      }
+      "enabled": false
     },
     "lollipop": {
       "enabled": false

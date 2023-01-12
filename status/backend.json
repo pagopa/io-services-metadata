@@ -60,6 +60,9 @@
         "android": "2.22.0.3"
       }
     },
+    "lollipop": {
+      "enabled": false
+    },
     "pn": {
       "enabled": true,
       "frontend_url": "https://cittadini.notifichedigitali.it"

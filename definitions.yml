@@ -706,11 +706,11 @@ definitions:
     type: object
     description: "A configuration for the Firma con IO feature"
     required:
-      - enabled
+      - min_app_version
     properties:
-      enabled:
-        type: boolean
-        description: "If true, the user (signer) can digitally signs documents"
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the test user (signer) can digitally signs documents"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

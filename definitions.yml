@@ -719,7 +719,11 @@ definitions:
     description: "A configuration for the Firma con IO feature"
     required:
       - min_app_version
+      - enabled
     properties:
+      enabled:
+        type: boolean
+        description: "If true, the app can activate the Firma con IO service and digitally signs documents"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user (signer) can digitally signs documents"

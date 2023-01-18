@@ -735,11 +735,7 @@ definitions:
     description: "A configuration for the IdPay feature"
     required:
       - min_app_version
-      - enabled
     properties:
-      enabled:
-        type: boolean
-        description: "If true, the app can activate the IdPay service and the dedicated sections of the app"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user can onboard, configure and monitor an IdPay initiative"

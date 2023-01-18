@@ -529,7 +529,7 @@ definitions:
     properties:
       tool:
         type: string
-        enum: [ none,zendesk,instabug,web ]
+        enum: [none, zendesk, instabug, web]
         description: "none: also used as default, the assistance is not visible; zendesk: the assistance is managed with zendesk; instabug: the assistance is managed with instabug; web: the assistance is managed with a web form;"
   Zendesk:
     type: object
@@ -727,6 +727,19 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user (signer) can digitally signs documents"
+  IdPayConfig:
+    type: object
+    description: "A configuration for the IdPay feature"
+    required:
+      - min_app_version
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, the app can activate the IdPay service and the dedicated sections of the app"
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the test user can onboard, configure and monitor an IdPay initiative"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"
@@ -743,12 +756,12 @@ definitions:
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"
-    properties: 
+    properties:
       preferredPspsByOrigin:
-       $ref: "#/definitions/PreferredPspsByOrigin"
+        $ref: "#/definitions/PreferredPspsByOrigin"
   PreferredPspsByOrigin:
     type: object
-    properties: 
+    properties:
       "poste_datamatrix_scan":
         type: array
         items:

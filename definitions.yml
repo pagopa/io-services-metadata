@@ -443,6 +443,8 @@ definitions:
         $ref: "#/definitions/BarcodesScannerConfig"
       fci:
         $ref: "#/definitions/FciConfig"
+      idPay:
+        $ref: "#/definitions/IdPayConfig"
       lollipop:
         $ref: "#/definitions/LollipopConfig"
       pn:

@@ -407,6 +407,7 @@ definitions:
       - cdc
       - barcodesScanner
       - fci
+      - idPay
       - lollipop
       - pn
       - payments
@@ -443,6 +444,8 @@ definitions:
         $ref: "#/definitions/BarcodesScannerConfig"
       fci:
         $ref: "#/definitions/FciConfig"
+      idPay:
+        $ref: "#/definitions/IdPayConfig"
       lollipop:
         $ref: "#/definitions/LollipopConfig"
       pn:
@@ -529,7 +532,7 @@ definitions:
     properties:
       tool:
         type: string
-        enum: [ none,zendesk,instabug,web ]
+        enum: [none, zendesk, instabug, web]
         description: "none: also used as default, the assistance is not visible; zendesk: the assistance is managed with zendesk; instabug: the assistance is managed with instabug; web: the assistance is managed with a web form;"
   Zendesk:
     type: object
@@ -727,6 +730,15 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user (signer) can digitally signs documents"
+  IdPayConfig:
+    type: object
+    description: "A configuration for the IdPay feature"
+    required:
+      - min_app_version
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the test user can onboard, configure and monitor an IdPay initiative"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"
@@ -743,12 +755,12 @@ definitions:
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"
-    properties: 
+    properties:
       preferredPspsByOrigin:
-       $ref: "#/definitions/PreferredPspsByOrigin"
+        $ref: "#/definitions/PreferredPspsByOrigin"
   PreferredPspsByOrigin:
     type: object
-    properties: 
+    properties:
       "poste_datamatrix_scan":
         type: array
         items:

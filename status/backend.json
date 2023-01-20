@@ -68,7 +68,7 @@
       }
     },
     "lollipop": {
-      "enabled": false
+      "enabled": true
     },
     "pn": {
       "enabled": true,

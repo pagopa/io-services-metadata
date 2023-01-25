@@ -35,9 +35,9 @@
       "domain": "https://fims-dev-app-provider.azurewebsites.net/"
     },
     "uaDonations": {
-      "enabled": true,
+      "enabled": false,
       "banner": {
-        "visible": true,
+        "visible": false,
         "description": {
           "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
           "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"
@@ -55,7 +55,20 @@
       "dataMatrixPosteEnabled": true
     },
     "fci": {
-      "enabled": false
+      "enabled": false,
+      "min_app_version": {
+        "ios": "2.22.0.3",
+        "android": "2.22.0.3"
+      }
+    },
+    "idPay": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
+    },
+    "lollipop": {
+      "enabled": true
     },
     "pn": {
       "enabled": true,
@@ -153,11 +166,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
-      "level": "normal",
+      "is_visible": true,
+      "level": "warning",
       "message": {
-        "it-IT": "PayPal è in manutenzione, tornerà presto disponibile.",
-        "en-EN": "PayPal is under maintenance, it will be back soon."
+        "it-IT": "pagoPA non è al momento disponibile. I nostri tecnici sono al lavoro per risolvere il problema.",
+        "en-EN": "pagoPA is currently not available. Our technicians are working to fix the issue."
       }
     },
     "ingress": {

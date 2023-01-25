@@ -126,6 +126,8 @@ definitions:
         $ref: "#/definitions/Idp"
       timid:
         $ref: "#/definitions/Idp"
+      teamsystemid:
+        $ref: "#/definitions/Idp"
       cie:
         $ref: "#/definitions/Idp"
       test:

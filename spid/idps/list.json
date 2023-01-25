@@ -58,7 +58,7 @@
             "id": "teamsystemid",
             "name": "TeamSystem",
             "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-teamsystemid.png",
-            "profileUrl": ""
+            "profileUrl": "https://identity.teamsystem.com/"
           }
     ]
 }

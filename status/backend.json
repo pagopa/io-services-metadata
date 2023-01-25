@@ -166,15 +166,11 @@
       }
     },
     "wallets": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
-      "web_url": {
-        "it-IT": "https://status.pagopa.gov.it/incidents/z6mn93mpvyyd",
-        "en-EN": "https://status.pagopa.gov.it/incidents/z6mn93mpvyyd"
-      },
       "message": {
-        "it-IT": "pagoPA è in manutenzione, tornerà presto disponibile.",
-        "en-EN": "pagoPA is under maintenance, it will be back soon."
+        "it-IT": "pagoPA non è al momento disponibile. I nostri tecnici sono al lavoro per risolvere il problema.",
+        "en-EN": "pagoPA is currently not available. Our technicians are working to fix the issue."
       }
     },
     "ingress": {

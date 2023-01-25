@@ -166,7 +166,7 @@
       }
     },
     "wallets": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "pagoPA non è al momento disponibile. I nostri tecnici sono al lavoro per risolvere il problema.",

@@ -712,8 +712,7 @@ definitions:
     type: object
     description: "A configuration for the LolliPOP feature"
     required:
-      - enabled
-      - min_app_version
+      - enabled      
     properties:
       enabled:
         type: boolean

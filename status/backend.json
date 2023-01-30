@@ -142,11 +142,11 @@
       }
     },
     "messages": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
-        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
+        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
+        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
       }
     },
     "services": {
@@ -158,11 +158,11 @@
       }
     },
     "login": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
+        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
       }
     },
     "wallets": {
@@ -174,11 +174,11 @@
       }
     },
     "ingress": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "I nostri sistemi potrebbero rispondere con lentezza, ci scusiamo per il disagio.",
-        "en-EN": "Our systems may respond slowly, we apologize for the inconvenience."
+        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
+        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
       }
     },
     "bancomat": {

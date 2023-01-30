@@ -145,8 +145,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
-        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
+        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
       }
     },
     "services": {
@@ -161,8 +161,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
-        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
+        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
       }
     },
     "wallets": {
@@ -177,8 +177,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "C'è un problema con l'app, stiamo lavorando per risolverlo.",
-        "en-EN": "We are experiencing a problem with the app, we are working to solve it."
+        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
       }
     },
     "bancomat": {

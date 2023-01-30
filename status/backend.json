@@ -142,7 +142,7 @@
       }
     },
     "messages": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
@@ -158,7 +158,7 @@
       }
     },
     "login": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
@@ -174,7 +174,7 @@
       }
     },
     "ingress": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",

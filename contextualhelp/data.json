@@ -5,7 +5,7 @@
       {
         "route_name": "MESSAGE_DETAIL_ATTACHMENT",
         "title": "Anteprima del documento",
-        "content": "Qui puoi vedere l’anteprima del documento allegato al messaggio. Puoi anche salvarlo, condividerlo o aprirlo con un’app di lettura PDF installata sul tuo dispositivo.",
+        "content": "Qui puoi vedere l’anteprima del documento allegato al messaggio. Puoi anche salvarlo, condividerlo o aprirlo con un’app di lettura PDF installata sul tuo dispositivo."
       },
       {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
@@ -1262,7 +1262,7 @@
             {
         "route_name": "MESSAGE_DETAIL_ATTACHMENT",
         "title": "Document preview",
-        "content": "Here you can  see a preview of the document attached to the message. You can also save it, share it, or open it with a PDF reader app installed on your device.",
+        "content": "Here you can  see a preview of the document attached to the message. You can also save it, share it, or open it with a PDF reader app installed on your device."
       },
       {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",

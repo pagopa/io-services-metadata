@@ -3,6 +3,11 @@
   "it": {
     "screens": [
       {
+        "route_name": "MESSAGE_DETAIL_ATTACHMENT",
+        "title": "Anteprima del documento",
+        "content": "Qui puoi vedere l’anteprima del documento allegato al messaggio. Puoi anche salvarlo, condividerlo o aprirlo con un’app di lettura PDF installata sul tuo dispositivo."
+      },
+      {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
         "title": "Notifiche push",
         "content": "Qui puoi personalizzare le notifiche push.",
@@ -1254,6 +1259,11 @@
   },
   "en": {
     "screens": [
+      {
+        "route_name": "MESSAGE_DETAIL_ATTACHMENT",
+        "title": "Document preview",
+        "content": "Here you can see a preview of the document attached to the message. You can also save it, share it, or open it with a PDF reader app installed on your device."
+      },
       {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
         "title": "Push notifications",

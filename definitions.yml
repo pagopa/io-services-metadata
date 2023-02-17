@@ -735,6 +735,9 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user (signer) can digitally signs documents"
+      service_id:
+        type: string
+        description: "The service id for the Firma con IO feature"
   IdPayConfig:
     type: object
     description: "A configuration for the IdPay feature"

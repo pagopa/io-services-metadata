@@ -59,7 +59,8 @@
       "min_app_version": {
         "ios": "2.22.0.3",
         "android": "2.22.0.3"
-      }
+      },
+      "service_id": "01GQQZ9HF5GAPRVKJM1VDAVFHM"
     },
     "idPay": {
       "min_app_version": {

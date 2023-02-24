@@ -110,6 +110,8 @@ definitions:
     properties:
       arubaid:
         $ref: "#/definitions/Idp"
+      ehtid:
+        $ref: "#/definitions/Idp"
       infocertid:
         $ref: "#/definitions/Idp"
       intesaid:
@@ -124,9 +126,9 @@ definitions:
         $ref: "#/definitions/Idp"
       spiditalia:
         $ref: "#/definitions/Idp"
-      timid:
-        $ref: "#/definitions/Idp"
       teamsystemid:
+        $ref: "#/definitions/Idp"
+      timid:
         $ref: "#/definitions/Idp"
       cie:
         $ref: "#/definitions/Idp"
@@ -714,7 +716,7 @@ definitions:
     type: object
     description: "A configuration for the LolliPOP feature"
     required:
-      - enabled      
+      - enabled
     properties:
       enabled:
         type: boolean

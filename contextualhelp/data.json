@@ -109,7 +109,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in caso di password dimenticata](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
@@ -136,7 +136,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in caso di password dimenticata](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Cos’è la CIE?",
@@ -1182,6 +1182,13 @@
         "recover_password": "https://selfcarespid.aruba.it/#/recovery-password",
         "recover_emergency_code": "https://selfcarespid.aruba.it/#/recovery-emergency-code"
       },
+      "ehtid": {
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da EtnaHiTech selezionando una delle opzioni disponibili qui.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.etnaid.it/wp-content/uploads/2023/02/Guida-Utente-EtnaID.pdf).",
+        "helpdesk_form": "https://etnaid.eht.eu/signup/login?next=/signup/support",
+        "phone": "00390652978887",
+        "web_site": "https://www.etnaid.it",
+        "recover_password": "https://etnaid.eht.eu/signup/forgotPassword"
+      },
       "infocertid": {
         "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da InfoCert  selezionando una delle opzioni disponibili qui di seguito. \n Inoltre, per ulteriori informazioni puoi consultare la [le FAQ e le guide](https://help.infocert.it/Cerca?searchText=spid) fornite dal tuo Identity Provider.",
         "helpdesk_form": "https://contatta.infocert.it/ticket/",
@@ -1200,7 +1207,7 @@
         "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
       },
       "lepidaid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Lepida selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://id.lepida.it/docs/manuale_utente.pdf) fornito da tuo Identity Provider.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Lepida selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://id.lepida.it/docs/manuale_utente.pdf) fornito da tuo Identity Provider.",
         "email": "helpdesk@lepida.it",
         "helpdesk_form": "https://www.lepida.net/assistenza/richiesta-assistenza-lepidaid",
         "phone": "800445500",
@@ -1209,7 +1216,7 @@
         "recover_password": "https://id.lepida.it/lepidaid/recuperapassword"
       },
       "namirialid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Namirial selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) fornite dal tuo Identity Provider.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Namirial selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) fornite dal tuo Identity Provider.",
         "helpdesk_form": "https://servicedesk.namirial.com/hc/it",
         "phone": "003907163494",
         "web_site": "https://www.namirialtsp.com/spid/",
@@ -1217,7 +1224,7 @@
         "recover_password": "https://portal.namirialtsp.com/public/resetPassword.xhtml"
       },
       "posteid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Poste Italiane selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.poste.it/faq-poste-id.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Poste Italiane selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.poste.it/faq-poste-id.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
         "helpdesk_form": "https://www.poste.it/scrivici.html",
         "phone": "800007777",
         "web_site": "https://posteid.poste.it",
@@ -1225,21 +1232,21 @@
         "recover_password": "https://posteid.poste.it/recuperocredenziali.shtml"
       },
       "sielteid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Sielte selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.sielteid.it/faq.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://www.sielteid.it/documents/ManualeUtente.pdf).",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Sielte selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.sielteid.it/faq.html) fornite dal tuo Identity Provider ed il [Manuale Utente](https://www.sielteid.it/documents/ManualeUtente.pdf).",
         "helpdesk_form": "https://www.sielteid.it/contact.html#blocco-contatti-form",
         "phone": "00390957171301",
         "web_site": "https://www.sielteid.it/che-cos-e-sielteid.html",
         "recover_password": "https://myid.sieltecloud.it/profile/forgotPassword"
       },
       "spiditalia": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Register mediante il bottone qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.register.it/spid#pgc-23051-10-0) fornite dal tuo Identity Provider ed il [Manuale Utente](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Register mediante il bottone qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare le [FAQ](https://www.register.it/spid#pgc-23051-10-0) fornite dal tuo Identity Provider ed il [Manuale Utente](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
         "phone": "+390355787979",
         "web_site": "https://www.register.it/spid/ ",
         "recover_username": "https://spid.register.it/selfcare/recovery/username ",
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf) fornito dal tuo Identity Provider.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf) fornito dal tuo Identity Provider.",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",
@@ -1248,7 +1255,7 @@
         "recover_password": "https://login.id.tim.it/mps/fp.php"
       },
       "teamsystemid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da TeamSystem selezionando una delle opzioni disponibili qui di seguito. \nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.agid.gov.it/sites/default/files/repository_files/teamsystem_id_-_manuale_utente_selfcare_v1.1.pdf) fornito da AgID.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da TeamSystem selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.agid.gov.it/sites/default/files/repository_files/teamsystem_id_-_manuale_utente_selfcare_v1.1.pdf) fornito da AgID.",
         "helpdesk_form": "https://www.teamsystem.com/store/spid/contattaci/",
         "phone": "00390516967001",
         "web_site": "https://www.teamsystem.com/store/spid/",
@@ -1320,7 +1327,7 @@
           },
           {
             "title": "I forgot my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "I did everything right but I can't log in. What can I do?",
@@ -1347,7 +1354,7 @@
           },
           {
             "title": "I have lost my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "What is the CIE?",
@@ -1567,7 +1574,7 @@
         "title": " Privacy Policy and Terms of Service",
         "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app.",
         "faqs": [
-         {
+          {
             "title": "How is my privacy protected?",
             "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
           }
@@ -1924,7 +1931,7 @@
     ],
     "idps": {
       "arubaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Aruba by selecting  one of the options presented below.",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Aruba by selecting one of the options presented below.",
         "helpdesk_form": "https://selfcarespid.aruba.it/#/recovery-emergency-code",
         "phone": "003905750504",
         "web_site": "https://www.pec.it/richiedi-spid-aruba-id.aspx",
@@ -1932,8 +1939,15 @@
         "recover_password": "https://selfcarespid.aruba.it/#/recovery-password",
         "recover_emergency_code": "https://selfcarespid.aruba.it/#/recovery-emergency-code"
       },
+      "ehtid": {
+        "description": "For problems encountered during the authentication process, you can reach the support desk of EtnaHiTech by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://www.etnaid.it/wp-content/uploads/2023/02/Guida-Utente-EtnaID.pdf) gathered by your Identity Provider.",
+        "helpdesk_form": "https://etnaid.eht.eu/signup/login?next=/signup/support",
+        "phone": "00390652978887",
+        "web_site": "https://www.etnaid.it",
+        "recover_password": "https://etnaid.eht.eu/signup/forgotPassword"
+      },
       "infocertid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of InfoCert by selecting  one of the options presented below. \n For further details you can refer to the [FAQ](https://help.infocert.it/Cerca?searchText=spid) gathered by your Identity Provider.",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of InfoCert by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://help.infocert.it/Cerca?searchText=spid) gathered by your Identity Provider.",
         "helpdesk_form": "https://contatta.infocert.it/ticket/",
         "phone": "00390654641489",
         "web_site": "https://identitadigitale.infocert.it/",
@@ -1950,7 +1964,7 @@
         "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
       },
       "lepidaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting one of the options presented below. \n For further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",
         "email": "helpdesk@lepida.it",
         "helpdesk_form": "https://www.lepida.net/assistenza/richiesta-assistenza-lepidaid",
         "phone": "800445500",
@@ -1959,7 +1973,7 @@
         "recover_password": "https://id.lepida.it/lepidaid/recuperapassword"
       },
       "namirialid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Namirial by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://support.namirial.com/it/faq/faq-tsp/faq-tsp-spid) gathered by your Identity Provider.",
         "helpdesk_form": "https://servicedesk.namirial.com/hc/it",
         "phone": "003907163494",
         "web_site": "https://www.namirialtsp.com/spid/",
@@ -1967,7 +1981,7 @@
         "recover_password": "https://portal.namirialtsp.com/public/resetPassword.xhtml"
       },
       "posteid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Poste Italiane by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Poste Italiane by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://www.poste.it/faq-poste-id.html) gathered by your Identity Provider and the [User Guide](https://posteid.poste.it/risorse/condivise/doc/manuale_operativo.pdf).",
         "helpdesk_form": "https://www.poste.it/scrivici.html",
         "phone": "800007777",
         "web_site": "https://posteid.poste.it",
@@ -1975,21 +1989,21 @@
         "recover_password": "https://posteid.poste.it/recuperocredenziali.shtml"
       },
       "sielteid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting one of the options presented below. \n For further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://www.sielteid.it/faq.html) gathered by your Identity Provider and the [User Guide](https://www.sielteid.it/faq.html).",
         "helpdesk_form": "https://www.sielteid.it/contact.html#blocco-contatti-form",
         "phone": "00390957171301",
         "web_site": "https://www.sielteid.it/che-cos-e-sielteid.html",
         "recover_password": "https://myid.sieltecloud.it/profile/forgotPassword"
       },
       "spiditalia": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting the button below. \n For further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Sielte by selecting the button below.\nFor further details you can refer to the [FAQ](https://www.register.it/spid#pgc-23051-10-0) gathered by your Identity Provider and the [User Guide](https://spid.register.it/doc/Guida_Utente_SPID.pdf).",
         "phone": "+390355787979",
         "web_site": "https://www.register.it/spid/ ",
         "recover_username": "https://spid.register.it/selfcare/recovery/username ",
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting one of the options presented below. \n For further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",
@@ -1998,7 +2012,7 @@
         "recover_password": "https://login.id.tim.it/mps/fp.php"
       },
       "teamsystemid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of TeamSystem by selecting one of the options presented below. \n For further details you can refer to the [User Guide](https://www.agid.gov.it/sites/default/files/repository_files/teamsystem_id_-_manuale_utente_selfcare_v1.1.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of TeamSystem by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://www.agid.gov.it/sites/default/files/repository_files/teamsystem_id_-_manuale_utente_selfcare_v1.1.pdf).",
         "helpdesk_form": "https://www.teamsystem.com/store/spid/contattaci/",
         "phone": "00390516967001",
         "web_site": "https://www.teamsystem.com/store/spid/",

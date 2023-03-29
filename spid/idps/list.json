@@ -13,6 +13,12 @@
       "profileUrl": "https://etnaid.eht.eu/"
     },
     {
+      "id": "infocamereid",
+      "name": "Infocamere",
+      "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-infocamereid.png",
+      "profileUrl": "https://selfcarespid.infocamere.it/spid-selfCare/#/login"
+    },
+    {
       "id": "infocertid",
       "name": "Infocert",
       "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-infocertid.png",

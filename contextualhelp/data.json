@@ -1193,7 +1193,7 @@
         "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Infocamere selezionando una delle opzioni disponibili qui di seguito. \n Inoltre, per ulteriori informazioni puoi consultare la [le FAQ e le guide](https://supporto.infocamere.it/aswsWeb/selectLanding?idProduct=DIIP&userRole=diipud) fornite dal tuo Identity Provider.",
         "helpdesk_form": "https://supporto.infocamere.it/aswsWeb/contatti?idProduct=DIIP&userRole=diipud",
         "web_site": "https://idspid.infocamere.it/idspWeb/portale/home",
-        "recover_username": "https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryUsername",
+        "phone": "003906442851",
         "recover_password": "https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryPassword"
       },
       "infocertid": {
@@ -1957,7 +1957,7 @@
         "description": "For problems encountered during the authentication process, you can reach the support desk of Infocamere by selecting one of the options presented below.\nFor further details you can refer to the [FAQ](https://supporto.infocamere.it/aswsWeb/selectLanding?idProduct=DIIP&userRole=diipud) gathered by your Identity Provider.",
         "helpdesk_form": "https://supporto.infocamere.it/aswsWeb/contatti?idProduct=DIIP&userRole=diipud",
         "web_site": "https://idspid.infocamere.it/idspWeb/portale/home",
-        "recover_username": "https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryUsername",
+        "phone": "00390652978887",
         "recover_password": "https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryPassword"
       },
       "infocertid": {

@@ -112,6 +112,8 @@ definitions:
         $ref: "#/definitions/Idp"
       ehtid:
         $ref: "#/definitions/Idp"
+      infocamereid:
+        $ref: "#/definitions/Idp"
       infocertid:
         $ref: "#/definitions/Idp"
       intesaid:

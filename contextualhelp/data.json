@@ -109,7 +109,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
@@ -136,7 +136,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Cos’è la CIE?",
@@ -1203,16 +1203,7 @@
         "web_site": "https://identitadigitale.infocert.it/",
         "recover_username": "https://help.infocert.it/home/faq/come-posso-recuperare-la-user-id-di-accesso-alla-mia-identita-digitale",
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
-      },
-      "intesaid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Intesa selezionando una delle opzioni disponibili qui di seguito.",
-        "email": "hdintesa@advalia.com",
-        "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
-        "phone": "800805093",
-        "phone_international": "00390287119396",
-        "web_site": "https://www.intesa.it/intesaid",
-        "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
-      },
+      },      
       "lepidaid": {
         "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Lepida selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://id.lepida.it/docs/manuale_utente.pdf) fornito da tuo Identity Provider.",
         "email": "helpdesk@lepida.it",
@@ -1334,7 +1325,7 @@
           },
           {
             "title": "I forgot my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "I did everything right but I can't log in. What can I do?",
@@ -1361,7 +1352,7 @@
           },
           {
             "title": "I have lost my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "What is the CIE?",
@@ -1967,15 +1958,6 @@
         "web_site": "https://identitadigitale.infocert.it/",
         "recover_username": "https://help.infocert.it/home/faq/come-posso-recuperare-la-user-id-di-accesso-alla-mia-identita-digitale",
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
-      },
-      "intesaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Intesa by selecting one of the options presented below.",
-        "email": "hdintesa@advalia.com",
-        "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
-        "phone": "800805093",
-        "phone_international": "00390287119396",
-        "web_site": "https://www.intesa.it/intesaid",
-        "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
       },
       "lepidaid": {
         "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",

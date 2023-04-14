@@ -37,7 +37,8 @@
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
             "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
-          }]},
+          }]
+      },
       {
         "route_name": "FCI_USER_DATA_SHARE",
         "title": "Condivisione dei dati",
@@ -54,7 +55,8 @@
           {
             "title": "Cosa posso fare se ho ricevuto una richiesta di firma ma è scaduto il termine?",
             "body": "Puoi contattare l’ente che ha inviato il documento e chiedere di inviarti una nuova richiesta."
-          },
+          }]
+      },
       {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
         "title": "Notifiche push",
@@ -1366,7 +1368,7 @@
         "recover_password": "https://spid.teamsystem.com/it/auth/passwordLost"
       }
     }
-  }],
+  },
   "en": {
     "screens": [
       {
@@ -2131,4 +2133,4 @@
       }
     }
   }
-}}
+}

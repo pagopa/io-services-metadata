@@ -18,12 +18,13 @@
           },
           {
             "title": "Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
-            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO.”
+            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
             "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
-          },
+          }]
+      },
       {
         "route_name": "FCI_SIGNATURE_FIELDS",
         "title": "Campi da firmare",
@@ -31,12 +32,12 @@
         "faqs": [
           {
             "title": "Perché devo firmare più volte?",
-            "body": "È possibile che per alcuni documenti siano richiesti diversi tipi di firme, ognuna con un diverso valore.\n Per far sì che un documento sia valido, le firme obbligatorie sono sempre necessarie.\n Alcuni documenti prevedono le  clausole vessatorie. Anche queste sono firme obbligatorie, se non le selezioni non puoi proseguire. Ti segnalano condizioni particolari a cui prestare attenzione. Devono essere per legge facilmente identificabili per far sì che chi firma sia informato del loro contenuto prima di apporre la firma.\n Le firme facoltative, invece, servono a confermare o accettare alcune condizioni; in questo caso, puoi scegliere se apporre o meno la tua firma.”
+            "body": "È possibile che per alcuni documenti siano richiesti diversi tipi di firme, ognuna con un diverso valore.\n Per far sì che un documento sia valido, le firme obbligatorie sono sempre necessarie.\n Alcuni documenti prevedono le  clausole vessatorie. Anche queste sono firme obbligatorie, se non le selezioni non puoi proseguire. Ti segnalano condizioni particolari a cui prestare attenzione. Devono essere per legge facilmente identificabili per far sì che chi firma sia informato del loro contenuto prima di apporre la firma.\n Le firme facoltative, invece, servono a confermare o accettare alcune condizioni; in questo caso, puoi scegliere se apporre o meno la tua firma."
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
             "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
-          },
+          }]},
       {
         "route_name": "FCI_USER_DATA_SHARE",
         "title": "Condivisione dei dati",
@@ -65,7 +66,7 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
@@ -80,7 +81,7 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
@@ -95,7 +96,7 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
@@ -728,7 +729,7 @@
           {
             "title": "Vuoi contattare l'ente?",
             "body": "Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
-          }
+          },
           {
             "title": "Cosa serve per firmare un documento tramite l’app IO?",
             "body": "È sufficiente digitare il codice di sblocco dell’app o utilizzare il riconoscimento biometrico al momento della firma."
@@ -743,28 +744,28 @@
           },
           {
             "title": "Dove trovo i documenti che ho firmato?",
-            "body": "Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio.”
+            "body": "Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
           },
           {
             "title": "Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
-            "body": "Contatta l’assistenza. Per farlo, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO.”
+            "body": "Contatta l’assistenza. Per farlo, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
           },
           {
             "title": "Posso firmare dei documenti per conto di un’altra persona?",
-            "body": "No. La persona a cui viene richiesta la firma deve coincidere con la persona che ha effettuato l’accesso in app.”
+            "body": "No. La persona a cui viene richiesta la firma deve coincidere con la persona che ha effettuato l’accesso in app."
           },
           {
             "title": "Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
-            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO.”
+            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
           },
           {
             "title": "Un documento è stato firmato con le mie credenziali ma senza il mio consenso. Cosa posso fare?",
-            "body": "Puoi segnalarlo all’assistenza. Vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO.”
+            "body": "Puoi segnalarlo all’assistenza. Vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
           },
           {
             "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
-            "body": "Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO.”
-          },
+            "body": "Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+          }
         ]
       },
       {
@@ -1365,7 +1366,7 @@
         "recover_password": "https://spid.teamsystem.com/it/auth/passwordLost"
       }
     }
-  },
+  }],
   "en": {
     "screens": [
       {
@@ -2130,4 +2131,4 @@
       }
     }
   }
-}
+}}

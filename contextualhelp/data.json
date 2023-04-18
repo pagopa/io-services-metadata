@@ -712,7 +712,7 @@
         ]
       },
       {
-        "route_name": "MESSAGE_DETAIL",
+        "route_name": "MESSAGE_DETAIL_PAGINATED",
         "title": "Dettagli del messaggio",
         "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
@@ -1195,7 +1195,7 @@
         ]
       },
       {
-        "route_name": "MESSAGES_HOME",
+        "route_name": "MESSAGES_INBOX",
         "title": "Cosa puoi fare nei tuoi Messaggi",
         "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
         "faqs": [

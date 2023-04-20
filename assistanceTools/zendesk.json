@@ -98,39 +98,6 @@
         }
       },
       {
-        "value": "certificazione_verde_covid-19",
-        "description": {
-          "it-IT": "Certificazione Verde COVID-19",
-          "en-EN": "EU Digital COVID Certificate"
-        },
-        "zendeskSubCategories": {
-          "id": "360029178738",
-          "subCategories": [
-            {
-              "value": "non_ho_ricevuto_nulla",
-              "description": {
-                "it-IT": "Non ho ricevuto la Certificazione",
-                "en-EN": "I haven't received the Certificate"
-              }
-            },
-            {
-              "value": "problemi_tecnici_su_io",
-              "description": {
-                "it-IT": "Ho un problema con IO",
-                "en-EN": "I have a problem with IO"
-              }
-            },
-            {
-              "value": "informazioni_generali",
-              "description": {
-                "it-IT": "Vorrei più informazioni",
-                "en-EN": "I would like to have more information"
-              }
-            }
-          ]
-        }
-      },
-      {
         "value": "carta_giovani_nazionale",
         "description": {
           "it-IT": "Carta Giovani Nazionale",
@@ -158,6 +125,65 @@
               "description": {
                 "it-IT": "Ho un altro problema",
                 "en-EN": "I have a different issue"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "value": "firma_con_io",
+        "description": {
+          "it-IT": "Firma con IO",
+          "en-EN": "Firma con IO"
+        },
+        "zendeskSubCategories": {
+          "id": "14506152434193",
+          "subCategories": [
+            {
+              "value": "firma_problemi_tecnici_su_io",
+              "description": {
+                "it-IT": "Ho un problema con IO",
+                "en-EN": "I have an issue with IO"
+              }
+            },
+            {
+              "value": "firma_informazioni_generali",
+              "description": {
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "I'd like to have more information"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "value": "certificazione_verde_covid-19",
+        "description": {
+          "it-IT": "Certificazione Verde COVID-19",
+          "en-EN": "EU Digital COVID Certificate"
+        },
+        "zendeskSubCategories": {
+          "id": "360029178738",
+          "subCategories": [
+            {
+              "value": "non_ho_ricevuto_nulla",
+              "description": {
+                "it-IT": "Non ho ricevuto la Certificazione",
+                "en-EN": "I haven't received the Certificate"
+              }
+            },
+            {
+              "value": "problemi_tecnici_su_io",
+              "description": {
+                "it-IT": "Ho un problema con IO",
+                "en-EN": "I have a problem with IO"
+              }
+            },
+            {
+              "value": "informazioni_generali",
+              "description": {
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "I would like to have more information"
               }
             }
           ]

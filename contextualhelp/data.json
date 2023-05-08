@@ -288,8 +288,8 @@
         "content": "Qui puoi visualizzare il tuo nome e cognome e modificare l’indirizzo e-mail associato a IO.",
         "faqs": [
           {
-            "title": "Come posso eliminare il mio account e cancellare i miei dati?",
-            "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+            "title": "Voglio modificare i dati anagrafici del mio profilo su IO. Come posso fare?",
+            "body": "I dati che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO. Se hai effettuato l’accesso con CIE, hai aggiunto manualmente il tuo indirizzo email. Se vuoi modificare l’indirizzo email, vai in Profilo > I tuoi dati e seleziona Indirizzo email > Modifica email. Se vuoi modificare il nome, cognome e Codice Fiscale rivolgiti al tuo Identity Provider per lo SPID, o all’Istituto Poligrafico e Zecca dello Stato per la CIE. Se hai già modificato i dati, per visualizzarli su IO devi uscire dall’app e accedere di nuovo."
           },
           {
             "title": "Come posso modificare il mio indirizzo email?",
@@ -1556,8 +1556,8 @@
             "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
           },
           {
-            "title": "How I change my email address?",
-            "body": "Tap 'Email Address', then 'Change Email' and enter the new address."
+            "title": "I want to edit the personal data of my profile. How can I do this?",
+            "body": "The data you see in Profile > Your data come from the SPID or CIE you used to log in. If you are logged in with CIE, you manually added your email address. If you want to edit the email address, go to Profile > Your data and select email address > Edit email. If you want to edit the first and last name or Fiscal Code, contact your Identity Provider for SPID, or the Istituto Poligrafico e Zecca dello Stato for CIE. If you have already edited the data, you must log out and log in again to see it."
           }
         ]
       },

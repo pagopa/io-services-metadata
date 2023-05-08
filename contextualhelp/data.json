@@ -105,46 +105,66 @@
       {
         "route_name": "PN_ROUTES_MESSAGE_DETAILS",
         "title": "Dettagli della notifica",
-        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese.",
+        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare i documenti allegati e pagare eventuali spese.",
         "faqs": [
           {
             "title": "Cos'è una notifica?",
-            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione pubblica, come multe, avvisi di accertamento di tributi, esiti di pratiche amministrative o rimborsi, che fino ad ora hai ricevuto tramite raccomandata."
+            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione come multe, avvisi di accertamento di tributi o rimborsi. Le 'notifiche' sono quindi diverse dalle 'notifiche push', cioè quei brevi messaggi che ricevi sullo schermo del tuo dispositivo. Fino ad ora, queste comunicazioni venivano inviate quasi sempre tramite raccomandata cartacea. Adesso, invece, potrai riceverle in digitale."
           },
           {
-            "title": "Cos'è Piattaforma Notifiche?",
-            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app. In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](https://www.notifichedigitali.pagopa.it/)."
+            "title": "Cosa significa che una comunicazione è a valore legale?",
+            "body": "Significa che l’invio e la ricezione di queste comunicazioni producono degli effetti giuridici sia nei confronti di chi le invia che di chi le riceve. Per esempio, se ricevi una multa per violazione del codice stradale, la data in cui la ricevi incide sull’importo che dovrai pagare o sulla tua facoltà di contestarla."
           },
           {
-            "title": "Come funziona?",
-            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, app IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](cittadini.notifichedigitali.it) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, app IO, email o numero di telefono. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
+            "title": "Cos'è SEND?",
+            "body": "È una piattaforma che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di riceverle, scaricare i documenti notificati e pagare eventuali spese nell’app IO o sulla piattaforma SEND - Servizio Notifiche Digitali. Per maggiori informazioni, [visita il sito di SEND] (https://notifichedigitali.pagopa.it)."
           },
           {
-            "title": "Perché ricevo questo messaggio?",
-            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
+            "title": "Perché ho ricevuto questo messaggio?",
+            "body": "Perché hai attivato il servizio 'Notifiche digitali' di SEND e un ente ha una notifica per te. Aprire il messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
           },
           {
             "title": "Ho aperto il messaggio. Ora cosa devo fare?",
-            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
+            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare i documenti allegati e pagare event'ali spese direttamente in app."
           },
           {
             "title": "Ho aperto il messaggio. Cosa succede se lo ignoro?",
             "body": "Avendo aperto il messaggio, non pagare eventuali spese o ignorare il suo contenuto è come ignorare una raccomandata cartacea."
           },
           {
-            "title": "Ho un problema con questa notifica. Come posso fare?",
-            "body": "Se hai problemi o domande relative al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+            "title": "Ho un problema con questa notifica. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto della notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, per esempio non riesci a visualizzare i documenti allegati al messaggio o non riesci a pagare le spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
+          },
+          {
+            "title": "Per quanto tempo restano disponibili in app i documenti della notifica?",
+            "body": "Per 120 giorni a partire dalla data di perfezionamento. Oltre quel termine, non potrai più visualizzarli né su IO né su SEND. Dovrai contattare l’ente che te li ha inviati."
+          },
+          {
+            "title": "Cosa significa 'perfezionamento'?",
+            "body": "Quando una notifica si perfeziona, significa che assume valore di legge per tutte le diverse finalità. Per esempio, dalla data di perfezionamento di una notifica decorrono i termini per esercitare i relativi diritti, impugnare atti, pagare sanzioni."
+          },
+          {
+            "title": "Quando si perfeziona una notifica?",
+            "body": "Una notifica si perfeziona in momenti diversi per l’ente che la invia e per il destinatario che la riceve. Per chi la invia, si perfeziona nella data in cui il documento da notificare è reso disponibile in piattaforma. Per chi la riceve, il perfezionamento dipende da come riceve o legge la notifica. [Vai qui](https://notifichedigitali.pagopa.it/perfezionamento) per conoscere i tempi di perfezionamento di una notifica a seconda del canale con cui la si riceve o visualizza."
+          },
+          {
+            "title": "Come posso sapere quando una notifica si è perfezionata?",
+            "body": "Nel dettaglio della notifica, premi 'Accedi alla versione web'. Troverai questa informazione sulla destra, nella sezione 'Stato della notifica'."
           }
         ]
       },
       {
         "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
-        "title": "Gli allegati della notifica",
-        "content": "Qui puoi visualizzare, salvare e condividere gli allegati della notifica.",
+        "title": "I documenti allegati alla notifica",
+        "content": "Qui puoi visualizzare, salvare e condividere i documenti allegati alla notifica.",
         "faqs": [
           {
-            "title": "Ho un problema con un allegato. Cosa posso fare?",
-            "body": "Se hai problemi o domande relative al contenuto degli allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+            "title": "Ho un problema con un documento allegato. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto dei documenti allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
+          },
+          {
+            "title": "Ho un problema con questa notifica. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto della notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, per esempio non riesci a visualizzare i documenti allegati al messaggio o non riesci a pagare le spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
           }
         ]
       },

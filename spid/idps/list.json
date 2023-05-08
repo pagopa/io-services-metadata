@@ -37,6 +37,12 @@
       "profileUrl": "https://idp.namirialtsp.com/idp"
     },
     {
+      "id": "posteid",
+      "name": "Poste",
+      "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-posteid.png",
+      "profileUrl": "https://posteid.poste.it/private/cruscotto.shtml"
+    },
+    {
       "id": "sielteid",
       "name": "Sielte",
       "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-sielteid.png",

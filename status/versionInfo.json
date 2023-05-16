@@ -8,8 +8,8 @@
     "android": "0.0.0"
   },
   "latest_released_app_version" : {
-    "ios": "2.31.0.3",
-    "android": "2.31.0.3"
+    "ios": "2.32.0.1",
+    "android": "2.32.0.1"
   },
   "rollout_app_version" : {
     "ios": "0.0.0",

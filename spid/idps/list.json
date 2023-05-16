@@ -23,13 +23,7 @@
       "name": "Infocert",
       "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-infocertid.png",
       "profileUrl": "https://my.infocert.it/selfcare"
-    },
-    {
-      "id": "intesaid",
-      "name": "Intesa",
-      "logo": "https://assets.cdn.io.italia.it/spid/idps/spid-idp-intesaid.png",
-      "profileUrl": "https://spid.intesa.it"
-    },
+    },    
     {
       "id": "lepidaid",
       "name": "Lepida",

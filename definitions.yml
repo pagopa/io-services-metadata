@@ -115,9 +115,7 @@ definitions:
       infocamereid:
         $ref: "#/definitions/Idp"
       infocertid:
-        $ref: "#/definitions/Idp"
-      intesaid:
-        $ref: "#/definitions/Idp"
+        $ref: "#/definitions/Idp"      
       lepidaid:
         $ref: "#/definitions/Idp"
       namirialid:

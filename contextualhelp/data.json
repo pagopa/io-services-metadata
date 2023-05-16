@@ -8,6 +8,56 @@
         "content": "Qui puoi vedere l’anteprima del documento allegato al messaggio. Puoi anche salvarlo, condividerlo o aprirlo con un’app di lettura PDF installata sul tuo dispositivo."
       },
       {
+        "route_name": "FCI_DOCUMENTS",
+        "title": "Documento",
+        "content": "Qui puoi vedere l’anteprima del documento da firmare",
+        "faqs": [
+          {
+            "title": "Cosa posso fare se ci sono errori in un documento da firmare?",
+            "body": "Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
+          },
+          {
+            "title": "Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
+            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          }]
+      },
+      {
+        "route_name": "FCI_SIGNATURE_FIELDS",
+        "title": "Campi da firmare",
+        "content": "Qui puoi vedere l’elenco delle firme richieste nel documento e selezionare quelle da apporre. Le firme obbligatorie, in quanto tali, sono già selezionate",
+        "faqs": [
+          {
+            "title": "Perché devo firmare più volte?",
+            "body": "È possibile che per alcuni documenti siano richiesti diversi tipi di firme, ognuna con un diverso valore.\n Per far sì che un documento sia valido, le firme obbligatorie sono sempre necessarie.\n Alcuni documenti prevedono le  clausole vessatorie. Anche queste sono firme obbligatorie, se non le selezioni non puoi proseguire. Ti segnalano condizioni particolari a cui prestare attenzione. Devono essere per legge facilmente identificabili per far sì che chi firma sia informato del loro contenuto prima di apporre la firma.\n Le firme facoltative, invece, servono a confermare o accettare alcune condizioni; in questo caso, puoi scegliere se apporre o meno la tua firma."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          }]
+      },
+      {
+        "route_name": "FCI_USER_DATA_SHARE",
+        "title": "Condivisione dei dati",
+        "content": "Qui puoi visionare i dati che verranno condivisi con il fornitore della firma digitale.",
+        "faqs": [
+          {
+            "title": "Perché devo condividere i miei dati?",
+            "body": "I dati che condividi serviranno al fornitore della firma digitale per offrirti il servizio e certificare la tua firma."
+          },
+          {
+            "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
+            "body": "In questo caso dovrai contattare direttamente l’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+          },
+          {
+            "title": "Cosa posso fare se ho ricevuto una richiesta di firma ma è scaduto il termine?",
+            "body": "Puoi contattare l’ente che ha inviato il documento e chiedere di inviarti una nuova richiesta."
+          }]
+      },
+      {
         "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
         "title": "Notifiche push",
         "content": "Qui puoi personalizzare le notifiche push.",
@@ -18,7 +68,7 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
@@ -33,7 +83,7 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
@@ -48,53 +98,73 @@
           },
           {
             "title": "Cosa significa 'Consenti promemoria'?",
-            "body": "Attivando l’opzione “Consenti promemoria”, su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
+            "body": "Attivando l’opzione 'Consenti promemoria', su richiesta dell’ente riceverai notifiche push in prossimità di scadenze o quando hai dei messaggi non letti."
           }
         ]
       },
       {
         "route_name": "PN_ROUTES_MESSAGE_DETAILS",
         "title": "Dettagli della notifica",
-        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese.",
+        "content": "Questo messaggio contiene una notifica, ovvero una comunicazione a valore legale. Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te. Qui puoi leggere il contenuto della notifica, visualizzare i documenti allegati e pagare eventuali spese.",
         "faqs": [
           {
             "title": "Cos'è una notifica?",
-            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione pubblica, come multe, avvisi di accertamento di tributi, esiti di pratiche amministrative o rimborsi, che fino ad ora hai ricevuto tramite raccomandata."
+            "body": "Le notifiche sono comunicazioni a valore legale emesse in via ufficiale da un'amministrazione come multe, avvisi di accertamento di tributi o rimborsi. Le 'notifiche' sono quindi diverse dalle 'notifiche push', cioè quei brevi messaggi che ricevi sullo schermo del tuo dispositivo. Fino ad ora, queste comunicazioni venivano inviate quasi sempre tramite raccomandata cartacea. Adesso, invece, potrai riceverle in digitale."
           },
           {
-            "title": "Cos'è Piattaforma Notifiche?",
-            "body": "È una piattaforma innovativa che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di leggerle, scaricare i documenti allegati e pagare eventuali spese direttamente online o in app. In questo momento, la piattaforma è in fase di collaudo. Progressivamente, verrà adottata dalle Pubbliche Amministrazioni e utilizzata per inviare notifiche a tutti i cittadini. Per maggiori informazioni, visita [questo sito](https://www.notifichedigitali.pagopa.it/)."
+            "title": "Cosa significa che una comunicazione è a valore legale?",
+            "body": "Significa che l’invio e la ricezione di queste comunicazioni producono degli effetti giuridici sia nei confronti di chi le invia che di chi le riceve. Per esempio, se ricevi una multa per violazione del codice stradale, la data in cui la ricevi incide sull’importo che dovrai pagare o sulla tua facoltà di contestarla."
           },
           {
-            "title": "Come funziona?",
-            "body": "Per inviare una comunicazione a valore legale, Piattaforma Notifiche dà la priorità ai tuoi recapiti digitali, ovvero PEC, app IO, email o numero di telefono. Anzitutto cerca nei suoi archivi e nei registri pubblici una PEC riconducibile a te e invia l’avviso di avvenuta ricezione. Poi, invia un avviso di cortesia agli altri tuoi recapiti digitali (app IO, email e numero di telefono). Se non hai indicato alcun recapito digitale e non hai accesso alla piattaforma, questa procede con la ricerca di un tuo indirizzo fisico, e quindi con l’invio tramite raccomandata cartacea. In ogni momento, puoi [accedere alla piattaforma](cittadini.notifichedigitali.it) con SPID e CIE per indicare o aggiornare le tue preferenze tra PEC, app IO, email o numero di telefono. Se non hai un recapito digitale né accesso alla piattaforma, continuerai a ricevere le notifiche tramite raccomandata cartacea."
+            "title": "Cos'è SEND?",
+            "body": "È una piattaforma che digitalizza e semplifica la gestione delle notifiche: ti permette infatti di riceverle, scaricare i documenti notificati e pagare eventuali spese nell’app IO o sulla piattaforma SEND - Servizio Notifiche Digitali. Per maggiori informazioni, [visita il sito di SEND] (https://notifichedigitali.pagopa.it)."
           },
           {
-            "title": "Perché ricevo questo messaggio?",
-            "body": "In questo momento, alcune funzionalità di Piattaforma Notifiche sono in fase di collaudo da parte di alcuni enti pilota, che la stanno utilizzando per inviare notifiche a un numero limitato di utenti. Se hai ricevuto questo messaggio, significa che hai attivato il servizio ‘Notifiche digitali’ di Piattaforma Notifiche e che un ente che partecipa al collaudo ha una notifica per te. Aprire questo messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
+            "title": "Perché ho ricevuto questo messaggio?",
+            "body": "Perché hai attivato il servizio 'Notifiche digitali' di SEND e un ente ha una notifica per te. Aprire il messaggio su IO e, di conseguenza, visualizzare il contenuto della notifica, equivale a firmare la ricevuta di ritorno di una raccomandata tradizionale."
           },
           {
             "title": "Ho aperto il messaggio. Ora cosa devo fare?",
-            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare gli allegati e pagare eventuali spese direttamente in app."
+            "body": "Avendo aperto il messaggio, la notifica risulta legalmente recapitata a te: è come se avessi firmato la ricevuta di ritorno di una raccomandata tradizionale. Puoi leggere il contenuto della notifica, visualizzare i documenti allegati e pagare eventuali spese direttamente in app."
           },
           {
             "title": "Ho aperto il messaggio. Cosa succede se lo ignoro?",
             "body": "Avendo aperto il messaggio, non pagare eventuali spese o ignorare il suo contenuto è come ignorare una raccomandata cartacea."
           },
           {
-            "title": "Ho un problema con questa notifica. Come posso fare?",
-            "body": "Se hai problemi o domande relative al contenuto di questa notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, come per esempio con la visualizzazione del messaggio e dei suoi allegati o con il pagamento delle spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+            "title": "Ho un problema con questa notifica. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto della notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, per esempio non riesci a visualizzare i documenti allegati al messaggio o non riesci a pagare le spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
+          },
+          {
+            "title": "Per quanto tempo restano disponibili in app i documenti della notifica?",
+            "body": "Per 120 giorni a partire dalla data di perfezionamento. Oltre quel termine, non potrai più visualizzarli né su IO né su SEND. Dovrai contattare l’ente che te li ha inviati."
+          },
+          {
+            "title": "Cosa significa 'perfezionamento'?",
+            "body": "Quando una notifica si perfeziona, significa che assume valore di legge per tutte le diverse finalità. Per esempio, dalla data di perfezionamento di una notifica decorrono i termini per esercitare i relativi diritti, impugnare atti, pagare sanzioni."
+          },
+          {
+            "title": "Quando si perfeziona una notifica?",
+            "body": "Una notifica si perfeziona in momenti diversi per l’ente che la invia e per il destinatario che la riceve. Per chi la invia, si perfeziona nella data in cui il documento da notificare è reso disponibile in piattaforma. Per chi la riceve, il perfezionamento dipende da come riceve o legge la notifica. [Vai qui](https://notifichedigitali.pagopa.it/perfezionamento) per conoscere i tempi di perfezionamento di una notifica a seconda del canale con cui la si riceve o visualizza."
+          },
+          {
+            "title": "Come posso sapere quando una notifica si è perfezionata?",
+            "body": "Nel dettaglio della notifica, premi 'Accedi alla versione web'. Troverai questa informazione sulla destra, nella sezione 'Stato della notifica'."
           }
         ]
       },
       {
         "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
-        "title": "Gli allegati della notifica",
-        "content": "Qui puoi visualizzare, salvare e condividere gli allegati della notifica.",
+        "title": "I documenti allegati alla notifica",
+        "content": "Qui puoi visualizzare, salvare e condividere i documenti allegati alla notifica.",
         "faqs": [
           {
-            "title": "Ho un problema con un allegato. Cosa posso fare?",
-            "body": "Se hai problemi o domande relative al contenuto degli allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di Piattaforma Notifiche."
+            "title": "Ho un problema con un documento allegato. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto dei documenti allegati, contatta l’ente che ti ha inviato la notifica. Se hai problemi tecnici, per esempio non riesci ad aprire gli allegati, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
+          },
+          {
+            "title": "Ho un problema con questa notifica. Cosa posso fare?",
+            "body": "Se hai problemi o domande relative al contenuto della notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, per esempio non riesci a visualizzare i documenti allegati al messaggio o non riesci a pagare le spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
           }
         ]
       },
@@ -109,7 +179,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
@@ -136,7 +206,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in caso di password dimenticata](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Cos’è la CIE?",
@@ -662,7 +732,7 @@
         ]
       },
       {
-        "route_name": "MESSAGE_DETAIL",
+        "route_name": "MESSAGE_DETAIL_PAGINATED",
         "title": "Dettagli del messaggio",
         "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
@@ -681,6 +751,42 @@
           {
             "title": "Vuoi contattare l'ente?",
             "body": "Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+          },
+          {
+            "title": "Cosa serve per firmare un documento tramite l’app IO?",
+            "body": "È sufficiente digitare il codice di sblocco dell’app o utilizzare il riconoscimento biometrico al momento della firma."
+          },
+          {
+            "title": "Cosa posso fare se ci sono errori in un documento da firmare?",
+            "body": "Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          },
+          {
+            "title": "Dove trovo i documenti che ho firmato?",
+            "body": "Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
+          },
+          {
+            "title": "Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
+            "body": "Contatta l’assistenza. Per farlo, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          },
+          {
+            "title": "Posso firmare dei documenti per conto di un’altra persona?",
+            "body": "No. La persona a cui viene richiesta la firma deve coincidere con la persona che ha effettuato l’accesso in app."
+          },
+          {
+            "title": "Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
+            "body": "Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          },
+          {
+            "title": "Un documento è stato firmato con le mie credenziali ma senza il mio consenso. Cosa posso fare?",
+            "body": "Puoi segnalarlo all’assistenza. Vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+          },
+          {
+            "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
+            "body": "Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
           }
         ]
       },
@@ -1109,17 +1215,17 @@
         ]
       },
       {
-        "route_name": "MESSAGES_HOME",
+        "route_name": "MESSAGES_INBOX",
         "title": "Cosa puoi fare nei tuoi Messaggi",
         "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
         "faqs": [
           {
             "title": "Che tipo di messaggi posso ricevere?",
-            "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
+            "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti o richieste di firma di documenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
           },
           {
             "title": "Cosa posso fare nei miei messaggi?",
-            "body": "All’interno dei messaggi, puoi:\n- visualizzare un’informazione, come per esempio il Codice QR della tua Certificazione Verde;\n- fissare un promemoria per ricordarti di una scadenza;\n- procedere al pagamento di un avviso."
+            "body": "All’interno dei messaggi, puoi:\n- visualizzare un’informazione, come per esempio il Codice QR della tua Certificazione Verde;\n- fissare un promemoria per ricordarti di una scadenza;\n- procedere al pagamento di un avviso;\n- procedere con la firma di documenti."
           },
           {
             "title": "Come posso archiviare un messaggio?",
@@ -1132,6 +1238,18 @@
           {
             "title": "Perché non vedo più la scheda 'In scadenza'?",
             "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata 'In scadenza'. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
+          },
+          {
+            "title": "Posso firmare un documento tramite l’app IO?",
+            "body": "Sì. L’ente invia un messaggio direttamente in app con il documento da firmare. Segui le indicazioni ed utilizza il tuo codice di sblocco o il riconoscimento biometrico per firmare."
+          },
+          {
+            "title": "Cosa posso fare se ci sono errori in un documento da firmare?",
+            "body": "Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -1203,16 +1321,7 @@
         "web_site": "https://identitadigitale.infocert.it/",
         "recover_username": "https://help.infocert.it/home/faq/come-posso-recuperare-la-user-id-di-accesso-alla-mia-identita-digitale",
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
-      },
-      "intesaid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Intesa selezionando una delle opzioni disponibili qui di seguito.",
-        "email": "hdintesa@advalia.com",
-        "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
-        "phone": "800805093",
-        "phone_international": "00390287119396",
-        "web_site": "https://www.intesa.it/intesaid",
-        "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
-      },
+      },      
       "lepidaid": {
         "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Lepida selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://id.lepida.it/docs/manuale_utente.pdf) fornito da tuo Identity Provider.",
         "email": "helpdesk@lepida.it",
@@ -1334,7 +1443,7 @@
           },
           {
             "title": "I forgot my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "I did everything right but I can't log in. What can I do?",
@@ -1361,7 +1470,7 @@
           },
           {
             "title": "I have lost my SPID credentials. What can I do?",
-            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Intesa, in case of forgotten password](https://spid.intesa.it/area-privata/forgot-password.aspx), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "What is the CIE?",
@@ -1967,15 +2076,6 @@
         "web_site": "https://identitadigitale.infocert.it/",
         "recover_username": "https://help.infocert.it/home/faq/come-posso-recuperare-la-user-id-di-accesso-alla-mia-identita-digitale",
         "recover_password": "https://my.infocert.it/selfcare/#/recoveryPin"
-      },
-      "intesaid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Intesa by selecting one of the options presented below.",
-        "email": "hdintesa@advalia.com",
-        "helpdesk_form": "https://www.hda.intesa.it/area-clienti",
-        "phone": "800805093",
-        "phone_international": "00390287119396",
-        "web_site": "https://www.intesa.it/intesaid",
-        "recover_password": "https://spid.intesa.it/area-privata/recupera-password.aspx"
       },
       "lepidaid": {
         "description": "For problems encountered during the authentication process, you can reach the support desk of Lepida by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://id.lepida.it/docs/manuale_utente.pdf).",

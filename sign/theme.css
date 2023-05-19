@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Titillium Web";
+  font-weight: bold;
+  src: url(./TitilliumWeb-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  src: url(./TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+body {
+  --io-primary-color: #0073e6;
+  --io-font-family: "Titillium Web";
+}

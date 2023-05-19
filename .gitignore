@@ -5,3 +5,5 @@ yarn-error.log
 generated
 .DS_Store
 *.js
+
+!sign/io-sign.js

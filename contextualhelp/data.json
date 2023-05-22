@@ -314,7 +314,7 @@
           {
             "title": "Come posso modificare il mio indirizzo e-mail?",
             "body": "L’indirizzo e-mail che vedi nel Profilo è quello che hai aggiunto durante il primo accesso. Se vuoi modificarlo, vai in Profilo > I tuoi dati e seleziona Indirizzo email > Modifica email."
-          }
+          },
           {
             "title": "Nel mio profilo c’è un errore nel nome, cognome o Codice Fiscale. Come posso fare?",
             "body": "Il nome, cognome e Codice Fiscale che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO. Se vedi un errore, rivolgiti al tuo Identity Provider per lo SPID e al Comune di rilascio per la CIE."

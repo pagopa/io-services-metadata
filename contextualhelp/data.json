@@ -179,7 +179,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Puoi recuperare username e password in qualsiasi momento. Scegli dall’elenco il tuo Identity Provider per sapere come procedere:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere]((https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, se hai dimenticato l’username](https://spid.register.it/selfcare/recovery/username)\n -[Register, se hai dimenticato la password](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, se hai dimenticato l’username](https://login.id.tim.it/mps/fu.php)\n -[Tim, se hai dimenticato la password](https://login.id.tim.it/mps/fp.php)\n -[TeamSystem,se hai dimenticato l’username](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, se hai dimenticato la password](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
@@ -312,8 +312,12 @@
             "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
           },
           {
-            "title": "Come posso modificare il mio indirizzo email?",
-            "body": "Premi 'Indirizzo email', poi seleziona 'Modifica email' e inserisci il nuovo indirizzo."
+            "title": "Come posso modificare il mio indirizzo e-mail?",
+            "body": "L’indirizzo e-mail che vedi nel Profilo è quello che hai aggiunto durante il primo accesso. Se vuoi modificarlo, vai in Profilo > I tuoi dati e seleziona Indirizzo email > Modifica email."
+          },
+          {
+            "title": "Nel mio profilo c’è un errore nel nome, cognome o Codice Fiscale. Come posso fare?",
+            "body": "Il nome, cognome e Codice Fiscale che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO. Se vedi un errore, rivolgiti al tuo Identity Provider per lo SPID e al Comune di rilascio per la CIE."
           }
         ]
       },
@@ -1576,8 +1580,12 @@
             "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
           },
           {
-            "title": "How I change my email address?",
-            "body": "Tap 'Email Address', then 'Change Email' and enter the new address."
+            "title": "How can I change my e-mail address?",
+            "body": "The email address you see in the Profile is the one you added the first time you logged in. If you want to change it, go to Profile > Your Information and select Email Address > Change Email."
+          },
+          {
+            "title": "In my profile there is an error in my first name, last name or fiscal code. What can I do?",
+            "body": "The first name, last name, and fiscal code  you see in Profile > Your Information come from the SPID or CIE you used to log in to IO. If you see an error, contact your Identity Provider for the SPID and the issuing municipality for the CIE."
           }
         ]
       },

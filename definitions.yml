@@ -414,7 +414,7 @@ definitions:
       - idPay
       - lollipop
       - pn
-      - payments      
+      - payments  
     properties:
       payments:
         $ref: "#/definitions/PaymentsConfig"

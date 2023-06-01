@@ -22,7 +22,11 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
+          },
+{
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
           }]
       },
       {
@@ -36,7 +40,7 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           }]
       },
       {
@@ -51,6 +55,10 @@
           {
             "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
             "body": "In questo caso dovrai contattare direttamente l’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Cosa posso fare se ho ricevuto una richiesta di firma ma è scaduto il termine?",
@@ -766,11 +774,15 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Dove trovo i documenti che ho firmato?",
             "body": "Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
+          },
+          {
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
           },
           {
             "title": "Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
@@ -1252,8 +1264,12 @@
             "body": "Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
           },
           {
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
+          },
+          {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",

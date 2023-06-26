@@ -31,7 +31,7 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": false,
+      "enabled": true,
       "domain": "https://fims-dev-app-provider.azurewebsites.net/"
     },
     "uaDonations": {

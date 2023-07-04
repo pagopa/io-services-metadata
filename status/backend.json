@@ -165,8 +165,8 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "L’accesso con CIE non è al momento disponibile. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "Login with CIE is currently unavailable. We are working to solve the issue."
+        "it-IT": "L’accesso con CIE potrebbe non essere disponibile. Siamo al lavoro per risolvere il problema.",
+        "en-EN": "Login with CIE might not be available. We are working to solve the issue."
       }
     },
     "wallets": {

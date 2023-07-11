@@ -74,6 +74,12 @@
         "android": "2.25.0.0"
       }
     },
+    "fastLogin": {
+      "min_app_version": {
+        "ios": "2.39.0",
+        "android": "2.39.0"
+      }
+    },
     "pn": {
       "enabled": true,
       "frontend_url": "https://cittadini.notifichedigitali.it"

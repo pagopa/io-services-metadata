@@ -780,7 +780,7 @@ definitions:
         description: "The URL of the PN web frontend"
       optInServiceId:
         type: string
-        description: "The ID of the standard PN service that sends the OptIn  message"
+        description: "The ID of the standard PN service that sends the OptIn message"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

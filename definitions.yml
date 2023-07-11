@@ -770,6 +770,7 @@ definitions:
     required:
       - enabled
       - frontend_url
+      - optInServiceId
     properties:
       enabled:
         type: boolean
@@ -777,6 +778,9 @@ definitions:
       frontend_url:
         type: string
         description: "The URL of the PN web frontend"
+      optInServiceId:
+        type: string
+        description: "The ID of the standard PN service that sends the OptIn message"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

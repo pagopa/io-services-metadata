@@ -76,7 +76,8 @@
     },
     "pn": {
       "enabled": true,
-      "frontend_url": "https://cittadini.notifichedigitali.it"
+      "frontend_url": "https://cittadini.notifichedigitali.it",
+      "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET"
     },
     "payments": {
       "preferredPspsByOrigin": {

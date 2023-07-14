@@ -31,8 +31,8 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": false,
-      "domain": "https://fims-dev-app-provider.azurewebsites.net/"
+      "enabled": true,
+      "domain": "https://io-p-citizen-auth-weu-prod01-app-fims.azurewebsites.net/"
     },
     "uaDonations": {
       "enabled": false,
@@ -76,7 +76,8 @@
     },
     "pn": {
       "enabled": true,
-      "frontend_url": "https://cittadini.notifichedigitali.it"
+      "frontend_url": "https://cittadini.notifichedigitali.it",
+      "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET"
     },
     "payments": {
       "preferredPspsByOrigin": {
@@ -162,11 +163,11 @@
       }
     },
     "login": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "message": {
-        "it-IT": "L’accesso con CIE potrebbe non essere disponibile. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "Login with CIE might not be available. We are working to solve the issue."
+        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
       }
     },
     "wallets": {

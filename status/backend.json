@@ -76,8 +76,8 @@
     },
     "fastLogin": {
       "min_app_version": {
-        "ios": "2.39.0",
-        "android": "2.39.0"
+        "ios": "2.39.0.1",
+        "android": "2.39.0.1"
       }
     },
     "pn": {

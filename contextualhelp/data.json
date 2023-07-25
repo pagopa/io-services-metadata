@@ -445,17 +445,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
-        "title": "Paga con la tua carta supermercato",
-        "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
-        "faqs": [
-          {
-            "title": "Quali carte supermercato posso aggiungere?",
-            "body": "Puoi aggiungere soltanto le carte supermercato che permettono di pagare. Non sono valide le carte supermercato che non consentono di effettuare pagamenti, ma solo di accumulare punti o avere accesso a sconti."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
         "title": "Paga con la tua carta PagoBANCOMAT",
         "content": "In questa pagina puoi aggiungere una carta PagoBANCOMAT come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio. Prima di procedere all'aggiunta delle tue carte PagoBANCOMAT, ti invitiamo a leggere l'informativa.",
@@ -480,11 +469,6 @@
             "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa 'in pausa';\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
-      },
-      {
-        "route_name": "WALLET_PRIVATIVE_DETAIL",
-        "title": "La tua carta supermercato",
-        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",
@@ -1673,17 +1657,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
-        "title": "Pay with your supermarket card",
-        "content": "Here you can add your supermarket card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
-        "faqs": [
-          {
-            "title": "Which supermarket cards can I add?",
-            "body": "You can add only supermarket cards that allow you to pay. Supermarket cards that allow you to collect points or get access to discounts only are not valid."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
         "title": "Pay with your PagoBANCOMAT card",
         "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
@@ -1708,11 +1681,6 @@
             "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been 'paused'\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
-      },
-      {
-        "route_name": "WALLET_PRIVATIVE_DETAIL",
-        "title": "Your supermarket card",
-        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",

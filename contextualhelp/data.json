@@ -325,7 +325,7 @@
           },
           {
             "title": "Nel mio profilo c’è un errore nel nome, cognome o Codice Fiscale. Come posso fare?",
-            "body": "Il nome, cognome e Codice Fiscale che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO. Se vedi un errore, rivolgiti al tuo Identity Provider per lo SPID e al Comune di rilascio per la CIE."
+            "body": "Il nome, cognome e Codice Fiscale che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO e sono direttamente collegati ai dati riportati nel tuo documento di identità. Se l’errore è presente anche nel tuo documento, rivolgiti all’anagrafe del tuo Comune per le modifiche necessarie, che verranno poi effettuate anche nei dati dell’identità digitale CIE. Se l’errore è presente solo nei tuoi dati SPID, rivolgiti al tuo Identity Provider."
           }
         ]
       },
@@ -1537,7 +1537,7 @@
           },
           {
             "title": "In my profile there is an error in my first name, last name or fiscal code. What can I do?",
-            "body": "The first name, last name, and fiscal code  you see in Profile > Your Information come from the SPID or CIE you used to log in to IO. If you see an error, contact your Identity Provider for the SPID and the issuing municipality for the CIE."
+            "body": "The first name, last name, and fiscal code you see in Profile > Your data come from the SPID or CIE you used to log in and are directly linked to the data in your identity document. If the error appears in your identity document too, in order to make the changes you need to contact your municipality's registry. The changes will also be made in the CIE digital identity. If the error is in your SPID only, contact your Identity Provider."
           }
         ]
       },

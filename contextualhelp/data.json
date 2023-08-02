@@ -22,7 +22,11 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
+          },
+{
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
           }]
       },
       {
@@ -36,7 +40,7 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           }]
       },
       {
@@ -51,6 +55,10 @@
           {
             "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
             "body": "In questo caso dovrai contattare direttamente l’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+          },
+          {
+            "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Cosa posso fare se ho ricevuto una richiesta di firma ma è scaduto il termine?",
@@ -437,17 +445,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
-        "title": "Paga con la tua carta supermercato",
-        "content": "In questa pagina puoi aggiungere la tua carta supermercato come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
-        "faqs": [
-          {
-            "title": "Quali carte supermercato posso aggiungere?",
-            "body": "Puoi aggiungere soltanto le carte supermercato che permettono di pagare. Non sono valide le carte supermercato che non consentono di effettuare pagamenti, ma solo di accumulare punti o avere accesso a sconti."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
         "title": "Paga con la tua carta PagoBANCOMAT",
         "content": "In questa pagina puoi aggiungere una carta PagoBANCOMAT come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio. Prima di procedere all'aggiunta delle tue carte PagoBANCOMAT, ti invitiamo a leggere l'informativa.",
@@ -472,11 +469,6 @@
             "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa 'in pausa';\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
           }
         ]
-      },
-      {
-        "route_name": "WALLET_PRIVATIVE_DETAIL",
-        "title": "La tua carta supermercato",
-        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",
@@ -766,11 +758,15 @@
           },
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Dove trovo i documenti che ho firmato?",
             "body": "Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
+          },
+          {
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
           },
           {
             "title": "Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
@@ -993,6 +989,18 @@
           {
             "title": "Quanti acquisti, online o fisici, posso effettuare usufruendo delle agevolazioni della Carta Giovani Nazionale?",
             "body": "L’iniziativa non prevede un limite al numero degli sconti utilizzabili. In ogni caso, ogni operatore convenzionato può disporre autonomamente delle modalità di utilizzo dei codici sconto che mette a disposizione rendendo esplicite eventuali condizioni nella scheda relativa alle proprie agevolazioni, sempre visibile nell’App IO. "
+          },
+          {
+            "title": "Posso ottenere una versione fisica della carta?",
+            "body": "No, la Carta Giovani Nazionale esiste unicamente in formato digitale sulla tua app IO e quel formato è sufficiente per accedere alle agevolazioni. Se un esercente o un altro partner dell'iniziativa dovesse chiederti la carta fisica o il numero della tua Carta Giovani Nazionale, ti preghiamo di segnalarlo all'assistenza attraverso l'app IO, specificando i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
+          },
+          {
+            "title": "Mi hanno chiesto il codice della mia Carta Giovani Nazionale, dove posso trovarlo?",
+            "body": "La Carta Giovani Nazionale non possiede un codice o numero identificativo perciò non è richiesto per accedere agli sconti o promozioni erogati dagli operatori. Se un esercente o un altro partner dell'iniziativa dovesse chiederti la carta fisica o il numero della tua Carta Giovani Nazionale, ti preghiamo di segnalarlo all'assistenza attraverso l'app IO, specificando i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
+          },
+          {
+            "title": "Qual è la differenza tra CGN e le carte regionali?",
+            "body": "La Carta Giovani Nazionale è uno strumento digitale per le ragazze e i ragazzi tra 18 e 35 anni residenti in Italia e consente loro l’accesso agevolato a beni, servizi, esperienze e opportunità su tutto il territorio nazionale, erogato dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale della Presidenza del Consiglio dei Ministri. Le carte giovani regionali sono strumenti fisici e/o digitali, erogate da alcune regioni italiane ai propri cittadini per usufruire di agevolazioni sul territorio della regione stessa e possono avere requisiti diversi da quelli previsti per la Carta Giovane Nazionale e prevedere diverse modalità di ottenimento degli sconti. Per avere maggiori dettagli circa le carte giovani regionali, [visitate questo link](https://giovani2030.it/iniziativa/carta-giovani-nazionale/)."
           }
         ]
       },
@@ -1008,6 +1016,14 @@
           {
             "title": "Perché il codice sconto non funziona?",
             "body": "Se il codice non risulta valido: \n\n - verifica di averlo inserito correttamente; \n\n - Assicurati che sia ancora valido: alcuni codici scadono nel giro di poco tempo; \n\n - Controlla nel dettaglio dell'agevolazione se l'operatore applica condizioni relative alle modalità di utilizzo e alla validità dello sconto. \n\n Se il problema persiste, contatta l’assistenza dell’operatore."
+          },
+          {
+            "title": "Mi hanno chiesto di compilare un modulo per attestare il possesso della Carta Giovani Nazionale, dove posso trovarlo?",
+            "body": "Non esistono moduli di attestazione del possesso della Carta Giovani Nazionale. La Carta Giovani Nazionale esiste unicamente in formato digitale sulla tua app IO e questo formato è sufficiente per accedere alle agevolazioni. \n\n Ti preghiamo di segnalare all'assistenza attraverso l'app IO i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
+          },
+          {
+            "title": "Un operatore mi ha chiesto di presentare la mail di attivazione della Carta per accedere alle agevolazioni. Dove posso trovarla?",
+            "body": "Non esiste una mail di attivazione della Carta Giovani Nazionale. La Carta Giovani Nazionale esiste unicamente in formato digitale sulla tua app IO e questo formato è sufficiente per accedere alle agevolazioni. \n\n Ti preghiamo di segnalare all'assistenza attraverso l'app IO i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
           }
         ]
       },
@@ -1023,6 +1039,14 @@
           {
             "title": "Perché il codice sconto non funziona?",
             "body": "Se il codice non risulta valido: \n\n - verifica di averlo inserito correttamente; \n\n - Assicurati che sia ancora valido: alcuni codici scadono nel giro di poco tempo; \n\n - Controlla nel dettaglio dell'agevolazione se l'operatore applica condizioni relative alle modalità di utilizzo e alla validità dello sconto. \n\n Se il problema persiste, contatta l’assistenza dell’operatore."
+          },
+          {
+            "title": "Mi hanno chiesto di compilare un modulo per attestare il possesso della Carta Giovani Nazionale, dove posso trovarlo?",
+            "body": "Non esistono moduli di attestazione del possesso della Carta Giovani Nazionale. La Carta Giovani Nazionale esiste unicamente in formato digitale sulla tua app IO e questo formato è sufficiente per accedere alle agevolazioni. \n\n Ti preghiamo di segnalare all'assistenza attraverso l'app IO i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
+          },
+          {
+            "title": "Un operatore mi ha chiesto di presentare la mail di attivazione della Carta per accedere alle agevolazioni. Dove posso trovarla?",
+            "body": "Non esiste una mail di attivazione della Carta Giovani Nazionale. La Carta Giovani Nazionale esiste unicamente in formato digitale sulla tua app IO e questo formato è sufficiente per accedere alle agevolazioni. \n\n Ti preghiamo di segnalare all'assistenza attraverso l'app IO i dettagli del richiedente (es. nome partner, indirizzo della filiale/punto vendita presso cui ti hanno fatto la richiesta)."
           }
         ]
       },
@@ -1143,82 +1167,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "Per aggiungere correttamente il circuito internazionale associato alla tua carta PagoBANCOMAT, ci serve sapere se hai mai utilizzato questa carta online, così da indirizzarti verso la pagina più adatta al tuo caso.",
-        "faqs": [
-          {
-            "title": "Come faccio a capire se la mia carta è abilitata ai pagamenti online?",
-            "body": "La tua carta deve avere un codice di sicurezza: è di 3 cifre ed è stampato sul retro. Se non lo trovi, significa che puoi utilizzare la tua carta soltanto nei negozi.\n\nAssicurati inoltre di aver abilitato il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa). Per maggiori informazioni, accedi al tuo Home Banking o contatta la tua banca."
-          },
-          {
-            "title": "La mia carta ha il codice di sicurezza, ma non riesco comunque a salvarla in app.",
-            "body": "Dopo aver inserito i dati della tua carta, la tua banca effettua una verifica, solitamente via SMS o con una notifica tramite la propria app. Segui bene le istruzioni mostrate dalla tua banca e, in caso di problemi, contatta il loro servizio clienti.\n\nSe non ricevi alcun messaggio (oppure la transazione viene negata) significa che la tua carta non è abilitata ai pagamenti online. Rivolgiti alla tua banca e chiedi come attivare il servizio 3D Secure (Mastercard Identity Check per le carte Mastercard) e Verified By Visa/Visa Secure (per le carte Visa)."
-          },
-          {
-            "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
-            "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_START",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "Questo servizio ti permette di cercare tutte le carte con circuito internazionale (Maestro, Mastercard, Visa e V-Pay) a te intestate.",
-        "faqs": [
-          {
-            "title": "Posso aggiungere anche carte con circuito internazionale?",
-            "body": "Sì, puoi aggiungere anche carte di debito o credito con circuito internazionale (Maestro, Mastercard, VISA e V-Pay), anche se non sono abilitate ai pagamenti online. Le carte devono essere intestate a te ed emesse dalle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online) al servizio."
-          },
-          {
-            "title": "Perché non trovo alcuna carta?",
-            "body": "Il servizio cerca solo carte con circuito internazionale intestate a te. Assicurati che la carta in tuo possesso sia effettivamente intestata a te e che sia emessa da una delle [banche aderenti](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)"
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
-        "title": "Aggiungi il secondo circuito della tua carta PagoBANCOMAT",
-        "content": "In questa pagina vengono mostrate tutte le carte intestate a te, su circuito internazionale (Maestro, Mastercard, Visa e V-Pay) presso le banche aderenti al servizio. Se non desideri aggiungere una delle carte mostrate, premi 'Salta' per passare a quella successiva.",
-        "faqs": [
-          {
-            "title": "Perché la data di scadenza è diversa?",
-            "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Perché il numero della carta è diverso?",
-            "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Ho già aggiunto il secondo circuito, cosa devo fare?",
-            "body": "Se hai già aggiunto al Portafoglio il circuito internazionale come 'carta di debito/credito', non è necessario aggiungere nuovamente la carta tramite questa funzionalità."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_COBADGE_DETAIL",
-        "title": "La tua carta con circuito internazionale",
-        "content": "Questa è la schermata di dettaglio della tua carta con circuito internazionale. Sulla carta sono rappresentati il logo della banca che ha emesso la carta, la data di scadenza e logo e numero relativi al circuito internazionale.",
-        "faqs": [
-          {
-            "title": "Cosa posso fare da qui?",
-            "body": "Puoi attivare o disattivare alcune funzioni sullo specifico metodo di pagamento.\nPuoi inoltre eliminare questo metodo di pagamento dal tuo Portafoglio."
-          },
-          {
-            "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
-            "body": "Probabilmente la tua carta è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          },
-          {
-            "title": "Perché la data di scadenza è diversa?",
-            "body": "In alcuni casi, la data di scadenza mostrata in app può essere diversa rispetto a quella stampata sulla carta fisica, ma ciò non inficia l'aggiunta."
-          },
-          {
-            "title": "Perché il numero della carta è diverso?",
-            "body": "IO ti mostra le ultime 4 cifre relative al circuito internazionale. Tale numero viene riportato anche sugli scontrini, quando effettui acquisti usando tale circuito. In alcuni casi, la carta potrebbe invece mostrare un numero differente, ma ciò non inficia l'aggiunta."
-          }
-        ]
-      },
-      {
         "route_name": "MESSAGES_INBOX",
         "title": "Cosa puoi fare nei tuoi Messaggi",
         "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
@@ -1252,8 +1200,12 @@
             "body": "Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
           },
           {
+            "title": "Che valore legale ha la firma di un documento tramite IO?",
+            "body": "La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
+          },
+          {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
-            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+            "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
           },
           {
             "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
@@ -1705,17 +1657,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PRIVATIVE_CHOOSE_ISSUER",
-        "title": "Pay with your supermarket card",
-        "content": "Here you can add your supermarket card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
-        "faqs": [
-          {
-            "title": "Which supermarket cards can I add?",
-            "body": "You can add only supermarket cards that allow you to pay. Supermarket cards that allow you to collect points or get access to discounts only are not valid."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
         "title": "Pay with your PagoBANCOMAT card",
         "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
@@ -1740,11 +1681,6 @@
             "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been 'paused'\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
           }
         ]
-      },
-      {
-        "route_name": "WALLET_PRIVATIVE_DETAIL",
-        "title": "Your supermarket card",
-        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet."
       },
       {
         "route_name": "WALLET_BANCOMAT_DETAIL",
@@ -1908,82 +1844,6 @@
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",
             "body": "If you have problems adding your BANCOMAT Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the BANCOMAT Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_CHOOSE_TYPE",
-        "title": "Add the second network of your PagoBANCOMAT card",
-        "content": "In order to properly add the international network associated to your PagoBANCOMAT card, we need to know if you have ever used this card online, so that we can redirect you to the relevant page.",
-        "faqs": [
-          {
-            "title": "How do I understand if my card is enabled for online payments?",
-            "body": "Your card must have a security code: it is a 3 digit code and is printed on the back. If you can't find it, it means that you can only use your card in stores.\n\n Also make sure that you have enabled the 3D Secure service (Mastercard Identity Check for Mastercard cards and Verified By Visa/Visa Secure for Visa cards). For more information, go to your home banking or contact your bank."
-          },
-          {
-            "title": "My card has the security code, but I still can't add it to the Wallet.",
-            "body": "After entering your card details, your bank runs a check, usually via SMS or with a notification through its app. Follow the instructions given by your bank and, in case of trouble, contact their customer service.\n\nIf you do not receive any message (or the transaction is denied) it means that your card is not enabled for online payments. Contact your bank and ask how to activate 3D Secure (Mastercard Identity Check for Mastercard cards and Verified By Visa/Visa Secure for Visa cards)."
-          },
-          {
-            "title": "I have already added the second network. What should I do?",
-            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_START",
-        "title": "Add the second network of your PagoBANCOMAT card",
-        "content": "This feature allows you to search for all the cards with international network (Maestro, Mastercard, Visa and V-Pay) in your name.",
-        "faqs": [
-          {
-            "title": "Can I add cards with an international network?",
-            "body": "Yes, you can add debit or credit cards with an international network (Maestro, Mastercard, VISA and V-Pay), even if they are not enabled for online payments. The cards must be in your name and issued by the [participating banks](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)."
-          },
-          {
-            "title": "Why can't I find any cards?",
-            "body": "The service searches only for international network cards in your name. Make sure that the card is actually in your name and is issued by one of the [participating banks](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online)."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_ONBOARDING_COBADGE_SEARCH_AVAILABLE",
-        "title": "Add the second network of your PagoBANCOMAT card",
-        "content": "Here you can see all the cards in your name with an international network (Maestro, Mastercard, Visa and V-Pay), issued by the banks participating in the service. If you don't want to add one of the cards listed, press 'Skip' and go to the next one.",
-        "faqs": [
-          {
-            "title": "Why is the expiration date different?",
-            "body": "In some cases, the expiration date displayed in the app may be different from the date printed on the card, but this does not affect the addition."
-          },
-          {
-            "title": "Why is the card number different?",
-            "body": "IO shows you the last 4 digits of the international network. This number is also indicated on the receipts of purchases made with this network. In some cases, the card may show a different number, but this does not affect the addition."
-          },
-          {
-            "title": "I have already added the second network, what should I do?",
-            "body": "If you have already added the international network to the Wallet as a 'debit/credit card', there is no need to add the card again with this feature."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_COBADGE_DETAIL",
-        "title": "Your card with international network",
-        "content": "Here you can see the details of your international network card. You can see the logo of the bank that issued the card, the expiration date and the logo and number of the international network.",
-        "faqs": [
-          {
-            "title": "What can I do here?",
-            "body": "You can enable or disable some features for this payment method.\n\n You can also delete this payment method from your Wallet."
-          },
-          {
-            "title": "Why is the bank's name and logo different from the name and logo on my card?",
-            "body": "Your card has probably been issued by a different bank. This happens mostly with online banks or in case of mergers."
-          },
-          {
-            "title": "Why is the expiration date different?",
-            "body": "In some cases, the expiration date displayed in the app may be different from the date printed on the card, but this does not affect the addition."
-          },
-          {
-            "title": "Why is the card number different?",
-            "body": "IO shows you the last 4 digits of the international network. This number is also indicated on the receipts of purchases made with this network. In some cases, the card may show a different number, but this does not affect the addition."
           }
         ]
       },

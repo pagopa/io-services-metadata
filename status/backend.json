@@ -31,8 +31,8 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": false,
-      "domain": "https://fims-dev-app-provider.azurewebsites.net/"
+      "enabled": true,
+      "domain": "https://io-p-citizen-auth-weu-prod01-app-fims.azurewebsites.net/"
     },
     "uaDonations": {
       "enabled": false,
@@ -74,9 +74,16 @@
         "android": "2.25.0.0"
       }
     },
+    "fastLogin": {
+      "min_app_version": {
+        "ios": "2.39.0.1",
+        "android": "2.39.0.1"
+      }
+    },
     "pn": {
       "enabled": true,
-      "frontend_url": "https://cittadini.notifichedigitali.it"
+      "frontend_url": "https://cittadini.notifichedigitali.it",
+      "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET"
     },
     "payments": {
       "preferredPspsByOrigin": {

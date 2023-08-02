@@ -445,17 +445,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
-        "title": "Paga con la tua carta PagoBANCOMAT",
-        "content": "In questa pagina puoi aggiungere una carta PagoBANCOMAT come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio. Prima di procedere all'aggiunta delle tue carte PagoBANCOMAT, ti invitiamo a leggere l'informativa.",
-        "faqs": [
-          {
-            "title": "Perché non trovo la mia banca?",
-            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Se premi su 'Continua', IO cercherà tutte le carte PagoBANCOMAT a te intestate sulla base del tuo codice fiscale, che viene recuperato dallo SPID o dalla CIE con cui hai effettuato l'accesso."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ADD_CARD",
         "title": "Paga con una carta credito, debito o prepagata",
         "content": "In questa pagina puoi aggiungere una carta di credito, debito o prepagata come metodo di pagamento. Potrai modificare le impostazioni del nuovo metodo di pagamento o eliminarlo in ogni momento, premendo sulla card corrispondente nel tuo Portafoglio.",
@@ -467,29 +456,6 @@
           {
             "title": "Non riesco ad aggiungere la mia carta. Come mai?",
             "body": "In questo caso, ti consigliamo di contattare la tua banca. I motivi possono essere diversi, i più frequenti sono:\n\n- La tua carta non è abilitata agli acquisti online;\n\n- La tua carta è stata messa 'in pausa';\n\n- Non hai ancora attivato [il servizio 3DS](https://io.italia.it/faq/#n3_4), un sistema di sicurezza legato ai pagamenti online.\n\n Alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento/) trovi un elenco dettagliato dei metodi supportati dall’app."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_BANCOMAT_DETAIL",
-        "title": "La tua carta PagoBANCOMAT",
-        "content": "In questa pagina puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dal Portafoglio.",
-        "faqs": [
-          {
-            "title": "Come posso impostare questo metodo di pagamento come preferito?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Premi sulla card di questo metodo e impostalo come preferito."
-          },
-          {
-            "title": "Come posso eliminare questo metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
-          },
-          {
-            "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
-            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          },
-          {
-            "title": "Perché c'è scritto che la mia carta non è compatibile con i pagamenti in app?",
-            "body": "Il circuito PagoBANCOMAT non ti consente di effettuare pagamenti online. Se vuoi pagare con la tua carta, puoi: \n\n- Aggiungere al Portafoglio BANCOMAT Pay, se la tua banca offre questo servizio;\n\n- Aggiungere il secondo circuito, se la tua carta ha il codice di sicurezza ed è già abilitata ai pagamenti online."
           }
         ]
       },
@@ -1156,17 +1122,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_SEARCH_AVAILABLE_USER_BANCOMAT",
-        "title": "Le tue carte PagoBANCOMAT",
-        "content": "In questa schermata ti mostriamo la o le carte PagoBANCOMAT a te intestate. Puoi aggiungerle premendo 'Aggiungi', oppure saltare la carta in questione per uscire dal flusso o passare alla carta successiva nel caso ne siano state trovate più di una.",
-        "faqs": [
-          {
-            "title": "Perché il nome e il logo della banca sono diversi da quelli riportati sulla mia carta?",
-            "body": "Probabilmente la tua carta PagoBANCOMAT è stata emessa da una banca differente. Questo succede soprattutto per le banche online o in caso di incorporazioni."
-          }
-        ]
-      },
-      {
         "route_name": "MESSAGES_INBOX",
         "title": "Cosa puoi fare nei tuoi Messaggi",
         "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
@@ -1657,17 +1612,6 @@
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BANCOMAT_START",
-        "title": "Pay with your PagoBANCOMAT card",
-        "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
-        "faqs": [
-          {
-            "title": "Why can't I find my bank?",
-            "body": "Probably your PagoBANCOMAT card has been issued by a different bank. If you press 'Add', IO will search for all the PagoBANCOMAT cards in your name based on your tax code, which is deducted from the SPID or CIE you used to log in."
-          }
-        ]
-      },
-      {
         "route_name": "WALLET_ADD_CARD",
         "title": "Pay with a credit, debit, or prepaid card",
         "content": "Here you can add your credit, debit, or prepaid card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet.",
@@ -1679,29 +1623,6 @@
           {
             "title": "I’m having trouble adding my card. What can I do?",
             "body": "In this case, we recommend that you contact your bank. The reasons may be different, but the most frequent cases are: \n\n* Your card is not enabled for online purchases; \n\n* Your card has been 'paused'\n\n*;You have not yet activated the [3DS service](https://io.italia.it/faq/#n3_4), a security system related to online payments. You can see a detailed list of supported methods on the [Payment Methods page](https://io.italia.it/metodi-pagamento/)."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_BANCOMAT_DETAIL",
-        "title": "Your PagoBANCOMAT card",
-        "content": "Here you can see the details of this payment method, edit the settings or delete it from the Wallet.",
-        "faqs": [
-          {
-            "title": "How can I set this payment method as favorite?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card of this method and set it as favorite."
-          },
-          {
-            "title": "How can I delete this payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press on 'Delete this payment method'."
-          },
-          {
-            "title": "Why is the bank's name and logo different from the name and logo on my card?",
-            "body": "Your PagoBANCOMAT card has probably been issued by a different bank. This happens mostly with online banks or in case of mergers."
-          },
-          {
-            "title": "Why does it say my card is not compatible with in-app payments?",
-            "body": "The PagoBANCOMAT network does not let you make online payments. If you want to pay on IO with your card, you can: \n* Add BANCOMAT Pay to the Wallet, if your bank offers this service;\n* Add the second circuit, if your card has the security code and is already enabled for online payments."
           }
         ]
       },
@@ -1756,8 +1677,8 @@
       },
       {
         "route_name": "WALLET_ONBOARDING_BPAY_START",
-        "title": "Pay with your PagoBANCOMAT card",
-        "content": "Here you can add your PagoBANCOMAT card as a payment method. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your PagoBANCOMAT cards, please read the privacy policy.",
+        "title": "Pay with BANCOMAT Pay",
+        "content": "Here you can add your BANCOMAT Pay account. To edit the settings of this payment method or delete it, select the card in your Wallet. Before proceeding with the addition of your BANCOMAT Pay account, please read the privacy policy.",
         "faqs": [
           {
             "title": "What is BANCOMAT Pay?",

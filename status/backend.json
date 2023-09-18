@@ -173,11 +173,11 @@
       }
     },
     "login": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "it-IT": "L’accesso con SPID potrebbe non funzionare. Ti invitiamo a riprovare più tardi.",
+        "en-EN": "Login with SPID might not work. Try again later."
       }
     },
     "wallets": {

@@ -740,8 +740,8 @@ definitions:
         description: "A configuration for the fast login opt-in feature"
         properties:
           min_app_version:
-          $ref: "#/definitions/VersionPerPlatform"
-          description: "If min app version supported, the fast login opt-in feature is enabled"
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the fast login opt-in feature is enabled"
   NativeLoginConfig:
     type: object
     description: "A configuration to let users authenticate through native components"    

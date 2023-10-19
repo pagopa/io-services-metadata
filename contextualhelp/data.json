@@ -158,6 +158,14 @@
           {
             "title": "Come posso sapere quando una notifica si è perfezionata?",
             "body": "Nel dettaglio della notifica, premi 'Accedi alla versione web'. Troverai questa informazione sulla destra, nella sezione 'Stato della notifica'."
+          },
+          {
+            "title": "La notifica che ho ricevuto è stata annullata. Come mai?",
+            "body": "L'ente che l'ha inviata può averla annullata per diverse ragioni. Per esempio, potrebbe avere commesso un errore, oppure potrebbero essere intervenute delle circostanze per cui la notifica non ha più effetto.\n\nSe hai ricevuto una notifica e questa è stata annullata, ignora il suo contenuto. Se hai dubbi o domande, contatta l'ente che te l'ha inviata."
+          },
+          {
+            "title": "La notifica che ho ricevuto è stata annullata, ma l'ho già pagata. Cosa devo fare?",
+            "body": "Per ricevere informazioni in merito a un eventuale rimborso, contatta l'ente che te l'ha inviata."
           }
         ]
       },

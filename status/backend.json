@@ -83,8 +83,8 @@
     "pn": {
       "enabled": true,
       "min_app_version": {
-        "ios": "2.35.0.1",
-        "android": "2.35.0.1"
+        "ios": "2.46.0.0",
+        "android": "2.46.0.0"
       },
       "frontend_url": "https://cittadini.notifichedigitali.it",
       "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET"

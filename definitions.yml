@@ -460,7 +460,7 @@ definitions:
         $ref: "#/definitions/FastLoginConfig"
       nativeLogin:
         $ref: "#/definitions/NativeLoginConfig"
-      emailUniquenessVaildation:
+      emailUniquenessValidation:
         $ref: "#/definitions/EmailUniquenessConfig"
   BpdConfig:
     type: object

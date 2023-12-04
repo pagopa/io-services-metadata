@@ -460,6 +460,8 @@ definitions:
         $ref: "#/definitions/FastLoginConfig"
       nativeLogin:
         $ref: "#/definitions/NativeLoginConfig"
+      emailUniquenessValidation:
+        $ref: "#/definitions/EmailUniquenessConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -751,6 +753,13 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the native login is enabled"
+  EmailUniquenessConfig:
+    type: object
+    description: "A configuration to force email uniqueness validation"    
+    properties:      
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the mandatory email uniqueness validation is enabled"
   FciConfig:
     type: object
     description: "A configuration for the Firma con IO feature"

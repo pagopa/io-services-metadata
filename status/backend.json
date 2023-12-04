@@ -74,10 +74,22 @@
         "android": "2.25.0.0"
       }
     },
+    "emailUniquenessValidation": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
+    },
     "fastLogin": {
       "min_app_version": {
         "ios": "2.39.0.1",
         "android": "2.39.0.1"
+      },
+      "opt_in": {
+        "min_app_version": {
+          "ios": "2.46.0.1",
+          "android": "2.46.0.1"
+        }
       }
     },
     "pn": {

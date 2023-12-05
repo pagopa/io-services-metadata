@@ -46,7 +46,7 @@ variables:
   - name: BLOB_CONTAINER_NAME
     value: '$web'
   - name: EXCLUDE_PATH
-    value: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview'
+    value: 'README.md`;CODEOWNERS`;yarn.lock`;package.json`;azure-pipelines.yml`;azure-templates`;.node-version`;.nvmrc`;.prettierrc`;jest.config.js`;tsconfig.json`;tslint.json`;definitions`;src`;.circleci`;.git`;services-webview'
   - name: NODE_VERSION
     value: '8.11.3'
   - name: YARN_CACHE_FOLDER
@@ -166,7 +166,7 @@ stages:
       jobs:
         - job: publish_assets_test
           steps:  
-            - task: AzureFileCopy@4
+            - task: AzureFileCopy@5
               inputs:
                 SourcePath: '$(System.DefaultWorkingDirectory)/*'
                 azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'

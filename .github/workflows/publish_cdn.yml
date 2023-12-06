@@ -21,9 +21,6 @@ jobs:
   validation:
     name: Validation
     runs-on: ubuntu-22.04
-    permissions:
-      id-token: write
-      pull-requests: write
 
     steps:
       - name: Checkout
@@ -71,6 +68,9 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [validation, test]
     environment: prod-cd
+    permissions:
+      id-token: write
+      pull-requests: write
     env:
       ARM_USE_OIDC: true
       ARM_USE_AZUREAD: true
@@ -117,11 +117,15 @@ jobs:
       #         --overwrite \
       #         -s .
 
-    # - name: Purge CDN endpoint
-    #   uses: azure/CLI@v1
-    #   with:
-    #     inlineScript: |
-    #        az cdn endpoint purge --content-paths  "/*" --profile-name "CDN_PROFILE_NAME" --name "CDN_ENDPOINT" --resource-group "RESOURCE_GROUP"
+      - name: Purge CDN endpoint
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az cdn endpoint purge \
+              --content-paths "/*" \
+              --profile-name "io-p-assets-cdn-profile" \
+              --name "io-p-assets-cdn-endpoint" \
+              --resource-group "io-p-assets-cdn-rg"
 
       - name: Azure Logout
         id: az_logout

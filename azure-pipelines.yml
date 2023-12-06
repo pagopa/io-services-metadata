@@ -123,7 +123,7 @@ stages:
       jobs:
         - job: publish_assets_prod
           steps:  
-            - task: AzureFileCopy@5
+            - task: AzureFileCopy@3
               inputs:
                 SourcePath: '$(System.DefaultWorkingDirectory)/*'
                 azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
@@ -166,7 +166,7 @@ stages:
       jobs:
         - job: publish_assets_test
           steps:  
-            - task: AzureFileCopy@4
+            - task: AzureFileCopy@3
               inputs:
                 SourcePath: '$(System.DefaultWorkingDirectory)/*'
                 azureSubscription: '$(TEST_AZURE_SUBSCRIPTION)'

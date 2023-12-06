@@ -101,8 +101,8 @@ jobs:
               --account-name csandreagstg01 \
               --exclude-path 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview' \
               -c '$web' \
-              --connection-string ${{ secrets.CDN_CONNECTION_STRING }} \
-              -s .
+              -s . \
+              --connection-string ${{ secrets.CDN_CONNECTION_STRING }}
 
       # - name: Upload to blob storage
       #   id: storage_upload

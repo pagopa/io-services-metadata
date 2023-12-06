@@ -117,15 +117,15 @@ jobs:
       #         --overwrite \
       #         -s .
 
-      - name: Purge CDN endpoint
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-            az cdn endpoint purge \
-              --content-paths "/*" \
-              --profile-name "io-p-assets-cdn-profile" \
-              --name "io-p-assets-cdn-endpoint" \
-              --resource-group "io-p-assets-cdn-rg"
+      # - name: Purge CDN endpoint
+      #   uses: azure/CLI@v1
+      #   with:
+      #     inlineScript: |
+      #       az cdn endpoint purge \
+      #         --content-paths "/*" \
+      #         --profile-name "io-p-assets-cdn-profile" \
+      #         --name "io-p-assets-cdn-endpoint" \
+      #         --resource-group "io-p-assets-cdn-rg"
 
       - name: Azure Logout
         id: az_logout

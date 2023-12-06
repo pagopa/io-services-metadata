@@ -1,0 +1,132 @@
+name: Publish on CDN
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "CODEOWNERS"
+      - "**.md"
+      - ".**"
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+
+env:
+  EXCLUDE_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github'
+
+jobs:
+  validation:
+    name: Validation
+    runs-on: ubuntu-22.04
+    permissions:
+      id-token: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set Node
+        id: node_setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14.17.4'
+
+      - name: Install node modules
+        id: node_modules
+        run: |
+          yarn install --frozen-lockfile --no-progress --non-interactive --network-concurrency 1
+
+      - name: Linter
+        id: linter
+        run: |
+          yarn lint
+  
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Code Coverage
+        id: code_coverage
+        run: |
+          bash <(curl -s https://codecov.io/bash)
+
+  publish:
+    name: Publish to production
+    runs-on: ubuntu-22.04
+    needs: [validation, test]
+    environment: prod-cd
+    env:
+      ARM_USE_OIDC: true
+      ARM_USE_AZUREAD: true
+      ARM_STORAGE_USE_AZUREAD: true
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Azure Login
+        id: az_login
+        uses: azure/login@92a5484dfaf04ca78a94597f4f19fea633851fa2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID_CD }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Upload to blob storage
+        id: storage_upload
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob sync \
+              --account-name csandreagstg01 \
+              --exclude-path 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview' \
+              -c '$web' \
+              -s .
+
+      # - name: Upload to blob storage
+      #   id: storage_upload
+      #   uses: azure/CLI@v1
+      #   with:
+      #     inlineScript: |
+      #       az storage blob upload-batch \
+      #         --account-name iopstcdnassets \
+      #         --auth-mode key \
+      #         -d '$web' \
+      #         --recursive \
+      #         --exclude-path "$(EXCLUDE_PATH)" \
+      #         --overwrite \
+      #         -s .
+
+    # - name: Purge CDN endpoint
+    #   uses: azure/CLI@v1
+    #   with:
+    #     inlineScript: |
+    #        az cdn endpoint purge --content-paths  "/*" --profile-name "CDN_PROFILE_NAME" --name "CDN_ENDPOINT" --resource-group "RESOURCE_GROUP"
+
+      - name: Azure Logout
+        id: az_logout
+        if: always()
+        run: |
+          az logout
+
+

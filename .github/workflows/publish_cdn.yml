@@ -14,9 +14,6 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
 
-env:
-  EXCLUDE_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github'
-
 jobs:
   validation:
     name: Validation
@@ -75,6 +72,7 @@ jobs:
       ARM_USE_OIDC: true
       ARM_USE_AZUREAD: true
       ARM_STORAGE_USE_AZUREAD: true
+      EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github'
 
     steps:
       - name: Checkout
@@ -97,12 +95,24 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob sync \
+            az storage copy \            
               --account-name csandreagstg01 \
-              --exclude-path 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github' \
-              -c '$web' \
-              -s '.' \
-              --connection-string "${{ secrets.CDN_CONNECTION_STRING }}"
+              --destination-container \$web
+              -s './*' \
+              --exclude-pattern "$EXCLUDED_PATH" \
+              --recursive
+
+      # - name: Upload to blob storage
+      #   id: storage_upload
+      #   uses: azure/CLI@v1
+      #   with:
+      #     inlineScript: |
+      #       az storage blob sync \
+      #         --account-name csandreagstg01 \
+      #         --exclude-path 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github' \
+      #         -c '$web' \
+      #         -s '.' \
+      #         --connection-string "${{ secrets.CDN_CONNECTION_STRING }}"
 
       # - name: Upload to blob storage
       #   id: storage_upload
@@ -123,7 +133,7 @@ jobs:
       #   with:
       #     inlineScript: |
       #       az cdn endpoint purge \
-      #         --content-paths "/*" \
+      #         --content-paths '/*' \
       #         --profile-name "io-p-assets-cdn-profile" \
       #         --name "io-p-assets-cdn-endpoint" \
       #         --resource-group "io-p-assets-cdn-rg"

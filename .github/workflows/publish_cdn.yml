@@ -17,7 +17,6 @@ concurrency:
 jobs:
   validation:
     name: Validation
-    if: false
     runs-on: ubuntu-22.04
 
     steps:
@@ -46,7 +45,6 @@ jobs:
   
   test:
     name: Test
-    if: false
     runs-on: ubuntu-22.04
 
     steps:
@@ -65,7 +63,7 @@ jobs:
   publish:
     name: Publish to production
     runs-on: ubuntu-22.04
-    # needs: [validation, test]
+    needs: [validation, test]
     environment: prod-cd
     permissions:
       id-token: write
@@ -74,7 +72,7 @@ jobs:
       ARM_USE_OIDC: true
       ARM_USE_AZUREAD: true
       ARM_STORAGE_USE_AZUREAD: true
-      EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github'
+      EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js'
 
     steps:
       - name: Checkout
@@ -94,46 +92,20 @@ jobs:
 
       - name: Upload to blob storage
         id: storage_upload
+        uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
+        with:
+          inlineScript: |
+            az storage copy --account-name iopstcdnassets --destination-container \$web --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
+     
+      - name: Purge CDN endpoint
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage copy --account-name csandreagstg01 --destination-container \$web --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive            
-
-      # - name: Upload to blob storage
-      #   id: storage_upload
-      #   uses: azure/CLI@v1
-      #   with:
-      #     inlineScript: |
-      #       az storage blob sync \
-      #         --account-name csandreagstg01 \
-      #         --exclude-path 'README.md;CODEOWNERS;yarn.lock;package.json;azure-pipelines.yml;azure-templates;.node-version;.nvmrc;.prettierrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github' \
-      #         -c '$web' \
-      #         -s '.' \
-      #         --connection-string "${{ secrets.CDN_CONNECTION_STRING }}"
-
-      # - name: Upload to blob storage
-      #   id: storage_upload
-      #   uses: azure/CLI@v1
-      #   with:
-      #     inlineScript: |
-      #       az storage blob upload-batch \
-      #         --account-name iopstcdnassets \
-      #         --auth-mode key \
-      #         -d '$web' \
-      #         --recursive \
-      #         --exclude-path "$(EXCLUDE_PATH)" \
-      #         --overwrite \
-      #         -s .
-
-      # - name: Purge CDN endpoint
-      #   uses: azure/CLI@v1
-      #   with:
-      #     inlineScript: |
-      #       az cdn endpoint purge \
-      #         --content-paths '/*' \
-      #         --profile-name "io-p-assets-cdn-profile" \
-      #         --name "io-p-assets-cdn-endpoint" \
-      #         --resource-group "io-p-assets-cdn-rg"
+            az cdn endpoint purge \
+              --content-paths '/*' \
+              --profile-name "io-p-assets-cdn-profile" \
+              --name "io-p-assets-cdn-endpoint" \
+              --resource-group "io-p-assets-cdn-rg"
 
       - name: Azure Logout
         id: az_logout

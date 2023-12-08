@@ -96,11 +96,7 @@ jobs:
         id: storage_upload
         # uses: azure/CLI@v1
         run: |
-          az storage copy \            
-            --account-name csandreagstg01 \
-            --destination-container test \
-            --source './*' \
-            --recursive
+          az storage copy --account-name csandreagstg01 --destination-container test --source './*' --recursive
         # with:
         #   inlineScript: |
             

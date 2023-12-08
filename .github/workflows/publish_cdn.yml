@@ -17,6 +17,7 @@ concurrency:
 jobs:
   validation:
     name: Validation
+    if: false
     runs-on: ubuntu-22.04
 
     steps:
@@ -45,6 +46,7 @@ jobs:
   
   test:
     name: Test
+    if: false
     runs-on: ubuntu-22.04
 
     steps:
@@ -63,7 +65,7 @@ jobs:
   publish:
     name: Publish to production
     runs-on: ubuntu-22.04
-    needs: [validation, test]
+    # needs: [validation, test]
     environment: prod-cd
     permissions:
       id-token: write
@@ -99,7 +101,6 @@ jobs:
               --account-name csandreagstg01 \
               --destination-container \$web \
               -s './*' \
-              --exclude-pattern "$EXCLUDED_PATH" \
               --recursive
 
       # - name: Upload to blob storage

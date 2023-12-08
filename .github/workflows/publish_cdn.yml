@@ -97,7 +97,7 @@ jobs:
           inlineScript: |
             az storage copy \            
               --account-name csandreagstg01 \
-              --destination-container \$web
+              --destination-container \$web \
               -s './*' \
               --exclude-pattern "$EXCLUDED_PATH" \
               --recursive

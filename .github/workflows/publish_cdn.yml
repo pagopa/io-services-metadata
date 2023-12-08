@@ -94,12 +94,10 @@ jobs:
 
       - name: Upload to blob storage
         id: storage_upload
-        # uses: azure/CLI@v1
-        run: |
-          az storage copy --account-name csandreagstg01 --destination-container test --source './*' --recursive
-        # with:
-        #   inlineScript: |
-            
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage copy --account-name csandreagstg01 --destination-container \$web --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive            
 
       # - name: Upload to blob storage
       #   id: storage_upload

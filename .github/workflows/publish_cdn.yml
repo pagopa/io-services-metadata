@@ -3,7 +3,7 @@ name: Publish on CDN
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - "CODEOWNERS"
       - "**.md"
@@ -15,55 +15,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
 
 jobs:
-  validation:
-    name: Validation
-    runs-on: ubuntu-22.04
-
-    steps:
-      - name: Checkout
-        id: checkout
-        uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Set Node
-        id: node_setup
-        uses: actions/setup-node@v4
-        with:
-          node-version: '14.17.4'
-
-      - name: Install node modules
-        id: node_modules
-        run: |
-          yarn install --frozen-lockfile --no-progress --non-interactive --network-concurrency 1
-
-      - name: Linter
-        id: linter
-        run: |
-          yarn lint
-  
-  test:
-    name: Test
-    runs-on: ubuntu-22.04
-
-    steps:
-      - name: Checkout
-        id: checkout
-        uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Code Coverage
-        id: code_coverage
-        run: |
-          bash <(curl -s https://codecov.io/bash)
 
   publish:
     name: Publish to production
     runs-on: ubuntu-22.04
-    needs: [validation, test]
     environment: prod-cd
     permissions:
       id-token: write
@@ -73,8 +28,11 @@ jobs:
       ARM_USE_AZUREAD: true
       ARM_STORAGE_USE_AZUREAD: true
       EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js'
+      STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
+      CONTAINER: '\$web'
 
     steps:
+
       - name: Checkout
         id: checkout
         uses: actions/checkout@1f9a0c22da41e6ebfa534300ef656657ea2c6707
@@ -95,7 +53,7 @@ jobs:
         uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
-            az storage copy --account-name iopstcdnassets --destination-container \$web --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
+            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container '$CONTAINER' --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
      
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
@@ -112,5 +70,3 @@ jobs:
         if: always()
         run: |
           az logout
-
-

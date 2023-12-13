@@ -30,6 +30,9 @@ jobs:
       EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js'
       STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
       CONTAINER: '\$web'
+      CDN_PROFILE_NAME: 'io-p-assets-cdn-profile'
+      CDN_ENDPOINT: 'io-p-assets-cdn-endpoint'
+      CDN_RESOURCE_GROUP: 'io-p-assets-cdn-rg'
 
     steps:
 
@@ -61,9 +64,9 @@ jobs:
           inlineScript: |
             az cdn endpoint purge \
               --content-paths '/*' \
-              --profile-name "io-p-assets-cdn-profile" \
+              --profile-name "$CDN_PROFILE_NAME" \
               --name "io-p-assets-cdn-endpoint" \
-              --resource-group "io-p-assets-cdn-rg"
+              --resource-group "$CDN_RESOURCE_GROUP"
 
       - name: Azure Logout
         id: az_logout

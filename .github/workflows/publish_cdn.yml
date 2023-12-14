@@ -24,9 +24,6 @@ jobs:
       id-token: write
       pull-requests: write
     env:
-      ARM_USE_OIDC: true
-      ARM_USE_AZUREAD: true
-      ARM_STORAGE_USE_AZUREAD: true
       EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js;.identity'
       STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
       CONTAINER: '\$web'
@@ -56,7 +53,7 @@ jobs:
         uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
-            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container '$CONTAINER' --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
+            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container "$CONTAINER" --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
      
       - name: Purge CDN endpoint
         uses: azure/CLI@v1

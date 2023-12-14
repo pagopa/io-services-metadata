@@ -17,7 +17,7 @@ environment_cd_roles = {
       "Storage Blob Data Contributor"
     ],
     "io-p-rg-common" = [
-      "Storage Blob Data Contributor"
+      "Storage Account Contributor"
     ],
     "io-p-assets-cdn-rg" = [
       "CDN Endpoint Contributor"

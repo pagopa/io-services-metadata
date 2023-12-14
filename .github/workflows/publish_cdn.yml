@@ -56,7 +56,7 @@ jobs:
         uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
-            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container '$CONTAINER' --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
+            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container "$CONTAINER" --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
      
       - name: Purge CDN endpoint
         uses: azure/CLI@v1

@@ -24,12 +24,9 @@ jobs:
       id-token: write
       pull-requests: write
     env:
-      ARM_USE_OIDC: true
-      ARM_USE_AZUREAD: true
-      ARM_STORAGE_USE_AZUREAD: true
-      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID_CD }}
-      ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      # ARM_USE_OIDC: true
+      # ARM_USE_AZUREAD: true
+      # ARM_STORAGE_USE_AZUREAD: true
       EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js;.identity'
       STORAGE_ACCOUNT_NAME: 'csandreagstg01'
       CONTAINER: '\$web'

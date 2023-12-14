@@ -28,7 +28,7 @@ jobs:
       ARM_USE_AZUREAD: true
       ARM_STORAGE_USE_AZUREAD: true
       EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js;.identity'
-      STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
+      STORAGE_ACCOUNT_NAME: 'csandreagstg01'
       CONTAINER: '\$web'
       CDN_PROFILE_NAME: 'io-p-assets-cdn-profile'
       CDN_ENDPOINT: 'io-p-assets-cdn-endpoint'
@@ -58,15 +58,15 @@ jobs:
           inlineScript: |
             az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container "$CONTAINER" --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
      
-      - name: Purge CDN endpoint
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-            az cdn endpoint purge \
-              --content-paths '/*' \
-              --profile-name "$CDN_PROFILE_NAME" \
-              --name "io-p-assets-cdn-endpoint" \
-              --resource-group "$CDN_RESOURCE_GROUP"
+      # - name: Purge CDN endpoint
+      #   uses: azure/CLI@v1
+      #   with:
+      #     inlineScript: |
+      #       az cdn endpoint purge \
+      #         --content-paths '/*' \
+      #         --profile-name "$CDN_PROFILE_NAME" \
+      #         --name "io-p-assets-cdn-endpoint" \
+      #         --resource-group "$CDN_RESOURCE_GROUP"
 
       - name: Azure Logout
         id: az_logout

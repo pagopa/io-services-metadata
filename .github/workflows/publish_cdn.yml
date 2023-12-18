@@ -24,10 +24,9 @@ jobs:
       id-token: write
       pull-requests: write
     env:
-      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;;services-webview;.gitignore;.eslintignore;.prettierrc.js;'
-      EXCLUDED_PATH: 'src;.git;.github;.identity'
+      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;services-webview;.gitignore;.eslintignore;.prettierrc.js;'
+      EXCLUDED_PATH: 'src;.git;.github;.identity;'
       STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
-      CONTAINER: '\$web'
       CDN_PROFILE_NAME: 'io-p-assets-cdn-profile'
       CDN_ENDPOINT: 'io-p-assets-cdn-endpoint'
       CDN_RESOURCE_GROUP: 'io-p-assets-cdn-rg'
@@ -53,10 +52,12 @@ jobs:
         id: storage_upload
         uses: azure/CLI@v1
         with:
+          azcliversion: 2.55.0
           inlineScript: |
+            container = '$web' #workaround to escape dollar sign
             az storage copy \
               --account-name "$STORAGE_ACCOUNT_NAME" \
-              --destination-container "$CONTAINER" \
+              --destination-container $container \
               --source './*' \
               --exclude-pattern "$EXCLUDED_PATTERN" \
               --exclude-path "$EXCLUDED_PATH" \

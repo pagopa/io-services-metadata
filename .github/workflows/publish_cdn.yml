@@ -52,9 +52,10 @@ jobs:
         id: storage_upload
         uses: azure/CLI@v1
         with:
-          azcliversion: 2.55.0
           inlineScript: |
-            container = '$web' #workaround to escape dollar sign
+            # workaround to escape dollar sign
+            container='$web'
+
             az storage copy \
               --account-name "$STORAGE_ACCOUNT_NAME" \
               --destination-container $container \

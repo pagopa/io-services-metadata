@@ -50,7 +50,7 @@ jobs:
 
       - name: Upload to blob storage
         id: storage_upload
-        uses: azure/CLI@v1
+        uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
             # workaround to escape dollar sign
@@ -66,7 +66,7 @@ jobs:
               --debug
      
       - name: Purge CDN endpoint
-        uses: azure/CLI@v1
+        uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
             az cdn endpoint purge \

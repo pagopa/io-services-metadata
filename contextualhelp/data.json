@@ -706,7 +706,7 @@
         ]
       },
       {
-        "route_name": "MESSAGE_DETAIL_PAGINATED",
+        "route_name": "MESSAGE_DETAIL",
         "title": "Dettagli del messaggio",
         "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
         "faqs": [
@@ -765,6 +765,10 @@
           {
             "title": "Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
             "body": "Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+          },
+          {
+            "title": "Cosa sono i messaggi dinamici?",
+            "body": "Sono messaggi che l’ente può modificare dopo che li hai ricevuti. In questo modo, le informazioni che contengono saranno sempre aggiornate. Un ente può modificare le informazioni di un messaggio dinamico solo in casi specifici, per esempio per cambiare un’informazione vecchia o aggiornare un allegato non più valido. Se deve comunicarti nuove informazioni o aggiornamenti importanti, ti invierà un nuovo messaggio."
           }
         ]
       },

@@ -62,8 +62,7 @@ jobs:
               --source './*' \
               --exclude-pattern "$EXCLUDED_PATTERN" \
               --exclude-path "$EXCLUDED_PATH" \
-              --recursive \
-              --debug
+              --recursive
      
       - name: Purge CDN endpoint
         uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
@@ -72,7 +71,7 @@ jobs:
             az cdn endpoint purge \
               --content-paths '/*' \
               --profile-name "$CDN_PROFILE_NAME" \
-              --name "io-p-assets-cdn-endpoint" \
+              --name "$CDN_ENDPOINT" \
               --resource-group "$CDN_RESOURCE_GROUP"
 
       - name: Azure Logout

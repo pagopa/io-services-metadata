@@ -69,7 +69,7 @@ jobs:
         id: storage_diagnostic
         if: ${{ failure() && steps.storage_upload.conclusion == 'failure' }}
         run: |
-          FILES="/root/.azcopy/*.log"
+          FILES="/root/.azcopy/"
           for f in $FILES
           do
             echo "Processing $f file..."

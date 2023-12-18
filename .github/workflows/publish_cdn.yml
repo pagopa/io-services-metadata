@@ -24,9 +24,9 @@ jobs:
       id-token: write
       pull-requests: write
     env:
-      EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js;.identity'
+      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;services-webview;.gitignore;.eslintignore;.prettierrc.js;'
+      EXCLUDED_PATH: 'src;.git;.github;.identity;'
       STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
-      CONTAINER: '\$web'
       CDN_PROFILE_NAME: 'io-p-assets-cdn-profile'
       CDN_ENDPOINT: 'io-p-assets-cdn-endpoint'
       CDN_RESOURCE_GROUP: 'io-p-assets-cdn-rg'
@@ -53,10 +53,20 @@ jobs:
         uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
-            az storage copy --account-name "$STORAGE_ACCOUNT_NAME" --destination-container "$CONTAINER" --source './*' --exclude-pattern "$EXCLUDED_PATH" --recursive
+            # workaround to escape dollar sign
+            container='$web'
+
+            az storage copy \
+              --account-name "$STORAGE_ACCOUNT_NAME" \
+              --destination-container $container \
+              --source './*' \
+              --exclude-pattern "$EXCLUDED_PATTERN" \
+              --exclude-path "$EXCLUDED_PATH" \
+              --recursive \
+              --debug
      
       - name: Purge CDN endpoint
-        uses: azure/CLI@v1
+        uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
         with:
           inlineScript: |
             az cdn endpoint purge \

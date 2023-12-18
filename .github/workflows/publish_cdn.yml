@@ -65,6 +65,17 @@ jobs:
               --name "io-p-assets-cdn-endpoint" \
               --resource-group "$CDN_RESOURCE_GROUP"
 
+      - name: Diagnostic output
+        id: storage_diagnostic
+        if: steps.storage_upload.conclusion == 'failure'
+        run: |
+          FILES="/root/.azcopy/*.log"
+          for f in $FILES
+          do
+            echo "Processing $f file..."
+            cat "$f"
+          done
+
       - name: Azure Logout
         id: az_logout
         if: always()

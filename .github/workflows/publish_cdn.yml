@@ -24,7 +24,8 @@ jobs:
       id-token: write
       pull-requests: write
     env:
-      EXCLUDED_PATH: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;src;.circleci;.git;services-webview;.github;.gitignore;.eslintignore;.prettierrc.js;.identity;'
+      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;;services-webview;.gitignore;.eslintignore;.prettierrc.js;'
+      EXCLUDED_PATH: 'src;.git;.github;.identity'
       STORAGE_ACCOUNT_NAME: 'iopstcdnassets'
       CONTAINER: '\$web'
       CDN_PROFILE_NAME: 'io-p-assets-cdn-profile'
@@ -57,7 +58,8 @@ jobs:
               --account-name "$STORAGE_ACCOUNT_NAME" \
               --destination-container "$CONTAINER" \
               --source './*' \
-              --exclude-pattern "$EXCLUDED_PATH" \
+              --exclude-pattern "$EXCLUDED_PATTERN" \
+              --exclude-path "$EXCLUDED_PATH" \
               --recursive \
               --debug
      

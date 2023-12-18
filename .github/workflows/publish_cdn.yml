@@ -67,7 +67,7 @@ jobs:
 
       - name: Diagnostic output
         id: storage_diagnostic
-        if: steps.storage_upload.conclusion == 'failure'
+        if: ${{ failure() && steps.storage_upload.conclusion == 'failure' }}
         run: |
           FILES="/root/.azcopy/*.log"
           for f in $FILES

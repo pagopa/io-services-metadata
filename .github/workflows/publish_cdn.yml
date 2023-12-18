@@ -58,7 +58,8 @@ jobs:
               --destination-container "$CONTAINER" \
               --source './*' \
               --exclude-pattern "$EXCLUDED_PATH" \
-              --recursive
+              --recursive \
+              --debug
      
       - name: Purge CDN endpoint
         uses: azure/CLI@v1

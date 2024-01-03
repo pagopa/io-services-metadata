@@ -1,10 +1,5 @@
-resource "azurerm_resource_group" "identity" {
-  name     = "${local.project}-identity-rg"
-  location = "westeurope"
-}
-
 module "identity_cd" {
-  source = "github.com/pagopa/terraform-azurerm-v3//github_federated_identity?ref=v7.32.1"
+  source = "github.com/pagopa/terraform-azurerm-v3//github_federated_identity?ref=v7.35.0"
 
   prefix    = var.prefix
   env_short = var.env_short
@@ -20,8 +15,4 @@ module "identity_cd" {
   }
 
   tags = var.tags
-
-  depends_on = [
-    azurerm_resource_group.identity
-  ]
 }

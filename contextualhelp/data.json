@@ -1025,27 +1025,6 @@
         ]
       },
       {
-        "route_name": "BPD_IBAN",
-        "title": "Inserisci il tuo IBAN",
-        "content": "In questa schermata puoi inserire l'IBAN di un conto o di una carta dotata di IBAN su cui vuoi ricevere gli eventuali rimborsi a periodo concluso. Il conto o la carta in questione **devono essere intestate o cointestate a te.**\nQuesto passaggio non è obbligatorio, ma ti raccomandiamo di farlo entro la fine del periodo per evitare eventuali problemi con i rimborsi.",
-        "faqs": [
-        ]
-      },
-      {
-        "route_name": "BPD_DETAILS",
-        "title": "Cashback",
-        "content": "Qui sono visualizzati i dettagli del Cashback e le azioni necessarie per gestire i tuoi metodi di pagamento associati e l'IBAN per ricevere l'eventuale rimborso. Se vuoi vedere tutte le informazioni relative al programma, visita il sito [io.italia.it/cashback](https://io.italia.it/cashback)",
-        "faqs": [
-        ]
-      },
-      {
-        "route_name": "BPD_TRANSACTIONS",
-        "title": "Le tue transazioni valide ai fini del Cashback",
-        "content": "In questa pagina sono visualizzate tutte le transazioni che ti hanno permesso di accumulare dei rimborsi, o di acquisire posizioni nella classifica del Super Cashback (a partire da gennaio 2021).\n\nPremendo su una transazione si apre un dettaglio con maggiori informazioni.\n\nI dati relativi alle transazioni non contengono informazioni circa il tipo di esercente presso cui è avvenuta.",
-        "faqs": [
-        ]
-      },
-      {
         "route_name": "MESSAGES_INBOX",
         "title": "Cosa puoi fare nei tuoi Messaggi",
         "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
@@ -1067,10 +1046,6 @@
             "body": "No, non puoi cancellare i messaggi che ricevi su IO, ma puoi spostarli in 'Archiviati'. In questo modo, se in futuro avrai bisogno di trovare informazioni contenute in un vecchio messaggio, puoi cercare direttamente in quella scheda."
           },
           {
-            "title": "Perché non vedo più la scheda 'In scadenza'?",
-            "body": "In precedenza, su IO era possibile vedere i messaggi in scadenza in un scheda separata, chiamata 'In scadenza'. Questa scheda non è più disponibile dopo che sono state introdotte delle novità per migliorare la sezione Messaggi."
-          },
-          {
             "title": "Posso firmare un documento tramite l’app IO?",
             "body": "Sì. L’ente invia un messaggio direttamente in app con il documento da firmare. Segui le indicazioni ed utilizza il tuo codice di sblocco o il riconoscimento biometrico per firmare."
           },
@@ -1085,42 +1060,6 @@
           {
             "title": "Ho un problema con la firma di un documento. Cosa posso fare?",
             "body": "Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
-          },
-          {
-            "title": "Come funziona il Certificato Verde COVID-19 (Green Pass) su IO?",
-            "body": "Il Certificato Verde COVID-19 viene rilasciato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute e certifica l'avvenuta vaccinazione, un test negativo o la guarigione dalla malattia.\nRiceverai su IO i tuoi certificati non appena verranno generati, sotto forma di messaggio in app. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE.\nPer saperne di più sul Certificato Verde COVID-19 visita il sito dedicato [dgc.gov.it](https://www.dgc.gov.it/). Per altre informazioni sul certificato su IO visita la [pagina dedicata su io.italia.it](https://io.italia.it/certificato-verde-green-pass-covid)"
-          },
-          {
-            "title": "Quando riceverò il Certificato Verde COVID-19 su IO?",
-            "body": "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\nDalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Posso ricevere su IO i certificati dei miei familiari?",
-            "body": "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho appena fatto il vaccino, perché non trovo il mio certificato su IO?",
-            "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
-          },
-          {
-            "title": "Ho appena fatto un tampone, perché non trovo il mio certificato su IO?",
-            "body": "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app."
-          },
-          {
-            "title": "IO è l'unico canale attraverso cui ottenere il Certificato Verde COVID-19?",
-            "body": "No. Puoi consultare tutti i canali disponibili sul sito dedicato [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale). Dove va inserito?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Ho ricevuto tramite sms/mail il codice AUTHCODE per acquisire il Certificato, ma non vedo ancora nessun messaggio su IO. Cosa devo fare?",
-            "body": "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile.\nPuoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito [dgc.gov.it](https://www.dgc.gov.it/)"
-          },
-          {
-            "title": "Vuoi saperne di più sulla Certificazione Verde COVID-19?",
-            "body": "Per la Certificazione Verde su IO app, vai su [io.italia.it/certificato-verde-green-pass-covid](https://io.italia.it/certificato-verde-green-pass-covid) \nPer conoscere meglio l’iniziativa o gli altri canali disponibili visita [dgc.gov.it](https://www.dgc.gov.it/)"
           }
         ]
       }

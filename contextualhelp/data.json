@@ -1136,7 +1136,7 @@
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf) fornito dal tuo Identity Provider.",
+        "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Tim selezionando una delle opzioni disponibili qui di seguito.\nInoltre, per ulteriori informazioni puoi consultare il [Manuale Utente](https://www.trusttechnologies.it/media/wysiwyg/Documents/spid/SPIDPRIN.TT.DPMU15000.05_-_Guida_Utente_al_servizio_TIM_ID.pdf) fornito dal tuo Identity Provider.",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",
@@ -1761,7 +1761,7 @@
         "recover_password": "https://spid.register.it/selfcare/recovery/password"
       },
       "timid": {
-        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://www.trusttechnologies.it/wp-content/uploads/SPIDPRIN.TT_.DPMU15000.03-Guida-Utente-al-servizio-TIM-ID.pdf).",
+        "description": "For problems encountered during the authentication process, you can reach the support desk of Tim by selecting one of the options presented below.\nFor further details you can refer to the [User Guide](https://www.trusttechnologies.it/media/wysiwyg/Documents/spid/SPIDPRIN.TT.DPMU15000.05_-_Guida_Utente_al_servizio_TIM_ID.pdf).",
         "email": "supportotimid@telecomitalia.it",
         "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
         "phone": "800405800",
@@ -1859,7 +1859,7 @@
                         "recover_password": "https://spid.register.it/selfcare/recovery/password"
                         },
                         "timid": {
-                            "description": "Wenn du andere Probleme mit dem Authentifizierungsverfahren hast, kannst du dich an den dedizierten Service von Tim wenden, indem du eine der unten verfügbaren Optionen auswählst.",
+                            "description": "Wenn du andere Probleme mit dem Authentifizierungsverfahren hast, kannst du dich an den dedizierten Service von Tim wenden, indem du eine der unten verfügbaren Optionen auswählst.\nAußerdem kannst du für weitere Informationen das [Benutzerhandbuch] (https://www.trusttechnologies.it/media/wysiwyg/Documents/spid/SPIDPRIN.TT.DPMU15000.05_-_Guida_Utente_al_servizio_TIM_ID.pdf) einsehen, das von deinem Identitätsanbieter bereitgestellt wird.",
                             "email": "supportotimid@telecomitalia.it",
                             "helpdesk_form": "https://www.trusttechnologies.it/contatti/#form",
                             "phone": "800405800",

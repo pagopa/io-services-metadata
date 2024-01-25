@@ -76,8 +76,8 @@
     },
     "emailUniquenessValidation": {
       "min_app_version": {
-        "ios": "2.51.0.0",
-        "android": "2.51.0.0"
+        "ios": "2.50.0.0",
+        "android": "2.50.0.0"
       }
     },
     "fastLogin": {

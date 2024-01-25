@@ -1,15 +1,15 @@
 {
   "min_app_version": {
-    "ios": "2.43.0.3",
-    "android": "2.43.0.3"
+    "ios": "2.50.0.5",
+    "android": "2.50.0.5"
   },
   "min_app_version_pagopa": {
     "ios": "0.0.0",
     "android": "0.0.0"
   },
   "latest_released_app_version" : {
-    "ios": "2.43.0.3",
-    "android": "2.43.0.3"
+    "ios": "2.50.0.5",
+    "android": "2.50.0.5"
   },
   "rollout_app_version" : {
     "ios": "0.0.0",

@@ -105,6 +105,10 @@
       "preferredPspsByOrigin": {
         "poste_datamatrix_scan": ["BPPIITRRXXX"]
       }
+    },
+    "tos": {
+      "tos_version": 4.5,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html"
     }
   },
   "sections": {

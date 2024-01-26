@@ -417,6 +417,7 @@ definitions:
       - lollipop
       - pn
       - payments
+      - tos
     properties:
       payments:
         $ref: "#/definitions/PaymentsConfig"
@@ -462,6 +463,8 @@ definitions:
         $ref: "#/definitions/NativeLoginConfig"
       emailUniquenessValidation:
         $ref: "#/definitions/EmailUniquenessConfig"
+      tos:
+        $ref: "#/definitions/TosConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -816,3 +819,14 @@ definitions:
         type: array
         items:
           type: string
+  TosConfig: 
+    type: object
+    description: "Configuration data related to Terms of Service"
+    required: 
+      - tos_version
+      - tos_url
+    properties: 
+      tos_version: 
+        type: number
+      tos_url: 
+        type: string

@@ -830,3 +830,4 @@ definitions:
         type: number
       tos_url: 
         type: string
+        pattern: ^https://

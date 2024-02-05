@@ -1789,7 +1789,7 @@
       {
         "route_name": "FCI_DOCUMENTS",
         "title": "Dokument",
-        "content": "Hier kannst du die Vorschau des zu unterschreibenden Dokuments sehen",
+        "content": "Hier kannst du die Vorschau des zu signierenden Dokuments sehen",
         "faqs": [
           {
             "title": "Was kann ich tun, wenn ein zu signierendes Dokument Fehler enthält?",
@@ -1892,7 +1892,7 @@
           {
         "route_name": "PN_ROUTES_MESSAGE_DETAILS",
         "title": "Details zur Zustellung",
-        "content": "Diese Nachricht enthält eine Zustellung, d.h. eine Mitteilung mit rechtlichem Wert. Nachdem du die Nachricht geöffnet hast, wird dir der Bescheid rechtlich zugestellt. Hier kannst du den Inhalt des Bescheids lesen, die beigefügten Unterlagen einsehen und etwaige Gebühren bezahlen.",
+        "content": "Diese Mitteilung enthält eine Zustellung, d.h. eine Mitteilung mit rechtlichem Wert. Nachdem du die Nachricht geöffnet hast, wird dir der Bescheid rechtlich zugestellt. Hier kannst du den Inhalt des Bescheids lesen, die beigefügten Unterlagen einsehen und etwaige Gebühren bezahlen.",
         "faqs": [
           {
             "title": "Was ist eine Zustellung?",
@@ -1940,7 +1940,7 @@
           },
           {
             "title": "Die Zustellung, die ich erhalten habe, wurde storniert. Wie kommt das?",
-            "body": "Die Körperschaft, die sie versandt hat, kann sie aus verschiedenen Gründen gelöscht haben. So kann ihr beispielsweise ein Fehler unterlaufen sein oder es können Umstände eingetreten sein, aufgrund derer die Zustellung nicht mehr wirksam ist.\n\nWenn du eine Zustellung erhalten hast und diese annulliert wurde, ignoriere deren Inhalt. Wenn du Zweifel oder Fragen hast, wende dich an die Körperschaft, die dir den Bescheid zugestellt hat."
+            "body": "Die Körperschaft, die sie versandt hat, kann sie aus verschiedenen Gründen storniert haben. So kann ihr beispielsweise ein Fehler unterlaufen sein oder es können Umstände eingetreten sein, aufgrund derer die Zustellung nicht mehr wirksam ist.\n\nWenn du eine Zustellung erhalten hast und diese annulliert wurde, ignoriere deren Inhalt. Wenn du Zweifel oder Fragen hast, wende dich an die Körperschaft, die dir den Bescheid zugestellt hat."
           },
           {
             "title": "Die Zustellung, die ich erhalten habe, wurde storniert, aber ich habe sie bereits bezahlt. Was soll ich tun?",

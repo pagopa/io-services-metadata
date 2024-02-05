@@ -1844,6 +1844,51 @@
             "body": "Du kannst dich an die Körperschaft wenden, die das Dokument verschickt hat, und diese bitten, dir einen neuen Antrag zu senden."
           }]
       },
+          {
+        "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
+          {
+        "route_name": "ONBOARDING_NOTIFICATIONS_PREFERENCES",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
+          {
+        "route_name": "PROFILE_PREFERENCES_NOTIFICATIONS",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
         ],
     "idps": {
                         "arubaid": {

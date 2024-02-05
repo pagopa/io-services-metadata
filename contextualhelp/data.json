@@ -1785,7 +1785,65 @@
             "route_name": "MESSAGE_DETAIL_ATTACHMENT",
             "title": "Vorschau des Dokuments",
             "content": "Hier kannst du eine Vorschau des an die Nachricht angehängten Dokuments anzeigen. Du kannst es auch speichern, weitergeben oder mit einer auf deinem Gerät installierten PDF-Reader-App öffnen."
-            }
+            },
+      {
+        "route_name": "FCI_DOCUMENTS",
+        "title": "Dokument",
+        "content": "Hier kannst du die Vorschau des zu unterschreibenden Dokuments sehen",
+        "faqs": [
+          {
+            "title": "Was kann ich tun, wenn ein zu signierendes Dokument Fehler enthält?",
+            "body": "Wende dich direkt an die Körperschaft, die das Dokument gesendet hat. Die Kontaktdaten findest du in der Nachricht zur Signaturanforderung."
+          },
+          {
+            "title": "Was kann ich tun, wenn die App abstürzt, während ich ein Dokument signiere?",
+            "body": "Überprüfe, ob du die neueste Version der IO-App aus dem Store deines Geräts installiert hast. Wenn die App nicht mehr aktuell ist, lade die neueste Version herunter. Andernfalls geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Mit IO signieren."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Signatur eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          },
+{
+            "title": "Welchen rechtlichen Wert hat die Signatur eines Dokuments über IO?",
+            "body": "Eine über IO angebrachte digitale Signatur ist eine QES (Qualifizierte elektronische Signatur). Sie hat die gleiche Rechtsgültigkeit wie eine handschriftliche Unterschrift auf Papier. Sie garantiert somit die Authentizität der signierten Dokumente und die vollständige Rückverfolgbarkeit zum Unterzeichner."
+          }]
+      },
+          {
+        "route_name": "FCI_SIGNATURE_FIELDS",
+        "title": "Zu signierende Felder",
+        "content": "Hier kannst du die Liste der im Dokument erforderlichen Signaturen einsehen und die zu tätigenden Signaturen auswählen. Obligatorische Signaturen sind als solche bereits ausgewählt",
+        "faqs": [
+          {
+            "title": "Warum muss ich mehrmals signieren?",
+            "body": "Es ist möglich, dass für einige Dokumente verschiedene Arten von Unterschriften erforderlich sind, die jeweils einen anderen Wert haben.\n Damit ein Dokument gültig ist, sind die obligatorische Signaturen immer erforderlich.\n Einige Dokumente sehen besonders belastende Klauseln vor. Diese sind ebenfalls obligatorische Signaturen; wenn du sie nicht auswählst, kannst du nicht fortfahren. Sie kennzeichnen besondere Bedingungen, auf die du achten sollst. Sie müssen vom Gesetz her leicht erkennbar sein, damit der Unterzeichner vor der Signatur über ihren Inhalt informiert ist.\n Fakultative Signaturen hingegen dienen dazu, bestimmte Bedingungen zu bestätigen oder zu akzeptieren; in diesem Fall kannst du wählen, ob du signieren möchtest oder nicht."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Unterzeichnung eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          }]
+      },
+      {
+        "route_name": "FCI_USER_DATA_SHARE",
+        "title": "Weitergabe von Daten",
+        "content": "Hier kannst du die Daten einsehen, die an den Anbieter der digitalen Signatur weitergegeben werden.",
+        "faqs": [
+          {
+            "title": "Warum muss ich meine Daten weitergeben?",
+            "body": "Die von dir mitgeteilten Daten werden vom Anbieter der digitalen Signatur verwendet, um dir den Dienst anzubieten und deine Signatur zu zertifizieren."
+          },
+          {
+            "title": "Ich habe die Nachricht mit den signierten Dokumenten erhalten, aber sie sind nicht mehr verfügbar. Wie kann ich sie abrufen?",
+            "body": "In diesem Fall musst du dich direkt an die Körperschaft wenden, die das Dokument ausgestellt hat. Die Kontaktdaten findest du in der Zusammenfassung des signierten Dokuments, die du in der IO-App erhalten hast."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Signatur eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          },
+          {
+            "title": "Was kann ich tun, wenn ich einen Signaturanforderung erhalten habe, die Frist aber bereits abgelaufen ist?",
+            "body": "Du kannst dich an die Körperschaft wenden, die das Dokument verschickt hat, und diese bitten, dir einen neuen Antrag zu senden."
+          }]
+      },
         ],
     "idps": {
                         "arubaid": {

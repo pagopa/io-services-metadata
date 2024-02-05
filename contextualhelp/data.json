@@ -1951,7 +1951,7 @@
             "body": "Einige Zustellungen enthalten eine Gebühr für den Versand, die nur einmal pro Zustellung zu entrichten ist. Bei Zustellungen mit mehreren Zahlungsaufforderungen sind die Kosten für die Zusendung nur in einer und nicht in allen Zustellungen enthalten.\n\nSo kannst du beispielsweise entscheiden, ob du die Zahlungenaufforderung in einem Mal oder in Raten zahlen möchtest. Wenn du dich für die Zahlung eines Gesamtbetrags entscheidest, sind die Kosten für den Versand in der betreffenden Zahlungenaufforderung enthalten. Wenn du sich für eine Ratenzahlung entscheidest, sind die Kosten für den Versand nur in einem der verschiedenen Zahlungenaufforderungen enthalten - in der Regel in der ersten Rate."
           }
         ]
-      },
+      }
         ],
     "idps": {
                         "arubaid": {

@@ -1785,7 +1785,173 @@
             "route_name": "MESSAGE_DETAIL_ATTACHMENT",
             "title": "Vorschau des Dokuments",
             "content": "Hier kannst du eine Vorschau des an die Nachricht angehängten Dokuments anzeigen. Du kannst es auch speichern, weitergeben oder mit einer auf deinem Gerät installierten PDF-Reader-App öffnen."
-            }
+            },
+      {
+        "route_name": "FCI_DOCUMENTS",
+        "title": "Dokument",
+        "content": "Hier kannst du die Vorschau des zu signierenden Dokuments sehen",
+        "faqs": [
+          {
+            "title": "Was kann ich tun, wenn ein zu signierendes Dokument Fehler enthält?",
+            "body": "Wende dich direkt an die Körperschaft, die das Dokument gesendet hat. Die Kontaktdaten findest du in der Nachricht zur Signaturanforderung."
+          },
+          {
+            "title": "Was kann ich tun, wenn die App abstürzt, während ich ein Dokument signiere?",
+            "body": "Überprüfe, ob du die neueste Version der IO-App aus dem Store deines Geräts installiert hast. Wenn die App nicht mehr aktuell ist, lade die neueste Version herunter. Andernfalls geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Mit IO signieren."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Signatur eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          },
+{
+            "title": "Welchen rechtlichen Wert hat die Signatur eines Dokuments über IO?",
+            "body": "Eine über IO angebrachte digitale Signatur ist eine QES (Qualifizierte elektronische Signatur). Sie hat die gleiche Rechtsgültigkeit wie eine handschriftliche Unterschrift auf Papier. Sie garantiert somit die Authentizität der signierten Dokumente und die vollständige Rückverfolgbarkeit zum Unterzeichner."
+          }]
+      },
+          {
+        "route_name": "FCI_SIGNATURE_FIELDS",
+        "title": "Zu signierende Felder",
+        "content": "Hier kannst du die Liste der im Dokument erforderlichen Signaturen einsehen und die zu tätigenden Signaturen auswählen. Obligatorische Signaturen sind als solche bereits ausgewählt",
+        "faqs": [
+          {
+            "title": "Warum muss ich mehrmals signieren?",
+            "body": "Es ist möglich, dass für einige Dokumente verschiedene Arten von Unterschriften erforderlich sind, die jeweils einen anderen Wert haben.\n Damit ein Dokument gültig ist, sind die obligatorische Signaturen immer erforderlich.\n Einige Dokumente sehen besonders belastende Klauseln vor. Diese sind ebenfalls obligatorische Signaturen; wenn du sie nicht auswählst, kannst du nicht fortfahren. Sie kennzeichnen besondere Bedingungen, auf die du achten sollst. Sie müssen vom Gesetz her leicht erkennbar sein, damit der Unterzeichner vor der Signatur über ihren Inhalt informiert ist.\n Fakultative Signaturen hingegen dienen dazu, bestimmte Bedingungen zu bestätigen oder zu akzeptieren; in diesem Fall kannst du wählen, ob du signieren möchtest oder nicht."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Unterzeichnung eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          }]
+      },
+      {
+        "route_name": "FCI_USER_DATA_SHARE",
+        "title": "Weitergabe von Daten",
+        "content": "Hier kannst du die Daten einsehen, die an den Anbieter der digitalen Signatur weitergegeben werden.",
+        "faqs": [
+          {
+            "title": "Warum muss ich meine Daten weitergeben?",
+            "body": "Die von dir mitgeteilten Daten werden vom Anbieter der digitalen Signatur verwendet, um dir den Dienst anzubieten und deine Signatur zu zertifizieren."
+          },
+          {
+            "title": "Ich habe die Nachricht mit den signierten Dokumenten erhalten, aber sie sind nicht mehr verfügbar. Wie kann ich sie abrufen?",
+            "body": "In diesem Fall musst du dich direkt an die Körperschaft wenden, die das Dokument ausgestellt hat. Die Kontaktdaten findest du in der Zusammenfassung des signierten Dokuments, die du in der IO-App erhalten hast."
+          },
+          {
+            "title": "Ich habe ein Problem mit der Signatur eines Dokuments. Was kann ich tun?",
+            "body": "Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits das Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
+          },
+          {
+            "title": "Was kann ich tun, wenn ich einen Signaturanforderung erhalten habe, die Frist aber bereits abgelaufen ist?",
+            "body": "Du kannst dich an die Körperschaft wenden, die das Dokument verschickt hat, und diese bitten, dir einen neuen Antrag zu senden."
+          }]
+      },
+          {
+        "route_name": "ONBOARDING_NOTIFICATIONS_INFO_SCREEN_CONSENT",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
+          {
+        "route_name": "ONBOARDING_NOTIFICATIONS_PREFERENCES",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
+          {
+        "route_name": "PROFILE_PREFERENCES_NOTIFICATIONS",
+        "title": "Push-Benachrichtigungen",
+        "content": "Hier kannst du die Push-Benachrichtigungen anpassen.",
+        "faqs": [
+          {
+            "title": "Was bedeutet 'Vorschau anzeigen'?",
+            "body": "Wenn du die Option 'Vorschau anzeigen' aktivierst, werden in den IO-Push-Benachrichtigungen der Absender und der Betreff der Nachrichten angezeigt. So kannst du wissen, wer dir geschrieben hat, ohne die App zu öffnen."
+          },
+          {
+            "title": "Was bedeutet 'Erinnerung zulassen'?",
+            "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
+          }
+        ]
+      },
+          {
+        "route_name": "PN_ROUTES_MESSAGE_DETAILS",
+        "title": "Details zur Zustellung",
+        "content": "Diese Mitteilung enthält eine Zustellung, d.h. eine Mitteilung mit rechtlichem Wert. Nachdem du die Nachricht geöffnet hast, wird dir der Bescheid rechtlich zugestellt. Hier kannst du den Inhalt des Bescheids lesen, die beigefügten Unterlagen einsehen und etwaige Gebühren bezahlen.",
+        "faqs": [
+          {
+            "title": "Was ist eine Zustellung?",
+            "body": "Zustellungen sind Mitteilungen mit rechtlichem Wert, die offiziell von einer Verwaltung erstellt werden, z. B. Geldbußen, Steuerbescheide oder Erstattungen. 'Zustellungen' unterscheiden sich daher von 'Push-Benachrichtigungen', d. h. von den Kurznachrichten, die du auf dem Bildschirm deines Geräts erhältst. Bislang wurden diese Mitteilungen fast immer per Einschreiben verschickt. Jetzt kannst du sie aber auch digital erhalten."
+          },
+          {
+            "title": "Was bedeutet es, dass eine Mitteilung von rechtlichem Wert ist?",
+            "body": "Das bedeutet, dass das Versenden und der Empfang dieser Mitteilungen sowohl für den Absender als auch für den Empfänger rechtliche Auswirkungen haben. Wenn du beispielsweise einen Bußgeldbescheid für einen Verkehrsverstoß erhältst, wirkt sich das Datum, an dem du ihn erhältst, auf den Betrag aus, den du zahlen musst oder auf dein Recht, ihn anzufechten."
+          },
+          {
+            "title": "Was ist SEND?",
+            "body": "Es handelt sich um eine Plattform, die die Verwaltung von Zustellungen digitalisiert und vereinfacht: Sie ermöglicht es dir, Bescheide zu erhalten, beigefügte Dokumente herunterzuladen und etwaige Gebühren in der IO-App oder auf der Plattform SEND - digitaler Zustelldienst zu bezahlen. Weitere Informationen findest du [auf der SEND-Website] (https://notifichedigitali.pagopa.it)."
+          },
+          {
+            "title": "Warum habe ich diese Nachricht erhalten?",
+            "body": "Weil du den Dienst 'Digitale Zustellungen' von SEND aktiviert hast und eine Körperschaft eine Zustellung für dich hat. Das Öffnen der Nachricht auf IO und damit die Einsicht in den Inhalt der Zustellung ist gleichbedeutend mit der Unterzeichnung des Rückscheins eines herkömmlichen Einschreibens."
+          },
+          {
+            "title": "Ich habe die Nachricht geöffnet. Was soll ich jetzt tun?",
+            "body": "Nachdem du die Nachricht geöffnet hast, ist die Zustellung rechtskräftig: Es ist so, als hättest du den Rückschein eines herkömmlichen Einschreibens unterschrieben. Du kannst den Inhalt der Zustellung lesen, die beigefügten Dokumente einsehen und etwaige Gebühren direkt in der App bezahlen."
+          },
+          {
+            "title": "Ich habe die Nachricht geöffnet. Was passiert, wenn ich sie ignoriere?",
+            "body": "Die Nachricht zu öffnen, keine Gebühren zu zahlen oder ihren Inhalt zu ignorieren, ist wie ein Einschreiben zu ignorieren."
+          },
+          {
+            "title": "Ich habe ein Problem mit dieser Zustellung. Was kann ich tun?",
+            "body": "Wenn du Probleme oder Fragen zum Inhalt der Zustellung hast, wende dich bitte an die Körperschaft, die dir die Mitteilung zugesandt hat. Wenn du technische Probleme hast, z. B. wenn du die an die Zustellung angehängten Dokumente nicht sehen oder die Gebühren nicht bezahlen kannst, geh zum Ende dieser Seite und wähle Ticket erstellen > Mitteilungen > Ich habe ein Problem mit einer SEND-Mitteilung."
+          },
+          {
+            "title": "Wie lange sind die Dokumente der Zustellung in der App verfügbar?",
+            "body": "Für 120 Tage ab dem Datum der Rechtswirksamkeit. Nach Ablauf dieser Frist kannst du sie nicht mehr über IO oder SEND einsehen. Du musst dich dann an die Körperschaft wenden, die sie dir zugesandt hat."
+          },
+          {
+            "title": "Was bedeutet 'Rechtswirksamkeit'?",
+            "body": "Die Rechtswirksamkeit einer Zustellung bedeutet, dass sie für alle Zwecke Rechtskraft erlangt. So beginnen beispielsweise ab dem Zeitpunkt der Rechtswirksamkeit einer Zustellung die Fristen für die Ausübung der einschlägigen Rechte, die Anfechtung von Handlungen und die Zahlung von Sanktionen zu laufen."
+          },
+          {
+            "title": "Wann wird eine Zustellung rechtswirksam?",
+            "body": "Eine Zustellung wird zu unterschiedlichen Zeitpunkten für die Körperschaft, die sie versendet, und für den Empfänger, der sie erhält, rechtswirksam. Für den Absender ist sie an dem Tag rechtswirksam, an dem das zuzustellende Dokument auf der Plattform zur Verfügung gestellt wird. Für den Empfänger hängt die Rechtswirksamkeit davon ab, wie er die Benachrichtigung erhält oder liest. [Hier](https://notifichedigitali.pagopa.it/perfezionamento) findest du den Zeitpunkt der Rechtswirksamkeit einer Zustellung in Abhängigkeit von dem Kanal, über den sie empfangen oder eingesehen wird."
+          },
+          {
+            "title": "Wie kann ich erfahren, wann eine Meldung rechtswirksam ist?",
+            "body": "Wähle in den Details der Zustellung 'Webversion aufrufen'. Du findest diese Informationen rechts im Abschnitt 'Status der Zustellung'."
+          },
+          {
+            "title": "Die Zustellung, die ich erhalten habe, wurde storniert. Wie kommt das?",
+            "body": "Die Körperschaft, die sie versandt hat, kann sie aus verschiedenen Gründen storniert haben. So kann ihr beispielsweise ein Fehler unterlaufen sein oder es können Umstände eingetreten sein, aufgrund derer die Zustellung nicht mehr wirksam ist.\n\nWenn du eine Zustellung erhalten hast und diese annulliert wurde, ignoriere deren Inhalt. Wenn du Zweifel oder Fragen hast, wende dich an die Körperschaft, die dir den Bescheid zugestellt hat."
+          },
+          {
+            "title": "Die Zustellung, die ich erhalten habe, wurde storniert, aber ich habe sie bereits bezahlt. Was soll ich tun?",
+            "body": "Für Informationen über eine mögliche Rückerstattung wende dich bitte an die Körperschaft, die dir das Dokument zugesandt hat."
+          },
+          {
+            "title": "In einer Zustellung mit mehreren Zahlungenaufforderungen enthalten einige die Zustellkosten und andere nicht. Wie kommt das?",
+            "body": "Einige Zustellungen enthalten eine Gebühr für den Versand, die nur einmal pro Zustellung zu entrichten ist. Bei Zustellungen mit mehreren Zahlungsaufforderungen sind die Kosten für die Zusendung nur in einer und nicht in allen Zustellungen enthalten.\n\nSo kannst du beispielsweise entscheiden, ob du die Zahlungenaufforderung in einem Mal oder in Raten zahlen möchtest. Wenn du dich für die Zahlung eines Gesamtbetrags entscheidest, sind die Kosten für den Versand in der betreffenden Zahlungenaufforderung enthalten. Wenn du sich für eine Ratenzahlung entscheidest, sind die Kosten für den Versand nur in einem der verschiedenen Zahlungenaufforderungen enthalten - in der Regel in der ersten Rate."
+          }
+        ]
+      }
         ],
     "idps": {
                         "arubaid": {

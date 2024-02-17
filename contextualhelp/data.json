@@ -1997,32 +1997,6 @@
             ]
          },
          {
-            "route_name":"AUTHENTICATION_IPD_SELECTION",
-            "title":"Dein Identitätsanbieter",
-            "content":"Der Identitätsanbieter ist der Verwalter deiner digitalen Identität. Du kannst dich nur authentifizieren, wenn du den Identitätsanbieter ausgewählt hast, der deinen SPID ausgestellt hat.",
-            "faqs":[
-               {
-                  "title":"Was ist ein Identitätsanbieter?",
-                  "body":"Die SPID-Identität wird von Identitätsanbietern ausgestellt, die digitale Identitäten bereitstellen und die Benutzerauthentifizierung verwalten. Dein Identitätsanbieter ist das Unternehmen, das du als deinen SPID-Anbieter ausgewählt hast."
-               }
-            ]
-         },
-         {
-            "route_name":"CIE_PIN_SCREEN",
-            "title":"Der PIN-Code deiner CIE",
-            "content":"Der PIN-Code deiner elektronischen Identitätskarte ist ein 8-stelliger Code, der für den Zugang erforderlich ist.",
-            "faqs":[
-               {
-                  "title":"Wo kann ich die PIN- und PUK-Codes für die CIE finden?",
-                  "body":"PIN- und PUK-Code bestehen jeweils aus 8 Ziffern: Die ersten 4 Ziffern wurden dir im Meldeamt mitgeteilt, die letzten 4 Ziffern wurden dir zusammen mit der elektronischen Identitätskarte nach Hause geschickt. Der PUK-Code wird verwendet, um den PIN-Code nach drei Fehlversuchen zu entsperren."
-               },
-               {
-                  "title":"Ich habe meinen PIN- und/oder PUK-Code nicht mehr. Was kann ich tun?",
-                  "body":"[Auf dieser Website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) findest du alle Informationen, die du benötigst, um sie wiederzufinden."
-               }
-            ]
-         },
-         {
             "route_name":"AUTHENTICATION_LANDING",
             "title":"Zugang zu IO",
             "content":"Um Zugang zu IO zu erhalten, musst du dich mit deiner SPID-Identität oder deiner elektronischen Identitätskarte (CIE) authentifizieren. Um SPID zu aktivieren, befolge das Verfahren, das du [auf dieser Website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) findest. Um die CIE zu beantragen, geh auf die Website deiner Gemeinde.",
@@ -2049,6 +2023,32 @@
                }
             ]
          },
+         {
+            "route_name":"AUTHENTICATION_IPD_SELECTION",
+            "title":"Dein Identitätsanbieter",
+            "content":"Der Identitätsanbieter ist der Verwalter deiner digitalen Identität. Du kannst dich nur authentifizieren, wenn du den Identitätsanbieter ausgewählt hast, der deinen SPID ausgestellt hat.",
+            "faqs":[
+               {
+                  "title":"Was ist ein Identitätsanbieter?",
+                  "body":"Die SPID-Identität wird von Identitätsanbietern ausgestellt, die digitale Identitäten bereitstellen und die Benutzerauthentifizierung verwalten. Dein Identitätsanbieter ist das Unternehmen, das du als deinen SPID-Anbieter ausgewählt hast."
+               }
+            ]
+         },
+         {
+            "route_name":"CIE_PIN_SCREEN",
+            "title":"Der PIN-Code deiner CIE",
+            "content":"Der PIN-Code deiner elektronischen Identitätskarte ist ein 8-stelliger Code, der für den Zugang erforderlich ist.",
+            "faqs":[
+               {
+                  "title":"Wo kann ich die PIN- und PUK-Codes für die CIE finden?",
+                  "body":"PIN- und PUK-Code bestehen jeweils aus 8 Ziffern: Die ersten 4 Ziffern wurden dir im Meldeamt mitgeteilt, die letzten 4 Ziffern wurden dir zusammen mit der elektronischen Identitätskarte nach Hause geschickt. Der PUK-Code wird verwendet, um den PIN-Code nach drei Fehlversuchen zu entsperren."
+               },
+               {
+                  "title":"Ich habe meinen PIN- und/oder PUK-Code nicht mehr. Was kann ich tun?",
+                  "body":"[Auf dieser Website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) findest du alle Informationen, die du benötigst, um sie wiederzufinden."
+               }
+            ]
+         }
       ],
       "idps":{
          "arubaid":{

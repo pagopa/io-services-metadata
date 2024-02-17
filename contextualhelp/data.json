@@ -1957,7 +1957,98 @@
                   "body":"Einige Zustellungen enthalten eine Gebühr für den Versand, die nur einmal pro Zustellung zu entrichten ist. Bei Zustellungen mit mehreren Zahlungsaufforderungen sind die Kosten für die Zusendung nur in einer und nicht in allen Zustellungen enthalten.\n\nSo kannst du beispielsweise entscheiden, ob du die Zahlungenaufforderung in einem Mal oder in Raten zahlen möchtest. Wenn du dich für die Zahlung eines Gesamtbetrags entscheidest, sind die Kosten für den Versand in der betreffenden Zahlungenaufforderung enthalten. Wenn du sich für eine Ratenzahlung entscheidest, sind die Kosten für den Versand nur in einem der verschiedenen Zahlungenaufforderungen enthalten - in der Regel in der ersten Rate."
                }
             ]
-         }
+         },
+         {
+            "route_name":"PN_ROUTES_MESSAGE_ATTACHMENT",
+            "title":"Der Zustellung beiliegenden Dokumente",
+            "content":"Hier kannst du die an der Zustellung angehängten Dokumente anzeigen, speichern und weitergeben.",
+            "faqs":[
+               {
+                  "title":"Ich habe ein Problem mit einem angehängten Dokument. Was kann ich tun?",
+                  "body":"Wenn du Probleme oder Fragen zum Inhalt der Zustellung hast, wende dich bitte an die Körperschaft, die dir die Mitteilung zugesandt hat. Wenn du technische Probleme hast, z. B. wenn du die an die Zustellung angehängten Dokumente nicht sehen oder die Gebühren nicht bezahlen kannst, geh zum Ende dieser Seite und wähle Ticket erstellen > Mitteilungen > Ich habe ein Problem mit einer SEND-Mitteilung."
+               },
+               {
+                  "title":"Ich habe ein Problem mit dieser Zustellung. Was kann ich tun?",
+                  "body":"Wenn du Probleme oder Fragen zum Inhalt der Zustellung hast, wende dich bitte an die Körperschaft, die dir die Mitteilung zugesandt hat. Wenn du technische Probleme hast, z. B. wenn du die an die Zustellung angehängten Dokumente nicht sehen oder die Gebühren nicht bezahlen kannst, geh zum Ende dieser Seite und wähle Ticket erstellen > Mitteilungen > Ich habe ein Problem mit einer SEND-Mitteilung."
+               }
+            ]
+         },
+         {
+            "route_name":"AUTHENTICATION_IDP_LOGIN",
+            "title":"Deine Zugangsdaten",
+            "content":"Um sich bei IO über SPID anzumelden, musst du deinen Benutzernamen und dein Passwort eingeben. Bestätige dann die Anmeldeanfrage per OTP oder in der App deines Identity Providers und kehre zur IO-App zurück.",
+            "faqs":[
+               {
+                  "title":"Wie lautet mein Passwort?",
+                  "body":"Dies ist der alphanumerische Code, den du bei der Aktivierung von SPID festgelegt hast."
+               },
+               {
+                  "title":"Ich habe meine SPID-Anmeldedaten verloren. Was kann ich tun?",
+                  "body":"Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
+               },
+               {
+                  "title":"Ich habe alles richtig gemacht, aber ich komme nicht rein. Was kann ich tun?",
+                  "body":"Wenn dies der Fall ist, geh zum Ende dieser Seite und wähle 'Ticket erstellen', um uns zu schreiben: Unser Support wird dir helfen, das Problem zu lösen."
+               },
+               {
+                  "title":"Wie wird meine Privatsphäre geschützt?",
+                  "body":"Die IO-App wurde nach den Grundsätzen der [Allgemeinen Datenschutzverordnung](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt."
+               }
+            ]
+         },
+         {
+            "route_name":"AUTHENTICATION_IPD_SELECTION",
+            "title":"Dein Identitätsanbieter",
+            "content":"Der Identitätsanbieter ist der Verwalter deiner digitalen Identität. Du kannst dich nur authentifizieren, wenn du den Identitätsanbieter ausgewählt hast, der deinen SPID ausgestellt hat.",
+            "faqs":[
+               {
+                  "title":"Was ist ein Identitätsanbieter?",
+                  "body":"Die SPID-Identität wird von Identitätsanbietern ausgestellt, die digitale Identitäten bereitstellen und die Benutzerauthentifizierung verwalten. Dein Identitätsanbieter ist das Unternehmen, das du als deinen SPID-Anbieter ausgewählt hast."
+               }
+            ]
+         },
+         {
+            "route_name":"CIE_PIN_SCREEN",
+            "title":"Der PIN-Code deiner CIE",
+            "content":"Der PIN-Code deiner elektronischen Identitätskarte ist ein 8-stelliger Code, der für den Zugang erforderlich ist.",
+            "faqs":[
+               {
+                  "title":"Wo kann ich die PIN- und PUK-Codes für die CIE finden?",
+                  "body":"PIN- und PUK-Code bestehen jeweils aus 8 Ziffern: Die ersten 4 Ziffern wurden dir im Meldeamt mitgeteilt, die letzten 4 Ziffern wurden dir zusammen mit der elektronischen Identitätskarte nach Hause geschickt. Der PUK-Code wird verwendet, um den PIN-Code nach drei Fehlversuchen zu entsperren."
+               },
+               {
+                  "title":"Ich habe meinen PIN- und/oder PUK-Code nicht mehr. Was kann ich tun?",
+                  "body":"[Auf dieser Website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) findest du alle Informationen, die du benötigst, um sie wiederzufinden."
+               }
+            ]
+         },
+         {
+            "route_name":"AUTHENTICATION_LANDING",
+            "title":"Zugang zu IO",
+            "content":"Um Zugang zu IO zu erhalten, musst du dich mit deiner SPID-Identität oder deiner elektronischen Identitätskarte (CIE) authentifizieren. Um SPID zu aktivieren, befolge das Verfahren, das du [auf dieser Website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) findest. Um die CIE zu beantragen, geh auf die Website deiner Gemeinde.",
+            "faqs":[
+               {
+                  "title":"Was ist SPID?",
+                  "body":"SPID ist das Authentifizierungssystem, das Bürgern und Unternehmen den Zugang zu den Online-Diensten der öffentlichen Verwaltung und teilnehmenden Privatpersonen mit einer eindeutigen digitalen Identität, bestehend aus einem Benutzernamen und einem Passwort, ermöglicht."
+               },
+               {
+                  "title":"Wie kann ich SPID aktivieren?",
+                  "body":"[Auf dieser Website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) findest du alle Informationen darüber, wo und wie du SPID aktivieren kannst."
+               },
+               {
+                  "title":"Ich habe meine SPID-Anmeldedaten verloren. Was kann ich tun?",
+                  "body":"Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
+               },
+               {
+                  "title":"Was ist die CIE?",
+                  "body":"Die elektronische Identitätskarte (CIE) ist das Identitätsdokument der italienischen Bürger. Sie ermöglicht die Feststellung der Identität seines Inhabers und den Zugang zu Online-Diensten der öffentlichen Verwaltungen."
+               },
+               {
+                  "title":"Wie kann ich ein CIE beantragen?",
+                  "body":"[Geh auf diese Website](https://www.prenotazionicie.interno.gov.it/) und gib den Namen deiner Gemeinde ein, um zu prüfen, ob sie das Online-Terminvereinbarungssystem Agenda CIE verwendet. Wenn ja, kannst du den Termin buchen. Wenn nicht, fordere einen Termin über die Website deiner Gemeinde an oder geh zu einem Gemeindebüro."
+               }
+            ]
+         },
       ],
       "idps":{
          "arubaid":{

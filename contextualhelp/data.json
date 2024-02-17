@@ -2051,7 +2051,7 @@
          },
          {
             "route_name":"ONBOARDING_FINGERPRINT",
-            "title":"So funktioniert biometrische Erkennung",
+            "title":"Wie funktioniert die biometrische Erkennung",
             "content":"Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrcode eingeben zu müssen. Du kannst sie im Abschnitt 'Profil' aktivieren oder deaktivieren",
             "faqs":[
                {
@@ -2065,6 +2065,45 @@
                {
                   "title":"Wie kann ich die biometrische Erkennung deaktivieren?",
                   "body":"Geh zum Abschnitt 'Profil'. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
+               }
+            ]
+         },
+         {
+            "route_name":"ONBOARDING_PIN",
+            "title":"Wie funktioniert der Entsperrcode",
+            "content":"Hier kannst du deinen Entsperrcode festlegen oder ändern. Wenn du zum ersten Mal in der App bist, wähle einen Code und merk ihn dir, damit du ihn jedes Mal verwenden kannst, wenn du dich anmelden musst. Wenn du ihn bereits eingestellt hast und dich nicht mehr daran erinnern kannst, tippe auf 'Entsperrcode vergessen' und bib einen neuen Code ein. Wenn du ihn ändern möchtest, tippe auf 'Entsperrcode ändern'.\n\nDer Freischaltcode ist mit dem Gerät verknüpft, auf dem du ihn eingestellt habst: Wenn du dein Telefon wechselst, musst du ihn bei der ersten Anmeldung in der App erneut einstellen.",
+            "faqs":[
+               {
+                  "title":"Was ist der Entsperrcode?",
+                  "body":"Es handelt sich um einen 6-stelligen Code, den du beim ersten Zugriff auf IO festlegst und der es dir ermöglicht, die App zu betreten, ohne jedes Mal deine SPID- oder CIE-Anmeldedaten eingeben zu müssen. Du musst ihn auch eingeben, um sensible Daten einzusehen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung vorzunehmen oder dein Konto zu löschen.\nDiese Erkennung bleibt 30 Tage nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Danach musst du dich erneut authentifizieren und einen neuen Freischaltcode festlegen."
+               },
+               {
+                  "title":"Ich habe den Entsperrcode vergessen. Was kann ich tun?",
+                  "body":"Tippe auf 'Entsperrcode vergessen?', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
+               },
+               {
+                  "title":"Wie kann ich den Entsperrcode ändern?",
+                  "body":"Wenn du dich an den Entsperrcode erinnerst, ihn aber ändern möchtest, wähle 'Entsperrcode zurücksetzen', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
+               }
+            ] 
+         },
+         {
+            "route_name":"ONBOARDING_TOS",
+            "title":"Datenschutz und Nutzungsbedingungen",
+            "content":"Hier findest du die vollständige Beschreibung, wie IO mit deinen persönlichen Daten umgeht sowie die Nutzungsbedingungen der App."
+         },
+         {
+            "route_name":"PROFILE_MAIN",
+            "title":"Was du in deinem Profil tun kannst",
+            "content":"Hier kannst du deine Präferenzen und dein Konto verwalten, Informationen über die Verarbeitung personenbezogener Daten finden und die digitale Version deiner Steuernummerkarte einsehen.",
+            "faqs":[
+               {
+                  "title":"Wie wird meine Privatsphäre geschützt?",
+                  "body":"Die IO-App wurde nach den Grundsätzen der [Allgemeinen Datenschutzverordnung](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
+               },
+               {
+                  "title":"Wozu dient die digitale Version meiner Steuernummerkarte?",
+                  "body":"Oben in diesem Abschnitt findest du die digitale Version deiner Steuernummerkarte. Dieses Faksimile ersetzt nicht die physische Karte, sondern kann zum Lesen der Daten und des Strichcodes von Händlern verwendet werden, die es anfordern, z.B. in Apotheken oder Postämtern.\nUm die Details der Steuernummer zu sehen, tippe auf die Karte. Wenn due erneut tippest, wird das Dokument auf den gesamten Bildschirm vergrößert."
                }
             ]
          }

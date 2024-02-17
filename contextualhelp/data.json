@@ -2048,6 +2048,25 @@
                   "body":"[Auf dieser Website](https://www.cartaidentita.interno.gov.it/anagrafe/procedure/) findest du alle Informationen, die du benötigst, um sie wiederzufinden."
                }
             ]
+         },
+         {
+            "route_name":"ONBOARDING_FINGERPRINT",
+            "title":"So funktioniert biometrische Erkennung",
+            "content":"Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrcode eingeben zu müssen. Du kannst sie im Abschnitt 'Profil' aktivieren oder deaktivieren",
+            "faqs":[
+               {
+                  "title":"Wann werde ich zur biometrischen Erkennung aufgefordert?",
+                  "body":"Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Freischaltcodes verwenden. Wie der Freischaltcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+               },
+               {
+                  "title":"Wie kann ich die biometrische Erkennung aktivieren?",
+                  "body":"Wenn dein Telefon die biometrische Erkennung unterstützt, aktiviere sie in den Systemeinstellungen. Geh dann zum Abschnitt 'Profil' und aktiviere sie auch dort."
+               },
+               {
+                  "title":"Wie kann ich die biometrische Erkennung deaktivieren?",
+                  "body":"Geh zum Abschnitt 'Profil'. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
+               }
+            ]
          }
       ],
       "idps":{

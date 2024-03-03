@@ -2106,6 +2106,106 @@
                   "body":"Oben in diesem Abschnitt findest du die digitale Version deiner Steuernummerkarte. Dieses Faksimile ersetzt nicht die physische Karte, sondern kann zum Lesen der Daten und des Strichcodes von Händlern verwendet werden, die es anfordern, z.B. in Apotheken oder Postämtern.\nUm die Details der Steuernummer zu sehen, tippe auf die Karte. Wenn due erneut tippest, wird das Dokument auf den gesamten Bildschirm vergrößert."
                }
             ]
+         },
+         {
+            "route_name":"PROFILE_DATA",
+            "title":"Deine Daten",
+            "content":"Hier kannst du deinen Vor- und Nachnamen einsehen und die mit IO verbundene E-Mail-Adresse ändern.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich mein Konto und meine Daten löschen?",
+                  "body":"Geh zu 'Datenschutz und Nutzungsbedingungen' und wähle 'Dein Konto löschen'. Wenn die Löschung abgeschlossen ist, erhältst du eine Bestätigungsnachricht an die mit der App verbundene E-Mail-Adresse. Dies bedeutet nicht, dass du IO nicht mehr nutzen kannst: Wenn du dich erneut anmeldest, wird ein neues Konto erstellt."
+               },
+               {
+                  "title":"Wie kann ich meine E-Mail-Adresse ändern?",
+                  "body":"Die E-Mail-Adresse, die du in deinem Profil siehst, ist diejenige, die du bei der ersten Anmeldung angegeben hast. Wenn du sie ändern möchtest, geh zu Profil > Deine Daten und wähle E-Mail-Adresse > E-Mail-Adresse bearbeiten."
+               },
+               {
+                  "title":"In meinem Profil ist ein Fehler in meinem Vornamen, Nachnamen oder meiner Steuernummer enthalten. Was kann ich tun?",
+                  "body":"Der Vorname, der Nachname und die Steuernummer, die du unter Profil > Deine Daten siehst, stammen von den SPID oder CIE-Daten, die du für den Zugang zu IO verwendet hast und sind direkt mit den Daten in deinem Ausweisdokument verknüpft. Wenn der Fehler auch in deinem Dokument vorhanden ist, wende dich an das Meldeamt deiner Gemeinde, um die erforderlichen Änderungen vorzunehmen, die dann auch in den digitalen Identitätsdaten der CIE vorgenommen werden. Liegt der Fehler nur in deinen SPID-Daten vor, wende dich an deinen Identitätsanbieter."
+               }
+            ]
+         },
+         {
+            "route_name":"READ_EMAIL_SCREEN",
+            "title":"Deine E-Mail-Adresse",
+            "content":"Dies ist die E-Mail-Adresse, die du bei der Registrierung bestätigt hast. Dort senden wir dir Zahlungsbelege und leiten, wenn du die Option aktiviert hast, die Nachrichten weiter, die du in der App erhältst."
+         },
+         {
+            "route_name":"INSERT_EMAIL_SCREEN",
+            "title":"Ändere deine E-Mail-Adresse",
+            "content":"Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du über die neue Adresse erhalten hast."
+         },
+         {
+            "route_name":"PROFILE_PREFERENCES_HOME",
+            "title":"Deine Einstellungen",
+            "content":"Hier kannst du die von allen Diensten auf IO verwendeten Einstellungen einsehen und ändern. Du kannst auch den Kalender auswählen, in dem du Erinnerungen speichern möchtest, die automatische Weiterleitung von Nachrichten, die du auf IO erhältst, an deine E-Mail-Adresse aktivieren und die Sprache ändern.",
+            "faqs":[
+               {
+                  "title":"Wie wird meine Privatsphäre geschützt?",
+                  "body":"Die IO-App wurde nach den Grundsätzen der [Allgemeinen Datenschutzverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
+               },
+               {
+                  "title":"Wie kann ich mein Konto und meine Daten löschen?",
+                  "body":"Geh zu 'Datenschutz und Nutzungsbedingungen' und wähle 'Dein Konto löschen'. Wenn die Löschung abgeschlossen ist, erhältst du eine Bestätigungsnachricht an die mit der App verbundene E-Mail-Adresse. Dies bedeutet nicht, dass du IO nicht mehr nutzen kannst: Wenn du dich erneut anmeldest, wird ein neues Konto erstellt."
+               }
+            ]
+         },
+         {
+            "route_name":"PROFILE_PREFERENCES_SERVICES",
+            "title":"Die Konfiguration der Dienste",
+            "content":"Hier kannst du entscheiden, wie du die Dienste in der App konfigurieren möchtest. IO übermittelt Mitteilungen von nationalen oder lokalen Körperschaften, die dir etwas mitzuteilen haben. Deshalb empfehlen wir die Schnellkonfiguration: Wenn eine Körperschaft dir etwas mitzuteilen hat, kann sie das tun.",
+            "faqs":[
+               {
+                  "title":"Warum sollte ich die Schnelleinrichtung verwenden?",
+                  "body":"IO sendet nur Mitteilungen, die speziell an dich gerichtet sind und sendet keine Broadcast- oder Spam-Mitteilungen. Wenn du die Schnellkonfiguration verwendest, erhältst du auch Mitteilungen von Diensten, die in der Zukunft eintreffen werden."
+               },
+               {
+                  "title":"Was passiert, wenn ich die Konfiguration manuell vornehme?",
+                  "body":"Bei manueller Konfiguration können dir aktuelle oder zukünftige IO-Dienste keine Mitteilungen senden. Um den Diensten, an denen du interessiert bist, zu erlauben, dir zu schreiben, musst du sie einzeln konfigurieren, indem du auf der Registerkarte eines jeden Dienstes den Punkt 'In der App kontaktieren' auswählst.\n\nFür einige Dienste, z. B. Boni, musst du diese abonnieren. In diesen Fällen kannst du die Option 'In der App kontaktieren' nicht deaktivieren, sobald du deine Registrierung abgeschlossen hast. Wenn du keine Nachrichten mehr von diesen Diensten erhalten möchtest, musst du dich abmelden, verlierst dann aber auch die damit verbundenen Vorteile."
+               }
+            ]
+         },
+         {
+            "route_name":"PROFILE_PREFERENCES_EMAIL_FORWARDING",
+            "title":"Weiterleitung von Mitteilungen",
+            "content":"Hier kannst du die Weiterleitung von Mitteilungen, die du auf IO erhältst, an deine E-Mail-Adresse aktivieren oder deaktivieren."
+         },
+         {
+            "route_name":"PROFILE_PREFERENCES_LANGUAGE",
+            "title":"Ändern der Sprache",
+            "content":"IO verwendet standardmäßig die Sprache des Betriebssystems deines Geräts. Du kannst sie jederzeit auf dieser Seite ändern. Die Sprache des Nachrichteninhalts hingegen wird von jeder Körperschaft festgelegt, die entscheidet, ob der Inhalt in verschiedenen Sprachen übersetzt und gesendet werden soll."
+         },
+         {
+            "route_name":"PROFILE_SECURITY",
+            "title":"Deine Authentifizierungsmethoden",
+            "content":"Hier kannst du den Entsperrcode ändern und die biometrische Erkennung aktivieren oder deaktivieren.",
+            "faqs":[
+               {
+                  "title":"Was ist der Entsperrcode?",
+                  "body":"Es handelt sich um einen 6-stelligen Code, den du beim ersten Zugriff auf IO festlegst und der es dir ermöglicht, die App zu öffnen, ohne jedes Mal deine SPID- oder CIE-Anmeldedaten eingeben zu müssen. Er muss auch eingegeben werden, um sensible Daten einzusehen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung vorzunehmen oder dein Konto zu löschen.\n\nDiese Erkennung bleibt 30 Tage nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Danach musst du dich erneut authentifizieren und einen neuen Freischaltcode festlegen."
+               },
+               {
+                  "title":"Ich habe den Entsperrcode vergessen. Was kann ich tun?",
+                  "body":"Drücke auf 'Entsperrcode vergessen?', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
+               },
+               {
+                  "title":"Wie kann ich den Entsperrcode ändern?",
+                  "body":"Wenn du dich an den Entsperrcode erinnerst, ihn aber ändern möchtest, wähle 'Entsperrcode ändern', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
+               },
+               {
+                  "title":"Wozu dient die biometrische Erkennung?",
+                  "body":"Wenn aktiviert, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+               },
+               {
+                  "title":"Wie kann ich die biometrische Erkennung aktivieren?",
+                  "body":"Wenn dein Telefon die biometrische Erkennung unterstützt, aktiviere sie in den Systemeinstellungen. Geh dann zum Abschnitt 'Profil' in der IO-App und aktiviere sie auch dort."
+               },
+               {
+                  "title":"Wie kann ich die biometrische Erkennung deaktivieren?",
+                  "body":"Geh zum Abschnitt 'Profil' in der IO-App. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
+               }
+            ]
          }
       ],
       "idps":{

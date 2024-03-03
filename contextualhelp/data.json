@@ -2206,6 +2206,40 @@
                   "body":"Geh zum Abschnitt 'Profil' in der IO-App. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
                }
             ]
+         },
+         {
+            "route_name":"PROFILE_PRIVACY_MAIN",
+            "title":"Deine Datenschutzeinstellungen",
+            "content":"Hier findest du Informationen über die Verarbeitung deiner personenbezogenen Daten und die Nutzungsbedingungen von IO. Insbesondere kannst du die Datenschutzbestimmungen einsehen, eine Kopie der mit deinem Konto verbundenen Daten herunterladen oder dein Konto löschen und IO die Erlaubnis zur Erhebung deiner Nutzungsdaten erteilen oder widerrufen.",
+            "faqs":[
+               {
+                  "title":"Wie wird meine Privatsphäre geschützt?",
+                  "body":"Die IO-App wurde nach den Grundsätzen der [Allgemeinen Datenschutzverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt."
+               },
+               {
+                  "title":"Wie kann ich mein Konto und meine Daten löschen?",
+                  "body":"Geh zu 'Datenschutz und Nutzungsbedingungen' und wähle 'Dein Konto löschen'. Wenn die Löschung abgeschlossen ist, erhältst du eine Bestätigungsnachricht an die mit der App verbundene E-Mail-Adresse. Dies bedeutet nicht, dass du IO nicht mehr nutzen kannst: Wenn du dich erneut anmeldest, wird ein neues Konto erstellt."
+               },
+               {
+                  "title":"Wie kann ich eine Kopie der mit meinem IO-Konto verbundenen Daten anfordern?",
+                  "body":"Wähle 'Zugriff auf deine Daten' und drücke dann auf 'Kopie deiner Daten anfordern'. Du erhältst eine Mitteilung mit einer Datei, die eine Kopie der mit deinem Konto verbundenen Daten enthält."
+               },
+               {
+                  "title":"Ich habe Fragen zum Datenschutz und zur Verwendung meiner Daten. An wen kann ich mich wenden?",
+                  "body":"Bitte fülle [dieses Formular](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) aus, das ausschließlich für Anfragen zur Verarbeitung personenbezogener Daten in der App bestimmt ist."
+               }
+            ]
+         },
+         {
+            "route_name":"PROFILE_PRIVACY",
+            "title":"Datenschutz und Nutzungsbedingungen",
+            "content":"Hier findest du die vollständige Beschreibung, wie IO mit deinen persönlichen Daten umgeht und die Nutzungsbedingungen der App.",
+            "faqs":[
+               {
+                  "title":"Wie wird meine Privatsphäre geschützt?",
+                  "body":"Die IO-App wurde nach den Grundsätzen der [Allgemeinen Datenschutzverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
+               }
+            ]
          }
       ],
       "idps":{

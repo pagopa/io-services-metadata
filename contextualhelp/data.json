@@ -2071,7 +2071,7 @@
          {
             "route_name":"ONBOARDING_PIN",
             "title":"Wie funktioniert der Entsperrcode",
-            "content":"Hier kannst du deinen Entsperrcode festlegen oder ändern. Wenn du zum ersten Mal in der App bist, wähle einen Code und merk ihn dir, damit du ihn jedes Mal verwenden kannst, wenn du dich anmelden musst. Wenn du ihn bereits eingestellt hast und dich nicht mehr daran erinnern kannst, tippe auf 'Entsperrcode vergessen' und bib einen neuen Code ein. Wenn du ihn ändern möchtest, tippe auf 'Entsperrcode ändern'.\n\nDer Freischaltcode ist mit dem Gerät verknüpft, auf dem du ihn eingestellt habst: Wenn du dein Telefon wechselst, musst du ihn bei der ersten Anmeldung in der App erneut einstellen.",
+            "content":"Hier kannst du deinen Entsperrcode festlegen oder ändern. Wenn du zum ersten Mal in der App bist, wähle einen Code und merk ihn dir, damit du ihn jedes Mal verwenden kannst, wenn du dich anmelden musst. Wenn du ihn bereits eingestellt hast und dich nicht mehr daran erinnern kannst, tippe auf 'Entsperrcode vergessen' und bib einen neuen Code ein. Wenn du ihn ändern möchtest, tippe auf 'Entsperrcode ändern'.\n\nDer Freischaltcode ist mit dem Gerät verknüpft, auf dem du ihn eingestellt hast: Wenn du dein Telefon wechselst, musst du ihn bei der ersten Anmeldung in der App erneut einstellen.",
             "faqs":[
                {
                   "title":"Was ist der Entsperrcode?",
@@ -2226,7 +2226,7 @@
                },
                {
                   "title":"Ich habe Fragen zum Datenschutz und zur Verwendung meiner Daten. An wen kann ich mich wenden?",
-                  "body":"Bitte fülle [dieses Formular](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) aus, das ausschließlich für Anfragen zur Verarbeitung personenbezogener Daten in der App bestimmt ist."
+                  "body":"Bitte füll [dieses Formular](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) aus, das ausschließlich für Anfragen zur Verarbeitung personenbezogener Daten in der App bestimmt ist."
                }
             ]
          },

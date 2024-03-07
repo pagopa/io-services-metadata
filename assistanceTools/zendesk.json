@@ -206,6 +206,13 @@
           "id": "8086481365265",
           "subCategories": [
             {
+              "value": "bonus_pc",
+              "description": {
+                "it-IT": "Bonus PC",
+                "en-EN": "Bonus PC"
+              }
+            },
+            {
               "value": "cashback",
               "description": {
                 "it-IT": "Cashback",

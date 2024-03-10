@@ -2240,6 +2240,148 @@
                   "body":"Die IO-App wurde nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
                }
             ]
+         },
+         {
+            "route_name":"WALLET_ADD_CARD",
+            "title":"Bezahle mit einer Kredit-, Debit- oder Prepaid-Karte",
+            "content":"Auf dieser Seite kannst du eine Kredit-, Debit- oder Prepaid-Karte als Zahlungsmethode hinzufügen. Du kannst die Einstellungen der neuen Zahlungsmethode jederzeit ändern oder sie entfernen, indem du auf die entsprechende Karte in deinem Konto tippst.",
+            "faqs":[
+               {
+                  "title":"Wo finde ich den Sicherheitscode?",
+                  "body":"Der Sicherheitscode, auch CVV oder CVS genannt, ist ein dreistelliger Code, der sich auf der Rückseite deiner Karte befindet. Bei American Express-Karten wird er CID genannt, ist vierstellig und befindet sich auf der Vorderseite. Wenn du ihn nicht finden kannst, ist deine Karte wahrscheinlich nicht für Online-Zahlungen zugelassen."
+               },
+               {
+                  "title":"Ich kann meine Karte nicht hinzufügen. Wie kommt das?",
+                  "body":"In diesem Fall raten wir dir, dich an deine Bank zu wenden. Dafür kann es mehrere Gründe geben, die häufigsten sind:\n\n- deine Karte ist nicht für Online-Einkäufe freigeschaltet;\n\n- deine Karte wurde 'pausiert';\n\n- du hast den [3DS-Service](https://io.italia.it/faq/#n3_4), ein Sicherheitssystem für Online-Zahlungen, noch nicht aktiviert.\n\nAuf der Seite [Zahlungsmethoden](https://io.italia.it/metodi-pagamento/) findest du eine detaillierte Liste der von der App unterstützten Methoden."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_PAYPAL_DETAIL",
+            "title":"Dein PayPal-Konto",
+            "content":"Auf dieser Seite kannst du die Details zu dieser Zahlungsmethode einsehen, die Einstellungen ändern oder sie aus deinem Konto entfernen.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode als bevorzugt einstellen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte für diese Methode und leg sie als bevorzugt fest."
+               },
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode entfernen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte, die du entfernen möchtest und tipp dann auf 'Diese Zahlungsmethode entfernen'."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_BPAY_DETAIL",
+            "title":"Dein BANCOMAT Pay-Konto",
+            "content":"Auf dieser Seite kannst du die Details zu dieser Zahlungsmethode einsehen, die Einstellungen ändern oder sie aus deinem Konto entfernen.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode als bevorzugt einstellen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte für diese Methode und leg sie als bevorzugt fest."
+               },
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode entfernen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte, die du entfernen möchtest und tipp dann auf 'Diese Zahlungsmethode entfernen'."
+               },
+               {
+                  "title":"Ich kann In-App-Zahlungen mit BANCOMAT Pay nicht aktivieren. Was kann ich tun?",
+                  "body":"Um das Problem zu beheben, versuche, die App auf die neueste verfügbare Version zu aktualisieren.\nNachdem du dies getan hast, entferne die Zahlungsmethode aus deinem Konto, füg sie erneut hinzu und versuch erneut, die Zahlung durchzuführen."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_CREDIT_CARD_DETAIL",
+            "title":"Deine Karte",
+            "content":"Auf dieser Seite kannst du die Details zu dieser Zahlungsmethode einsehen, die Einstellungen ändern oder sie aus deinem Konto entfernen.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode als bevorzugt einstellen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte für diese Methode und leg sie als bevorzugt fest."
+               },
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode entfernen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte, die du entfernen möchtest und tipp dann auf 'Diese Zahlungsmethode entfernen'."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_HOME",
+            "title":"Was du in deinem Konto tun kannst",
+            "content":"Im Tab Konto findest du die von dir hinzugefügten Zahlungsmittel, die Boni und Initiativen, an denen du teilgenommen hast, sowie die Historie der mit pagoPA, der Plattform für Zahlungen an die öffentliche Verwaltung, getätigten Transaktionen. In diesem Bereich kannst du auch alle Zahlungsmitteilungen mit dem pagoPA-Logo bezahlen.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich auf IO zahlen?",
+                  "body":"Du kannst mit Debit-, Kredit- und Prepaid-Karten, PayPal oder BANCOMAT Pay bezahlen. Die aktualisierte Liste der verfügbaren Zahlungsmethoden findest du auf der Seite [Zahlungsmöglichkeiten](https://io.italia.it/metodi-pagamento)."
+               },
+               {
+                  "title":"Wie kann ich eine Zahlungsmethode hinzufügen??",
+                  "body":"Geh zum Tab Konto, tipp auf 'Hinzufügen' und 'Zahlungsmethode'. Wähle dann die Methode, die du hinzufügen möchtest und gib die erforderlichen Daten ein."
+               },
+               {
+                  "title":"Welche Boni, Rabatte oder andere Initiativen kann ich in Anspruch nehmen?",
+                  "body":"Geh zum Tab Konto, tippe auf 'Hinzufügen' und 'Rabatte, Boni und andere Initiativen'. Es wird eine Liste mit allen Boni und Initiativen angezeigt, die du über die IO-App in Anspruch nehmen kannst."
+               },
+               {
+                  "title":"Ich kann keine Zahlungsmethode hinzufügen. Was kann ich tun?",
+                  "body":"Geh zur Seite [Status Hinzufügen der Zahlungsmethode](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), wähle den fehlgeschlagenen Versuch aus und wende dich an den Support."
+               },
+               {
+                  "title":"Wie kann ich diese Zahlungsmethode entfernen?",
+                  "body":"Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte, die du entfernen möchtest und tipp dann auf 'Diese Zahlungsmethode entfernen'."
+               },
+               {
+                  "title":"Ich habe ein Problem mit einer Zahlung. Was kann ich tun?",
+                  "body":"Geh auf die Seite [Zahlungsstatus](ioit://PAYMENTS_HISTORY_SCREEN), wähle den fehlgeschlagenen Zahlungsversuch aus und kontaktiere den Support."
+               },
+               {
+                  "title":"Wo finde ich die von mir geleisteten Zahlungen?",
+                  "body":"In der Wallet findest du eine Liste mit Zahlungen, die erfolgreich über die IO-App durchgeführt wurden. Die Liste enthält auch Zahlungen, die über die Website oder App von teilnehmenden Organisationen getätigt wurden, wenn du dich mit SPID authentifiziert hast."
+               },
+               {
+                  "title":"Kann ich eine Zahlungsmitteilung bezahlen, die ich nicht über IO erhalten habe?",
+                  "body":"Ja, wenn das pagoPA Logo und der QR-Code oder der Zahlungskodex auf der Zahlungsmitteilung vorhanden sind. Geh dazu zum Tab Konto, scanne den QR-Code oder gib den Zahlungskodex ein und schließe die Zahlung ab."
+               },
+               {
+                  "title":"Was ist ein QR-Code?",
+                  "body":"Ein QR-Code ist ein quadratisches Bild, das aus schwarzen und weißen Elementen besteht. Wenn er von der Kamera eines Telefons gescannt wird, ermöglicht er den Zugriff auf digitale Inhalte, wie eine Website, eine Zahlung oder einen Artikel.\n\nDer QR-Code, den du auf Zahlungsmitteilungen findest, ist mit einem Zahlungskodex verbunden. Wenn du in deinem Konto auf 'Zahlungsmitteilung bezahlen' tippst und den Code mit deiner Kamera scannst, kannst du die Zahlungsmitteilungen bezahlen, ohne Informationen wie Grund, Betrag oder Steuernummer manuell eingeben zu müssen."
+               },
+               {
+                  "title":"Was ist pagoPA?",
+                  "body":"pagoPA ist eine Plattform, die alle Zahlungen an die öffentliche Verwaltung einfacher, sicherer und transparenter machen soll. Neben anderen Vorteilen steigert sie die Nutzung elektronischer Zahlungsmittel und gibt den Menschen die Freiheit zu wählen, wie sie bezahlen, während sie die Transaktionskosten getrennt ausweist. Weitere Informationen findest du [auf der pagoPA-Website](https://www.pagopa.gov.it/)."
+               },
+               {
+                  "title":"Wie kann ich mehr über digitale Zahlungen erfahren?",
+                  "body":"Um mehr über die Themen zu erfahren, die dich im Zusammenhang mit der Welt des digitalen Zahlungsverkehrs interessieren, kannst du die von der [Zentralbank von Italien](https://www.bancaditalia.it/) im Rahmen der Programme zur finanziellen Bildung zur Verfügung gestellten Materialien konsultieren, einschließlich des [speziellen Bereichs](https://economiapertutti.bancaditalia.it/pagare/) der Website [Wirtschaft für alle](https://economiapertutti.bancaditalia.it/) und des [Leitfadens für Zahlungen im elektronischen Handel](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA. pdf).\n\nWenn du beispielsweise mehr über die Zahlungsmethoden erfahren möchtest, die du zu deinem IO-App Konto hinzufügen kannst, kannst du die entsprechenden Informationsblätter lesen, wie die [Kreditkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), die [Debitkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), die [Prepaid-Karte](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) und die [Co-Badge-Karte](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
+            "title":"Wähle den Zahlungsdienstleister",
+            "content":"Der Zahlungsdienstleister, d. h. das Unternehmen, die den fälligen Betrag im Namen des Zahlungsempfängers einzieht, kann für jede Zahlung eine variable Gebühr verlangen. Auf dieser Seite kannst du wählen, welchen Zahlungsdienstleister du verwenden möchtest. Du kannst diese Wahl bei jeder Zahlung ändern, indem du dich nach der vorgeschlagenen Transaktionsgebühr richtest.",
+            "faqs":[
+               {
+                  "title":"Was ist der Zahlungsdienstleister?",
+                  "body":"Der Zahlungsdienstleister, der auch als PSP (Payment Service Provider) bezeichnet wird, ist das Unternehmen, das den fälligen Betrag im Namen des Zahlungsempfängers einzieht. Für die Erbringung dieser Dienstleistung kann der Betreiber jedes Mal eine Transaktionsgebühr verlangen. Die von den einzelnen Anbietern erhobenen Transaktionsgebühren findest du [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/).\n\npagoPA ermöglicht es dir, elektronische Zahlungen über einen der teilnehmenden Zahlungsdienstleister zu tätigen. Dies ist das Verfahren, mit dem du einen Bescheid, Studiengebühren, Stempelgebühren oder Steuern direkt in der App bezahlen kannst."
+               },
+               {
+                  "title":"Warum muss ich den Zahlungsdienstleister auswählen?",
+                  "body":"Wenn du eine Zahlung durchführst, zeigt dir IO alle Zahlungsdienstleister, die du nutzen kannst, so dass du denjenigen auswählen kannst, der am besten zu dir passt, je nach der vorgeschlagenen Transaktionsgebühr. Diese Transaktionsgebühr wird nicht von pagoPA erhoben, sondern vom Betreiber selbst. Die Kosten der einzelnen Betreiber findest du [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
+               },
+               {
+                  "title":"Welchen Zahlungsdienstleister soll ich wählen?",
+                  "body":"Du kannst den Zahlungsdienstleister auswählen, den du bevorzugst, unabhängig davon, ob du Kunde bist oder nicht und auch wenn du ihn noch nie benutzt hast. Deine Wahl des Zahlungsdienstleister ist nicht endgültig: du kannst ihn bei jeder Zahlung ändern."
+               },
+               {
+                  "title":"Was sind die Transaktionsgebühr",
+                  "body":"Um die Bearbeitungskosten zu tragen und die Sicherheit des Geldtransfers zu gewährleisten, kann jeder Zahlungsdienstleister eine variable Transaktionsgebühr erheben. Die Höhe der Transaktionsgebühr hängt von der Geschäftspolitik und den Vertragsbedingungen ab, die du mit dem von dir gewählten Zahlungsdienstleister abgeschlossen hast. IO zeigt dir immer die vom Zahlungsdienstleister angegebene Transaktionsgebühr an, damit du die günstigste Variante wählen kannst. Du kannst die von den einzelnen Zahlungsdienstleistern angewandten Transaktionsgebühren [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/) finden."
+               },
+               {
+                  "title":"Ich kann PayPal nicht als Zahlungsmethode hinzufügen.",
+                  "body":"Wenn du Probleme beim Hinzufügen deines PayPal-Kontos hast, empfehlen wir dir:\n\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n\n1. Vergewissere dich, dass du den Benutzernamen und das Passwort für dein PayPal-Konto korrekt eingegeben hast.\n\n1. Vergewissere dich, dass du die Zwei-Faktor-Authentifizierung abgeschlossen hast.\n\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht behoben ist, wende dich an den [PayPal-Support](https://www.paypal.com/it/smarthelp/contact-us)."
+               }
+            ]
          }
       ],
       "idps":{

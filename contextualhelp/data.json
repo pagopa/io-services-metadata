@@ -2315,7 +2315,7 @@
                   "body":"Du kannst mit Debit-, Kredit- und Prepaid-Karten, PayPal oder BANCOMAT Pay bezahlen. Die aktualisierte Liste der verfügbaren Zahlungsmethoden findest du auf der Seite [Zahlungsmöglichkeiten](https://io.italia.it/metodi-pagamento)."
                },
                {
-                  "title":"Wie kann ich eine Zahlungsmethode hinzufügen??",
+                  "title":"Wie kann ich eine Zahlungsmethode hinzufügen?",
                   "body":"Geh zum Tab Konto, tipp auf 'Hinzufügen' und 'Zahlungsmethode'. Wähle dann die Methode, die du hinzufügen möchtest und gib die erforderlichen Daten ein."
                },
                {
@@ -2336,11 +2336,11 @@
                },
                {
                   "title":"Wo finde ich die von mir geleisteten Zahlungen?",
-                  "body":"In der Wallet findest du eine Liste mit Zahlungen, die erfolgreich über die IO-App durchgeführt wurden. Die Liste enthält auch Zahlungen, die über die Website oder App von teilnehmenden Organisationen getätigt wurden, wenn du dich mit SPID authentifiziert hast."
+                  "body":"In deinem Konto findest du eine Liste mit Zahlungen, die erfolgreich über die IO-App durchgeführt wurden. Die Liste enthält auch Zahlungen, die über die Website oder App von teilnehmenden Organisationen getätigt wurden, wenn du dich mit SPID authentifiziert hast."
                },
                {
                   "title":"Kann ich eine Zahlungsmitteilung bezahlen, die ich nicht über IO erhalten habe?",
-                  "body":"Ja, wenn das pagoPA Logo und der QR-Code oder der Zahlungskodex auf der Zahlungsmitteilung vorhanden sind. Geh dazu zum Tab Konto, scanne den QR-Code oder gib den Zahlungskodex ein und schließe die Zahlung ab."
+                  "body":"Ja, wenn das pagoPA Logo und der QR-Code oder der Zahlungskodex auf der Zahlungsmitteilung vorhanden sind. Geh dazu zum Tab Konto, scanne den QR-Code oder gib den Zahlungskodex ein und schließ die Zahlung ab."
                },
                {
                   "title":"Was ist ein QR-Code?",

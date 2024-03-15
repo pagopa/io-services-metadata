@@ -211,7 +211,7 @@
                {
                   "title":"Come viene tutelata la mia privacy?",
                   "body":"L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti."
-               }
+               },
                {
                   "title":"Ho problemi ad accedere con SPID da un dispositivo con sistema operativo Android. Cosa posso fare?",
                   "body":"Su alcuni dispositivi con sistema operativo Android, l’app IO potrebbe bloccarsi o riavviarsi inaspettatamente quando la usi insieme ad altre app, ad esempio quando provi ad accedere con SPID tramite l’app del tuo Identity Provider. Se hai riscontrato questo problema, segui questi passaggi:\n\n1- tocca e tieni premuta l'icona dell'app IO per alcuni secondi;\n2- seleziona '**App Info**' dal menu che compare;\n3- scorri verso il basso e seleziona '**Risparmio energetico**' o '**Batteria**' (può variare a seconda del dispositivo);\n4- seleziona l'opzione '**Nessuna restrizione**' o '**Senza limitazioni**' o comunque disattiva l'ottimizzazione dell'uso batteria per app IO (può variare a seconda del dispositivo);\n5- riavvia l’app e prova nuovamente ad accedere con SPID."
@@ -242,8 +242,8 @@
                {
                   "title":"Come posso richiedere la CIE?",
                   "body":"[Vai a questo sito](https://www.prenotazionicie.interno.gov.it/) e digita il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, procedi alla prenotazione dell'appuntamento. In caso contrario, chiedi un appuntamento dal sito del tuo Comune o vai in un ufficio comunale."
-               }
-                 {
+               },
+               {
                   "title":"Ho problemi ad accedere con SPID da un dispositivo con sistema operativo Android. Cosa posso fare?",
                   "body":"Su alcuni dispositivi con sistema operativo Android, l’app IO potrebbe bloccarsi o riavviarsi inaspettatamente quando la usi insieme ad altre app, ad esempio quando provi ad accedere con SPID tramite l’app del tuo Identity Provider. Se hai riscontrato questo problema, segui questi passaggi:\n\n1- tocca e tieni premuta l'icona dell'app IO per alcuni secondi;\n2- seleziona '**App Info**' dal menu che compare;\n3- scorri verso il basso e seleziona '**Risparmio energetico**' o '**Batteria**' (può variare a seconda del dispositivo);\n4- seleziona l'opzione '**Nessuna restrizione**' o '**Senza limitazioni**' o comunque disattiva l'ottimizzazione dell'uso batteria per app IO (può variare a seconda del dispositivo);\n5- riavvia l’app e prova nuovamente ad accedere con SPID."
                }

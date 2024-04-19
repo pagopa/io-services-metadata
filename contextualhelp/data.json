@@ -2390,6 +2390,141 @@
                   "body":"Wenn du Probleme beim Hinzufügen deines PayPal-Kontos hast, empfehlen wir dir:\n\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n\n1. Vergewissere dich, dass du den Benutzernamen und das Passwort für dein PayPal-Konto korrekt eingegeben hast.\n\n1. Vergewissere dich, dass du die Zwei-Faktor-Authentifizierung abgeschlossen hast.\n\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht behoben ist, wende dich an den [PayPal-Support](https://www.paypal.com/it/smarthelp/contact-us)."
                }
             ]
+         },
+         {
+            "route_name":"WALLET_ONBOARDING_PAYPAL_START",
+            "title":"Mit PayPal bezahlen",
+            "content":"Auf dieser Seite kannst du PayPal als Zahlungsmethode in der IO App hinzufügen.\n\nMit PayPalPal kannst du bezahlen, ohne jedes Mal deine Kartendaten eingeben zu müssen. Außerdem kannst du damit dein Bankkonto verknüpfen, was nützlich ist, wenn du große Beträge bezahlen musst, die dein Kartenlimit überschreiten.",
+            "faqs":[
+               {
+                  "title":"Was ist PayPal?",
+                  "body":"PayPal ist der Dienst, mit dem du schneller, einfacher und sicherer bezahlen, Geld senden und Zahlungen annehmen kannst, ohne jedes Mal deine Kartendaten eingeben zu müssen. Um mehr zu erfahren oder ein kostenloses Konto zu eröffnen, besuchen [paypal.com](https://www.paypal.com/it)."
+               },
+               {
+                  "title":"Wie funktioniert das?",
+                  "body":"Um PayPal in IO zu nutzen, registriere dich mit deinem Namen und deiner E-Mail-Adresse unter [paypal.com](https://www.paypal.com/it) und verknüpfe deine Kreditkarte, Debitkarte, Prepaid-Karte oder dein Bankkonto. Zu diesem Zweck wirst du nach der E-Mail-Adresse und dem Passwort deines PayPal-Kontos gefragt. Außerdem musst du die Zwei-Faktor-Authentifizierung mittels PayPal-App, per SMS oder Anruf durchführen."
+               },
+               {
+                  "title":"Welche Vorteile habe ich, wenn ich PayPal für die Zahlung in IO verwende?",
+                  "body":"Du kannst nicht nur deine Kredit-, Debit- oder Prepaid-Karte mit deinem PayPal-Konto verknüpfen, sondern auch dein Bankkonto, was nützlich ist, wenn du größere Beträge zahlen musst, die dein Kartenlimit überschreiten. [Hier](https://www.paypal.com/de/cshelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-help183) erfährst du, wie du dein Bankkonto mit PayPal verknüpfen kannst."
+               },
+               {
+                  "title":"Ich habe kein PayPal-Konto. Wie kann ich eines erstellen?",
+                  "body":"Um ein PayPal-Konto zu erstellen, musst du dich mit deinem Namen und deiner E-Mail-Adresse unter [paypal.com](https://www.paypal.com/it) registrieren. Dazu musst du volljährig sein und mindestens eine Zahlungsmethode verknüpfen."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_ONBOARDING_BPAY_START",
+            "title":"Zahle mit BANCOMAT Pay",
+            "content":"Auf dieser Seite kannst du BANCOMAT Pay als Zahlungsmethode in der IO-App hinzufügen. Mit BANCOMAT Pay kannst du Zahlungen einfach, schnell und sicher durchführen.",
+            "faqs":[
+               {
+                  "title":"Was ist BANCOMAT Pay?",
+                  "body":"BANCOMAT Pay ist ein digitaler Zahlungsdienst, mit dem du schnell und einfach bezahlen, Geld senden und Zahlungen annehmen kannst. Nach der Aktivierung des Dienstes musst du nur noch deine Mobiltelefonnummer verwenden, um die Transaktionen durchzuführen. Weitere Informationen findest du unter [BANCOMAT Pay](https://bancomat.it/it/bancomat/bancomat-pay®)."
+               },
+               {
+                  "title":"Wie funktioniert das?",
+                  "body":"BANCOMAT Pay verknüpft deine Mobiltelefonnummer mit einer IBAN, die von einem Kontokorrent oder einer Prepaid-Karte stammen kann.\nUm BANCOMAT Pay auf IO zu nutzen, überprüfe, ob deine Bank [zu den teilnehmenden Banken](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) gehört und aktiviere den Dienst über die BANCOMAT Pay-App oder die App deiner Bank.\nNachdem füge den Dienst als Zahlungsmethode im Tab 'Konto' von IO hinzu, indem du das gewünschte Konto auswählst."
+               },
+               {
+                  "title":"Ich habe kein BANCOMAT Pay-Konto, was kann ich tun?",
+                  "body":"[Finde hier](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE) heraus, ob deine Bank diesen Service anbietet. Wenn ja, kannst du den Antrag über das Homebanking oder die App deiner Bank stellen.\nWeitere Informationen findest du in den [häufig gestellten Fragen](https://bancomat.it/it/faq-questions-top)."
+               },
+               {
+                  "title":"Ich kann BANCOMAT Pay nicht als Zahlungsmethode hinzufügen.",
+                  "body":"Wenn du Probleme beim Hinzufügen deines BANCOMAT Pay-Kontos auf IO hast, empfehlen wir dir:\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n2. Vergewissere dich, dass der Dienst aktiv ist. Du kannst dies über Homebanking oder die App deiner Bank oder über die BANCOMAT Pay-App tun.\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht gelöst ist, wende dich an deine Bank."
+               }
+            ]
+         },
+         {
+            "route_name":"WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
+            "title":"BANCOMAT Pay hinzufügen",
+            "content":"Auf dieser Seite kannst du deine BANCOMAT Pay-Konten einsehen und zu deinem IO-Konto hinzufügen.",
+            "faqs":[
+               {
+                  "title":"Ich kann BANCOMAT Pay nicht als Zahlungsmethode hinzufügen.",
+                  "body":"Wenn du Probleme beim Hinzufügen deines BANCOMAT Pay-Kontos auf IO hast, empfehlen wir dir:\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n2. Vergewissere dich, dass der Dienst aktiv ist. Du kannst dies über Homebanking oder die App deiner Bank oder über die BANCOMAT Pay-App tun.\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht gelöst ist, wende dich an deine Bank."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_PICK_PAYMENT_METHOD",
+            "title":"Auswahl der Zahlungsmethode",
+            "content":"Hier kannst du die Zahlungsmethode wählen.",
+            "faqs":[
+               {
+                  "title":"Ich habe BANCOMAT Pay, kann aber nicht bezahlen",
+                  "body":"Um das Problem zu beheben, versuche, die App auf die neueste verfügbare Version zu aktualisieren.\nNachdem du dies getan hast, lösche die Zahlungsmethode aus deinem IO-Konto, füge sie erneut hinzu und versuche erneut, die Zahlung durchzuführen."
+               }
+            ]
+         },
+         {
+            "route_name":"MESSAGE_DETAIL",
+            "title":"Details zur Mitteilung",
+            "content":"Hier kannst du die Details der Mitteilung einsehen, die du von einer in der IO-App integrierten Körperschaft erhalten hast. Wenn du Zweifel oder Fragen zum spezifischen Inhalt der Nachricht hast, kannst du die Körperschaft über die Kontaktdaten am Ende dieser Nachricht oder im Abschnitt 'Dienste' kontaktieren.",
+            "faqs":[
+               {
+                  "title":"Diese Mitteilung interessiert dich nicht?",
+                  "body":"Auf IO kannst du die Kommunikation von Diensten, die dich nicht interessieren, jederzeit deaktivieren:\n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \n\nDie Körperschaft wird dich nicht mehr über IO kontaktieren, sie kann aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) dich kontaktieren."
+               },
+               {
+                  "title":"C'è un errore nella comunicazione che hai ricevuto?",
+                  "body":"Se pensi che ci sia un errore nel messaggio che hai ricevuto, puoi utilizzare i recapiti di contatto dell'ente erogatore del servizio per fare una segnalazione o chiedere chiarimenti. \nI recapiti sono disponibili dall'area dettagli del messaggio oppure nella sezione 'Servizi' dell'app IO, selezionando lo specifico ente e servizio in questione. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+               },
+               {
+                  "title":"Questo ente ha il permesso di scriverti?",
+                  "body":"Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Profilo > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
+               },
+               {
+                  "title":"Vuoi contattare l'ente?",
+                  "body":"Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+               },
+               {
+                  "title":"Cosa serve per firmare un documento tramite l’app IO?",
+                  "body":"È sufficiente digitare il codice di sblocco dell’app o utilizzare il riconoscimento biometrico al momento della firma."
+               },
+               {
+                  "title":"Cosa posso fare se ci sono errori in un documento da firmare?",
+                  "body":"Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
+               },
+               {
+                  "title":"Ho un problema con la firma di un documento. Cosa posso fare?",
+                  "body":"Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
+               },
+               {
+                  "title":"Dove trovo i documenti che ho firmato?",
+                  "body":"Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
+               },
+               {
+                  "title":"Che valore legale ha la firma di un documento tramite IO?",
+                  "body":"La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
+               },
+               {
+                  "title":"Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
+                  "body":"Contatta l’assistenza. Per farlo, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+               },
+               {
+                  "title":"Posso firmare dei documenti per conto di un’altra persona?",
+                  "body":"No. La persona a cui viene richiesta la firma deve coincidere con la persona che ha effettuato l’accesso in app."
+               },
+               {
+                  "title":"Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
+                  "body":"Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+               },
+               {
+                  "title":"Un documento è stato firmato con le mie credenziali ma senza il mio consenso. Cosa posso fare?",
+                  "body":"Puoi segnalarlo all’assistenza. Vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+               },
+               {
+                  "title":"Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
+                  "body":"Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+               },
+               {
+                  "title":"Cosa sono i messaggi dinamici?",
+                  "body":"Sono messaggi che l’ente può modificare dopo che li hai ricevuti. In questo modo, le informazioni che contengono saranno sempre aggiornate. Un ente può modificare le informazioni di un messaggio dinamico solo in casi specifici, per esempio per cambiare un’informazione vecchia o aggiornare un allegato non più valido. Se deve comunicarti nuove informazioni o aggiornamenti importanti, ti invierà un nuovo messaggio."
+               }
+            ]
          }
       ],
       "idps":{

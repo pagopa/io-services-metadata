@@ -2001,6 +2001,10 @@
                {
                   "title":"Wie wird meine Privatsphäre geschützt?",
                   "body":"Die IO-App wurde nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt."
+               },
+               {
+                  "title":"Ich habe Probleme, mich mit SPID von einem Android-Gerät aus anzumelden. Was kann ich tun?",
+                  "body":"Auf einigen Geräten mit Android-Betriebssystem kann die IO-App abstürzen oder unerwartet neu gestartet werden, wenn sie in Verbindung mit anderen Apps verwendet wird, z. B. wenn du versuchst, dich mit SPID über die App deines Identitätsanbieters anzumelden. Wenn dieses Problem auftritt, führe bitte die folgenden Schritte aus: \n\n1- tippe auf das IO-App-Symbol und halte es einige Sekunden lang gedrückt;\n2- wähle im angezeigten Menü die Option '**App-Info**' aus;\n3- scrolle nach unten und wähle '**Energiesparen**' oder '**Batterie**' (kann je nach Gerät variieren); \n4- wähle die Option '**Keine Einschränkungen**' oder '**Keine Beschränkungen**' oder deaktiviere auf andere Weise die Optimierung des Akkuverbrauchs für IO (kann je nach Gerät variieren); \n5- starte die App neu und versuche erneut, dich mit SPID anzumelden."
                }
             ]
          },
@@ -2028,6 +2032,10 @@
                {
                   "title":"Wie kann ich ein CIE beantragen?",
                   "body":"[Geh auf diese Website](https://www.prenotazionicie.interno.gov.it/) und gib den Namen deiner Gemeinde ein, um zu prüfen, ob sie das Online-Terminvereinbarungssystem Agenda CIE verwendet. Wenn ja, kannst du den Termin buchen. Wenn nicht, fordere einen Termin über die Website deiner Gemeinde an oder geh zu einem Gemeindebüro."
+               },
+               {
+                  "title":"Ich habe Probleme, mich mit SPID von einem Android-Gerät aus anzumelden. Was kann ich tun?",
+                  "body":"Auf einigen Geräten mit Android-Betriebssystem kann die IO-App abstürzen oder unerwartet neu gestartet werden, wenn sie in Verbindung mit anderen Apps verwendet wird, z. B. wenn du versuchst, dich mit SPID über die App deines Identitätsanbieters anzumelden. Wenn dieses Problem auftritt, führe bitte die folgenden Schritte aus: \n\n1- tippe auf das IO-App-Symbol und halte es einige Sekunden lang gedrückt;\n2- wähle im angezeigten Menü die Option '**App-Info**' aus;\n3- scrolle nach unten und wähle '**Energiesparen**' oder '**Batterie**' (kann je nach Gerät variieren); \n4- wähle die Option '**Keine Einschränkungen**' oder '**Keine Beschränkungen**' oder deaktiviere auf andere Weise die Optimierung des Akkuverbrauchs für IO (kann je nach Gerät variieren); \n5- starte die App neu und versuche erneut, dich mit SPID anzumelden."
                }
             ]
          },

@@ -2469,60 +2469,75 @@
                   "body":"Auf IO kannst du die Kommunikation von Diensten, die dich nicht interessieren, jederzeit deaktivieren:\n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \n\nDie Körperschaft wird dich nicht mehr über IO kontaktieren, sie kann aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) dich kontaktieren."
                },
                {
-                  "title":"C'è un errore nella comunicazione che hai ricevuto?",
-                  "body":"Se pensi che ci sia un errore nel messaggio che hai ricevuto, puoi utilizzare i recapiti di contatto dell'ente erogatore del servizio per fare una segnalazione o chiedere chiarimenti. \nI recapiti sono disponibili dall'area dettagli del messaggio oppure nella sezione 'Servizi' dell'app IO, selezionando lo specifico ente e servizio in questione. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+                  "title":"Liegt ein Fehler in der Mitteilung vor, die du erhalten hast?",
+                  "body":"Wenn du der Meinung bist, dass die Mitteilung, die du erhalten hast, einen Fehler enthält, kannst du die Kontaktdaten der Körperschaft verwenden, um eine Meldung zu machen oder um eine Klarstellung zu bitten. \nDie Kontaktdaten findest du im Bereich der Mitteilungsdetails oder im Tab 'Dienste' der IO-App, indem du die betreffende Körperschaft und den betreffenden Dienst auswählst. \nAbhängig von der Kontaktmethode, die von der jeweiligen Körperschaft und dem jeweiligen Dienst verwaltet wird, können die Kontaktangaben Folgendes umfassen: physische Schalteradresse, Telefonnummer, E-Mail- und/oder PEC-Adresse, Website, Online-Hilfe, mobile App."
                },
                {
-                  "title":"Questo ente ha il permesso di scriverti?",
-                  "body":"Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Profilo > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
+                  "title":"Hat diese Körperschaft die Erlaubnis, an dich zu schreiben?",
+                  "body":"Eine Körperschaft kann dir nur dann Nachrichten senden, wenn es eine bestimmte Mitteilung an dich zu übermitteln hat, die mit deiner Steuernummer verknüpft ist. Deine Steuernummer wird nicht von der IO-App an die Körperschaft übermittelt, sondern jede Körperschaft kann die IO-App nur dann nutzen, um dir zu schreiben, wenn sie bereits über deine Daten verfügt. \nWenn du keine Mitteilungen mehr von einer bestimmten Körperschaft erhalten möchtest, kannst du die Dienste, die dich nicht interessieren, deaktivieren: \n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \nDie Körperschaft wird dich nicht mehr über IO kontaktieren, kann dich aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) kontaktieren. \n \nIm Abschnitt 'Profil > Einstellungen > Dienste verwalten' kannst du entscheiden, ob du die Kommunikation aller Dienste eingeschaltet lässt oder die manuelle Konfiguration wählst, bei der du alle Dienste einzeln auf dem entsprechenden Detailansicht konfigurieren musst."
                },
                {
-                  "title":"Vuoi contattare l'ente?",
-                  "body":"Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio. \nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+                  "title":"Möchtest du die Körperschaft kontaktieren?",
+                  "body":"In den Mitteilungsdetails kannst du Informationen über den jeweiligen Dienst und den Dienstanbieter einsehen. Wenn du dem Link zum Dienstprofil folgst, findest du die erweiterten Informationen und Kontaktdaten, über die du die Mitteilung kontaktieren kannst. \nJe nach der von der einzelnen Körperschaft und dem Dienst verwalteten Kontaktmethode können die Kontaktdaten Folgendes umfassen: physische Schalteradresse, Telefonnummer, E-Mail- und/oder PEC-Adresse, Website, Online-Hilfe, mobile App."
                },
                {
-                  "title":"Cosa serve per firmare un documento tramite l’app IO?",
-                  "body":"È sufficiente digitare il codice di sblocco dell’app o utilizzare il riconoscimento biometrico al momento della firma."
+                  "title":"Was muss ich tun, um ein Dokument über die IO-App zu unterschreiben?",
+                  "body":"Gib einfach den Entsperrcode der App ein oder verwende beim Unterschreiben die biometrische Erkennung."
                },
                {
-                  "title":"Cosa posso fare se ci sono errori in un documento da firmare?",
-                  "body":"Rivolgiti direttamente all’ente che ha inviato il documento. Trovi i contatti nel messaggio di richiesta di firma."
+                  "title":"Was kann ich tun, wenn ein zu unterzeichnendes Dokument Fehler enthält?",
+                  "body":"Wende dich direkt an die Stelle, die das Dokument gesendet hat. Die Kontaktdaten findest du in der Mitteilung über die Signaturanforderung."
                },
                {
-                  "title":"Ho un problema con la firma di un documento. Cosa posso fare?",
-                  "body":"Vai alla pagina [stato delle firme](ioit://fci/signature-requests) per verificare se la richiesta è in corso o se hai già firmato un documento. Se hai bisogno di assistenza, seleziona la firma interessata dal problema e contatta l’assistenza."
+                  "title":"Ich habe ein Problem mit der Unterzeichnung eines Dokuments. Was kann ich tun?",
+                  "body":"Ruf die Seite [Signaturstatus](ioit://fci/signature-requests) auf, um zu prüfen, ob die Anfrage in Bearbeitung ist oder ob du bereits ein Dokument signiert hast. Wenn du Hilfe benötigst, wähle die vom Problem betroffene Signatur aus und kontaktiere den Support."
                },
                {
-                  "title":"Dove trovo i documenti che ho firmato?",
-                  "body":"Riceverai un messaggio in app con i documenti firmati. Potrai visualizzarli o scaricarli entro 90 giorni dalla ricezione del messaggio."
+                  "title":"Wo kann ich die von mir unterzeichneten Dokumente finden?",
+                  "body":"Du erhältst in der App eine Mitteilung mit den unterzeichneten Dokumenten. Du kannst sie innerhalb von 90 Tagen nach Erhalt der Mitteilung einsehen oder herunterladen."
                },
                {
-                  "title":"Che valore legale ha la firma di un documento tramite IO?",
-                  "body":"La firma digitale apposta tramite IO è una FEQ (Firma Elettronica Qualificata). Ha la stessa validità legale di una firma autografa su carta. Garantisce quindi l'autenticità dei documenti firmati e la piena riconducibilità al firmatario."
+                  "title":"Welchen rechtlichen Wert hat die Unterzeichnung eines Dokuments mit IO?",
+                  "body":"Eine mit IO angebrachte digitale Signatur ist eine FEQ (qualifizierte elektronische Signatur). Sie hat die gleiche Rechtsgültigkeit wie eine handschriftliche Unterschrift auf Papier. Sie garantiert somit die Authentizität der unterzeichneten Dokumente und die vollständige Rückverfolgbarkeit zum Unterzeichner."
                },
                {
-                  "title":"Non ho ricevuto il messaggio con il documento firmato. Cosa posso fare?",
-                  "body":"Contatta l’assistenza. Per farlo, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+                  "title":"Ich habe die Mitteilung mit dem signierten Dokument nicht erhalten. Was kann ich tun?",
+                  "body":"Kontaktiere den Support. Geh dazu zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
                },
                {
-                  "title":"Posso firmare dei documenti per conto di un’altra persona?",
-                  "body":"No. La persona a cui viene richiesta la firma deve coincidere con la persona che ha effettuato l’accesso in app."
+                  "title":"Kann ich Dokumente im Namen einer anderen Person unterschreiben?",
+                  "body":"Nein. Die Person, deren Unterschrift angefordert wird, muss mit der Person identisch sein, die sich bei der App angemeldet hat."
                },
                {
-                  "title":"Cosa posso fare se si blocca l’app mentre sto firmando un documento?",
-                  "body":"Controlla di aver installato l’ultima versione dell’app IO dallo store del tuo dispositivo. Se l’app non è aggiornata, scarica la sua ultima versione. Altrimenti, vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+                  "title":"Was kann ich tun, wenn die App abstürzt, während ich ein Dokument unterschreibe?",
+                  "body":"Überprüfe, ob du die neueste Version der IO-App aus dem Store deines Geräts installiert hast. Wenn die App nicht mehr aktuell ist, lade die neueste Version herunter. Andernfalls geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
                },
                {
-                  "title":"Un documento è stato firmato con le mie credenziali ma senza il mio consenso. Cosa posso fare?",
-                  "body":"Puoi segnalarlo all’assistenza. Vai in fondo a questa pagina e seleziona Apri una richiesta > Firma con IO."
+                  "title":"Ein Dokument wurde mit meinem Ausweis, aber ohne meine Zustimmung unterzeichnet. Was kann ich tun?",
+                  "body":"Du kannst dies dem Support melden. Geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
                },
                {
-                  "title":"Ho ricevuto il  messaggio con i documenti firmati ma non sono più disponibili. Come posso recuperarli?",
-                  "body":"Rivolgiti direttamente all’ente che ha emesso il documento. Puoi trovare i contatti nel messaggio di riepilogo dei documenti firmati, ricevuto in app IO."
+                  "title":"Ich habe die Mitteilung mit den signierten Dokumenten erhalten, aber sie sind nicht mehr verfügbar. Wie kann ich sie abrufen?",
+                  "body":"Wende dich direkt an die Körperschaft, die das Dokument ausgestellt hat. Die Kontaktdaten findest du in der Zusammenfassung des signierten Dokuments, die du in der IO-App erhalten hast."
                },
                {
-                  "title":"Cosa sono i messaggi dinamici?",
-                  "body":"Sono messaggi che l’ente può modificare dopo che li hai ricevuti. In questo modo, le informazioni che contengono saranno sempre aggiornate. Un ente può modificare le informazioni di un messaggio dinamico solo in casi specifici, per esempio per cambiare un’informazione vecchia o aggiornare un allegato non più valido. Se deve comunicarti nuove informazioni o aggiornamenti importanti, ti invierà un nuovo messaggio."
+                  "title":"Was sind dynamische Mitteilungen?",
+                  "body":"Es handelt sich um Mitteilungen, die die Körperschaft ändern kann, nachdem du sie erhalten hast. Auf diese Weise sind die Informationen, die sie enthalten, immer aktuell. Eine Körperschaft kann die Informationen in einer dynamischen Mitteilung nur in bestimmten Fällen ändern, z. B. um alte Informationen zu ändern oder eine Anlage zu aktualisieren, die nicht mehr gültig ist. Wenn sie dich über neue Informationen oder wichtige Aktualisierungen informieren muss, schickt sie dir eine neue Mitteilung."
+               }
+            ]
+         },
+         {
+            "route_name":"SERVICES_HOME",
+            "title":"Was kann ich im Tab Dienste tun?",
+            "content":"Hier kannst du die Liste der in der App verfügbaren nationalen und lokalen Dienste einsehen. \nTippe auf einen Dienstnamen, um dessen Details anzuzeigen. Auf der Detailseite des Dienstes kannst ud auch das Senden von Push-Benachrichtigungen und die Weiterleitung von Nachrichten an deine E-Mail-Adresse verwalten.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich Dienste konfigurieren?",
+                  "body":"Für jeden Dienst kannst du entscheiden, ob du In-App-Mitteilungen und Push-Benachrichtigungen erhalten möchtest. Unter Profil > Einstellungen > E-Mail-Weiterleitung kannst du auch die Weiterleitung von Nachrichten von allen aktiven Diensten an deine E-Mail-Adresse aktivieren.\n Auch wenn du die vollständige Liste der Dienste siehst, wirst du nur von den Körperschaften kontaktiert, die deine Steuernummer kennen und eine Mitteilung haben, die dich persönlich betrifft."
+               },
+               {
+                  "title":"Kann ich Körperschaften über IO kontaktieren?",
+                  "body":"Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Wenn du eine Körperschaften kontaktieren musst, kannst du dies über die Kontakte tun, die du auf der Registerkarte für jeden Dienst im Tab 'Dienste' findest."
                }
             ]
          }

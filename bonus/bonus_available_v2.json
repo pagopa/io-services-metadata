@@ -97,6 +97,20 @@
         }
       ]
     },
+    "de": {
+      "name": "Nationale Jugendkarte",
+      "description": "Die nationale Jugendkarte (CGN) ist ein Anreiz für junge Menschen, sich an kulturellen, sportlichen und Freizeitaktivitäten im ganzen Land zu beteiligen",
+      "subtitle": "Die nationale Jugendkarte (CGN) ist ein Anreiz für junge Menschen, sich an kulturellen, sportlichen und Freizeitaktivitäten im ganzen Land zu beteiligen",
+      "title": "Aktiviere die nationale Jugendkarte",
+      "content": "#### Wer kann sie aktivieren?\nJunge Italiener und Europäer, die in Italien wohnen und zwischen 18 und 35 Jahre alt sind.\n\n#### Was sind die Vorteile wert?\nDie Art der Vorteile und Rabatte ist variabel und hängt vom Betreiber ab, der an der Initiative teilnimmt.\n\n#### Wo und wie kann ich sie nutzen?\nLies die Liste der teilnehmenden Partner auf IO. Wenn du dich zu einem Betreiber begibst, greif auf IO zu und zeige die nationale Jugendkarte auf deinem Smartphone vor. Online benutz den Rabattcode zur Aktion. **Wenn du im [Latium](https://www.regione.lazio.it/youthcard) oder in [Sardinien](https://sardegna.cartagiovani.eu/) lebst, kannst du auch an den Rabattinitiativen für junge Menschen in deiner Region teilnehmen, indem du die regionale Karte herunterlädst. **\n\n#### Was ist die EYCA?\nWenn du zwischen 18 und 30 Jahre alt bist, bist du mit deiner nationalen Jugendkarte Teil der europäischen Jugendkarten und dies ermöglicht dir den Zugang zu Vergünstigungen auch in den angeschlossenen europäischen Ländern.\n\n#### Wie funktioniert das Antragsverfahren?\nDie IO-App ist der einzige Kanal, um deine nationale Jugendkarte zu erhalten. \nWenn du zwischen 18 und 35 Jahre alt bist, befolge bitte die folgenden Schritte:\n- Lies den [Leitfaden](https://io.italia.it/carta-giovani-nazionale/guida-beneficiari) und die [Datenschutzerklärung] (https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari).\n- Tippe auf die Schaltfläche 'Karte beantragen'.\n- Die IO-App prüft, ob du berechtigt bist und aktiviert deine nationale Jugendkarte.\n- Sobald sie aktiviert ist, wird deine Karte im Tab 'Konto' angezeigt.",
+      "tos_url": "https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari",
+      "urls": [
+        {
+          "name": "Read the full guide",
+          "url": "https://io.italia.it/carta-giovani-nazionale/guida-beneficiari"
+        }
+      ]
+    },
     "hidden": false,
     "service_id": "01F0V4627SXZMVDSPD69GMXE53",
     "is_active": true,

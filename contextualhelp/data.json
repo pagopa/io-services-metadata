@@ -2540,6 +2540,60 @@
                   "body":"Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Wenn du eine Körperschaften kontaktieren musst, kannst du dies über die Kontakte tun, die du auf der Registerkarte für jeden Dienst im Tab 'Dienste' findest."
                }
             ]
+         },
+         {
+            "route_name":"SERVICE_DETAIL",
+            "title":"Dienstdetails",
+            "content":"Hier findest du die Beschreibung des Dienstes, die Datenschutzrichtlinie und die Nutzungsbedingungen sowie die Kontaktdaten der Körperschaft oder des Dienstes. Du kannst auch wählen, wie du Mitteilungen von diesem speziellen Dienst erhalten möchtest.\nDu wirst nur von Diensten angeschrieben, die Informationen über dich haben. Du erhälst keine Spam-Mitteilungen oder Inhalte, die für dich nicht von Interesse sind.\n Wenn du keine Mitteilungen von dem Dienst erhalten möchtest, kannst du dies im Bereich 'Dieser Dienst kann' tun, indem du die Option 'In der App kontaktieren' deaktivierst. Die Körperschaft wird dich dann nicht mehr über IO anschreiben, kann dich aber weiterhin über andere Kanäle, wie E-Mail, Telefon oder Post, kontaktieren.",
+            "faqs":[
+               {
+                  "title":"Was passiert, wenn ich einen Dienst deaktiviere?",
+                  "body":"Du wirst in der IO-App keine Mitteilungen mehr von diesem Dienst erhalten. Der Dienstanbieter kann dich weiterhin über andere Kanäle wie die Website, E-Mail oder Telefonnummer kontaktieren."
+               },
+               {
+                  "title":"Was sind Push-Benachrichtigungen und wie funktionieren sie?",
+                  "body":"Push-Benachrichtigungen sind Sofortnachrichten, die du auf deinem Gerät empfangen kannst. Sie informieren dich darüber, dass eine neue Mitteilung in der IO-App eingegangen ist und laden dich ein, sie zu lesen. Wenn du sie lieber deaktivieren möchtest, deaktiviere die Option 'Push-Benachrichtigungen senden' im Bereich 'Dieser Dienst kann'."
+               },
+               {
+                  "title":"Wie funktioniert die E-Mail-Weiterleitung?",
+                  "body":"Wenn du die E-Mail-Weiterleitung von Nachrichten aktivierst, erhältst du an die mit der App verknüpfte E-Mail-Adresse eine Kopie der Mitteilungen, die du auf IO erhältst. Die E-Mail-Weiterleitung ist für einige Dienste nicht verfügbar, da die Körperschaft möglicherweise beschließt, Mitteilungen mit sensiblem Inhalt nicht weiterzuleiten."
+               }
+            ]
+         },
+         {
+            "route_name":"CGN_INFORMATION_TOS",
+            "title":"Aktiviere die Nationale Jugendkarte",
+            "content":"Hier findest du alle Informationen über die Nationale Jugendkarte, eine Maßnahme des Ministeriums für Jugendpolitik und den allgemeinen öffentlichen Dienst, die Jugendlichen mit Wohnsitz in Italien Rabatte und Vergünstigungen beim Kauf bestimmter Waren und Dienstleistungen gewährt.",
+            "faqs":[
+               {
+                  "title":"Wie kann ich die nationale Jugendkarte beantragen?",
+                  "body":"Wenn du volljährig bist und deinen Wohnsitz in Italien hast, tippe auf die Schaltfläche 'Karte beantragen' unten auf der Seite und folge den Anweisungen in der App. Die IO-App prüft dein Alter und aktiviert, wenn du berechtigt bist, die nationale Jugendkarte."
+               },
+               {
+                  "title":"Was ist die EYCA?",
+                  "body":"Die EYCA vereint alle Jugendkarten der europäischen Länder und bietet wechselseitige Vorteile: Ein italienischer Jugendlicher mit einer nationalen Jugendkarte, die Mitglied der EYCA ist, kann die Vorteile in den teilnehmenden Ländern nutzen, ebenso wie ausländische Jugendliche, die unser Land besuchen, ihre EYCA-Karten bei den Händlern einsetzen können, die Mitglied der nationalen Jugendkarte sind."
+               },
+               {
+                  "title":"Was muss ich tun, um der EYCA beizutreten?",
+                  "body":"Die EYCA-Mitgliedschaft ist nur für junge Menschen bis zum Alter von 30 Jahren vorgesehen. Wenn du zu dieser Altersgruppe gehörst, musst du nichts tun: IO wird deinen Antrag an die EYCA-Systeme weiterleiten. Die Kartennummer und das EYCA-Logo werden in den Details deiner nationalen Jugendkarte erscheinen. Du benötigst diese Angaben, um die im europäischen Kreis angebotenen Leistungen in Anspruch nehmen zu können."
+               },
+               {
+                  "title":"Wie lange dauert es von der Antragstellung bis zur Aktivierung meiner nationalen Jugendkarte?",
+                  "body":"Wenn du alle Voraussetzungen für die Nationale Jugendkarte erfüllst, erfolgt die Aktivierung fast in Echtzeit: Innerhalb weniger Minuten nach der Beantragung führt IO die erforderlichen Prüfungen durch und aktiviert deine Karte."
+               },
+               {
+                  "title":"Kann ich die Vorteile der nationalen Jugendkarte mit meiner Familie und meinen Freunden teilen?",
+                  "body":"Nein, die durch die nationale Jugendkarte geförderten Vorteile sind individueller und nominativer Natur und können daher nur vom Karteninhaber genutzt werden. Die missbräuchliche Verwendung der Karte kann zum Entzug der Karte führen."
+               },
+               {
+                  "title":"Muss ich in der IO-App eine Kreditkarte hinzufügen, um die nationale Jugendkarte zu beantragen und zu nutzen?",
+                  "body":"Nein, die Nutzung der Karte ist in keiner Weise an die Verfügbarkeit einer Kreditkarte oder anderer in der App gespeicherter Zahlungsmethoden gebunden. Wenn du die Vorteile der Karte nutzt, um einen Rabatt zu erhalten - im E-Commerce oder in den physischen Einrichtungen des Vertragsunternehmens - zahlst du mit der von dir bevorzugten Methode."
+               },
+               {
+                  "title":"Wenn ich die Vorteile meiner nationalen Jugendkarte für einen Online-Einkauf nutze, wird der Rabatt dann sofort angewandt oder wird er mir später erstattet?",
+                  "body":"Der Rabatt wird sofort angewendet. Falls du beim Kauf einen Rabattcode eingibst, achte darauf, dass du ihn korrekt eingibst, damit der Rabatt sofort im Warenkorb des Betreibers angewendet wird."
+               }
+            ]
          }
       ],
       "idps":{

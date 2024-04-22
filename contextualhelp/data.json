@@ -2571,86 +2571,86 @@
          {
             "route_name":"CGN_INFORMATION_TOS",
             "title":"Aktiviere die Nationale Jugendkarte",
-            "content":"Hier findest du alle Informationen über die Nationale Jugendkarte, eine Maßnahme des Ministeriums für Jugendpolitik und den allgemeinen öffentlichen Dienst, die Jugendlichen mit Wohnsitz in Italien Rabatte und Vergünstigungen beim Kauf bestimmter Waren und Dienstleistungen gewährt.",
+            "content":"Hier findest du alle Informationen über die Nationale Jugendkarte, eine Maßnahme des Präsidium des italienischen Ministerrates, Abteilung für Jugendpolitik und Zivildienst, die Jugendlichen mit Wohnsitz in Italien Rabatte und Vergünstigungen beim Kauf bestimmter Waren und Dienstleistungen gewährt.",
             "faqs":[
                {
-                  "title":"Wie kann ich die nationale Jugendkarte beantragen?",
-                  "body":"Wenn du volljährig bist und deinen Wohnsitz in Italien hast, tippe auf die Schaltfläche 'Karte beantragen' unten auf der Seite und folge den Anweisungen in der App. Die IO-App prüft dein Alter und aktiviert, wenn du berechtigt bist, die nationale Jugendkarte."
+                  "title":"Wie kann ich die Nationale Jugendkarte beantragen?",
+                  "body":"Wenn du volljährig bist und deinen Wohnsitz in Italien hast, tippe auf die Schaltfläche 'Karte beantragen' unten auf der Seite und folge den Anweisungen in der App. Die IO-App prüft dein Alter und aktiviert, wenn du berechtigt bist, die Nationale Jugendkarte."
                },
                {
                   "title":"Was ist die EYCA?",
-                  "body":"Die EYCA vereint alle Jugendkarten der europäischen Länder und bietet wechselseitige Vorteile: Ein italienischer Jugendlicher mit einer nationalen Jugendkarte, die Mitglied der EYCA ist, kann die Vorteile in den teilnehmenden Ländern nutzen, ebenso wie ausländische Jugendliche, die unser Land besuchen, ihre EYCA-Karten bei den Händlern einsetzen können, die Mitglied der nationalen Jugendkarte sind."
+                  "body":"Die EYCA vereint alle Jugendkarten der europäischen Länder und bietet wechselseitige Vorteile: Ein italienischer Jugendlicher mit einer Nationalen Jugendkarte, die Mitglied der EYCA ist, kann die Vorteile in den teilnehmenden Ländern nutzen, ebenso wie ausländische Jugendliche, die unser Land besuchen, ihre EYCA-Karten bei den Händlern einsetzen können, die Mitglied der Nationalen Jugendkarte sind."
                },
                {
                   "title":"Was muss ich tun, um der EYCA beizutreten?",
-                  "body":"Die EYCA-Mitgliedschaft ist nur für junge Menschen bis zum Alter von 30 Jahren vorgesehen. Wenn du zu dieser Altersgruppe gehörst, musst du nichts tun: IO wird deinen Antrag an die EYCA-Systeme weiterleiten. Die Kartennummer und das EYCA-Logo werden in den Details deiner nationalen Jugendkarte erscheinen. Du benötigst diese Angaben, um die im europäischen Kreis angebotenen Leistungen in Anspruch nehmen zu können."
+                  "body":"Die EYCA-Mitgliedschaft ist nur für junge Menschen bis zum Alter von 30 Jahren vorgesehen. Wenn du zu dieser Altersgruppe gehörst, musst du nichts tun: IO wird deinen Antrag an die EYCA-Systeme weiterleiten. Die Kartennummer und das EYCA-Logo werden in den Details deiner Nationalen Jugendkarte erscheinen. Du benötigst diese Angaben, um die im europäischen Kreis angebotenen Leistungen in Anspruch nehmen zu können."
                },
                {
-                  "title":"Wie lange dauert es von der Antragstellung bis zur Aktivierung meiner nationalen Jugendkarte?",
+                  "title":"Wie lange dauert es von der Antragstellung bis zur Aktivierung meiner Nationalen Jugendkarte?",
                   "body":"Wenn du alle Voraussetzungen für die Nationale Jugendkarte erfüllst, erfolgt die Aktivierung fast in Echtzeit: Innerhalb weniger Minuten nach der Beantragung führt IO die erforderlichen Prüfungen durch und aktiviert deine Karte."
                },
                {
-                  "title":"Kann ich die Vorteile der nationalen Jugendkarte mit meiner Familie und meinen Freunden teilen?",
-                  "body":"Nein, die durch die nationale Jugendkarte geförderten Vorteile sind individueller und nominativer Natur und können daher nur vom Karteninhaber genutzt werden. Die missbräuchliche Verwendung der Karte kann zum Entzug der Karte führen."
+                  "title":"Kann ich die Vorteile der Nationalen Jugendkarte mit meiner Familie und meinen Freunden teilen?",
+                  "body":"Nein, die durch die Nationalen Jugendkarte geförderten Vorteile sind individueller und nominativer Natur und können daher nur vom Karteninhaber genutzt werden. Die missbräuchliche Verwendung der Karte kann zum Entzug der Karte führen."
                },
                {
-                  "title":"Muss ich in der IO-App eine Kreditkarte hinzufügen, um die nationale Jugendkarte zu beantragen und zu nutzen?",
+                  "title":"Muss ich in der IO-App eine Kreditkarte hinzufügen, um die Nationalen Jugendkarte zu beantragen und zu nutzen?",
                   "body":"Nein, die Nutzung der Karte ist in keiner Weise an die Verfügbarkeit einer Kreditkarte oder anderer in der App gespeicherter Zahlungsmethoden gebunden. Wenn du die Vorteile der Karte nutzt, um einen Rabatt zu erhalten - im E-Commerce oder in den physischen Einrichtungen des Vertragsunternehmens - zahlst du mit der von dir bevorzugten Methode."
                },
                {
-                  "title":"Wenn ich die Vorteile meiner nationalen Jugendkarte für einen Online-Einkauf nutze, wird der Rabatt dann sofort angewandt oder wird er mir später erstattet?",
+                  "title":"Wenn ich die Vorteile meiner Nationalen Jugendkarte für einen Online-Einkauf nutze, wird der Rabatt dann sofort angewandt oder wird er mir später erstattet?",
                   "body":"Der Rabatt wird sofort angewendet. Falls du beim Kauf einen Rabattcode eingibst, achte darauf, dass du ihn korrekt eingibst, damit der Rabatt sofort im Warenkorb des Betreibers angewendet wird."
                }
             ]
          },
          {
             "route_name":"CGN_DETAILS",
-            "title":"Deine nationale Jugendkarte",
-            "content":"Dies ist die Detailseite deiner nationalen Jugendkarte. Hier kannst du die Liste der teilnehmenden Händler und Institutionen und die entsprechenden Vorteile einsehen oder deine EYCA Kartennummer kopieren, wenn du zwischen 18 und 30 Jahre alt bist.",
+            "title":"Deine Nationalen Jugendkarte",
+            "content":"Dies ist die Detailseite deiner Nationalen Jugendkarte. Hier kannst du die Liste der teilnehmenden Händler und Institutionen und die entsprechenden Vorteile einsehen oder deine EYCA Kartennummer kopieren, wenn du zwischen 18 und 30 Jahre alt bist.",
             "faqs":[
                {
                   "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Was ist die EYCA?",
-                  "body":"Die EYCA vereint alle Jugendkarten der europäischen Länder und bietet wechselseitige Vorteile: Ein italienischer Jugendlicher mit einer nationalen Jugendkarte, die Mitglied der EYCA ist, kann die Vorteile in den teilnehmenden Ländern nutzen, ebenso wie ausländische Jugendliche, die unser Land besuchen, ihre EYCA-Karten bei den Händlern einsetzen können, die Mitglied der nationalen Jugendkarte sind."
+                  "body":"Die EYCA vereint alle Jugendkarten der europäischen Länder und bietet wechselseitige Vorteile: Ein italienischer Jugendlicher mit einer Nationalen Jugendkarte, die Mitglied der EYCA ist, kann die Vorteile in den teilnehmenden Ländern nutzen, ebenso wie ausländische Jugendliche, die unser Land besuchen, ihre EYCA-Karten bei den Händlern einsetzen können, die Mitglied der Nationalen Jugendkarte sind."
                },
                {
                   "title":"Was muss ich tun, um der EYCA beizutreten?",
-                  "body":"Die EYCA-Mitgliedschaft ist nur für junge Menschen bis zum Alter von 30 Jahren vorgesehen. Wenn du zu dieser Altersgruppe gehörst, musst du nichts tun: IO wird deinen Antrag an die EYCA-Systeme weiterleiten. Die Kartennummer und das EYCA-Logo werden in den Details deiner nationalen Jugendkarte erscheinen. Du benötigst diese Angaben, um die im europäischen Kreis angebotenen Leistungen in Anspruch nehmen zu können."
+                  "body":"Die EYCA-Mitgliedschaft ist nur für junge Menschen bis zum Alter von 30 Jahren vorgesehen. Wenn du zu dieser Altersgruppe gehörst, musst du nichts tun: IO wird deinen Antrag an die EYCA-Systeme weiterleiten. Die Kartennummer und das EYCA-Logo werden in den Details deiner Nationalen Jugendkarte erscheinen. Du benötigst diese Angaben, um die im europäischen Kreis angebotenen Leistungen in Anspruch nehmen zu können."
                },
                {
                   "title":"Wann läuft meine Nationale Jugendkarte ab?",
-                  "body":"Deine nationale Jugendkarte verliert ihre Gültigkeit mit Vollendung des 36. Lebensjahres. Das Ablaufdatum ist in den Details deiner Karte angegeben, die immer im Tab 'Konto' der App verfügbar ist. Nach Vollendung des 30. Lebensjahres kannst du in jedem Fall nur noch die auf nationaler Ebene geförderten Leistungen in Anspruch nehmen, da die von EYCA auf europäischer Ebene angebotenen Leistungen bis zum 31. Lebensjahr verfügbar sind."
+                  "body":"Deine Nationale Jugendkarte verliert ihre Gültigkeit mit Vollendung des 36. Lebensjahres. Das Ablaufdatum ist in den Details deiner Karte angegeben, die immer im Tab 'Konto' der App verfügbar ist. Nach Vollendung des 30. Lebensjahres kannst du in jedem Fall nur noch die auf nationaler Ebene geförderten Leistungen in Anspruch nehmen, da die von EYCA auf europäischer Ebene angebotenen Leistungen bis zum 31. Lebensjahr verfügbar sind."
                },
                {
-                  "title":"Kann ich meine nationale Jugendkarte deaktivieren?",
+                  "title":"Kann ich meine Nationalen Jugendkarte deaktivieren?",
                   "body":"Ja. Tippe auf dem CGN-Detailbildschirm auf 'Die Karte deaktivieren' und bestätige. Von diesem Moment an wirst du die CGN nicht mehr in deinem Konto sehen. Durch die Deaktivierung der CGN verlierst du auch deine EYCA-Rechte."
                },
                {
-                  "title":"Kann ich die Vorteile der nationalen Jugendkarte mit meiner Familie und meinen Freunden teilen?",
-                  "body":"Nein, die durch die nationale Jugendkarte geförderten Vorteile sind individueller und nominativer Natur und können daher nur vom Karteninhaber genutzt werden. Die missbräuchliche Verwendung der Karte kann zum Entzug der Karte führen."
+                  "title":"Kann ich die Vorteile der Nationalen Jugendkarte mit meiner Familie und meinen Freunden teilen?",
+                  "body":"Nein, die durch die Nationale Jugendkarte geförderten Vorteile sind individueller und nominativer Natur und können daher nur vom Karteninhaber genutzt werden. Die missbräuchliche Verwendung der Karte kann zum Entzug der Karte führen."
                },
                {
-                  "title":"Wenn ich die Vorteile meiner nationalen Jugendkarte für einen Online-Einkauf nutze, wird der Rabatt dann sofort angewandt oder wird er mir später erstattet?",
+                  "title":"Wenn ich die Vorteile meiner Nationalen Jugendkarte für einen Online-Einkauf nutze, wird der Rabatt dann sofort angewandt oder wird er mir später erstattet?",
                   "body":"Der Rabatt wird sofort angewendet. Falls du beim Kauf einen Rabattcode eingibst, achte darauf, dass du ihn korrekt eingibst, damit der Rabatt sofort im Warenkorb des Betreibers angewendet wird."
                },
                {
-                  "title":"Wie viele Einkäufe, online oder lokal, kann ich mit den Vorteilen der nationalen Jugendkarte tätigen?",
+                  "title":"Wie viele Einkäufe, online oder lokal, kann ich mit den Vorteilen der Nationalen Jugendkarte tätigen?",
                   "body":"Die Anzahl der Rabatte, die genutzt werden können, ist nicht begrenzt. In jedem Fall kann jeder Vertragsbetreiber autonom entscheiden, wie er die von ihm zur Verfügung gestellten Rabattcodes verwendet, indem er alle Bedingungen in der Karte, die in der IO-App immer sichtbar sind, ausdrücklich angibt."
                },
                {
                   "title":"Kann ich eine physische Version der Karte erhalten?",
-                  "body":"Nein, die nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format ist ausreichend, um die Vorteile in Anspruch zu nehmen. Sollte dich ein Händler oder ein anderer Partner der Initiative nach deiner physischen Karte oder der Nummer deiner nationalen Jugendkarte fragen, melde dies bitte über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "body":"Nein, die Nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format ist ausreichend, um die Vorteile in Anspruch zu nehmen. Sollte dich ein Händler oder ein anderer Partner der Initiative nach deiner physischen Karte oder der Nummer deiner Nationalen Jugendkarte fragen, melde dies bitte über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                },
                {
-                  "title":"Ich wurde nach dem Code meiner nationalen Jugendkarte gefragt, wo kann ich ihn finden?",
-                  "body":"Die nationale Jugendkarte hat keinen Identifikationscode und keine Nummer und ist daher nicht erforderlich, um Zugang zu den von den Betreibern angebotenen Rabatten oder Aktionen zu erhalten. Sollte dich ein Händler oder ein anderer Partner der Initiative nach deiner physischen Karte oder der Nummer deiner nationalen Jugendkarte fragen, melde dies bitte über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "title":"Ich wurde nach dem Code meiner Nationalen Jugendkarte gefragt, wo kann ich ihn finden?",
+                  "body":"Die Nationalen Jugendkarte hat keinen Identifikationscode und keine Nummer und ist daher nicht erforderlich, um Zugang zu den von den Betreibern angebotenen Rabatten oder Aktionen zu erhalten. Sollte dich ein Händler oder ein anderer Partner der Initiative nach deiner physischen Karte oder der Nummer deiner Nationalen Jugendkarte fragen, melde dies bitte über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                },
                {
                   "title":"Was ist der Unterschied zwischen der nationalen und regionalen Karten?",
-                  "body":"Die nationale Jugendkarte ist ein digitales Instrument für Mädchen und Jungen im Alter von 18 bis 35 Jahren mit Wohnsitz in Italien und ermöglicht ihnen einen erleichterten Zugang zu Gütern, Dienstleistungen, Erfahrungen und Möglichkeiten im gesamten Staatsgebiet. Sie wird von der Abteilung für Jugendpolitik und allgemeinen Zivildienst der Präsidentschaft des Ministerrats ausgestellt. Bei den regionalen Jugendkarten handelt es sich um physische und/oder digitale Instrumente, die von einigen italienischen Regionen an ihre Bürger ausgegeben werden, um Erleichterungen auf dem Gebiet der Region selbst in Anspruch nehmen zu können. Sie können andere Anforderungen als die nationale Jugendkarte haben und bieten unterschiedliche Möglichkeiten, Ermäßigungen zu erhalten. Weitere Einzelheiten zu den regionalen Jugendkarten findest du [unter diesem Link](https://giovani2030.it/iniziativa/carta-giovani-nazionale/)."
+                  "body":"Die Nationale Jugendkarte ist ein digitales Instrument für Mädchen und Jungen im Alter von 18 bis 35 Jahren mit Wohnsitz in Italien und ermöglicht ihnen einen erleichterten Zugang zu Gütern, Dienstleistungen, Erfahrungen und Möglichkeiten im gesamten Staatsgebiet. Sie wird vom Präsidium des italienischen Ministerrates, Abteilung für Jugendpolitik und Zivildienst ausgestellt. Bei den regionalen Jugendkarten handelt es sich um physische und/oder digitale Instrumente, die von einigen italienischen Regionen an ihre Bürger ausgegeben werden, um Erleichterungen auf dem Gebiet der Region selbst in Anspruch nehmen zu können. Sie können andere Anforderungen als die Nationale Jugendkarte haben und bieten unterschiedliche Möglichkeiten, Ermäßigungen zu erhalten. Weitere Einzelheiten zu den regionalen Jugendkarten findest du [unter diesem Link](https://giovani2030.it/iniziativa/carta-giovani-nazionale/)."
                }
             ]
          },
@@ -2660,20 +2660,20 @@
             "content":"Hier kannst du die ständig aktualisierte Liste der teilnehmenden Händler und Einrichtungen einsehen. Die Liste enthält sowohl lokale Einrichtungen als auch Online-Anbieter.",
             "faqs":[
                {
-                  "title":"Wie kann ich mit der nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Warum funktioniert der Rabattcode nicht?",
                   "body":"Wenn der Code nicht gültig ist: \n\n - Vergewissere dich, dass du ihn richtig eingegeben hast; \n\n - Vergewissere dich, dass er noch gültig ist: einige Codes laufen innerhalb kurzer Zeit ab; \n\n - Überprüfe in den Einzelheiten der Erleichterung, ob der Betreiber Bedingungen hinsichtlich der Nutzungsmodalitäten und der Gültigkeit des Rabatts anwendet. \n}nWenn das Problem weiterhin besteht, wende dich an den Support des Betreibers."
                },
                {
-                  "title":"Ich wurde gebeten, ein Formular auszufüllen, um nachzuweisen, dass ich die nationale Jugendkarte besitze; wo kann ich es finden?",
-                  "body":"Es gibt keine Formulare zum Nachweis des Besitzes der nationalen Jugendkarte. Die nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "title":"Ich wurde gebeten, ein Formular auszufüllen, um nachzuweisen, dass ich die Nationale Jugendkarte besitze; wo kann ich es finden?",
+                  "body":"Es gibt keine Formulare zum Nachweis des Besitzes der Nationalen Jugendkarte. Die Nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                },
                {
                   "title":"Ein Mitarbeiter bat mich, die Aktivierungs-E-Mail der Karte vorzulegen, um die Vorteile nutzen zu können. Wo kann ich sie finden?",
-                  "body":"Für die nationale Jugendkarte gibt es keine Aktivierungsmail. Die nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "body":"Für die Nationale Jugendkarte gibt es keine Aktivierungsmail. Die Nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                }
             ]
          },
@@ -2683,20 +2683,20 @@
             "content":"Auf dieser Seite findest du alle Informationen über den von dir ausgewählten Betreiber, einschließlich der aktuellen Leistungen.",
             "faqs":[
                {
-                  "title":"Wie kann ich mit der nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Warum funktioniert der Rabattcode nicht?",
                   "body":"Wenn der Code nicht gültig ist: \n\n - Vergewissere dich, dass du ihn richtig eingegeben hast; \n\n - Vergewissere dich, dass er noch gültig ist: einige Codes laufen innerhalb kurzer Zeit ab; \n\n - Überprüfe in den Einzelheiten der Erleichterung, ob der Betreiber Bedingungen hinsichtlich der Nutzungsmodalitäten und der Gültigkeit des Rabatts anwendet. \n}nWenn das Problem weiterhin besteht, wende dich an den Support des Betreibers."
                },
                {
-                  "title":"Ich wurde gebeten, ein Formular auszufüllen, um nachzuweisen, dass ich die nationale Jugendkarte besitze; wo kann ich es finden?",
-                  "body":"Es gibt keine Formulare zum Nachweis des Besitzes der nationalen Jugendkarte. Die nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "title":"Ich wurde gebeten, ein Formular auszufüllen, um nachzuweisen, dass ich die Nationale Jugendkarte besitze; wo kann ich es finden?",
+                  "body":"Es gibt keine Formulare zum Nachweis des Besitzes der Nationalen Jugendkarte. Die Nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                },
                {
                   "title":"Ein Mitarbeiter bat mich, die Aktivierungs-E-Mail der Karte vorzulegen, um die Vorteile nutzen zu können. Wo kann ich sie finden?",
-                  "body":"Für die nationale Jugendkarte gibt es keine Aktivierungsmail. Die nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
+                  "body":"Für die Nationale Jugendkarte gibt es keine Aktivierungsmail. Die Nationale Jugendkarte gibt es nur in digitaler Form in deiner IO-App und dieses Format reicht aus, um die Leistungen in Anspruch zu nehmen. \n\nBitte melde dies über die IO-App an den Support und gib die Details des Händlers an (z. B. Name des Partners, Adresse der Filiale/Verkaufsstelle, in der er die Anfrage gestellt hat)."
                }
             ]
          },

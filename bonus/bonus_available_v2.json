@@ -23,9 +23,9 @@
     "visibility": "hidden",
     "valid_from": "2020-07-01T00:00:00.000Z",
     "valid_to": "2021-12-31T00:00:00.000Z",
-    "cover": "https://assets.cdn.io.italia.it/bonus/vacanze/logo/logo_BonusVacanze.png",
+    "cover": "https://assets.cdn.io.pagopa.it/bonus/vacanze/logo/logo_BonusVacanze.png",
     "sponsorship_description": "Agenzia delle Entrate",
-    "sponsorship_cover": "https://assets.cdn.io.italia.it/bonus/vacanze/logo/logo_AgenziaEntrate.png"
+    "sponsorship_cover": "https://assets.cdn.io.pagopa.it/bonus/vacanze/logo/logo_AgenziaEntrate.png"
   },
   {
     "id_type": 2,
@@ -63,9 +63,9 @@
     "visibility": "visible",
     "valid_from": "2020-07-01T00:00:00.000Z",
     "valid_to": "2020-12-31T00:00:00.000Z",
-    "cover": "https://assets.cdn.io.italia.it/bonus/bpd/logo/logo-cashback.png",
+    "cover": "https://assets.cdn.io.pagopa.it/bonus/bpd/logo/logo-cashback.png",
     "sponsorship_description": "Ministero dell'Economia e delle Finanze",
-    "sponsorship_cover": "https://assets.cdn.io.italia.it/bonus/bpd/logo/logo-mef.png"
+    "sponsorship_cover": "https://assets.cdn.io.pagopa.it/bonus/bpd/logo/logo-mef.png"
   },
   {
     "id_type": 3,
@@ -103,10 +103,10 @@
     "visibility": "visible",
     "valid_from": "2020-07-01T00:00:00.000Z",
     "valid_to": "2020-12-31T00:00:00.000Z",
-    "cover": "https://assets.cdn.io.italia.it/bonus/cgn/logo/logo-cgn.png",
-    "hero_image": "https://assets.cdn.io.italia.it/bonus/cgn/logo/hero-CGN.png",
+    "cover": "https://assets.cdn.io.pagopa.it/bonus/cgn/logo/logo-cgn.png",
+    "hero_image": "https://assets.cdn.io.pagopa.it/bonus/cgn/logo/hero-CGN.png",
     "sponsorship_description": "PCM - Dipartimento per le Politiche Giovanili e il Servizio Civile Universale",
-    "sponsorship_cover": "https://assets.cdn.io.italia.it/bonus/cgn/logo/logo-cgn.png"
+    "sponsorship_cover": "https://assets.cdn.io.pagopa.it/bonus/cgn/logo/logo-cgn.png"
   },
   {
     "id_type": 4,
@@ -130,8 +130,8 @@
     "visibility": "hidden",
     "valid_from": "2022-07-01T00:00:00.000Z",
     "valid_to": "2022-12-31T00:00:00.000Z",
-    "cover": "https://assets.cdn.io.italia.it/bonus/cdc/logo/logo-cdc.png",
+    "cover": "https://assets.cdn.io.pagopa.it/bonus/cdc/logo/logo-cdc.png",
     "sponsorship_description": "Ministero della Cultura",
-    "sponsorship_cover": "https://assets.cdn.io.italia.it/bonus/cdc/logo/logo-cdc.png"
+    "sponsorship_cover": "https://assets.cdn.io.pagopa.it/bonus/cdc/logo/logo-cdc.png"
   }
 ]

@@ -2433,7 +2433,7 @@
                },
                {
                   "title":"Wie funktioniert das?",
-                  "body":"BANCOMAT Pay verknüpft deine Mobiltelefonnummer mit einer IBAN, die von einem Kontokorrent oder einer Prepaid-Karte stammen kann.\nUm BANCOMAT Pay auf IO zu nutzen, überprüfe, ob deine Bank [zu den teilnehmenden Banken](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) gehört und aktiviere den Dienst über die BANCOMAT Pay-App oder die App deiner Bank.\nNachdem füge den Dienst als Zahlungsmethode im Tab 'Konto' von IO hinzu, indem du das gewünschte Konto auswählst."
+                  "body":"BANCOMAT Pay verknüpft deine Mobiltelefonnummer mit einer IBAN, die von einem Kontokorrent oder einer Prepaid-Karte stammen kann.\nUm BANCOMAT Pay auf IO zu nutzen, überprüfe, ob deine Bank [zu den teilnehmenden Banken](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) gehört und aktiviere den Dienst über die BANCOMAT Pay-App oder die App deiner Bank.\nAnschließend füge den Dienst als Zahlungsmethode im Tab 'Konto' von IO hinzu, indem du das gewünschte Konto auswählst."
                },
                {
                   "title":"Ich habe kein BANCOMAT Pay-Konto, was kann ich tun?",
@@ -2474,19 +2474,19 @@
             "faqs":[
                {
                   "title":"Diese Mitteilung interessiert dich nicht?",
-                  "body":"Auf IO kannst du die Kommunikation von Diensten, die dich nicht interessieren, jederzeit deaktivieren:\n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \n\nDie Körperschaft wird dich nicht mehr über IO kontaktieren, sie kann aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) dich kontaktieren."
+                  "body":"Auf IO kannst du die Kommunikation von Diensten, die dich nicht interessieren, jederzeit deaktivieren:\n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \n\nDie Körperschaft wird dich nicht mehr über IO kontaktieren, sie kann dich aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) kontaktieren."
                },
                {
                   "title":"Liegt ein Fehler in der Mitteilung vor, die du erhalten hast?",
                   "body":"Wenn du der Meinung bist, dass die Mitteilung, die du erhalten hast, einen Fehler enthält, kannst du die Kontaktdaten der Körperschaft verwenden, um eine Meldung zu machen oder um eine Klarstellung zu bitten. \nDie Kontaktdaten findest du im Bereich der Mitteilungsdetails oder im Tab 'Dienste' der IO-App, indem du die betreffende Körperschaft und den betreffenden Dienst auswählst. \nAbhängig von der Kontaktmethode, die von der jeweiligen Körperschaft und dem jeweiligen Dienst verwaltet wird, können die Kontaktangaben Folgendes umfassen: physische Schalteradresse, Telefonnummer, E-Mail- und/oder PEC-Adresse, Website, Online-Hilfe, mobile App."
                },
                {
-                  "title":"Hat diese Körperschaft die Erlaubnis, an dich zu schreiben?",
-                  "body":"Eine Körperschaft kann dir nur dann Nachrichten senden, wenn es eine bestimmte Mitteilung an dich zu übermitteln hat, die mit deiner Steuernummer verknüpft ist. Deine Steuernummer wird nicht von der IO-App an die Körperschaft übermittelt, sondern jede Körperschaft kann die IO-App nur dann nutzen, um dir zu schreiben, wenn sie bereits über deine Daten verfügt. \nWenn du keine Mitteilungen mehr von einer bestimmten Körperschaft erhalten möchtest, kannst du die Dienste, die dich nicht interessieren, deaktivieren: \n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \nDie Körperschaft wird dich nicht mehr über IO kontaktieren, kann dich aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) kontaktieren. \n \nIm Abschnitt 'Profil > Einstellungen > Dienste verwalten' kannst du entscheiden, ob du die Kommunikation aller Dienste eingeschaltet lässt oder die manuelle Konfiguration wählst, bei der du alle Dienste einzeln auf dem entsprechenden Detailansicht konfigurieren musst."
+                  "title":"Hat diese Körperschaft die Erlaubnis an mich zu schreiben?",
+                  "body":"Eine Körperschaft kann dir nur dann Nachrichten senden, wenn sie eine bestimmte Mitteilung an dich zu übermitteln hat, die mit deiner Steuernummer verknüpft ist. Deine Steuernummer wird nicht von der IO-App an die Körperschaft übermittelt, sondern jede Körperschaft kann die IO-App nur dann nutzen, um dir zu schreiben, wenn sie bereits über deine Daten verfügt. \nWenn du keine Mitteilungen mehr von einer bestimmten Körperschaft erhalten möchtest, kannst du die Dienste, die dich nicht interessieren, deaktivieren: \n1. besuche den Tab 'Dienste'; \n2. wähle den betreffenden Dienst aus der Liste aus; \n3. deaktiviere im Bereich 'Dieser Dienst kann' die Option 'In der App kontaktieren'. \nDie Körperschaft wird dich nicht mehr über IO kontaktieren, kann dich aber weiterhin über die üblichen Kommunikationskanäle (E-Mail, Telefon oder Post) kontaktieren. \n \nIm Abschnitt 'Profil > Einstellungen > Dienste verwalten' kannst du entscheiden, ob du die Kommunikation aller Dienste eingeschaltet lässt oder die manuelle Konfiguration wählst, bei der du alle Dienste einzeln auf dem entsprechenden Detailansicht konfigurieren musst."
                },
                {
                   "title":"Möchtest du die Körperschaft kontaktieren?",
-                  "body":"In den Mitteilungsdetails kannst du Informationen über den jeweiligen Dienst und den Dienstanbieter einsehen. Wenn du dem Link zum Dienstprofil folgst, findest du die erweiterten Informationen und Kontaktdaten, über die du die Mitteilung kontaktieren kannst. \nJe nach der von der einzelnen Körperschaft und dem Dienst verwalteten Kontaktmethode können die Kontaktdaten Folgendes umfassen: physische Schalteradresse, Telefonnummer, E-Mail- und/oder PEC-Adresse, Website, Online-Hilfe, mobile App."
+                  "body":"In den Mitteilungsdetails kannst du Informationen über den jeweiligen Dienst und den Dienstanbieter einsehen. Wenn du dem Link zum Dienstprofil folgst, findest du die erweiterten Informationen und Kontaktdaten, über die du die Körperschaft kontaktieren kannst. \nJe nach der von der einzelnen Körperschaft und dem Dienst verwalteten Kontaktmethode können die Kontaktdaten Folgendes umfassen: physische Schalteradresse, Telefonnummer, E-Mail- und/oder PEC-Adresse, Website, Online-Hilfe, mobile App."
                },
                {
                   "title":"Was muss ich tun, um ein Dokument über die IO-App zu unterschreiben?",
@@ -2510,7 +2510,7 @@
                },
                {
                   "title":"Ich habe die Mitteilung mit dem signierten Dokument nicht erhalten. Was kann ich tun?",
-                  "body":"Kontaktiere den Support. Geh dazu zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
+                  "body":"Kontaktiere den Support. Geh dazu zum unteren Ende dieser Seite und wähle Ticket erstellen > Mit IO unterschreiben."
                },
                {
                   "title":"Kann ich Dokumente im Namen einer anderen Person unterschreiben?",
@@ -2518,11 +2518,11 @@
                },
                {
                   "title":"Was kann ich tun, wenn die App abstürzt, während ich ein Dokument unterschreibe?",
-                  "body":"Überprüfe, ob du die neueste Version der IO-App aus dem Store deines Geräts installiert hast. Wenn die App nicht mehr aktuell ist, lade die neueste Version herunter. Andernfalls geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
+                  "body":"Überprüfe, ob du die neueste Version der IO-App aus dem Store deines Geräts installiert hast. Wenn die App nicht mehr aktuell ist, lade die neueste Version herunter. Andernfalls geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Mit IO unterschreiben."
                },
                {
                   "title":"Ein Dokument wurde mit meinem Ausweis, aber ohne meine Zustimmung unterzeichnet. Was kann ich tun?",
-                  "body":"Du kannst dies dem Support melden. Geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Signatur mit IO."
+                  "body":"Du kannst dies dem Support melden. Geh zum unteren Ende dieser Seite und wähle Ticket erstellen > Mit IO unterschreiben."
                },
                {
                   "title":"Ich habe die Mitteilung mit den signierten Dokumenten erhalten, aber sie sind nicht mehr verfügbar. Wie kann ich sie abrufen?",
@@ -2537,11 +2537,11 @@
          {
             "route_name":"SERVICES_HOME",
             "title":"Was kann ich im Tab Dienste tun?",
-            "content":"Hier kannst du die Liste der in der App verfügbaren nationalen und lokalen Dienste einsehen. \nTippe auf einen Dienstnamen, um dessen Details anzuzeigen. Auf der Detailseite des Dienstes kannst ud auch das Senden von Push-Benachrichtigungen und die Weiterleitung von Nachrichten an deine E-Mail-Adresse verwalten.",
+            "content":"Hier kannst du die Liste der in der App verfügbaren nationalen und lokalen Dienste einsehen. \nTippe auf einen Dienstnamen, um dessen Details anzuzeigen. Auf der Detailseite des Dienstes kannst du auch das Senden von Push-Benachrichtigungen und die Weiterleitung von Nachrichten an deine E-Mail-Adresse verwalten.",
             "faqs":[
                {
                   "title":"Wie kann ich Dienste konfigurieren?",
-                  "body":"Für jeden Dienst kannst du entscheiden, ob du In-App-Mitteilungen und Push-Benachrichtigungen erhalten möchtest. Unter Profil > Einstellungen > E-Mail-Weiterleitung kannst du auch die Weiterleitung von Nachrichten von allen aktiven Diensten an deine E-Mail-Adresse aktivieren.\n Auch wenn du die vollständige Liste der Dienste siehst, wirst du nur von den Körperschaften kontaktiert, die deine Steuernummer kennen und eine Mitteilung haben, die dich persönlich betrifft."
+                  "body":"Für jeden Dienst kannst du entscheiden, ob du In-App-Mitteilungen und Push-Benachrichtigungen erhalten möchtest. Unter Profil > Einstellungen > Mitteilungen mittels E-Mail weiterleiten kannst du auch die Weiterleitung von Nachrichten von allen aktiven Diensten an deine E-Mail-Adresse aktivieren.\n Auch wenn du die vollständige Liste der Dienste siehst, wirst du nur von den Körperschaften kontaktiert, die deine Steuernummer kennen und eine Mitteilung haben, die dich persönlich betrifft."
                },
                {
                   "title":"Kann ich Körperschaften über IO kontaktieren?",
@@ -2610,7 +2610,7 @@
             "faqs":[
                {
                   "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Was ist die EYCA?",
@@ -2650,7 +2650,7 @@
                },
                {
                   "title":"Was ist der Unterschied zwischen der nationalen und regionalen Karten?",
-                  "body":"Die Nationale Jugendkarte ist ein digitales Instrument für Mädchen und Jungen im Alter von 18 bis 35 Jahren mit Wohnsitz in Italien und ermöglicht ihnen einen erleichterten Zugang zu Gütern, Dienstleistungen, Erfahrungen und Möglichkeiten im gesamten Staatsgebiet. Sie wird vom Präsidium des italienischen Ministerrates, Abteilung für Jugendpolitik und Zivildienst ausgestellt. Bei den regionalen Jugendkarten handelt es sich um physische und/oder digitale Instrumente, die von einigen italienischen Regionen an ihre Bürger ausgegeben werden, um Erleichterungen auf dem Gebiet der Region selbst in Anspruch nehmen zu können. Sie können andere Anforderungen als die Nationale Jugendkarte haben und bieten unterschiedliche Möglichkeiten, Ermäßigungen zu erhalten. Weitere Einzelheiten zu den regionalen Jugendkarten findest du [unter diesem Link](https://giovani2030.it/iniziativa/carta-giovani-nazionale/)."
+                  "body":"Die Nationale Jugendkarte ist ein digitales Instrument für Jugendliche im Alter von 18 bis 35 Jahren mit Wohnsitz in Italien und ermöglicht ihnen einen erleichterten Zugang zu Gütern, Dienstleistungen, Erfahrungen und Möglichkeiten im gesamten Staatsgebiet. Sie wird vom Präsidium des italienischen Ministerrates, Abteilung für Jugendpolitik und Zivildienst ausgestellt. Bei den regionalen Jugendkarten handelt es sich um physische und/oder digitale Instrumente, die von einigen italienischen Regionen an ihre Bürger ausgegeben werden, um Erleichterungen auf dem Gebiet der Region selbst in Anspruch nehmen zu können. Sie können andere Anforderungen als die Nationale Jugendkarte haben und bieten unterschiedliche Möglichkeiten, Ermäßigungen zu erhalten. Weitere Einzelheiten zu den regionalen Jugendkarten findest du [unter diesem Link](https://giovani2030.it/iniziativa/carta-giovani-nazionale/)."
                }
             ]
          },
@@ -2661,7 +2661,7 @@
             "faqs":[
                {
                   "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Warum funktioniert der Rabattcode nicht?",
@@ -2684,7 +2684,7 @@
             "faqs":[
                {
                   "title":"Wie kann ich mit der Nationalen Jugendkarte Ermäßigungen erhalten?",
-                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere  den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
+                  "body":"Bei Einkäufen in Geschäften öffne die IO-App und zeige vor dem Bezahlen deine Nationale Jugendkarte vor. Bei Online-Einkäufen kopiere den Rabattcode, den du auf der Karte der gewünschten Einrichtung findest und füge ihn in das Rabattfeld auf dem Portal des Händlers ein. Wenn der eingegebene Code korrekt ist, wird der Rabatt automatisch auf deinen Einkaufswagen angewendet."
                },
                {
                   "title":"Warum funktioniert der Rabattcode nicht?",
@@ -2715,7 +2715,7 @@
                },
                {
                   "title":"Wie kann ich eine Mitteilungen archivieren?",
-                  "body":"Um eine Mitteilungen zu archivieren, halte sie gedrückt und wähle 'Archivieren'. Die Mitteilungen wird in den Tab 'Archiviert' verschoben. Auf dieselbe Weise kannst du Mitteilungen von 'Archiviert' nach 'Erhalten' verschieben."
+                  "body":"Um eine Mitteilungen zu archivieren, halte sie gedrückt und wähle 'Archivieren'. Die Mitteilungen wird in den Tab 'Archiviert' verschoben. Auf dieselbe Weise kannst du auch Mitteilungen von 'Archiviert' nach 'Erhalten' verschieben."
                },
                {
                   "title":"Kann ich eine Mitteilungen löschen?",

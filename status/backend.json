@@ -67,6 +67,13 @@
         "android": "0.0.0.0"
       }
     },
+    "newPaymentSection": {
+      "enabled": false,
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
+    },
     "lollipop": {
       "enabled": true,
       "min_app_version": {

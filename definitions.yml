@@ -416,6 +416,7 @@ definitions:
       - barcodesScanner
       - fci
       - idPay
+      - newPaymentSection
       - lollipop
       - pn
       - payments
@@ -455,6 +456,8 @@ definitions:
         $ref: "#/definitions/FciConfig"
       idPay:
         $ref: "#/definitions/IdPayConfig"
+      newPaymentSection:
+        $ref: "#/definitions/NewPaymentSectionConfig"
       lollipop:
         $ref: "#/definitions/LollipopConfig"
       pn:
@@ -787,6 +790,19 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user can onboard, configure and monitor an IdPay initiative"
+  NewPaymentSectionConfig:
+    type: object
+    description: "A configuration for the new Payment section feature"
+    required:
+      - enabled
+      - min_app_version
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, the app can show the new payment section"
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can see the new payment section"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

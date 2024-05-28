@@ -256,8 +256,8 @@
                {
                   "title":"Qual è la differenza tra accesso rapido e autenticazione ogni 30 giorni?",
                   "body":"L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
-               }
-                {
+               },
+               {
                   "title":"Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?",
                   "body":"Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
                }              

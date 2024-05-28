@@ -194,7 +194,7 @@
          {
             "route_name":"AUTHENTICATION_IDP_LOGIN",
             "title":"Le tue credenziali",
-            "content":"Per entrare in IO tramite SPID, devi inserire il tuo nome utente e password. Poi, conferma la richiesta di accesso tramite OTP o nell’app del tuo Identity Provider e tornare sull’app IO.",
+            "content":"Per entrare su IO, devi inserire il nome utente e la password che hai scelto per SPID. Una volta fatto, conferma la richiesta di accesso tramite codice OTP o nell’app del tuo Identity Provider, poi torna sull’app IO per proseguire.",
             "faqs":[
                {
                   "title":"Qual è la mia password?",
@@ -248,6 +248,20 @@
                   "body":"Su alcuni dispositivi con sistema operativo Android, l’app IO potrebbe bloccarsi o riavviarsi inaspettatamente quando la usi insieme ad altre app, ad esempio quando provi ad accedere con SPID tramite l’app del tuo Identity Provider. Se hai riscontrato questo problema, segui questi passaggi:\n\n1- tocca e tieni premuta l'icona dell'app IO per alcuni secondi;\n2- seleziona '**App Info**' dal menu che compare;\n3- scorri verso il basso e seleziona '**Risparmio energetico**' o '**Batteria**' (può variare a seconda del dispositivo);\n4- seleziona l'opzione '**Nessuna restrizione**' o '**Senza limitazioni**' o comunque disattiva l'ottimizzazione dell'uso batteria per app IO (può variare a seconda del dispositivo);\n5- riavvia l’app e prova nuovamente ad accedere con SPID."
                }
             ]
+         },         {
+            "route_name":"AUTHENTICATION_OPT_IN",
+            "title":"Accesso in app",
+            "content":"Qui puoi trovare le informazioni sulle modalità di accesso a IO e alcuni consigli di sicurezza.",
+            "faqs":[
+               {
+                  "title":"Qual è la differenza tra accesso rapido e autenticazione ogni 30 giorni?",
+                  "body":"L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
+               },
+               {
+                  "title":"Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?",
+                  "body":"Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
+               }              
+            ]
          },
          {
             "route_name":"AUTHENTICATION_IDP_SELECTION",
@@ -267,7 +281,7 @@
             "faqs":[
                {
                   "title":"Dove trovo i codici PIN e PUK della CIE?",
-                  "body":"I codici PIN e PUK sono composti da 8 cifre ciascuno: le prime 4 cifre ti sono state consegnate all'anagrafe, mentre le ultime 4 ti sono state spedite a casa, insieme alla Carta d’Identità Elettronica. Il codice PUK serve a sbloccare il codice PIN dopo tre tentativi errati."
+                  "body":"I codici PIN e PUK sono composti da 8 cifre ciascuno: le prime 4 cifre ti sono state consegnate all'anagrafe, mentre le ultime 4 ti sono state spedite, insieme alla Carta d’Identità Elettronica. Il codice PUK serve a sbloccare il codice PIN dopo tre tentativi errati."
                },
                {
                   "title":"Non ho il codice PIN e/o PUK. Cosa posso fare?",
@@ -290,7 +304,45 @@
                },
                {
                   "title":"Come posso disabilitare il riconoscimento biometrico?",
-                  "body":"Vai alla sezione 'Profilo'. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+                  "body":"Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+               }
+            ]
+         },
+         {
+            "route_name":"ONBOARDING_MISSING_DEVICE_PIN",
+            "title":"Come funziona il riconoscimento biometrico",
+            "content":"Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+            "faqs":[
+               {
+                  "title":"Quando mi verrà chiesto il riconoscimento biometrico?",
+                  "body":"Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+               },
+               {
+                  "title":"Come posso abilitare il riconoscimento biometrico?",
+                  "body":"Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+               },
+               {
+                  "title":"Come posso disabilitare il riconoscimento biometrico?",
+                  "body":"Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+               }
+            ]
+            },
+         {
+            "route_name":"ONBOARDING_MISSING_DEVICE_BIOMETRIC",
+            "title":"Come funziona il riconoscimento biometrico",
+            "content":"Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+            "faqs":[
+               {
+                  "title":"Quando mi verrà chiesto il riconoscimento biometrico?",
+                  "body":"Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+               },
+               {
+                  "title":"Come posso abilitare il riconoscimento biometrico?",
+                  "body":"Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+               },
+               {
+                  "title":"Come posso disabilitare il riconoscimento biometrico?",
+                  "body":"Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
                }
             ]
          },
@@ -361,6 +413,11 @@
             "route_name":"INSERT_EMAIL_SCREEN",
             "title":"Modifica il tuo indirizzo email",
             "content":"Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
+         },
+         {
+            "route_name":"CHECK_EMAIL_NOT_VERIFIED",
+            "title":"Per usare l'app IO devi confermare la tua email.",
+            "content":"Inserisci un’email che usi e a cui hai accesso solo tu. Servirà a inviarti comunicazioni come ricevute di pagamento o messaggi di assistenza. "
          },
          {
             "route_name":"PROFILE_PREFERENCES_HOME",

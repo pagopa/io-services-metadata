@@ -309,6 +309,44 @@
             ]
          },
          {
+            "route_name":"ONBOARDING_MISSING_DEVICE_PIN",
+            "title":"Come funziona il riconoscimento biometrico",
+            "content":"Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+            "faqs":[
+               {
+                  "title":"Quando mi verrà chiesto il riconoscimento biometrico?",
+                  "body":"Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+               },
+               {
+                  "title":"Come posso abilitare il riconoscimento biometrico?",
+                  "body":"Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+               },
+               {
+                  "title":"Come posso disabilitare il riconoscimento biometrico?",
+                  "body":"Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+               }
+            ]
+            },
+         {
+            "route_name":"ONBOARDING_MISSING_DEVICE_BIOMETRIC",
+            "title":"Come funziona il riconoscimento biometrico",
+            "content":"Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+            "faqs":[
+               {
+                  "title":"Quando mi verrà chiesto il riconoscimento biometrico?",
+                  "body":"Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+               },
+               {
+                  "title":"Come posso abilitare il riconoscimento biometrico?",
+                  "body":"Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+               },
+               {
+                  "title":"Come posso disabilitare il riconoscimento biometrico?",
+                  "body":"Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+               }
+            ]
+         },
+         {
             "route_name":"ONBOARDING_PIN",
             "title":"Come funziona il codice di sblocco",
             "content":"Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo utilizzare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi 'Hai dimenticato il codice di sblocco?' e impostane uno nuovo. Se vuoi modificarlo, premi 'Modifica il codice di sblocco'.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",

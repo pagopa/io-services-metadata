@@ -248,7 +248,8 @@
                   "body":"Su alcuni dispositivi con sistema operativo Android, l’app IO potrebbe bloccarsi o riavviarsi inaspettatamente quando la usi insieme ad altre app, ad esempio quando provi ad accedere con SPID tramite l’app del tuo Identity Provider. Se hai riscontrato questo problema, segui questi passaggi:\n\n1- tocca e tieni premuta l'icona dell'app IO per alcuni secondi;\n2- seleziona '**App Info**' dal menu che compare;\n3- scorri verso il basso e seleziona '**Risparmio energetico**' o '**Batteria**' (può variare a seconda del dispositivo);\n4- seleziona l'opzione '**Nessuna restrizione**' o '**Senza limitazioni**' o comunque disattiva l'ottimizzazione dell'uso batteria per app IO (può variare a seconda del dispositivo);\n5- riavvia l’app e prova nuovamente ad accedere con SPID."
                }
             ]
-         },         {
+         },         
+         {
             "route_name":"AUTHENTICATION_OPT_IN",
             "title":"Accesso in app",
             "content":"Qui puoi trovare le informazioni sulle modalità di accesso a IO e alcuni consigli di sicurezza.",
@@ -1254,6 +1255,10 @@
                   "body":"By enabling ‘Show previews’, push notifications from IO will include the sender and subject of the messages. That way, you can know who messaged you without entering the app."
                },
                {
+                  "title":"What is a push notification?",
+                  "body":"It is a short message that appears on the screen of your device. They are usually sent by apps to alert you of a new message or content."
+               },
+               {
                   "title":"What does ‘Allow reminders’ mean?",
                   "body":"By enabling ‘Allow Reminders’, upon the sender's request you will receive push notifications close to deadlines or when you have unread messages."
                }
@@ -1269,6 +1274,10 @@
                   "body":"By enabling ‘Show previews’, push notifications from IO will include the sender and subject of the messages. That way, you can know who messaged you without entering the app."
                },
                {
+                  "title":"What is a push notification?",
+                  "body":"It is a short message that appears on the screen of your device. They are usually sent by apps to alert you of a new message or content."
+               },               
+               {
                   "title":"What does ‘Allow reminders’ mean?",
                   "body":"By enabling ‘Allow Reminders’, upon the sender's request you will receive push notifications close to deadlines or when you have unread messages."
                }
@@ -1277,7 +1286,7 @@
          {
             "route_name":"AUTHENTICATION_IDP_LOGIN",
             "title":"Your credentials",
-            "content":"To enter IO via SPID, you must enter your username and password. Then, confirm the request via OTP or in your Identity Provider's app and head back to IO.",
+            "content":"To log into IO app, you must enter the username and password you chose for SPID. Once done, confirm the login request via OTP or in your Identity Provider's app, then return to the IO app to continue.",
             "faqs":[
                {
                   "title":"What's my password?",
@@ -1321,9 +1330,28 @@
                {
                   "title":"How can I request the CIE?",
                   "body":"[Go to this website](https://www.prenotazionicie.interno.gov.it/) and type in the name of your municipality to see if it uses the Agenda CIE online appointment system. If it does, book an appointment. If it doesn’t, request an appointment from your municipality's website or go to a municipal office."
-               }
+               },
+               {
+                  "title":"I have some problems logging in with SPID from a device running Android. What can I do",
+                  "body":"On some devices running the Android operating system, the IO app may crash or restart unexpectedly when used in combination with other apps, for example when trying to log in with SPID via your Identity Provider's app. If you experience this problem, please follow these steps: \n\n1- tap and hold the IO app icon for a few seconds;\n2- select '**App Info**' from the menu that appears;\n3- scroll down and select '**Power Savings**' or '**Battery**' (may vary depending on the device); \n4- select the option '**No Restrictions**' or '**No Limitations**' or otherwise disable battery usage optimisation for IO apps (may vary per device); \n5- restart the app and try logging in with SPID again."
+               }               
             ]
          },
+         {
+            "route_name":"AUTHENTICATION_OPT_IN",
+            "title":"How to access IO app",
+            "content":"Here you can find information on how to access IO and some security tips.",
+            "faqs":[
+               {
+                  "title":"What is the difference between quick access and authentication every 30 days??",
+                  "body":"In the first case, you only have to authenticate with SPID or CIE once a year or if you log out of the app. All other times, you can only use the app's unlock code or face or fingerprint recognition to log in. If you choose to log in every 30 days instead, you will have to authenticate with SPID or CIE every 30 days."
+               },
+               {
+                  "title":"If I choose to log in every 30 days or once a year, can I then change my choice?",
+                  "body":"You can change your choice by logging out of IO. Go to the Profile section and press Logout/Exit. You will be asked to log in again and can choose how often to log in."
+               }              
+            ]
+         },         
          {
             "route_name":"AUTHENTICATION_IDP_SELECTION",
             "title":"Your Identity Provider",
@@ -1437,6 +1465,16 @@
             "title":"Change your email address",
             "content":"Here you can change your email address. Once entered, we'll send you an email with a verification link to confirm it.There we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
          },
+         {
+            "route_name":"CHECK_EMAIL_NOT_VERIFIED",
+            "title":"To use IO app you have to confirm your email.",
+            "content":"Enter an email address that you use and only you have access to. We’ll use it to send you messages like payment receipts or support messages."
+         }, 
+         {
+            "route_name":"CHECK_EMAIL_ALREADY_TAKEN",
+            "title":"E-mail is already in use.",
+            "content":"The email you entered is already in use for another profile on IO. Please enter a different email address."
+         },         
          {
             "route_name":"PROFILE_PREFERENCES_HOME",
             "title":"Your preferences",

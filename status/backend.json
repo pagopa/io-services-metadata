@@ -312,7 +312,7 @@
       }
     },
     "favourite_language": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "normal",
       "web_url": {
         "it-IT": "https://github.com/pagopa/io-app/issues/new/choose",

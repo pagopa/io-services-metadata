@@ -213,10 +213,10 @@
     },
     "payments": {
       "is_visible": false,
-      "level": "critical",
+      "level": "normal",
       "message": {
-        "it-IT": "pagoPA non è al momento disponibile. I nostri tecnici sono al lavoro per risolvere il problema.",
-        "en-EN": "pagoPA is currently not available. Our technicians are working to fix the issue."
+        "it-IT": "Stiamo riorganizzando i metodi di pagamento salvati in app.",
+        "en-EN": "We are rearranging the payment methods saved in the app."
       }
     },
     "ingress": {

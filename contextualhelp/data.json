@@ -438,11 +438,11 @@
          {
             "route_name":"PROFILE_PREFERENCES_SERVICES",
             "title":"La configurazione dei servizi",
-            "content":"Qui puoi decidere come configurare i servizi in app. IO veicola messaggi da parte di enti nazionali o locali che hanno qualcosa da dire proprio a te. Per questo, ti consigliamo di utilizzare la configurazione rapida: così, se un ente ha qualcosa da dirti, potrà farlo.",
+            "content":"Qui puoi decidere come configurare i servizi in app. IO veicola messaggi inviati da enti nazionali o locali che hanno qualcosa da dire proprio a te. Per questo, ti consigliamo di utilizzare la configurazione rapida: così, se un ente ha qualcosa da dirti, non perderai nessuna comunicazione.",
             "faqs":[
                {
                   "title":"Perché dovrei usare la configurazione rapida?",
-                  "body":"Perché IO manda solo messaggi rivolti proprio a te e non manda messaggi broadcast o spam. Usando la configurazione rapida, riceverai messaggi anche dai servizi che arriveranno in futuro."
+                  "body":"Perché tramite IO riceverai solo messaggi rivolti proprio a te. Usando la configurazione rapida, riceverai messaggi anche dai servizi che arriveranno in futuro."
                },
                {
                   "title":"Cosa succede se utilizzo la configurazione manuale?",
@@ -836,16 +836,39 @@
          {
             "route_name":"SERVICES_HOME",
             "title":"Cosa puoi fare nei Servizi",
-            "content":"Qui puoi visualizzare la lista dei servizi nazionali e locali disponibili in app.\nPremi sul nome di un servizio per visualizzarne i dettagli. Dalla pagina di dettaglio del servizio, puoi anche gestire l'invio di notifiche push e l'inoltro dei messaggi al tuo indirizzo e-mail.",
+            "content":"Qui trovi i servizi e gli enti in evidenza e la lista dei servizi nazionali disponibili su IO.\nPuoi inoltre cercare un ente, nazionale o locale. Per farlo, premi sulla barra di ricerca e inserisci il nome dell’ente.",
+            "faqs":[
+               {
+                  "title":"Posso contattare gli enti tramite IO?",
+                  "body":"No, non puoi contattare direttamente gli enti dall'app. Puoi farlo tramite i contatti che trovi nella scheda di ciascun servizio all'interno della sezione Servizi."
+               },
+               {
+                  "title":"Cosa sono i servizi e gli enti in evidenza?",
+                  "body":"Sono  i servizi e gli enti che abbiamo scelto per aiutare gli utenti a trovare facilmente i servizi utili, migliorando l'esperienza e facilitando la scoperta delle offerte più rilevanti."
+               },
+               {
+                  "title":"Dove trovo i servizi locali?",
+                  "body":"Premi sull’icona di ricerca e inserisci le prime tre lettere dell'ente di tuo interesse per cercare gli enti nazionali e locali disponibili in app."
+               },
+               {
+                  "title":"Perché non trovo l’ente che sto cercando?",
+                  "body":"È possibile che l’ente che stai cercando non abbia ancora servizi su app IO.\nTanti nuovi enti si aggiungono a IO ogni giorno. Controlla in futuro se l’ente o il servizio che cercavi sarà presente in app."
+               }                
+            ]
+         },
+         {
+            "route_name":"INSTITUTION_SERVICES",
+            "title":"CDettaglio dell’ente",
+            "content":"Qui puoi trovare l’elenco dei servizi disponibili per l’ente scelto.\nPremi sul nome di un servizio per visualizzare i dettagli e gestirne le opzioni",
             "faqs":[
                {
                   "title":"Come posso configurare i servizi?",
-                  "body":"Per ogni servizio, puoi decidere se vuoi ricevere messaggi in app e notifiche push. Nella sezione Profilo > Preferenze > Inoltro invio messaggi via email puoi anche attivare l’inoltro dei messaggi di tutti i servizi attivi al tuo indirizzo e-mail.\n \nAnche se vedi la lista completa dei servizi, ti contatteranno solo  gli enti che conoscono il tuo Codice Fiscale che hanno una comunicazione che ti riguarda personalmente."
+                  "body":"Per ogni servizio, puoi decidere se vuoi ricevere messaggi in app e notifiche push. Per farlo, premi sul nome del servizio e scegli tra le opzioni presenti nell’area 'Questo servizio può'."
                },
                {
                   "title":"Posso contattare gli enti tramite IO?",
-                  "body":"No, non puoi contattare direttamente gli enti dall'app. Se hai bisogno di contattare un ente, puoi farlo tramite i contatti che trovi nella scheda di ciascun servizio all'interno della sezione Servizi."
-               }
+                  "body":"No, non puoi contattare direttamente gli enti dall'app. Puoi farlo tramite i contatti che trovi nella scheda di ciascun servizio all'interno della sezione Servizi."
+               }               
             ]
          },
          {
@@ -863,7 +886,7 @@
                },
                {
                   "title":"Come funziona l'inoltro via email dei messaggi?",
-                  "body":"Attivando l'inoltro via email dei messaggi, riceverai all'indirizzo email associato all'app una copia del messaggio che ricevi su IO.\n \nL'inoltro via email non è disponibile per alcuni servizi, poichè l’ente può decidere di non inoltrare messaggi dal contenuto sensibile."
+                  "body":"Se attivi l'inoltro via email dei messaggi, riceverai all'indirizzo email associato al tuo profilo IO un’anteprima del messaggio che ricevi su IO.\n \nL'inoltro via email non è disponibile per alcuni servizi, poiché l’ente può decidere di non inoltrare messaggi dal contenuto sensibile."
                }
             ]
          },

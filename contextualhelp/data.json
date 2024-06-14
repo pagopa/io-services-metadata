@@ -858,7 +858,7 @@
          },
          {
             "route_name":"INSTITUTION_SERVICES",
-            "title":"CDettaglio dell’ente",
+            "title":"Dettaglio dell’ente",
             "content":"Qui puoi trovare l’elenco dei servizi disponibili per l’ente scelto.\nPremi sul nome di un servizio per visualizzare i dettagli e gestirne le opzioni",
             "faqs":[
                {
@@ -1755,16 +1755,39 @@
          {
             "route_name":"SERVICES_HOME",
             "title":"What you can do in Services",
-            "content":"Here you can view a list of national and local services available in the app. Press on a service name to check its details. From the service detail page, you can also manage the settings for push notifications and message forwarding to your email address.",
+            "content":"Here you can find highlighted services and bodies and the list of national services available on IO.\nYou can also search for a national or local institution. To do this, press the search icon and enter the name of the institution.",
             "faqs":[
                {
-                  "title":"How can I change the settings of each service?",
-                  "body":"For each service, you can decide if you want to receive in-app messages and push notifications. At Profile > Preferences > Email Message Forwarding you can also enable message forwarding of all active services to your email address.\n \nEven if you see the full list of services, you’ll be contacted only by  institutions that know your Fiscal Code and have a communication that concerns you directly."
+                  "title":"Can I contact institutions through IO?",
+                  "body":"No, you cannot directly contact institutions through the app. If you need to contact an institution, you can do so through the contacts detailed in each service detail page."
+               },
+               {
+                  "title":"What are services and institutions in evidence?",
+                  "body":"These are the services and institutions we have chosen to help users easily find useful services, enhancing the experience and facilitating the discovery of the most relevant offers."
+               },
+               {
+                  "title":"Where can I find local services?",
+                  "body":"Press the lens icon to search through all national and local institution services available in the app."
+               },
+               {
+                  "title":"Why can't I find the institution I'm looking for?",
+                  "body":"It is possible that the institution you are looking for doesn’t yet have services on the IO app.\n Many new institutions are added to IO every day. Check in the future to see if the institution or service you are looking for will be present in the app."
+               }
+            ]
+         },
+         {
+            "route_name":"INSTITUTION_SERVICES",
+            "title":"Institution detail",
+            "content":"Here you can find the list of services available for the chosen institution.\nPress on the name of a service to view details and manage its options.",
+            "faqs":[
+               {
+                  "title":"How can I configure the services?",
+                  "body":"For each service, you can choose whether you want to receive in-app messages and push notifications. To do this, tap the name of the service and choose from the options in the 'This service can' section."
                },
                {
                   "title":"Can I contact institutions through IO?",
                   "body":"No, you cannot directly contact institutions through the app. If you need to contact an institution, you can do so through the contacts detailed in each service detail page."
-               }
+               }               
             ]
          },
          {

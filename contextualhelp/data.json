@@ -1776,6 +1776,25 @@
             ]
          },
          {
+            "route_name":"SERVICE_DETAIL",
+            "title":"Service Detail",
+            "content":"Here you can find the service description, privacy policy and terms of use, and contact details of the institution or service. You can also choose how this specific service can contact you.\n \nYou’ll be contacted only by institutions that have a communication that concerns you directly. You will not receive spam messages or any information that is not relevant to you.\n \n If you do not want to receive communications from the service, disable the 'Contact you in app' option from the 'This service may' area. The institution will no longer write to you through IO, but it can still contact you through other channels, such as by email, phone, or email.",
+            "faqs":[
+               {
+                  "title":"What happens if I turn off a service?",
+                  "body":"You will no longer receive communications from that service in the IO app. The institution providing the service may still contact you or be contacted through other channels such as website, email or phone number."
+               },
+               {
+                  "title":"What are push notifications and how do they work?",
+                  "body":"Push notifications are instant messages that you can receive on your device. They inform you that a new message has arrived in the IO app and invite you to read it. If you prefer to turn them off, disable the 'Send you push notifications' option in the 'This service may' area."
+               },
+               {
+                  "title":"How does email forwarding of messages work?",
+                  "body":"If you activate email forwarding of messages, you will receive at the email address associated with your IO profile a preview of the message you receive on IO app.\n \n Email forwarding is not available for some services, as the institution may decide not to forward messages with sensitive content."
+               }                
+            ]
+         },
+         {
             "route_name":"INSTITUTION_SERVICES",
             "title":"Institution detail",
             "content":"Here you can find the list of services available for the chosen institution.\nPress on the name of a service to view details and manage its options.",

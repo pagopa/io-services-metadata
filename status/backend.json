@@ -32,7 +32,7 @@
     },
     "fims": {
       "enabled": true,
-      "domain": "https://io-p-citizen-auth-weu-prod01-app-fims.azurewebsites.net/"
+      "domain": "https://app-backend.io.italia.it/oauth2/"
     },
     "uaDonations": {
       "enabled": false,

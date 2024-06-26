@@ -32,7 +32,7 @@
     },
     "fims": {
       "enabled": true,
-      "domain": "https://app-backend.io.italia.it/oauth2/"
+      "domain": "https://oauth.io.pagopa.it/"
     },
     "uaDonations": {
       "enabled": false,

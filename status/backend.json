@@ -32,7 +32,7 @@
     },
     "fims": {
       "enabled": true,
-      "domain": "https://io-p-citizen-auth-weu-prod01-app-fims.azurewebsites.net/"
+      "domain": "https://app-backend.io.italia.it/oauth2/"
     },
     "uaDonations": {
       "enabled": false,
@@ -205,6 +205,18 @@
     },
     "wallets": {
       "is_visible": true,
+      "level": "normal",
+      "web_url": {
+        "it-IT": "https://io.italia.it/nuova-sezione-pagamenti",
+        "en-EN": "https://io.italia.it/nuova-sezione-pagamenti"
+      },
+      "message": {
+        "it-IT": "Stiamo riorganizzando i metodi di pagamento salvati in app.",
+        "en-EN": "We are rearranging the payment methods saved in the app."
+      }
+    },
+    "payments": {
+      "is_visible": false,
       "level": "normal",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti",

@@ -216,7 +216,7 @@
       }
     },
     "payments": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "normal",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti",

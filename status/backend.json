@@ -33,7 +33,7 @@
     "fims": {
       "enabled": true,
       "domain": "https://oauth.io.pagopa.it/",
-      "historyEnabled":true
+      "historyEnabled":false
     },
     "uaDonations": {
       "enabled": false,

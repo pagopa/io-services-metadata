@@ -32,7 +32,8 @@
     },
     "fims": {
       "enabled": true,
-      "domain": "https://oauth.io.pagopa.it/"
+      "domain": "https://oauth.io.pagopa.it/",
+      "historyEnabled": false
     },
     "uaDonations": {
       "enabled": false,

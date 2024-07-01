@@ -546,6 +546,9 @@ definitions:
       domain:
         type: string
         description: "This is the url that will be used to store the session cookie inside the app dedicated webview"
+      historyEnabled:
+        type: boolean
+        description: "If true or undefined, FIMS history listItem will be shown in the profile/privacy section"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

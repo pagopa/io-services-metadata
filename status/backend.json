@@ -69,10 +69,10 @@
       }
     },
     "newPaymentSection": {
-      "enabled": false,
+      "enabled": true,
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "2.63.0.5",
+        "android": "2.63.0.5"
       }
     },
     "lollipop": {

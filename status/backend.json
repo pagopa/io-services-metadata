@@ -115,8 +115,8 @@
       }
     },
     "tos": {
-      "tos_version": 4.8,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html"
+      "tos_version": 4.9,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.9"
     }
   },
   "sections": {

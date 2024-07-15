@@ -71,8 +71,8 @@
     "newPaymentSection": {
       "enabled": false,
       "min_app_version": {
-        "ios": "3.0.0.0",
-        "android": "3.0.0.0"
+        "ios": "2.64.0.1",
+        "android": "2.64.0.1"
       }
     },
     "lollipop": {

@@ -117,6 +117,13 @@
     "tos": {
       "tos_version": 4.9,
       "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.9"
+    },
+    "itw": {
+      "enabled": false,
+      "min_app_version": {
+        "ios": "2.65.0.0",
+        "android": "2.65.0.0"
+      }
     }
   },
   "sections": {

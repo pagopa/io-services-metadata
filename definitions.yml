@@ -423,6 +423,7 @@ definitions:
       - pn
       - payments
       - tos
+      - itw
     properties:
       payments:
         $ref: "#/definitions/PaymentsConfig"
@@ -472,6 +473,8 @@ definitions:
         $ref: "#/definitions/EmailUniquenessConfig"
       tos:
         $ref: "#/definitions/TosConfig"
+      itw:
+        $ref: "#/definitions/ItwConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -854,3 +857,16 @@ definitions:
       tos_url: 
         type: string
         pattern: ^https://
+  ItwConfig:
+    type: object
+    description: "A configuration for the IT-Wallet feature"
+    required:
+      - min_app_version
+      - enabled
+    properties:
+      enabled:
+        type: boolean
+        description: "If true, the app can activate the IT-Wallet and the user can see the IT-Wallet section"
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"

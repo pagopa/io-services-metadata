@@ -121,8 +121,8 @@
     "itw": {
       "enabled": false,
       "min_app_version": {
-        "ios": "2.65.0.0",
-        "android": "2.65.0.0"
+        "ios": "2.66.0.0",
+        "android": "2.66.0.0"
       }
     }
   },

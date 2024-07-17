@@ -213,14 +213,14 @@
     },
     "wallets": {
       "is_visible": true,
-      "level": "normal",
+      "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti",
         "en-EN": "https://io.italia.it/nuova-sezione-pagamenti"
       },
       "message": {
-        "it-IT": "Stiamo riorganizzando i metodi di pagamento salvati in app.",
-        "en-EN": "We are rearranging the payment methods saved in the app."
+        "it-IT": "Aggiorna IO all'ultima versione disponibile.",
+        "en-EN": "Update IO to the latest version available."
       }
     },
     "payments": {

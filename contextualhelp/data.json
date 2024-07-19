@@ -668,7 +668,7 @@
          },
          {
             "route_name":"PAYMENT_HOME",
-            "title":"Cosa puoi fare nella sezione Pagamenti”",
+            "title":"Cosa puoi fare nella sezione Pagamenti",
             "content":"Qui puoi pagare un avviso, vedere le ricevute di pagamento pagoPA e aggiungere un metodo di pagamento",
             "faqs":[
                {

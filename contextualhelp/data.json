@@ -1332,8 +1332,7 @@
             "recover_password": "https://spid.teamsystem.com/it/auth/passwordLost"
           }
         }
-      }
-  },
+      },
   "en": {
     "screens": [
       {

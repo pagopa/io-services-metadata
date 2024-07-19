@@ -725,12 +725,14 @@
           {
             "title": "Posso pagare anche a rate con PayPal?",
             "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, dal 25 luglio, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
-          },
-          {
-            "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_LIST_SCREEN",
-            "title": "Ricevute pagoPA",
-            "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
-            "faqs": [
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_LIST_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
                 "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."

@@ -743,15 +743,15 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_TRANSACTION_LIST",
-            "title": "Ricevute pagoPA",
-            "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_TRANSACTION_LIST",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
                 "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
@@ -762,15 +762,15 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
-            "title": "Ricevute pagoPA",
-            "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
                 "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
@@ -781,26 +781,26 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_BARCODE_SCAN",
-            "title": "Come pagare un avviso pagoPA",
-            "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_BARCODE_SCAN",
+        "title": "Come pagare un avviso pagoPA",
+        "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+        "faqs": [
               {
                 "title": "Quali metodi di pagamento posso usare su IO?",
                 "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
-            "title": "Inserisci i dati dell’avviso",
-            "content": "Qui puoi inserire i dettagli dell’avviso di pagamento.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
+        "title": "Inserisci i dati dell’avviso",
+        "content": "Qui puoi inserire i dettagli dell’avviso di pagamento.",
+        "faqs": [
               {
                 "title": "Cos’è il codice di avviso?",
                 "body": "È un codice di 18 cifre, inizia generalmente con i numeri 0, 1 o 3. Lo trovi nell'avviso di pagamento accanto al codice QR."
@@ -815,26 +815,26 @@
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_CHECKOUT_DETAIL",
-            "title": "Riepilogo avviso",
-            "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_CHECKOUT_DETAIL",
+        "title": "Riepilogo avviso",
+        "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+        "faqs": [
               {
                 "title": "L’importo è diverso da quello dell’avviso. Come mai?",
                 "body": "pagoPA aggiorna l'importo da pagare in tempo reale. Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento.\nTi mostriamo quindi sempre l’importo esatto, per permetterti di pagare evitando more o interessi aggiuntivi."
               },
               {
                 "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
-                "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.   Puoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+                "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore. Puoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
               }
             ]
           },
-          {
-            "route_name": "PAYMENT_CHECKOUT_MAKE",
-            "title": "Seleziona un metodo",
-            "content": "Qui puoi scegliere il metodo di pagamento che vuoi usare per pagare l’avviso e il Prestatore di Servizi di Pagamento (PSP) che gestirà la transazione. Trovi poi il riepilogo delle scelte e il totale del pagamento. Puoi modificare una delle tue scelte o pagare l’avviso.",
-            "faqs": [
+      {
+        "route_name": "PAYMENT_CHECKOUT_MAKE",
+        "title": "Seleziona un metodo",
+        "content": "Qui puoi scegliere il metodo di pagamento che vuoi usare per pagare l’avviso e il Prestatore di Servizi di Pagamento (PSP) che gestirà la transazione. Trovi poi il riepilogo delle scelte e il totale del pagamento. Puoi modificare una delle tue scelte o pagare l’avviso.",
+        "faqs": [
               {
                 "title": "Vorrei usare PayPal, cosa scelgo?",
                 "body": "Se vuoi pagare a rate, dal 25 luglio puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
@@ -853,137 +853,11 @@
               }
             ]
           },
-          {
-            "route_name": "UADONATION_ROUTES_WEBVIEW",
-            "title": "Donazioni Ucraina",
-            "content": "In questa pagina, puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina.",
-            "faqs": [
-              {
-                "title": "Come posso donare?",
-                "body": "Per donare, scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi 'Continua'. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi 'Paga' per completare la donazione."
-              },
-              {
-                "title": "Con che metodi di pagamento posso fare la donazione?",
-                "body": "Puoi donare con carta di credito, debito o prepagata e con conto PayPal."
-              },
-              {
-                "title": "C'è un importo minimo?",
-                "body": "Sì, puoi donare da un minimo di 5 € a un massimo di 200 €. Se vuoi donare importi superiori, ripeti la donazione."
-              },
-              {
-                "title": "La donazione prevede dei costi di commissione?",
-                "body": "Se doni con carta di credito, debito o prepagata non hai costi di commissione."
-              },
-              {
-                "title": "Dopo la donazione, non ho ricevuto nessuna email con la ricevuta. Cosa posso fare?",
-                "body": "Se doni tramite un dispositivo Android, ti invieremo un'email con la ricevuta. Se non la ricevi, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto. Ti consigliamo di conservare la ricevuta della donazione, insieme alla documentazione originale del versamento (come l'estratto conto della banca o della carta di credito) per fini fiscali."
-              },
-              {
-                "title": "Rappresento un'organizzazione umanitaria: posso partecipare all'iniziativa?",
-                "body": "Per avere informazioni su come partecipare all'iniziativa, scrivi un'email a affari.istituzionali@pagopa.it."
-              }
-            ]
-          },
-          {
-            "route_name": "WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
-            "title": "Scegli il gestore della transazione",
-            "content": "Il gestore della transazione, ovvero il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore, può applicare ad ogni pagamento una commissione variabile. In questa pagina, puoi scegliere quale gestore della transazione utilizzare. Potrai modificare questa scelta ad ogni pagamento, scegliendo in base alla commissione proposta.",
-            "faqs": [
-              {
-                "title": "Cos’è il gestore della transazione?",
-                "body": "Il gestore della transazione, conosciuto anche come PSP (Prestatore di Servizi di Pagamento), è il soggetto che riscuote l’importo dovuto per conto di un Ente Creditore. Per svolgere questo servizio, il gestore può applicare ogni volta una commissione. Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/).\n\npagoPA ti permette di effettuare pagamenti elettronici tramite uno dei gestori della transazione aderenti. È questo il tramite che ti permette di pagare un avviso, una retta, un bollo o un tributo direttamente in app."
-              },
-              {
-                "title": "Perché devo scegliere il gestore della transazione?",
-                "body": "Quando effettui un pagamento, IO ti mostra tutti i gestori della transazione che puoi utilizzare, così che tu possa scegliere quello che ti conviene di più a seconda della commissione proposta. Ad incassare questa commissione non è pagoPA, ma il gestore stesso.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
-              },
-              {
-                "title": "Quale gestore devo scegliere?",
-                "body": "Puoi selezionare il gestore che preferisci, che tu sia cliente o no e anche se non lo hai mai utilizzato prima. La scelta del gestore non è definitiva: puoi modificarla ad ogni pagamento."
-              },
-              {
-                "title": "A cosa è dovuto il costo della transazione?",
-                "body": "Per sostenere i costi di gestione e garantire la sicurezza del trasferimento di denaro, ogni gestore della transazione può applicare una commissione variabile. La commissione varia a seconda delle politiche commerciali e delle condizioni contrattuali sottoscritte col gestore che hai scelto. IO ti mostrerà sempre il costo della transazione indicato dal gestore della transazione, per permetterti di scegliere quello più conveniente.Puoi trovare i costi applicati dai singoli gestori [in questa pagina](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
-              },
-              {
-                "title": "Non riesco ad aggiungere PayPal come metodo di pagamento.",
-                "body": "Se hai dei problemi ad aggiungere il tuo conto PayPal, ti suggeriamo di:\n\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n\n1. Accertarti di aver inserito correttamente username e password del tuo conto PayPal.\n\n1. Assicurarti di avere completato l’autenticazione a due fattori.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta l’[assistenza di PayPal](https://www.paypal.com/it/smarthelp/contact-us)."
-              }
-            ]
-          },
-          {
-            "route_name": "WALLET_ONBOARDING_PAYPAL_START",
-            "title": "Paga con PayPal",
-            "content": "In questa pagina potrai aggiungere PayPal come metodo di pagamento nell’app IO.\n\nPayPal ti permette di pagare senza inserire ogni volta i tuoi dati finanziari. Ti permette anche di collegare il tuo conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.",
-            "faqs": [
-              {
-                "title": "Cos’è PayPal?",
-                "body": "PayPal è il servizio che ti consente di pagare, inviare denaro e accettare pagamenti in modo più rapido, semplice e sicuro, senza dover immettere ogni volta i tuoi dati finanziari. Per approfondire o aprire un conto gratuitamente, vai sul sito [paypal.com](https://www.paypal.com/it)."
-              },
-              {
-                "title": "Come funziona?",
-                "body": "Per utilizzare PayPal su IO, registrati con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it) e collega la tua carta di credito, di debito, prepagata o il conto corrente.\n\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO. Per farlo, ti verranno richiesti l’indirizzo email e la password del tuo conto PayPal. Dovrai inoltre completare l’autenticazione a due fattori utilizzando una modalità a scelta tra app PayPal, SMS o chiamata."
-              },
-              {
-                "title": "Che vantaggi ho ad utilizzare PayPal per pagare tramite IO?",
-                "body": "PayPal ti permetterà di autorizzare le operazioni di pagamento in modo semplice e veloce, senza che tu debba inserire i tuoi dati finanziari.\n\nPuoi collegare al tuo conto PayPal non solo la carta di credito, di debito o prepagata, ma anche il conto bancario, che risulta utile qualora dovessi pagare importi elevati che superano il massimale della tua carta.\n\n[Scopri qui](https://www.paypal.com/it/smarthelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-faq686) come collegare il tuo conto bancario a PayPal."
-              },
-              {
-                "title": "Non ho un conto PayPal. Come posso crearne uno?",
-                "body": "Per creare un conto PayPal, devi registrarti con il tuo nome e indirizzo email sul sito [paypal.com](https://www.paypal.com/it). Per farlo, devi essere maggiorenne e collegare almeno un metodo di pagamento."
-              }
-            ]
-          },
-          {
-            "route_name": "WALLET_ONBOARDING_BPAY_START",
-            "title": "Paga con BANCOMAT Pay",
-            "content": "In questa pagina puoi aggiungere BANCOMAT Pay come metodo di pagamento nell’app IO. BANCOMAT Pay ti permette di effettuare pagamenti in modo semplice, rapido e sicuro.",
-            "faqs": [
-              {
-                "title": "Cos’è BANCOMAT Pay?",
-                "body": "BANCOMAT Pay è un servizio di pagamento digitale che ti consente di pagare, inviare denaro e accettare pagamenti in modo semplice e veloce. Una volta attivato il servizio, infatti, ti basterà utilizzare il tuo numero di cellulare per effettuare le operazioni. Per approfondire, vai sul sito di [BANCOMAT Pay](https://bancomat.it/it/bancomat/bancomat-pay®)."
-              },
-              {
-                "title": "Come funziona?",
-                "body": "BANCOMAT Pay associa il tuo numero di cellulare a un’IBAN, che può essere di un conto corrente o di una carta prepagata.\nPer utilizzare BANCOMAT Pay su IO, verifica se la tua banca è [tra quelle aderenti](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) e attiva il servizio tramite l’app BANCOMAT Pay o l’app della tua banca.\nPoi, aggiungilo come metodo di pagamento nella sezione Portafoglio di IO, selezionando l’account che vuoi aggiungere."
-              },
-              {
-                "title": "Non ho un account BANCOMAT Pay, come posso fare?",
-                "body": "[Scopri qui](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE) se la tua banca offre il servizio. Se presente, puoi richiedere l’abilitazione tramite l’home banking o l’app della tua banca.\nPer altre informazioni consulta le [domande più frequenti](https://bancomat.it/it/faq-questions-top)."
-              },
-              {
-                "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
-                "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."
-              }
-            ]
-          },
-          {
-            "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
-            "title": "Aggiungi BANCOMAT Pay",
-            "content": "In questa pagina puoi visualizzare i tuoi account BANCOMAT Pay e aggiungerli al Portafoglio.",
-            "faqs": [
-              {
-                "title": "Non riesco ad aggiungere BANCOMAT Pay come metodo di pagamento.",
-                "body": "Se hai dei problemi ad aggiungere il tuo account BANCOMAT Pay su IO, ti suggeriamo di:\n1. Controllare che il tuo dispositivo sia connesso a una rete.\n2. Accertarti che il servizio sia attivo. Puoi farlo tramite home banking o l’app della tua banca, oppure attraverso l’app BANCOMAT Pay.\n\nSe hai effettuato tutti i passaggi correttamente e non hai ancora risolto il problema contatta la tua banca."
-              }
-            ]
-          },
-          {
-            "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
-            "title": "Scelta del metodo di pagamento",
-            "content": "Qui puoi scegliere il metodo con cui procedere al pagamento.",
-            "faqs": [
-              {
-                "title": "Ho BANCOMAT Pay ma non riesco a pagare",
-                "body": "Per risolvere il problema, prova ad aggiornare l’app all’ultima versione disponibile.\nUna volta fatto, elimina il metodo di pagamento dal tuo Portafoglio, aggiungilo nuovamente e riprova ad effettuare il pagamento."
-              }
-            ]
-          },
-          {
-            "route_name": "MESSAGE_DETAIL",
-            "title": "Dettagli del messaggio",
-            "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
-            "faqs": [
+      {
+        "route_name": "MESSAGE_DETAIL",
+        "title": "Dettagli del messaggio",
+        "content": "Qui puoi visualizzare il dettaglio della comunicazione ricevuta da un ente integrato all'app IO. Se hai dubbi o delle domande sul contenuto specifico del messaggio, puoi contattare l'ente utilizzando i recapiti che trovi in fondo a questo messaggio o nella sezione 'Servizi'.",
+        "faqs": [
               {
                 "title": "Questo messaggio non ti interessa?",
                 "body": "Su IO è possibile disattivare la comunicazione dai servizi che non ti interessano in qualsiasi momento: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi)."

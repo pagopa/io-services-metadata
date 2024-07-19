@@ -595,7 +595,7 @@
             "content":"Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
             "faqs":[
                {
-                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio??",
+                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio?",
                   "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
                },
                {
@@ -666,6 +666,191 @@
                }
             ]
          },
+         {
+            "route_name":"PAYMENT_HOME",
+            "title":"Cosa puoi fare nella sezione Pagamenti”",
+            "content":"Qui puoi pagare un avviso, vedere le ricevute di pagamento pagoPA e aggiungere un metodo di pagamento",
+            "faqs":[
+               {
+                  "title":"Quali metodi di pagamento posso usare su IO?",
+                  "body":"Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+               },
+               {
+                  "title":"Posso pagare un avviso che non ho ricevuto tramite IO?",
+                  "body":"Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il Codice Avviso. Per farlo, vai nella sezione Pagamenti. Scansiona il codice QR o inserisci il Codice Avviso e il codice fiscale dell’ente creditore. Segui le indicazioni e completa il pagamento."
+               },
+               {
+                  "title":"Cosa vedo nella ricevuta?",
+                  "body":"La ricevuta include:\n-le informazioni sulla transazione;\n-i dettagli sull’avviso pagato;\n-le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
+               },
+               {
+                  "title":"Dove trovo i pagamenti effettuati?",
+                  "body":"Nella sezione Pagamenti trovi una lista di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+               },
+               {
+                  "title":"Non vedo più il mio account PayPal",
+                  "body":"Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n** PayPal (anche in 3 rate)**, disponibile dal 25 luglio\\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+               }
+               {
+                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio?",
+                  "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+               },
+               {
+                  "title":"Che cos’è pagoPA?",
+                  "body":"pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA](https://www.pagopa.gov.it/)."
+               },
+               {
+                  "title":"Come posso saperne di più sui pagamenti digitali?",
+                  "body":"pPer approfondire i temi di tuo interesse legati al mondo dei pagamenti digitali, puoi consultare i materiali messi a disposizione dalla [Banca d’Italia](https://www.bancaditalia.it/) nell’ambito dei programmi di educazione finanziaria, tra cui la [sezione dedicata](https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come la [carta di credito](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), la [carta di debito](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), la [carta prepagata](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) e la [carta co-badge](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+               },
+            ]
+         },
+         {
+            "route_name":"PAYMENT_ONBOARDING_SELECT_METHOD",
+            "title":"Qui puoi aggiungere un nuovo metodo di pagamento che verrà salvato nella sezione Portafoglio. Per rimuovere un metodo già inserito, vai alla sezione Portafoglio e seleziona il metodo desiderato.",
+            "content":"Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
+            "faqs":[
+               {
+                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio?",
+                  "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+               },
+               {
+                  "title":"Posso rimuovere un metodo di pagamento?",
+                  "body":"Sì. I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo nella sezione Portafoglio. Seleziona la card del metodo che vuoi eliminare, poi premi su 'Elimina questo metodo'."
+               },
+               {
+                  "title":"Perché il salvataggio della carta non va a buon fine?",
+                  "body":"Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo ‘in pausa’ la tua carta."
+               },
+               {
+                  "title":"Posso pagare anche a rate con PayPal?",
+                  "body":"Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, dal 25 luglio, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+               }
+         {
+            "route_name":"PAYMENT_TRANSACTION_BIZ_EVENTS_LiST_SCREEN",
+            "title":"Ricevute pagoPA",
+            "content":"Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+            "faqs":[
+               {
+                  "title":"Quali ricevute posso vedere?",
+                  "body":"Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+               },
+               {
+                  "title":"Come faccio a vedere tutte le ricevute disponibili?",
+                  "body":"Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+               },
+               {
+                  "title":"Come faccio a salvare una ricevuta?",
+                  "body":"Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_TRANSACTION_LIST",
+            "title":"Ricevute pagoPA",
+            "content":"Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+            "faqs":[
+               {
+                  "title":"Quali ricevute posso vedere?",
+                  "body":"Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+               },
+               {
+                  "title":"Come faccio a vedere tutte le ricevute disponibili?",
+                  "body":"Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+               },
+               {
+                  "title":"Come faccio a salvare una ricevuta?",
+                  "body":"Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
+            "title":"Ricevute pagoPA",
+            "content":"Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+            "faqs":[
+               {
+                  "title":"Quali ricevute posso vedere?",
+                  "body":"Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+               },
+               {
+                  "title":"Come faccio a vedere tutte le ricevute disponibili?",
+                  "body":"Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+               },
+               {
+                  "title":"Come faccio a salvare una ricevuta?",
+                  "body":"Come faccio a salvare una ricevuta? Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_BARCODE_SCAN",
+            "title":"Come pagare un avviso pagoPA",
+            "content":"Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+            "faqs":[
+               {
+                  "title":"Quali metodi di pagamento posso usare su IO?",
+                  "body":"Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
+            "title":"Inserisci i dati dell’avviso",
+            "content":"Qui puoi inserire i dettagli dell’avviso di pagamento.",
+            "faqs":[
+               {
+                  "title":"Cos’è il codice di avviso?",
+                  "body":"È un codice di 18 cifre, inizia generalmente con i numeri 0, 1 o 3. Lo trovi nell'avviso di pagamento accanto al codice QR."
+               },
+               {
+                  "title":"E se il codice avviso non ha 18 cifre?",
+                  "body":"In questo caso puoi pagare l’avviso di pagamento dal sito dell'ente creditore. Se non sai come procedere, contatta l'ente creditore per assistenza."
+               },
+               {
+                  "title":"Dove trovo il codice fiscale dell’ente creditore?",
+                  "body":"Lo trovi accanto al codice QR. È un codice numerico di 11 cifre."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_CHECKOUT_DETAIL",
+            "title":"Riepilogo avviso",
+            "content":"Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+            "faqs":[
+               {
+                  "title":"L’importo è diverso da quello dell’avviso. Come mai?",
+                  "body":"pagoPA aggiorna l'importo da pagare in tempo reale. Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento.\nTi mostriamo quindi sempre l’importo esatto, per permetterti di pagare evitando more o interessi aggiuntivi."
+               },
+               {
+                  "title":"Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
+                  "body":"Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.   Puoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+               }
+            ]
+         },
+         {
+            "route_name":"PAYMENT_CHECKOUT_MAKE",
+            "title":"Seleziona un metodo",
+            "content":"Qui puoi scegliere il metodo di pagamento che vuoi usare per pagare l’avviso e il Prestatore di Servizi di Pagamento (PSP) che gestirà la transazione. Trovi poi il riepilogo delle scelte e il totale del pagamento. Puoi modificare una delle tue scelte o pagare l’avviso.",
+            "faqs":[
+               {
+                  "title":"Vorrei usare PayPal, cosa scelgo?",
+                  "body":"Se vuoi pagare a rate, dal 25 luglio puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
+               },
+               {
+                  "title":"Perché devo pagare una commissione?",
+                  "body":"Quando usi un servizio di pagamento, il Prestatore di Servizi di Pagamento (PSP) applica una commissione. Queste commissioni coprono i costi necessari al PSP per garantire un servizio di qualità. Tra questi ci sono la continuità del servizio, la rapidità delle transazioni, l'uso dei circuiti internazionali per le carte di credito, la sicurezza e i sistemi anti-frode, oltre alla manutenzione dell'infrastruttura. Questi costi permettono quindi al PSP di offrirti un servizio affidabile e sicuro.\n\nPer maggiori dettagli consulta la pagina [FAQ](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) sul sito di pagoPA."
+               },
+               {
+                  "title":"Perché le commissioni cambiano da un gestore all'altro?",
+                  "body":"Ogni istituto che gestisce i pagamenti con pagoPA (Prestatori di Servizi di Pagamento) può applicare autonomamente differenti costi, a seconda delle proprie politiche commerciali e delle condizioni contrattuali dell’utente."
+               },
+               {
+                  "title":"L’importo è diverso da quello dell’avviso. Come mai?",
+                  "body":"Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale. Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento.\nTi mostriamo quindi sempre l’importo esatto, per permetterti di pagare evitando more o interessi aggiuntivi."
+               },  
+            ]
+         },          
          {
             "route_name":"UADONATION_ROUTES_WEBVIEW",
             "title":"Donazioni Ucraina",
@@ -1392,7 +1577,7 @@
             "content":"Here you can find information on how to access IO and some security tips.",
             "faqs":[
                {
-                  "title":"What is the difference between quick access and authentication every 30 days??",
+                  "title":"What is the difference between quick access and authentication every 30 days?",
                   "body":"In the first case, you only have to authenticate with SPID or CIE once a year or if you log out of the app. All other times, you can only use the app's unlock code or face or fingerprint recognition to log in. If you choose to log in every 30 days instead, you will have to authenticate with SPID or CIE every 30 days."
                },
                {

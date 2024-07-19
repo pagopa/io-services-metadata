@@ -645,7 +645,7 @@
          },
                   {
             "route_name":"PAYMENT_METHOD_DETAILS_SCREEN",
-            "title":"Dettaglio metodo”",
+            "title":"Dettaglio metodo",
             "content":"Qui puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dall’app.",
             "faqs":[
                {

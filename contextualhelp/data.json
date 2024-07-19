@@ -592,51 +592,77 @@
          {
             "route_name":"WALLET_HOME",
             "title":"Cosa puoi fare nel tuo Portafoglio",
-            "content":"Nel Portafoglio trovi i metodi di pagamento che hai aggiunto, i bonus e le iniziative a cui hai aderito e lo storico delle transazioni effettuate con pagoPA, la piattaforma dei pagamenti verso la Pubblica Amministrazione. In questa sezione, puoi anche pagare tutti gli avvisi di pagamento cartacei con il logo pagoPA.",
+            "content":"Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
             "faqs":[
                {
-                  "title":"Come posso pagare su IO?",
-                  "body":"Puoi pagare con carte di debito, credito e prepagate, con PayPal o BANCOMAT Pay. Trovi l'elenco aggiornato dei metodi disponibili alla pagina [metodi di pagamento](https://io.italia.it/metodi-pagamento)."
+                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio??",
+                  "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
                },
                {
                   "title":"Come posso aggiungere un metodo di pagamento?",
-                  "body":"Vai al Portafoglio, premi 'Aggiungi' e 'Metodo di Pagamento'. Poi, seleziona il metodo che vuoi aggiungere e inserisci i dati richiesti."
-               },
-               {
-                  "title":"Quali bonus, sconti o altre iniziative posso richiedere?",
-                  "body":"Vai al Portafoglio, premi 'Aggiungi' e 'Sconti, bonus e altre iniziative'. Comparirà una lista con tutti i bonus e le iniziative che puoi richiedere tramite l’app IO."
-               },
-               {
-                  "title":"Non riesco ad aggiungere un metodo di pagamento. Cosa posso fare?",
-                  "body":"Accedi alla pagina [stato aggiunta metodi di pagamento](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), seleziona il tentativo di aggiunta fallito e contatta l’assistenza."
+                  "body":"Premi su 'Aggiungi al Portafoglio', seleziona ‘Metodi di pagamento’ e inserisci i dati richiesti."
                },
                {
                   "title":"Come posso eliminare un metodo di pagamento?",
-                  "body":"I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo del Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
+                  "body":"I tuoi metodi di pagamento sono visualizzati come card nella sezione Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
                },
                {
-                  "title":"Ho un problema con un pagamento. Cosa posso fare?",
-                  "body":"Accedi alla pagina [stato dei tuoi pagamenti](ioit://PAYMENTS_HISTORY_SCREEN), seleziona il tentativo di pagamento fallito e contatta l’assistenza."
+                  "title":"Non vedo più il mio account PayPal.",
+                  "body":"Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n**PayPal (anche in 3 rate)**, disponibile dal 25 luglio\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
                },
                {
-                  "title":"Dove trovo i pagamenti che ho effettuato?",
-                  "body":"Nel Portafoglio trovi una lista che contiene i pagamenti effettuati con successo tramite l’app IO. La lista include anche i pagamenti effettuati tramite il sito o l’app degli enti aderenti, se ti sei autenticato con SPID."
+                  "title":"Non vedo più il mio account BANCOMAT Pay.",
+                  "body":"Pagare con BANCOMAT Pay è ora più semplice. Non serve più salvarlo nel Portafoglio.\nIn fase di pagamento, scegli BANCOMAT Pay dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.\n\nPer saperne di più, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0) o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay)"
                },
                {
-                  "title":"Posso pagare un avviso che non ho ricevuto tramite IO?",
-                  "body":"Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il Codice Avviso. Per farlo, vai nel Portafoglio, scansiona il QR o inserisci il Codice Avviso e completa il pagamento."
+                  "title":"Come faccio ad attivare Carta Giovani Nazionale?",
+                  "body":"Premi su'Aggiungi al Portafoglio', scegli “Carta Giovani Nazionale e segui le indicazioni."
+               }
+            ]
+         },
+         {
+            "route_name":"NEW_WALLET_CARD_ONBOARDING",
+            "title":"Cosa puoi aggiungere",
+            "content":"Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
+            "faqs":[
+               {
+                  "title":"Quali metodi di pagamento posso aggiungere al Portafoglio?",
+                  "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
                },
                {
-                  "title":"Che cos’è un codice QR?",
-                  "body":"Il codice QR è un’immagine quadrata composta da elementi bianchi e neri. Se inquadrato dalla fotocamera di un telefono permette di accedere a contenuti digitali, come ad esempio un sito web, un pagamento o un articolo.\n\nIl codice QR che trovi sugli avvisi di pagamento è associato a un Codice Avviso. Se vai al tuo Portafoglio, premi su 'Paga un avviso' e inquadri il codice con la fotocamera, puoi pagare l’avviso senza dover inserire manualmente informazioni come causale, cifra o codice fiscale."
+                  "title":"Come posso rimuovere un metodo di pagamento?",
+                  "body":"I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
                },
                {
-                  "title":"Che cos’è pagoPA?",
-                  "body":"pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA](https://www.pagopa.gov.it/)."
+                  "title":"Perché il salvataggio della carta non va a buon fine?",
+                  "body":"Perché il salvataggio della carta non va a buon fine?\nPuò dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo ‘in pausa’ la tua carta."
                },
                {
-                  "title":"Come posso saperne di più sui pagamenti digitali?",
-                  "body":"Per approfondire i temi di tuo interesse legati al mondo dei pagamenti digitali, puoi consultare i materiali messi a disposizione dalla [Banca d’Italia](https://www.bancaditalia.it/) nell’ambito dei programmi di educazione finanziaria, tra cui la [sezione dedicata](https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come la [carta di credito](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), la [carta di debito](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), la [carta prepagata](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) e la [carta co-badge](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+                  "title":"Non vedo il bonus o l’iniziativa che che vorrei attivare, come mai?",
+                  "body":"Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+               }
+            ]
+         },
+                  {
+            "route_name":"PAYMENT_METHOD_DETAILS_SCREEN",
+            "title":"Dettaglio metodo”",
+            "content":"Qui puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dall’app.",
+            "faqs":[
+               {
+                  "title":"Cosa succede se disattivo 'Pagamenti in app'?",
+                  "body":"Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+               },
+               {
+                  "title":"Come posso rimuovere un metodo di pagamento?",
+                  "body":"I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
+               },
+               {
+                  "title":"Perché il salvataggio della carta non va a buon fine?",
+                  "body":"Perché il salvataggio della carta non va a buon fine?\nPuò dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo ‘in pausa’ la tua carta."
+               },
+               {
+                  "title":"Non vedo il bonus o l’iniziativa che che vorrei attivare, come mai?",
+                  "body":"Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
                }
             ]
          },

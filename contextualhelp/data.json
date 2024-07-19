@@ -920,11 +920,11 @@
               }
             ]
           },
-          {
-            "route_name": "SERVICES_HOME",
-            "title": "Cosa puoi fare nei Servizi",
-            "content": "Qui trovi i servizi e gli enti in evidenza e la lista dei servizi nazionali disponibili su IO.\nPuoi inoltre cercare un ente, nazionale o locale. Per farlo, premi sulla barra di ricerca e inserisci il nome dell’ente.",
-            "faqs": [
+      {
+        "route_name": "SERVICES_HOME",
+        "title": "Cosa puoi fare nei Servizi",
+        "content": "Qui trovi i servizi e gli enti in evidenza e la lista dei servizi nazionali disponibili su IO.\nPuoi inoltre cercare un ente, nazionale o locale. Per farlo, premi sulla barra di ricerca e inserisci il nome dell’ente.",
+        "faqs": [
               {
                 "title": "Posso contattare gli enti tramite IO?",
                 "body": "No, non puoi contattare direttamente gli enti dall'app. Puoi farlo tramite i contatti che trovi nella scheda di ciascun servizio all'interno della sezione Servizi."
@@ -943,11 +943,11 @@
               }
             ]
           },
-          {
-            "route_name": "INSTITUTION_SERVICES",
-            "title": "Dettaglio dell’ente",
-            "content": "Qui puoi trovare l’elenco dei servizi disponibili per l’ente scelto.\nPremi sul nome di un servizio per visualizzare i dettagli e gestirne le opzioni",
-            "faqs": [
+      {
+        "route_name": "INSTITUTION_SERVICES",
+        "title": "Dettaglio dell’ente",
+        "content": "Qui puoi trovare l’elenco dei servizi disponibili per l’ente scelto.\nPremi sul nome di un servizio per visualizzare i dettagli e gestirne le opzioni",
+        "faqs": [
               {
                 "title": "Come posso configurare i servizi?",
                 "body": "Per ogni servizio, puoi decidere se vuoi ricevere messaggi in app e notifiche push. Per farlo, premi sul nome del servizio e scegli tra le opzioni presenti nell’area 'Questo servizio può'."
@@ -958,11 +958,11 @@
               }
             ]
           },
-          {
-            "route_name": "SERVICE_DETAIL",
-            "title": "Dettagli del Servizio",
-            "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n \n Se non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
-            "faqs": [
+      {
+        "route_name": "SERVICE_DETAIL",
+        "title": "Dettagli del Servizio",
+        "content": "Qui trovi la descrizione del servizio, l'informativa privacy e le condizioni d'uso e i dati di contatto dell'ente o del servizio. Puoi anche scegliere in quale modalità vuoi ricevere comunicazioni da questo specifico servizio.\n \n Ti scriveranno solo servizi che hanno informazioni che ti riguardano. Non riceverai messaggi di spam o contenuti non di tuo interesse.\n\nSe non vuoi ricevere comunicazioni dal servizio, puoi farlo dall'area 'Questo servizio può', disabilitando l'opzione 'Contattarti in app'. L'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite altri canali, come per email, telefono o posta.",
+        "faqs": [
               {
                 "title": "Cosa succede se disattivo un servizio?",
                 "body": "Non riceverai più comunicazioni da quel servizio nell'app IO. L'ente che eroga il servizio potrà comunque contattarti o essere contattato attraverso altri canali come sito, email o numero di telefono."
@@ -977,11 +977,11 @@
               }
             ]
           },
-          {
-            "route_name": "EUCOVIDCERT_CERTIFICATE",
-            "title": "La tua Certificazione Verde COVID-19",
-            "content": "Questo è il messaggio contenente il codice QR e tutte le informazioni relative alla tua Certificazione Verde COVID-19, il documento che attesta un vaccino, l'esito di un tampone o l'avvenuta guarigione da COVID-19 e che permette di circolare in sicurezza in Italia e in Europa",
-            "faqs": [
+      {
+        "route_name": "EUCOVIDCERT_CERTIFICATE",
+        "title": "La tua Certificazione Verde COVID-19",
+        "content": "Questo è il messaggio contenente il codice QR e tutte le informazioni relative alla tua Certificazione Verde COVID-19, il documento che attesta un vaccino, l'esito di un tampone o l'avvenuta guarigione da COVID-19 e che permette di circolare in sicurezza in Italia e in Europa",
+        "faqs": [
               {
                 "title": "Posso ricevere su IO più di un certificato verde?",
                 "body": "Sì, ad esempio perchè hai effettuato diversi tamponi, o perchè hai un certificato di guarigione e hai comunque fatto il vaccino."
@@ -1032,11 +1032,11 @@
               }
             ]
           },
-          {
-            "route_name": "EUCOVIDCERT_MARKDOWN_DETAILS",
-            "title": "I dettagli della tua Certificazione Verde COVID-19",
-            "content": "Qui trovi tutte le informazioni relative alla tua Certificazione Verde COVID-19.",
-            "faqs": [
+      {
+        "route_name": "EUCOVIDCERT_MARKDOWN_DETAILS",
+        "title": "I dettagli della tua Certificazione Verde COVID-19",
+        "content": "Qui trovi tutte le informazioni relative alla tua Certificazione Verde COVID-19.",
+        "faqs": [
               {
                 "title": "Posso ricevere su IO più di un certificato verde?",
                 "body": "Sì, ad esempio perchè hai effettuato diversi tamponi, o perchè hai un certificato di guarigione e hai comunque fatto il vaccino."
@@ -1071,11 +1071,11 @@
               }
             ]
           },
-          {
-            "route_name": "CGN_INFORMATION_TOS",
-            "title": "Attiva la Carta Giovani Nazionale",
-            "content": "Qui puoi visualizzare tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi.",
-            "faqs": [
+      {
+        "route_name": "CGN_INFORMATION_TOS",
+        "title": "Attiva la Carta Giovani Nazionale",
+        "content": "Qui puoi visualizzare tutte le informazioni relative alla Carta Giovani Nazionale, il provvedimento istituito dal Dipartimento per le Politiche Giovanili e il Servizio Civile Universale che dà diritto a sconti e agevolazioni ai giovani residenti in Italia sull'acquisto di determinati beni e servizi.",
+        "faqs": [
               {
                 "title": "Come faccio a richiedere la Carta Giovani Nazionale?",
                 "body": "Se sei maggiorenne e risiedi in Italia, premi sul pulsante 'Richiedi la Carta' in fondo alla pagina e segui le indicazioni in app. L'app IO effettuerà un controllo sulla tua età e, se risulterà idonea, attiverà la Carta Giovani Nazionale."
@@ -1106,11 +1106,11 @@
               }
             ]
           },
-          {
-            "route_name": "CGN_DETAILS",
-            "title": "La tua Carta Giovani Nazionale",
-            "content": "Questa è la schermata di dettaglio della tua Carta Giovani Nazionale. Da qui puoi visualizzare la lista degli esercenti e delle istituzioni che aderiscono all'iniziativa e le relative agevolazioni, o copiare il tuo numero di carta EYCA se hai tra i 18 e i 30 anni.",
-            "faqs": [
+      {
+        "route_name": "CGN_DETAILS",
+        "title": "La tua Carta Giovani Nazionale",
+        "content": "Questa è la schermata di dettaglio della tua Carta Giovani Nazionale. Da qui puoi visualizzare la lista degli esercenti e delle istituzioni che aderiscono all'iniziativa e le relative agevolazioni, o copiare il tuo numero di carta EYCA se hai tra i 18 e i 30 anni.",
+        "faqs": [
               {
                 "title": "Come posso ottenere sconti con la Carta Giovani Nazionale?",
                 "body": "Per acquisti presso strutture fisiche, apri l'app IO e mostra la Carta Giovani Nazionale prima del pagamento. Per gli acquisti online, copia il codice sconto che trovi nella scheda dell'agevolazione di tuo interesse e incollalo nel campo sconto presente nel portale dell'esercente. Se il codice inserito è corretto, lo sconto verrà automaticamente applicato al tuo carrello."
@@ -1141,7 +1141,7 @@
               },
               {
                 "title": "Quanti acquisti, online o fisici, posso effettuare usufruendo delle agevolazioni della Carta Giovani Nazionale?",
-                "body": "L’iniziativa non prevede un limite al numero degli sconti utilizzabili. In ogni caso, ogni operatore convenzionato può disporre autonomamente delle modalità di utilizzo dei codici sconto che mette a disposizione rendendo esplicite eventuali condizioni nella scheda relativa alle proprie agevolazioni, sempre visibile nell’App IO. "
+                "body": "L’iniziativa non prevede un limite al numero degli sconti utilizzabili. In ogni caso, ogni operatore convenzionato può disporre autonomamente delle modalità di utilizzo dei codici sconto che mette a disposizione rendendo esplicite eventuali condizioni nella scheda relativa alle proprie agevolazioni, sempre visibile nell’app IO. "
               },
               {
                 "title": "Posso ottenere una versione fisica della carta?",
@@ -1157,11 +1157,11 @@
               }
             ]
           },
-          {
-            "route_name": "CGN_MERCHANTS_LIST",
-            "title": "Lista operatori",
-            "content": "Qui puoi visualizzare la lista sempre aggiornata degli esercenti e delle istituzioni che aderiscono all'iniziativa. La lista contiene sia strutture fisiche che operatori online.",
-            "faqs": [
+      {
+        "route_name": "CGN_MERCHANTS_LIST",
+        "title": "Lista operatori",
+        "content": "Qui puoi visualizzare la lista sempre aggiornata degli esercenti e delle istituzioni che aderiscono all'iniziativa. La lista contiene sia strutture fisiche che operatori online.",
+        "faqs": [
               {
                 "title": "Come posso ottenere sconti con la Carta Giovani Nazionale?",
                 "body": "Per acquisti presso strutture fisiche, apri l'app IO e mostra la Carta Giovani Nazionale prima del pagamento. Per gli acquisti online, copia il codice sconto che trovi nella scheda dell'agevolazione di tuo interesse e incollalo nel campo sconto presente nel portale dell'esercente. Se il codice inserito è corretto, lo sconto verrà automaticamente applicato al tuo carrello."
@@ -1180,11 +1180,11 @@
               }
             ]
           },
-          {
-            "route_name": "CGN_MERCHANTS_DETAIL",
-            "title": "Dettaglio operatore",
-            "content": "In questa schermata trovi tutte le informazioni relative all'operatore che hai selezionato, incluse le agevolazioni in corso di validità.",
-            "faqs": [
+      {
+        "route_name": "CGN_MERCHANTS_DETAIL",
+        "title": "Dettaglio operatore",
+        "content": "In questa schermata trovi tutte le informazioni relative all'operatore che hai selezionato, incluse le agevolazioni in corso di validità.",
+        "faqs": [
               {
                 "title": "Come posso ottenere sconti con la Carta Giovani Nazionale?",
                 "body": "Per acquisti presso strutture fisiche, apri l'app IO e mostra la Carta Giovani Nazionale prima del pagamento. Per gli acquisti online, copia il codice sconto che trovi nella scheda dell'agevolazione di tuo interesse e incollalo nel campo sconto presente nel portale dell'esercente. Se il codice inserito è corretto, lo sconto verrà automaticamente applicato al tuo carrello."
@@ -1203,11 +1203,11 @@
               }
             ]
           },
-          {
-            "route_name": "MESSAGES_INBOX",
-            "title": "Cosa puoi fare nei tuoi Messaggi",
-            "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
-            "faqs": [
+      {
+        "route_name": "MESSAGES_INBOX",
+        "title": "Cosa puoi fare nei tuoi Messaggi",
+        "content": "**Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO**.\nTi scriveranno solo enti che hanno qualcosa da dirti, come informarti di un avviso di pagamento, ricordarti una scadenza, darti un’informazione o comunicarti un aggiornamento. I messaggi sono suddivisi in due schede: 'Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', che contiene i messaggi che archivi.",
+        "faqs": [
               {
                 "title": "Che tipo di messaggi posso ricevere?",
                 "body": "Su IO puoi ricevere diversi tipi di messaggi: avvisi di pagamento, promemoria di scadenze, notifiche e aggiornamenti o richieste di firma di documenti. Non riceverai mai messaggi generici, ma sempre e solo comunicazioni che ti riguardano personalmente, come ad esempio un avviso di scadenza di un documento di identità"
@@ -1243,7 +1243,7 @@
             ]
           }
         ],
-        "idps": {
+    "idps": {
           "arubaid": {
             "description": "Se riscontri altri problemi nella procedura di autenticazione, puoi contattare il servizio dedicato offerto da Aruba selezionando una delle opzioni disponibili qui.",
             "helpdesk_form": "https://selfcarespid.aruba.it/#/recovery-emergency-code",
@@ -1333,7 +1333,6 @@
           }
         }
       }
-    ]
   },
   "en": {
     "screens": [

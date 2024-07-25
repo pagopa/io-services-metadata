@@ -231,8 +231,8 @@
         "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni"
       },
       "message": {
-        "it-IT": "Se vuoi pagare con carta o PayPal, aggiungili prima al tuo Portafoglio.",
-        "en-EN": "To pay with card or PayPal, make sure they're already in your Wallet."
+        "it-IT": "Se vuoi pagare con carta, aggiungila prima al tuo Portafoglio.",
+        "en-EN": "To pay with card, make sure it's already in your Wallet."
       }
     },
     "ingress": {

@@ -608,7 +608,7 @@
           },
           {
             "title": "Non vedo più il mio account PayPal.",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n**PayPal (anche in 3 rate)**, disponibile dal 25 luglio\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n**PayPal (anche in 3 rate)**\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
           },
           {
             "title": "Non vedo più il mio account BANCOMAT Pay.",
@@ -673,7 +673,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
           },
           {
             "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
@@ -689,7 +689,7 @@
           },
           {
             "title": "Non vedo più il mio account PayPal",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n** PayPal (anche in 3 rate)**, disponibile dal 25 luglio\n\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n**PayPal (anche in 3 rate)**\n\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
           },
           {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
@@ -724,7 +724,7 @@
           },
           {
             "title": "Posso pagare anche a rate con PayPal?",
-            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, dal 25 luglio, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
           }
         ]
       },
@@ -792,7 +792,7 @@
         "faqs": [
               {
                 "title": "Quali metodi di pagamento posso usare su IO?",
-                "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+                "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pay\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
               }
             ]
           },
@@ -841,7 +841,7 @@
               },
               {
                 "title": "Vorrei usare PayPal, cosa scelgo?",
-                "body": "Se vuoi pagare a rate, dal 25 luglio puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
+                "body": "Se vuoi pagare a rate, puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
               },
               {
                 "title": "Perché devo pagare una commissione?",

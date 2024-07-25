@@ -225,7 +225,7 @@
     },
     "payments": {
       "is_visible": true,
-      "level": "normal",
+      "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",
         "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni"

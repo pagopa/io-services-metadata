@@ -765,7 +765,13 @@ definitions:
       sessionRefresh:
         type: object
         description: "A configuration for the fast login session refresh after two minutes of inactivity"
+        required:
+          - enabled
+          - min_app_version
         properties:
+          enabled:
+            type: boolean
+            description: "If true, after at least two minutes that the app is in the background, when the app returns to the foreground, the session is refreshed"
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the fast login session refresh feature is enabled"

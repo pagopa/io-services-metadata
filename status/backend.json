@@ -98,6 +98,13 @@
           "ios": "2.51.0.0",
           "android": "2.51.0.0"
         }
+      },
+      "sessionRefresh": {
+        "enabled": false,
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        }
       }
     },
     "pn": {

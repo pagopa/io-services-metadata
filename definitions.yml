@@ -290,12 +290,15 @@ definitions:
       - is_alive
       - message
       - sections
+      - statusMessages
       - config
     properties:
       config:
         $ref: "#/definitions/Config"
       sections:
         $ref: "#/definitions/Sections"
+      statusMessages:
+        $ref: "#/definitions/StatusMessages"
       is_alive:
         type: boolean
       message:
@@ -311,6 +314,38 @@ definitions:
         type: string
       en-EN:
         type: string
+  StatusMessages:
+    type: object
+    description: The list of status messages by app navigation routes
+    required:
+      - items
+    properties:
+      items:
+        type: array
+        items:
+          $ref: "#/definitions/SpidIdp"
+  StatusMessage:
+    type: object
+    description: The status message definition
+    required:
+      - routes
+      - level
+      - message
+    properties:
+      routes:
+        type: array
+        items: 
+          type: string
+      level:
+        type: string
+        x-extensible-enum:
+          - critical
+          - warning
+          - normal
+      web_url:
+        $ref: "#/definitions/BackendStatusMessage"
+      message:
+        $ref: "#/definitions/BackendStatusMessage"
   Sections:
     type: object
     description: The status of the app sections

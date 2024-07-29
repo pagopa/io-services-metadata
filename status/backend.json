@@ -132,6 +132,9 @@
       }
     }
   },
+  "statusMessages": {
+    "items": []
+  },
   "sections": {
     "email_validation": {
       "is_visible": false,

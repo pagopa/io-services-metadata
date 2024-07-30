@@ -210,11 +210,11 @@
       }
     },
     "login": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "it-IT": "L'accesso tramite Namirial non è al momento disponibile, riprova più tardi.",
+        "en-EN": "Login with Namirial is currently unavailable, try again later."
       }
     },
     "wallets": {
@@ -242,11 +242,11 @@
       }
     },
     "ingress": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "it-IT": "L'accesso tramite Namirial non è al momento disponibile, riprova più tardi.",
+        "en-EN": "Login with Namirial is currently unavailable, try again later."
       }
     },
     "bancomat": {

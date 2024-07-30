@@ -214,7 +214,7 @@
       "level": "warning",
       "message": {
         "it-IT": "L’accesso con Namirial ID non è disponibile. Riprova più tardi.",
-        "en-EN": "Login with NamirialID might not be available. We are working to solve the issue."
+        "en-EN": "Login with Namirial ID is currently unavailable. Try again later."
       }
     },
     "wallets": {

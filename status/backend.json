@@ -213,7 +213,7 @@
       "is_visible": true,
       "level": "warning",
       "message": {
-        "it-IT": "L’accesso con NamirialID potrebbe non essere disponibile. Siamo al lavoro per risolvere il problema.",
+        "it-IT": "L’accesso con Namirial ID non è disponibile. Riprova più tardi.",
         "en-EN": "Login with NamirialID might not be available. We are working to solve the issue."
       }
     },

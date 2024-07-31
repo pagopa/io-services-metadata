@@ -884,7 +884,6 @@ definitions:
     type: object
     required:
       - min_app_version
-      - title
       - description
     properties:
       min_app_version:

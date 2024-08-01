@@ -31,9 +31,21 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": true,
       "domain": "https://oauth.io.pagopa.it/",
-      "historyEnabled": false
+      "enabled": false,
+      "history": {
+        "min_app_version": {
+          "ios": "2.67.0.3",
+          "android": "2.67.0.3"
+        }
+      },
+      "historyEnabled": false,
+      "singleSignOn": {
+        "min_app_version": {
+          "ios": "2.67.0.3",
+          "android": "2.67.0.3"
+        }
+      }
     },
     "uaDonations": {
       "enabled": false,

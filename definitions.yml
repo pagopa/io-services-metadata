@@ -577,15 +577,30 @@ definitions:
       - enabled
       - domain
     properties:
-      enabled:
-        type: boolean
-        description: "If true FIMS feature is available in those app that support it"
       domain:
         type: string
         description: "This is the url that will be used to store the session cookie inside the app dedicated webview"
+      enabled:
+        type: boolean
+        description: "This is a legacy property that must remain here in order not to break compatibility. It is not used anymore"
+      history:
+        type: object
+        description: "A configuration for the FIMS history feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the FIMS history section can be used"
       historyEnabled:
         type: boolean
         description: "If true or undefined, FIMS history listItem will be shown in the profile/privacy section"
+      singleSignOn:
+        type: object
+        description: "A configuration for the FIMS single sign-on flow"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the single sign-on flow can be used"
+
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

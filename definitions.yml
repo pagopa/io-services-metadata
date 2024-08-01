@@ -322,7 +322,7 @@ definitions:
       items:
         type: array
         items:
-          $ref: "#/definitions/SpidIdp"
+          $ref: "#/definitions/StatusMessage"
   StatusMessage:
     type: object
     description: The status message definition

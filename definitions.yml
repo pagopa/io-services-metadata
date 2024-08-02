@@ -561,7 +561,7 @@ definitions:
         description: "If true or undefined, FIMS history listItem will be shown in the profile/privacy section"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the single sign-on flow can be used"
+        description: "If min app version supported, FIMS SSO is enabled"
 
   AssistanceToolConfig:
     type: object

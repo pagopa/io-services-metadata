@@ -31,9 +31,21 @@
       "merchants_v2": false
     },
     "fims": {
-      "enabled": true,
       "domain": "https://oauth.io.pagopa.it/",
-      "historyEnabled": false
+      "enabled": false,
+      "history": {
+        "min_app_version": {
+          "ios": "2.67.0.3",
+          "android": "2.67.0.3"
+        }
+      },
+      "historyEnabled": false,
+      "singleSignOn": {
+        "min_app_version": {
+          "ios": "2.67.0.3",
+          "android": "2.67.0.3"
+        }
+      }
     },
     "uaDonations": {
       "enabled": false,
@@ -98,6 +110,12 @@
           "ios": "2.51.0.0",
           "android": "2.51.0.0"
         }
+      },
+      "sessionRefresh": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        }
       }
     },
     "pn": {
@@ -119,10 +137,10 @@
       "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.9"
     },
     "itw": {
-      "enabled": false,
+      "enabled": true,
       "min_app_version": {
-        "ios": "2.66.0.0",
-        "android": "2.66.0.0"
+        "ios": "2.67.0.2",
+        "android": "2.67.0.2"
       }
     }
   },
@@ -225,14 +243,14 @@
     },
     "payments": {
       "is_visible": true,
-      "level": "normal",
+      "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",
         "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni"
       },
       "message": {
-        "it-IT": "Se vuoi pagare con carta o PayPal, aggiungili prima al tuo Portafoglio.",
-        "en-EN": "To pay with card or PayPal, make sure they're already in your Wallet."
+        "it-IT": "Se vuoi pagare con carta, aggiungila prima al tuo Portafoglio.",
+        "en-EN": "To pay with card, make sure it's already in your Wallet."
       }
     },
     "ingress": {

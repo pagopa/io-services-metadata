@@ -596,7 +596,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
             "title": "Come posso aggiungere un metodo di pagamento?",
@@ -608,11 +608,11 @@
           },
           {
             "title": "Non vedo più il mio account PayPal.",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n**PayPal (anche in 3 rate)**, disponibile dal 25 luglio\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full). \nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
           },
           {
             "title": "Non vedo più il mio account BANCOMAT Pay.",
-            "body": "Pagare con BANCOMAT Pay è ora più semplice. Non serve più salvarlo nel Portafoglio.\nIn fase di pagamento, scegli BANCOMAT Pay dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.\n\nPer saperne di più, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0) o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay)"
+            "body": "Pagare con BANCOMAT Pay è ora più semplice. Non serve più salvarlo nel Portafoglio.\n In fase di pagamento, scegli BANCOMAT Pay dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.\n\nPer saperne di più, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0) o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay)"
           },
           {
             "title": "Come faccio ad attivare Carta Giovani Nazionale?",
@@ -658,7 +658,7 @@
           },
           {
             "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Perché il salvataggio della carta non va a buon fine?\nPuò dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo ‘in pausa’ la tua carta."
+            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n- La tua carta non è abilitata agli acquisti online.\n- Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n- La tua carta è stata sospesa o bloccata.\n- Hai messo ‘in pausa’ la tua carta."
           },
           {
             "title": "Non vedo il bonus o l’iniziativa che che vorrei attivare, come mai?",
@@ -667,29 +667,29 @@
         ]
       },
       {
-        "route_name": "PAYMENT_HOME",
+        "route_name": "PAYMENTS_HOME",
         "title": "Cosa puoi fare nella sezione Pagamenti",
         "content": "Qui puoi pagare un avviso, vedere le ricevute di pagamento pagoPA e aggiungere un metodo di pagamento",
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
           },
           {
             "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
-            "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il codice avviso. Per farlo, vai nella sezione Pagamenti. Scansiona il codice QR o inserisci il codice avviso e il codice fiscale dell’ente creditore. Segui le indicazioni e completa il pagamento."
+            "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il codice avviso.\n Per farlo, vai nella sezione Pagamenti. Scansiona il codice QR o inserisci il codice avviso e il codice fiscale dell’ente creditore. Segui le indicazioni e completa il pagamento."
           },
           {
             "title": "Cosa vedo nella ricevuta?",
-            "body": "La ricevuta include:\n-le informazioni sulla transazione;\n-i dettagli sull’avviso pagato;\n-le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
+            "body": "La ricevuta include:\n- le informazioni sulla transazione;\n- i dettagli sull’avviso pagato;\n- le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
           },
           {
             "title": "Dove trovo i pagamenti effettuati?",
-            "body": "Nella sezione Pagamenti trovi una lista di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Nella sezione Pagamenti trovi una lista di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Non vedo più il mio account PayPal",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n** PayPal (anche in 3 rate)**, disponibile dal 25 luglio\n\nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce**\nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n Non devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n **PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
           },
           {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
@@ -712,7 +712,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
             "title": "Posso rimuovere un metodo di pagamento?",
@@ -720,11 +720,11 @@
           },
           {
             "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo 'in pausa' la tua carta."
+            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n- La tua carta non è abilitata agli acquisti online.\n- Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n- La tua carta è stata sospesa o bloccata.\n- Hai messo 'in pausa' la tua carta."
           },
           {
             "title": "Posso pagare anche a rate con PayPal?",
-            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, dal 25 luglio, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
           }
         ]
       },
@@ -735,7 +735,7 @@
         "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
-                "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
               },
               {
                 "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -754,7 +754,7 @@
         "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
-                "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
               },
               {
                 "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -773,7 +773,7 @@
         "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
-                "body": "Puoi trovare le ricevute dei pagamenti di:\n-avvisi pagati da te su IO;\n-avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
               },
               {
                 "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -792,7 +792,7 @@
         "faqs": [
               {
                 "title": "Quali metodi di pagamento posso usare su IO?",
-                "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n-Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n-BANCOMAT Pal\n-PayPal pagamento veloce\n-PayPal (anche in 3 rate), disponibile dal 25 luglio.\n\nSaranno presto disponibili altri metodi di pagamento."
+                "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
               }
             ]
           },
@@ -822,11 +822,11 @@
         "faqs": [
               {
                 "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-                "body": "pagoPA aggiorna l'importo da pagare in tempo reale. Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento.\nTi mostriamo quindi sempre l’importo esatto, per permetterti di pagare evitando more o interessi aggiuntivi."
+                "body": "pagoPA aggiorna l'importo in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
               },
               {
                 "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
-                "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore. Puoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+                "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.\nPuoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
               }
             ]
           },
@@ -841,7 +841,7 @@
               },
               {
                 "title": "Vorrei usare PayPal, cosa scelgo?",
-                "body": "Se vuoi pagare a rate, dal 25 luglio puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
+                "body": "Se vuoi pagare a rate, puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
               },
               {
                 "title": "Perché devo pagare una commissione?",
@@ -853,7 +853,7 @@
               },
               {
                 "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-                "body": "Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale. Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento.\nTi mostriamo quindi sempre l’importo esatto, per permetterti di pagare evitando more o interessi aggiuntivi."
+                "body": "Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
               }
             ]
           },

@@ -33,12 +33,6 @@
     "fims": {
       "domain": "https://oauth.io.pagopa.it/",
       "enabled": false,
-      "history": {
-        "min_app_version": {
-          "ios": "2.68.0.0",
-          "android": "2.68.0.0"
-        }
-      },
       "historyEnabled": false,
       "min_app_version": {
           "ios": "2.68.0.0",

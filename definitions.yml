@@ -549,13 +549,6 @@ definitions:
       enabled:
         type: boolean
         description: "This is a legacy property that must remain here in order not to break compatibility. It is not used anymore"
-      history:
-        type: object
-        description: "A configuration for the FIMS history feature"
-        properties:
-          min_app_version:
-            $ref: "#/definitions/VersionPerPlatform"
-            description: "If min app version supported, the FIMS history section can be used"
       historyEnabled:
         type: boolean
         description: "If true or undefined, FIMS history listItem will be shown in the profile/privacy section"

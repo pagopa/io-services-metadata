@@ -650,7 +650,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
             "title": "Come posso rimuovere un metodo di pagamento?",

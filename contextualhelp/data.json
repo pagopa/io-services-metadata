@@ -644,6 +644,29 @@
         ]
       },
       {
+        "route_name": "ITW_CARD_ONBOARDING",
+        "title": "Cosa puoi aggiungere",
+        "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
+        "faqs": [
+          {
+            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+          },
+          {
+            "title": "Come posso rimuovere un metodo di pagamento?",
+            "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
+          },
+          {
+            "title": "Perché il salvataggio della carta non va a buon fine?",
+            "body": "Perché il salvataggio della carta non va a buon fine?\nPuò dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo 'in pausa' la tua carta."
+          },
+          {
+            "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
+            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+          }
+        ]
+      },
+      {
         "route_name": "PAYMENT_METHOD_DETAILS_SCREEN",
         "title": "Dettaglio metodo",
         "content": "Qui puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dall’app.",

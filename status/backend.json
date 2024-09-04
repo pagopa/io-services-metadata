@@ -134,6 +134,12 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       }
+    },
+    "cie_id": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
     }
   },
   "sections": {

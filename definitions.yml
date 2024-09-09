@@ -475,6 +475,8 @@ definitions:
         $ref: "#/definitions/TosConfig"
       itw:
         $ref: "#/definitions/ItwConfig"
+      cie_id:
+        $ref: "#/definitions/CieIDConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -881,3 +883,10 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"
+  CieIDConfig:
+    type: object
+    description: "A configuration for the CieID feature"
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can see the login with CieID section"

@@ -105,8 +105,8 @@
       },
       "sessionRefresh": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "2.69.0.8",
+          "android": "2.69.0.8"
         }
       }
     },

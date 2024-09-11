@@ -777,7 +777,7 @@
         "faqs": [
               {
                 "title": "Quali ricevute posso vedere?",
-                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe sei l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
               },
               {
                 "title": "Come faccio a vedere tutte le ricevute disponibili?",

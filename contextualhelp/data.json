@@ -766,7 +766,26 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+              }
+            ]
+          },
+          {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_DETAILS",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+              {
+                "title": "Quali ricevute posso vedere?",
+                "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+              },
+              {
+                "title": "Come faccio a vedere tutte le ricevute disponibili?",
+                "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+              },
+              {
+                "title": "Come faccio a salvare una ricevuta?",
+                "body": "Premi sulla ricevuta, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },
@@ -785,7 +804,7 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },
@@ -804,7 +823,7 @@
               },
               {
                 "title": "Come faccio a salvare una ricevuta?",
-                "body": "Premi sull’avviso, poi su ‘Scarica ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+                "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
               }
             ]
           },

@@ -713,16 +713,8 @@
             "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
-            "title": "Come posso rimuovere un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
-          },
-          {
-            "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n- La tua carta non è abilitata agli acquisti online.\n- Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n- La tua carta è stata sospesa o bloccata.\n- Hai messo ‘in pausa’ la tua carta."
-          },
-          {
-            "title": "Non vedo il bonus o l’iniziativa che che vorrei attivare, come mai?",
-            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+            "title": "Posso pagare anche a rate con PayPal?",
+            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
           }
         ]
       },
@@ -767,7 +759,7 @@
       },
       {
         "route_name": "PAYMENT_ONBOARDING_SELECT_METHOD",
-        "title": "Qui puoi aggiungere un nuovo metodo di pagamento che verrà salvato nella sezione Portafoglio. Per rimuovere un metodo già inserito, vai alla sezione Portafoglio e seleziona il metodo desiderato.",
+        "title": "Aggiungi un metodo",
         "content": "Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
         "faqs": [
           {

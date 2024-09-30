@@ -99,6 +99,16 @@
         ]
       },
       {
+        "route_name": "ONBOARDING_INSERT_EMAIL_SCREEN",
+        "title": "Modifica il tuo indirizzo email",
+        "content": "Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
+      },
+      {
+        "route_name": "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+        "title": "Modifica il tuo indirizzo email",
+        "content": "Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
+      },
+      {
         "route_name": "PROFILE_PREFERENCES_NOTIFICATIONS",
         "title": "Notifiche push",
         "content": "Qui puoi personalizzare le notifiche push.",
@@ -372,6 +382,17 @@
         "content": "Qui trovi la descrizione completa di come IO gestisce i tuoi dati personali e le condizioni di uso dell’app."
       },
       {
+        "route_name": "SETTINGS_MAIN",
+        "title": "Cosa puoi fare nelle impostazioni",
+        "content": "Qui puoi gestire i tuoi dati e le preferenze d’uso dell’app. Puoi anche trovare informazioni su come trattiamo i tuoi dati personali e la versione digitale del tuo Codice Fiscale.",
+        "faqs": [
+          {
+            "title": "Come viene tutelata la mia privacy?",
+            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
+          }
+        ]
+      },
+      {
         "route_name": "PROFILE_MAIN",
         "title": "Cosa puoi fare nel tuo Profilo",
         "content": "Qui puoi gestire le tue preferenze e il tuo account, trovare informazioni sul trattamento dei dati personali e visualizzare la versione digitale del tuo Codice Fiscale.",
@@ -389,21 +410,26 @@
       {
         "route_name": "PROFILE_DATA",
         "title": "I tuoi dati",
-        "content": "Qui puoi visualizzare il tuo nome e cognome e modificare l’indirizzo e-mail associato a IO.",
+        "content": "Qui trovi i tuoi dati anagrafici e il tuo Codice Fiscale. Puoi anche modificare l’indirizzo e-mail associato a IO.",
         "faqs": [
           {
             "title": "Come posso eliminare il mio account e cancellare i miei dati?",
-            "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+            "body": "Puoi farlo da 'Privacy e Condizioni d’uso'e poi 'Elimina il tuo profilo. Se cambi idea e vuoi nuovamente usare IO, potrai sempre entrare di nuovo su IO tramite SPID o CIE."
           },
           {
             "title": "Come posso modificare il mio indirizzo e-mail?",
-            "body": "L’indirizzo e-mail che vedi nel Profilo è quello che hai aggiunto durante il primo accesso. Se vuoi modificarlo, vai in Profilo > I tuoi dati e seleziona Indirizzo email > Modifica email."
+            "body": "Puoi farlo da Impostazioni > I tuoi dati e seleziona Indirizzo email > Modifica."
           },
           {
             "title": "Nel mio profilo c’è un errore nel nome, cognome o Codice Fiscale. Come posso fare?",
-            "body": "Il nome, cognome e Codice Fiscale che vedi in Profilo > I tuoi dati provengono dallo SPID o CIE che hai usato per accedere a IO e sono direttamente collegati ai dati riportati nel tuo documento di identità. Se l’errore è presente anche nel tuo documento, rivolgiti all’anagrafe del tuo Comune per le modifiche necessarie, che verranno poi effettuate anche nei dati dell’identità digitale CIE. Se l’errore è presente solo nei tuoi dati SPID, rivolgiti al tuo Identity Provider."
+            "body": "Il nome, cognome e Codice Fiscale che vedi in Impostazioni > I tuoi dati, provengono dallo SPID o CIE che hai usato per accedere a IO e sono direttamente collegati ai dati riportati nel tuo documento di identità.\n Se l’errore è presente solo nei tuoi dati SPID, rivolgiti al tuo Identity Provider.\n Se l'errore è nel tuo documento d'identità, rivolgiti all'anagrafe del tuo Comune per correggerlo. Le modifiche verranno aggiornate anche nei dati della tua identità digitale CIE."
           }
         ]
+      },
+      {
+        "route_name": "PROFILE_FISCAL_CODE",
+        "title": "Il tuo Codice Fiscale",
+        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve."
       },
       {
         "route_name": "READ_EMAIL_SCREEN",
@@ -416,6 +442,11 @@
         "content": "Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
       },
       {
+        "route_name": "EMAIL_VERIFICATION_SCREEN",
+        "title": "Modifica il tuo indirizzo email",
+        "content": "Qui puoi modificare l’indirizzo e-mail. Una volta inserito, dovrai validarlo premendo sul link che riceverai al nuovo indirizzo."
+      },
+      {
         "route_name": "CHECK_EMAIL_NOT_VERIFIED",
         "title": "Per usare l'app IO devi confermare la tua email.",
         "content": "Inserisci un’email che usi e a cui hai accesso solo tu. Servirà a inviarti comunicazioni come ricevute di pagamento o messaggi di assistenza. "
@@ -423,17 +454,22 @@
       {
         "route_name": "PROFILE_PREFERENCES_HOME",
         "title": "Le tue preferenze",
-        "content": "Qui puoi visualizzare e modificare le impostazioni utilizzate da tutti i servizi presenti su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico dei messaggi che ricevi su IO al tuo indirizzo email, e modificare la lingua.",
+        "content": "Qui puoi controllare e modificare le impostazioni utilizzate da tutti i servizi per personalizzare la tua esperienza su IO. Puoi anche selezionare il calendario su cui vuoi salvare i promemoria, abilitare l’inoltro automatico di un’anteprima dei messaggi che ricevi su IO al tuo indirizzo email e modificare la lingua dell’app.",
         "faqs": [
           {
             "title": "Come viene tutelata la mia privacy?",
-            "body": "L’app IO è stata concepita e sviluppata secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), conosciuto anche come GDPR, e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). È quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti.\n\nPer maggiori informazioni, leggi l’Informativa sul trattamento dei dati personali alla voce 'Privacy e Condizioni d’uso'."
+            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
           },
           {
             "title": "Come posso eliminare il mio account e cancellare i miei dati?",
-            "body": "Vai alla voce 'Privacy e Condizioni d’uso' e seleziona 'Elimina il tuo account'. Al termine dell'eliminazione, riceverai un messaggio di conferma all’indirizzo email associato all'app. Questo non significa che non potrai più utilizzare IO: se accedi di nuovo, si genererà un nuovo account."
+            "body": "Puoi farlo da 'Privacy e Condizioni d’uso'e poi 'Elimina il tuo profilo. Se cambi idea e vuoi nuovamente usare IO, potrai sempre entrare di nuovo su IO tramite SPID o CIE."
           }
         ]
+      },      
+      {
+        "route_name": "PIN_SCREEN",
+        "title": "Codice di sblocco",
+        "content": "**Il codice di sblocco è il codice di sicurezza che mantiene al sicuro il tuo accesso all’app.**.\nSe è la prima volta che entri nell'app, imposta liberamente il tuo codice numerico e memorizzalo in modo da poterlo utilizzare durante tutti i successivi accessi. Se l'hai già impostato e non lo ricordi, puoi selezionare 'Hai dimenticato il codice di sblocco?'e impostare un nuovo codice.\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se lo cambi, dovrai impostarlo nuovamente al primo accesso all'app IO."
       },
       {
         "route_name": "PROFILE_PREFERENCES_SERVICES",
@@ -451,43 +487,44 @@
         ]
       },
       {
+        "route_name": "PROFILE_PREFERENCES_CALENDAR",
+        "title": "Calendario preferito",
+        "content": "Qui puoi scegliere in quale calendario, tra quelli disponibili sul tuo dispositivo, aggiungere i tuoi promemoria."
+      },
+      {
         "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
         "title": "L'inoltro dei messaggi",
-        "content": "Qui puoi abilitare o disabilitare l’inoltro dei messaggi che ricevi su IO al tuo indirizzo e-mail."
+        "content": "Qui puoi attivare la funzione che ti permette di ricevere un'anteprima dei messaggi di IO sulla tua email."
       },
       {
         "route_name": "PROFILE_PREFERENCES_LANGUAGE",
         "title": "Come cambiare la lingua",
-        "content": "Di default, IO usa la lingua del sistema operativo del tuo dispositivo. Puoi modificarla in ogni momento da questa pagina. La lingua del contenuto dei messaggi, invece, è definita da ciascun ente, che decide se inviare il contenuto tradotto in diverse lingue."
+        "content": "IO usa la lingua del sistema operativo del tuo dispositivo. Puoi modificarla in ogni momento da questa pagina. La lingua del contenuto dei messaggi, invece, è definita da ciascun ente, che decide se inviare il contenuto tradotto in diverse lingue."
       },
       {
         "route_name": "PROFILE_SECURITY",
-        "title": "Le tue modalità di autenticazione",
+        "title": "Scegli come sbloccare l'app.",
         "content": "Qui puoi modificare il codice di sblocco e attivare o disattivare il riconoscimento biometrico.",
         "faqs": [
           {
             "title": "Cos’è il codice di sblocco?",
-            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Va inserito anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Va inserito anche per visualizzare informazioni sensibili e per confermare alcune operazioni."          
           },
           {
             "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
-            "body": "Premi 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Quando entri in app, nella schermata di inserimento codice premi su 'Hai dimenticato il codice di sblocco?', autenticati con SPID o CIE e inserisci il nuovo codice."
           },
           {
             "title": "Come posso cambiare il codice di sblocco?",
-            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona 'Reimposta Codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
+            "body": "Se ricordi il codice di sblocco ma vuoi modificarlo, seleziona ‘Modifica codice di sblocco', autenticati con SPID o CIE e inserisci il nuovo codice."
           },
           {
             "title": "A cosa serve il riconoscimento biometrico?",
-            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco."
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' dell’app IO e abilitalo anche lì."
-          },
-          {
-            "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Vai alla sezione 'Profilo' dell'app. Il riconoscimento biometrico risulterà già disattivato se il tuo dispositivo non lo supporta, o se è disabilitato nelle preferenze di sistema."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Una volta fatto, abilitalo anche dalle impostazioni dell’app IO."
           }
         ]
       },
@@ -1554,6 +1591,11 @@
         ]
       },
       {
+        "route_name": "PIN_SCREEN",
+        "title": "Unlock code",
+        "content": "**The unlock code is the security code that keeps your access to the app secure.**. \nIf this is your first time in the app, freely set your numeric code and store it so you can use it during all subsequent logins.\nIf you have already set it and can't remember it, you can select “Forgot unlock code” and set a new code.\nThe unlock code is tied to the device you set it on: if you change phones, you will have to set it again the first time you access the IO app."
+      },
+      {
         "route_name": "ONBOARDING_PIN",
         "title": "How the unlock code works",
         "content": "Here you can set up or change your unlock code. If this is your first time in the app, choose a code and memorize it so you can use it each time you need to log in. If you have already set it and can't remember it, press 'Did you forget the unlock code?' and set a new one. If you want to change it, press 'Change the unlock code'.\n\nThe unlock code is tied to the device you set it on: if you change devices, you will have to set it again the first time you log in to the app.",
@@ -1592,22 +1634,33 @@
           }
         ]
       },
+          {
+        "route_name": "SETTINGS_MAIN",
+        "title": "What you can do in your Settings",
+        "content": "Here you can manage your data and your preferences for using the app. You can also find information about how we process your personal data and the digital version of your Fiscal Code.",
+        "faqs": [
+          {
+            "title": "How is my privacy protected?",
+            "body": "We have designed and developed the IO app in accordance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n It is our priority to protect your information and your rights.\nTo learn more, read [the Privacy Policy](https://io.italia.it/app-content/tos_privacy.html)"
+          }
+        ]
+      },
       {
         "route_name": "PROFILE_DATA",
         "title": "Your data",
-        "content": "Here you can view your first and last name and change the email address associated with IO.",
+        "content": "Here you will find your biographical data and your Tax Code. You can also change the e-mail address associated with IO.",
         "faqs": [
           {
             "title": "How can I delete my account and data?",
-            "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+            "body": "You can do this from ‘Privacy and Terms of Use’ and then ‘Delete your profile'. If you change your mind and want to use IO again, you can always log back into IO via SPID or CIE."
           },
           {
-            "title": "How can I change my e-mail address?",
-            "body": "The email address you see in the Profile is the one you added the first time you logged in. If you want to change it, go to Profile > Your Information and select Email Address > Change Email."
+            "title": "How can I change my email address?",
+            "body": "To do this, go to Settings > Your details and select Email address > Edit."
           },
           {
             "title": "In my profile there is an error in my first name, last name or fiscal code. What can I do?",
-            "body": "The first name, last name, and fiscal code you see in Profile > Your data come from the SPID or CIE you used to log in and are directly linked to the data in your identity document. If the error appears in your identity document too, in order to make the changes you need to contact your municipality's registry. The changes will also be made in the CIE digital identity. If the error is in your SPID only, contact your Identity Provider."
+            "body": "The first name, last name and Tax Code you see in Settings > Your Data, come from the SPID or CIE you used to log in to IO and are directly linked to the data in your ID.\n If the error is only in your SPID data, contact your Identity Provider.\n If the error is in your ID, contact your local registry to correct it. The changes will also be updated in your digital identity data and Elctronic Identity Card."
           }
         ]
       },
@@ -1619,7 +1672,22 @@
       {
         "route_name": "INSERT_EMAIL_SCREEN",
         "title": "Change your email address",
-        "content": "Here you can change your email address. Once entered, we'll send you an email with a verification link to confirm it.There we send you your payment receipts and, if you have enabled the option, forward the messages you receive in the app."
+        "content": "You can change your email address here. Follow the steps and go to the inbox shown to confirm your address."
+      },
+      {
+        "route_name": "EMAIL_VERIFICATION_SCREEN",
+        "title": "Change your email address",
+        "content": "You can change your email address here. Follow the steps and go to the inbox shown to confirm your address."
+      },
+      {
+        "route_name": "ONBOARDING_INSERT_EMAIL_SCREEN",
+        "title": "Change your email address",
+        "content": "You can change your email address here. Follow the steps and go to the inbox shown to confirm your address."
+      },
+      {
+        "route_name": "ONBOARDING_T_EMAIL_VERIFICATION_SCREEN",
+        "title": "Change your email address",
+        "content": "You can change your email address here. Follow the steps and go to the inbox shown to confirm your address."
       },
       {
         "route_name": "CHECK_EMAIL_NOT_VERIFIED",
@@ -1634,15 +1702,15 @@
       {
         "route_name": "PROFILE_PREFERENCES_HOME",
         "title": "Your preferences",
-        "content": "Here you can see and change the settings used by all services on IO. You can also select the default calendar for your reminders, turn on or off the automatic forward of your messages to an email address, and change the language.",
+        "content": "Here you can control and change the settings used by all services to personalize your experience on IO. You can also select the calendar on which you want to save reminders, enable automatic forwarding of a preview of messages you receive on IO to your email address, and change the app's language.",
         "faqs": [
           {
             "title": "How is my privacy protected?",
-            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). It is therefore a safe tool that protects your information and rights.\n\nFor more information, please read the Privacy Policy that you can find in this section under 'Privacy and Terms of Use.'"
+            "body": "We have designed and developed the IO app in accordance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n It is our priority to protect your information and your rights.\nTo learn more, read [the Privacy Policy](https://io.italia.it/app-content/tos_privacy.html)"
           },
           {
             "title": "How can I delete my account and data?",
-            "body": "Go to 'Privacy and Terms of Use' and select 'Delete your account.' When the deletion is complete, you will receive a confirmation message to the email address associated with the app. This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+            "body": "You can do this from ’Privacy and Terms of Use'and then ‘Delete your profile.’ If you change your mind and want to use IO again, you can always re-enter IO via SPID or CIE."
           }
         ]
       },
@@ -1662,58 +1730,64 @@
         ]
       },
       {
+        "route_name": "PROFILE_PREFERENCES_CALENDAR",
+        "title": "Preferred Calendar",
+        "content": "Here you can choose in which calendar, from those available on your device, to add your reminders."
+      },
+      {
         "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",
         "title": "Message forwarding",
-        "content": "Here you can turn on or off the automatic forward of the messages you receive on IO to an email address."
+        "content": "Here you can enable the feature that allows you to receive a preview of IO messages on your email."
       },
       {
         "route_name": "PROFILE_PREFERENCES_LANGUAGE",
         "title": "How to change language",
-        "content": "By default, IO uses the language of your device's operating system. You can change it at any time from this page. The language of messages, on the other hand, is defined by each institution, which decides whether to send translated content in different languages."
+        "content": "IO uses the language of your device's operating system. You can change it at any time from this page. The language of the message content, on the other hand, is defined by each entity, which decides whether to send the translated content in different languages."
+      },
+      {
+        "route_name": "PROFILE_FISCAL_CODE",
+        "title": "Your Fiscal Code",
+        "content": "Here you will find a copy of your Fiscal Code. It is not an official document, but it allows you to read your information and see the bar code. You can also copy the Fiscal Code when you need it."
       },
       {
         "route_name": "PROFILE_SECURITY",
-        "title": "Your authentication modes",
-        "content": "Here you can change the unlock code and enable or disable biometric recognition.",
+        "title": "Choose how to unlock the app.",
+        "content": "Here you can change the unlock code and turn biometric recognition on or off.",
         "faqs": [
           {
             "title": "What is the unlock code?",
-            "body": "The unlock code is a six-digit code that you set up the first time you enter IO. It allows you to enter the app without having to insert SPID or CIE credentials each time. It is also required to view sensitive data, and to confirm specific operations, such as making a payment and deleting the account. This authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate and set up a new unlock code."
+            "body": "It is a 6-digit code that you set the first time you log in to IO and that allows you to enter the app without having to enter SPID or CIE credentials each time. It should also be entered to view sensitive information and to confirm certain operations."
           },
           {
             "title": "I forgot the unlock code. What can I do?",
-            "body": "Press 'Did you forget the unlock code?', insert your SPID or CIE credentials, and enter the new code."
+            "body": "When you enter the app, on the code entry screen press ‘Forgot your unlock code?’, authenticate with SPID or CIE and enter the new code."
           },
           {
             "title": "How can I change the unlock code?",
-            "body": "Select 'Change the unlock code', insert your SPID or CIE credentials, and enter the new code."
+            "body": "If you remember the unlock code but want to change it, select ’Change unlock code,' authenticate with SPID or CIE and enter the new code."
           },
           {
             "title": "What is biometric recognition for?",
-            "body": "You can use biometric recognition, when enabled, in place of the unlock code. Just like the unlock code, this authentication mode remains active for 30 days after your last login with SPID or CIE. After that time frame, you will need to re-authenticate."
+            "body": "If enabled, you can use biometric recognition instead of the unlock code."
           },
           {
             "title": "How can I enable biometric recognition?",
-            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section of the IO app and enable it there too."
-          },
-          {
-            "title": "How can I disable biometric recognition?",
-            "body": "Go to the 'Profile' section of the IO app. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+            "body": "If your phone supports biometric recognition, enable it from system preferences. Once done, also enable it from the 'Settings' of the IO app."
           }
         ]
       },
       {
         "route_name": "PROFILE_PRIVACY_MAIN",
         "title": "Your privacy settings",
-        "content": "Here you can find information about the processing of your personal data and IO's terms of use. More specifically, you can read the Privacy Policy, download a copy of the data associated with your account or delete it and give or withdraw permission to the app to collect your usage data.",
+        "content": "Here you can find all the information regarding the processing of your personal data. You can also request a copy of the data associated with your profile or request that it be deleted.",
         "faqs": [
           {
             "title": "How is my privacy protected?",
-            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
+            "body": "TWe have designed and developed the IO app in accordance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n It is our priority to protect your information and your rights.\nTo learn more, read [the Privacy Policy](https://io.italia.it/app-content/tos_privacy.html)"
           },
           {
             "title": "How can I delete my account and data?",
-            "body": "Select 'Delete your account' and follow the instructions. When the deletion is complete, you will receive a confirmation message to the email address associated with the app.This does not mean that you will no longer be able to use IO: if you log in again, a new account will be generated."
+            "body": "You can do this from ’Privacy and Terms of Use'and then ‘Delete your profile.’ If you change your mind and want to use IO again, you can always re-enter IO via SPID or CIE."
           },
           {
             "title": "How can I get a copy of the data associated with my IO account?",
@@ -1728,13 +1802,7 @@
       {
         "route_name": "PROFILE_PRIVACY",
         "title": " Privacy Policy and Terms of Service",
-        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app.",
-        "faqs": [
-          {
-            "title": "How is my privacy protected?",
-            "body": "The IO app is designed and developed in compliance with the principles of the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), also known as GDPR, and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)."
-          }
-        ]
+        "content": "Here you will find the full description of how IO handles your personal data and the terms of use of the app."
       },
       {
         "route_name": "WALLET_ADD_CARD",

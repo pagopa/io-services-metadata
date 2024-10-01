@@ -105,8 +105,8 @@
       },
       "sessionRefresh": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "2.69.0.8",
+          "android": "2.69.0.8"
         }
       }
     },
@@ -125,8 +125,8 @@
       }
     },
     "tos": {
-      "tos_version": 4.9,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.9"
+      "tos_version": 4.91,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.91"
     },
     "itw": {
       "enabled": true,
@@ -243,7 +243,7 @@
       }
     },
     "payments": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",

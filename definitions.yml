@@ -296,6 +296,8 @@ definitions:
         $ref: "#/definitions/Config"
       sections:
         $ref: "#/definitions/Sections"
+      statusMessages:
+        $ref: "#/definitions/StatusMessages"
       is_alive:
         type: boolean
       message:
@@ -311,6 +313,40 @@ definitions:
         type: string
       en-EN:
         type: string
+  StatusMessages:
+    type: object
+    description: The list of status messages by app navigation routes
+    required:
+      - items
+    properties:
+      items:
+        type: array
+        items:
+          $ref: "#/definitions/StatusMessage"
+  StatusMessage:
+    type: object
+    description: The status message definition
+    required:
+      - routes
+      - level
+      - message
+    properties:
+      routes:
+        type: array
+        description: The list of the IO app routes where the message needs to be displayed 
+        items: 
+          type: string
+      level:
+        type: string
+        description: The severity of the message has its own mapping with the UI state of the in-app alert component
+        x-extensible-enum:
+          - critical
+          - warning
+          - normal
+      web_url:
+        $ref: "#/definitions/BackendStatusMessage"
+      message:
+        $ref: "#/definitions/BackendStatusMessage"
   Sections:
     type: object
     description: The status of the app sections

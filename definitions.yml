@@ -447,7 +447,6 @@ definitions:
       - paypal
       - bancomatPay
       - cgn
-      - uaDonations
       - fims
       - premiumMessages
       - cdc

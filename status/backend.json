@@ -33,19 +33,11 @@
     "fims": {
       "domain": "https://oauth.io.pagopa.it/",
       "enabled": false,
-      "history": {
-        "min_app_version": {
-          "ios": "2.67.0.3",
-          "android": "2.67.0.3"
-        }
-      },
       "historyEnabled": false,
-      "singleSignOn": {
-        "min_app_version": {
-          "ios": "2.67.0.3",
-          "android": "2.67.0.3"
+      "min_app_version": {
+          "ios": "2.68.0.0",
+          "android": "2.68.0.0"
         }
-      }
     },
     "uaDonations": {
       "enabled": false,
@@ -134,8 +126,8 @@
       },
       "sessionRefresh": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "2.69.0.8",
+          "android": "2.69.0.8"
         }
       }
     },
@@ -154,8 +146,8 @@
       }
     },
     "tos": {
-      "tos_version": 4.9,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.9"
+      "tos_version": 4.92,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.92"
     },
     "itw": {
       "enabled": true,
@@ -163,7 +155,16 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       }
+    },
+    "cie_id": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
     }
+  },
+  "statusMessages": {
+    "items": []
   },
   "sections": {
     "email_validation": {
@@ -263,7 +264,7 @@
       }
     },
     "payments": {
-      "is_visible": true,
+      "is_visible": false,
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",

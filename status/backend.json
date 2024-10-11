@@ -140,7 +140,12 @@
         "ios": "0.0.0.0",
         "android": "0.0.0.0"
       }
-    }
+    },
+    "landing_banners":{
+      "priority_order":[
+      "01J2GN4TA8FB6DPTAX3T3YD6M1" 
+    ]}
+    
   },
   "statusMessages": {
     "items": []

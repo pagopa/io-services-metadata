@@ -143,7 +143,8 @@
     },
     "landing_banners":{
       "priority_order":[
-      "ITW_DISCOVERY_BANNER" 
+      "PUSH_NOTIFICATIONS_REMINDER",
+      "ITW_DISCOVERY" 
     ]}
     
   },

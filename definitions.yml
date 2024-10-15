@@ -929,7 +929,7 @@ definitions:
         description: "If min app version supported, the user can see the login with CieID section"
   LandingBannersConfig:
     type: object
-    description: "A configuration for the landing banner feature"
+    description: "A FIFO list of banner IDs to render in the landing screen. Visibility rules must be set and processed in app"
     properties:
       priority_order:
         type: array

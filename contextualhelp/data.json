@@ -681,6 +681,21 @@
         ]
       },
       {
+        "route_name": "ITW_DISCOVERY_INFO",
+        "title": "Documenti su IO",
+        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali. Al momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno. Documenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+      },
+      {
+        "route_name": "ITW_IDENTIFICATION_MODE_SELECTION",
+        "title": "Documenti su IO",
+        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali. Al momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno. Documenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+      },
+      {
+        "route_name": "ITW_PRESENTATION_CREDENTIAL_DETAIL",
+        "title": "Documenti su IO",
+        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali. Al momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno. Documenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+      },
+      {
         "route_name": "ITW_CARD_ONBOARDING",
         "title": "Cosa puoi aggiungere",
         "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",

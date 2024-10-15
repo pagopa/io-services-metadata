@@ -512,6 +512,8 @@ definitions:
         $ref: "#/definitions/ItwConfig"
       cie_id:
         $ref: "#/definitions/CieIDConfig"
+      landing_banners:
+        $ref: "#/definitions/LandingBannersConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -968,3 +970,11 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can see the login with CieID section"
+  LandingBannersConfig:
+    type: object
+    description: "A FIFO list of banner IDs to render in the landing screen. Visibility rules must be set and processed in app"
+    properties:
+      priority_order:
+        type: array
+        items:
+          type: string

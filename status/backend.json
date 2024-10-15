@@ -161,7 +161,13 @@
         "ios": "0.0.0.0",
         "android": "0.0.0.0"
       }
-    }
+    },
+    "landing_banners":{
+      "priority_order":[
+      "PUSH_NOTIFICATIONS_REMINDER",
+      "ITW_DISCOVERY" 
+    ]}
+    
   },
   "statusMessages": {
     "items": []

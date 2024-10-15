@@ -512,8 +512,8 @@ definitions:
         $ref: "#/definitions/ItwConfig"
       cie_id:
         $ref: "#/definitions/CieIDConfig"
-      landing_banners:
-        $ref: "#/definitions/LandingBannersConfig"
+      inbox_banners:
+        $ref: "#/definitions/InboxBannersConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -927,9 +927,9 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can see the login with CieID section"
-  LandingBannersConfig:
+  InboxBannersConfig:
     type: object
-    description: "A configuration for the landing banner feature"
+    description: "A configuration for the multiple banner feature"
     properties:
       priority_order:
         type: array

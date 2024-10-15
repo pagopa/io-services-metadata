@@ -141,7 +141,7 @@
         "android": "0.0.0.0"
       }
     },
-    "landing_banners":{
+    "inbox_banners":{
       "priority_order":[
       "ITW_DISCOVERY_BANNER" 
     ]}

@@ -857,10 +857,13 @@ definitions:
     properties:
       enabled:
         type: boolean
-        description: "If true, the app can show the new payment section"
+        description: "If true, the app can show the new payment section -> DEPRECATED FROM 2.65.0.0"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can see the new payment section"
+      feedbackBanner:
+        $ref: "#/definitions/Banner"
+        description: "If provided a feedback banner will be shown in the payment success screen"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"
@@ -920,6 +923,46 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"
+  Banner:
+    type: object
+    required:
+      - min_app_version
+      - description
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the banner will be shown"
+      title:
+        $ref: "#/definitions/LocalizedText"
+        description: "The title of the banner to be shown"
+      description:
+        $ref: "#/definitions/LocalizedText"
+        description: "The description of the banner to be shown"
+      action:
+        $ref: "#/definitions/BannerAction"
+        description: "The action to be performed when the banner is tapped"
+  BannerAction:
+    type: object
+    required:
+      - label
+      - url
+    properties:
+      label:
+        $ref: "#/definitions/LocalizedText"
+        description: "The label of the action"
+      url: 
+        type: string
+        description: "The URL to be opened when the action is performed"
+  LocalizedText:
+    type: object
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+      en-EN:
+        type: string
   CieIDConfig:
     type: object
     description: "A configuration for the CieID feature"

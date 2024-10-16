@@ -144,7 +144,8 @@
     "landing_banners":{
       "priority_order":[
       "PUSH_NOTIFICATIONS_REMINDER",
-      "ITW_DISCOVERY" 
+      "ITW_DISCOVERY" ,
+      "SETTINGS_DISCOVERY"
     ]}
     
   },

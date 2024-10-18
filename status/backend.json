@@ -123,12 +123,6 @@
           "ios": "2.51.0.0",
           "android": "2.51.0.0"
         }
-      },
-      "sessionRefresh": {
-        "min_app_version": {
-          "ios": "2.69.0.8",
-          "android": "2.69.0.8"
-        }
       }
     },
     "pn": {

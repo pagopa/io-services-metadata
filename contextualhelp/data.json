@@ -8,6 +8,37 @@
         "content": "Qui puoi vedere l’anteprima del documento allegato al messaggio. Puoi anche salvarlo, condividerlo o aprirlo con un’app di lettura PDF installata sul tuo dispositivo."
       },
       {
+        "route_name": "MESSAGES_HOME",
+        "title": "Messaggi",
+        "content": "Cosa puoi fare nei tuoi Messaggi\n**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+        "faqs": [
+          {
+            "title": "Che tipo di messaggi puoi ricevere?",
+            "body": "L'app IO permette di ricevere diversi tipi di messaggi: avvisi di pagamento (con possibilità di pagare contestualmente tramite l’app), promemoria di scadenze, notifiche e aggiornamenti vari.\nNon si tratta di messaggi generici che riguardando l'attività dell'ente, ma di comunicazioni che ti riguardano personalmente, come ad esempio un messaggio che ti avvisa della scadenza di un documento. Non aspettarti di ricevere spam sull'app IO: ti scriveranno solo i servizi che hanno qualcosa di importante da dirti."
+          },
+          {
+            "title": "Che succede se archivi i messaggi?",
+            "body": "I messaggi archiviati vengono spostati nella tab 'Archiviati' della sezione messaggi.\nQuesta modifica ha effetto solo sul telefono che stai utilizzando per effettuare l'operazione di archiviazione: se effettuerai l'accesso con le stesse credenziali su un altro dispositivo, ritroverai tutti i messaggi all'interno della categoria 'Ricevuti'. Puoi comunque rimuovere i messaggi dall'archivio e li ritroverai automaticamente nella tab principale 'Messaggi'."
+          },
+          {
+            "title": "È possibile rispondere ai messaggi?",
+            "body": "No, non è possibile rispondere al messaggio di un servizio direttamente dall'app IO.\nL'app al momento è un canale che agevola la comunicazione dall'ente verso il cittadino, e supporta lo svolgimento di alcune operazioni come quella di pagamento.\nSe hai la necessità di contattare un ente o hai delle domande in merito a una comunicazione ricevuta, puoi visualizzare nei dettagli del messaggio tutte le informazioni relative al servizio e dell'ente erogatore. Inoltre, se segui il link verso il profilo del servizio, trovi i recapiti attraverso cui contattare l'ente direttamente (indirizzo dello sportello, telefono, sito web, app, ecc.)."
+          },
+          {
+            "title": "Cos'è Documenti su IO?",
+            "body": "Documenti su IO è il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
+          },
+          {
+            "title": "Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?",
+            "body": "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti a partire dal mese di dicembre."
+          },
+          {
+            "title": "In che modo potrò sapere quando la funzionalità sarà disponibile per me?",
+            "body": "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
+          }
+        ]
+      },
+      {
         "route_name": "FCI_DOCUMENTS",
         "title": "Documento",
         "content": "Qui puoi vedere l’anteprima del documento da firmare",
@@ -629,27 +660,59 @@
       {
         "route_name": "WALLET_HOME",
         "title": "Cosa puoi fare nel tuo Portafoglio",
-        "content": "Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
+        "content": "Qui puoi aggiungere la versione digitale della tua Patente di guida, della Tessera Sanitaria e della Carta europea della disabilità.\n Puoi inoltre aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO.",
         "faqs": [
           {
-            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
+            "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
           },
           {
-            "title": "Come posso aggiungere un metodo di pagamento?",
-            "body": "Premi su 'Aggiungi al Portafoglio', seleziona ‘Metodi di pagamento’ e inserisci i dati richiesti."
+            "title": "Cosa vuol dire che la mia identità è verificata?",
+            "body": "Quando attivi Documenti su IO nel Portafoglio ti chiediamo di verificare la tua identità tramite autenticazione con SPID o CIE. “Identità verificata”significa che i tuoi documenti sono al sicuro e sono con certezza associati alla tua identità."
           },
           {
-            "title": "Come posso eliminare un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come card nella sezione Portafoglio. Seleziona la card del metodo che vuoi eliminare e poi premi 'Elimina questo metodo'."
+            "title": "Posso disattivare Documenti su IO?",
+            "body": "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi gestire la disattivazione remota di Documenti su IO da [IO web](https://ioapp.it/it/accedi/), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app IO saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
+            "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo). \nAssicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+          },
+          {
+            "title": "Posso rimuovere uno o più documenti dal Portafoglio dell’app?",
+            "body": "Sì, puoi rimuovere uno specifico documento dal Portafoglio, direttamente in app dalla schermata di dettaglio della versione digitale del documento stesso. Anche se rimuovi un documento dall’app, potrai sempre riaggiungerlo in futuro. Ricorda che la rimozione della versione digitale di un documento non ha alcun effetto sulla validità del relativo documento fisico."
+          },
+          {
+            "title": "Posso usare Documenti su IO contemporaneamente su più dispositivi?",
+            "body": "No, per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti e disattiverai la funzionalità sul precedente dispositivo."
+          },
+          {
+            "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
+            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti."
+          },
+          {
+            "title": "Perché se accedo all’app IO con un’altra identità digitale perdo le versioni digitali dei documenti che ho aggiunto al Portafoglio?",
+            "body": "Per ragioni di sicurezza, le versioni digitali dei tuoi documenti sono legate a uno specifico dispositivo e all’identità digitale che usi per accedere all’app IO."
+          },           
+          {
+            "title": "Cosa succede a Documenti su IO se cambio dispositivo?",
+            "body": "Per ragioni di sicurezza e verifica dell’identità, se accedi all’app IO da un dispositivo diverso dovrai ripetere l’attivazione di Documenti su IO e l’aggiunta delle versioni digitali dei tuoi documenti."
+          },
+          {
+            "title": "Cosa succede a Documenti su IO se mi rubano o perdo il mio dispositivo?",
+            "body": "Se hai perso il tuo dispositivo o te l’hanno rubato, dovrai disattivare la funzionalità Documenti su IO da IO web. [IO web](https://ioapp.it/it/accedi/) ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+          },
+          {
+            "title": "Cosa succede a Documenti su IO se si rompe il mio dispositivo?",
+            "body": "Se il tuo dispositivo ha smesso di funzionare, ti suggeriamo di disattivare la funzionalità Documenti su IO da IO web. [IO web](https://ioapp.it/it/accedi/) ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+          },
+          {
+            "title": "Cosa succede a Documenti su IO se disinstallo l’app IO?",
+            "body": "Se disinstalli l’app IO dal tuo dispositivo, disattiverai anche la funzionalità Documenti su IO e rimuoverai dal tuo dispositivo tutti i documenti in versione digitale che hai aggiunto."
           },
           {
             "title": "Non vedo più il mio account PayPal.",
             "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full). \nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
-          },
-          {
-            "title": "Non vedo più il mio account BANCOMAT Pay.",
-            "body": "Pagare con BANCOMAT Pay è ora più semplice. Non serve più salvarlo nel Portafoglio.\n In fase di pagamento, scegli BANCOMAT Pay dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.\n\nPer saperne di più, [guarda il video tutorial](https://youtu.be/vUXXYgXGuVg?si=L3ItcvwjNh1xceer) o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay)"
           },
           {
             "title": "Come faccio ad attivare Carta Giovani Nazionale?",
@@ -663,16 +726,24 @@
         "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
         "faqs": [
           {
+            "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n-la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+          },
+          {
+            "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
+            "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
+            "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+          },
+          {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
             "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
             "title": "Come posso rimuovere un metodo di pagamento?",
             "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
-          },
-          {
-            "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo 'in pausa' la tua carta."
           },
           {
             "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
@@ -683,22 +754,125 @@
       {
         "route_name": "ITW_DISCOVERY_INFO",
         "title": "Documenti su IO",
-        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali.\n\nAl momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno.\n\nDocumenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
-      },
+        "content": "Qui trovi le informazioni su come funziona Documenti su IO.",
+        "faqs": [
+          {
+            "title": "Perché devo usare SPID o CIE per attivare Documenti su IO?",
+            "body": "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
+          },
+          {
+            "title": "I miei dati sono al sicuro?",
+            "body": "Sì. La sicurezza dei tuoi dati è sempre garantita e la tua identità è verificata grazie all’autenticazione con SPID o CIE. IO condivide i tuoi dati con Istituto Poligrafico e Zecca dello Stato per identificarti e solo per il tempo necessario a consentire l’aggiunta della versione digitale dei documenti al Portafoglio."
+          },
+          {
+            "title": "Se attivo Documenti IO posso circolare senza i documenti fisici?",
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n- la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+          },
+          {
+            "title": "Cosa significa ‘versione digitale’ di un documento?",
+            "body": "Le versioni digitali dei documenti sono copie autentiche dei documenti fisici all’interno di un’applicazione digitale a norma di legge."
+          },
+          {
+            "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
+            "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
+          },
+          {
+            "title": "Documenti su IO è una funzionalità gratuita?",
+            "body": "Sì, non dovrai pagare nulla per usare Documenti su IO, come per tutte le altre funzionalità dell’app IO."
+          },
+          {
+            "title": "Perché il mio dispositivo non è ritenuto sicuro per attivare Documenti su IO?",
+            "body": "Il tuo dispositivo non è ritenuto sicuro se non possiede alcune specifiche tecniche minime (caratteristiche software di base per supportare alcune funzionalità dell’app) oppure è stato modificato a livello di sistema operativo o compromesso, rimuovendo ad esempio le restrizioni imposte da Apple (jailbreaked) o Android (rooted). In questo ultimo caso, il dispositivo supporterà l’app IO ma non la funzionalità Documenti su IO."
+          }
+        ]
+      },   
       {
         "route_name": "ITW_IDENTIFICATION_MODE_SELECTION",
-        "title": "Documenti su IO",
-        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali.\n\nAl momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno.\n\nDocumenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+        "title": "Verifica la tua identità",
+        "content": "Usa SPID, CIE per verificare la tua identità e procedere con l’aggiunta dei documenti su IO.",
+              "faqs": [
+          {
+            "title": "Perché devo usare SPID o CIE per attivare Documenti su IO?",
+            "body": "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
+          },
+          {
+            "title": "I miei dati sono al sicuro?",
+            "body": "Sì. La sicurezza dei tuoi dati è sempre garantita e la tua identità è verificata grazie all’autenticazione con SPID o CIE. IO condivide i tuoi dati con Istituto Poligrafico e Zecca dello Stato per identificarti e solo per il tempo necessario a consentire l’aggiunta della versione digitale dei documenti al Portafoglio."
+          },
+          {
+            "title": "Qual è l’origine dei dati presenti nelle versioni digitali dei documenti?",
+            "body": "I dati dei tuoi documenti sono forniti dall’ente che rilascia anche il documento fisico e che ne certifica l’autenticità. In particolare, il Ministero delle Infrastrutture e dei Trasporti -Direzione generale per la Motorizzazione per la Patente di guida, l’Istituto Nazionale di Previdenza Sociale per la Carta Europea della Disabilità e il Ministero dell’Economia e delle Finanze - Ragioneria Generale dello Stato per la Tessera Sanitaria - Tessera europea di assicurazione malattia."
+          },
+          {
+            "title": "Con chi sono condivisi i dati presenti nelle versioni digitali dei documenti?",
+            "body": "I dati dei tuoi documenti provengono dall’ente titolare della banca dati (es. Ministero delle Infrastrutture e dei Trasporti - Direzione generale per la Motorizzazione per la Patente di guida) e sono condivisi con l’ente che emette la versione digitale del documento (Istituto Poligrafico e Zecca dello Stato) solo per il tempo necessario ad aggiungerli al Portafoglio dell’app IO. I dati non vengono trattati da PagoPA S.p.A. ma restano memorizzati solo sul tuo dispositivo."
+          }
+        ]
       },
       {
         "route_name": "ITW_PRESENTATION_CREDENTIAL_DETAIL",
-        "title": "Documenti su IO",
-        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali.\n\nAl momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno.\n\nDocumenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+        "title": "Dettaglio documento",
+        "content": "Qui puoi vedere nel dettaglio il tuo documento e i tuoi dati. Trovi anche il certificato di autenticità da mostrare quando ti viene richiesto di dimostrare l’autenticità del documento.",
+        "faqs": [
+          {
+            "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
+            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti."
+          },
+          {
+            "title": "Posso usare la screenshot di un documento presente in Documenti su IO?",
+            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica."
+          },
+          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Patente?",
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
+          },
+          {
+            "title": "Lo stato della versione digitale della mia Patente di guida su IO è “In scadenza”.Cosa posso fare?",
+            "body": "Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Dovrai effettuare una visita medica con un medico abilitato e completare il pagamento dei bollettini che ti saranno indicati. Prepara la Patente fisica in scadenza/scaduta, un documento di identità, il Codice Fiscale e una fototessera recente. Una volta rinnovato il documento fisico, rimuovi e aggiungi di nuovo la versione digitale della tua Patente di guida al Portafoglio. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “scaduta”. Cosa posso fare?",
+            "body": "La tua Patente di guida ha superato la data di scadenza indicata sul documento. Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Per chiarimenti in merito al rinnovo della Patente puoi consultare [la pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Una volta rinnovato il documento fisico, puoi aggiornare la sua versione digitale premendo sul pulsante 'Aggiorna il documento' nella schermata di dettaglio del documento sull’app IO. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “non valida”. Cosa posso fare?",
+            "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
+          },
+          {
+            "title": "Come si leggono le voci sulla patente?",
+            "body": "Puoi consultare il dettaglio delle singole voci relative alla tua Patente di guida sulla [pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida)."
+          },
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Patente chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il '?' presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento, usando i canali di assistenza dedicati."
+          },
+          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+          },
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Carta Europea della Disabilità chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento, usando i canali di assistenza di quest’ultima. Se hai bisogno di assistenza per errori e anomalie sui dati del documento fisico, puoi utilizzare il servizio Inps Risponde accedendo all’area riservata MyInps sul portale www.inps.it o utilizzando l’app Inps Mobile."
+          }
+        ]
       },
       {
         "route_name": "ITW_PRESENTATION_CREDENTIAL_ATTACHMENT",
-        "title": "Documenti su IO",
-        "content": "Fai parte della sperimentazione di Documenti su IO, la nuova funzionalità che ti consente di aggiungere al Portafoglio dell'app IO le versioni digitali dei tuoi documenti personali.\n\nAl momento puoi aggiungere al Portafoglio le versioni digitali di questi documenti: Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità.\n\nRicorda che **durante la sperimentazione, le versioni digitali dei documenti non hanno valore legale e non potrai ancora utilizzarli.** \n\nDopo la sperimentazione, il rilascio ufficiale della funzionalità avverrà in modo graduale: Documenti su IO sarà disponibile per tutti gli utenti entro fine anno.\n\nDocumenti su IO rappresenta il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+        "title": "Tessera Sanitaria",
+        "content": "Qui puoi vedere la tua Tessera Sanitaria in formato PDF.",
+       "faqs": [
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+          }
+        ]
       },
       {
         "route_name": "ITW_CARD_ONBOARDING",
@@ -706,16 +880,24 @@
         "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
         "faqs": [
           {
+            "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n-la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+          },
+          {
+            "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
+            "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
+            "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+          },
+          {
             "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
           },
           {
             "title": "Come posso rimuovere un metodo di pagamento?",
             "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
-          },
-          {
-            "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Perché il salvataggio della carta non va a buon fine?\nPuò dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n3. La tua carta è stata sospesa o bloccata.\n4. Hai messo 'in pausa' la tua carta."
           },
           {
             "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",

@@ -783,7 +783,7 @@
           {
             "title": "Perché il mio dispositivo non è ritenuto sicuro per attivare Documenti su IO?",
             "body": "Il tuo dispositivo non è ritenuto sicuro se non possiede alcune specifiche tecniche minime (caratteristiche software di base per supportare alcune funzionalità dell’app) oppure è stato modificato a livello di sistema operativo o compromesso, rimuovendo ad esempio le restrizioni imposte da Apple (jailbreaked) o Android (rooted). In questo ultimo caso, il dispositivo supporterà l’app IO ma non la funzionalità Documenti su IO."
-          },
+          }
         ]
       },   
       {
@@ -816,11 +816,11 @@
         "faqs": [
           {
             "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
-            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti.",
+            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti."
           },
           {
             "title": "Posso usare la screenshot di un documento presente in Documenti su IO?",
-            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica.",
+            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica."
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Patente?",
@@ -867,7 +867,7 @@
        "faqs": [
           {
             "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
-            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070.",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
           },          {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
             "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
@@ -876,7 +876,7 @@
       },
       {
         "route_name": "ITW_CARD_ONBOARDING",
-               "title": "Cosa puoi aggiungere",
+        "title": "Cosa puoi aggiungere",
         "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
         "faqs": [
           {

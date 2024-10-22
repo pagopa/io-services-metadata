@@ -41,6 +41,67 @@
         }
       },
       {
+        "value": "it_wallet",
+        "description": {
+          "it-IT": "Documenti su IO",
+          "en-EN": "Documenti su IO",
+          "de-DE": "Documenti su IO"
+        },
+        "zendeskSubCategories": {
+          "id": "29326690756369",
+          "subCategories": [
+            {
+              "value": "it_wallet_info",
+              "description": {
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "Vorrei più informazioni",
+                "de-DE": "Vorrei più informazioni"
+              }
+            },
+            {
+              "value": "it_wallet_attivazione",
+              "description": {
+                "it-IT": "Documenti su IO non è attiva per me",
+                "en-EN": "Documenti su IO non è attiva per me",
+                "de-DE": "Documenti su IO non è attiva per me"
+              }
+            },
+            {
+              "value": "it_wallet_aggiunta_documenti",
+              "description": {
+                "it-IT": "Non riesco ad aggiungere i documenti",
+                "en-EN": "Non riesco ad aggiungere i documenti",
+                "de-DE": "Non riesco ad aggiungere i documenti"
+              }
+            },
+            {
+              "value": "it_wallet_patente_guida",
+              "description": {
+                "it-IT": "Ho un problema con la Patente di Guida",
+                "en-EN": "Ho un problema con la Patente di Guida",
+                "de-DE": "Ho un problema con la Patente di Guida"
+              }
+            },
+            {
+              "value": "it_wallet_tessera_sanitaria",
+              "description": {
+                "it-IT": "Ho un problema con la Tessera Sanitaria",
+                "en-EN": "Ho un problema con la Tessera Sanitaria",
+                "de-DE": "Ho un problema con la Tessera Sanitaria"
+              }
+            },
+            {
+              "value": "it_wallet_carta_disabilita",
+              "description": {
+                "it-IT": "Ho un problema con la Carta Europea della Disabilità",
+                "en-EN": "Ho un problema con la Carta Europea della Disabilità",
+                "de-DE": "Ho un problema con la Carta Europea della Disabilità"
+              }
+            }
+          ]
+        }
+      },
+      {
         "value": "pagamenti_pagopa",
         "description": {
           "it-IT": "Pagamento pagoPA",

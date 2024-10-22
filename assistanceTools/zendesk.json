@@ -86,7 +86,7 @@
               "value": "it_wallet_tessera_sanitaria",
               "description": {
                 "it-IT": "Ho un problema con la Tessera Sanitaria",
-                "en-EN": "Ho un problema con la Tessera Sanitaria",
+                "en-EN": "I have an issue with the Health Insurance Card",
                 "de-DE": "Ich habe ein Problem mit der Gesundheitskarte"
               }
             },

@@ -45,7 +45,7 @@
         "description": {
           "it-IT": "Documenti su IO",
           "en-EN": "Documenti su IO",
-          "de-DE": "Documenti su IO"
+          "de-DE": "Dokumente in IO"
         },
         "zendeskSubCategories": {
           "id": "29326690756369",
@@ -55,7 +55,7 @@
               "description": {
                 "it-IT": "Vorrei più informazioni",
                 "en-EN": "Vorrei più informazioni",
-                "de-DE": "Vorrei più informazioni"
+                "de-DE": "Weitere Informationen erhalten"
               }
             },
             {
@@ -63,7 +63,7 @@
               "description": {
                 "it-IT": "Documenti su IO non è attiva per me",
                 "en-EN": "Documenti su IO non è attiva per me",
-                "de-DE": "Documenti su IO non è attiva per me"
+                "de-DE": "Dokumente in IO ist für mich nicht aktiv"
               }
             },
             {
@@ -71,7 +71,7 @@
               "description": {
                 "it-IT": "Non riesco ad aggiungere i documenti",
                 "en-EN": "Non riesco ad aggiungere i documenti",
-                "de-DE": "Non riesco ad aggiungere i documenti"
+                "de-DE": "Ich kann keine Dokumente hinzufügen"
               }
             },
             {
@@ -79,7 +79,7 @@
               "description": {
                 "it-IT": "Ho un problema con la Patente di Guida",
                 "en-EN": "Ho un problema con la Patente di Guida",
-                "de-DE": "Ho un problema con la Patente di Guida"
+                "de-DE": "Ich habe ein Problem mit dem Führerschein"
               }
             },
             {
@@ -87,7 +87,7 @@
               "description": {
                 "it-IT": "Ho un problema con la Tessera Sanitaria",
                 "en-EN": "Ho un problema con la Tessera Sanitaria",
-                "de-DE": "Ho un problema con la Tessera Sanitaria"
+                "de-DE": "Ich habe ein Problem mit der Gesundheitskarte"
               }
             },
             {
@@ -95,7 +95,7 @@
               "description": {
                 "it-IT": "Ho un problema con la Carta Europea della Disabilità",
                 "en-EN": "Ho un problema con la Carta Europea della Disabilità",
-                "de-DE": "Ho un problema con la Carta Europea della Disabilità"
+                "de-DE": "Ich habe ein Problem mit dem Europäischen Behindertenausweis"
               }
             }
           ]
@@ -238,7 +238,7 @@
               "description": {
                 "it-IT": "Vorrei più informazioni",
                 "en-EN": "I'd like to have more information",
-                "de-DE": "Zusätzliche Informationen"
+                "de-DE": "Weitere Informationen"
               }
             }
           ]

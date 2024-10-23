@@ -663,6 +663,18 @@
         "content": "Qui puoi aggiungere la versione digitale della tua Patente di guida, della Tessera Sanitaria e della Carta europea della disabilità.\n Puoi inoltre aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO.",
         "faqs": [
           {
+            "title": "Cos'è Documenti su IO?",
+            "body": "Documenti su IO è il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
+          },
+          {
+            "title": "Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?",
+            "body": "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti a partire dal mese di dicembre."
+          },
+          {
+            "title": "In che modo potrò sapere quando la funzionalità sarà disponibile per me?",
+            "body": "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
+          },
+          {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
             "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
           },
@@ -711,10 +723,6 @@
             "body": "Se disinstalli l’app IO dal tuo dispositivo, disattiverai anche la funzionalità Documenti su IO e rimuoverai dal tuo dispositivo tutti i documenti in versione digitale che hai aggiunto."
           },
           {
-            "title": "Non vedo più il mio account PayPal.",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità, per una maggiore flessibilità:\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai Termini e Condizioni d’uso di [Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full). \nNon devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n**PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.\nPer farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
-          },
-          {
             "title": "Come faccio ad attivare Carta Giovani Nazionale?",
             "body": "Premi su'Aggiungi al Portafoglio', scegli “Carta Giovani Nazionale e segui le indicazioni."
           }
@@ -727,7 +735,7 @@
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
-            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n-la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
           },
           {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
@@ -810,6 +818,25 @@
         ]
       },
       {
+        "route_name": "ITW_IPZS_PRIVACY",
+        "title": "Informativa",
+        "content": "Qui trovi l’Informativa Privacy con tutti i dettagli sull’uso dei dati personali.",
+              "faqs": [
+          {
+            "title": "I miei dati sono al sicuro?",
+            "body": "Sì. La sicurezza dei tuoi dati è sempre garantita e la tua identità è verificata grazie all’autenticazione con SPID o CIE. IO condivide i tuoi dati con Istituto Poligrafico e Zecca dello Stato per identificarti e solo per il tempo necessario a consentire l’aggiunta della versione digitale dei documenti al Portafoglio."
+          },
+          {
+            "title": "Qual è l’origine dei dati presenti nelle versioni digitali dei documenti?",
+            "body": "I dati dei tuoi documenti sono forniti dall’ente che rilascia anche il documento fisico e che ne certifica l’autenticità. In particolare, il Ministero delle Infrastrutture e dei Trasporti -Direzione generale per la Motorizzazione per la Patente di guida, l’Istituto Nazionale di Previdenza Sociale per la Carta Europea della Disabilità e il Ministero dell’Economia e delle Finanze - Ragioneria Generale dello Stato per la Tessera Sanitaria - Tessera europea di assicurazione malattia."
+          },
+          {
+            "title": "Con chi sono condivisi i dati presenti nelle versioni digitali dei documenti?",
+            "body": "I dati dei tuoi documenti provengono dall’ente titolare della banca dati (es. Ministero delle Infrastrutture e dei Trasporti - Direzione generale per la Motorizzazione per la Patente di guida) e sono condivisi con l’ente che emette la versione digitale del documento (Istituto Poligrafico e Zecca dello Stato) solo per il tempo necessario ad aggiungerli al Portafoglio dell’app IO. I dati non vengono trattati da PagoPA S.p.A. ma restano memorizzati solo sul tuo dispositivo."
+          }
+        ]
+      },
+      {
         "route_name": "ITW_PRESENTATION_CREDENTIAL_DETAIL",
         "title": "Dettaglio documento",
         "content": "Qui puoi vedere nel dettaglio il tuo documento e i tuoi dati. Trovi anche il certificato di autenticità da mostrare quando ti viene richiesto di dimostrare l’autenticità del documento.",
@@ -839,7 +866,7 @@
             "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
           },
           {
-            "title": "Come si leggono le voci sulla patente?",
+            "title": "Come si leggono le voci sulla Patente?",
             "body": "Puoi consultare il dettaglio delle singole voci relative alla tua Patente di guida sulla [pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida)."
           },
           {
@@ -881,7 +908,7 @@
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
-            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n-la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
           },
           {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",

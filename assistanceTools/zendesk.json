@@ -41,6 +41,67 @@
         }
       },
       {
+        "value": "it_wallet",
+        "description": {
+          "it-IT": "Documenti su IO",
+          "en-EN": "Documenti su IO",
+          "de-DE": "Dokumente in IO"
+        },
+        "zendeskSubCategories": {
+          "id": "29326690756369",
+          "subCategories": [
+            {
+              "value": "it_wallet_info",
+              "description": {
+                "it-IT": "Vorrei più informazioni",
+                "en-EN": "I need more details",
+                "de-DE": "Weitere Informationen erhalten"
+              }
+            },
+            {
+              "value": "it_wallet_attivazione",
+              "description": {
+                "it-IT": "Documenti su IO non è attiva per me",
+                "en-EN": "Documenti su IO non è attiva per me",
+                "de-DE": "Dokumente in IO ist für mich nicht aktiv"
+              }
+            },
+            {
+              "value": "it_wallet_aggiunta_documenti",
+              "description": {
+                "it-IT": "Non riesco ad aggiungere i documenti",
+                "en-EN": "Non riesco ad aggiungere i documenti",
+                "de-DE": "Ich kann keine Dokumente hinzufügen"
+              }
+            },
+            {
+              "value": "it_wallet_patente_guida",
+              "description": {
+                "it-IT": "Ho un problema con la Patente di Guida",
+                "en-EN": "I have an issue with the Driving Licence",
+                "de-DE": "Ich habe ein Problem mit dem Führerschein"
+              }
+            },
+            {
+              "value": "it_wallet_tessera_sanitaria",
+              "description": {
+                "it-IT": "Ho un problema con la Tessera Sanitaria",
+                "en-EN": "I have an issue with the Health Insurance Card",
+                "de-DE": "Ich habe ein Problem mit der Gesundheitskarte"
+              }
+            },
+            {
+              "value": "it_wallet_carta_disabilita",
+              "description": {
+                "it-IT": "Ho un problema con la Carta Europea della Disabilità",
+                "en-EN": "I have an issue with the European Disability Card",
+                "de-DE": "Ich habe ein Problem mit dem Europäischen Behindertenausweis"
+              }
+            }
+          ]
+        }
+      },
+      {
         "value": "pagamenti_pagopa",
         "description": {
           "it-IT": "Pagamento pagoPA",
@@ -176,8 +237,8 @@
               "value": "firma_informazioni_generali",
               "description": {
                 "it-IT": "Vorrei più informazioni",
-                "en-EN": "I'd like to have more information",
-                "de-DE": "Zusätzliche Informationen"
+                "en-EN": "I need more details",
+                "de-DE": "Weitere Informationen erhalten"
               }
             }
           ]
@@ -213,8 +274,8 @@
               "value": "informazioni_generali",
               "description": {
                 "it-IT": "Vorrei più informazioni",
-                "en-EN": "I would like to have more information",
-                "de-DE": "Weitere Informationen"
+                "en-EN": "I need more details",
+                "de-DE": "Weitere Informationen erhalten"
               }
             }
           ]

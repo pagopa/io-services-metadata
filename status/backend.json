@@ -140,8 +140,8 @@
       }
     },
     "tos": {
-      "tos_version": 4.92,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=4.92"
+      "tos_version": 5.0,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.0"
     },
     "itw": {
       "enabled": true,

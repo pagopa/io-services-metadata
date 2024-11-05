@@ -301,7 +301,7 @@
           },
           {
             "title": "Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?",
-            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
+            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Impostazioni dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
           }
         ]
       },
@@ -334,7 +334,7 @@
       {
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -342,18 +342,18 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_PIN",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -361,18 +361,18 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_BIOMETRIC",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -380,11 +380,11 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
@@ -419,7 +419,7 @@
         "faqs": [
           {
             "title": "Come viene tutelata la mia privacy?",
-            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
+            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
           }
         ]
       },

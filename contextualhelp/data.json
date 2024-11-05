@@ -1766,7 +1766,7 @@
           },
           {
             "title": "If I choose to log in every 30 days or once a year, can I then change my choice?",
-            "body": "You can change your choice by logging out of IO. Go to the Profile section and press Logout/Exit. You will be asked to log in again and can choose how often to log in."
+            "body": "You can change your choice by logging out of IO. Go to the Settings and press Logout/Exit. You will be asked to log in again and can choose how often to log in."
           }
         ]
       },
@@ -1799,7 +1799,7 @@
       {
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "How biometric recognition works",
-        "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Profile section of the app.",
+        "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Settings section of the app.",
         "faqs": [
           {
             "title": "When will I be asked for biometric recognition?",
@@ -1807,11 +1807,11 @@
           },
           {
             "title": "How can I enable biometric recognition?",
-            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section and enable it there too."
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Settings' section and enable it there too."
           },
           {
             "title": "How can I disable biometric recognition?",
-            "body": "Go to the 'Profile' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+            "body": "Go to the 'Settings' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
           }
         ]
       },

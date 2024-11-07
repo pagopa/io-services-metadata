@@ -301,7 +301,7 @@
           },
           {
             "title": "Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?",
-            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
+            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Impostazioni dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
           }
         ]
       },
@@ -334,7 +334,7 @@
       {
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -342,18 +342,18 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_PIN",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -361,18 +361,18 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_BIOMETRIC",
         "title": "Come funziona il riconoscimento biometrico",
-        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Profilo'",
+        "content": "Con il riconoscimento biometrico, puoi accedere all’app senza inserire ogni volta il codice di sblocco. Puoi abilitarlo o disabilitarlo nella sezione 'Impostazioni'",
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
@@ -380,11 +380,11 @@
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
-            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Profilo' e abilitalo anche lì."
+            "body": "Se il tuo telefono supporta il riconoscimento biometrico, attivalo dalle preferenze di sistema. Poi, vai alla sezione 'Impostazioni' e abilitalo anche lì."
           },
           {
             "title": "Come posso disabilitare il riconoscimento biometrico?",
-            "body": "Puoi farlo dalla sezione 'Profilo'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
+            "body": "Puoi farlo dalla sezione 'Impostazioni'. Se il tuo dispositivo non lo supporta o se è disabilitato nelle preferenze di sistema, il riconoscimento biometrico risulterà già disattivato."
           }
         ]
       },
@@ -419,7 +419,7 @@
         "faqs": [
           {
             "title": "Come viene tutelata la mia privacy?",
-            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=)./n Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
+            "body": "Abbiamo progettato e sviluppato l’app IO secondo i principi del [Regolamento generale sulla protezione dei dati](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN), e del [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=). Proteggere le tue informazioni e i tuoi diritti è una nostra priorità.\n\nPer approfondire, leggi [l’Informativa sul trattamento dei dati personali](https://io.italia.it/app-content/tos_privacy.html)"
           }
         ]
       },
@@ -1188,7 +1188,7 @@
           },
           {
             "title": "Questo ente ha il permesso di scriverti?",
-            "body": "Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Profilo > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
+                "body": "Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Impostazioni' > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
           },
           {
             "title": "Vuoi contattare l'ente?",
@@ -1239,7 +1239,7 @@
             "body": "Sono messaggi che l’ente può modificare dopo che li hai ricevuti. In questo modo, le informazioni che contengono saranno sempre aggiornate. Un ente può modificare le informazioni di un messaggio dinamico solo in casi specifici, per esempio per cambiare un’informazione vecchia o aggiornare un allegato non più valido. Se deve comunicarti nuove informazioni o aggiornamenti importanti, ti invierà un nuovo messaggio."
           }
         ]
-      },
+      },          
       {
         "route_name": "SERVICES_HOME",
         "title": "Cosa puoi fare nei Servizi",
@@ -1778,7 +1778,7 @@
           },
           {
             "title": "If I choose to log in every 30 days or once a year, can I then change my choice?",
-            "body": "You can change your choice by logging out of IO. Go to the Profile section and press Logout/Exit. You will be asked to log in again and can choose how often to log in."
+            "body": "You can change your choice by logging out of IO. Go to the Settings and press Logout/Exit. You will be asked to log in again and can choose how often to log in."
           }
         ]
       },
@@ -1811,7 +1811,7 @@
       {
         "route_name": "ONBOARDING_FINGERPRINT",
         "title": "How biometric recognition works",
-        "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Profile section of the app.",
+        "content": "With biometric recognition, you can access the app without entering the unlock code each time. You can enable or disable it in the Settings section of the app.",
         "faqs": [
           {
             "title": "When will I be asked for biometric recognition?",
@@ -1819,11 +1819,11 @@
           },
           {
             "title": "How can I enable biometric recognition?",
-            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Profile' section and enable it there too."
+            "body": "If your phone supports biometric recognition, enable it from the system preferences. Then, go to the 'Settings' section and enable it there too."
           },
           {
             "title": "How can I disable biometric recognition?",
-            "body": "Go to the 'Profile' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
+            "body": "Go to the 'Settings' section. Biometric recognition will already be turned off if your device does not support it, or if it is disabled in the system preferences."
           }
         ]
       },

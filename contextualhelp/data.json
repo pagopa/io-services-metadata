@@ -1156,6 +1156,10 @@
             "body": "Al momento puoi aggiungere la carta dalla sezione Portafoglio prima di iniziare un pagamento. In futuro, potrai pagare anche senza salvarla. Questo ti sarà utile, ad esempio, se vorrai usare carte monouso o usa e getta."
           },
           {
+            "title": "Perché non vedo un metodo?",
+            "body": "Al momento potrebbe non essere disponibile, oppure l'importo dell’avviso che stai cercando di pagare supera il massimale previsto dal gestore del pagamento."
+          },
+          {
             "title": "Vorrei usare PayPal, cosa scelgo?",
             "body": "Se vuoi pagare a rate, puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
           },

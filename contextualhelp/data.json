@@ -684,7 +684,7 @@
           },
           {
             "title": "Posso disattivare Documenti su IO?",
-            "body": "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi gestire la disattivazione remota di Documenti su IO da [IO web](https://ioapp.it/it/accedi/), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app IO saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti."
+            "body": "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito (ioapp.it)[ioapp.it], che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app IO saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti."
           },
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
@@ -712,11 +712,11 @@
           },
           {
             "title": "Cosa succede a Documenti su IO se mi rubano o perdo il mio dispositivo?",
-            "body": "Se hai perso il tuo dispositivo o te l’hanno rubato, dovrai disattivare la funzionalità Documenti su IO da IO web. [IO web](https://ioapp.it/it/accedi/) ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+            "body": "Se hai perso il tuo dispositivo o te l’hanno rubato, dovrai disattivare la funzionalità Documenti su IO da web, , accedendo al sito (ioapp.it)[ioapp.it], che ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
           },
           {
             "title": "Cosa succede a Documenti su IO se si rompe il mio dispositivo?",
-            "body": "Se il tuo dispositivo ha smesso di funzionare, ti suggeriamo di disattivare la funzionalità Documenti su IO da IO web. [IO web](https://ioapp.it/it/accedi/) ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+            "body": "Se il tuo dispositivo ha smesso di funzionare, ti suggeriamo di disattivare la funzionalità Documenti su IO da web, accedendo al sito (ioapp.it)[ioapp.it], che ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
           },
           {
             "title": "Cosa succede a Documenti su IO se disinstallo l’app IO?",
@@ -854,6 +854,14 @@
             "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
           },
           {
+            "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta 'non valida'. Cosa posso fare?",
+            "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Puoi verificare lo stato della versione digitale della tua Patente nella schermata di dettaglio del documento sull’app.\n Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella (sezione Contatti del Portale dell’Automobilista)[https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti]."
+          },
+          {
             "title": "Lo stato della versione digitale della mia Patente di guida su IO è “In scadenza”.Cosa posso fare?",
             "body": "Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Dovrai effettuare una visita medica con un medico abilitato e completare il pagamento dei bollettini che ti saranno indicati. Prepara la Patente fisica in scadenza/scaduta, un documento di identità, il Codice Fiscale e una fototessera recente. Una volta rinnovato il documento fisico, rimuovi e aggiungi di nuovo la versione digitale della tua Patente di guida al Portafoglio. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
           },
@@ -862,16 +870,24 @@
             "body": "La tua Patente di guida ha superato la data di scadenza indicata sul documento. Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Per chiarimenti in merito al rinnovo della Patente puoi consultare [la pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Una volta rinnovato il documento fisico, puoi aggiornare la sua versione digitale premendo sul pulsante 'Aggiorna il documento' nella schermata di dettaglio del documento sull’app IO. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
           },
           {
-            "title": "La versione digitale della mia Patente di guida su IO risulta “non valida”. Cosa posso fare?",
-            "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
+            "title": "La versione digitale della mia Patente di guida su IO risulta “revocata”. Cosa posso fare?",
+            "body": "La tua Patente di guida può essere revocata dalle autorità, di solito per infrazioni molto gravi, reati, o per incapacità fisica o mentale permanente del titolare di guidare in sicurezza. Per chiarimenti in merito alle revoche puoi rivolgerti all’Ufficio di Motorizzazione Civile di competenza."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “annullata”. Cosa posso fare?",
+            "body": "La patente può essere annullata per problemi amministrativi e/o di stampa, esito dell'esame non superato, mancata consegna o successiva emissione di una nuova patente. Per chiarimenti in merito puoi contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella (sezione Contatti del Portale dell’Automobilista)[https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti]"
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “sospesa”. Cosa posso fare?",
+            "body": "La tua Patente di guida può essere temporaneamente sospesa a causa di infrazioni gravi, incidenti stradali, o per altre ragioni amministrative o sanitarie. Per chiarimenti in merito alle sospensioni puoi rivolgerti all’Ufficio di Motorizzazione Civile di competenza."
           },
           {
             "title": "Come si leggono le voci sulla Patente?",
             "body": "Puoi consultare il dettaglio delle singole voci relative alla tua Patente di guida sulla [pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida)."
           },
           {
-            "title": "Se riscontro errori nei dati della versione digitale della Patente chi posso contattare?",
-            "body": "Puoi aprire una richiesta di assistenza premendo il '?' presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento, usando i canali di assistenza dedicati."
+            "title": "Se riscontro delle inesattezze nei dati della mia Patente (ad esempio abilitazioni di categoria) a chi posso rivolgermi?",
+            "body": "Puoi rivolgerti agli uffici della Motorizzazione di competenza.\n Per ricevere assistenza su come risolvere il problema, puoi contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella (sezione Contatti del Portale dell’Automobilista)[https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti]"
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",

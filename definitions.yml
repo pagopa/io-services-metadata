@@ -413,6 +413,12 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       payments:
         $ref: "#/definitions/SectionStatus"
+      itw_discovery_tos:
+        $ref: "#/definitions/SectionStatus"
+      itw_identification:
+        $ref: "#/definitions/SectionStatus"
+      itw_credential_onboarding:
+        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section
@@ -909,6 +915,7 @@ definitions:
     required:
       - min_app_version
       - enabled
+      - feedback_banner_visible
     properties:
       enabled:
         type: boolean
@@ -916,6 +923,22 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"
+      disabled_identification_methods:
+        description: "List of identification methods to disable or hide during IT Wallet activation"
+        type: array
+        items:
+          type: string
+          enum:
+            - SPID
+            - CieID
+            - CiePin
+      disabled_credentials:
+        description: "List of credentials to disable or hide in the credentials selection screen"
+        type: array
+        items:
+          type: string
+      feedback_banner_visible:
+        type: boolean
   Banner:
     type: object
     required:

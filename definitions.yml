@@ -928,7 +928,7 @@ definitions:
         type: array
         items:
           type: string
-          enum:
+          x-extensible-enum:
             - SPID
             - CieID
             - CiePin
@@ -938,6 +938,7 @@ definitions:
         items:
           type: string
       feedback_banner_visible:
+        description: "Manages the visibility of the banner that prompts users for a feedback on IT Wallet"
         type: boolean
   Banner:
     type: object

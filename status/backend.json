@@ -148,7 +148,8 @@
       "min_app_version": {
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
-      }
+      },
+      "feedback_banner_visible": true
     },
     "cie_id": {
       "min_app_version": {

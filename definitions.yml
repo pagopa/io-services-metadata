@@ -415,12 +415,6 @@ definitions:
         $ref: "#/definitions/SectionStatus"
       payments:
         $ref: "#/definitions/SectionStatus"
-      itw_discovery_tos:
-        $ref: "#/definitions/SectionStatus"
-      itw_identification:
-        $ref: "#/definitions/SectionStatus"
-      itw_credential_onboarding:
-        $ref: "#/definitions/SectionStatus"
   SectionStatus:
     type: object
     description: The status of a specific app section
@@ -941,6 +935,9 @@ definitions:
           type: string
       feedback_banner_visible:
         description: "Manages the visibility of the banner that prompts users for a feedback on IT Wallet"
+        type: boolean
+      wallet_activation_disabled:
+        description: "Flag that disables the button to activate the wallet"
         type: boolean
   Banner:
     type: object

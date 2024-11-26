@@ -645,10 +645,13 @@ definitions:
     required:
       - it-IT
       - en-EN
+      - de-DE
     properties:
       it-IT:
         type: string
       en-EN:
+        type: string
+      de-DE:
         type: string
   ZendeskCategory:
     type: object

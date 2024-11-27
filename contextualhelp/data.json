@@ -956,7 +956,7 @@
         "faqs": [
           {
             "title": "Cosa succede se disattivo 'Pagamenti in app'?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "body": "Il metodo di pagamento non potrà essere usato per pagare gli avvisi di pagamento tramite l’app IO. Potrai invece utilizzarlo per eventuali iniziative di welfare."
           },
           {
             "title": "Posso pagare anche a rate con PayPal?",

@@ -173,9 +173,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Ci sono molte richieste sui sistemi dell'ente che fornisce i dati della Tessera Sanitaria. L'ente è al lavoro per risolvere il problema. Riprova più tardi.",
+            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Riprova più tardi.",
           "en-EN":
-            "Ci sono molte richieste sui sistemi dell'ente che fornisce i dati della Tessera Sanitaria. L'ente è al lavoro per risolvere il problema. Riprova più tardi."
+            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Riprova più tardi."
         }
       }
     ]

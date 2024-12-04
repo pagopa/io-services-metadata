@@ -254,11 +254,11 @@
       {
         "route_name": "AUTHENTICATION_LANDING",
         "title": "Come accedere a IO",
-        "content": "Per accedere a IO, devi autenticarti con la tua identità SPID o con la Carta d'Identità Elettronica (CIE). Per attivare SPID, segui la procedura che trovi [in questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). Per richiedere la CIE, vai sul sito del tuo Comune.",
+        "content": "Per accedere a IO, puoi scegliere di autenticarti con la tua identità SPID, con la Carta d'Identità Elettronica (CIE) o con l’app CieID. Se non hai SPID, segui la procedura che trovi [in questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). Per richiedere la Carta d’identità Elettronica, vai sul sito del tuo Comune.",
         "faqs": [
           {
             "title": "Cos’è SPID?",
-            "body": "SPID è il sistema di autenticazione che permette a cittadini e imprese di accedere ai servizi online della Pubblica Amministrazione e dei privati aderenti con un’identità digitale unica, costituita da un nome utente e una password."
+            "body": "SPID è il sistema di autenticazione digitale che permette a cittadini e imprese di accedere ai servizi online della Pubblica Amministrazione e di alcune aziende private. Con SPID puoi usare un’unica identità digitale, per tutti i servizi che lo consentono. Puoi trovare tutti i dettagli [in questo sito](https://www.spid.gov.it/)."
           },
           {
             "title": "Come posso attivare SPID?",
@@ -277,6 +277,18 @@
             "body": "[Vai a questo sito](https://www.prenotazionicie.interno.gov.it/) e digita il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, procedi alla prenotazione dell'appuntamento. In caso contrario, chiedi un appuntamento dal sito del tuo Comune o vai in un ufficio comunale."
           },
           {
+            "title": "Cos’è CieID?",
+            "body": "È l'app ufficiale che ti permette di usare la tua Carta d'Identità Elettronica (CIE) per dimostrare la tua identità digitale. Per entrare su IO con l’app CieID, inserisci il codice alfanumerico che hai scelto per l’app CieID o usa il riconoscimento biometrico (volto o impronta)."
+          },
+          {
+            "title": "Come faccio ad accedere con CieID?",
+            "body": "Se vuoi usare l’app CieID per entrare su IO segui questi passaggi:\n 1. Premi su 'Entra con CIE'\n 2. Seleziona 'Entra con CieID'\n 3. Scegli se usare l’accesso rapido o entrare con SPID o CIE ogni 30 giorni\n 4. Si aprirà l'app CieID. Se hai già configurato l'app sul tuo dispositivo, inserisci il codice che hai creato (composto da 6 caratteri, numeri o lettere). Se attivo, puoi usare al suo posto il riconoscimento biometrico (volto o impronta)\n 5. Premi 'Continua' per completare l'autenticazione e tornare su IO\n 6. Premi 'Prosegui' per completare l'operazione.\n\n Per sapere come configurare l'app CieID sul tuo dispositivo, trovi istruzioni dettagliate sul [sito ufficiale della Carta di Identità Elettronica](https://www.cartaidentita.interno.gov.it/info-utili/cie-id/)."
+          },
+          {
+            "title": "Posso entrare su IO senza usare fisicamente la Carta di Identità Elettronica?",
+            "body": "Sì, puoi farlo scegliendo CieID come metodo di autenticazione.\n Assicurati prima di aver abilitato l’accesso con livello 1 e 2 nell’app CieID. Per sapere come fare, segui [queste indicazioni](https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/)."
+          },
+          {
             "title": "Ho problemi ad accedere con SPID da un dispositivo con sistema operativo Android. Cosa posso fare?",
             "body": "Su alcuni dispositivi con sistema operativo Android, l’app IO potrebbe bloccarsi o riavviarsi inaspettatamente quando la usi insieme ad altre app, ad esempio quando provi ad accedere con SPID tramite l’app del tuo Identity Provider. Se hai riscontrato questo problema, segui questi passaggi:\n\n1- tocca e tieni premuta l'icona dell'app IO per alcuni secondi;\n2- seleziona '**App Info**' dal menu che compare;\n3- scorri verso il basso e seleziona '**Risparmio energetico**' o '**Batteria**' (può variare a seconda del dispositivo);\n4- seleziona l'opzione '**Nessuna restrizione**' o '**Senza limitazioni**' o comunque disattiva l'ottimizzazione dell'uso batteria per app IO (può variare a seconda del dispositivo);\n5- riavvia l’app e prova nuovamente ad accedere con SPID."
           }
@@ -293,7 +305,7 @@
           },
           {
             "title": "Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?",
-            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Impostazioni dell’app e  premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
+            "body": "Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Impostazioni dell’app e premi su ‘Esci da IO’. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti."
           }
         ]
       },
@@ -305,6 +317,10 @@
           {
             "title": "Che cos’è un Identity Provider?",
             "body": "L’identità SPID è rilasciata dagli Identity Provider, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il tuo Identity Provider è il soggetto che hai scelto come fornitore del tuo SPID."
+          },
+          {
+            "title": "Ho perso le mie credenziali SPID. Come posso fare?",
+            "body": "Puoi recuperare username e password in qualsiasi momento. Scegli dall'elenco il tuo Identity Provider per sapere come procedere:\n- [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n- [SpidItalia, se hai dimenticato l'username](https://spid.register.it/selfcare/recovery/username)\n- [SpidItalia, se hai dimenticato la password](https://spid.register.it/selfcare/recovery/password)\n- [Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- [Tim, se hai dimenticato l'username](https://id.tim.it/secure-proxy/fu)\n- [Tim, se hai dimenticato la password](https://id.tim.it/secure-proxy/fp)\n- [TeamSystem,se hai dimenticato l'username](https://spid.teamsystem.com/it/auth/usernameLost)\n- [TeamSystem, se hai dimenticato la password](https://spid.teamsystem.com/it/auth/passwordLost)."
           }
         ]
       },
@@ -383,7 +399,7 @@
       {
         "route_name": "ONBOARDING_PIN",
         "title": "Come funziona il codice di sblocco",
-        "content": "Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo utilizzare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi 'Hai dimenticato il codice di sblocco?' e impostane uno nuovo. Se vuoi modificarlo, premi 'Modifica il codice di sblocco'.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",
+        "content": "Qui puoi impostare o modificare il tuo codice di sblocco. Se è la prima volta che entri nell'app, scegli un codice e memorizzalo, così da poterlo usare ogni volta che devi accedere. Se l'hai già impostato e non lo ricordi, premi 'Hai dimenticato il codice di sblocco?' e impostane uno nuovo. Se vuoi modificarlo, premi 'Modifica il codice di sblocco'.\n\nIl codice di sblocco è legato al dispositivo su cui l'hai impostato: se cambi telefono, dovrai impostarlo nuovamente al primo accesso all'app.",
         "faqs": [
           {
             "title": "Cos’è il codice di sblocco?",
@@ -858,7 +874,7 @@
             "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Puoi verificare lo stato della versione digitale della tua Patente nella schermata di dettaglio del documento sull’app.\n Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella (sezione Contatti del Portale dell’Automobilista)[https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti]."
           },
           {
-            "title": "Lo stato della versione digitale della mia Patente di guida su IO è “In scadenza”.Cosa posso fare?",
+            "title": "Lo stato della versione digitale della mia Patente di guida su IO è “In scadenza”. Cosa posso fare?",
             "body": "Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Dovrai effettuare una visita medica con un medico abilitato e completare il pagamento dei bollettini che ti saranno indicati. Prepara la Patente fisica in scadenza/scaduta, un documento di identità, il Codice Fiscale e una fototessera recente. Una volta rinnovato il documento fisico, rimuovi e aggiungi di nuovo la versione digitale della tua Patente di guida al Portafoglio. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
           },
           {
@@ -975,7 +991,7 @@
           },
           {
             "title": "Cosa vedo nella ricevuta?",
-            "body": "La ricevuta include:\n- le informazioni sulla transazione;\n- i dettagli sull’avviso pagato;\n- le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
+            "body": "La ricevuta include:\n - le informazioni sulla transazione;\n - i dettagli sull’avviso pagato;\n - le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
           },
           {
             "title": "Dove trovo i pagamenti effettuati?",
@@ -1755,11 +1771,11 @@
       {
         "route_name": "AUTHENTICATION_LANDING",
         "title": "How to access IO",
-        "content": "To access IO, you must authenticate with either your SPID identity or Electronic Identity Card (CIE). To activate SPID, follow the information found [on this website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). To request your CIE, go to your Municipality's website.",
+        "content": "To access IO, you can choose to authenticate with your SPID identity, Electronic Identity Card (CIE) or CieID app. To activate SPID, follow the information found [on this website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). To request your CIE, go to your Municipality's website.",
         "faqs": [
           {
             "title": "What is SPID?",
-            "body": "SPID is the authentication system that allows citizens and businesses to access online services of the Public Administration and participating individuals with a unique digital identity consisting of a username and password."
+            "body": "SPID is the digital authentication system that allows citizens and businesses to access online services of the public administration and some private companies. With SPID you can use a single digital identity, for all services that allow it. You can find all the details [here](https://www.spid.gov.it/)"
           },
           {
             "title": "How can I get SPID?",
@@ -1777,6 +1793,18 @@
             "title": "How can I request the CIE?",
             "body": "[Go to this website](https://www.prenotazionicie.interno.gov.it/) and type in the name of your municipality to see if it uses the Agenda CIE online appointment system. If it does, book an appointment. If it doesn’t, request an appointment from your municipality's website or go to a municipal office."
           },
+          {
+            "title": "What is CieID?",
+            "body": "[It is the official app that allows you to use your Electronic Identity Card (CIE) to prove your digital identity. To enter IO with the CieID app, enter the CieID app code or use biometric recognition."
+          },
+          {
+            "title": "How do I log in with CieID?",
+            "body": "If you want to use the CieID app to log into IO, follow these steps:\n 1. Tap on “Log in with CIE”\n 2. Select “Log in with CieID”\n 3. Choose whether to use quick access or log in with SPID or CIE every 30 days\n 4. The CieID app will open. If you have already set up the app on your device, enter the code you created (composed of 6 characters, numbers, or letters). If enabled, you can use biometric recognition (face or fingerprint) instead.\n 5. Tap “Continue” to complete the authentication and return to IO\n 6. Tap “Continue” to complete the operation.\n\n To learn how to set up the CieID app on your device, you can find detailed instructions on the [official website of the Electronic Identity Card](https://www.cartaidentita.interno.gov.it/info-utili/cie-id/)."
+          }, 
+          {
+            "title": "Can I log into IO without physically using an Electronic Identity Card?",
+            "body": "”Yes, you can do so by choosing CieID as your authentication method.  Make sure first that you have enabled access with level 1 and 2 in the CieID app. To find out how to do this, follow [these instructions] (https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/)"
+          },          
           {
             "title": "I have some problems logging in with SPID from a device running Android. What can I do",
             "body": "On some devices running the Android operating system, the IO app may crash or restart unexpectedly when used in combination with other apps, for example when trying to log in with SPID via your Identity Provider's app. If you experience this problem, please follow these steps: \n\n1- tap and hold the IO app icon for a few seconds;\n2- select '**App Info**' from the menu that appears;\n3- scroll down and select '**Power Savings**' or '**Battery**' (may vary depending on the device); \n4- select the option '**No Restrictions**' or '**No Limitations**' or otherwise disable battery usage optimisation for IO apps (may vary per device); \n5- restart the app and try logging in with SPID again."
@@ -1806,6 +1834,10 @@
           {
             "title": "What is an Identity Provider?",
             "body": "SPID identity is issued by Identity Providers, who provide digital identities and manage user authentication. Your Identity Provider is the entity you chose as your SPID provider."
+          },
+          {
+            "title": "I forgot my SPID credentials. What can I do?",
+            "body": "You can recover your username and password at any time. Choose your Identity Provider from the list to find out how to proceed:\n\n [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n- [SpidItalia,in case of forgotten username](https://spid.register.it/selfcare/recovery/username)\n -[SpidItalia,in case of forgotten password](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim,in case of forgotten username](https://id.tim.it/secure-proxy/fu)\n -[Tim, in case of forgotten password](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem,in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)"
           }
         ]
       },

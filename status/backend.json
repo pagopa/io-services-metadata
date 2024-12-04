@@ -149,7 +149,10 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       },
-      "feedback_banner_visible": true
+      "feedback_banner_visible": true,
+      "itw": {
+        "disabled_credentials": ["EuropeanHealthInsuranceCard"]
+      }
     },
     "cie_id": {
       "min_app_version": {

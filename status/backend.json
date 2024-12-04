@@ -172,9 +172,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Se riscontri problemi, riprova più tardi.",
+            "Moltissime persone stanno chiedendo i documenti digitali, quindi potrebbe volerci un po’ di pazienza. In caso, riprova più tardi.",
           "en-EN":
-            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Se riscontri problemi, riprova più tardi."
+            "Moltissime persone stanno chiedendo i documenti digitali, quindi potrebbe volerci un po’ di pazienza. In caso, riprova più tardi."
         }
       }
     ]

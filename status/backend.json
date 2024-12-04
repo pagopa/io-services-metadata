@@ -163,7 +163,7 @@
       "ITW_DISCOVERY" ,
       "SETTINGS_DISCOVERY"
     ]}
-    
+
   },
   "statusMessages": {
     "items": [
@@ -172,9 +172,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Riprova più tardi.",
+            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Se riscontri problemi, riprova più tardi.",
           "en-EN":
-            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Riprova più tardi."
+            "Ci sono molte richieste sui sistemi del fornitore tecnico che restituisce i dati della Tessera Sanitaria. Se riscontri problemi, riprova più tardi."
         }
       }
     ]

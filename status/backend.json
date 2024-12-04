@@ -166,7 +166,18 @@
     
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": ["ITW_CARD_ONBOARDING"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "C'è un problema temporaneo sui sistemi dell'ente che emette la versione digitale della Tessera Sanitaria. Riprova più tardi.",
+          "en-EN":
+            "C'è un problema temporaneo sui sistemi dell'ente che emette la versione digitale della Tessera Sanitaria. Riprova più tardi."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

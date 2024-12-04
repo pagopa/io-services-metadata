@@ -149,12 +149,12 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       },
-      "feedback_banner_visible": true
+      "feedback_banner_visible": false
     },
     "cie_id": {
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "2.78.0.11",
+        "android": "2.78.0.11"
       }
     },
     "landing_banners":{
@@ -163,7 +163,7 @@
       "ITW_DISCOVERY" ,
       "SETTINGS_DISCOVERY"
     ]}
-    
+
   },
   "statusMessages": {
     "items": []

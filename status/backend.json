@@ -149,7 +149,8 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       },
-      "feedback_banner_visible": true
+      "feedback_banner_visible": true,
+      "disabled_credentials": ["EuropeanHealthInsuranceCard"]
     },
     "cie_id": {
       "min_app_version": {
@@ -166,7 +167,18 @@
     
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": ["ITW_CARD_ONBOARDING"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Ci sono molte richieste sui sistemi dell'ente che fornisce i dati della Tessera Sanitaria. L'ente è al lavoro per risolvere il problema. Riprova più tardi.",
+          "en-EN":
+            "Ci sono molte richieste sui sistemi dell'ente che fornisce i dati della Tessera Sanitaria. L'ente è al lavoro per risolvere il problema. Riprova più tardi."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

@@ -172,9 +172,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "C'è un problema temporaneo sui sistemi dell'ente che emette la versione digitale della Tessera Sanitaria. Riprova più tardi.",
+            "C'è un problema temporaneo sui sistemi dell'ente che detiene i dati di Tessera Sanitaria - Tessera europea di assicurazione malattia. Riprova più tardi.",
           "en-EN":
-            "C'è un problema temporaneo sui sistemi dell'ente che emette la versione digitale della Tessera Sanitaria. Riprova più tardi."
+            "C'è un problema temporaneo sui sistemi dell'ente che detiene i dati di Tessera Sanitaria - Tessera europea di assicurazione malattia. Riprova più tardi."
         }
       }
     ]

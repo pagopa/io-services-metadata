@@ -74,6 +74,8 @@ definitions:
         $ref: "#/definitions/ContextualHelpData"
       en:
         $ref: "#/definitions/ContextualHelpData"
+      de:
+        $ref: "#/definitions/ContextualHelpData"
   ContextualHelpData:
     type: object
     required:

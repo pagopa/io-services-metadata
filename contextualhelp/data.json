@@ -742,8 +742,8 @@
       },
       {
         "route_name": "NEW_WALLET_CARD_ONBOARDING",
-        "title": "Cosa puoi aggiungere",
-        "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
+        "title": "Quando avviene il rilascio dei documenti digitali su IO?",
+        "content": "**Patente di guida**\nL’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).\n\n**Tessera sanitaria - Tessera europea di assicurazione malattia**\nL’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.\n\n**Carta Europea della Disabilità**L’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.",
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
@@ -756,14 +756,6 @@
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
-          },
-          {
-            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
-          },
-          {
-            "title": "Come posso rimuovere un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
           },
           {
             "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
@@ -932,8 +924,8 @@
       },
       {
         "route_name": "ITW_CARD_ONBOARDING",
-        "title": "Cosa puoi aggiungere",
-        "content": "Qui puoi scegliere il metodo di pagamento, il bonus o l’iniziativa da aggiungere al tuo Portafoglio.",
+        "title": "Quando avviene il rilascio dei documenti digitali su IO?",
+        "content": "**Patente di guida**\nL’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).\n\n**Tessera sanitaria - Tessera europea di assicurazione malattia**\nL’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.\n\n**Carta Europea della Disabilità**L’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.",
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
@@ -946,14 +938,6 @@
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
-          },
-          {
-            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
-          },
-          {
-            "title": "Come posso rimuovere un metodo di pagamento?",
-            "body": "I tuoi metodi di pagamento sono visualizzati come tessere nel Portafoglio. Per rimuovere un metodo, premi sulla tessera e poi su “Elimina questo metodo” in fondo alla schermata."
           },
           {
             "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",

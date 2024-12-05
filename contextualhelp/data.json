@@ -671,6 +671,10 @@
         "content": "Qui puoi aggiungere la versione digitale della tua Patente di guida, della Tessera Sanitaria e della Carta europea della disabilità.\n Puoi inoltre aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO.",
         "faqs": [
           {
+            "title": "Quando avviene il rilascio dei documenti digitali su IO?",
+            "body": "**Patente di guida**\nL’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).\n\n**Tessera sanitaria - Tessera europea di assicurazione malattia**\nL’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.\n\n**Carta Europea della Disabilità**L’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto."
+          },
+          {
             "title": "Cos'è Documenti su IO?",
             "body": "Documenti su IO è il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
           },
@@ -2157,57 +2161,6 @@
           {
             "title": "I cannot add BANCOMAT Pay as a payment method.",
             "body": "If you have problems adding your BANCOMAT Pay account to IO, we suggest you:\n1. Check that your device is connected to a network.\n2. Make sure the service is active. You can do this via your home banking or your bank app, or via the BANCOMAT Pay app.\n\nIf you have done all the steps correctly and the problem is not yet solved contact your bank."
-          }
-        ]
-      },
-      {
-        "route_name": "WALLET_HOME",
-        "title": "What can you do in your Wallet",
-        "content": "In the Wallet you can find the payment methods you have added, the bonuses and initiatives you have joined and the history of transactions made with pagoPA, the platform for payments to the Public Administration. Here, you can also pay all the payment notices with the pagoPA logo.",
-        "faqs": [
-          {
-            "title": "How can I pay on IO?",
-            "body": "You can pay with credit, debit and prepaid cards, with PayPal or BANCOMAT Pay. You can find the updated list of available methods on the [payment methods page](https://io.italia.it/metodi-pagamento)."
-          },
-          {
-            "title": "How do I add a payment method?",
-            "body": "Go to the Wallet, press 'Add', and then 'Payment method'. Select the method you want to add and enter the required information."
-          },
-          {
-            "title": "What bonuses, discounts or other initiatives can I apply for?",
-            "body": "Go to Wallet, select 'Add' and 'Discounts, bonuses and other initiatives'. You will see a list with all the bonuses and initiatives you can apply for through IO."
-          },
-          {
-            "title": "I have trouble adding a payment method. What can I do?",
-            "body": "Go to the [payment method addition status page](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), select the failed addition attempt and contact Support."
-          },
-          {
-            "title": "How can I delete a payment method?",
-            "body": "Your payment methods are displayed as cards in the top part of the screen. Select the card you want to delete and press 'Delete this payment method'."
-          },
-          {
-            "title": "I have trouble with a payment. What can I do?",
-            "body": "Go to [your payment status page](ioit://PAYMENTS_HISTORY_SCREEN), select the failed payment attempt and contact Support."
-          },
-          {
-            "title": "Where do I find the payments I have made?",
-            "body": "In the Wallet you will find a list of successful payments you have made through IO. The list also includes payments made through the partner institutions' website or app, if you logged in with SPID."
-          },
-          {
-            "title": "Can I pay a notice that I did not receive through IO?",
-            "body": "Yes, if the notice features the pagoPA logo and QR code or Notice Code. To do so, go to the Wallet, scan the QR or enter the Notice Code and complete the payment."
-          },
-          {
-            "title": "What is a QR code?",
-            "body": "The QR code is a square image made of white and black elements. When you scan it with a device's camera, it provides direct access to digital content, such as a website, a payment, or an item.\nThe QR code you find on payment notices is linked to a Notice Code. If you go to your Wallet, press 'Pay Notice' and scan the code with your camera, you can pay the notice without having to manually enter information such as a description, amount or tax code."
-          },
-          {
-            "title": "What is pagoPA?",
-            "body": "pagoPA is a platform that makes payments to the Public Administration easier, safer and more transparent. Among other benefits, it helps increase the use of e-payment methods and make individuals able to choose how to pay, highlighting the commission costs. To learn more, [go to the pagoPA website](https://www.pagopa.gov.it/)."
-          },
-          {
-            "title": "How can I learn more about digital payments?",
-            "body": "In order to learn more about the topics of your interest related to the world of digital payments, you can read the resources provided by [Banca d’Italia](https://www.bancaditalia.it/) as part of its financial education programs, such as the [dedicated section](https://economiapertutti.bancaditalia.it/pagare/) of the website [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) and the [Guide to Payments in Electronic Commerce](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf). \n\nFor example, if you want to learn more about the payment methods you can add to the Wallet of the IO app, you can read the dedicated information sheets, such as the [credit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), the [debit card](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), the [prepaid card](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) and the [co-badge card](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
           }
         ]
       },

@@ -2373,6 +2373,30 @@
         "content": "Hier kannst du eine Vorschau des an die Nachricht angehängten Dokuments anzeigen. Du kannst es auch speichern, weitergeben oder mit einer auf deinem Gerät installierten PDF-Reader-App öffnen."
       },
       {
+        "route_name": "MESSAGES_HOME",
+        "title": "Mitteilungen",
+        "content": "Was du in deinen Mitteilungen tun kannst\n**Der Tab Mitteilungen sammelt alle eingehenden Mitteilungen von Körperschaften, die ihre Dienste über IO anbieten.**\nDu kannst direkt aus der Mitteilung heraus Erinnerungen für Fristen setzen oder eine Zahlungsaufforderung bezahlen.\nMitteilungen sind unterteilt in **Erhalten** (enthält alle Mitteilungen, die eingegangen sind und nicht archiviert werden), **Fristen** (zeigt nur Mitteilungen an, die ein Fälligkeitsdatum enthalten, was die Verwaltung von Aufgaben erleichtert) und **Archiviert** (behält den Überblick über alle archivierten Mitteilungen).\nUm eine Mitteilung zu archivieren, halte einfach den Bereich der zu archivierenden Mitteilung gedrückt und wähle die „Archivieren“, die dann auf dem Bildschirm erscheint.",
+        "faqs": [
+          {
+            "title": "Welche Art von Mitteilungen kannst du empfangen?",
+            "body": "Mit der IO-App kannst du verschiedene Arten von Mitteilungen erhalten: Zahlungsbenachrichtigungen (mit der Möglichkeit, gleichzeitig über die App zu bezahlen), Erinnerungen an Fristen, Benachrichtigungen und verschiedene Aktualisierungen.\nDabei handelt es sich nicht um allgemeine Mitteilungen, die die Tätigkeit der Körperschaft betreffen, sondern um Mitteilungen, die dich persönlich betreffen, wie z. B. eine Mitteilungen, die dich auf den Ablauf eines Dokuments hinweist. Erwarte keinen Spam über die IO-App: Nur Dienste, die dir etwas Wichtiges mitzuteilen haben, werden dir schreiben."
+          },
+          {
+            "title": "Was passiert, wenn du Mitteilungen archivierst?",
+            "body": "Archivierte Mitteilungen werden in die Registerkarte „Archiviert“ des Mitteilungsbereichs verschoben.\nDiese Änderung wirkt sich nur auf das Telefon aus, mit dem du den Archivierungsvorgang durchführst: Wenn du dich mit denselben Anmeldedaten auf einem anderen Gerät anmeldest, findest du alle Nachrichten in der Kategorie „Erhalten“. Du kannst nach wie vor Mitteilungen aus dem Archiv entfernen und findest sie automatisch wieder auf der Hauptregisterkarte „Mitteilungen“."
+          },
+          {
+            "title": "Ist es möglich, auf Mitteilungen zu antworten?",
+            "body": "Nein, es ist nicht möglich, auf eine Mitteilungen direkt von der IO-App aus zu antworten.\nDie App ist derzeit ein Kanal, der die Kommunikation zwischen der Körperschaft und dem Bürger erleichtert und die Durchführung bestimmter Vorgänge wie z. B. Zahlungen unterstützt.\nWenn du eine Körperschaft kontaktieren musst oder Fragen zu einer Mitteilung hast, die du erhalten hast, kannst du alle Informationen über den Dienst und die Körperschaft in den Mitteilungdetails einsehen. Wenn du dem Link zum Profil des Dienstes folgst, findest du außerdem die Kontaktdaten, über die du die Körperschaft direkt kontaktieren kannst (Adresse des Schalters, Telefon, Website, App usw.)."
+          },
+          {
+            "title": "Was sind Dokumente in IO?",
+            "body": "Dokumente in IO ist der erste Schritt auf dem Weg zum IT-Wallet System, d.h. dem italienischen Digital Wallet System, das durch Artikel 64-quater des Kodex für die digitale 
+Verwaltung eingeführt wurde. Dokumente in IO ist die neue Funktion von IO, die es dir ermöglicht, die digitale Version deiner persönlichen Dokumente im Konto der App hinzuzufügen."
+          }
+        ]
+      },
+      {
         "route_name": "FCI_DOCUMENTS",
         "title": "Dokument",
         "content": "Hier kannst du die Vorschau des zu signierenden Dokuments sehen",
@@ -2421,7 +2445,7 @@
           },
           {
             "title": "Ich habe die Nachricht mit den signierten Dokumenten erhalten, aber sie sind nicht mehr verfügbar. Wie kann ich sie abrufen?",
-            "body": "In diesem Fall musst du dich direkt an die Körperschaft wenden, die das Dokument ausgestellt hat. Die Kontaktdaten findest du in der Zusammenfassung des signierten Dokuments, die du in der IO-App erhalten hast."
+            "body": "In diesem Fall musst du dich direkt an die Körperschaft wenden, die das Dokument ausgestellt hat. Die Kontaktdaten findest du in der Mitteilung des signierten Dokuments, die du in der IO-App erhalten hast."
           },
           {
             "title": "Ich habe ein Problem mit der Signatur eines Dokuments. Was kann ich tun?",
@@ -2462,6 +2486,16 @@
             "body": "Wenn du die Option 'Erinnerungen zulassen' aktivierst, erhältst du Push-Benachrichtigungen, wenn sich Fristen nähern oder wenn du ungelesene Nachrichten hast."
           }
         ]
+      },
+      {
+        "route_name": "ONBOARDING_INSERT_EMAIL_SCREEN",
+        "title": "Ändere deine E-Mail-Adresse",
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du an der neuen Adresse erhältst."
+      },
+      {
+        "route_name": "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+        "title": "Ändere deine E-Mail-Adresse",
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du an der neuen Adresse erhältst."
       },
       {
         "route_name": "PROFILE_PREFERENCES_NOTIFICATIONS",
@@ -2567,7 +2601,7 @@
           },
           {
             "title": "Ich habe meine SPID-Anmeldedaten verloren. Was kann ich tun?",
-            "body": "Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Ich habe alles richtig gemacht, aber ich komme nicht rein. Was kann ich tun?",
@@ -2598,14 +2632,14 @@
           },
           {
             "title": "Ich habe meine SPID-Anmeldedaten verloren. Was kann ich tun?",
-            "body": "Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n- [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[SpidItalia, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n- [SpidItalia, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n- [Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n- [Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n- [TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n- [TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
           },
           {
             "title": "Was ist die CIE?",
             "body": "Die elektronische Identitätskarte (CIE) ist das Identitätsdokument der italienischen Bürger. Sie ermöglicht die Feststellung der Identität seines Inhabers und den Zugang zu Online-Diensten der öffentlichen Verwaltungen."
           },
           {
-            "title": "Wie kann ich ein CIE beantragen?",
+            "title": "Wie kann ich eine CIE beantragen?",
             "body": "[Geh auf diese Website](https://www.prenotazionicie.interno.gov.it/) und gib den Namen deiner Gemeinde ein, um zu prüfen, ob sie das Online-Terminvereinbarungssystem Agenda CIE verwendet. Wenn ja, kannst du den Termin buchen. Wenn nicht, fordere einen Termin über die Website deiner Gemeinde an oder geh zu einem Gemeindebüro."
           },
           {
@@ -2613,7 +2647,7 @@
             "body": "Auf einigen Geräten mit Android-Betriebssystem kann die IO-App abstürzen oder unerwartet neu gestartet werden, wenn sie in Verbindung mit anderen Apps verwendet wird, z. B. wenn du versuchst, dich mit SPID über die App deines Identitätsanbieters anzumelden. Wenn dieses Problem auftritt, führe bitte die folgenden Schritte aus: \n\n1- tippe auf das IO-App-Symbol und halte es einige Sekunden lang gedrückt;\n2- wähle im angezeigten Menü die Option '**App-Info**' aus;\n3- scrolle nach unten und wähle '**Energiesparen**' oder '**Batterie**' (kann je nach Gerät variieren); \n4- wähle die Option '**Keine Einschränkungen**' oder '**Keine Beschränkungen**' oder deaktiviere auf andere Weise die Optimierung des Akkuverbrauchs für IO (kann je nach Gerät variieren); \n5- starte die App neu und versuche erneut, dich mit SPID anzumelden."
           }
         ]
-      },
+      },      
       {
         "route_name": "AUTHENTICATION_IDP_SELECTION",
         "title": "Dein Identitätsanbieter",

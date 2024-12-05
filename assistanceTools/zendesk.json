@@ -59,14 +59,6 @@
               }
             },
             {
-              "value": "it_wallet_attivazione",
-              "description": {
-                "it-IT": "Documenti su IO non è attiva per me",
-                "en-EN": "Documenti su IO non è attiva per me",
-                "de-DE": "Dokumente in IO ist für mich nicht aktiv"
-              }
-            },
-            {
               "value": "it_wallet_aggiunta_documenti",
               "description": {
                 "it-IT": "Non riesco ad aggiungere i documenti",
@@ -75,9 +67,17 @@
               }
             },
             {
+              "value": "it_wallet_patente_guida_non_ho_ricevuto",
+              "description": {
+                "it-IT": "Non ho ancora ricevuto la versione digitale della Patente",
+                "en-EN": "I haven't received the digital Driving Licence",
+                "de-DE": "Führerschein nicht erhalten"
+              }
+            },
+            {
               "value": "it_wallet_patente_guida",
               "description": {
-                "it-IT": "Ho un problema con la Patente di Guida",
+                "it-IT": "Ho un problema con la Patente di guida",
                 "en-EN": "I have an issue with the Driving Licence",
                 "de-DE": "Ich habe ein Problem mit dem Führerschein"
               }

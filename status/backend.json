@@ -172,9 +172,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Molte persone stanno richiedendo i documenti digitali su IO: il rilascio potrebbe richiedere più tempo del previsto. Premi \"?\" per saperne di più.",
+            "Molte persone stanno richiedendo i documenti digitali su IO: il rilascio potrebbe richiedere più tempo del previsto. Premi '?' per saperne di più.",
           "en-EN":
-            "Molte persone stanno richiedendo i documenti digitali su IO: il rilascio potrebbe richiedere più tempo del previsto. Premi \"?\" per saperne di più."
+            "Molte persone stanno richiedendo i documenti digitali su IO: il rilascio potrebbe richiedere più tempo del previsto. Premi '?' per saperne di più."
         }
       }
     ]

@@ -27,14 +27,6 @@
           {
             "title": "Cos'è Documenti su IO?",
             "body": "Documenti su IO è il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
-          },
-          {
-            "title": "Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?",
-            "body": "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti a partire dal mese di dicembre."
-          },
-          {
-            "title": "In che modo potrò sapere quando la funzionalità sarà disponibile per me?",
-            "body": "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
           }
         ]
       },
@@ -712,7 +704,7 @@
           },
           {
             "title": "Posso usare Documenti su IO contemporaneamente su più dispositivi?",
-            "body": "No, per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti e disattiverai la funzionalità sul precedente dispositivo."
+            "body": "No, per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. Questa operazione disattiverà automaticamente la funzionalità dal dispositivo usato in precedenza."
           },
           {
             "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
@@ -739,6 +731,10 @@
             "body": "Se disinstalli l’app IO dal tuo dispositivo, disattiverai anche la funzionalità Documenti su IO e rimuoverai dal tuo dispositivo tutti i documenti in versione digitale che hai aggiunto."
           },
           {
+            "title": "Come posso lasciare feedback o suggerimenti su Documenti su IO?",
+            "body": "La tua opinione e le tue segnalazioni sono fondamentali per migliorare Documenti su IO. Sarai guidato dall’app per raccontarci la tua esperienza con la funzionalità, inviare commenti, segnalare problemi o comportamenti imprevisti."
+          },
+          {
             "title": "Come faccio ad attivare Carta Giovani Nazionale?",
             "body": "Premi su'Aggiungi al Portafoglio', scegli “Carta Giovani Nazionale e segui le indicazioni."
           }
@@ -751,7 +747,7 @@
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
-            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
           },
           {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
@@ -867,7 +863,7 @@
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Patente?",
-            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024."
           },
           {
             "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",

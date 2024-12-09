@@ -689,6 +689,40 @@ definitions:
         description: "Map the value setted in Zendesk"
       description:
         $ref: "#/definitions/ZendeskDescriptionMessage"
+  ZendeskPaymentMap:
+    type: object
+    description: "Map the payment method with the correct zendesk subcategory"
+    required:
+      - subcategoryId
+      - subcategories
+    properties:
+      subcategoryId:
+        type: string
+        description: "The ID of the subcategory"
+      subcategories:
+        type: object
+        description: "Subcategories of the payment"
+        properties:
+          pagamenti_pagopa_in_corso:
+            type: array
+            items:
+              type: string
+            description: "Payments in progress"
+          pagamenti_pagopa_blocco:
+            type: array
+            items:
+              type: string
+            description: "Blocked payments"
+          pagamenti_pagopa_info_stato:
+            type: array
+            items:
+              type: string
+            description: "Payment status information"
+          pagamenti_pagopa_altro_problema:
+            type: array
+            items:
+              type: string
+            description: "Other payment problems"
   VersionInfo:
     type: object
     description: "Information related to the app version"

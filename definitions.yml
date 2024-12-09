@@ -689,9 +689,9 @@ definitions:
         description: "Map the value setted in Zendesk"
       description:
         $ref: "#/definitions/ZendeskDescriptionMessage"
-  ZendeskPaymentMap:
+  ZendeskSubCategoriesMap:
     type: object
-    description: "Map the payment method with the correct zendesk subcategory"
+    description: "Map the methods (like payments and receipt) with the correct zendesk subcategory"
     required:
       - subcategoryId
       - subcategories
@@ -701,72 +701,12 @@ definitions:
         description: "The ID of the subcategory"
       subcategories:
         type: object
-        description: "Subcategories of the payment"
-        properties:
-          pagamenti_pagopa_in_corso:
-            type: array
-            items:
-              type: string
-            description: "Payments in progress"
-          pagamenti_pagopa_blocco:
-            type: array
-            items:
-              type: string
-            description: "Blocked payments"
-          pagamenti_pagopa_info_stato:
-            type: array
-            items:
-              type: string
-            description: "Payment status information"
-          pagamenti_pagopa_altro_problema:
-            type: array
-            items:
-              type: string
-            description: "Other payment problems"
-  ZendeskReceiptMap:
-    type: object
-    description: "Map the payment method with the correct zendesk subcategory"
-    required:
-      - subcategoryId
-      - subcategories
-    properties:
-      subcategoryId:
-        type: string
-        description: "The ID of the subcategory"
-      subcategories:
-        type: object
-        description: "Subcategories of the payment"
-        properties:
-          ricevute_pagopa_info:
-            type: array
-            items:
-              type: string
-            description: "Information about receipts"
-          ricevute_pagopa_non_arrivata:
-            type: array
-            items:
-              type: string
-            description: "Receipt not received"
-          ricevute_pagopa_arrivata_sconosciuta:
-            type: array
-            items:
-              type: string
-            description: "Unknown receipt received"
-          ricevute_pagopa_errore_nei_dati:
-            type: array
-            items:
-              type: string
-            description: "Error in receipt data"
-          ricevute_pagopa_non_riesco_a_scaricare:
-            type: array
-            items:
-              type: string
-            description: "Unable to download receipt"
-          ricevute_pagopa_altro_problema:
-            type: array
-            items:
-              type: string
-            description: "Other receipt problems"
+        description: "A key-value map of subcategories"
+        additionalProperties:
+          type: array
+          items:
+            type: string
+          description: "A list of related error codes"
   VersionInfo:
     type: object
     description: "Information related to the app version"

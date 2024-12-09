@@ -26,3 +26,14 @@ Below the fields that composing the configuration:
                 - `it-IT` [**required**]: String.
                 - `en-EN` [**required**]: String. 
   
+
+### zendeskOutcomeMapping.json
+The `zendeskOutcomeMapping.json` file contains the mapping between the sub-categories and the outcomes of the assistance request.
+
+Below the fields that compose the configuration:
+
+- `subcategoryId` [**required**]: String. The unique identifier for subcategory in the payment process.
+
+- `subcategories` [**required**]: Object. Each key represents a specific subcategory of assistance, and the corresponding value is an array of potential outcomes associated with that subcategory.
+
+

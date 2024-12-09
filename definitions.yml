@@ -689,6 +689,24 @@ definitions:
         description: "Map the value setted in Zendesk"
       description:
         $ref: "#/definitions/ZendeskDescriptionMessage"
+  ZendeskSubCategoriesMap:
+    type: object
+    description: "Map the methods (like payments and receipt) with the correct zendesk subcategory"
+    required:
+      - subcategoryId
+      - subcategories
+    properties:
+      subcategoryId:
+        type: string
+        description: "The ID of the subcategory"
+      subcategories:
+        type: object
+        description: "A key-value map of subcategories"
+        additionalProperties:
+          type: array
+          items:
+            type: string
+          description: "A list of related error codes"
   VersionInfo:
     type: object
     description: "Information related to the app version"

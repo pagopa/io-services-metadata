@@ -707,6 +707,17 @@ definitions:
           items:
             type: string
           description: "A list of related error codes"
+  ZendeskSubcategoriesErrors:
+    type: object
+    description: "Map the error codes with the correct zendesk subcategory"
+    required:
+      - payments
+      - receipts
+    properties:
+      payments:
+        $ref: "#/definitions/ZendeskSubCategoriesMap"
+      receipts:
+        $ref: "#/definitions/ZendeskSubCategoriesMap"
   VersionInfo:
     type: object
     description: "Information related to the app version"

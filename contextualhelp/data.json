@@ -3025,146 +3025,520 @@
       {
         "route_name": "WALLET_HOME",
         "title": "Was du in deinem Konto tun kannst",
-        "content": "Im Tab Konto findest du die von dir hinzugefügten Zahlungsmittel, die Boni und Initiativen, an denen du teilgenommen hast, sowie die Historie der mit pagoPA, der Plattform für Zahlungen an die öffentliche Verwaltung, getätigten Transaktionen. In diesem Bereich kannst du auch alle Zahlungsmitteilungen mit dem pagoPA-Logo bezahlen.",
+        "content": "Hier kannst du die digitale Version deines Führerscheins, deiner Gesundheitskarte und deines Europäischen Behindertenausweises hinzufügen.\n Du kannst auch deine Zahlungsmethoden und die bei IO verfügbaren Boni hinzufügen und verwalten.",
         "faqs": [
           {
-            "title": "Wie kann ich auf IO zahlen?",
-            "body": "Du kannst mit Debit-, Kredit- und Prepaid-Karten, PayPal oder BANCOMAT Pay bezahlen. Die aktualisierte Liste der verfügbaren Zahlungsmethoden findest du auf der Seite [Zahlungsmöglichkeiten](https://io.italia.it/metodi-pagamento)."
+            "title": "Wann erfolgt die Bereitstellung digitaler Dokumente auf IO?",
+            "body": "**Führerschein**\nDie Ausstellung der digitalen Version des Führerscheins erfolgt nicht in Echtzeit: Sobald du das Dokument angefordert hast, erhältst du in der App eine Mitteilung, die dich darüber informiert, dass dein Führerschein bereit ist, zu deinem Konto hinzugefügt zu werden.\n\nBitte beachte, dass in Zeiten großer Nachfrage die Zeit länger als normal sein kann (von einigen Stunden bis zu einigen Tagen).\n\n**Gesundheitskarte - Europäischen Krankenversicherungskarte**\nDie Ausstellung der digitalen Version der Europäischen Krankenversicherungskarte erfolgt in der Regel in Echtzeit. Bitte beachte, dass es in Zeiten hoher Nachfrage länger als normal dauern kann. Falls es zu Verzögerungen kommt, versuche es bitte nach ein paar Minuten erneut.\n\n**Europäische Behindertenkarte**\nDie Ausstellung der digitalen Version der Europäischen Behindertenkarte erfolgt in der Regel in Echtzeit. Sollte es zu Verzögerungen kommen, versuche es bitte nach ein paar Minuten erneut."
           },
           {
-            "title": "Wie kann ich eine Zahlungsmethode hinzufügen?",
-            "body": "Geh zum Tab Konto, tipp auf 'Hinzufügen' und 'Zahlungsmethode'. Wähle dann die Methode, die du hinzufügen möchtest und gib die erforderlichen Daten ein."
+            "title": "Was sind Dokumente in IO?",
+            "body": "Dokumente in IO ist der erste Schritt auf dem Weg zum IT-Wallet System, d.h. dem italienischen Digital Wallet System, das durch Artikel 64-quater des Kodex für die digitale Verwaltung eingeführt wurde. Dokumente in IO ist die neue Funktion von IO, die es dir ermöglicht, die digitale Version deiner persönlichen Dokumente im Konto der App hinzuzufügen."
           },
           {
-            "title": "Welche Boni, Rabatte oder andere Initiativen kann ich in Anspruch nehmen?",
-            "body": "Geh zum Tab Konto, tippe auf 'Hinzufügen' und 'Rabatte, Boni und andere Initiativen'. Es wird eine Liste mit allen Boni und Initiativen angezeigt, die du über die IO-App in Anspruch nehmen kannst."
+            "title": "Kann ich die Dokumente von minderjährigen Kindern oder anderen Familienmitgliedern zu Dokumente in IO hinzufügen?",
+            "body": "Nein, derzeit kannst du nur digitale Versionen deiner persönlichen Dokumente im Konto der IO-App hinzufügen."
           },
           {
-            "title": "Ich kann keine Zahlungsmethode hinzufügen. Was kann ich tun?",
-            "body": "Geh zur Seite [Status Hinzufügen der Zahlungsmethode](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN), wähle den fehlgeschlagenen Versuch aus und wende dich an den Support."
+            "title": "Was ist damit gemeint, dass meine Identität überprüft wurde?",
+            "body": "Wenn du Dokumente in IO im Konto aktivierst, bitten wir dich, deine Identität durch Authentifizierung mit SPID oder CIE zu verifizieren. „Verifizierte Identität“ bedeutet, dass deine Dokumente sicher sind und mit Sicherheit mit deiner Identität in Verbindung gebracht werden können."
           },
           {
-            "title": "Wie kann ich diese Zahlungsmethode entfernen?",
-            "body": "Deine Zahlungsmethoden werden oben auf dem Tab 'Konto' als Karten angezeigt. Tipp auf die Karte, die du entfernen möchtest und tipp dann auf 'Diese Zahlungsmethode entfernen'."
+            "title": "Kann ich Dokumente in IO deaktivieren?",
+            "body": "Ja, du kannst die Funktionalität von Dokumente in IO direkt in der App deaktivieren. Darüber hinaus kannst du Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst. So kannst du einige Funktionen der IO-App auch dann verwalten, wenn du die Kontrolle über dein Gerät verloren hast oder es nicht mehr besitzest. Bitte beachte, dass bei einer Deaktivierung von Dokumente in IO alle digitalen Versionen der Dokumente, die du dem Konto der IO-App hinzugefügt hast, entfernt werden; du kannst die Funktion jedoch in Zukunft wieder aktivieren und erneut digitale Versionen deiner Dokumente hinzufügen."
           },
           {
-            "title": "Ich habe ein Problem mit einer Zahlung. Was kann ich tun?",
-            "body": "Geh auf die Seite [Zahlungsstatus](ioit://PAYMENTS_HISTORY_SCREEN), wähle den fehlgeschlagenen Zahlungsversuch aus und kontaktiere den Support."
+            "title": "Warum kann ich die digitale Version eines Dokuments nicht in meinem Konto hinzufügen?",
+            "body": "Wenn die digitale Version des Dokuments, das du zum IO-Konto hinzufügen willst, nicht verfügbar ist, kann dies daran liegen, dass das Dokument abgelaufen ist, ausgesetzt oder widerrufen wurde oder du nicht für die digitale Version in Frage kommst (z. B. wenn du keinen Führerschein hast oder noch einen Papierführerschein besitzest). \nVergewissere dich, dass du das gültige physische Dokument hast, bevor du die digitale Version in der IO-App anforderst."
           },
           {
-            "title": "Wo finde ich die von mir geleisteten Zahlungen?",
-            "body": "In deinem Konto findest du eine Liste mit Zahlungen, die erfolgreich über die IO-App durchgeführt wurden. Die Liste enthält auch Zahlungen, die über die Website oder App von teilnehmenden Organisationen getätigt wurden, wenn du dich mit SPID authentifiziert hast."
+            "title": "Kann ich ein oder mehrere Dokumente aus dem Konto der App entfernen?",
+            "body": "Ja, du kannst ein bestimmtes Dokument aus dem Konto entfernen, und zwar direkt in der App auf dem Detailbildschirm der digitalen Version des Dokuments. Auch wenn du ein Dokument aus der App entfernst, kannst du es in Zukunft jederzeit wieder hinzufügen. Denke daran, dass das Entfernen der digitalen Version eines Dokuments keinen Einfluss auf die Gültigkeit des zugehörigen physischen Dokuments hat."
           },
           {
-            "title": "Kann ich eine Zahlungsmitteilung bezahlen, die ich nicht über IO erhalten habe?",
-            "body": "Ja, wenn das pagoPA Logo und der QR-Code oder der Zahlungskodex auf der Zahlungsmitteilung vorhanden sind. Geh dazu zum Tab Konto, scanne den QR-Code oder gib den Zahlungskodex ein und schließ die Zahlung ab."
+            "title": "Kann ich Dokumente in IO gleichzeitig auf mehreren Geräten verwenden?",
+            "body": "Nein, aus Sicherheitsgründen musst du jedes Mal, wenn du von einem anderen Gerät auf die IO-App zugreifst, Dokumente in IO erneut aktivieren und die digitalen Versionen deiner Dokumente erneut hinzufügen. Dadurch wird die Funktionalität auf dem zuvor verwendeten Gerät automatisch deaktiviert."
           },
           {
-            "title": "Was ist ein QR-Code?",
-            "body": "Ein QR-Code ist ein quadratisches Bild, das aus schwarzen und weißen Elementen besteht. Wenn er von der Kamera eines Telefons gescannt wird, ermöglicht er den Zugriff auf digitale Inhalte, wie eine Website, eine Zahlung oder einen Artikel.\n\nDer QR-Code, den du auf Zahlungsmitteilungen findest, ist mit einem Zahlungskodex verbunden. Wenn du in deinem Konto auf 'Zahlungsmitteilung bezahlen' tippst und den Code mit deiner Kamera scannst, kannst du die Zahlungsmitteilungen bezahlen, ohne Informationen wie Grund, Betrag oder Steuernummer manuell eingeben zu müssen."
+            "title": "Kann ich Dokumente in IO verwenden, wenn keine Internetverbindung vorhanden ist?",
+            "body": "Wenn du nicht über eine Internetverbindung verfügst, kannst du derzeit weder die Funktionalität von Dokumente in IO nutzen noch digitale Versionen deiner Dokumente verwenden."
           },
           {
-            "title": "Was ist pagoPA?",
-            "body": "pagoPA ist eine Plattform, die alle Zahlungen an die öffentliche Verwaltung einfacher, sicherer und transparenter machen soll. Neben anderen Vorteilen steigert sie die Nutzung elektronischer Zahlungsmittel und gibt den Menschen die Freiheit zu wählen, wie sie bezahlen, während sie die Transaktionskosten getrennt ausweist. Weitere Informationen findest du [auf der pagoPA-Website](https://www.pagopa.gov.it/)."
+            "title": "Warum verliere ich die digitalen Versionen der Dokumente, die ich dem Konto hinzugefügt habe, wenn ich mit einer anderen digitalen Identität auf die IO-App zugreife?",
+            "body": "Aus Sicherheitsgründen sind die digitalen Versionen deiner Dokumente an ein bestimmtes Gerät und an die digitale Identität gebunden, die du für den Zugriff auf die IO-App verwendest."
           },
           {
-            "title": "Wie kann ich mehr über digitale Zahlungen erfahren?",
-            "body": "Um mehr über die Themen zu erfahren, die dich im Zusammenhang mit der Welt des digitalen Zahlungsverkehrs interessieren, kannst du die von der [Zentralbank von Italien](https://www.bancaditalia.it/) im Rahmen der Programme zur finanziellen Bildung zur Verfügung gestellten Materialien konsultieren, einschließlich des [speziellen Bereichs](https://economiapertutti.bancaditalia.it/pagare/) der Website [Wirtschaft für alle](https://economiapertutti.bancaditalia.it/) und des [Leitfadens für Zahlungen im elektronischen Handel](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nWenn du beispielsweise mehr über die Zahlungsmethoden erfahren möchtest, die du zu deinem IO-App Konto hinzufügen kannst, kannst du die entsprechenden Informationsblätter lesen, wie die [Kreditkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), die [Debitkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), die [Prepaid-Karte](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) und die [Co-Badge-Karte](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+            "title": "Was passiert mit Dokumente in IO, wenn ich das Gerät wechsle?",
+            "body": "Wenn du von einem anderen Gerät aus auf die IO-App zugreifst, musst du aus Sicherheits- und Identitätsüberprüfungsgründen die Aktivierung von Dokumente in IO und das Hinzufügen digitaler Versionen deiner Dokumente wiederholen."
+          },
+          {
+            "title": "Was passiert mit Dokumente in IO, wenn mein Gerät gestohlen wird oder verloren geht?",
+            "body": "Wenn du dein Gerät verloren hast oder es gestohlen wurde, musst du die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
+          },
+          {
+            "title": "Was passiert mit Dokumente in IO, wenn mein Gerät kaputt geht?",
+            "body": "Wenn dein Gerät nicht mehr funktioniert, empfehlen wir dir die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
+          },
+          {
+            "title": "Was passiert mit Dokumente in IO, wenn ich die IO-App deinstalliere?",
+            "body": "Wenn du die IO-App von deinem Gerät deinstallierst, deaktivierst du auch die Funktion Dokumente in IO und entfernst alle digitalen Dokumente, die du hinzugefügt hast, von deinem Gerät."
+          },
+          {
+            "title": "Wie kann ich Feedback oder Vorschläge zu Dokumente in IO abgeben?",
+            "body": "Deine Meinung und deine Berichte sind entscheidend für die Verbesserung von Dokumente in IO. Du werden von der App aufgefordert, uns deine Erfahrungen mit der Funktionalität mitzuteilen, Kommentare zu posten, Probleme oder unerwartetes Verhalten zu melden."
+          },
+          {
+            "title": "Wie kann ich die nationale Jugendkarte aktivieren?",
+            "body": "Klicke auf „Dem Konto hinzufügen“, wähle „Nationale Jugendkarte“ und folge den Anweisungen."
           }
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PAYPAL_SEARCH_PSP",
-        "title": "Wähle den Zahlungsdienstleister",
-        "content": "Der Zahlungsdienstleister, d. h. das Unternehmen, die den fälligen Betrag im Namen des Zahlungsempfängers einzieht, kann für jede Zahlung eine variable Gebühr verlangen. Auf dieser Seite kannst du wählen, welchen Zahlungsdienstleister du verwenden möchtest. Du kannst diese Wahl bei jeder Zahlung ändern, indem du dich nach der vorgeschlagenen Transaktionsgebühr richtest.",
+        "route_name": "NEW_WALLET_CARD_ONBOARDING",
+        "title": "Wann erfolgt die Bereitstellung digitaler Dokumente auf IO?",
+        "content": "**Führerschein**\nDie Ausstellung der digitalen Version des Führerscheins erfolgt nicht in Echtzeit: Sobald du das Dokument angefordert hast, erhältst du in der App eine Mitteilung, die dich darüber informiert, dass dein Führerschein bereit ist, zu deinem Konto hinzugefügt zu werden.\n\nBitte beachte, dass in Zeiten großer Nachfrage die Zeit länger als normal sein kann (von einigen Stunden bis zu einigen Tagen).\n\n**Gesundheitskarte - Europäischen Krankenversicherungskarte**\nDie Ausstellung der digitalen Version der Europäischen Krankenversicherungskarte erfolgt in der Regel in Echtzeit. Bitte beachte, dass es in Zeiten hoher Nachfrage länger als normal dauern kann. Falls es zu Verzögerungen kommt, versuche es bitte nach ein paar Minuten erneut.\n\n**Europäische Behindertenkarte**\nDie Ausstellung der digitalen Version der Europäischen Behindertenkarte erfolgt in der Regel in Echtzeit. Sollte es zu Verzögerungen kommen, versuche es bitte nach ein paar Minuten erneut.",
         "faqs": [
           {
-            "title": "Was ist der Zahlungsdienstleister?",
-            "body": "Der Zahlungsdienstleister, der auch als PSP (Payment Service Provider) bezeichnet wird, ist das Unternehmen, das den fälligen Betrag im Namen des Zahlungsempfängers einzieht. Für die Erbringung dieser Dienstleistung kann der Betreiber jedes Mal eine Transaktionsgebühr verlangen. Die von den einzelnen Anbietern erhobenen Transaktionsgebühren findest du [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/).\n\npagoPA ermöglicht es dir, elektronische Zahlungen über einen der teilnehmenden Zahlungsdienstleister zu tätigen. Dies ist das Verfahren, mit dem du einen Bescheid, Studiengebühren, Stempelgebühren oder Steuern direkt in der App bezahlen kannst."
+            "title": "Wenn ich Dokumente in IO aktiviere, kann ich dann ohne physische Dokumente zirkulieren?",
+            "body": "Wenn du Dokumente in IO aktivierst, kannst du digitale Versionen einiger deiner persönlichen Dokumente in dem Konto der IO-App speichern. In dieser ersten Phase können digitale Versionen von Dokumenten in bestimmten Nutzungskontexten anstelle der entsprechenden physischen Dokumente verwendet werden, insbesondere:\n - der Führerschein nur in Italien zum Nachweis deiner Fahrberechtigung bei Polizeikontrollen, wie im Rundschreiben des Innenministeriums Nr. 32079 vom 22. Oktober 2024 festgelegt;\n - die Gesundheitskarte - Europäische Krankenversicherungskarte für den Zugang zu den Leistungen des nationalen Gesundheitsdienstes;\n - der Europäische Behindertenausweis für die gleichen Verwendungszwecke wie heute bei Vorlage des physischen Dokuments."
           },
           {
-            "title": "Warum muss ich den Zahlungsdienstleister auswählen?",
-            "body": "Wenn du eine Zahlung durchführst, zeigt dir IO alle Zahlungsdienstleister, die du nutzen kannst, so dass du denjenigen auswählen kannst, der am besten zu dir passt, je nach der vorgeschlagenen Transaktionsgebühr. Diese Transaktionsgebühr wird nicht von pagoPA erhoben, sondern vom Betreiber selbst. Die Kosten der einzelnen Betreiber findest du [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/)."
+            "title": "Kann ich die Dokumente von minderjährigen Kindern oder anderen Familienmitgliedern zu Dokumente in IO hinzufügen?",
+            "body": "Nein, derzeit kannst du nur digitale Versionen deiner persönlichen Dokumente im Konto der IO-App hinzufügen."
           },
           {
-            "title": "Welchen Zahlungsdienstleister soll ich wählen?",
-            "body": "Du kannst den Zahlungsdienstleister auswählen, den du bevorzugst, unabhängig davon, ob du Kunde bist oder nicht und auch wenn du ihn noch nie benutzt hast. Deine Wahl des Zahlungsdienstleister ist nicht endgültig: du kannst ihn bei jeder Zahlung ändern."
+            "title": "Warum kann ich die digitale Version eines Dokuments nicht in meinem Konto hinzufügen?",
+            "body": "Wenn die digitale Version des Dokuments, das du zum IO-Konto hinzufügen willst, nicht verfügbar ist, kann dies daran liegen, dass das Dokument abgelaufen ist, ausgesetzt oder widerrufen wurde oder du nicht für die digitale Version in Frage kommst (z. B. wenn du keinen Führerschein hast oder noch einen Papierführerschein besitzest). \nVergewissere dich, dass du das gültige physische Dokument hast, bevor du die digitale Version in der IO-App anforderst."
           },
           {
-            "title": "Was sind die Transaktionsgebühr",
-            "body": "Um die Bearbeitungskosten zu tragen und die Sicherheit des Geldtransfers zu gewährleisten, kann jeder Zahlungsdienstleister eine variable Transaktionsgebühr erheben. Die Höhe der Transaktionsgebühr hängt von der Geschäftspolitik und den Vertragsbedingungen ab, die du mit dem von dir gewählten Zahlungsdienstleister abgeschlossen hast. IO zeigt dir immer die vom Zahlungsdienstleister angegebene Transaktionsgebühr an, damit du die günstigste Variante wählen kannst. Du kannst die von den einzelnen Zahlungsdienstleistern angewandten Transaktionsgebühren [auf dieser Seite](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/) finden."
-          },
-          {
-            "title": "Ich kann PayPal nicht als Zahlungsmethode hinzufügen.",
-            "body": "Wenn du Probleme beim Hinzufügen deines PayPal-Kontos hast, empfehlen wir dir:\n\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n\n1. Vergewissere dich, dass du den Benutzernamen und das Passwort für dein PayPal-Konto korrekt eingegeben hast.\n\n1. Vergewissere dich, dass du die Zwei-Faktor-Authentifizierung abgeschlossen hast.\n\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht behoben ist, wende dich an den [PayPal-Support](https://www.paypal.com/it/smarthelp/contact-us)."
+            "title": "Ich sehe den Bonus oder die Initiative, die ich aktivieren möchte, nicht, wie kommt das?",
+            "body": "Wenn du den Bonus oder die Initiative, die du aktivieren möchtest, nicht in der Liste siehst, liegt das daran, dass sie nicht existiert oder in der IO-App nicht verfügbar ist."
           }
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_PAYPAL_START",
-        "title": "Mit PayPal bezahlen",
-        "content": "Auf dieser Seite kannst du PayPal als Zahlungsmethode in der IO App hinzufügen.\n\nMit PayPalPal kannst du bezahlen, ohne jedes Mal deine Kartendaten eingeben zu müssen. Außerdem kannst du damit dein Bankkonto verknüpfen, was nützlich ist, wenn du große Beträge bezahlen musst, die dein Kartenlimit überschreiten.",
+        "route_name": "ITW_DISCOVERY_INFO",
+        "title": "Dokumente in IO",
+        "content": "Hier findest du Informationen darüber, wie Dokumente in IO funktioniert.",
         "faqs": [
           {
-            "title": "Was ist PayPal?",
-            "body": "PayPal ist der Dienst, mit dem du schneller, einfacher und sicherer bezahlen, Geld senden und Zahlungen annehmen kannst, ohne jedes Mal deine Kartendaten eingeben zu müssen. Um mehr zu erfahren oder ein kostenloses Konto zu eröffnen, besuchen [paypal.com](https://www.paypal.com/it)."
+            "title": "Warum muss ich SPID oder CIE verwenden, um Dokumente in IO zu aktivieren?",
+            "body": "Um Dokumente in IO zu aktivieren, bitten wir dich, dich in der App mit SPID oder CIE erneut zu authentifizieren. Dieser Schritt ist notwendig, um sicherzustellen, dass die Dokumente, die du erhältst, mit Sicherheit die sind, die mit deiner Identität verbunden sind."
           },
           {
-            "title": "Wie funktioniert das?",
-            "body": "Um PayPal in IO zu nutzen, registriere dich mit deinem Namen und deiner E-Mail-Adresse unter [paypal.com](https://www.paypal.com/it) und verknüpfe deine Kreditkarte, Debitkarte, Prepaid-Karte oder dein Bankkonto. Zu diesem Zweck wirst du nach der E-Mail-Adresse und dem Passwort deines PayPal-Kontos gefragt. Außerdem musst du die Zwei-Faktor-Authentifizierung mittels PayPal-App, per SMS oder Anruf durchführen."
+            "title": "Sind meine Daten sicher?",
+            "body": "Ja. Die Sicherheit deiner Daten ist immer gewährleistet und deine Identität wird durch die Authentifizierung mit SPID oder CIE überprüft. IO teilt deine Daten mit dem Staatsdruckerei und Münzprägeanstalt, um dich zu identifizieren und nur für die Zeit, die notwendig ist, um die digitale Version der Dokumente in das Konto aufzunehmen."
           },
           {
-            "title": "Welche Vorteile habe ich, wenn ich PayPal für die Zahlung in IO verwende?",
-            "body": "Du kannst nicht nur deine Kredit-, Debit- oder Prepaid-Karte mit deinem PayPal-Konto verknüpfen, sondern auch dein Bankkonto, was nützlich ist, wenn du größere Beträge zahlen musst, die dein Kartenlimit überschreiten. [Hier](https://www.paypal.com/de/cshelp/article/come-faccio-a-collegare-il-mio-conto-bancario-al-mio-conto-paypal-help183) erfährst du, wie du dein Bankkonto mit PayPal verknüpfen kannst."
+            "title": "Wenn ich Dokumente in IO aktiviere, kann ich dann ohne physische Dokumente zirkulieren?",
+            "body": "Wenn du Dokumente in IO aktivierst, kannst du digitale Versionen einiger deiner persönlichen Dokumente in dem Konto der IO-App speichern. In dieser ersten Phase können digitale Versionen von Dokumenten in bestimmten Nutzungskontexten anstelle der entsprechenden physischen Dokumente verwendet werden, insbesondere:\n - der Führerschein nur in Italien zum Nachweis deiner Fahrberechtigung bei Polizeikontrollen, wie im Rundschreiben des Innenministeriums Nr. 32079 vom 22. Oktober 2024 festgelegt;\n - die Gesundheitskarte - Europäische Krankenversicherungskarte für den Zugang zu den Leistungen des nationalen Gesundheitsdienstes;\n - der Europäische Behindertenausweis für die gleichen Verwendungszwecke wie heute bei Vorlage des physischen Dokuments."
           },
           {
-            "title": "Ich habe kein PayPal-Konto. Wie kann ich eines erstellen?",
-            "body": "Um ein PayPal-Konto zu erstellen, musst du dich mit deinem Namen und deiner E-Mail-Adresse unter [paypal.com](https://www.paypal.com/it) registrieren. Dazu musst du volljährig sein und mindestens eine Zahlungsmethode verknüpfen."
+            "title": "Was bedeutet die „digitale Version“ eines Dokuments?",
+            "body": "Digitale Versionen von Dokumenten sind authentische Kopien von physischen Dokumenten in einer rechtskonformen digitalen Anwendung."
+          },
+          {
+            "title": "Kann ich die Dokumente von minderjährigen Kindern oder anderen Familienmitgliedern zu Dokumente in IO hinzufügen?",
+            "body": "Nein, derzeit kannst du nur digitale Versionen deiner persönlichen Dokumente im Konto der IO-App hinzufügen."
+          },
+          {
+            "title": "Ist Dokumente in IO eine kostenlose Funktion?",
+            "body": "Ja, für die Nutzung von Dokumente in IO musst du nichts bezahlen, wie bei allen anderen Funktionen der IO-App."
+          },
+          {
+            "title": "Warum wird mein Gerät nicht als sicher für die Aktivierung von Dokumente in IO angesehen?",
+            "body": "Dein Gerät gilt als unsicher, wenn es bestimmte technische Mindestspezifikationen (grundlegende Softwarefunktionen zur Unterstützung bestimmter App-Funktionen) nicht erfüllt oder auf der Ebene des Betriebssystems verändert oder kompromittiert wurde, z. B. durch Aufhebung der von Apple (Jailbreak) oder Android (Root) auferlegten Beschränkungen. Im letzteren Fall unterstützt das Gerät zwar die IO-App, nicht aber die Funktionalität von Dokumente in IO."
           }
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BPAY_START",
-        "title": "Zahle mit BANCOMAT Pay",
-        "content": "Auf dieser Seite kannst du BANCOMAT Pay als Zahlungsmethode in der IO-App hinzufügen. Mit BANCOMAT Pay kannst du Zahlungen einfach, schnell und sicher durchführen.",
+        "route_name": "ITW_IDENTIFICATION_MODE_SELECTION",
+        "title": "Überprüfe deine Identität",
+        "content": "Verwende SPID oder CIE, um deine Identität zu überprüfen und fahre mit dem Hinzufügen von Dokumente in IO fort.",
         "faqs": [
           {
-            "title": "Was ist BANCOMAT Pay?",
-            "body": "BANCOMAT Pay ist ein digitaler Zahlungsdienst, mit dem du schnell und einfach bezahlen, Geld senden und Zahlungen annehmen kannst. Nach der Aktivierung des Dienstes musst du nur noch deine Mobiltelefonnummer verwenden, um die Transaktionen durchzuführen. Weitere Informationen findest du unter [BANCOMAT Pay](https://bancomat.it/it/bancomat/bancomat-pay®)."
+            "title": "Warum muss ich SPID oder CIE verwenden, um Dokumente in IO zu aktivieren?",
+            "body": "Um Dokumente in IO zu aktivieren, bitten wir dich, dich in der App mit SPID oder CIE erneut zu authentifizieren. Dieser Schritt ist notwendig, um sicherzustellen, dass die Dokumente, die du erhältst, mit Sicherheit die sind, die mit deiner Identität verbunden sind."
           },
           {
-            "title": "Wie funktioniert das?",
-            "body": "BANCOMAT Pay verknüpft deine Mobiltelefonnummer mit einer IBAN, die von einem Kontokorrent oder einer Prepaid-Karte stammen kann.\nUm BANCOMAT Pay auf IO zu nutzen, überprüfe, ob deine Bank [zu den teilnehmenden Banken](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE#banca-appbancomatpay) gehört und aktiviere den Dienst über die BANCOMAT Pay-App oder die App deiner Bank.\nAnschließend füge den Dienst als Zahlungsmethode im Tab 'Konto' von IO hinzu, indem du das gewünschte Konto auswählst."
+            "title": "Sind meine Daten sicher?",
+            "body": "Ja. Die Sicherheit deiner Daten ist immer gewährleistet und deine Identität wird durch die Authentifizierung mit SPID oder CIE überprüft. IO teilt deine Daten mit dem Staatsdruckerei und Münzprägeanstalt, um dich zu identifizieren und nur für die Zeit, die notwendig ist, um die digitale Version der Dokumente in das Konto aufzunehmen."
           },
           {
-            "title": "Ich habe kein BANCOMAT Pay-Konto, was kann ich tun?",
-            "body": "[Finde hier](https://bancomat.it/it/bancomat/bancomat-pay%C2%AE) heraus, ob deine Bank diesen Service anbietet. Wenn ja, kannst du den Antrag über das Homebanking oder die App deiner Bank stellen.\nWeitere Informationen findest du in den [häufig gestellten Fragen](https://bancomat.it/it/faq-questions-top)."
+            "title": "Woher stammen die Daten in digitalen Versionen von Dokumenten?",
+            "body": "Die Daten deines Dokuments werden von der Stelle bereitgestellt, die auch das physische Dokument ausstellt und dessen Echtheit bescheinigt. Insbesondere das Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung für den Führerschein, das Nationales Institut für soziale Fürsorge für den Europäischen Behindertenausweis und das Ministerium für Wirtschaft und Finanzen - Staatliches Hauptrechnungsamt für die Gesundheitskarte - Europäische Krankenversicherungskarte."
           },
           {
-            "title": "Ich kann BANCOMAT Pay nicht als Zahlungsmethode hinzufügen.",
-            "body": "Wenn du Probleme beim Hinzufügen deines BANCOMAT Pay-Kontos auf IO hast, empfehlen wir dir:\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n2. Vergewissere dich, dass der Dienst aktiv ist. Du kannst dies über Homebanking oder die App deiner Bank oder über die BANCOMAT Pay-App tun.\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht gelöst ist, wende dich an deine Bank."
+            "title": "Mit wem werden Daten in digitalen Versionen von Dokumenten geteilt?",
+            "body": "Die Daten deiner Dokumente stammen von der Einrichtung, die Eigentümer der Datenbank ist (z. B. Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung für Führerscheine) und werden mit der Einrichtung, die die digitale Version des Dokuments ausstellt (Staatsdruckerei und Münzprägeanstalt), nur für die Zeit geteilt, die notwendig ist, um sie dem Konto der IO-App hinzuzufügen. Die Daten werden nicht von PagoPA AG verarbeitet, sondern nur auf deinem Gerät gespeichert."
           }
         ]
       },
       {
-        "route_name": "WALLET_ONBOARDING_BPAY_SEARCH_AVAILABLE_USER_ACCOUNT",
-        "title": "BANCOMAT Pay hinzufügen",
-        "content": "Auf dieser Seite kannst du deine BANCOMAT Pay-Konten einsehen und zu deinem IO-Konto hinzufügen.",
+        "route_name": "ITW_IPZS_PRIVACY",
+        "title": "Datenschutzhinweis",
+        "content": "Hier findest du die Datenschutzrichtlinie mit allen Einzelheiten zur Verwendung personenbezogener Daten.",
         "faqs": [
           {
-            "title": "Ich kann BANCOMAT Pay nicht als Zahlungsmethode hinzufügen.",
-            "body": "Wenn du Probleme beim Hinzufügen deines BANCOMAT Pay-Kontos auf IO hast, empfehlen wir dir:\n1. Überprüfe, ob dein Gerät mit einem Netzwerk verbunden ist.\n2. Vergewissere dich, dass der Dienst aktiv ist. Du kannst dies über Homebanking oder die App deiner Bank oder über die BANCOMAT Pay-App tun.\nWenn du alle Schritte korrekt ausgeführt hast und das Problem immer noch nicht gelöst ist, wende dich an deine Bank."
+            "title": "Sind meine Daten sicher?",
+            "body": "Ja. Die Sicherheit deiner Daten ist immer gewährleistet und deine Identität wird durch die Authentifizierung mit SPID oder CIE überprüft. IO teilt deine Daten mit dem Staatsdruckerei und Münzprägeanstalt, um dich zu identifizieren und nur für die Zeit, die notwendig ist, um die digitale Version der Dokumente in das Konto aufzunehmen."
+          },
+          {
+            "title": "Woher stammen die Daten in digitalen Versionen von Dokumenten?",
+            "body": "Die Daten deines Dokuments werden von der Stelle bereitgestellt, die auch das physische Dokument ausstellt und dessen Echtheit bescheinigt. Insbesondere das Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung für den Führerschein, das Nationales Institut für soziale Fürsorge für den Europäischen Behindertenausweis und das Ministerium für Wirtschaft und Finanzen - Staatliches Hauptrechnungsamt für die Gesundheitskarte - Europäische Krankenversicherungskarte."
+          },
+          {
+            "title": "Mit wem werden Daten in digitalen Versionen von Dokumenten geteilt?",
+            "body": "Die Daten deiner Dokumente stammen von der Einrichtung, die Eigentümer der Datenbank ist (z. B. Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung für Führerscheine) und werden mit der Einrichtung, die die digitale Version des Dokuments ausstellt (Staatsdruckerei und Münzprägeanstalt), nur für die Zeit geteilt, die notwendig ist, um sie dem Konto der IO-App hinzuzufügen. Die Daten werden nicht von PagoPA AG verarbeitet, sondern nur auf deinem Gerät gespeichert."
           }
         ]
       },
       {
-        "route_name": "PAYMENT_PICK_PAYMENT_METHOD",
-        "title": "Auswahl der Zahlungsmethode",
-        "content": "Hier kannst du die Zahlungsmethode wählen.",
+        "route_name": "ITW_PRESENTATION_CREDENTIAL_DETAIL",
+        "title": "Detail des Dokuments",
+        "content": "Hier kannst du dein Dokument und deine Angaben im Detail einsehen. Du findest hier auch das Echtheitszertifikat, das du vorlegen kannst, wenn du aufgefordert wirst, die Echtheit deines Dokuments zu beweisen.",
         "faqs": [
           {
-            "title": "Ich habe BANCOMAT Pay, kann aber nicht bezahlen",
-            "body": "Um das Problem zu beheben, versuche, die App auf die neueste verfügbare Version zu aktualisieren.\nNachdem du dies getan hast, lösche die Zahlungsmethode aus deinem IO-Konto, füge sie erneut hinzu und versuche erneut, die Zahlung durchzuführen."
+            "title": "Kann ich Dokumente in IO verwenden, wenn keine Internetverbindung vorhanden ist?",
+            "body": "Wenn du nicht über eine Internetverbindung verfügst, kannst du derzeit weder die Funktionalität von Dokumente in IO nutzen noch digitale Versionen deiner Dokumente verwenden."
+          },
+          {
+            "title": "Kann ich ein Bildschirmfoto eines Dokuments aus Dokumente in IO verwenden?",
+            "body": "Nein, alle Bildschirmfotos (Screenshots oder Fotos) von digitalen Versionen von Dokumenten in der IO-App haben keinen rechtlichen Wert und können nicht für eine Überprüfung verwendet werden."
+          },
+          {
+            "title": "In welchen Zusammenhängen bei Kontrollen kann ich die digitale Version meines Führerscheins verwenden?",
+            "body": "Gegenwärtig kannst du in Italien die digitale Version deines Führerscheins verwenden, um deine Fahrtauglichkeit im Rahmen von Präsenzkontrollen durch die Polizei nachzuweisen, wie im Rundschreiben des Innenministeriums Nr. 32079 vom 22. Oktober 2024 festgelegt."
+          },
+          {
+            "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta 'non valida'. Cosa posso fare?",
+            "body": "La tua Patente di guida potrebbe risultare “non valida” in Documenti su IO perché potrebbe essere scaduta, revocata, sospesa o annullata. Puoi verificare lo stato della versione digitale della tua Patente nella schermata di dettaglio del documento sull’app.\n Se hai bisogno di chiarimenti sullo stato del tuo documento ti suggeriamo di contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
+          },
+          {
+            "title": "Lo stato della versione digitale della mia Patente di guida su IO è “In scadenza”. Cosa posso fare?",
+            "body": "Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Dovrai effettuare una visita medica con un medico abilitato e completare il pagamento dei bollettini che ti saranno indicati. Prepara la Patente fisica in scadenza/scaduta, un documento di identità, il Codice Fiscale e una fototessera recente. Una volta rinnovato il documento fisico, rimuovi e aggiungi di nuovo la versione digitale della tua Patente di guida al Portafoglio. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “scaduta”. Cosa posso fare?",
+            "body": "La tua Patente di guida ha superato la data di scadenza indicata sul documento. Rinnova la Patente di guida presso gli uffici del MIT - Direzione Generale per la Motorizzazione o un ente abilitato nel tuo territorio. Per chiarimenti in merito al rinnovo della Patente puoi consultare [la pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Una volta rinnovato il documento fisico, puoi aggiornare la sua versione digitale premendo sul pulsante 'Aggiorna il documento' nella schermata di dettaglio del documento sull’app IO. Ricorda che non puoi aggiornare la tua Patente di guida fisica tramite Documenti su IO."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “revocata”. Cosa posso fare?",
+            "body": "La tua Patente di guida può essere revocata dalle autorità, di solito per infrazioni molto gravi, reati, o per incapacità fisica o mentale permanente del titolare di guidare in sicurezza. Per chiarimenti in merito alle revoche puoi rivolgerti all’Ufficio di Motorizzazione Civile di competenza."
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “annullata”. Cosa posso fare?",
+            "body": "La patente può essere annullata per problemi amministrativi e/o di stampa, esito dell'esame non superato, mancata consegna o successiva emissione di una nuova patente. Per chiarimenti in merito puoi contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
+          },
+          {
+            "title": "La versione digitale della mia Patente di guida su IO risulta “sospesa”. Cosa posso fare?",
+            "body": "La tua Patente di guida può essere temporaneamente sospesa a causa di infrazioni gravi, incidenti stradali, o per altre ragioni amministrative o sanitarie. Per chiarimenti in merito alle sospensioni puoi rivolgerti all’Ufficio di Motorizzazione Civile di competenza."
+          },
+          {
+            "title": "Come si leggono le voci sulla Patente?",
+            "body": "Puoi consultare il dettaglio delle singole voci relative alla tua Patente di guida sulla [pagina del Portale dell’Automobilista dedicata](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida)."
+          },
+          {
+            "title": "Se riscontro delle inesattezze nei dati della mia Patente (ad esempio abilitazioni di categoria) a chi posso rivolgermi?",
+            "body": "Puoi rivolgerti agli uffici della Motorizzazione di competenza.\n Per ricevere assistenza su come risolvere il problema, puoi contattare l’Ufficio Centrale Operativo Patenti del Dipartimento per i Trasporti e la Navigazione. Consulta i riferimenti dedicati nella [sezione Contatti del Portale dell’Automobilista](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
+          },
+          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+          },
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Carta Europea della Disabilità chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento, usando i canali di assistenza di quest’ultima. Se hai bisogno di assistenza per errori e anomalie sui dati del documento fisico, puoi utilizzare il servizio Inps Risponde accedendo all’area riservata MyInps sul portale www.inps.it o utilizzando l’app Inps Mobile."
+          }
+        ]
+      },
+      {
+        "route_name": "ITW_PRESENTATION_CREDENTIAL_ATTACHMENT",
+        "title": "Tessera Sanitaria",
+        "content": "Qui puoi vedere la tua Tessera Sanitaria in formato PDF.",
+        "faqs": [
+          {
+            "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
+            "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },
+          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+          }
+        ]
+      },
+      {
+        "route_name": "ITW_CARD_ONBOARDING",
+        "title": "Quando avviene il rilascio dei documenti digitali su IO?",
+        "content": "**Patente di guida**\nL’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).\n\n**Tessera sanitaria - Tessera europea di assicurazione malattia**\nL’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.\n\n**Carta Europea della Disabilità**\nL’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.",
+        "faqs": [
+          {
+            "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+          },
+          {
+            "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
+            "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
+            "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+          },
+          {
+            "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
+            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_METHOD_DETAILS_SCREEN",
+        "title": "Dettaglio metodo",
+        "content": "Qui puoi vedere i dettagli di questo metodo di pagamento, modificare le impostazioni o eliminarlo dall’app.",
+        "faqs": [
+          {
+            "title": "Cosa succede se disattivo 'Pagamenti in app'?",
+            "body": "Il metodo di pagamento non potrà essere usato per pagare gli avvisi di pagamento tramite l’app IO. Potrai invece utilizzarlo per eventuali iniziative di welfare."
+          },
+          {
+            "title": "Posso pagare anche a rate con PayPal?",
+            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile, solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENTS_HOME",
+        "title": "Cosa puoi fare nella sezione Pagamenti",
+        "content": "Qui puoi pagare un avviso, vedere le ricevute di pagamento pagoPA e aggiungere un metodo di pagamento",
+        "faqs": [
+          {
+            "title": "Quali metodi di pagamento posso usare su IO?",
+            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
+          },
+          {
+            "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
+            "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il codice avviso.\n Per farlo, vai nella sezione Pagamenti. Scansiona il codice QR o inserisci il codice avviso e il codice fiscale dell’ente creditore. Segui le indicazioni e completa il pagamento."
+          },
+          {
+            "title": "Cosa vedo nella ricevuta?",
+            "body": "La ricevuta include:\n - le informazioni sulla transazione;\n - i dettagli sull’avviso pagato;\n - le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
+          },
+          {
+            "title": "Dove trovo i pagamenti effettuati?",
+            "body": "Nella sezione Pagamenti trovi una lista di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Non vedo più il mio account PayPal",
+            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n Non devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n **PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+          },
+          {
+            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+          },
+          {
+            "title": "Che cos’è pagoPA?",
+            "body": "pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA](https://www.pagopa.gov.it/)."
+          },
+          {
+            "title": "Come posso saperne di più sui pagamenti digitali?",
+            "body": "Per approfondire i temi di tuo interesse legati al mondo dei pagamenti digitali, puoi consultare i materiali messi a disposizione dalla [Banca d’Italia](https://www.bancaditalia.it/) nell’ambito dei programmi di educazione finanziaria, tra cui la [sezione dedicata](https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come la [carta di credito](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), la [carta di debito](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), la [carta prepagata](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) e la [carta co-badge](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_ONBOARDING_SELECT_METHOD",
+        "title": "Aggiungi un metodo",
+        "content": "Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
+        "faqs": [
+          {
+            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
+            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+          },
+          {
+            "title": "Posso rimuovere un metodo di pagamento?",
+            "body": "Sì. I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo nella sezione Portafoglio. Seleziona la card del metodo che vuoi eliminare, poi premi su 'Elimina questo metodo'."
+          },
+          {
+            "title": "Perché il salvataggio della carta non va a buon fine?",
+            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n- La tua carta non è abilitata agli acquisti online.\n- Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n- La tua carta è stata sospesa o bloccata.\n- Hai messo 'in pausa' la tua carta."
+          },
+          {
+            "title": "Posso pagare anche a rate con PayPal?",
+            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_LIST_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_DETAILS",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sulla ricevuta, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_TRANSACTION_LIST",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_BARCODE_SCAN",
+        "title": "Come pagare un avviso pagoPA",
+        "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+        "faqs": [
+          {
+            "title": "Quali metodi di pagamento posso usare su IO?",
+            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
+        "title": "Inserisci i dati dell’avviso",
+        "content": "Qui puoi inserire i dettagli dell’avviso di pagamento.",
+        "faqs": [
+          {
+            "title": "Cos’è il codice di avviso?",
+            "body": "È un codice di 18 cifre, inizia generalmente con i numeri 0, 1 o 3. Lo trovi nell'avviso di pagamento accanto al codice QR."
+          },
+          {
+            "title": "E se il codice avviso non ha 18 cifre?",
+            "body": "In questo caso puoi pagare l’avviso di pagamento dal sito dell'ente creditore. Se non sai come procedere, contatta l'ente creditore per assistenza."
+          },
+          {
+            "title": "Dove trovo il codice fiscale dell’ente creditore?",
+            "body": "Lo trovi accanto al codice QR. È un codice numerico di 11 cifre."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_CHECKOUT_DETAIL",
+        "title": "Riepilogo avviso",
+        "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+        "faqs": [
+          {
+            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
+            "body": "pagoPA aggiorna l'importo in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+          },
+          {
+            "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
+            "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.\nPuoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_NOTICE_SUMMARY",
+        "title": "Riepilogo avviso",
+        "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+        "faqs": [
+          {
+            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
+            "body": "pagoPA aggiorna l'importo in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+          },
+          {
+            "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
+            "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.\nPuoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_CHECKOUT_MAKE",
+        "title": "Seleziona un metodo",
+        "content": "Qui puoi scegliere il metodo di pagamento che vuoi usare per pagare l’avviso e il Prestatore di Servizi di Pagamento (PSP) che gestirà la transazione. Trovi poi il riepilogo delle scelte e il totale del pagamento. Puoi modificare una delle tue scelte o pagare l’avviso.",
+        "faqs": [
+          {
+            "title": "Come faccio a pagare con carta di credito o debito?",
+            "body": "Al momento puoi aggiungere la carta dalla sezione Portafoglio prima di iniziare un pagamento. In futuro, potrai pagare anche senza salvarla. Questo ti sarà utile, ad esempio, se vorrai usare carte monouso o usa e getta."
+          },
+          {
+            "title": "Perché non vedo un metodo?",
+            "body": "Al momento potrebbe non essere disponibile, oppure l'importo dell’avviso che stai cercando di pagare supera il massimale previsto dal gestore del pagamento."
+          },
+          {
+            "title": "Vorrei usare PayPal, cosa scelgo?",
+            "body": "Se vuoi pagare a rate, puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
+          },
+          {
+            "title": "Perché devo pagare una commissione?",
+            "body": "Quando usi un servizio di pagamento, il Prestatore di Servizi di Pagamento (PSP) applica una commissione. Queste commissioni coprono i costi necessari al PSP per garantire un servizio di qualità. Tra questi ci sono la continuità del servizio, la rapidità delle transazioni, l'uso dei circuiti internazionali per le carte di credito, la sicurezza e i sistemi anti-frode, oltre alla manutenzione dell'infrastruttura. Questi costi permettono quindi al PSP di offrirti un servizio affidabile e sicuro.\n\nPer maggiori dettagli consulta la pagina [FAQ](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) sul sito di pagoPA."
+          },
+          {
+            "title": "Perché le commissioni cambiano da un gestore all'altro?",
+            "body": "Ogni istituto che gestisce i pagamenti con pagoPA (Prestatori di Servizi di Pagamento) può applicare autonomamente differenti costi, a seconda delle proprie politiche commerciali e delle condizioni contrattuali dell’utente."
+          },
+          {
+            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
+            "body": "Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
           }
         ]
       },

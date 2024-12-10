@@ -2646,7 +2646,22 @@
             "body": "Auf einigen Geräten mit Android-Betriebssystem kann die IO-App abstürzen oder unerwartet neu gestartet werden, wenn sie in Verbindung mit anderen Apps verwendet wird, z. B. wenn du versuchst, dich mit SPID über die App deines Identitätsanbieters anzumelden. Wenn dieses Problem auftritt, führe bitte die folgenden Schritte aus: \n\n1- tippe auf das IO-App-Symbol und halte es einige Sekunden lang gedrückt;\n2- wähle im angezeigten Menü die Option '**App-Info**' aus;\n3- scrolle nach unten und wähle '**Energiesparen**' oder '**Batterie**' (kann je nach Gerät variieren); \n4- wähle die Option '**Keine Einschränkungen**' oder '**Keine Beschränkungen**' oder deaktiviere auf andere Weise die Optimierung des Akkuverbrauchs für IO (kann je nach Gerät variieren); \n5- starte die App neu und versuche erneut, dich mit SPID anzumelden."
           }
         ]
-      },      
+      },
+       {
+        "route_name": "AUTHENTICATION_OPT_IN",
+        "title": "Zugriff auf die App",
+        "content": "Hier findest du Informationen über den Zugang zu IO und einige Sicherheitstipps.",
+        "faqs": [
+          {
+            "title": "Was ist der Unterschied zwischen Schnellzugriff und Authentifizierung alle 30 Tage?",
+            "body": "Im ersten Fall musst du dich nur einmal im Jahr oder wenn du dich von der App abmeldest mit SPID oder CIE authentifizieren. In allen anderen Fällen kannst du dich nur mit dem Entsperrcode der App oder mit der Gesichts- oder Fingerabdruckerkennung anmelden. Wenn du dich stattdessen alle 30 Tage anmelden möchtest, musst du dich alle 30 Tage mit SPID oder CIE authentifizieren."
+          },
+          {
+            "title": "Wenn ich mich entscheide, mich alle 30 Tage oder nur einmal im Jahr anzumelden, kann ich dann meine Wahl ändern?",
+            "body": "Ja, du kannst deine Wahl ändern, indem du dich von IO abmeldest. Geh dazu zum Abschnitt 'Einstellungen' der App und drücke auf 'IO beenden'. Daraufhin wirst du aufgefordert, dich erneut zu authentifizieren und du kannst erneut entscheiden, wie oft du dich authentifizieren möchtest."
+          }
+        ]
+      },
       {
         "route_name": "AUTHENTICATION_IDP_SELECTION",
         "title": "Dein Identitätsanbieter",
@@ -2655,6 +2670,10 @@
           {
             "title": "Was ist ein Identitätsanbieter?",
             "body": "Die SPID-Identität wird von Identitätsanbietern ausgestellt, die digitale Identitäten bereitstellen und die Benutzerauthentifizierung verwalten. Dein Identitätsanbieter ist das Unternehmen, das du als deinen SPID-Anbieter ausgewählt hast."
+          },
+          {
+            "title": "Ich habe meine SPID-Anmeldedaten verloren. Was kann ich tun?",
+            "body": "Du kannst deinen Benutzernamen und dein Passwort jederzeit wiederherstellen. Wähle deinen Identitätsanbieter aus der Liste, um zu erfahren, wie du vorgehen musst:\n -[Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n -[EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n -[Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n -[Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n -[Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n -[Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n -[Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n -[Register, wenn du deinen Benutzernamen vergessen hast](https://spid.register.it/selfcare/recovery/username)\n -[Register, wenn du dein Passwort vergessen hast](https://spid.register.it/selfcare/recovery/password)\n -[Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n -[Tim, wenn du deinen Benutzernamen vergessen hast](https://id.tim.it/secure-proxy/fu)\n -[Tim, wenn du dein Passwort vergessen hast](https://id.tim.it/secure-proxy/fp)\n -[TeamSystem, wenn du deinen Benutzernamen vergessen hast](https://spid.teamsystem.com/it/auth/usernameLost)\n -[TeamSystem, wenn du dein Passwort vergessen hast](https://spid.teamsystem.com/it/auth/passwordLost)."
           }
         ]
       },
@@ -2680,7 +2699,45 @@
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
-            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Freischaltcodes verwenden. Wie der Freischaltcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+          },
+          {
+            "title": "Wie kann ich die biometrische Erkennung aktivieren?",
+            "body": "Wenn dein Telefon die biometrische Erkennung unterstützt, aktiviere sie in den Systemeinstellungen. Geh dann zum Abschnitt 'Profil' und aktiviere sie auch dort."
+          },
+          {
+            "title": "Wie kann ich die biometrische Erkennung deaktivieren?",
+            "body": "Geh zum Abschnitt 'Profil'. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_MISSING_DEVICE_PIN",
+        "title": "Wie biometrische Erkennung funktioniert",
+        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt „Einstellungen“ aktivieren oder deaktivieren",
+        "faqs": [
+          {
+            "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
+            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+          },
+          {
+            "title": "Wie kann ich die biometrische Erkennung aktivieren?",
+            "body": "Wenn dein Telefon die biometrische Erkennung unterstützt, aktiviere sie in den Systemeinstellungen. Geh dann zum Abschnitt 'Profil' und aktiviere sie auch dort."
+          },
+          {
+            "title": "Wie kann ich die biometrische Erkennung deaktivieren?",
+            "body": "Geh zum Abschnitt 'Profil'. Die biometrische Erkennung ist bereits deaktiviert, wenn dein Gerät sie nicht unterstützt oder wenn sie in den Systemeinstellungen deaktiviert ist."
+          }
+        ]
+      },
+      {
+        "route_name": "ONBOARDING_MISSING_DEVICE_BIOMETRIC",
+        "title": "Wie biometrische Erkennung funktioniert",
+        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt „Einstellungen“ aktivieren oder deaktivieren",
+        "faqs": [
+          {
+            "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
+            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
           },
           {
             "title": "Wie kann ich die biometrische Erkennung aktivieren?",
@@ -2717,13 +2774,24 @@
         "content": "Hier findest du die vollständige Beschreibung, wie IO mit deinen persönlichen Daten umgeht sowie die Nutzungsbedingungen der App."
       },
       {
+        "route_name": "SETTINGS_MAIN",
+        "title": "Was du in den Einstellungen tun kannst",
+        "content": "Hier kannst du deine Daten und Präferenzen für die Nutzung der App verwalten. Außerdem findest du Informationen darüber, wie wir deine personenbezogenen Daten verarbeiten und die digitale Version deiner Steuernummer.",
+        "faqs": [
+          {
+            "title": "Wie wird meine Privatsphäre geschützt?",
+            "body": "Wir haben die IO-App nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN) und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Der Schutz deiner Daten und deiner Rechte hat für uns Priorität.\n\n Um mehr zu erfahren, lies [die Datenschutzrichtlinie](https://io.italia.it/app-content/tos_privacy.html)"
+          }
+        ]
+      },
+      {
         "route_name": "PROFILE_MAIN",
         "title": "Was du in deinem Profil tun kannst",
         "content": "Hier kannst du deine Präferenzen und dein Konto verwalten, Informationen über die Verarbeitung personenbezogener Daten finden und die digitale Version deiner Steuernummerkarte einsehen.",
         "faqs": [
           {
             "title": "Wie wird meine Privatsphäre geschützt?",
-            "body": "Die IO-App wurde nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
+            "body": "Wir haben die IO-App nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN) und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Der Schutz deiner Daten und deiner Rechte hat für uns Priorität.\n\n Um mehr zu erfahren, lies [die Datenschutzrichtlinie](https://io.italia.it/app-content/tos_privacy.html)"
           },
           {
             "title": "Wozu dient die digitale Version meiner Steuernummerkarte?",
@@ -2751,6 +2819,11 @@
         ]
       },
       {
+        "route_name": "PROFILE_FISCAL_CODE",
+        "title": "Deine Steuernummer",
+        "content": "Hier findest du eine Kopie deiner Steuernummer. Es handelt sich nicht um ein offizielles Dokument, aber du kannst damit deine Daten lesen und den Strichcode sehen. Du kannst deine Steuernummer auch kopieren, wenn du sie brauchst."
+      },
+      {
         "route_name": "READ_EMAIL_SCREEN",
         "title": "Deine E-Mail-Adresse",
         "content": "Dies ist die E-Mail-Adresse, die du bei der Registrierung bestätigt hast. Dort senden wir dir Zahlungsbelege und leiten, wenn du die Option aktiviert hast, die Nachrichten weiter, die du in der App erhältst."
@@ -2761,19 +2834,34 @@
         "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du über die neue Adresse erhalten hast."
       },
       {
+        "route_name": "EMAIL_VERIFICATION_SCREEN",
+        "title": "Ändere deine E-Mail-Adresse",
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du über die neue Adresse erhalten hast."
+      },
+      {
+        "route_name": "CHECK_EMAIL_NOT_VERIFIED",
+        "title": "Um die IO-App zu nutzen, musst du deine E-Mail-Adresse bestätigen.",
+        "content": "Gib eine E-Mail-Adresse ein, die du verwendest und auf die nur du Zugriff hast. Sie wird verwendet, um dir Mitteilungen wie Zahlungsbelege oder Support-Nachrichten zu senden."
+      },
+      {
         "route_name": "PROFILE_PREFERENCES_HOME",
         "title": "Deine Einstellungen",
         "content": "Hier kannst du die von allen Diensten auf IO verwendeten Einstellungen einsehen und ändern. Du kannst auch den Kalender auswählen, in dem du Erinnerungen speichern möchtest, die automatische Weiterleitung von Nachrichten, die du auf IO erhältst, an deine E-Mail-Adresse aktivieren und die Sprache ändern.",
         "faqs": [
           {
             "title": "Wie wird meine Privatsphäre geschützt?",
-            "body": "Die IO-App wurde nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN), auch bekannt als GDPR, und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Sie ist daher ein sicheres Werkzeug, das deine Daten und deine Rechte schützt.\n\nWeitere Informationen findest du in unserer Datenschutzrichtlinie unter 'Datenschutz und Nutzungsbedingungen'."
+            "body": "Wir haben die IO-App nach den Grundsätzen der [Datenschutz-Grundverordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=EN) und des [Italienischen Datenschutzgesetzes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) konzipiert und entwickelt. Der Schutz deiner Daten und deiner Rechte hat für uns Priorität.\n\n Um mehr zu erfahren, lies [die Datenschutzrichtlinie](https://io.italia.it/app-content/tos_privacy.html)"
           },
           {
             "title": "Wie kann ich mein Konto und meine Daten löschen?",
             "body": "Geh zu 'Datenschutz und Nutzungsbedingungen' und wähle 'Dein Konto löschen'. Wenn die Löschung abgeschlossen ist, erhältst du eine Bestätigungsnachricht an die mit der App verbundene E-Mail-Adresse. Dies bedeutet nicht, dass du IO nicht mehr nutzen kannst: Wenn du dich erneut anmeldest, wird ein neues Konto erstellt."
           }
         ]
+      },
+      {
+        "route_name": "PIN_SCREEN",
+        "title": "Entsperrcode",
+        "content": "**Der Entsperrcode ist der Sicherheitscode, der deinen Zugang zur App sicher macht.**\nWenn du die App zum ersten Mal öffnest, legst du deinen eigenen numerischen Code fest und merkst ihn, damit du ihn bei allen weiteren Anmeldungen verwenden kannst. Wenn du ihn bereits erstellt hast und dich nicht mehr daran erinnern kannst, kannst du „Hast du deinen Entsperrcode vergessen?“ wählen und einen neuen Code erstellen.\nDer Entsperrcode ist an das Gerät gebunden, auf dem du ihn erstellt hast: Wenn du ihn änderst, musst du ihn bei der ersten Anmeldung bei der IO-App erneut erstellen."
       },
       {
         "route_name": "PROFILE_PREFERENCES_SERVICES",
@@ -2789,6 +2877,11 @@
             "body": "Bei manueller Konfiguration können dir aktuelle oder zukünftige IO-Dienste keine Mitteilungen senden. Um den Diensten, an denen du interessiert bist, zu erlauben, dir zu schreiben, musst du sie einzeln konfigurieren, indem du auf der Registerkarte eines jeden Dienstes den Punkt 'In der App kontaktieren' auswählst.\n\nFür einige Dienste, z. B. Boni, musst du diese abonnieren. In diesen Fällen kannst du die Option 'In der App kontaktieren' nicht deaktivieren, sobald du deine Registrierung abgeschlossen hast. Wenn du keine Nachrichten mehr von diesen Diensten erhalten möchtest, musst du dich abmelden, verlierst dann aber auch die damit verbundenen Vorteile."
           }
         ]
+      },
+      {
+        "route_name": "PROFILE_PREFERENCES_CALENDAR",
+        "title": "Bevorzugter Kalender",
+        "content": "Hier kannst du auswählen, in welchem der auf deinem Gerät verfügbaren Kalender du deine Erinnerungen hinzufügen möchtest."
       },
       {
         "route_name": "PROFILE_PREFERENCES_EMAIL_FORWARDING",

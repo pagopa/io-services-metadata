@@ -973,8 +973,8 @@ definitions:
       wallet_activation_disabled:
         description: "Flag that disables the button to activate the wallet"
         type: boolean
-      deferred_issuance_mdl:
-        description: "Content to display when there is a deferred issuance of MDL"
+      deferred_issuance_screen_content:
+        description: "Content to display in the failure screen when there is a deferred issuance for a credential"
         type: object
         properties:
           title:

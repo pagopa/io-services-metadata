@@ -973,6 +973,16 @@ definitions:
       wallet_activation_disabled:
         description: "Flag that disables the button to activate the wallet"
         type: boolean
+      deferred_issuance_mdl:
+        description: "Content to display when there is a deferred issuance of MDL"
+        type: object
+        properties:
+          title:
+            $ref: "#/definitions/LocalizedText"
+            description: "The title to be shown in screen"
+          description:
+            $ref: "#/definitions/LocalizedText"
+            description: "The description to be shown in screen"
   Banner:
     type: object
     required:

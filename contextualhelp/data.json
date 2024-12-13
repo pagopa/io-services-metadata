@@ -468,7 +468,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Il tuo Codice Fiscale",
-        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve."
+        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve.",
+        "faqs": [
+          {
+            "title": "Dove trovo la mia Tessera Sanitaria?",
+            "body": "Se hai già attivato Documenti su IO e aggiunto la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione e malattia al Portafoglio dell’app, puoi consultare il tuo Codice Fiscale, salvare o condividere il PDF della tessera."
+          }
+         ]
       },
       {
         "route_name": "READ_EMAIL_SCREEN",

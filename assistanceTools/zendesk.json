@@ -144,7 +144,7 @@
               }
             },
             {
-              "value": "pagamenti_ pagopa_info_stato",
+              "value": "pagamenti_pagopa_info_stato",
               "description": {
                 "it-IT": "Vorrei informazioni sullo stato di un pagamento",
                 "en-EN": "Vorrei informazioni sullo stato di un pagamento",

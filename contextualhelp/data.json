@@ -468,7 +468,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Il tuo Codice Fiscale",
-        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve."
+        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve.",
+        "faqs": [
+          {
+            "title": "Dove trovo la mia Tessera Sanitaria?",
+            "body": "Se hai già attivato Documenti su IO e aggiunto la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione e malattia al Portafoglio dell’app, puoi consultare il tuo Codice Fiscale, salvare o condividere il PDF della tessera."
+          }
+         ]
       },
       {
         "route_name": "READ_EMAIL_SCREEN",
@@ -2051,7 +2057,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Your Fiscal Code",
-        "content": "Here you will find a copy of your Fiscal Code. It is not an official document, but it allows you to read your information and see the bar code. You can also copy the Fiscal Code when you need it."
+        "content": "Here you will find a copy of your Fiscal Code. It is not an official document, but it allows you to read your information and see the bar code. You can also copy the Fiscal Code when you need it.",
+        "faqs": [
+          {
+            "title": "Where can I find my Italian Health Insurance Card?",
+            "body": "If you have already activated Documents on IO and added the digital version of your The Italian Health Insurance Card to the app's Wallet, you can look up your Fiscal Code, save or share the PDF of the card."
+          }
+        ]
       },
       {
         "route_name": "PROFILE_SECURITY",

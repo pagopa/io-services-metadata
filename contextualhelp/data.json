@@ -2375,7 +2375,7 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Mitteilungen",
-        "content": "Was du in deinen Mitteilungen tun kannst\n**Der Tab Mitteilungen sammelt alle eingehenden Mitteilungen von Körperschaften, die ihre Dienste über IO anbieten.**\nDu kannst direkt aus der Mitteilung heraus Erinnerungen für Fristen setzen oder eine Zahlungsaufforderung bezahlen.\nMitteilungen sind unterteilt in **Erhalten** (enthält alle Mitteilungen, die eingegangen sind und nicht archiviert werden), **Fristen** (zeigt nur Mitteilungen an, die ein Fälligkeitsdatum enthalten, was die Verwaltung von Aufgaben erleichtert) und **Archiviert** (behält den Überblick über alle archivierten Mitteilungen).\nUm eine Mitteilung zu archivieren, halte einfach den Bereich der zu archivierenden Mitteilung gedrückt und wähle die „Archivieren“, die dann auf dem Bildschirm erscheint.",
+        "content": "Was du in deinen Mitteilungen tun kannst\n**Der Tab Mitteilungen sammelt alle eingehenden Mitteilungen von Körperschaften, die ihre Dienste über IO anbieten.**\nDu kannst direkt aus der Mitteilung heraus Erinnerungen für Fristen setzen oder eine Zahlungsmitteilung bezahlen.\nMitteilungen sind unterteilt in **Erhalten** (enthält alle Mitteilungen, die eingegangen sind und nicht archiviert werden), **Fristen** (zeigt nur Mitteilungen an, die ein Fälligkeitsdatum enthalten, was die Verwaltung von Aufgaben erleichtert) und **Archiviert** (behält den Überblick über alle archivierten Mitteilungen).\nUm eine Mitteilung zu archivieren, halte einfach den Bereich der zu archivierenden Mitteilung gedrückt und wähle die „Archivieren“, die dann auf dem Bildschirm erscheint.",
         "faqs": [
           {
             "title": "Welche Art von Mitteilungen kannst du empfangen?",
@@ -2570,7 +2570,7 @@
           },
           {
             "title": "In einer Zustellung mit mehreren Zahlungenaufforderungen enthalten einige die Zustellkosten und andere nicht. Wie kommt das?",
-            "body": "Einige Zustellungen enthalten eine Gebühr für den Versand, die nur einmal pro Zustellung zu entrichten ist. Bei Zustellungen mit mehreren Zahlungsaufforderungen sind die Kosten für die Zusendung nur in einer und nicht in allen Zustellungen enthalten.\n\nSo kannst du beispielsweise entscheiden, ob du die Zahlungenaufforderung in einem Mal oder in Raten zahlen möchtest. Wenn du dich für die Zahlung eines Gesamtbetrags entscheidest, sind die Kosten für den Versand in der betreffenden Zahlungenaufforderung enthalten. Wenn du sich für eine Ratenzahlung entscheidest, sind die Kosten für den Versand nur in einem der verschiedenen Zahlungenaufforderungen enthalten - in der Regel in der ersten Rate."
+            "body": "Einige Zustellungen enthalten eine Gebühr für den Versand, die nur einmal pro Zustellung zu entrichten ist. Bei Zustellungen mit mehreren Zahlungsmitteilungen sind die Kosten für die Zusendung nur in einer und nicht in allen Zustellungen enthalten.\n\nSo kannst du beispielsweise entscheiden, ob du die Zahlungenaufforderung in einem Mal oder in Raten zahlen möchtest. Wenn du dich für die Zahlung eines Gesamtbetrags entscheidest, sind die Kosten für den Versand in der betreffenden Zahlungenaufforderung enthalten. Wenn du sich für eine Ratenzahlung entscheidest, sind die Kosten für den Versand nur in einem der verschiedenen Zahlungenaufforderungen enthalten - in der Regel in der ersten Rate."
           }
         ]
       },
@@ -3095,7 +3095,7 @@
       },
       {
         "route_name": "NEW_WALLET_CARD_ONBOARDING",
-        "title": "Wann erfolgt die Bereitstellung digitaler Dokumente auf IO?",
+        "title": "Wann erfolgt die Bereitstellung digitaler Dokumente in IO?",
         "content": "**Führerschein**\nDie Ausstellung der digitalen Version des Führerscheins erfolgt nicht in Echtzeit: Sobald du das Dokument angefordert hast, erhältst du in der App eine Mitteilung, die dich darüber informiert, dass dein Führerschein bereit ist, zu deinem Konto hinzugefügt zu werden.\n\nBitte beachte, dass in Zeiten großer Nachfrage die Zeit länger als normal sein kann (von einigen Stunden bis zu einigen Tagen).\n\n**Gesundheitskarte - Europäischen Krankenversicherungskarte**\nDie Ausstellung der digitalen Version der Europäischen Krankenversicherungskarte erfolgt in der Regel in Echtzeit. Bitte beachte, dass es in Zeiten hoher Nachfrage länger als normal dauern kann. Falls es zu Verzögerungen kommt, versuche es bitte nach ein paar Minuten erneut.\n\n**Europäische Behindertenkarte**\nDie Ausstellung der digitalen Version der Europäischen Behindertenkarte erfolgt in der Regel in Echtzeit. Sollte es zu Verzögerungen kommen, versuche es bitte nach ein paar Minuten erneut.",
         "faqs": [
           {
@@ -3277,24 +3277,24 @@
       },
       {
         "route_name": "ITW_CARD_ONBOARDING",
-        "title": "Quando avviene il rilascio dei documenti digitali su IO?",
-        "content": "**Patente di guida**\nL’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).\n\n**Tessera sanitaria - Tessera europea di assicurazione malattia**\nL’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.\n\n**Carta Europea della Disabilità**\nL’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.\n\nTieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto.",
+        "title": "Wann erfolgt die Bereitstellung digitaler Dokumente in IO?",
+        "content": "**Führerschein**\nDie Ausstellung der digitalen Version des Führerscheins erfolgt nicht in Echtzeit: Sobald du das Dokument angefordert hast, erhältst du in der App eine Mitteilung, die dich darüber informiert, dass dein Führerschein bereit ist, zu deinem Konto hinzugefügt zu werden.\n\nBitte beachte, dass in Zeiten großer Nachfrage die Zeit länger als normal sein kann (von einigen Stunden bis zu einigen Tagen).\n\n**Gesundheitskarte - Europäischen Krankenversicherungskarte**\nDie Ausstellung der digitalen Version der Europäischen Krankenversicherungskarte erfolgt in der Regel in Echtzeit. Bitte beachte, dass es in Zeiten hoher Nachfrage länger als normal dauern kann. Falls es zu Verzögerungen kommt, versuche es bitte nach ein paar Minuten erneut.\n\n**Europäische Behindertenkarte**\nDie Ausstellung der digitalen Version der Europäischen Behindertenkarte erfolgt in der Regel in Echtzeit. Sollte es zu Verzögerungen kommen, versuche es bitte nach ein paar Minuten erneut.",
         "faqs": [
           {
-            "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
-            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+            "title": "Wenn ich Dokumente in IO aktiviere, kann ich dann ohne physische Dokumente zirkulieren?",
+            "body": "Wenn du Dokumente in IO aktivierst, kannst du digitale Versionen einiger deiner persönlichen Dokumente in dem Konto der IO-App speichern. In dieser ersten Phase können digitale Versionen von Dokumenten in bestimmten Nutzungskontexten anstelle der entsprechenden physischen Dokumente verwendet werden, insbesondere:\n - der Führerschein nur in Italien zum Nachweis deiner Fahrberechtigung bei Polizeikontrollen, wie im Rundschreiben des Innenministeriums Nr. 32079 vom 22. Oktober 2024 festgelegt;\n - die Gesundheitskarte - Europäische Krankenversicherungskarte für den Zugang zu den Leistungen des nationalen Gesundheitsdienstes;\n - der Europäische Behindertenausweis für die gleichen Verwendungszwecke wie heute bei Vorlage des physischen Dokuments."
           },
           {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
             "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
           },
           {
-            "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
-            "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+            "title": "Kann ich die Dokumente von minderjährigen Kindern oder anderen Familienmitgliedern zu Dokumente in IO hinzufügen?",
+            "body": "Nein, derzeit kannst du nur digitale Versionen deiner persönlichen Dokumente im Konto der IO-App hinzufügen."
           },
           {
-            "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
-            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+            "title": "Ich sehe den Bonus oder die Initiative, die ich aktivieren möchte, nicht, wie kommt das?",
+            "body": "Wenn du den Bonus oder die Initiative, die du aktivieren möchtest, nicht in der Liste siehst, liegt das daran, dass sie nicht existiert oder in der IO-App nicht verfügbar ist."
           }
         ]
       },
@@ -3315,160 +3315,160 @@
       },
       {
         "route_name": "PAYMENTS_HOME",
-        "title": "Cosa puoi fare nella sezione Pagamenti",
-        "content": "Qui puoi pagare un avviso, vedere le ricevute di pagamento pagoPA e aggiungere un metodo di pagamento",
+        "title": "Was kann ich im Bereich „Zahlungen“ tun?",
+        "content": "Hier kannst du eine Zahlungsmitteilung bezahlen, pagoPA-Quittungen einsehen und eine Zahlungsmethode hinzufügen",
         "faqs": [
           {
-            "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
+            "title": "Welche Zahlungsmethoden kann ich bei IO verwenden?",
+            "body": "Du kannst aus verschiedenen Zahlungsmethoden wählen, darunter:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- BANCOMAT Pay\n- PayPal-Schnellzahlung\n- PayPal (auch in 3 Raten)\n\nAndere Zahlungsmethoden werden bald verfügbar sein."
           },
           {
-            "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
-            "body": "Sì, se sull’avviso sono presenti il logo pagoPA e il codice QR o il codice avviso.\n Per farlo, vai nella sezione Pagamenti. Scansiona il codice QR o inserisci il codice avviso e il codice fiscale dell’ente creditore. Segui le indicazioni e completa il pagamento."
+            "title": "Kann ich eine Zahlungsmitteilung bezahlen, die ich nicht über IO erhalten habe?",
+            "body": "Ja, wenn das pagoPA-Logo und der QR-Code oder der Zahlungskodex auf der Zahlungsmitteilung vorhanden sind.\nGeh dazu in den Bereich Zahlungen. Scanne den QR-Code oder gib den Zahlungskodex und die Steuernummer des Gläubigers ein. Folge den Anweisungen und schließe die Zahlung ab."
           },
           {
-            "title": "Cosa vedo nella ricevuta?",
-            "body": "La ricevuta include:\n - le informazioni sulla transazione;\n - i dettagli sull’avviso pagato;\n - le indicazioni di chi ha eseguito il pagamento, solo se hai pagato tu tramite l’app IO."
+            "title": "Was sehe ich auf der Quittung?",
+            "body": "Die Quittung enthält:\n - Informationen über die Transaktion;\n - Details über die gezahlte Gebühr;\n - Details darüber, wer die Zahlung vorgenommen hat, nur wenn du über die IO-App bezahlt hast."
           },
           {
-            "title": "Dove trovo i pagamenti effettuati?",
-            "body": "Nella sezione Pagamenti trovi una lista di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "title": "Wo finde ich die getätigten Zahlungen?",
+            "body": "Im Abschnitt „Zahlungen“ findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
           },
           {
-            "title": "Non vedo più il mio account PayPal",
-            "body": "Con la versione più recente di IO puoi usare PayPal in due modalità. In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.\n\n **PayPal (anche in 3 rate)** \nUsa questa modalità se vuoi scegliere ad ogni pagamento quale carta o conto utilizzare. Puoi anche pagare in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n Non devi salvare nulla: quando paghi un avviso, seleziona il metodo tra quelli disponibili.\n\n **PayPal pagamento veloce** \nUsa questa modalità se vuoi salvare il tuo account e pagare più velocemente.Per farlo, aggiungi il metodo al Portafoglio e segui le indicazioni."
+            "title": "Ich sehe mein PayPal-Konto nicht mehr",
+            "body": "Mit der neuesten Version von IO kannst du PayPal auf zwei Arten nutzen. Bei der Bezahlung kannst du zwischen zwei neuen Methoden wählen: „PayPal (auch in 3 Raten)“ und „PayPal-Schnellzahlung“.\n\n **„PayPal (auch in 3 Raten)“** \nVerwende diesen Modus, wenn du wählen möchtest, welche Karte oder welches Konto du für jede Zahlung verwenden möchtest. Du kannst auch in 3 Raten ohne Zinsen zahlen, gemäß den [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNiemals etwas speichern: Wenn du eine Zahlungsmitteilung bezahlst, wähle einfach die Methode aus den verfügbaren Methoden aus.\n\n **PayPal-Schnellzahlung** \nVerwende diesen Modus, wenn du dein Konto speichern und schneller bezahlen möchtest. Füge dazu die Methode zu deinem Konto hinzu und folge den Anweisungen."
           },
           {
-            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- PayPal, con pagamento veloce.\n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "title": "Welche Zahlungsmethoden kann ich zu meinem Konto hinzufügen?",
+            "body": "Du kannst diese Zahlungsmethoden auswählen und speichern:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- PayPal-Schnellzahlung\n\nWenn du eine andere Methode verwenden möchtest, kannst du diese zum Zeitpunkt der Zahlung auswählen, aber sie wird nicht im Konto für zukünftige Zahlungen gespeichert."
           },
           {
-            "title": "Che cos’è pagoPA?",
-            "body": "pagoPA è una piattaforma per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. Tra i vari benefici, permette di aumentare l’uso di modalità elettroniche di pagamento e rende le persone libere di scegliere come pagare, dando evidenza dei costi di commissione. Per saperne di più, [vai sul sito di pagoPA](https://www.pagopa.gov.it/)."
+            "title": "Was ist pagoPA?",
+            "body": "pagoPA ist eine Plattform, die alle Zahlungen an die öffentliche Verwaltung einfacher, sicherer und transparenter machen soll. Neben anderen Vorteilen steigert sie die Nutzung elektronischer Zahlungsmittel und gibt den Menschen die Freiheit zu wählen, wie sie bezahlen, während sie die Transaktionskosten getrennt ausweist. Weitere Informationen findest du [auf der pagoPA-Website](https://www.pagopa.gov.it/)"
           },
           {
-            "title": "Come posso saperne di più sui pagamenti digitali?",
-            "body": "Per approfondire i temi di tuo interesse legati al mondo dei pagamenti digitali, puoi consultare i materiali messi a disposizione dalla [Banca d’Italia](https://www.bancaditalia.it/) nell’ambito dei programmi di educazione finanziaria, tra cui la [sezione dedicata](https://economiapertutti.bancaditalia.it/pagare/) del sito [L’Economia per tutti](https://economiapertutti.bancaditalia.it/) e la [Guida sui Pagamenti nel Commercio Elettronico](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nPer esempio, se vuoi saperne di più sui metodi di pagamento che puoi aggiungere al Portafoglio dell’app IO, puoi leggere le schede informative dedicate, come la [carta di credito](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), la [carta di debito](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), la [carta prepagata](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) e la [carta co-badge](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
+            "title": "Wie kann ich mehr über digitale Zahlungen erfahren?",
+            "body": "Um mehr über die Themen zu erfahren, die dich im Zusammenhang mit der Welt des digitalen Zahlungsverkehrs interessieren, kannst du die von der [Zentralbank von Italien](https://www.bancaditalia.it/) im Rahmen der Programme zur finanziellen Bildung zur Verfügung gestellten Materialien konsultieren, einschließlich des [speziellen Bereichs](https://economiapertutti.bancaditalia.it/pagare/) der Website [Wirtschaft für alle](https://economiapertutti.bancaditalia.it/) und des [Leitfadens für Zahlungen im elektronischen Handel](https://www.bancaditalia.it/pubblicazioni/guide-bi/guida-pagamenti-comm-elettronico/guide-BI-i-pagamenti-nel-commercio-elettronico_ITA.pdf).\n\nWenn du beispielsweise mehr über die Zahlungsmethoden erfahren möchtest, die du zu deinem IO-App Konto hinzufügen kannst, kannst du die entsprechenden Informationsblätter lesen, wie die [Kreditkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-credito/), die [Debitkarte](https://economiapertutti.bancaditalia.it/pagare/carta-di-debito/), die [Prepaid-Karte](https://economiapertutti.bancaditalia.it/pagare/carta-prepagata/) und die [Co-Badge-Karte](https://economiapertutti.bancaditalia.it/pagare/carte_co-badge_multifunzione/)."
           }
         ]
       },
       {
         "route_name": "PAYMENT_ONBOARDING_SELECT_METHOD",
-        "title": "Aggiungi un metodo",
-        "content": "Qui puoi aggiungere e gestire i tuoi metodi di pagamento e i bonus disponibili su IO",
+        "title": "Zahlungsmethode hinzufügen",
+        "content": "Hier kannst du deine auf IO verfügbaren Zahlungsmethoden hinzufügen und verwalten",
         "faqs": [
           {
-            "title": "Quali metodi di pagamento posso aggiungere al Portafoglio?",
-            "body": "Puoi aggiungere e salvare questi metodi di pagamento:\n- **Carte di credito o di debito** (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- **PayPal, con pagamento veloce.** \n\nSe vuoi usare un altro metodo, puoi sceglierlo al momento del pagamento, ma non verrà salvato nel Portafoglio per i pagamenti futuri."
+            "title": "Welche Zahlungsmethoden kann ich zu meinem Konto hinzufügen?",
+            "body": "Du kannst diese Zahlungsmethoden auswählen und speichern:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- PayPal-Schnellzahlung\n\nWenn du eine andere Methode verwenden möchtest, kannst du diese zum Zeitpunkt der Zahlung auswählen, aber sie wird nicht im Konto für zukünftige Zahlungen gespeichert."
           },
           {
-            "title": "Posso rimuovere un metodo di pagamento?",
-            "body": "Sì. I tuoi metodi di pagamento sono visualizzati come card nella parte alta dello schermo nella sezione Portafoglio. Seleziona la card del metodo che vuoi eliminare, poi premi su 'Elimina questo metodo'."
+            "title": "Kann ich eine Zahlungsmethode entfernen?",
+            "body": "Ja. Deine Zahlungsmethoden werden oben auf dem Bildschirm im Bereich „Zahlungen“ als Karten angezeigt. Wähle die Karte aus, die du löschen möchtest und drücke dann auf „Aus Konto entfernen“."
           },
           {
-            "title": "Perché il salvataggio della carta non va a buon fine?",
-            "body": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n- La tua carta non è abilitata agli acquisti online.\n- Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n- La tua carta è stata sospesa o bloccata.\n- Hai messo 'in pausa' la tua carta."
+            "title": "Warum schlägt das Speichern der Karte fehl?",
+            "body": "Dies kann verschiedene Gründe haben, aber frag bitte auf jeden Fall bei deiner Bank nach.\nDie häufigsten Fälle sind: \n- deine Karte ist nicht für Online-Einkäufe freigeschaltet.\n- du hast den 3DS-Dienst noch nicht aktiviert: Dies ist ein Sicherheitssystem für Online-Zahlungen.\n- deine Karte wurde gesperrt oder blockiert.\n- du hast deine Karte „pausiert“."
           },
           {
-            "title": "Posso pagare anche a rate con PayPal?",
-            "body": "Sì, ma non con il metodo salvato nel Portafoglio.\n\nPer pagare a rate, seleziona il metodo ‘PayPal (anche in 3 rate)’ durante il pagamento e segui le indicazioni.\n\nQuesta opzione è disponibile solo per alcuni avvisi. Per verificare se il tuo avviso è idoneo, consulta i [Termini e condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+            "title": "Kann ich auch in Raten mit PayPal bezahlen?",
+            "body": "Ja, aber nicht mit der im Konto gespeicherten Zahlungsmethode.\nUm in Raten zu zahlen, wähle bei der Zahlung die Methode „PayPal (auch in 3 Raten)“ und folge den Anweisungen.\nDiese Option ist nur für einige Zahlungsmitteilungen verfügbar. Um zu prüfen, ob deine Zahlungsmitteilung dafür in Frage kommt, lies bitte die [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
           }
         ]
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_LIST_SCREEN",
-        "title": "Ricevute pagoPA",
-        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [
           {
-            "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
-            "title": "Come faccio a vedere tutte le ricevute disponibili?",
-            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
-            "title": "Come faccio a salvare una ricevuta?",
-            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           }
         ]
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_DETAILS",
-        "title": "Ricevute pagoPA",
-        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [
           {
-            "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
-            "title": "Come faccio a vedere tutte le ricevute disponibili?",
-            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
-            "title": "Come faccio a salvare una ricevuta?",
-            "body": "Premi sulla ricevuta, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           }
         ]
       },
       {
         "route_name": "PAYMENT_TRANSACTION_LIST",
-        "title": "Ricevute pagoPA",
-        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [
           {
-            "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
-            "title": "Come faccio a vedere tutte le ricevute disponibili?",
-            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
-            "title": "Come faccio a salvare una ricevuta?",
-            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           }
         ]
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
-        "title": "Ricevute pagoPA",
-        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [
           {
-            "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
-            "title": "Come faccio a vedere tutte le ricevute disponibili?",
-            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
-            "title": "Come faccio a salvare una ricevuta?",
-            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           }
         ]
       },
       {
         "route_name": "PAYMENT_BARCODE_SCAN",
-        "title": "Come pagare un avviso pagoPA",
-        "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+        "title": "Wie man eine pagoPA-Zahlungsmitteilung bezahlt",
+        "content": "Scanne den QR-Code auf der pagoPA-Zahlungsmitteilung und führe die Zahlung direkt in der App durch.\n Alternativ gib die erforderlichen Daten manuell ein.\n Wenn die Zahlungsmitteilung auf dinem Gerät gespeichert ist, kannst du das Foto oder PDF-Dokument auch hochladen.",
         "faqs": [
-          {
-            "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n\nSaranno presto disponibili altri metodi di pagamento."
+           {
+            "title": "Welche Zahlungsmethoden kann ich bei IO verwenden?",
+            "body": "Du kannst aus verschiedenen Zahlungsmethoden wählen, darunter:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- BANCOMAT Pay\n- PayPal-Schnellzahlung\n- PayPal (auch in 3 Raten)\n\nAndere Zahlungsmethoden werden bald verfügbar sein."
           }
         ]
       },
       {
         "route_name": "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
-        "title": "Inserisci i dati dell’avviso",
-        "content": "Qui puoi inserire i dettagli dell’avviso di pagamento.",
+        "title": "Daten der Zahlungsmitteilung eingeben",
+        "content": "Hier kannst du die Details der Zahlungsmitteilung eingeben.",
         "faqs": [
           {
-            "title": "Cos’è il codice di avviso?",
+            "title": "Was ist der Zahlungsmitteilungskodex",
             "body": "È un codice di 18 cifre, inizia generalmente con i numeri 0, 1 o 3. Lo trovi nell'avviso di pagamento accanto al codice QR."
           },
           {
@@ -3778,7 +3778,7 @@
       {
         "route_name": "MESSAGES_INBOX",
         "title": "Was kann ich in Mitteilungen tun?",
-        "content": "**Im Tab 'Mitteilungen' findest du die Mitteilungen, die dir von an IO teilnehmenden Körperschaften** zugesandt wurden. Nur Körperschaften, die dir etwas zu sagen haben, wie z. B. eine Zahlungsaufforderung, eine Erinnerung an eine Frist, eine Information oder eine Mitteilung über eine Aktualisierung, werden dir schreiben. Die Nachrichten sind in zwei Tabs unterteilt: 'Erhalten' enthält die Mitteilungen, die du erhalten hast und 'Archiviert' enthält die Mitteilungen, die du archiviert hast.",
+        "content": "**Im Tab 'Mitteilungen' findest du die Mitteilungen, die dir von an IO teilnehmenden Körperschaften** zugesandt wurden. Nur Körperschaften, die dir etwas zu sagen haben, wie z. B. eine Zahlungsmitteilung, eine Erinnerung an eine Frist, eine Information oder eine Mitteilung über eine Aktualisierung, werden dir schreiben. Die Nachrichten sind in zwei Tabs unterteilt: 'Erhalten' enthält die Mitteilungen, die du erhalten hast und 'Archiviert' enthält die Mitteilungen, die du archiviert hast.",
         "faqs": [
           {
             "title": "Welche Art von Mitteilungen kann ich empfangen?",

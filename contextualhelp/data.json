@@ -3469,76 +3469,76 @@
         "faqs": [
           {
             "title": "Was ist der Zahlungsmitteilungskodex",
-            "body": "È un codice di 18 cifre, inizia generalmente con i numeri 0, 1 o 3. Lo trovi nell'avviso di pagamento accanto al codice QR."
+            "body": "Es ist ein 18-stelliger Code, der in der Regel mit den Zahlen 0, 1 oder 3 beginnt. Du findest ihn in der Zahlungsmitteilung neben dem QR-Code."
           },
           {
-            "title": "E se il codice avviso non ha 18 cifre?",
-            "body": "In questo caso puoi pagare l’avviso di pagamento dal sito dell'ente creditore. Se non sai come procedere, contatta l'ente creditore per assistenza."
+            "title": "Was ist, wenn der Zahlungsmitteilungskodex nicht 18-stellig ist?",
+            "body": "In diesem Fall kannst du die Zahlungsmitteilung über die Website der Körperschaft bezahlen. Wenn du nicht weißt, wie du vorgehen sollst, wende dich an die Körperschaft."
           },
           {
-            "title": "Dove trovo il codice fiscale dell’ente creditore?",
-            "body": "Lo trovi accanto al codice QR. È un codice numerico di 11 cifre."
+            "title": "Wo finde ich die Steuernummer der Körperschaft?",
+            "body": "Du findest ihn neben dem QR-Code. Es ist ein 11-stelliger numerischer Code."
           }
         ]
       },
       {
         "route_name": "PAYMENT_CHECKOUT_DETAIL",
-        "title": "Riepilogo avviso",
-        "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+        "title": "Zusammenfassung Zahlungsmitteilung",
+        "content": "Hier findest du eine Übersicht über die Daten der Zahlungsmitteilung.",
         "faqs": [
           {
-            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-            "body": "pagoPA aggiorna l'importo in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+            "title": "Der Betrag unterscheidet sich von dem in der Zahlungsmitteilung genannten Betrag. Wie kommt das?",
+            "body": "pagoPA aktualisiert den Betrag in Echtzeit, damit du zahlen kannst, ohne zusätzliche Gebühren und Zinsen zahlen zu müssen.\n Dies kann zum Beispiel der Fall sein, wenn die Körperschaft Zustellungskosten erhebt (wenn sie dir eine rechtskräftige Zustellung geschickt hat) oder wenn du mit deiner Zahlung in Verzug bist."
           },
           {
-            "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
-            "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.\nPuoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+            "title": "Warum weicht das Fälligkeitsdatum von dem in der Zahlungsmitteilung angegebenen Datum ab?",
+            "body": "Wenn das Fälligkeitsdatum abweicht oder weit in der Zukunft liegt, könnte es sich um einen technischen Fehler seitens der Körperschaft handeln.\nDu kannst die Zahlung trotzdem vornehmen. Wir überwachen diese Probleme und melden sie den betroffenen Stellen."
           }
         ]
       },
       {
         "route_name": "PAYMENT_NOTICE_SUMMARY",
-        "title": "Riepilogo avviso",
-        "content": "Qui trovi il riepilogo dei dati dell’avviso di pagamento.",
+        "title": "Zusammenfassung Zahlungsmitteilung",
+        "content": "Hier findest du eine Übersicht über die Daten der Zahlungsmitteilung.",
         "faqs": [
           {
-            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-            "body": "pagoPA aggiorna l'importo in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+            "title": "Der Betrag unterscheidet sich von dem in der Zahlungsmitteilung genannten Betrag. Wie kommt das?",
+            "body": "pagoPA aktualisiert den Betrag in Echtzeit, damit du zahlen kannst, ohne zusätzliche Gebühren und Zinsen zahlen zu müssen.\n Dies kann zum Beispiel der Fall sein, wenn die Körperschaft Zustellungskosten erhebt (wenn sie dir eine rechtskräftige Zustellung geschickt hat) oder wenn du mit deiner Zahlung in Verzug bist."
           },
           {
-            "title": "Perché la data di scadenza è diversa dalla data riportata nell'avviso?",
-            "body": "Se la data di scadenza è diversa o è molto avanti nel tempo, potrebbe trattarsi di un errore tecnico da parte dell'ente creditore.\nPuoi comunque procedere con il pagamento. Monitoriamo questi problemi e li segnaliamo agli enti interessati."
+            "title": "Warum weicht das Fälligkeitsdatum von dem in der Zahlungsmitteilung angegebenen Datum ab?",
+            "body": "Wenn das Fälligkeitsdatum abweicht oder weit in der Zukunft liegt, könnte es sich um einen technischen Fehler seitens der Körperschaft handeln.\nDu kannst die Zahlung trotzdem vornehmen. Wir überwachen diese Probleme und melden sie den betroffenen Stellen."
           }
         ]
       },
       {
         "route_name": "PAYMENT_CHECKOUT_MAKE",
-        "title": "Seleziona un metodo",
-        "content": "Qui puoi scegliere il metodo di pagamento che vuoi usare per pagare l’avviso e il Prestatore di Servizi di Pagamento (PSP) che gestirà la transazione. Trovi poi il riepilogo delle scelte e il totale del pagamento. Puoi modificare una delle tue scelte o pagare l’avviso.",
+        "title": "Zahlungsmethode auswählen",
+        "content": "Hier kannst du die Zahlungsmethode, mit der du die Zahlungsmitteilung bezahlen möchtest, und den Zahlungsdienstleister (PSP), der die Transaktion abwickeln wird, auswählen. Du findest dann eine Übersicht über deine Auswahl und den Gesamtbetrag der Zahlung. Du kannst deine Wahl ändern oder die Zahlungsmitteilung bezahlen.",
         "faqs": [
           {
-            "title": "Come faccio a pagare con carta di credito o debito?",
-            "body": "Al momento puoi aggiungere la carta dalla sezione Portafoglio prima di iniziare un pagamento. In futuro, potrai pagare anche senza salvarla. Questo ti sarà utile, ad esempio, se vorrai usare carte monouso o usa e getta."
+            "title": "Wie kann ich mit Kredit- oder Debitkarte bezahlen?",
+            "body": "Zurzeit kannst du die Karte im Bereich „Konto“ hinzufügen, bevor du eine Zahlung beginnst. Künftig wirst du auch bezahlen können, ohne sie zu speichern. Dies ist zum Beispiel nützlich, wenn du Einweg- oder Wegwerfkarten verwenden möchtest."
           },
           {
-            "title": "Perché non vedo un metodo?",
-            "body": "Al momento potrebbe non essere disponibile, oppure l'importo dell’avviso che stai cercando di pagare supera il massimale previsto dal gestore del pagamento."
+            "title": "Warum sehe ich keine Zahlungsmethode?",
+            "body": "Möglicherweise ist sie gerade nicht verfügbar, oder der Betrag der Zahlungsmitteilung, die du bezahlen willst, übersteigt die vom Zahlungsanbieter festgelegte Obergrenze."
           },
           {
-            "title": "Vorrei usare PayPal, cosa scelgo?",
-            "body": "Se vuoi pagare a rate, puoi scegliere *PayPal (anche in 3 rate)*.\nCon questo metodo puoi scegliere ad ogni pagamento quale carta o conto utilizzare per addebitare le spese e dividere il pagamento in 3 rate senza interessi, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\n\nSe invece vuoi pagare più velocemente, scegli *PayPal pagamento veloce*, ovvero il metodo che hai già salvato nel tuo Portafoglio. Con questa modalità non potrai né pagare a rate né scegliere su quale carta o conto addebitare la spesa."
+            "title": "Ich möchte PayPal verwenden, was soll ich wählen?",
+            "body": "Wenn du in Raten zahlen möchtest, kannst du *PayPal (auch in 3 Raten)* wählen.\nBei dieser Methode kannst du wählen, welche Karte oder welches Konto du für jede Zahlung verwenden möchtestund die Zahlung in 3 zinslose Raten aufteilen, gemäß den [Bedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).\n\nWenn du schneller bezahlen möchtest, wähle *PayPal-Schnellzahlung*, die Methode, die du bereits in deinem Konto gespeichert hast. Bei dieser Methode kannst du weder in Raten zahlen noch wählen, welche Karte oder welches Konto du belasten möchtest."
           },
           {
-            "title": "Perché devo pagare una commissione?",
-            "body": "Quando usi un servizio di pagamento, il Prestatore di Servizi di Pagamento (PSP) applica una commissione. Queste commissioni coprono i costi necessari al PSP per garantire un servizio di qualità. Tra questi ci sono la continuità del servizio, la rapidità delle transazioni, l'uso dei circuiti internazionali per le carte di credito, la sicurezza e i sistemi anti-frode, oltre alla manutenzione dell'infrastruttura. Questi costi permettono quindi al PSP di offrirti un servizio affidabile e sicuro.\n\nPer maggiori dettagli consulta la pagina [FAQ](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) sul sito di pagoPA."
+            "title": "Warum muss ich eine Transaktionsgebühr zahlen?",
+            "body": "Wenn du einen Zahlungsdienst nutzt, erhebt der Zahlungsdienstleister (PSP) eine Gebühr. Diese Gebühren decken die Kosten, die der Zahlungsdienstleister benötigt, um einen hochwertigen Dienst zu gewährleisten. Dazu gehören die Kontinuität des Dienstes, die Geschwindigkeit der Transaktionen, die Nutzung internationaler Kartenschaltungen, Sicherheits- und Betrugsbekämpfungssysteme sowie die Wartung der Infrastruktur. Diese Kosten ermöglichen es dem PSP, dir einen zuverlässigen und sicheren Service zu bieten.\nWeitere Informationen findest du auf der [FAQ-Seite](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) auf der pagoPA Website."
           },
           {
-            "title": "Perché le commissioni cambiano da un gestore all'altro?",
-            "body": "Ogni istituto che gestisce i pagamenti con pagoPA (Prestatori di Servizi di Pagamento) può applicare autonomamente differenti costi, a seconda delle proprie politiche commerciali e delle condizioni contrattuali dell’utente."
+            "title": "Warum ändern sich die Transaktionsgebühren von einem Zahlungsdienstleister zum anderen?",
+            "body": "Jedes Institut, das Zahlungen mit pagoPA abwickelt (Payment Service Provider), kann je nach Geschäftspolitik und Vertragsbedingungen des Nutzers unterschiedliche Gebühren erheben."
           },
           {
-            "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-            "body": "Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+            "title": "Der Betrag unterscheidet sich von dem in der Zahlungsmitteilung genannten Betrag. Wie kommt das?",
+            "body": "pagoPA aktualisiert den Betrag in Echtzeit, damit du zahlen kannst, ohne zusätzliche Gebühren und Zinsen zahlen zu müssen.\n Dies kann zum Beispiel der Fall sein, wenn die Körperschaft Zustellungskosten erhebt (wenn sie dir eine rechtskräftige Zustellung geschickt hat) oder wenn du mit deiner Zahlung in Verzug bist."
           }
         ]
       },

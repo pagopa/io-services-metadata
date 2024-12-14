@@ -3615,12 +3615,35 @@
         "content": "Hier kannst du die Liste der in der App verfügbaren nationalen und lokalen Dienste einsehen. \nTippe auf einen Dienstnamen, um dessen Details anzuzeigen. Auf der Detailseite des Dienstes kannst du auch das Senden von Push-Benachrichtigungen und die Weiterleitung von Nachrichten an deine E-Mail-Adresse verwalten.",
         "faqs": [
           {
-            "title": "Wie kann ich Dienste konfigurieren?",
-            "body": "Für jeden Dienst kannst du entscheiden, ob du In-App-Mitteilungen und Push-Benachrichtigungen erhalten möchtest. Unter Profil > Einstellungen > Mitteilungen mittels E-Mail weiterleiten kannst du auch die Weiterleitung von Nachrichten von allen aktiven Diensten an deine E-Mail-Adresse aktivieren.\n Auch wenn du die vollständige Liste der Dienste siehst, wirst du nur von den Körperschaften kontaktiert, die deine Steuernummer kennen und eine Mitteilung haben, die dich persönlich betrifft."
+            "title": "Kann ich Körperschaften über IO kontaktieren?",
+            "body": "Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Wenn du eine Körperschaften kontaktieren musst, kannst du dies über die Kontakte tun, die du auf der Registerkarte für jeden Dienst im Tab 'Dienste' findest."
+          },
+          {
+            "title": "Was sind Dienste und Körperschaften im Vordergrund?",
+            "body": "Diese Dienste und Körperschaften haben wir ausgewählt, um den Nutzern die Suche nach nützlichen Diensten zu erleichtern, das Nutzererlebnis zu verbessern und die Entdeckung der wichtigsten Angebote zu erleichtern."
+          },
+          {
+            "title": "Wo kann ich lokale Dienste finden?",
+            "body": "Klicke auf das Suchsymbol und gib die ersten drei Buchstaben der gewünschten Körperschaft ein, um nach nationalen und lokalen Einrichtungen zu suchen, die in der App verfügbar sind."
+          },
+          {
+            "title": "Warum kann ich die gesuchte Körperschaft nicht finden?",
+            "body": "Es ist möglich, dass die von dir gesuchte Körperschaft noch keine Dienste in der IO-App anbietet.\nViele neue Körperschaften werden jeden Tag zu IO hinzugefügt. Prüfe in Zukunft, ob die von dir gesuchte Körperschaft oder Dienstleistung in der App enthalten ist."
+          }
+        ]
+      },
+      {
+        "route_name": "INSTITUTION_SERVICES",
+        "title": "Details der Körperschaft",
+        "content": "Hier findest du eine Liste der Dienste, die für die gewählte Körperschaft verfügbar sind. Tippe auf den Namen eines Dienstes, um Details anzuzeigen und die Optionen zu verwalten.",
+        "faqs": [
+          {
+            "title": "Wie kann ich die Dienste konfigurieren?",
+            "body": "Für jeden Dienst kannst du entscheiden, ob du In-App-Nachrichten und Push-Benachrichtigungen erhalten möchtest. Tippe dazu auf den Namen des Dienstes und wähle aus den Optionen im Bereich „Dieser Dienst kann“."
           },
           {
             "title": "Kann ich Körperschaften über IO kontaktieren?",
-            "body": "Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Wenn du eine Körperschaften kontaktieren musst, kannst du dies über die Kontakte tun, die du auf der Registerkarte für jeden Dienst im Tab 'Dienste' findest."
+            "body": "Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Du kannst dies über die Kontakte tun, die du in den Details jedes Dienstes im Bereich „Dienste“ findest."
           }
         ]
       },

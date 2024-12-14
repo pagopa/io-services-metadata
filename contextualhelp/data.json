@@ -3337,6 +3337,10 @@
             "body": "Die Quittung enthält:\n - Informationen über die Transaktion;\n - Details über die gezahlte Gebühr;\n - Details darüber, wer die Zahlung vorgenommen hat, nur wenn du über die IO-App bezahlt hast."
           },
           {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
+          },
+          {
             "title": "Wo finde ich die getätigten Zahlungen?",
             "body": "Im Abschnitt „Zahlungen“ findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
           },
@@ -3397,6 +3401,10 @@
           {
             "title": "Wie kann ich eine Quittung speichern?",
             "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
           }
         ]
       },
@@ -3416,6 +3424,10 @@
           {
             "title": "Wie kann ich eine Quittung speichern?",
             "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
           }
         ]
       },
@@ -3435,6 +3447,10 @@
           {
             "title": "Wie kann ich eine Quittung speichern?",
             "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
           }
         ]
       },
@@ -3454,6 +3470,10 @@
           {
             "title": "Wie kann ich eine Quittung speichern?",
             "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
           }
         ]
       },
@@ -3473,6 +3493,10 @@
           {
             "title": "Wie kann ich eine Quittung speichern?",
             "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
           }
         ]
       },
@@ -3481,7 +3505,26 @@
         "title": "Wie man eine pagoPA-Zahlungsmitteilung bezahlt",
         "content": "Scanne den QR-Code auf der pagoPA-Zahlungsmitteilung und führe die Zahlung direkt in der App durch.\n Alternativ gib die erforderlichen Daten manuell ein.\n Wenn die Zahlungsmitteilung auf dinem Gerät gespeichert ist, kannst du das Foto oder PDF-Dokument auch hochladen.",
         "faqs": [
-           {
+          {
+            "title": "Ich kann den QR-Code nicht scannen. Was kann ich tun?",
+            "body": "Versuche, das Gerät vom Papier zu entfernen, um den Code besser zu fokussieren.\n\n Stelle sicher, dass der Raum ausreichend beleuchtet ist. Wenn du dich an einem schwach beleuchteten Ort befindest, kannst du die Taschenlampe auf deinem Gerät aktivieren, indem du auf das Symbol in der oberen rechten Ecke tippst."
+          }, 
+          {
+            "title": "Welche Zahlungsmethoden kann ich bei IO verwenden?",
+            "body": "Du kannst aus verschiedenen Zahlungsmethoden wählen, darunter:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- BANCOMAT Pay\n- PayPal-Schnellzahlung\n- PayPal (auch in 3 Raten)\n\nAndere Zahlungsmethoden werden bald verfügbar sein."
+          }
+        ]
+      },
+            {
+        "route_name": "BARCODE_SCAN",
+        "title": "Wie man eine pagoPA-Zahlungsmitteilung bezahlt",
+        "content": "Scanne den QR-Code auf der pagoPA-Zahlungsmitteilung und führe die Zahlung direkt in der App durch.\n Alternativ gib die erforderlichen Daten manuell ein.\n Wenn die Zahlungsmitteilung auf dinem Gerät gespeichert ist, kannst du das Foto oder PDF-Dokument auch hochladen.",
+        "faqs": [
+          {
+            "title": "Ich kann den QR-Code nicht scannen. Was kann ich tun?",
+            "body": "Versuche, das Gerät vom Papier zu entfernen, um den Code besser zu fokussieren.\n\n Stelle sicher, dass der Raum ausreichend beleuchtet ist. Wenn du dich an einem schwach beleuchteten Ort befindest, kannst du die Taschenlampe auf deinem Gerät aktivieren, indem du auf das Symbol in der oberen rechten Ecke tippst."
+          }, 
+          {
             "title": "Welche Zahlungsmethoden kann ich bei IO verwenden?",
             "body": "Du kannst aus verschiedenen Zahlungsmethoden wählen, darunter:\n- Kredit- oder Debitkarten (auch Prepaid) der Netzwerke American Express, Maestro, Mastercard, Visa und Visa Electron\n- BANCOMAT Pay\n- PayPal-Schnellzahlung\n- PayPal (auch in 3 Raten)\n\nAndere Zahlungsmethoden werden bald verfügbar sein."
           }

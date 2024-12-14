@@ -468,7 +468,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Il tuo Codice Fiscale",
-        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve."
+        "content": "Qui trovi una copia del tuo codice fiscale. Non è un documento ufficiale, ma ti permette di leggere i tuoi dati e vedere il codice a barre. Puoi anche copiare il Codice Fiscale quando ti serve.",
+        "faqs": [
+          {
+            "title": "Dove trovo la mia Tessera Sanitaria?",
+            "body": "Se hai già attivato Documenti su IO e aggiunto la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione e malattia al Portafoglio dell’app, puoi consultare il tuo Codice Fiscale, salvare o condividere il PDF della tessera."
+          }
+        ]
       },
       {
         "route_name": "READ_EMAIL_SCREEN",
@@ -1038,7 +1044,45 @@
         ]
       },
       {
+        "route_name": "PAYMENT_RECEIPT_LIST_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_DETAILS",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sulla ricevuta, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_RECEIPT_DETAILS",
         "title": "Ricevute pagoPA",
         "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
         "faqs": [
@@ -1077,6 +1121,25 @@
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
+        "title": "Ricevute pagoPA",
+        "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
+        "faqs": [
+          {
+            "title": "Quali ricevute posso vedere?",
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+          },
+          {
+            "title": "Come faccio a vedere tutte le ricevute disponibili?",
+            "body": "Scorri fino in fondo alla lista e premi su ‘Mostra precedenti’. Se non trovi un avviso pagato di recente, potrebbe servire un po’ di tempo per l’aggiornamento dei nostri sistemi."
+          },
+          {
+            "title": "Come faccio a salvare una ricevuta?",
+            "body": "Premi sull’avviso, poi su ‘Ottieni ricevuta’. Ti verrà mostrato il documento, puoi a questo punto salvarlo nel tuo dispositivo o condividerlo."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_RECEIPT_PREVIEW_SCREEN",
         "title": "Ricevute pagoPA",
         "content": "Qui puoi vedere le ricevute dei pagamenti pagoPA e, se disponibile, salvare o condividere la ricevuta in formato PDF.",
         "faqs": [
@@ -1200,7 +1263,7 @@
           },
           {
             "title": "Questo ente ha il permesso di scriverti?",
-                "body": "Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Impostazioni' > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
+            "body": "Un ente può inviarti dei messaggi solo se ha una comunicazione specifica da recapitare a te, associata al tuo codice fiscale. Il tuo codice fiscale non viene comunicato dall'app IO all'ente, ma ciascun ente può utilizzare l'app IO per scriverti solo se ha già i tuoi dati (e quindi una relazione con te). \n \nSe non vuoi più ricevere comunicazioni da uno specifico ente, puoi disattivarne i servizi che non ti interessano: \n1. visita la sezione Servizi; \n2. seleziona il servizio in questione dalla lista; \n3. nell'area 'Questo servizio può' disabilita l'opzione 'Contattarti in app'. \n \nL'ente non ti scriverà più tramite IO, ma potrà comunque contattarti tramite i consueti canali di comunicazione in uso (email, telefono o posta a seconda dei casi). \n \nNella sezione 'Impostazioni' > Preferenze > Gestione servizi' puoi decidere di lasciare accesa la comunicazione di tutti i servizi, oppure scegliere la configurazione manuale per cui dovrai configurare a uno a uno tutti i servizi dalla relativa schermata di dettaglio."
           },
           {
             "title": "Vuoi contattare l'ente?",
@@ -1251,7 +1314,7 @@
             "body": "Sono messaggi che l’ente può modificare dopo che li hai ricevuti. In questo modo, le informazioni che contengono saranno sempre aggiornate. Un ente può modificare le informazioni di un messaggio dinamico solo in casi specifici, per esempio per cambiare un’informazione vecchia o aggiornare un allegato non più valido. Se deve comunicarti nuove informazioni o aggiornamenti importanti, ti invierà un nuovo messaggio."
           }
         ]
-      },          
+      },
       {
         "route_name": "SERVICES_HOME",
         "title": "Cosa puoi fare nei Servizi",
@@ -1780,11 +1843,11 @@
           {
             "title": "How do I log in with CieID?",
             "body": "If you want to use the CieID app to log into IO, follow these steps:\n 1. Tap on “Log in with CIE”\n 2. Select “Log in with CieID”\n 3. Choose whether to use quick access or log in with SPID or CIE every 30 days\n 4. The CieID app will open. If you have already set up the app on your device, enter the code you created (composed of 6 characters, numbers, or letters). If enabled, you can use biometric recognition (face or fingerprint) instead.\n 5. Tap “Continue” to complete the authentication and return to IO\n 6. Tap “Continue” to complete the operation.\n\n To learn how to set up the CieID app on your device, you can find detailed instructions on the [official website of the Electronic Identity Card](https://www.cartaidentita.interno.gov.it/info-utili/cie-id/)."
-          }, 
+          },
           {
             "title": "Can I log into IO without physically using an Electronic Identity Card?",
             "body": "”Yes, you can do so by choosing CieID as your authentication method.  Make sure first that you have enabled access with level 1 and 2 in the CieID app. To find out how to do this, follow [these instructions] (https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/)"
-          },          
+          },
           {
             "title": "I have some problems logging in with SPID from a device running Android. What can I do",
             "body": "On some devices running the Android operating system, the IO app may crash or restart unexpectedly when used in combination with other apps, for example when trying to log in with SPID via your Identity Provider's app. If you experience this problem, please follow these steps: \n\n1- tap and hold the IO app icon for a few seconds;\n2- select '**App Info**' from the menu that appears;\n3- scroll down and select '**Power Savings**' or '**Battery**' (may vary depending on the device); \n4- select the option '**No Restrictions**' or '**No Limitations**' or otherwise disable battery usage optimisation for IO apps (may vary per device); \n5- restart the app and try logging in with SPID again."
@@ -2012,7 +2075,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Your Fiscal Code",
-        "content": "Here you will find a copy of your Fiscal Code. It is not an official document, but it allows you to read your information and see the bar code. You can also copy the Fiscal Code when you need it."
+        "content": "Here you will find a copy of your Fiscal Code. It is not an official document, but it allows you to read your information and see the bar code. You can also copy the Fiscal Code when you need it.",
+        "faqs": [
+          {
+            "title": "Where can I find my Italian Health Insurance Card?",
+            "body": "If you have already activated Documents on IO and added the digital version of your The Italian Health Insurance Card to the app's Wallet, you can look up your Fiscal Code, save or share the PDF of the card."
+          }
+        ]
       },
       {
         "route_name": "PROFILE_SECURITY",
@@ -2647,7 +2716,7 @@
           }
         ]
       },
-       {
+      {
         "route_name": "AUTHENTICATION_OPT_IN",
         "title": "Zugriff auf die App",
         "content": "Hier findest du Informationen über den Zugang zu IO und einige Sicherheitstipps.",

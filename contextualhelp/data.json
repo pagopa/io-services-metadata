@@ -3454,6 +3454,29 @@
           }
         ]
       },
+       {
+        "route_name": "PAYMENT_RECEIPT_DETAILS",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
+        "faqs": [
+          {
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+          },
+          {
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+          },
+          {
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
+          }
+        ]
+      },
       {
         "route_name": "PAYMENT_TRANSACTION_LIST",
         "title": "pagoPA-Quittungen",
@@ -3479,6 +3502,29 @@
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_PREVIEW_SCREEN",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
+        "faqs": [
+          {
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+          },
+          {
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+          },
+          {
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          },
+          {
+            "title": "Ich kann keine Quittung finden. Was kann ich tun?",
+            "body": "Dies kann ein technisches Problem sein, z. B. das Fehlen deiner Steuernummer im System des Zahlungsempfängers.\n\nWenn du eine Quittung aus dem Jahr 2023 suchen, kann es sein, dass sie noch nicht in der App verfügbar ist, da wir derzeit unsere Archive aktualisieren.\n\nDu kannst immer noch Quittungen abrufen, die du nicht auf IO findest, indem du dich an die Körperschaft wendest, an die du die Zahlung geleistet hast."
+          }
+        ]
+      },
+      {
+        "route_name": "PAYMENT_RECEIPT_PREVIEW_SCREEN",
         "title": "pagoPA-Quittungen",
         "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [

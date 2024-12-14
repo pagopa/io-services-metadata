@@ -2489,12 +2489,12 @@
       {
         "route_name": "ONBOARDING_INSERT_EMAIL_SCREEN",
         "title": "Ändere deine E-Mail-Adresse",
-        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du an der neuen Adresse erhältst."
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link tippst, den du an der neuen Adresse erhältst."
       },
       {
         "route_name": "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
         "title": "Ändere deine E-Mail-Adresse",
-        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du an der neuen Adresse erhältst."
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link tippst, den du an der neuen Adresse erhältst."
       },
       {
         "route_name": "PROFILE_PREFERENCES_NOTIFICATIONS",
@@ -2821,7 +2821,13 @@
       {
         "route_name": "PROFILE_FISCAL_CODE",
         "title": "Deine Steuernummer",
-        "content": "Hier findest du eine Kopie deiner Steuernummer. Es handelt sich nicht um ein offizielles Dokument, aber du kannst damit deine Daten lesen und den Strichcode sehen. Du kannst deine Steuernummer auch kopieren, wenn du sie brauchst."
+        "content": "Hier findest du eine Kopie deiner Steuernummer. Es handelt sich nicht um ein offizielles Dokument, aber du kannst damit deine Daten lesen und den Strichcode sehen. Du kannst deine Steuernummer auch kopieren, wenn du sie brauchst.",
+         "faqs": [
+          {
+            "title": "Wo kann ich meine Gesundheitskarte finden?",
+            "body": "Wenn du Dokumente in IO bereits aktiviert und die digitale Version deiner Gesundheitskarte - Europäische Krankenversicherungskarte zu deinem Konto in der App hinzugefügt hast, kannst du deine Steuernummer einsehen, das PDF der Karte speichern oder weitergeben."
+          }
+        ]
       },
       {
         "route_name": "READ_EMAIL_SCREEN",
@@ -2831,12 +2837,12 @@
       {
         "route_name": "INSERT_EMAIL_SCREEN",
         "title": "Ändere deine E-Mail-Adresse",
-        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du über die neue Adresse erhalten hast."
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link tippst, den du über die neue Adresse erhalten hast."
       },
       {
         "route_name": "EMAIL_VERIFICATION_SCREEN",
         "title": "Ändere deine E-Mail-Adresse",
-        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link klickst, den du über die neue Adresse erhalten hast."
+        "content": "Du kannst deine E-Mail-Adresse hier ändern. Sobald du sie eingegeben hast, musst du sie bestätigen, indem du auf den Link tippst, den du über die neue Adresse erhalten hast."
       },
       {
         "route_name": "CHECK_EMAIL_NOT_VERIFIED",
@@ -3089,7 +3095,7 @@
           },
           {
             "title": "Wie kann ich die nationale Jugendkarte aktivieren?",
-            "body": "Klicke auf „Dem Konto hinzufügen“, wähle „Nationale Jugendkarte“ und folge den Anweisungen."
+            "body": "Tippe auf „Dem Konto hinzufügen“, wähle „Nationale Jugendkarte“ und folge den Anweisungen."
           }
         ]
       },
@@ -3224,7 +3230,7 @@
           },
           {
             "title": "Die digitale Version meines Führerscheins in IO ist „abgelaufen“. Was kann ich tun?",
-            "body": "Dein Führerschein hat das auf dem Dokument angegebene Ablaufdatum überschritten. Verlängere deinen Führerschein in den Büros der Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung oder einer zugelassenen Stelle in deinem Gebiet. Nähere Informationen zur Erneuerung deines Führerscheins findest du auf [der entsprechenden Seite des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Sobald du dein physisches Dokument erneuert hast, kannst du seine digitale Version aktualisieren, indem du auf die Schaltfläche „Dokument aktualisieren“ in der Detailansicht des Dokuments in der IO-App klickst. Denke daran, dass du deinen physischen Führerschein nicht über Dokumente in IO aktualisieren kannst."
+            "body": "Dein Führerschein hat das auf dem Dokument angegebene Ablaufdatum überschritten. Verlängere deinen Führerschein in den Büros der Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung oder einer zugelassenen Stelle in deinem Gebiet. Nähere Informationen zur Erneuerung deines Führerscheins findest du auf [der entsprechenden Seite des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Sobald du dein physisches Dokument erneuert hast, kannst du seine digitale Version aktualisieren, indem du auf die Schaltfläche „Dokument aktualisieren“ in der Detailansicht des Dokuments in der IO-App tippst. Denke daran, dass du deinen physischen Führerschein nicht über Dokumente in IO aktualisieren kannst."
           },
           {
             "title": "Die digitale Version meines Führerscheins in IO ist „widerrufen“. Was kann ich tun?",
@@ -3377,6 +3383,25 @@
       },
       {
         "route_name": "PAYMENT_TRANSACTION_BIZ_EVENTS_LIST_SCREEN",
+        "title": "pagoPA-Quittungen",
+        "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
+        "faqs": [
+          {
+            "title": "Welche Quittungen kann ich sehen?",
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+          },
+          {
+            "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
+            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+          },
+          {
+            "title": "Wie kann ich eine Quittung speichern?",
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+          }
+        ]
+      },
+       {
+        "route_name": "PAYMENT_RECEIPT_LIST_SCREEN",
         "title": "pagoPA-Quittungen",
         "content": "Hier kannst du deine pagoPA-Zahlungen einsehen und, falls vorhanden, die Quittung im PDF-Format speichern oder weitergeben.",
         "faqs": [
@@ -3624,7 +3649,7 @@
           },
           {
             "title": "Wo kann ich lokale Dienste finden?",
-            "body": "Klicke auf das Suchsymbol und gib die ersten drei Buchstaben der gewünschten Körperschaft ein, um nach nationalen und lokalen Einrichtungen zu suchen, die in der App verfügbar sind."
+            "body": "Tippe auf das Suchsymbol und gib die ersten drei Buchstaben der gewünschten Körperschaft ein, um nach nationalen und lokalen Einrichtungen zu suchen, die in der App verfügbar sind."
           },
           {
             "title": "Warum kann ich die gesuchte Körperschaft nicht finden?",

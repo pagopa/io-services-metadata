@@ -2444,7 +2444,7 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Mitteilungen",
-        "content": "Was du in deinen Mitteilungen tun kannst\n**Der Tab Mitteilungen sammelt alle eingehenden Mitteilungen von Körperschaften, die ihre Dienste über IO anbieten.**\nDu kannst direkt aus der Mitteilung heraus Erinnerungen für Fristen setzen oder eine Zahlungsmitteilung bezahlen.\nMitteilungen sind unterteilt in **Erhalten** (enthält alle Mitteilungen, die eingegangen sind und nicht archiviert werden), **Fristen** (zeigt nur Mitteilungen an, die ein Fälligkeitsdatum enthalten, was die Verwaltung von Aufgaben erleichtert) und **Archiviert** (behält den Überblick über alle archivierten Mitteilungen).\nUm eine Mitteilung zu archivieren, halte einfach den Bereich der zu archivierenden Mitteilung gedrückt und wähle die „Archivieren“, die dann auf dem Bildschirm erscheint.",
+        "content": "Was du in deinen Mitteilungen tun kannst\n**Der Tab Mitteilungen sammelt alle eingehenden Mitteilungen von Körperschaften, die ihre Dienste über IO anbieten.**\nDu kannst direkt aus der Mitteilung heraus Erinnerungen für Fristen setzen oder eine Zahlungsmitteilung bezahlen.\nMitteilungen sind unterteilt in **Erhalten** (enthält alle Mitteilungen, die eingegangen sind und nicht archiviert werden), **Fristen** (zeigt nur Mitteilungen an, die ein Fälligkeitsdatum enthalten, was die Verwaltung von Aufgaben erleichtert) und **Archiviert** (behält den Überblick über alle archivierten Mitteilungen).\nUm eine Mitteilung zu archivieren, halte einfach den Bereich der zu archivierenden Mitteilung gedrückt und wähle die 'Archivieren', die dann auf dem Bildschirm erscheint.",
         "faqs": [
           {
             "title": "Welche Art von Mitteilungen kannst du empfangen?",
@@ -2452,7 +2452,7 @@
           },
           {
             "title": "Was passiert, wenn du Mitteilungen archivierst?",
-            "body": "Archivierte Mitteilungen werden in die Registerkarte „Archiviert“ des Mitteilungsbereichs verschoben.\nDiese Änderung wirkt sich nur auf das Telefon aus, mit dem du den Archivierungsvorgang durchführst: Wenn du dich mit denselben Anmeldedaten auf einem anderen Gerät anmeldest, findest du alle Nachrichten in der Kategorie „Erhalten“. Du kannst nach wie vor Mitteilungen aus dem Archiv entfernen und findest sie automatisch wieder auf der Hauptregisterkarte „Mitteilungen“."
+            "body": "Archivierte Mitteilungen werden in die Registerkarte 'Archiviert' des Mitteilungsbereichs verschoben.\nDiese Änderung wirkt sich nur auf das Telefon aus, mit dem du den Archivierungsvorgang durchführst: Wenn du dich mit denselben Anmeldedaten auf einem anderen Gerät anmeldest, findest du alle Nachrichten in der Kategorie 'Erhalten'. Du kannst nach wie vor Mitteilungen aus dem Archiv entfernen und findest sie automatisch wieder auf der Hauptregisterkarte 'Mitteilungen'."
           },
           {
             "title": "Ist es möglich, auf Mitteilungen zu antworten?",
@@ -2727,7 +2727,7 @@
           },
           {
             "title": "Wenn ich mich entscheide, mich alle 30 Tage oder nur einmal im Jahr anzumelden, kann ich dann meine Wahl ändern?",
-            "body": "Ja, du kannst deine Wahl ändern, indem du dich von IO abmeldest. Geh dazu zum Abschnitt 'Einstellungen' der App und drücke auf 'IO beenden'. Daraufhin wirst du aufgefordert, dich erneut zu authentifizieren und du kannst erneut entscheiden, wie oft du dich authentifizieren möchtest."
+            "body": "Ja, du kannst deine Wahl ändern, indem du dich von IO abmeldest. Geh dazu zum Abschnitt 'Einstellungen' der App und tippe auf 'IO beenden'. Daraufhin wirst du aufgefordert, dich erneut zu authentifizieren und du kannst erneut entscheiden, wie oft du dich authentifizieren möchtest."
           }
         ]
       },
@@ -2783,7 +2783,7 @@
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_PIN",
         "title": "Wie biometrische Erkennung funktioniert",
-        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt „Einstellungen“ aktivieren oder deaktivieren",
+        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt 'Einstellungen' aktivieren oder deaktivieren",
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
@@ -2802,7 +2802,7 @@
       {
         "route_name": "ONBOARDING_MISSING_DEVICE_BIOMETRIC",
         "title": "Wie biometrische Erkennung funktioniert",
-        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt „Einstellungen“ aktivieren oder deaktivieren",
+        "content": "Mit der biometrischen Erkennung kannst du auf die App zugreifen, ohne jedes Mal den Entsperrungscode eingeben zu müssen. Du kannst sie im Abschnitt 'Einstellungen' aktivieren oder deaktivieren",
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
@@ -2936,7 +2936,7 @@
       {
         "route_name": "PIN_SCREEN",
         "title": "Entsperrcode",
-        "content": "**Der Entsperrcode ist der Sicherheitscode, der deinen Zugang zur App sicher macht.**\nWenn du die App zum ersten Mal öffnest, legst du deinen eigenen numerischen Code fest und merkst ihn, damit du ihn bei allen weiteren Anmeldungen verwenden kannst. Wenn du ihn bereits erstellt hast und dich nicht mehr daran erinnern kannst, kannst du „Hast du deinen Entsperrcode vergessen?“ wählen und einen neuen Code erstellen.\nDer Entsperrcode ist an das Gerät gebunden, auf dem du ihn erstellt hast: Wenn du ihn änderst, musst du ihn bei der ersten Anmeldung bei der IO-App erneut erstellen."
+        "content": "**Der Entsperrcode ist der Sicherheitscode, der deinen Zugang zur App sicher macht.**\nWenn du die App zum ersten Mal öffnest, legst du deinen eigenen numerischen Code fest und merkst ihn, damit du ihn bei allen weiteren Anmeldungen verwenden kannst. Wenn du ihn bereits erstellt hast und dich nicht mehr daran erinnern kannst, kannst du 'Hast du deinen Entsperrcode vergessen?' wählen und einen neuen Code erstellen.\nDer Entsperrcode ist an das Gerät gebunden, auf dem du ihn erstellt hast: Wenn du ihn änderst, musst du ihn bei der ersten Anmeldung bei der IO-App erneut erstellen."
       },
       {
         "route_name": "PROFILE_PREFERENCES_SERVICES",
@@ -2979,7 +2979,7 @@
           },
           {
             "title": "Ich habe den Entsperrcode vergessen. Was kann ich tun?",
-            "body": "Drücke auf 'Entsperrcode vergessen?', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
+            "body": "Tippe auf 'Entsperrcode vergessen?', authentifiziere dich mit SPID oder CIE und gib den neuen Code ein."
           },
           {
             "title": "Wie kann ich den Entsperrcode ändern?",
@@ -3014,7 +3014,7 @@
           },
           {
             "title": "Wie kann ich eine Kopie der mit meinem IO-Konto verbundenen Daten anfordern?",
-            "body": "Wähle 'Zugriff auf deine Daten' und drücke dann auf 'Kopie deiner Daten anfordern'. Du erhältst eine Mitteilung mit einer Datei, die eine Kopie der mit deinem Konto verbundenen Daten enthält."
+            "body": "Wähle 'Zugriff auf deine Daten' und tippe dann auf 'Kopie deiner Daten anfordern'. Du erhältst eine Mitteilung mit einer Datei, die eine Kopie der mit deinem Konto verbundenen Daten enthält."
           },
           {
             "title": "Ich habe Fragen zum Datenschutz und zur Verwendung meiner Daten. An wen kann ich mich wenden?",
@@ -3116,7 +3116,7 @@
           },
           {
             "title": "Was ist damit gemeint, dass meine Identität überprüft wurde?",
-            "body": "Wenn du Dokumente in IO im Konto aktivierst, bitten wir dich, deine Identität durch Authentifizierung mit SPID oder CIE zu verifizieren. „Verifizierte Identität“ bedeutet, dass deine Dokumente sicher sind und mit Sicherheit mit deiner Identität in Verbindung gebracht werden können."
+            "body": "Wenn du Dokumente in IO im Konto aktivierst, bitten wir dich, deine Identität durch Authentifizierung mit SPID oder CIE zu verifizieren. 'Verifizierte Identität' bedeutet, dass deine Dokumente sicher sind und mit Sicherheit mit deiner Identität in Verbindung gebracht werden können."
           },
           {
             "title": "Kann ich Dokumente in IO deaktivieren?",
@@ -3164,7 +3164,7 @@
           },
           {
             "title": "Wie kann ich die nationale Jugendkarte aktivieren?",
-            "body": "Tippe auf „Dem Konto hinzufügen“, wähle „Nationale Jugendkarte“ und folge den Anweisungen."
+            "body": "Tippe auf 'Dem Konto hinzufügen', wähle 'Nationale Jugendkarte' und folge den Anweisungen."
           }
         ]
       },
@@ -3209,7 +3209,7 @@
             "body": "Wenn du Dokumente in IO aktivierst, kannst du digitale Versionen einiger deiner persönlichen Dokumente in dem Konto der IO-App speichern. In dieser ersten Phase können digitale Versionen von Dokumenten in bestimmten Nutzungskontexten anstelle der entsprechenden physischen Dokumente verwendet werden, insbesondere:\n - der Führerschein nur in Italien zum Nachweis deiner Fahrberechtigung bei Polizeikontrollen, wie im Rundschreiben des Innenministeriums Nr. 32079 vom 22. Oktober 2024 festgelegt;\n - die Gesundheitskarte - Europäische Krankenversicherungskarte für den Zugang zu den Leistungen des nationalen Gesundheitsdienstes;\n - der Europäische Behindertenausweis für die gleichen Verwendungszwecke wie heute bei Vorlage des physischen Dokuments."
           },
           {
-            "title": "Was bedeutet die „digitale Version“ eines Dokuments?",
+            "title": "Was bedeutet die 'digitale Version' eines Dokuments?",
             "body": "Digitale Versionen von Dokumenten sind authentische Kopien von physischen Dokumenten in einer rechtskonformen digitalen Anwendung."
           },
           {
@@ -3290,36 +3290,36 @@
             "body": "Gegenwärtig kannst du in Italien die digitale Version deines Führerscheins verwenden, um deine Fahrtauglichkeit im Rahmen einer Präsenzkontrollen durch die Polizei nachzuweisen."
           },
           {
-            "title": "Die digitale Version meines Führerscheins in IO ist „ungültig“. Was kann ich tun?",
-            "body": "Dein Führerschein kann in Dokumente in IO „ungültig“ sein, weil er abgelaufen ist, widerrufen, ausgesetzt oder annulliert wurde. Du kannst den Status der digitalen Version deines Führerscheins in der Detailansicht in der App überprüfen.\nWenn du den Status deines Dokuments klären musst, empfehlen wir dir, dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr zu wenden. Konsultiere die entsprechenden Kontaktdaten im [Abschnitt Kontakte des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
+            "title": "Die digitale Version meines Führerscheins in IO ist 'ungültig'. Was kann ich tun?",
+            "body": "Dein Führerschein kann in Dokumente in IO 'ungültig' sein, weil er abgelaufen ist, widerrufen, ausgesetzt oder annulliert wurde. Du kannst den Status der digitalen Version deines Führerscheins in der Detailansicht in der App überprüfen.\nWenn du den Status deines Dokuments klären musst, empfehlen wir dir, dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr zu wenden. Konsultiere die entsprechenden Kontaktdaten im [Abschnitt Kontakte des 'Portale dell’Automobilista'](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)."
           },
           {
-            "title": "Der Status der digitalen Version meines Führerscheins in IO lautet „ablaufend“. Was kann ich tun?",
+            "title": "Der Status der digitalen Version meines Führerscheins in IO lautet 'ablaufend'. Was kann ich tun?",
             "body": "Verlängere deinen Führerschein in den Büros des Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung oder einer zugelassenen Stelle in deinem Gebiet. Du musst eine ärztliche Untersuchung bei einem qualifizierten Arzt durchführen und die Zahlung der dir mitgeteilten Gebühren vornehmen. Halte deinen ablaufenden/abgelaufenen physischen Führerschein, ein Ausweisdokument, deine Steuernummer und ein aktuelles Passfoto bereit. Sobald das physische Dokument erneuert wurde, entferne die digitale Version deines Führerscheins aus deiner Brieftasche und füge sie erneut hinzu. Denke daran, dass du deinen physischen Führerschein nicht über Dokumente in IO aktualisieren kannst."
           },
           {
-            "title": "Die digitale Version meines Führerscheins in IO ist „abgelaufen“. Was kann ich tun?",
-            "body": "Dein Führerschein hat das auf dem Dokument angegebene Ablaufdatum überschritten. Verlängere deinen Führerschein in den Büros der Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung oder einer zugelassenen Stelle in deinem Gebiet. Nähere Informationen zur Erneuerung deines Führerscheins findest du auf [der entsprechenden Seite des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Sobald du dein physisches Dokument erneuert hast, kannst du seine digitale Version aktualisieren, indem du auf die Schaltfläche „Dokument aktualisieren“ in der Detailansicht des Dokuments in der IO-App tippst. Denke daran, dass du deinen physischen Führerschein nicht über Dokumente in IO aktualisieren kannst."
+            "title": "Die digitale Version meines Führerscheins in IO ist 'abgelaufen'. Was kann ich tun?",
+            "body": "Dein Führerschein hat das auf dem Dokument angegebene Ablaufdatum überschritten. Verlängere deinen Führerschein in den Büros der Ministerium für Infrastruktur und Verkehr - Generaldirektion für Motorisierung oder einer zugelassenen Stelle in deinem Gebiet. Nähere Informationen zur Erneuerung deines Führerscheins findest du auf [der entsprechenden Seite des 'Portale dell’Automobilista'](https://www.ilportaledellautomobilista.it/web/portale-automobilista/tutte-le-pratiche). Sobald du dein physisches Dokument erneuert hast, kannst du seine digitale Version aktualisieren, indem du auf die Schaltfläche 'Dokument aktualisieren' in der Detailansicht des Dokuments in der IO-App tippst. Denke daran, dass du deinen physischen Führerschein nicht über Dokumente in IO aktualisieren kannst."
           },
           {
-            "title": "Die digitale Version meines Führerscheins in IO ist „widerrufen“. Was kann ich tun?",
+            "title": "Die digitale Version meines Führerscheins in IO ist 'widerrufen'. Was kann ich tun?",
             "body": "Dein Führerschein kann von den Behörden entzogen werden, in der Regel bei sehr schweren Straftaten, Ordnungswidrigkeiten oder bei dauerhafter körperlicher oder geistiger Unfähigkeit des Inhabers, ein Fahrzeug sicher zu führen. Zur Klärung des Entzugs kannst du dich an das zuständige Führerscheinamt wenden."
           },
           {
-            "title": "Die digitale Version meines Führerscheins auf IO ist „annulliert“. Was kann ich tun?",
-            "body": "Führerscheine können aufgrund von Verwaltungs- und/oder Druckproblemen, nicht bestandenen Prüfungen, Nichtaushändigung oder nachträglicher Ausstellung eines neuen Führerscheins annulliert werden. Zur Klärung dieser Angelegenheit kannst du dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr wenden. Wende dich an die entsprechenden Kontakte im [Abschnitt Kontakte des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
+            "title": "Die digitale Version meines Führerscheins auf IO ist 'annulliert'. Was kann ich tun?",
+            "body": "Führerscheine können aufgrund von Verwaltungs- und/oder Druckproblemen, nicht bestandenen Prüfungen, Nichtaushändigung oder nachträglicher Ausstellung eines neuen Führerscheins annulliert werden. Zur Klärung dieser Angelegenheit kannst du dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr wenden. Wende dich an die entsprechenden Kontakte im [Abschnitt Kontakte des 'Portale dell’Automobilista'](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
           },
           {
-            "title": "Die digitale Version meines Führerscheins auf IO ist „ausgesetzt“. Was kann ich tun?",
+            "title": "Die digitale Version meines Führerscheins auf IO ist 'ausgesetzt'. Was kann ich tun?",
             "body": "Dein Führerschein kann wegen schwerer Straftaten, Verkehrsunfällen oder aus anderen administrativen oder gesundheitlichen Gründen vorübergehend entzogen werden. Zur Klärung des Entzugs kannst du dich an das zuständige Führerscheinamt wenden."
           },
           {
             "title": "Wie liest man die Einträge im Führerschein?",
-            "body": "Du kannst die Einzelheiten der einzelnen Einträge für deinen Führerschein auf der [entsprechenden Seite des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida) einsehen."
+            "body": "Du kannst die Einzelheiten der einzelnen Einträge für deinen Führerschein auf der [entsprechenden Seite des 'Portale dell’Automobilista'](https://www.ilportaledellautomobilista.it/web/portale-automobilista/la-patente-di-guida) einsehen."
           },
           {
             "title": "An wen kann ich mich wenden, wenn ich Ungenauigkeiten in meinen Führerscheindaten (z. B. bei der Einstufung) feststelle?",
-            "body": "Du kannst dich an das zuständige Führerscheinamt wenden.\n Um Unterstützung bei der Lösung des Problems zu erhalten, kannst du dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr wenden. Siehe die entsprechenden Hinweise im Abschnitt [Kontakte des „Portale dell’Automobilista“](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
+            "body": "Du kannst dich an das zuständige Führerscheinamt wenden.\n Um Unterstützung bei der Lösung des Problems zu erhalten, kannst du dich an die Zentrale Führerscheinstelle des Ministerium für Infrastruktur und Verkehr wenden. Siehe die entsprechenden Hinweise im Abschnitt [Kontakte des 'Portale dell’Automobilista'](https://www.ilportaledellautomobilista.it/web/portale-automobilista/contatti)"
           },
           {
             "title": "In welchen Kontexten kann ich die digitale Version meiner Gesundheitskarte - Europäische Krankenversicherungskarte - verwenden?",
@@ -3327,11 +3327,11 @@
           },
           {
             "title": "An wen kann ich mich wenden, wenn ich Fehler in den Daten der digitalen Version der Gesundheitskarte - Europäische Krankenversicherungskarte - feststelle?",
-            "body": "Du kannst ein Ticket erstellen, indem du auf das „?“ oben rechts auf den Bildschirmen der App drückst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen. Für die Gesundheitskarte - Europäische Krankenversicherungskarte kannst du die gebührenfreie Nummer 800.030.070 kontaktieren."
+            "body": "Du kannst ein Ticket erstellen, indem du auf das '?' oben rechts auf den Bildschirmen der App tippst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen. Für die Gesundheitskarte - Europäische Krankenversicherungskarte kannst du die gebührenfreie Nummer 800.030.070 kontaktieren."
           },
           {
             "title": "An wen kann ich mich wenden, wenn ich Fehler in den Daten der digitalen Version des Europäischen Behindertenausweises finde?",
-            "body": "Du kannst eine Ticket erstellen, indem du auf das „?“ oben rechts auf den Bildschirmen der App drückst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen, indem du deren Assistenzkanäle nutzt. Wenn du Unterstützung bei Fehlern und Anomalien in den Daten des physischen Dokuments benötigst, kannst du den INPS-Antwortet-Dienst nutzen, indem du auf den reservierten Bereich MyInps auf dem Portal www.inps.it zugreifst oder die Inps Mobile App verwendest."
+            "body": "Du kannst eine Ticket erstellen, indem du auf das '?' oben rechts auf den Bildschirmen der App tippst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen, indem du deren Assistenzkanäle nutzt. Wenn du Unterstützung bei Fehlern und Anomalien in den Daten des physischen Dokuments benötigst, kannst du den INPS-Antwortet-Dienst nutzen, indem du auf den reservierten Bereich MyInps auf dem Portal www.inps.it zugreifst oder die Inps Mobile App verwendest."
           }
         ]
       },
@@ -3342,7 +3342,7 @@
         "faqs": [
           {
             "title": "An wen kann ich mich wenden, wenn ich Fehler in den Daten der digitalen Version der Gesundheitskarte - Europäische Krankenversicherungskarte - feststelle?",
-            "body": "Du kannst ein Ticket erstellen, indem du auf das „?“ oben rechts auf den Bildschirmen der App drückst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen. Für die Gesundheitskarte - Europäische Krankenversicherungskarte kannst du die gebührenfreie Nummer 800.030.070 kontaktieren."
+            "body": "Du kannst ein Ticket erstellen, indem du auf das '?' oben rechts auf den Bildschirmen der App tippst. Nach der Überprüfung kannst du aufgefordert werden, eine Meldung direkt bei der betreffenden Einrichtung zu erstellen. Für die Gesundheitskarte - Europäische Krankenversicherungskarte kannst du die gebührenfreie Nummer 800.030.070 kontaktieren."
           },
           {
             "title": "In welchen Kontexten kann ich die digitale Version meiner Gesundheitskarte - Europäische Krankenversicherungskarte - verwenden?",
@@ -3390,7 +3390,7 @@
       },
       {
         "route_name": "PAYMENTS_HOME",
-        "title": "Was kann ich im Bereich „Zahlungen“ tun?",
+        "title": "Was kann ich im Bereich 'Zahlungen' tun?",
         "content": "Hier kannst du eine Zahlungsmitteilung bezahlen, pagoPA-Quittungen einsehen und eine Zahlungsmethode hinzufügen",
         "faqs": [
           {
@@ -3411,11 +3411,11 @@
           },
           {
             "title": "Wo finde ich die getätigten Zahlungen?",
-            "body": "Im Abschnitt „Zahlungen“ findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
+            "body": "Im Abschnitt 'Zahlungen' findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
           },
           {
             "title": "Ich sehe mein PayPal-Konto nicht mehr",
-            "body": "Mit der neuesten Version von IO kannst du PayPal auf zwei Arten nutzen. Bei der Bezahlung kannst du zwischen zwei neuen Methoden wählen: „PayPal (auch in 3 Raten)“ und „PayPal-Schnellzahlung“.\n\n **„PayPal (auch in 3 Raten)“** \nVerwende diesen Modus, wenn du wählen möchtest, welche Karte oder welches Konto du für jede Zahlung verwenden möchtest. Du kannst auch in 3 Raten ohne Zinsen zahlen, gemäß den [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNiemals etwas speichern: Wenn du eine Zahlungsmitteilung bezahlst, wähle einfach die Methode aus den verfügbaren Methoden aus.\n\n **PayPal-Schnellzahlung** \nVerwende diesen Modus, wenn du dein Konto speichern und schneller bezahlen möchtest. Füge dazu die Methode zu deinem Konto hinzu und folge den Anweisungen."
+            "body": "Mit der neuesten Version von IO kannst du PayPal auf zwei Arten nutzen. Bei der Bezahlung kannst du zwischen zwei neuen Methoden wählen: 'PayPal (auch in 3 Raten)' und 'PayPal-Schnellzahlung'.\n\n **'PayPal (auch in 3 Raten)'** \nVerwende diesen Modus, wenn du wählen möchtest, welche Karte oder welches Konto du für jede Zahlung verwenden möchtest. Du kannst auch in 3 Raten ohne Zinsen zahlen, gemäß den [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)\nNiemals etwas speichern: Wenn du eine Zahlungsmitteilung bezahlst, wähle einfach die Methode aus den verfügbaren Methoden aus.\n\n **PayPal-Schnellzahlung** \nVerwende diesen Modus, wenn du dein Konto speichern und schneller bezahlen möchtest. Füge dazu die Methode zu deinem Konto hinzu und folge den Anweisungen."
           },
           {
             "title": "Welche Zahlungsmethoden kann ich zu meinem Konto hinzufügen?",
@@ -3442,15 +3442,15 @@
           },
           {
             "title": "Kann ich eine Zahlungsmethode entfernen?",
-            "body": "Ja. Deine Zahlungsmethoden werden oben auf dem Bildschirm im Bereich „Zahlungen“ als Karten angezeigt. Wähle die Karte aus, die du löschen möchtest und drücke dann auf „Aus Konto entfernen“."
+            "body": "Ja. Deine Zahlungsmethoden werden oben auf dem Bildschirm im Bereich 'Zahlungen' als Karten angezeigt. Wähle die Karte aus, die du löschen möchtest und tippe dann auf 'Aus Konto entfernen'."
           },
           {
             "title": "Warum schlägt das Speichern der Karte fehl?",
-            "body": "Dies kann verschiedene Gründe haben, aber frag bitte auf jeden Fall bei deiner Bank nach.\nDie häufigsten Fälle sind: \n- deine Karte ist nicht für Online-Einkäufe freigeschaltet.\n- du hast den 3DS-Dienst noch nicht aktiviert: Dies ist ein Sicherheitssystem für Online-Zahlungen.\n- deine Karte wurde gesperrt oder blockiert.\n- du hast deine Karte „pausiert“."
+            "body": "Dies kann verschiedene Gründe haben, aber frag bitte auf jeden Fall bei deiner Bank nach.\nDie häufigsten Fälle sind: \n- deine Karte ist nicht für Online-Einkäufe freigeschaltet.\n- du hast den 3DS-Dienst noch nicht aktiviert: Dies ist ein Sicherheitssystem für Online-Zahlungen.\n- deine Karte wurde gesperrt oder blockiert.\n- du hast deine Karte 'pausiert'."
           },
           {
             "title": "Kann ich auch in Raten mit PayPal bezahlen?",
-            "body": "Ja, aber nicht mit der im Konto gespeicherten Zahlungsmethode.\nUm in Raten zu zahlen, wähle bei der Zahlung die Methode „PayPal (auch in 3 Raten)“ und folge den Anweisungen.\nDiese Option ist nur für einige Zahlungsmitteilungen verfügbar. Um zu prüfen, ob deine Zahlungsmitteilung dafür in Frage kommt, lies bitte die [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
+            "body": "Ja, aber nicht mit der im Konto gespeicherten Zahlungsmethode.\nUm in Raten zu zahlen, wähle bei der Zahlung die Methode 'PayPal (auch in 3 Raten)' und folge den Anweisungen.\nDiese Option ist nur für einige Zahlungsmitteilungen verfügbar. Um zu prüfen, ob deine Zahlungsmitteilung dafür in Frage kommt, lies bitte die [Nutzungsbedingungen für die Zahlung in 3 Raten - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full)."
           }
         ]
       },
@@ -3461,15 +3461,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3484,15 +3484,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3507,15 +3507,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3530,15 +3530,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3553,15 +3553,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3576,15 +3576,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3599,15 +3599,15 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nDrücke auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
-            "body": "Scrolle bis zum Ende der Liste und drücke auf „Vorherige anzeigen“. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
+            "body": "Scrolle bis zum Ende der Liste und tippe auf 'Vorherige anzeigen'. Wenn du keine kürzlich bezahlte Zahlungsmitteilung findest, kann es einige Zeit dauern, bis unsere Systeme aktualisiert sind."
           },
           {
             "title": "Wie kann ich eine Quittung speichern?",
-            "body": "Tippe auf die Zahlungsmitteilung und dann auf „Quittung abrufen“. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
+            "body": "Tippe auf die Zahlungsmitteilung und dann auf 'Quittung abrufen'. Das Dokument wird angezeigt. Du kannst es nun auf deinem Gerät speichern oder weitergeben."
           },
           {
             "title": "Ich kann keine Quittung finden. Was kann ich tun?",
@@ -3701,7 +3701,7 @@
         "faqs": [
           {
             "title": "Wie kann ich mit Kredit- oder Debitkarte bezahlen?",
-            "body": "Zurzeit kannst du die Karte im Bereich „Konto“ hinzufügen, bevor du eine Zahlung beginnst. Künftig wirst du auch bezahlen können, ohne sie zu speichern. Dies ist zum Beispiel nützlich, wenn du Einweg- oder Wegwerfkarten verwenden möchtest."
+            "body": "Zurzeit kannst du die Karte im Bereich 'Konto' hinzufügen, bevor du eine Zahlung beginnst. Künftig wirst du auch bezahlen können, ohne sie zu speichern. Dies ist zum Beispiel nützlich, wenn du Einweg- oder Wegwerfkarten verwenden möchtest."
           },
           {
             "title": "Warum sehe ich keine Zahlungsmethode?",
@@ -3822,11 +3822,11 @@
         "faqs": [
           {
             "title": "Wie kann ich die Dienste konfigurieren?",
-            "body": "Für jeden Dienst kannst du entscheiden, ob du In-App-Nachrichten und Push-Benachrichtigungen erhalten möchtest. Tippe dazu auf den Namen des Dienstes und wähle aus den Optionen im Bereich „Dieser Dienst kann“."
+            "body": "Für jeden Dienst kannst du entscheiden, ob du In-App-Nachrichten und Push-Benachrichtigungen erhalten möchtest. Tippe dazu auf den Namen des Dienstes und wähle aus den Optionen im Bereich 'Dieser Dienst kann'."
           },
           {
             "title": "Kann ich Körperschaften über IO kontaktieren?",
-            "body": "Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Du kannst dies über die Kontakte tun, die du in den Details jedes Dienstes im Bereich „Dienste“ findest."
+            "body": "Nein, du kannst Körperschaften nicht direkt über die App kontaktieren. Du kannst dies über die Kontakte tun, die du in den Details jedes Dienstes im Bereich 'Dienste' findest."
           }
         ]
       },

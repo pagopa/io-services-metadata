@@ -80,8 +80,8 @@
       },
       "feedbackBanner": {
         "min_app_version": {
-          "ios": "3.0.0.0",
-          "android": "3.0.0.0"
+          "ios": "2.65.0.0",
+          "android": "2.65.0.0"
         },
         "title": {
           "it-IT": "Puoi dirci com'è andata?",
@@ -96,7 +96,7 @@
             "it-IT": "Vai al sondaggio",
             "en-EN": "Go to survey"
           },
-          "url": "https://io.italia.it/diccilatua/ces-pagamento"
+          "url": "https://pagopa.qualtrics.com/jfe/form/SV_0GmGr2F3vt8oaZE"
         }
       }
     },

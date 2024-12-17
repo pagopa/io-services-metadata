@@ -346,7 +346,7 @@
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
-            "body": "Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco tutte le volte che entri in app. Ti verrà richiesto anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare il profilo."
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
@@ -365,7 +365,7 @@
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
-            "body": "Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco tutte le volte che entri in app. Ti verrà richiesto anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare il profilo."
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
@@ -384,7 +384,7 @@
         "faqs": [
           {
             "title": "Quando mi verrà chiesto il riconoscimento biometrico?",
-            "body": "Se l’hai abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco. Come il codice di sblocco, anche questo riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti."
+            "body": "Se abilitato, puoi usare il riconoscimento biometrico al posto del codice di sblocco tutte le volte che entri in app. Ti verrà richiesto anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare il profilo."
           },
           {
             "title": "Come posso abilitare il riconoscimento biometrico?",
@@ -403,7 +403,7 @@
         "faqs": [
           {
             "title": "Cos’è il codice di sblocco?",
-            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Dovrai inserirlo anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare l’account.\n\nQuesto riconoscimento rimane attivo per 30 giorni dall'ultimo accesso con SPID o CIE. Dopo quel lasso di tempo, dovrai di nuovo autenticarti e impostare un nuovo codice di sblocco."
+            "body": "È un codice di 6 cifre che imposti la prima volta che accedi a IO e che ti permette di entrare in app senza dover inserire ogni volta le credenziali SPID o CIE. Dovrai inserirlo anche per visualizzare dati sensibili e per confermare alcune operazioni, come fare un pagamento o eliminare il tuo profilo."
           },
           {
             "title": "Ho dimenticato il codice di sblocco. Cosa posso fare?",
@@ -861,7 +861,7 @@
           },
           {
             "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",
-            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida."
+            "body": "No, per rinnovare il documento fisico devi seguire il normale iter amministrativo previsto dal Ministero delle infrastrutture e dei trasporti. Ricorda che per aggiungere le versioni digitali dei documenti sull’app IO tramite Documenti su IO devi possedere il rispettivo documento fisico in corso di validità."
           },
           {
             "title": "La versione digitale della mia Patente di guida su IO risulta 'non valida'. Cosa posso fare?",

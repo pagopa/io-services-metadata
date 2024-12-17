@@ -2819,7 +2819,7 @@
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
-            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+            "body": "Wenn diese Funktion aktiviert ist, kannst du bei jeder Anmeldung in der App die biometrische Erkennung anstelle des Entsperrcodes verwenden. Du wirst auch dazu aufgefordert, um sensible Daten anzuzeigen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung zu tätigen oder ein Profil zu löschen."
           },
           {
             "title": "Wie kann ich die biometrische Erkennung aktivieren?",
@@ -2838,7 +2838,7 @@
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
-            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+            "body": "Wenn diese Funktion aktiviert ist, kannst du bei jeder Anmeldung in der App die biometrische Erkennung anstelle des Entsperrcodes verwenden. Du wirst auch dazu aufgefordert, um sensible Daten anzuzeigen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung zu tätigen oder ein Profil zu löschen."
           },
           {
             "title": "Wie kann ich die biometrische Erkennung aktivieren?",
@@ -2857,7 +2857,7 @@
         "faqs": [
           {
             "title": "Wann werde ich zur biometrischen Erkennung aufgefordert?",
-            "body": "Wenn du diese Funktion aktiviert hast, kannst du die biometrische Erkennung anstelle des Entsperrcodes verwenden. Wie der Entsperrcode bleibt auch diese Erkennung 30 Tage lang nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Nach diesem Zeitraum musst du dich erneut anmelden."
+            "body": "Wenn diese Funktion aktiviert ist, kannst du bei jeder Anmeldung in der App die biometrische Erkennung anstelle des Entsperrcodes verwenden. Du wirst auch dazu aufgefordert, um sensible Daten anzuzeigen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung zu tätigen oder ein Profil zu löschen."
           },
           {
             "title": "Wie kann ich die biometrische Erkennung aktivieren?",
@@ -2876,7 +2876,7 @@
         "faqs": [
           {
             "title": "Was ist der Entsperrcode?",
-            "body": "Es handelt sich um einen 6-stelligen Code, den du beim ersten Zugriff auf IO festlegst und der es dir ermöglicht, die App zu betreten, ohne jedes Mal deine SPID- oder CIE-Anmeldedaten eingeben zu müssen. Du musst ihn auch eingeben, um sensible Daten einzusehen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung vorzunehmen oder dein Konto zu löschen.\nDiese Erkennung bleibt 30 Tage nach deiner letzten Anmeldung mit SPID oder CIE aktiv. Danach musst du dich erneut authentifizieren und einen neuen Freischaltcode festlegen."
+            "body": "Es handelt sich um einen 6-stelligen Code, den du beim ersten Zugriff auf IO festlegst und der es dir ermöglicht, die App zu betreten, ohne jedes Mal deine SPID- oder CIE-Anmeldedaten eingeben zu müssen. Du musst ihn auch eingeben, um sensible Daten einzusehen und bestimmte Vorgänge zu bestätigen, z. B. eine Zahlung vorzunehmen oder dein Profil zu löschen."
           },
           {
             "title": "Ich habe den Entsperrcode vergessen. Was kann ich tun?",
@@ -3338,7 +3338,7 @@
           },
           {
             "title": "Kann ich meinen physischen Führerschein mit Dokumente in IO verlängern?",
-            "body": "Gegenwärtig kannst du in Italien die digitale Version deines Führerscheins verwenden, um deine Fahrtauglichkeit im Rahmen einer Präsenzkontrollen durch die Polizei nachzuweisen."
+            "body": "Nein, um das physische Dokument zu erneuern, musst du das normale Verwaltungsverfahren des Ministeriums für Infrastruktur und Verkehr durchlaufen. Denke daran, dass du das entsprechende gültige physische Dokument haben musst, um digitale Versionen von Dokumenten in der IO-App über Dokumente in IO hinzuzufügen."
           },
           {
             "title": "Die digitale Version meines Führerscheins in IO ist 'ungültig'. Was kann ich tun?",

@@ -149,7 +149,8 @@
         "ios": "2.67.0.2",
         "android": "2.67.0.2"
       },
-      "feedback_banner_visible": true
+      "feedback_banner_visible": true,
+      "ipatente_cta_visible": true
     },
     "cie_id": {
       "min_app_version": {

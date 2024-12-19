@@ -35,8 +35,8 @@
       "enabled": false,
       "historyEnabled": true,
       "min_app_version": {
-          "ios": "2.77.1.0",
-          "android": "2.77.1.0"
+          "ios": "2.79.0.9",
+          "android": "2.79.0.9"
         }
     },
     "uaDonations": {

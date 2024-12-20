@@ -2,14 +2,14 @@
   "is_alive": true,
   "message": {
     "it-IT": "",
-    "en-EN": "English message"
+    "en-EN": "English message",
+    "de-DE": ""
   },
   "config": {
     "bpd_ranking": false,
     "bpd_ranking_v2": true,
     "cgn_merchants_v2": false,
-    "bpd":
-    {
+    "bpd": {
       "enroll_bpd_after_add_payment_method": false,
       "program_active": false,
       "opt_in_payment_methods": false,
@@ -35,9 +35,9 @@
       "enabled": false,
       "historyEnabled": true,
       "min_app_version": {
-          "ios": "2.79.0.9",
-          "android": "2.79.0.9"
-        }
+        "ios": "2.79.0.9",
+        "android": "2.79.0.9"
+      }
     },
     "uaDonations": {
       "enabled": false,
@@ -85,16 +85,19 @@
         },
         "title": {
           "it-IT": "Puoi dirci com'è andata?",
-          "en-EN": "Can you tell us how it went?"
+          "en-EN": "Can you tell us how it went?",
+          "de-DE": ""
         },
         "description": {
           "it-IT": "Raccontaci la tua esperienza con il pagamento e aiutaci a migliorare.",
-          "en-EN": "Tell us about your experience with payment and help us improve."
+          "en-EN": "Tell us about your experience with payment and help us improve.",
+          "de-DE": ""
         },
         "action": {
           "label": {
             "it-IT": "Vai al sondaggio",
-            "en-EN": "Go to survey"
+            "en-EN": "Go to survey",
+            "de-DE": ""
           },
           "url": "https://pagopa.qualtrics.com/jfe/form/SV_0GmGr2F3vt8oaZE"
         }
@@ -136,7 +139,9 @@
     },
     "payments": {
       "preferredPspsByOrigin": {
-        "poste_datamatrix_scan": ["BPPIITRRXXX"]
+        "poste_datamatrix_scan": [
+          "BPPIITRRXXX"
+        ]
       }
     },
     "tos": {
@@ -158,13 +163,13 @@
         "android": "2.78.0.11"
       }
     },
-    "landing_banners":{
-      "priority_order":[
-      "PUSH_NOTIFICATIONS_REMINDER",
-      "ITW_DISCOVERY" ,
-      "SETTINGS_DISCOVERY"
-    ]}
-
+    "landing_banners": {
+      "priority_order": [
+        "PUSH_NOTIFICATIONS_REMINDER",
+        "ITW_DISCOVERY",
+        "SETTINGS_DISCOVERY"
+      ]
+    }
   },
   "statusMessages": {
     "items": []
@@ -175,11 +180,13 @@
       "level": "critical",
       "web_url": {
         "it-IT": "https://io.italia.it/status/#2012081628",
-        "en-EN": "https://io.italia.it/status/en/#2012081628"
+        "en-EN": "https://io.italia.it/status/en/#2012081628",
+        "de-DE": "https://io.italia.it/status/en/#2012081628"
       },
       "message": {
         "it-IT": "Il messaggio di validazione indirizzo email potrebbe arrivare dopo diverse ore.",
-        "en-EN": "The email validation message may arrive after several hours."
+        "en-EN": "The email validation message may arrive after several hours.",
+        "de-DE": ""
       }
     },
     "cashback": {
@@ -187,11 +194,13 @@
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/cashback",
-        "en-EN": "https://io.italia.it/cashback"
+        "en-EN": "https://io.italia.it/cashback",
+        "de-DE": "https://io.italia.it/cashback"
       },
       "message": {
         "it-IT": "L’iniziativa del Cashback si è conclusa.",
-        "en-EN": "The Cashback initiative has ended."
+        "en-EN": "The Cashback initiative has ended.",
+        "de-DE": ""
       }
     },
     "cdc": {
@@ -199,11 +208,13 @@
       "level": "warning",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "cgn": {
@@ -211,11 +222,13 @@
       "level": "warning",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "fims": {
@@ -223,11 +236,13 @@
       "level": "warning",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "messages": {
@@ -235,7 +250,8 @@
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue.",
+        "de-DE": ""
       }
     },
     "services": {
@@ -243,7 +259,8 @@
       "level": "warning",
       "message": {
         "it-IT": "Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.",
-        "en-EN": "We're updating local services. The list will be back soon."
+        "en-EN": "We're updating local services. The list will be back soon.",
+        "de-DE": ""
       }
     },
     "login": {
@@ -251,7 +268,8 @@
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue.",
+        "de-DE": ""
       }
     },
     "wallets": {
@@ -259,11 +277,13 @@
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-legacy",
-        "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-legacy"
+        "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-legacy",
+        "de-DE": "https://io.italia.it/nuova-sezione-pagamenti-legacy"
       },
       "message": {
         "it-IT": "Aggiorna IO e accedi alle tue ricevute dalla nuova sezione Pagamenti.",
-        "en-EN": "Update IO and get access to your receipts using the new Payments section."
+        "en-EN": "Update IO and get access to your receipts using the new Payments section.",
+        "de-DE": ""
       }
     },
     "payments": {
@@ -271,11 +291,13 @@
       "level": "warning",
       "web_url": {
         "it-IT": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",
-        "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni"
+        "en-EN": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni",
+        "de-DE": "https://io.italia.it/nuova-sezione-pagamenti-istruzioni"
       },
       "message": {
         "it-IT": "Se vuoi pagare con carta, aggiungila prima al tuo Portafoglio.",
-        "en-EN": "To pay with card, make sure it's already in your Wallet."
+        "en-EN": "To pay with card, make sure it's already in your Wallet.",
+        "de-DE": ""
       }
     },
     "ingress": {
@@ -283,7 +305,8 @@
       "level": "warning",
       "message": {
         "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue."
+        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue.",
+        "de-DE": ""
       }
     },
     "bancomat": {
@@ -291,11 +314,13 @@
       "level": "normal",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "satispay": {
@@ -303,11 +328,13 @@
       "level": "normal",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "bancomatpay": {
@@ -315,11 +342,13 @@
       "level": "normal",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "credit_card": {
@@ -327,11 +356,13 @@
       "level": "warning",
       "message": {
         "it-IT": "Per il grande numero di richieste, la verifica della tua carta potrebbe subire dei rallentamenti",
-        "en-EN": "Due to the big number of requests, the card verification process may be slowed down"
+        "en-EN": "Due to the big number of requests, the card verification process may be slowed down",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "possibili rallentamenti",
-        "en-EN": "possible slowdowns"
+        "en-EN": "possible slowdowns",
+        "de-DE": ""
       }
     },
     "paypal": {
@@ -339,11 +370,13 @@
       "level": "warning",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "digital_payments": {
@@ -351,11 +384,13 @@
       "level": "normal",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "cobadge": {
@@ -363,11 +398,13 @@
       "level": "normal",
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "badge": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     },
     "euCovidCert": {
@@ -375,7 +412,8 @@
       "level": "warning",
       "message": {
         "it-IT": "Ci sono dei problemi con la visualizzazione delle Certificazioni Verdi. I tecnici sono al lavoro per ripristinare il servizio.",
-        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service."
+        "en-EN": "We’re having issues showing EU digital COVID certificates. Technicians are working to restore service.",
+        "de-DE": ""
       }
     },
     "favourite_language": {
@@ -383,11 +421,13 @@
       "level": "normal",
       "web_url": {
         "it-IT": "https://github.com/pagopa/io-app/issues/new/choose",
-        "en-EN": "https://github.com/pagopa/io-app/issues/new/choose"
+        "en-EN": "https://github.com/pagopa/io-app/issues/new/choose",
+        "de-DE": "https://github.com/pagopa/io-app/issues/new/choose"
       },
       "message": {
         "it-IT": "La traduzione in tedesco è in corso. Contribuisci su GitHub!",
-        "en-EN": "German translation is in progress. Contribute on GitHub!"
+        "en-EN": "German translation is in progress. Contribute on GitHub!",
+        "de-DE": ""
       }
     },
     "app_update_required": {
@@ -395,11 +435,13 @@
       "level": "normal",
       "web_url": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       },
       "message": {
         "it-IT": "",
-        "en-EN": ""
+        "en-EN": "",
+        "de-DE": ""
       }
     }
   }

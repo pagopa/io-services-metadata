@@ -514,6 +514,8 @@ definitions:
         $ref: "#/definitions/EmailUniquenessConfig"
       tos:
         $ref: "#/definitions/TosConfig"
+      absolutePortalLinks:
+        $ref: "#/definitions/AbsolutePortalLinksConfig"
       itw:
         $ref: "#/definitions/ItwConfig"
       cie_id:
@@ -941,6 +943,17 @@ definitions:
       tos_url: 
         type: string
         pattern: ^https://
+  AbsolutePortalLinksConfig: 
+    type: object
+    description: "Absolute URLs for showcase and logout sites"
+    required:
+      - io_web
+      - io_showcase
+    properties:
+      io_web:
+        type: string
+      io_showcase:
+        type: string
   ItwConfig:
     type: object
     description: "A configuration for the IT-Wallet feature"

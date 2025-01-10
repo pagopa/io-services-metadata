@@ -464,6 +464,7 @@ definitions:
       - pn
       - payments
       - tos
+      - absolutePortalLinks
       - itw
     properties:
       payments:

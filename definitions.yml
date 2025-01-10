@@ -953,8 +953,10 @@ definitions:
     properties:
       io_web:
         type: string
+        pattern: ^https://
       io_showcase:
         type: string
+        pattern: ^https://
   ItwConfig:
     type: object
     description: "A configuration for the IT-Wallet feature"

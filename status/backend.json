@@ -148,6 +148,10 @@
       "tos_version": 5.0,
       "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.0"
     },
+    "absolutePortalLinks": {
+      "io_web": "https://ioapp.it/",
+      "io_showcase": "https://io.italia.it/"
+    },
     "itw": {
       "enabled": true,
       "min_app_version": {

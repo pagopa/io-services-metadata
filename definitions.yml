@@ -464,6 +464,7 @@ definitions:
       - pn
       - payments
       - tos
+      - absolutePortalLinks
       - itw
     properties:
       payments:
@@ -514,6 +515,8 @@ definitions:
         $ref: "#/definitions/EmailUniquenessConfig"
       tos:
         $ref: "#/definitions/TosConfig"
+      absolutePortalLinks:
+        $ref: "#/definitions/AbsolutePortalLinksConfig"
       itw:
         $ref: "#/definitions/ItwConfig"
       cie_id:
@@ -939,6 +942,19 @@ definitions:
       tos_version: 
         type: number
       tos_url: 
+        type: string
+        pattern: ^https://
+  AbsolutePortalLinksConfig: 
+    type: object
+    description: "Absolute URLs for showcase and logout sites"
+    required:
+      - io_web
+      - io_showcase
+    properties:
+      io_web:
+        type: string
+        pattern: ^https://
+      io_showcase:
         type: string
         pattern: ^https://
   ItwConfig:

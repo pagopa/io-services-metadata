@@ -964,7 +964,6 @@ definitions:
       - min_app_version
       - enabled
       - feedback_banner_visible
-      - ipatente_cta_visible
     properties:
       enabled:
         type: boolean
@@ -1002,9 +1001,32 @@ definitions:
           description:
             $ref: "#/definitions/LocalizedText"
             description: "The description to be shown in screen"
-      ipatente_cta_visible:
-        description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
-        type: boolean
+      ipatente_cta:
+        description: "Information about the iPatente CTA inside the MDL credential details screen"
+        type: object
+        required:
+          - visibility
+          - service_id
+          - url
+        properties:
+          visibility:
+            type: boolean
+            description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
+          url:
+            type: string
+            description: "The URL that must be loaded when the iPatente CTA inside the MDL details screen is tapped"
+          service_id:
+            type: string
+            description: "The serviceId of the iPatente service"
+          service_name:
+            type: string
+            description: "The service name of the iPatente service"
+          service_organization_name: 
+            type: string
+            description: "The name of the organization of the iPatente service"
+          service_organization_fiscal_code:
+            type: string
+            description: "The fiscal code of the organization of the iPatente service"
   Banner:
     type: object
     required:

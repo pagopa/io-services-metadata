@@ -50,7 +50,7 @@ jobs:
 
       - name: Upload to blob storage
         id: storage_upload
-        uses: azure/CLI@b0e31ae20280d899279f14c36e877b4c6916e2d3
+        uses: azure/CLI@ce5a2f60a82a531970a546cb97b6bf93b64fb9d3
         with:
           inlineScript: |
             # workaround to escape dollar sign

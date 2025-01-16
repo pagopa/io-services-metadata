@@ -1006,18 +1006,22 @@ definitions:
         description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
         type: boolean
       ipatente_cta_config:
-        description: "Config about the iPatente CTA inside the MDL credential details screen"
+        description: "Config for iPatente CTA inside the MDL credential details screen"
         type: object
         required:
+          - visibility
           - service_id
           - url
         properties:
+          visibility:
+            type: boolean
+            description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
           url:
             type: string
             description: "The URL that must be loaded when the iPatente CTA inside the MDL details screen is tapped"
           service_id:
             type: string
-            description: "The serviceId of the iPatente service"
+            description: "The service id of the iPatente service"
           service_name:
             type: string
             description: "The service name of the iPatente service"

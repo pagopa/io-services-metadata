@@ -1015,7 +1015,7 @@ definitions:
         properties:
           visibility:
             type: boolean
-            description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
+            description: "Manages the visibility of the iPatente CTA inside the MDL details screen"
           url:
             type: string
             description: "The URL that must be loaded when the iPatente CTA inside the MDL details screen is tapped"

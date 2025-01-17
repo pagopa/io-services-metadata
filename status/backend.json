@@ -176,7 +176,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": ["CGN_CATEGORIES", "CGN_CATEGORIES_ALL"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "La sezione è in manutenzione. Se riscontri qualche problema, riprova più tardi",
+          "en-EN":
+            "The section is under maintenance. If you encounter any issues, please try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

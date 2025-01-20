@@ -53,7 +53,7 @@ jobs:
         uses: azure/CLI@ce5a2f60a82a531970a546cb97b6bf93b64fb9d3
         with:
           inlineScript: |
-            tdnf install -y azcopy-10.24.0
+            tdnf install -y azcopy-10.27.0
             # workaround to escape dollar sign
             container='$web'
 

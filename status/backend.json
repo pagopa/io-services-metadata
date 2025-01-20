@@ -181,6 +181,13 @@
         "ITW_DISCOVERY",
         "SETTINGS_DISCOVERY"
       ]
+    },
+    "app_feedback": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      },
+      "feedback_uri": "https://io.italia.it/"
     }
   },
   "statusMessages": {

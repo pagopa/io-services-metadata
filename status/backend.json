@@ -184,7 +184,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": ["CGN_CATEGORIES", "CGN_CATEGORIES_ALL"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "La sezione è in manutenzione, alcuni partner torneranno operativi a breve.",
+          "en-EN":
+            "The section is under maintenance; some partners will resume service shortly."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

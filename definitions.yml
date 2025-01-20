@@ -1091,6 +1091,8 @@ definitions:
   AppFeedbackConfig:
     type: object
     description: "A configuration for the App feedback feature"
+    required:
+      - min_app_version
     properties:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"

@@ -181,6 +181,9 @@
         "ITW_DISCOVERY",
         "SETTINGS_DISCOVERY"
       ]
+    },
+    "ioMarkdown": {
+      "disabledForMessagesAndServices": false
     }
   },
   "statusMessages": {

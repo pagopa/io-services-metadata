@@ -523,6 +523,8 @@ definitions:
         $ref: "#/definitions/CieIDConfig"
       landing_banners:
         $ref: "#/definitions/LandingBannersConfig"
+      ioMarkdown:
+        $ref: "#/definitions/IOMarkdownConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -1086,3 +1088,10 @@ definitions:
         type: array
         items:
           type: string
+  IOMarkdownConfig:
+    type: object
+    description: "A list fo settings to remotly handle the new markdown component"
+    properties:
+      disabledForMessagesAndServices:
+        description: "This property disables the use of IOMarkdown in rendering the message and service details, using the old component instead"
+        type: boolean

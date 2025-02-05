@@ -525,6 +525,8 @@ definitions:
         $ref: "#/definitions/LandingBannersConfig"
       app_feedback:
         $ref: "#/definitions/AppFeedbackConfig"
+      ioMarkdown:
+        $ref: "#/definitions/IOMarkdownConfig"
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -1100,3 +1102,10 @@ definitions:
       feedback_uri:
         type: string
         description: "The uri to be invoked to let the user share the feedback"
+  IOMarkdownConfig:
+    type: object
+    description: "A list fo settings to remotly handle the new markdown component"
+    properties:
+      disabledForMessagesAndServices:
+        description: "This property disables the use of IOMarkdown in rendering the message and service details, using the old component instead"
+        type: boolean

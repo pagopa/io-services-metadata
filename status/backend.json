@@ -161,7 +161,7 @@
       "feedback_banner_visible": true,
       "ipatente_cta_visible": true,
       "ipatente_cta_config": {
-        "visibility": true,
+        "visibility": false,
         "url": "https://licences.ipatente.io.pagopa.it/licences",
         "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
         "service_name": "Motorizzazione Civile - Le mie patenti",
@@ -188,6 +188,9 @@
         "android": "0.0.0.0"
       },
       "feedback_uri": "https://io.italia.it/"
+    },
+    "ioMarkdown": {
+      "disabledForMessagesAndServices": false
     }
   },
   "statusMessages": {

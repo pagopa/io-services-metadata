@@ -1090,18 +1090,39 @@ definitions:
         type: array
         items:
           type: string
+  AppFeedbackUriFeature:
+    type: object
+    description: "An object containing the uris for the feedback survey tool organized by the key of the topic for feedback"
+    properties:
+      payments:
+        type: string
+        description: "The uri to be invoked to let the user share the feedback on payments"
+      itw:
+        type: string
+        description: "The uri to be invoked to let the user share the feedback on itw feature"
+  AppFeedbackUri:
+    type: object
+    description: "An object containing the uris for the feedback survey tool with a default fallback value"
+    properties:
+      default_uri:
+        type: string
+        description: "The default uri to be invoked to let the user share the feedback"
+      sections:
+        $ref: "#/definitions/AppFeedbackUriFeature"
+        description: "Different uris for specific features/topic"
   AppFeedbackConfig:
     type: object
     description: "A configuration for the App feedback feature"
     required:
       - min_app_version
+      - feedback_uri
     properties:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can send feedback either on survey platform or OS app store"
       feedback_uri:
-        type: string
-        description: "The uri to be invoked to let the user share the feedback"
+        $ref: "#/definitions/AppFeedbackUri"
+        description: "The config of uri to be used in app divided by topic and default one"
   IOMarkdownConfig:
     type: object
     description: "A list fo settings to remotly handle the new markdown component"

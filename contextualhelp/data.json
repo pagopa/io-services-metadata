@@ -701,6 +701,10 @@
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo). \nAssicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
           },
           {
+            "title": "Perché non riesco ad aggiungere al Portafoglio la versione digitale della mia Carta Europea della Disabilità?",
+            "body": "Puoi aggiungere la versione digitale della Carta Europea della Disabilità solo quando sei in possesso della carta fisica. Se sei in possesso della carta fisica e riscontri un problema ad aggiungere la versione digitale all’app IO, scansiona con la fotocamera del tuo dispositivo il codice QR che trovi sul retro della carta, segui le istruzioni e inserisci il tuo codice fiscale quando richiesto. Alla fine della procedura potrai aggiungere la versione digitale della tua Carta Europea della Disabilità su IO."
+          },
+          {
             "title": "Posso rimuovere uno o più documenti dal Portafoglio dell’app?",
             "body": "Sì, puoi rimuovere uno specifico documento dal Portafoglio, direttamente in app dalla schermata di dettaglio della versione digitale del documento stesso. Anche se rimuovi un documento dall’app, potrai sempre riaggiungerlo in futuro. Ricorda che la rimozione della versione digitale di un documento non ha alcun effetto sulla validità del relativo documento fisico."
           },
@@ -853,11 +857,11 @@
           },
           {
             "title": "Posso usare la screenshot di un documento presente in Documenti su IO?",
-            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica."
+            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica. Inoltre, per motivi di sicurezza e protezione dei tuoi dati, le funzioni di screenshot (catture di schermate) e registrazione dello schermo del tuo dispositivo sono disabilitate quando usi l’app IO."
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Patente?",
-            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024."
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, esclusivamente per dimostrare la tua idoneità alla guida, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024. Ricorda che la versione digitale della Patente non costituisce documento di riconoscimento."
           },
           {
             "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",
@@ -897,11 +901,15 @@
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
-            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza o per l’erogazione di ricette per farmaci. Tieni presente che potrebbe essere richiesto il documento fisico in contesti in cui è necessaria la lettura del chip o, in alcuni casi, per la verifica di esenzioni."
           },
           {
             "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
             "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere al Portafoglio la versione digitale della mia Carta Europea della Disabilità?",
+            "body": "Puoi aggiungere la versione digitale della Carta Europea della Disabilità solo quando sei in possesso della carta fisica. Se sei in possesso della carta fisica e riscontri un problema ad aggiungere la versione digitale all’app IO, scansiona con la fotocamera del tuo dispositivo il codice QR che trovi sul retro della carta, segui le istruzioni e inserisci il tuo codice fiscale quando richiesto. Alla fine della procedura potrai aggiungere la versione digitale della tua Carta Europea della Disabilità su IO."
           },
           {
             "title": "Se riscontro errori nei dati della versione digitale della Carta Europea della Disabilità chi posso contattare?",
@@ -920,7 +928,7 @@
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
-            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza o per l’erogazione di ricette per farmaci. Tieni presente che potrebbe essere richiesto il documento fisico in contesti in cui è necessaria la lettura del chip o, in alcuni casi, per la verifica di esenzioni."
           }
         ]
       },

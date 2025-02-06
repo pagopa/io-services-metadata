@@ -684,6 +684,27 @@ definitions:
         type: array
         items:
           $ref: "#/definitions/ZendeskSubCategory"
+      contentEducational:
+        type: object
+        required:
+          - title
+          - content
+          - link
+        properties:
+          title:
+            type: string
+          content:
+            type: string
+          link:
+            type: object
+            required:
+              - label
+              - href
+            properties:
+              label:
+                type: string
+              href:
+                type: string
   ZendeskSubCategory:
     type: object
     description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"

@@ -188,11 +188,9 @@
         "android": "0.0.0.0"
       },
       "feedback_uri": {
-        "default_uri": "https://io.italia.it/",
-        "sections": {
-          "payments": "https://io.italia.it/",
-          "itw": "https://io.italia.it/"
-        }
+        "general": "https://io.italia.it/",
+        "payments": "https://io.italia.it/",
+        "itw": "https://io.italia.it/"
       }
     },
     "ioMarkdown": {

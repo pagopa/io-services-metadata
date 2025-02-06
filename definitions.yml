@@ -684,6 +684,8 @@ definitions:
         type: array
         items:
           $ref: "#/definitions/ZendeskSubCategory"
+      contentMarkdown:
+        type: string
   ZendeskSubCategory:
     type: object
     description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"

@@ -712,7 +712,7 @@ definitions:
             $ref: "#/definitions/LocalizedText"
             description: "The action title."
           href:
-            type: string
+            $ref: "#/definitions/LocalizedText"
             description: "The URL to be opened when the action is triggered."
   ZendeskSubCategory:
     type: object

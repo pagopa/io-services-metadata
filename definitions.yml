@@ -684,27 +684,34 @@ definitions:
         type: array
         items:
           $ref: "#/definitions/ZendeskSubCategory"
-      contentEducational:
+      bannerEducational:
+        $ref: "#/definitions/ZendeskBannerEducational"
+  ZendeskBannerEducational:
+    type: object
+    required:
+      - title
+      - content
+      - action
+    properties:
+      title:
+        $ref: "#/definitions/LocalizedText"
+        description: "The Banner title"
+      content:
+        $ref: "#/definitions/LocalizedText"
+        description: "The Banner content"
+      action:
         type: object
+        description: "The action to be executed when the banner is tapped."
         required:
-          - title
-          - content
-          - link
+          - label
+          - href
         properties:
-          title:
+          label:
+            $ref: "#/definitions/LocalizedText"
+            description: "The action title."
+          href:
             type: string
-          content:
-            type: string
-          link:
-            type: object
-            required:
-              - label
-              - href
-            properties:
-              label:
-                type: string
-              href:
-                type: string
+            description: "The URL to be opened when the action is triggered."
   ZendeskSubCategory:
     type: object
     description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"

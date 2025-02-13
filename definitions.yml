@@ -1103,6 +1103,8 @@ definitions:
         type: string
       en-EN:
         type: string
+      de-DE:
+        type: string
   CieIDConfig:
     type: object
     description: "A configuration for the CieID feature"

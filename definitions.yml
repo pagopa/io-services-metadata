@@ -712,7 +712,7 @@ definitions:
             $ref: "#/definitions/LocalizedText"
             description: "The action title."
           href:
-            $ref: "#/definitions/LocalizedText"
+            $ref: "#/definitions/LocalizedLinks"
             description: "The URL to be opened when the action is triggered."
   ZendeskSubCategory:
     type: object
@@ -1105,6 +1105,21 @@ definitions:
         type: string
       de-DE:
         type: string
+  LocalizedLinks:
+    type: object
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+        pattern: "^https://"
+      en-EN:
+        type: string
+        pattern: "^https://"
+      de-DE:
+        type: string
+        pattern: "^https://"
   CieIDConfig:
     type: object
     description: "A configuration for the CieID feature"

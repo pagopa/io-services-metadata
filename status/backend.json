@@ -68,8 +68,8 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "3.0.0.0",
+        "android": "3.0.0.0"
       }
     },
     "newPaymentSection": {

@@ -149,7 +149,7 @@
       "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.0"
     },
     "absolutePortalLinks": {
-      "io_web": "https://ioapp.it/",
+      "io_web": "https://account.ioapp.it/",
       "io_showcase": "https://io.italia.it/"
     },
     "itw": {
@@ -181,6 +181,17 @@
         "ITW_DISCOVERY",
         "SETTINGS_DISCOVERY"
       ]
+    },
+    "app_feedback": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      },
+      "feedback_uri": {
+        "general": "https://pagopa.qualtrics.com/jfe/form/SV_dg0CZHTfsBN56aG",
+        "payments": "https://pagopa.qualtrics.com/jfe/form/SV_0HrNTh9QPOcYKma",
+        "itw": "https://pagopa.qualtrics.com/jfe/form/SV_3sMkRc6Jg9aarhY"
+      }
     },
     "ioMarkdown": {
       "disabledForMessagesAndServices": false

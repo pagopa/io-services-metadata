@@ -694,11 +694,15 @@
           },
           {
             "title": "Posso disattivare Documenti su IO?",
-            "body": "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito [ioapp.it](ioapp.it), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app IO saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti."
+            "body": "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito [account.ioapp.it](account.ioapp.it), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app IO saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti."
           },
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo). \nAssicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere al Portafoglio la versione digitale della mia Carta Europea della Disabilità?",
+            "body": "Puoi aggiungere la versione digitale della Carta Europea della Disabilità solo quando sei in possesso della carta fisica. Se sei in possesso della carta fisica e riscontri un problema ad aggiungere la versione digitale all’app IO, scansiona con la fotocamera del tuo dispositivo il codice QR che trovi sul retro della carta, segui le istruzioni e inserisci il tuo codice fiscale quando richiesto. Alla fine della procedura potrai aggiungere la versione digitale della tua Carta Europea della Disabilità su IO."
           },
           {
             "title": "Posso rimuovere uno o più documenti dal Portafoglio dell’app?",
@@ -722,11 +726,11 @@
           },
           {
             "title": "Cosa succede a Documenti su IO se mi rubano o perdo il mio dispositivo?",
-            "body": "Se hai perso il tuo dispositivo o te l’hanno rubato, dovrai disattivare la funzionalità Documenti su IO da web, accedendo al sito [ioapp.it](ioapp.it), che ti consente di gestire in remoto alcune delle funzionalità dell'app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+            "body": "Se hai perso il tuo dispositivo o te l’hanno rubato, dovrai disattivare la funzionalità Documenti su IO da web, accedendo al sito [account.ioapp.it](account.ioapp.it), che ti consente di gestire in remoto alcune delle funzionalità dell'app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
           },
           {
             "title": "Cosa succede a Documenti su IO se si rompe il mio dispositivo?",
-            "body": "Se il tuo dispositivo ha smesso di funzionare, ti suggeriamo di disattivare la funzionalità Documenti su IO da web, accedendo al sito [ioapp.it](ioapp.it), che ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
+            "body": "Se il tuo dispositivo ha smesso di funzionare, ti suggeriamo di disattivare la funzionalità Documenti su IO da web, accedendo al sito [account.ioapp.it](account.ioapp.it), che ti consente di gestire in remoto alcune delle funzionalità di app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo."
           },
           {
             "title": "Cosa succede a Documenti su IO se disinstallo l’app IO?",
@@ -853,11 +857,11 @@
           },
           {
             "title": "Posso usare la screenshot di un documento presente in Documenti su IO?",
-            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica."
+            "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica. Inoltre, per motivi di sicurezza e protezione dei tuoi dati, le funzioni di screenshot (catture di schermate) e registrazione dello schermo del tuo dispositivo sono disabilitate quando usi l’app IO."
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Patente?",
-            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, per dimostrare la tua idoneità alla guida, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024."
+            "body": "Al momento puoi usare la versione digitale della tua Patente di guida in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, esclusivamente per dimostrare la tua idoneità alla guida, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024. Ricorda che la versione digitale della Patente non costituisce documento di riconoscimento."
           },
           {
             "title": "Posso rinnovare la mia Patente fisica da Documenti su IO?",
@@ -897,11 +901,19 @@
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
-            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza o per l’erogazione di ricette per farmaci. Tieni presente che potrebbe essere richiesto il documento fisico in contesti in cui è necessaria la lettura del chip o, in alcuni casi, per la verifica di esenzioni."
           },
           {
             "title": "Se riscontro errori nei dati della versione digitale della Tessera Sanitaria - Tessera europea di assicurazione malattia chi posso contattare?",
             "body": "Puoi aprire una richiesta di assistenza premendo il “?” presente in alto a destra nelle schermate dell’app. A seguito di diagnosi, potresti essere invitato ad aprire una segnalazione direttamente presso l’ente titolare di riferimento. Per la Tessera Sanitaria - Tessera europea di assicurazione malattia puoi contattare il numero verde 800.030.070."
+          },
+          {
+            "title": "Perché non riesco ad aggiungere al Portafoglio la versione digitale della mia Carta Europea della Disabilità?",
+            "body": "Puoi aggiungere la versione digitale della Carta Europea della Disabilità solo quando sei in possesso della carta fisica. Se sei in possesso della carta fisica e riscontri un problema ad aggiungere la versione digitale all’app IO, scansiona con la fotocamera del tuo dispositivo il codice QR che trovi sul retro della carta, segui le istruzioni e inserisci il tuo codice fiscale quando richiesto. Alla fine della procedura potrai aggiungere la versione digitale della tua Carta Europea della Disabilità su IO."
+          },
+          {
+            "title": "In che contesti di verifica posso usare la versione digitale della mia Carta Europea della Disabilità?",
+            "body": "Puoi usare la versione digitale della tua Carta Europea della Disabilità per accedere ai servizi e ai benefici cui hai diritto sul territorio italiano, negli stessi contesti d’uso del tuo documento fisico."
           },
           {
             "title": "Se riscontro errori nei dati della versione digitale della Carta Europea della Disabilità chi posso contattare?",
@@ -920,7 +932,7 @@
           },
           {
             "title": "In che contesti di verifica posso usare la versione digitale della mia Tessera Sanitaria - Tessera europea di assicurazione malattia?",
-            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza, per l’erogazione di ricette per farmaci, etc."
+            "body": "Al momento puoi usare la versione digitale della tua Tessera Sanitaria - Tessera europea di assicurazione malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale, ad esempio per la prenotazione esami in presenza o per l’erogazione di ricette per farmaci. Tieni presente che potrebbe essere richiesto il documento fisico in contesti in cui è necessaria la lettura del chip o, in alcuni casi, per la verifica di esenzioni."
           }
         ]
       },
@@ -3171,7 +3183,7 @@
           },
           {
             "title": "Kann ich Dokumente in IO deaktivieren?",
-            "body": "Ja, du kannst die Funktionalität von Dokumente in IO direkt in der App deaktivieren. Darüber hinaus kannst du Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst. So kannst du einige Funktionen der IO-App auch dann verwalten, wenn du die Kontrolle über dein Gerät verloren hast oder es nicht mehr besitzt. Bitte beachte, dass bei einer Deaktivierung von Dokumente in IO alle digitalen Versionen der Dokumente, die du dem Konto der IO-App hinzugefügt hast, entfernt werden; du kannst die Funktion jedoch in Zukunft wieder aktivieren und erneut digitale Versionen deiner Dokumente hinzufügen."
+            "body": "Ja, du kannst die Funktionalität von Dokumente in IO direkt in der App deaktivieren. Darüber hinaus kannst du Dokumente in IO über das Internet deaktivieren, indem du auf [account.ioapp.it](account.ioapp.it) zugreifst. So kannst du einige Funktionen der IO-App auch dann verwalten, wenn du die Kontrolle über dein Gerät verloren hast oder es nicht mehr besitzt. Bitte beachte, dass bei einer Deaktivierung von Dokumente in IO alle digitalen Versionen der Dokumente, die du dem Konto der IO-App hinzugefügt hast, entfernt werden; du kannst die Funktion jedoch in Zukunft wieder aktivieren und erneut digitale Versionen deiner Dokumente hinzufügen."
           },
           {
             "title": "Warum kann ich die digitale Version eines Dokuments nicht in meinem Konto hinzufügen?",
@@ -3199,11 +3211,11 @@
           },
           {
             "title": "Was passiert mit Dokumente in IO, wenn mein Gerät gestohlen wird oder verloren geht?",
-            "body": "Wenn du dein Gerät verloren hast oder es gestohlen wurde, musst du die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
+            "body": "Wenn du dein Gerät verloren hast oder es gestohlen wurde, musst du die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [account.ioapp.it](account.ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
           },
           {
             "title": "Was passiert mit Dokumente in IO, wenn mein Gerät kaputt geht?",
-            "body": "Wenn dein Gerät nicht mehr funktioniert, empfehlen wir dir die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [ioapp.it](ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
+            "body": "Wenn dein Gerät nicht mehr funktioniert, empfehlen wir dir die Funktionalität von Dokumente in IO über das Internet deaktivieren, indem du auf [account.ioapp.it](account.ioapp.it) zugreifst, wodurch du einige Funktionen der IO-App aus der Ferne verwalten kannst, auch wenn du dein Gerät verloren hast oder keine Kontrolle mehr darüber hast."
           },
           {
             "title": "Was passiert mit Dokumente in IO, wenn ich die IO-App deinstalliere?",

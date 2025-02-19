@@ -130,8 +130,7 @@
     },
     "loginConfig": {
       "notifyExpirationThreshold": {
-        "fastLogin": 30,
-        "standardLogin": 0
+        "fastLogin": 15
       }
     },
     "pn": {

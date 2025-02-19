@@ -688,6 +688,34 @@ definitions:
         type: array
         items:
           $ref: "#/definitions/ZendeskSubCategory"
+      bannerEducational:
+        $ref: "#/definitions/ZendeskBannerEducational"
+  ZendeskBannerEducational:
+    type: object
+    required:
+      - title
+      - content
+      - action
+    properties:
+      title:
+        $ref: "#/definitions/LocalizedText"
+        description: "The Banner title"
+      content:
+        $ref: "#/definitions/LocalizedText"
+        description: "The Banner content"
+      action:
+        type: object
+        description: "The action to be executed when the banner is tapped."
+        required:
+          - label
+          - href
+        properties:
+          label:
+            $ref: "#/definitions/LocalizedText"
+            description: "The action title."
+          href:
+            $ref: "#/definitions/LocalizedLinks"
+            description: "The URL to be opened when the action is triggered."
   ZendeskSubCategory:
     type: object
     description: "Represents a sub-category in Zendesk. Is identified by an id and a value, has an IT and an EN description"
@@ -1077,6 +1105,23 @@ definitions:
         type: string
       en-EN:
         type: string
+      de-DE:
+        type: string
+  LocalizedLinks:
+    type: object
+    required:
+      - it-IT
+      - en-EN
+    properties:
+      it-IT:
+        type: string
+        pattern: "^https://"
+      en-EN:
+        type: string
+        pattern: "^https://"
+      de-DE:
+        type: string
+        pattern: "^https://"
   CieIDConfig:
     type: object
     description: "A configuration for the CieID feature"

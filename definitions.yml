@@ -509,6 +509,8 @@ definitions:
         $ref: "#/definitions/PnConfig"
       fastLogin:
         $ref: "#/definitions/FastLoginConfig"
+      loginConfig:
+        $ref: "#/definitions/LoginConfig"
       nativeLogin:
         $ref: "#/definitions/NativeLoginConfig"
       emailUniquenessValidation:
@@ -1165,8 +1167,19 @@ definitions:
         description: "The config of uri to be used in app divided by topic and default one"
   IOMarkdownConfig:
     type: object
-    description: "A list fo settings to remotly handle the new markdown component"
+    description: "A list of settings to remotly handle the new markdown component"
     properties:
       disabledForMessagesAndServices:
         description: "This property disables the use of IOMarkdown in rendering the message and service details, using the old component instead"
         type: boolean
+  LoginConfig:
+    type: object
+    properties:
+      notifyExpirationThreshold:
+        type: object
+        properties:
+          fastLogin:
+            type: number
+          standardLogin:
+            type: number
+    

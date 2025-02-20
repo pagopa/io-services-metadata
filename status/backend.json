@@ -183,9 +183,8 @@
     "landing_banners": {
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",
-        "LV_EXPIRATION_REMINDER",
         "ITW_DISCOVERY",
-        "SETTINGS_DISCOVERY"
+        "LV_EXPIRATION_REMINDER"
       ]
     },
     "app_feedback": {

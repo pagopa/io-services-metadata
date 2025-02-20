@@ -135,6 +135,11 @@
         }
       }
     },
+    "loginConfig": {
+      "notifyExpirationThreshold": {
+        "fastLogin": 15
+      }
+    },
     "pn": {
       "enabled": true,
       "min_app_version": {
@@ -186,7 +191,7 @@
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",
         "ITW_DISCOVERY",
-        "SETTINGS_DISCOVERY"
+        "LV_EXPIRATION_REMINDER"
       ]
     },
     "app_feedback": {

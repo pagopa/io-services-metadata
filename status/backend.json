@@ -68,8 +68,8 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "3.0.0.0",
+        "android": "3.0.0.0"
       }
     },
     "newPaymentSection": {
@@ -128,6 +128,11 @@
         }
       }
     },
+    "loginConfig": {
+      "notifyExpirationThreshold": {
+        "fastLogin": 15
+      }
+    },
     "pn": {
       "enabled": true,
       "min_app_version": {
@@ -179,8 +184,19 @@
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",
         "ITW_DISCOVERY",
-        "SETTINGS_DISCOVERY"
+        "LV_EXPIRATION_REMINDER"
       ]
+    },
+    "app_feedback": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      },
+      "feedback_uri": {
+        "general": "https://pagopa.qualtrics.com/jfe/form/SV_dg0CZHTfsBN56aG",
+        "payments": "https://pagopa.qualtrics.com/jfe/form/SV_0HrNTh9QPOcYKma",
+        "itw": "https://pagopa.qualtrics.com/jfe/form/SV_3sMkRc6Jg9aarhY"
+      }
     },
     "ioMarkdown": {
       "disabledForMessagesAndServices": false

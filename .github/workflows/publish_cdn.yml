@@ -62,8 +62,7 @@ jobs:
               --recursive
      
       - name: Purge CDN endpoint
-        with:
-          inlineScript: |
+        run: |
             az cdn endpoint purge \
               --content-paths '/*' \
               --profile-name "$CDN_PROFILE_NAME" \

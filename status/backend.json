@@ -147,7 +147,8 @@
         "android": "2.46.0.3"
       },
       "frontend_url": "https://cittadini.notifichedigitali.it",
-      "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET"
+      "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET",
+      "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP"
     },
     "payments": {
       "preferredPspsByOrigin": {

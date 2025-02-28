@@ -957,6 +957,9 @@ definitions:
       optInServiceId:
         type: string
         description: "The ID of the standard PN service that sends the OptIn message"
+      notificationServiceId:
+        type: string
+        description: "the ID of the PN special service itself, used for the landing screen banner"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

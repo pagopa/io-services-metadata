@@ -42,7 +42,7 @@ jobs:
 
       - name: Azure Login
         id: az_login
-        uses: azure/login@92a5484dfaf04ca78a94597f4f19fea633851fa2
+        uses: azure/login@a65d910e8af852a8061c627c456678983e180302
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID_CD }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
@@ -50,11 +50,7 @@ jobs:
 
       - name: Upload to blob storage
         id: storage_upload
-        uses: azure/CLI@ce5a2f60a82a531970a546cb97b6bf93b64fb9d3
-        with:
-          inlineScript: |
-            tdnf install -y azcopy-10.27.0
-            # workaround to escape dollar sign
+        run: |
             container='$web'
 
             az storage copy \
@@ -66,9 +62,7 @@ jobs:
               --recursive
      
       - name: Purge CDN endpoint
-        uses: azure/CLI@ce5a2f60a82a531970a546cb97b6bf93b64fb9d3
-        with:
-          inlineScript: |
+        run: |
             az cdn endpoint purge \
               --content-paths '/*' \
               --profile-name "$CDN_PROFILE_NAME" \

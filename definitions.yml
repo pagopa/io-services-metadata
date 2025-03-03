@@ -609,7 +609,11 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, FIMS SSO is enabled"
-
+      services:
+        type: array
+        items:
+          $ref: "#/definitions/FimsServiceConfiguration"
+        description: "The array of services' metadata that can open a FIMS flow"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"
@@ -953,6 +957,9 @@ definitions:
       optInServiceId:
         type: string
         description: "The ID of the standard PN service that sends the OptIn message"
+      notificationServiceId:
+        type: string
+        description: "the ID of the PN special service itself, used for the landing screen banner"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"
@@ -1055,16 +1062,16 @@ definitions:
             description: "The URL that must be loaded when the iPatente CTA inside the MDL details screen is tapped"
           service_id:
             type: string
-            description: "The service id of the iPatente service"
+            description: "Deprecated. Use 'fims.services' instead (The service id of the iPatente service)"
           service_name:
             type: string
-            description: "The service name of the iPatente service"
+            description: "Deprecated. Use 'fims.services' instead (The service name of the iPatente service)"
           service_organization_name:
             type: string
-            description: "The name of the organization of the iPatente service"
+            description: "Deprecated. Use 'fims.services' instead (The name of the organization of the iPatente service)"
           service_organization_fiscal_code:
             type: string
-            description: "The fiscal code of the organization of the iPatente service"
+            description: "Deprecated. Use 'fims.services' instead (The fiscal code of the organization of the iPatente service)"
   Banner:
     type: object
     required:
@@ -1167,7 +1174,7 @@ definitions:
         description: "The config of uri to be used in app divided by topic and default one"
   IOMarkdownConfig:
     type: object
-    description: "A list of settings to remotly handle the new markdown component"
+    description: "A list of settings to remotely handle the new markdown component"
     properties:
       disabledForMessagesAndServices:
         description: "This property disables the use of IOMarkdown in rendering the message and service details, using the old component instead"
@@ -1182,4 +1189,25 @@ definitions:
             type: number
           standardLogin:
             type: number
-    
+  FimsServiceConfiguration:
+    type: object
+    description: "Service and organization properties of a service that can start the FIMS flow"
+    required:
+      - configuration_id
+      - service_id
+    properties:
+      configuration_id:
+        type: string
+        description: "The id of this configuration that uniquely identifies it in the parent array of configurations"
+      organization_fiscal_code:
+        type: string
+        description: "The fiscal code of the organization"
+      organization_name:
+        type: string
+        description: "The name of the organization"
+      service_id:
+        type: string
+        description: "The service id"
+      service_name:
+        type: string
+        description: "The service name"

@@ -282,7 +282,24 @@ definitions:
       name:
         type: string
       logo:
-        type: string
+        type: object
+        required:
+          - light
+        properties:
+          light:
+            type: object
+            required:
+              - uri
+            properties:
+              uri:
+                type: string
+          dark:
+            type: object
+            required:
+              - uri
+            properties:
+              uri:
+                type: string
       profileUrl:
         type: string
       isTestIdp:

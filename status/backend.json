@@ -207,7 +207,10 @@
       }
     },
     "ioMarkdown": {
-      "disabledForMessagesAndServices": false
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      }
     }
   },
   "statusMessages": {

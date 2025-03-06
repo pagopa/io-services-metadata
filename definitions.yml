@@ -1176,9 +1176,9 @@ definitions:
     type: object
     description: "A list of settings to remotely handle the new markdown component"
     properties:
-      disabledForMessagesAndServices:
-        description: "This property disables the use of IOMarkdown in rendering the message and service details, using the old component instead"
-        type: boolean
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "Minimum app version that can use the new IOMarkdown"
   LoginConfig:
     type: object
     properties:

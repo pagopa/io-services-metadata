@@ -283,6 +283,8 @@ definitions:
         type: string
       logo:
         type: string
+      logoDark:
+        type: string
       profileUrl:
         type: string
       isTestIdp:

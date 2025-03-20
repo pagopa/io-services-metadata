@@ -194,6 +194,7 @@
     "landing_banners": {
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",
+        "SEND_ACTIVATION_REMINDER",
         "ITW_DISCOVERY",
         "LV_EXPIRATION_REMINDER"
       ]

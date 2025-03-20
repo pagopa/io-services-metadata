@@ -962,6 +962,12 @@ definitions:
       notificationServiceId:
         type: string
         description: "the ID of the PN special service itself, used for the landing screen banner"
+      tos_url:
+        type: string
+        description: "the terms of service URL"
+      privacy_url:
+        type: string
+        description: 'the privacy informative URL'
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

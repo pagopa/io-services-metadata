@@ -235,7 +235,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Puoi recuperare username e password in qualsiasi momento. Scegli dall'elenco il tuo Identity Provider per sapere come procedere:\n- [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n- [SpidItalia, se hai dimenticato l'username](https://spid.register.it/selfcare/recovery/username)\n- [SpidItalia, se hai dimenticato la password](https://spid.register.it/selfcare/recovery/password)\n- [Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- [Tim, se hai dimenticato l'username](https://id.tim.it/secure-proxy/fu)\n- [Tim, se hai dimenticato la password](https://id.tim.it/secure-proxy/fp)\n- [TeamSystem,se hai dimenticato l'username](https://spid.teamsystem.com/it/auth/usernameLost)\n- [TeamSystem, se hai dimenticato la password](https://spid.teamsystem.com/it/auth/passwordLost)"
+            "body": "Vai [in questa pagina](https://assistenza.ioapp.it/hc/it/sections/30616637679505-Accesso-con-SPID) e scegli il tuo Identity Provider dall’elenco per trovare tutte le indicazioni."
           },
           {
             "title": "Ho fatto tutto correttamente ma non riesco ad entrare. Cosa posso fare?",
@@ -257,23 +257,15 @@
         "content": "Per accedere a IO, puoi scegliere di autenticarti con la tua identità SPID, con la Carta d'Identità Elettronica (CIE) o con l’app CieID. Se non hai SPID, segui la procedura che trovi [in questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). Per richiedere la Carta d’identità Elettronica, vai sul sito del tuo Comune.",
         "faqs": [
           {
-            "title": "Cos’è SPID?",
-            "body": "SPID è il sistema di autenticazione digitale che permette a cittadini e imprese di accedere ai servizi online della Pubblica Amministrazione e di alcune aziende private. Con SPID puoi usare un’unica identità digitale, per tutti i servizi che lo consentono. Puoi trovare tutti i dettagli [in questo sito](https://www.spid.gov.it/)."
-          },
-          {
             "title": "Come posso attivare SPID?",
             "body": "[In questo sito](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/) trovi tutte le informazioni su dove e come attivare SPID."
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Puoi recuperare username e password in qualsiasi momento. Scegli dall'elenco il tuo Identity Provider per sapere come procedere:\n- [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n- [SpidItalia, se hai dimenticato l'username](https://spid.register.it/selfcare/recovery/username)\n- [SpidItalia, se hai dimenticato la password](https://spid.register.it/selfcare/recovery/password)\n- [Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- [Tim, se hai dimenticato l'username](https://id.tim.it/secure-proxy/fu)\n- [Tim, se hai dimenticato la password](https://id.tim.it/secure-proxy/fp)\n- [TeamSystem,se hai dimenticato l'username](https://spid.teamsystem.com/it/auth/usernameLost)\n- [TeamSystem, se hai dimenticato la password](https://spid.teamsystem.com/it/auth/passwordLost)"
+            "body": "Vai [in questa pagina](https://assistenza.ioapp.it/hc/it/sections/30616637679505-Accesso-con-SPID) e scegli il tuo Identity Provider dall’elenco per trovare tutte le indicazioni."
           },
           {
-            "title": "Cos’è la CIE?",
-            "body": "La Carta d’Identità Elettronica (CIE) è il documento d’identità dei cittadini italiani. Permette l’accertamento dell’identità di chi la possiede e l’accesso ai servizi online delle Pubbliche Amministrazioni."
-          },
-          {
-            "title": "Come posso richiedere la CIE?",
+            "title": "Come posso richiedere la Carta di Identità Elettronica?",
             "body": "[Vai a questo sito](https://www.prenotazionicie.interno.gov.it/) e digita il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, procedi alla prenotazione dell'appuntamento. In caso contrario, chiedi un appuntamento dal sito del tuo Comune o vai in un ufficio comunale."
           },
           {
@@ -320,7 +312,7 @@
           },
           {
             "title": "Ho perso le mie credenziali SPID. Come posso fare?",
-            "body": "Puoi recuperare username e password in qualsiasi momento. Scegli dall'elenco il tuo Identity Provider per sapere come procedere:\n- [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx)\n- [EtnaID](https://etnaid.eht.eu/signup/forgotPassword)\n- [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode)\n- [Infocert](https://my.infocert.it/selfcare/#/recoveryPin)\n- [Intesi Group](https://www.intesigroup.com/it/spid/)\n- [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp)\n- [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php)\n- [Poste](https://posteid.poste.it/recuperocredenziali.shtml)\n- [SpidItalia, se hai dimenticato l'username](https://spid.register.it/selfcare/recovery/username)\n- [SpidItalia, se hai dimenticato la password](https://spid.register.it/selfcare/recovery/password)\n- [Sielte](https://myid.sieltecloud.it/profile/recovery/forgotPassword)\n- [Tim, se hai dimenticato l'username](https://id.tim.it/secure-proxy/fu)\n- [Tim, se hai dimenticato la password](https://id.tim.it/secure-proxy/fp)\n- [TeamSystem,se hai dimenticato l'username](https://spid.teamsystem.com/it/auth/usernameLost)\n- [TeamSystem, se hai dimenticato la password](https://spid.teamsystem.com/it/auth/passwordLost)."
+            "body": "Vai [in questa pagina](https://assistenza.ioapp.it/hc/it/sections/30616637679505-Accesso-con-SPID) e scegli il tuo Identity Provider dall’elenco per trovare tutte le indicazioni."
           }
         ]
       },

@@ -38,13 +38,15 @@
         "ios": "2.79.0.9",
         "android": "2.79.0.9"
       },
-      "services": [{
-        "configuration_id": "iPatente",
-        "organization_fiscal_code": "97532760580",
-        "organization_name": "Ministero delle infrastrutture e dei trasporti",
-        "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
-        "service_name": "Motorizzazione Civile - Le mie patenti"
-      }]
+      "services": [
+        {
+          "configuration_id": "iPatente",
+          "organization_fiscal_code": "97532760580",
+          "organization_name": "Ministero delle infrastrutture e dei trasporti",
+          "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
+          "service_name": "Motorizzazione Civile - Le mie patenti"
+        }
+      ]
     },
     "uaDonations": {
       "enabled": false,
@@ -61,7 +63,10 @@
       "opt_in_out_enabled": true
     },
     "cdc": {
-      "enabled": false
+      "min_app_version": {
+        "ios": "4.0.0.0",
+        "android": "4.0.0.0"
+      }
     },
     "barcodesScanner": {
       "dataMatrixPosteEnabled": true
@@ -151,7 +156,6 @@
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",
       "privacy_url": "https://cittadini.notifichedigitali.it/informativa-privacy"
-      
     },
     "payments": {
       "preferredPspsByOrigin": {

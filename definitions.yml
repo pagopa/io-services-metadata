@@ -846,9 +846,9 @@ definitions:
     type: object
     description: "A configuration for the carta della cultura feature"
     required:
-      - min_app_version
+      - enabled
     properties:
-      min_app_version:
+      enabled:
         type: boolean
         description: "If true, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
   BarcodesScannerConfig:

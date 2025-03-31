@@ -1,0 +1,45 @@
+on:
+  pull_request
+
+jobs:
+  check-definitions:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for tags
+
+      # Fetch the latest tag
+      - name: Get latest tag
+        id: get_latest_tag
+        run: echo "LATEST_TAG=$(git describe --tags $(git rev-list --tags --max-count=1))" >> $GITHUB_ENV
+
+      # Compare definitions using git diff
+      - name: Compare API definitions
+        id: compare_definitions
+        run: |
+          # Get the diff between the latest tag and the current branch
+          git diff ${{ env.LATEST_TAG }} -- definitions.yml > definitions.diff
+
+          # Check if there are any changes
+          if [ -s definitions.diff ]; then
+            echo "Changes detected in API definitions:"
+            cat definitions.diff
+
+            # Check for missing required parameters
+            if grep -q 'required' definitions.diff && grep -q '-' definitions.diff; then
+              echo "Error: Missing required parameters detected in API definitions."
+              exit 1
+            fi
+
+            # Check for type changes and log warnings
+            if grep -q 'type' definitions.diff; then
+              echo "Warning: Type changes detected in API definitions:"
+              grep 'type' definitions.diff
+            fi
+          else
+            echo "No changes detected in API definitions."
+          fi

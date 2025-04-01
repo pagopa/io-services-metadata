@@ -17,7 +17,7 @@ jobs:
         id: get_latest_tag
         run: echo "LATEST_TAG=$(git describe --tags $(git rev-list --tags --max-count=1))" >> $GITHUB_ENV
 
-      # Compare definitions using git diff
+       # Compare definitions using git diff
       - name: Compare API definitions
         id: compare_definitions
         run: |
@@ -29,16 +29,16 @@ jobs:
             echo "Changes detected in API definitions:"
             cat definitions.diff
 
-            # Check for missing required parameters
-            if grep -q 'required' definitions.diff && grep -q '-' definitions.diff; then
+            # Check for missing required parameters specifically in the 'required' key
+            if grep -E '^-.*required: \[' definitions.diff; then
               echo "Error: Missing required parameters detected in API definitions."
               exit 1
             fi
 
             # Check for type changes and log warnings
-            if grep -q 'type' definitions.diff; then
+            if grep -E '^-.*type:' definitions.diff || grep -E '^\+.*type:' definitions.diff; then
               echo "Warning: Type changes detected in API definitions:"
-              grep 'type' definitions.diff
+              grep -E '^-.*type:' definitions.diff || grep -E '^\+.*type:' definitions.diff
             fi
           else
             echo "No changes detected in API definitions."

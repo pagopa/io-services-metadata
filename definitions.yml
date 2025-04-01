@@ -368,14 +368,6 @@ definitions:
       - digital_payments
       - email_validation
       - euCovidCert
-      - ingress
-      - login
-      - messages
-      - satispay
-      - services
-      - wallets
-      - favourite_language
-      - app_update_required
       - cgn
       - fims
     properties:

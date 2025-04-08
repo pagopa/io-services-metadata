@@ -938,6 +938,11 @@ definitions:
       feedbackBanner:
         $ref: "#/definitions/Banner"
         description: "If provided a feedback banner will be shown in the payment success screen"
+      pspBanner:
+        type: object
+        description: "A map where keys are payment method shortname and values are the Banner objects"
+        additionalProperties:
+          $ref: "#/definitions/Banner"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

@@ -29,17 +29,45 @@ jobs:
             echo "::debug::Changes detected in API definitions"
             cat definitions.diff
 
-            # Check for removed required values
-            if grep -qE '^-[[:space:]]+-' definitions.diff; then
+            # Use awk to properly filter out x-extensible-enum changes
+            cat definitions.diff | awk '
+            BEGIN { in_extensible_enum = 0; removed_required = 0; }
+            /x-extensible-enum:/ { in_extensible_enum = 1; next; }
+            /^[^-]/ { if (in_extensible_enum == 1 && !match($0, /^[-+][ ]+- /)) in_extensible_enum = 0; }
+            /^-[ ]+- / { 
+              if (in_extensible_enum == 0) {
+                removed_required++;
+                print;
+              }
+            }
+            END { exit removed_required > 0 ? 1 : 0; }
+            ' > /dev/null
+            
+            if [ $? -eq 1 ]; then
               echo "::error::Required parameters removed in API definitions"
               echo "::group::Removed parameters"
-              grep -E '^-[[:space:]]+-' definitions.diff || true
+              cat definitions.diff | awk '
+              BEGIN { in_extensible_enum = 0; }
+              /x-extensible-enum:/ { in_extensible_enum = 1; next; }
+              /^[^-]/ { if (in_extensible_enum == 1 && !match($0, /^[-+][ ]+- /)) in_extensible_enum = 0; }
+              /^-[ ]+- / { if (in_extensible_enum == 0) print; }
+              '
               echo "::endgroup::"
               exit 1
             fi
 
-            # Check for renamed required values
-            if grep -qE '^-[[:space:]]+-' definitions.diff && grep -qE '^\+[[:space:]]+-' definitions.diff; then
+            # Check for renamed required values (excluding x-extensible-enum)
+            removed_required=$(cat definitions.diff | awk '
+            BEGIN { in_extensible_enum = 0; removed_required = 0; }
+            /x-extensible-enum:/ { in_extensible_enum = 1; next; }
+            /^[^-]/ { if (in_extensible_enum == 1 && !match($0, /^[-+][ ]+- /)) in_extensible_enum = 0; }
+            /^-[ ]+- / { if (in_extensible_enum == 0) removed_required++; }
+            END { print removed_required; }
+            ')
+            
+            added_required=$(grep -cE '^\+[ ]+- ' definitions.diff || echo "0")
+            
+            if [ "$removed_required" -gt 0 ] && [ "$added_required" -gt 0 ]; then
               echo "::error::Required parameters may have been renamed in API definitions"
               exit 1
             fi

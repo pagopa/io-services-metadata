@@ -236,8 +236,7 @@ definitions:
     type: string
     x-extensible-enum:
       - visible
-      - hidden
-      - experimental
+      - hidden      
     example: visible
   BonusUrl:
     type: object

@@ -26,37 +26,42 @@ jobs:
 
           # Check if the diff file is not empty
           if [ -s definitions.diff ]; then
-            echo "Changes detected in API definitions:"
+            echo "::debug::Changes detected in API definitions"
             cat definitions.diff
 
             # Check for removed required values
             if grep -qE '^-[[:space:]]+-' definitions.diff; then
-              echo "Error: Required parameters removed in API definitions."
+              echo "::error::Required parameters removed in API definitions"
+              echo "::group::Removed parameters"
               grep -E '^-[[:space:]]+-' definitions.diff || true
+              echo "::endgroup::"
               exit 1
             fi
 
             # Check for renamed required values
             if grep -qE '^-[[:space:]]+-' definitions.diff && grep -qE '^\+[[:space:]]+-' definitions.diff; then
-              echo "Error: Required parameters may have been renamed in API definitions."
+              echo "::error::Required parameters may have been renamed in API definitions"
               exit 1
             fi
 
             # Check for new required values and log warning if any
             if grep -qE '^\+[[:space:]]+-' definitions.diff; then
-              echo "Warning: New required parameters introduced in API definitions:"
+              echo "::warning::New required parameters introduced in API definitions"
+              echo "::group::New parameters"
               grep -E '^\+[[:space:]]+-' definitions.diff || true
+              echo "::endgroup::"
             fi
 
             # Check for type changes and log warning if any
             if grep -qE '^-.*type:' definitions.diff || grep -qE '^\+.*type:' definitions.diff; then
-              echo "Warning: Type changes detected in API definitions:"
+              echo "::warning::Type changes detected in API definitions"
+              echo "::group::Type changes"
               grep -E '^-.*type:' definitions.diff || true
               grep -E '^\+.*type:' definitions.diff || true
+              echo "::endgroup::"
             fi
 
-            # General alert for non-breaking changes
-            echo "Alert: Non-breaking changes detected in API definitions."
+            echo "::notice::Non-breaking changes detected in API definitions"
           else
-            echo "No changes detected in API definitions."
+            echo "::debug::No changes detected in API definitions"
           fi

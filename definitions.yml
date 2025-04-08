@@ -377,7 +377,6 @@ definitions:
       - favourite_language
       - app_update_required
       - cgn
-      - fims
     properties:
       bancomat:
         $ref: "#/definitions/SectionStatus"

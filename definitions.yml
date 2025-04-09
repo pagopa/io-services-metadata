@@ -212,7 +212,7 @@ definitions:
       - name
       - title
       - subtitle
-      - content
+      - content2
     properties:
       name:
         type: string

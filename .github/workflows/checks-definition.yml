@@ -39,7 +39,7 @@ jobs:
             fi
 
             # Check for type changes and log error if any
-            if grep -qE '^-.*type:' definitions.diff || grep -qE '^\+.*type:' definitions.diff; then
+            if grep -qE '^-.*type:' definitions.diff && grep -qE '^\+.*type:' definitions.diff; then
               echo "::error::Type changes detected in API definitions"
               echo "::group::Type changes"
               grep -E '^-.*type:' definitions.diff || true

@@ -225,7 +225,9 @@ definitions:
       content:
         type: string
       tos_url:
-        type: number
+        type: string
+      foo:
+        type: string
       urls:
         type: array
         items:

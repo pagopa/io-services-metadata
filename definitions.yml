@@ -211,7 +211,8 @@ definitions:
     required:
       - name
       - title
-      - subtitle      
+      - subtitle
+      - content
     properties:
       name:
         type: string

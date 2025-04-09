@@ -226,8 +226,6 @@ definitions:
         type: string
       tos_url:
         type: string
-      foo:
-        type: string
       urls:
         type: array
         items:

@@ -458,6 +458,7 @@ definitions:
       - fims
       - premiumMessages
       - cdc
+      - cdcV2
       - barcodesScanner
       - fci
       - idPay

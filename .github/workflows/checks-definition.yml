@@ -23,6 +23,7 @@ jobs:
         run: |
           # Get the diff between the latest tag and the current branch
           git diff ${{ env.LATEST_TAG }} -- definitions.yml > definitions.diff
+          ls -l definitions.diff
           cat definitions.diff
 
           # Check if the diff file is not empty

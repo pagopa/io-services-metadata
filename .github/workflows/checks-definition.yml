@@ -22,13 +22,12 @@ jobs:
         id: compare_definitions
         run: |
           # Get the diff between the latest tag and the current branch
-          git diff ${{ env.LATEST_TAG }} -- definitions.yml > definitions.diff
-          ls -l definitions.diff
-          cat definitions.diff
+          git diff ${{ env.LATEST_TAG }} -- definitions.yml > definitions.diff               
 
           # Check if the diff file is not empty
           if [ -s definitions.diff ]; then
-            echo "::debug::Changes detected in API definitions"            
+            echo "::debug::Changes detected in API definitions"
+            cat definitions.diff
 
             # Check for removed or renamed required values and log error if any
             if grep -qE '^-[[:space:]]+-' definitions.diff; then
@@ -59,5 +58,6 @@ jobs:
 
             echo "::notice::Non-breaking changes detected in API definitions"
           else
-            echo "::debug::No changes detected in API definitions"
+            # No changes detected
+            echo "::notice::No changes detected in API definitions"            
           fi

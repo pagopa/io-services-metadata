@@ -29,18 +29,12 @@ jobs:
             echo "::debug::Changes detected in API definitions"
             cat definitions.diff
 
-            # Check for removed required values
+            # Check for removed or renamed required values
             if grep -qE '^-[[:space:]]+-' definitions.diff; then
-              echo "::error::Required parameters removed in API definitions"
-              echo "::group::Removed parameters"
+              echo "::error::Required parameters removed or renamed in API definitions"
+              echo "::group::Removed or renamed parameters"
               grep -E '^-[[:space:]]+-' definitions.diff || true
               echo "::endgroup::"
-              exit 1
-            fi
-
-            # Check for renamed required values
-            if grep -qE '^-[[:space:]]+-' definitions.diff && grep -qE '^\+[[:space:]]+-' definitions.diff; then
-              echo "::error::Required parameters may have been renamed in API definitions"
               exit 1
             fi
 

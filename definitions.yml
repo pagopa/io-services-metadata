@@ -213,10 +213,9 @@ definitions:
       - title
       - subtitle
       - content
-      - newfoo
     properties:
       name:
-        type: string
+        type: number
       title:
         type: string
       description:

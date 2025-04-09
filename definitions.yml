@@ -212,7 +212,8 @@ definitions:
       - name
       - title
       - subtitle
-      - content2
+      - content
+      - newfoo
     properties:
       name:
         type: string

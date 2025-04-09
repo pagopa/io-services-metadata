@@ -23,11 +23,11 @@ jobs:
         run: |
           # Get the diff between the latest tag and the current branch
           git diff ${{ env.LATEST_TAG }} -- definitions.yml > definitions.diff
+          cat definitions.diff
 
           # Check if the diff file is not empty
           if [ -s definitions.diff ]; then
-            echo "::debug::Changes detected in API definitions"
-            cat definitions.diff
+            echo "::debug::Changes detected in API definitions"            
 
             # Check for removed or renamed required values and log error if any
             if grep -qE '^-[[:space:]]+-' definitions.diff; then

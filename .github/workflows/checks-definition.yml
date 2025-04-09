@@ -29,11 +29,21 @@ jobs:
             echo "::debug::Changes detected in API definitions"
             cat definitions.diff
 
-            # Check for removed or renamed required values
+            # Check for removed or renamed required values and log error if any
             if grep -qE '^-[[:space:]]+-' definitions.diff; then
               echo "::error::Required parameters removed or renamed in API definitions"
               echo "::group::Removed or renamed parameters"
               grep -E '^-[[:space:]]+-' definitions.diff || true
+              echo "::endgroup::"
+              exit 1
+            fi
+
+            # Check for type changes and log error if any
+            if grep -qE '^-.*type:' definitions.diff || grep -qE '^\+.*type:' definitions.diff; then
+              echo "::error::Type changes detected in API definitions"
+              echo "::group::Type changes"
+              grep -E '^-.*type:' definitions.diff || true
+              grep -E '^\+.*type:' definitions.diff || true
               echo "::endgroup::"
               exit 1
             fi
@@ -44,16 +54,7 @@ jobs:
               echo "::group::New parameters"
               grep -E '^\+[[:space:]]+-' definitions.diff || true
               echo "::endgroup::"
-            fi
-
-            # Check for type changes and log warning if any
-            if grep -qE '^-.*type:' definitions.diff || grep -qE '^\+.*type:' definitions.diff; then
-              echo "::warning::Type changes detected in API definitions"
-              echo "::group::Type changes"
-              grep -E '^-.*type:' definitions.diff || true
-              grep -E '^\+.*type:' definitions.diff || true
-              echo "::endgroup::"
-            fi
+            fi            
 
             echo "::notice::Non-breaking changes detected in API definitions"
           else

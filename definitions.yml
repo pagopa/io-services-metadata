@@ -215,7 +215,7 @@ definitions:
       - content
     properties:
       name:
-        type: number
+        type: string
       title:
         type: string
       description:

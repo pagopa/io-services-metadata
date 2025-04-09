@@ -63,6 +63,12 @@
     "cdc": {
       "enabled": false
     },
+    "cdcV2": {
+      "min_app_version": {
+        "ios": "4.0.0.0",
+        "android": "4.0.0.0"
+      }
+    },
     "barcodesScanner": {
       "dataMatrixPosteEnabled": true
     },

@@ -458,6 +458,7 @@ definitions:
       - fims
       - premiumMessages
       - cdc
+      - cdcV2
       - barcodesScanner
       - fci
       - idPay
@@ -497,6 +498,8 @@ definitions:
         $ref: "#/definitions/PremiumMessagesConfig"
       cdc:
         $ref: "#/definitions/CdcConfig"
+      cdcV2:
+        $ref: "#/definitions/CdcConfigV2"
       barcodesScanner:
         $ref: "#/definitions/BarcodesScannerConfig"
       fci:
@@ -851,6 +854,15 @@ definitions:
       enabled:
         type: boolean
         description: "If true, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
+  CdcConfigV2:
+    type: object
+    description: "A configuration for the carta della cultura feature"
+    required:
+      - min_app_version
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
   BarcodesScannerConfig:
     type: object
     description: "A configuration for the barcodes scanner in the payment section"

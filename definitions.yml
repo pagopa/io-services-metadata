@@ -957,8 +957,9 @@ definitions:
           $ref: "#/definitions/Banner"
       webViewPaymentFlow:
         type: object
-        min_app_version:
-          $ref: "#/definitions/VersionPerPlatform"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can start a payment from the webview flow instead the in-app browser"
   PnConfig:
     type: object

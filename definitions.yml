@@ -955,6 +955,9 @@ definitions:
         description: "A map where keys are payment method shortname and values are the Banner objects"
         additionalProperties:
           $ref: "#/definitions/Banner"
+      webViewPaymentFlow:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can start a payment from the webview flow instead the in-app browser"
   PnConfig:
     type: object
     description: "A configuration for the PN feature"

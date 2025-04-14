@@ -1299,7 +1299,7 @@
           },
           {
             "title": "L’importo è diverso da quello dell’avviso. Come mai?",
-            "body": "Nel repilogo trovi il totale del pagamento, che comprende anche i costi di commissiona.\n\npagoPA aggiorna l'importo da pagare in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
+            "body": "Nel riepilogo trovi il totale del pagamento, che comprende anche i costi di commissione.\n\npagoPA aggiorna l'importo da pagare in tempo reale, per permetterti di pagare evitando more e interessi aggiuntivi.\n Può succedere, per esempio, quando l'ente applica dei costi di notifica (se ti ha inviato una comunicazione a valore legale) o se sei in ritardo con il pagamento."
           }
         ]
       },

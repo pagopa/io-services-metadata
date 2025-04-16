@@ -364,6 +364,14 @@
           "id": "8086481365265",
           "subCategories": [
             {
+              "value": "bonus_elettrodomestici",
+              "description": {
+                "it-IT": "Bonus elettrodomestici",
+                "en-EN": "Bonus elettrodomestici",
+                "de-DE": "Bonus elettrodomestici"
+              }
+            },
+            {
               "value": "bonus_pc",
               "description": {
                 "it-IT": "Bonus PC",

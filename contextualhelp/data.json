@@ -989,7 +989,7 @@
           },
           {
             "title": "Dove trovo i pagamenti effettuati?",
-            "body": "Nella sezione Pagamenti trovi una lista di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Nella sezione Pagamenti trovi una lista di:\n- avvisi pagati da te su IO;\n\n- avvisi pagati sul sito pagoPA, se hai effettuato l’accesso; \n\n- avvisi pagoPA intestati a te, anche se pagati altrove.\n\nPremi sull’avviso per vedere i dettagli e scaricare la ricevuta.\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Non vedo più il mio account PayPal",

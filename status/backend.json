@@ -189,8 +189,8 @@
       }
     },
     "tos": {
-      "tos_version": 5.0,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.0"
+      "tos_version": 5.2,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.2"
     },
     "absolutePortalLinks": {
       "io_web": "https://account.ioapp.it/",
@@ -229,13 +229,13 @@
     },
     "app_feedback": {
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "3.4.0.5",
+        "android": "3.4.0.5"
       },
       "feedback_uri": {
         "general": "https://pagopa.qualtrics.com/jfe/form/SV_dg0CZHTfsBN56aG",
-        "payments": "https://pagopa.qualtrics.com/jfe/form/SV_0HrNTh9QPOcYKma",
-        "itw": "https://pagopa.qualtrics.com/jfe/form/SV_3sMkRc6Jg9aarhY"
+        "payments": "https://pagopa.qualtrics.com/jfe/form/SV_4ONrZLMoebKCAWa",
+        "itw": "https://pagopa.qualtrics.com/jfe/form/SV_eVWKW6v4V6RikbY"
       }
     },
     "ioMarkdown": {

@@ -1062,7 +1062,7 @@
         "faqs": [
           {
             "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagati sul sito pagoPA, se hai effettuato l’accesso;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -1108,7 +1108,7 @@
         "faqs": [
           {
             "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagati sul sito pagoPA, se hai effettuato l’accesso;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sulla ricevuta per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -1131,7 +1131,7 @@
         "faqs": [
           {
             "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagati sul sito pagoPA, se hai effettuato l’accesso;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -1177,7 +1177,7 @@
         "faqs": [
           {
             "title": "Quali ricevute posso vedere?",
-            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
+            "body": "Puoi trovare le ricevute dei pagamenti di:\n- avvisi pagati da te su IO;\n- avvisi pagati sul sito pagoPA, se hai effettuato l’accesso;\n- avvisi pagoPA intestati a te, anche se pagati altrove.\nPremi sul pagamento per vedere i dettagli.\n\nSe l’avviso è intestato a te, ma a pagare è qualcun altro, la ricevuta arriverà a entrambi."
           },
           {
             "title": "Come faccio a vedere tutte le ricevute disponibili?",
@@ -3466,7 +3466,7 @@
           },
           {
             "title": "Wo finde ich die getätigten Zahlungen?",
-            "body": "Im Abschnitt 'Zahlungen' findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
+            "body": "Im Abschnitt 'Zahlungen' findest du eine Liste mit:\n- Zahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- Zahlungen, die du über die Website pagoPA durchgeführt hast (nach dem Login);\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein."
           },
           {
             "title": "Ich sehe mein PayPal-Konto nicht mehr",
@@ -3539,7 +3539,7 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- Zahlungen, die du über die Website pagoPA durchgeführt hast (nach dem Login);\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
@@ -3585,7 +3585,7 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- Zahlungen, die du über die Website pagoPA durchgeführt hast (nach dem Login);\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",
@@ -3654,7 +3654,7 @@
         "faqs": [
           {
             "title": "Welche Quittungen kann ich sehen?",
-            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
+            "body": "Du findest die Quittungen von:\nZahlungsmitteilungen, die von dir über IO bezahlt wurden;\n- Zahlungen, die du über die Website pagoPA durchgeführt hast (nach dem Login);\n- pagoPA-Zahlungsmitteilungen, die auf deinen Namen lauten, auch wenn sie anderweitig bezahlt wurden.\nTippe auf die Zahlungsmitteilung, um die Details zu sehen und die Quittung herunterzuladen.\nWenn die Zahlungsmitteilung auf deinen Namen lautet, aber eine andere Person bezahlt, wird die Quittung für beide verfügbar sein.."
           },
           {
             "title": "Wie kann ich alle verfügbaren Quittungen sehen?",

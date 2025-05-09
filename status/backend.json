@@ -240,8 +240,8 @@
     },
     "ioMarkdown": {
       "min_app_version": {
-        "ios": "3.5.0.4",
-        "android": "3.5.0.4"
+        "ios": "3.5.0.0",
+        "android": "3.5.0.0"
       }
     }
   },

@@ -38,13 +38,15 @@
         "ios": "2.79.0.9",
         "android": "2.79.0.9"
       },
-      "services": [{
-        "configuration_id": "iPatente",
-        "organization_fiscal_code": "97532760580",
-        "organization_name": "Ministero delle infrastrutture e dei trasporti",
-        "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
-        "service_name": "Motorizzazione Civile - Le mie patenti"
-      }]
+      "services": [
+        {
+          "configuration_id": "iPatente",
+          "organization_fiscal_code": "97532760580",
+          "organization_name": "Ministero delle infrastrutture e dei trasporti",
+          "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
+          "service_name": "Motorizzazione Civile - Le mie patenti"
+        }
+      ]
     },
     "uaDonations": {
       "enabled": false,
@@ -123,11 +125,13 @@
           },
           "title": {
             "it-IT": "Non trovi la tua banca?",
-            "en-EN":  "You don't find your bank?"
+            "en-EN": "Can't find your bank?",
+            "de-DE": "Deine Bank ist nicht dabei?"
           },
           "description": {
             "it-IT": "Non preoccuparti: dovrai selezionarla nei passaggi successivi.",
-            "en-EN": "Don't worry: you will have to select it in the next steps."
+            "en-EN": "Don’t worry: you can select it in the next steps.",
+            "de-DE": "Kein Problem: du kannst sie im nächsten Schritt auswählen."
           }
         }
       },
@@ -179,7 +183,6 @@
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",
       "privacy_url": "https://cittadini.notifichedigitali.it/informativa-privacy"
-      
     },
     "payments": {
       "preferredPspsByOrigin": {

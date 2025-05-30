@@ -677,6 +677,10 @@
             "body": "Documenti su IO è il primo passo verso il Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
           },
           {
+            "title": "Posso aggiungere la versione digitale della mia Carta d’Identità al Portafoglio dell'app IO?",
+            "body": "No, al momento non è possibile aggiungere la versione digitale della Carta d'identità elettronica (CIE) al portafoglio dell'app IO. Puoi consultare i tuoi dati di identificazione personale nella sezione “Portafoglio” dell’app, premendo 'Cos’è?' in alto a destra. In futuro, potrai usarli anche in contesti di verifica online."
+          },
+          {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",
             "body": "No, al momento puoi aggiungere al Portafoglio dell’app IO solo le versioni digitali dei tuoi documenti personali."
           },
@@ -705,8 +709,8 @@
             "body": "No, per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. Questa operazione disattiverà automaticamente la funzionalità dal dispositivo usato in precedenza."
           },
           {
-            "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
-            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti."
+            "title": "Cosa succede ai documenti digitali quando non c’è connessione?",
+            "body": "Documenti su IO funziona anche senza una connessione a Internet. Questo significa che puoi accedere ai documenti salvati nel Portafoglio dell’app e usarli in situazioni in cui la rete è instabile o non disponibile.\nTieni presente che la validità dei tuoi documenti è aggiornata all’ultimo accesso in app con connessione a una rete. Inoltre, anche se puoi accedere e usare le versioni digitali dei tuoi Documenti su IO senza connessione, altre funzioni dell’app potrebbero non essere disponibili fino a quando non torni online, come l’aggiornamento dei documenti o l’accesso a sezioni di IO che richiedono dati in tempo reale."
           },
           {
             "title": "Perché se accedo all’app IO con un’altra identità digitale perdo le versioni digitali dei documenti che ho aggiunto al Portafoglio?",
@@ -745,7 +749,7 @@
         "faqs": [
           {
             "title": "Se attivo Documenti su IO posso circolare senza i documenti fisici?",
-            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n -la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
+            "body": "Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. In questa prima fase, le versioni digitali dei documenti potranno essere utilizzate in specifici contesti d’uso, in sostituzione dei corrispettivi documenti fisici, in particolare:\n\n - la Patente di guida solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle Forze dell’ordine, come precisato all’interno della Circolare del Ministero dell'Interno n. 32079 del 22 ottobre 2024;\n - la Tessera Sanitaria - Tessera Europea di Assicurazione Malattia per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;\n - la Carta Europea della Disabilità per i medesimi casi d’uso oggi previsti con la presentazione del documento fisico."
           },
           {
             "title": "Posso aggiungere a Documenti su IO i documenti di figli minorenni o altri familiari?",

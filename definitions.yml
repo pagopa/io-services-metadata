@@ -863,13 +863,13 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, are visible the entry points: bonus menu, carousel, service page cta, and message cta"
-    cta_onboarding_config:
-      description: "Config for CdC Onboarding CTA"
-      type: object
-      properties:
-        url:
-          type: string
-          description: "The URL that must be loaded when the CdC Onboarding CTA is tapped"
+      cta_onboarding_config:
+        description: "Config for CdC Onboarding CTA"
+        type: object
+        properties:
+          url:
+            type: string
+            description: "The URL that must be loaded when the CdC Onboarding CTA is tapped"
   BarcodesScannerConfig:
     type: object
     description: "A configuration for the barcodes scanner in the payment section"

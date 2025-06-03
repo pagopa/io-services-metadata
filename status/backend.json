@@ -45,6 +45,11 @@
           "organization_name": "Ministero delle infrastrutture e dei trasporti",
           "service_id": "01JEXVQSRV2XRX9XDWQ5XQ6A8T",
           "service_name": "Motorizzazione Civile - Le mie patenti"
+        },
+        {
+          "configuration_id": "cdc-onboarding",
+          "service_id": "01JV4M365CHAZN5C0FDR62DCVD",
+          "service_name": "Carta della Cultura - Onboarding"
         }
       ]
     },
@@ -69,6 +74,9 @@
       "min_app_version": {
         "ios": "4.0.0.0",
         "android": "4.0.0.0"
+      },
+      "cta_onboarding_config": {
+        "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth"
       }
     },
     "barcodesScanner": {

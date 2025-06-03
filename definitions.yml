@@ -870,6 +870,9 @@ definitions:
           url:
             type: string
             description: "The URL that must be loaded when the CdC Onboarding CTA is tapped"
+          includeDeviceId:
+            type: boolean
+            description: "Indicates if the CTA url must provide the mixpanel deviceId to share with the session"
   BarcodesScannerConfig:
     type: object
     description: "A configuration for the barcodes scanner in the payment section"

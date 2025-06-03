@@ -243,8 +243,8 @@
     },
     "ioMarkdown": {
       "min_app_version": {
-        "ios": "3.6.0.0",
-        "android": "3.6.0.0"
+        "ios": "3.7.0.0",
+        "android": "3.7.0.0"
       }
     }
   },

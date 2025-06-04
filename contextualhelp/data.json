@@ -848,10 +848,6 @@
         "content": "Qui puoi vedere nel dettaglio il tuo documento e i tuoi dati. Trovi anche il certificato di autenticità da mostrare quando ti viene richiesto di dimostrare l’autenticità del documento.",
         "faqs": [
           {
-            "title": "Posso usare Documenti su IO in assenza di connessione a internet?",
-            "body": "Al momento, se non hai connessione a internet non puoi usare la funzionalità Documenti su IO o usare le versioni digitali dei tuoi documenti."
-          },
-          {
             "title": "Posso usare la screenshot di un documento presente in Documenti su IO?",
             "body": "No, eventuali catture di schermo (screenshot o foto) delle versioni digitali dei documenti presenti sull’app IO non hanno valore legale e non possono essere utilizzate in alcun contesto di verifica. Inoltre, per motivi di sicurezza e protezione dei tuoi dati, le funzioni di screenshot (catture di schermate) e registrazione dello schermo del tuo dispositivo sono disabilitate quando usi l’app IO."
           },

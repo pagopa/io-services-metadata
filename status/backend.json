@@ -180,9 +180,11 @@
       "notifyExpirationThreshold": {
         "fastLogin": 15
       },
-      "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+      "activeSessionLogin": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        }
       }
     },
     "pn": {

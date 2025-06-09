@@ -72,8 +72,8 @@
     },
     "cdcV2": {
       "min_app_version": {
-        "ios": "4.0.0.0",
-        "android": "4.0.0.0"
+        "ios": "3.7.0.3",
+        "android": "3.7.0.3"
       },
       "cta_onboarding_config": {
         "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",

@@ -922,6 +922,13 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the mandatory email uniqueness validation is enabled"
+  ActiveSessionLoginConfig:
+    type: object
+    description: "A configuration to enable the active session login feature"
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the active session login feature is enabled"
   FciConfig:
     type: object
     description: "A configuration for the Firma con IO feature"
@@ -1232,6 +1239,8 @@ definitions:
             type: number
           standardLogin:
             type: number
+      activeSessionLogin:
+        $ref: "#/definitions/ActiveSessionLoginConfig"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

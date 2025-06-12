@@ -1263,3 +1263,6 @@ definitions:
       service_name:
         type: string
         description: "The service name"
+      share_ios_cookies:
+        type: boolean
+        description: "Indicates if this service should share cookies on iOS devices, if true a native consent popup will appear to the user"

@@ -619,6 +619,11 @@ definitions:
         items:
           $ref: "#/definitions/FimsServiceConfiguration"
         description: "The array of services' metadata that can open a FIMS flow"
+      iOSCookieDisabledServiceIds:
+        type: array
+        items:
+          type: string
+        description: "List of service IDs for which iOS cookie sharing is disabled (anonymous mode enabled for these services on iOS, avoiding the native consent popup)"
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

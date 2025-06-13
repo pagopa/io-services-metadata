@@ -51,6 +51,9 @@
           "service_id": "01JV4M365CHAZN5C0FDR62DCVD",
           "service_name": "Carta della Cultura - Onboarding"
         }
+      ],
+      "iOSCookieDisabledServiceIds": [
+        "01JV4M365CHAZN5C0FDR62DCVD"
       ]
     },
     "uaDonations": {

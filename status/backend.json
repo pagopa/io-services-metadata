@@ -188,7 +188,8 @@
           "ios": "0.0.0.0",
           "android": "0.0.0.0"
         }
-      }
+      },
+      "loginUrl": "https://app-backend.io.italia.it"
     },
     "pn": {
       "enabled": true,

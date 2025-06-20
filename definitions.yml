@@ -1246,6 +1246,10 @@ definitions:
             type: number
       activeSessionLogin:
         $ref: "#/definitions/ActiveSessionLoginConfig"
+      loginUrl:
+        type: string
+        description: "The URL to be used for the login flow"
+        pattern: ^https://
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

@@ -957,13 +957,17 @@ definitions:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user can onboard, configure and monitor an IdPay initiative"
       onboarding:
-        min_app_version:
-          $ref: "#/definitions/VersionPerPlatform"
-          description: "If min app version supported, the user can start the initiative onboarding"
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can start the initiative onboarding"
       initiative_details:
-        min_app_version:
-          $ref: "#/definitions/VersionPerPlatform"
-          description: "If min app version supported, the user can see the initiative details and make IDPay payments"
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can see the initiative details and make IDPay payments"
   NewPaymentSectionConfig:
     type: object
     description: "A configuration for the new Payment section feature"

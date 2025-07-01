@@ -960,7 +960,7 @@ definitions:
         min_app_version:
           $ref: "#/definitions/VersionPerPlatform"
           description: "If min app version supported, the user can start the initiative onboarding"
-      details:
+      initiative_details:
         min_app_version:
           $ref: "#/definitions/VersionPerPlatform"
           description: "If min app version supported, the user can see the initiative details and make IDPay payments"

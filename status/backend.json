@@ -104,7 +104,7 @@
           "android": "4.0.0.0"
         }
       },
-      "details": {
+      "initiative_details": {
         "min_app_version": {
           "ios": "4.0.0.0",
           "android": "4.0.0.0"

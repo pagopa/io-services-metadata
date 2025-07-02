@@ -97,6 +97,18 @@
       "min_app_version": {
         "ios": "4.0.0.0",
         "android": "4.0.0.0"
+      },
+      "onboarding": {
+        "min_app_version": {
+          "ios": "4.0.0.0",
+          "android": "4.0.0.0"
+        }
+      },
+      "initiative_details": {
+        "min_app_version": {
+          "ios": "4.0.0.0",
+          "android": "4.0.0.0"
+        }
       }
     },
     "newPaymentSection": {

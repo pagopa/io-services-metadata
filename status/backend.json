@@ -280,7 +280,29 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Per manutenzione, il 9 luglio dalle 2:00 alle 8:00 non sarà possibile pagare o aggiungere metodi di pagamento.",
+          "en-EN":
+            "Due to maintenance, on July 9th from 2:00 AM to 8:00 AM it will not be possible to make payments or add payment methods."
+        },
+        "web_url": {
+          "it-IT": "https://status.platform.pagopa.it/it",
+          "en-EN": "https://status.platform.pagopa.it/en"
+        },
+        "routes": [
+          "PAYMENTS_HOME",
+          "PAYMENT_ONBOARDING_SELECT_METHOD",
+          "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER",
+          "PAYMENT_CHECKOUT_INPUT_FISCAL_CODE",
+          "PAYMENT_NOTICE_SUMMARY",
+          "PAYMENT_CHECKOUT_MAKE"
+        ]
+      }
+    ]
   },
   "sections": {
     "email_validation": {

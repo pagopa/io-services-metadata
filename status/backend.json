@@ -161,7 +161,7 @@
       },
       "webViewPaymentFlow": {
         "min_app_version": {
-          "ios": "3.8.0.9",
+          "ios": "5.0.0.0",
           "android": "3.8.0.9"
         }
       }

@@ -296,8 +296,8 @@
           "it-IT": "Per manutenzione, il 18 luglio dalle 00:01 alle 03:00 non sarà possibile effettuare pagamenti"
         },
         "web_url": {
-          "en-EN": "https://status.platform.pagopa.it/en",
-          "it-IT": "https://status.platform.pagopa.it/it"
+          "en-EN": "https://status.platform.pagopa.it/en/maintenance/619923",
+          "it-IT": "https://status.platform.pagopa.it/it/maintenance/619923"
         }
       }
     ]

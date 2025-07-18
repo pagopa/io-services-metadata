@@ -355,6 +355,8 @@ definitions:
         $ref: "#/definitions/BackendStatusMessage"
       message:
         $ref: "#/definitions/BackendStatusMessage"
+      label_cta:
+        $ref: "#/definitions/BackendStatusMessage"
   Sections:
     type: object
     description: The status of the app sections

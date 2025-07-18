@@ -287,20 +287,7 @@
     }
   },
   "statusMessages": {
-    "items": [
-      {
-        "routes": ["MESSAGES_HOME", "PAYMENTS_HOME", "PAYMENT_CHECKOUT_INPUT_NOTICE_NUMBER", "PAYMENT_CHECKOUT_INPUT_FISCAL_CODE"],
-        "level": "warning",
-        "message": {
-          "en-EN": "Due to maintenance, payments will not be possible on July 18 from 12:01 AM to 3:00 AM",
-          "it-IT": "Per manutenzione, il 18 luglio dalle 00:01 alle 03:00 non sarà possibile effettuare pagamenti"
-        },
-        "web_url": {
-          "en-EN": "https://status.platform.pagopa.it/en/maintenance/619923",
-          "it-IT": "https://status.platform.pagopa.it/it/maintenance/619923"
-        }
-      }
-    ]
+    "items": []
   },
   "sections": {
     "email_validation": {

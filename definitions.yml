@@ -355,6 +355,8 @@ definitions:
         $ref: "#/definitions/BackendStatusMessage"
       message:
         $ref: "#/definitions/BackendStatusMessage"
+      label_cta:
+        $ref: "#/definitions/BackendStatusMessage"
   Sections:
     type: object
     description: The status of the app sections
@@ -1033,6 +1035,9 @@ definitions:
       privacy_url:
         type: string
         description: 'the privacy informative URL'
+      aarQRCodeRegex:
+        type: string
+        description: 'A regex to match the content of an "Avviso Avvenuta Ricezione" QRCode'
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

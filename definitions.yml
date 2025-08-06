@@ -597,6 +597,9 @@ definitions:
       merchants_v2:
         type: boolean
         description: "If true the merchants search screen will display one tab per merchant type (online or local) NOTE: this version may still be under development"
+      show_cgn_categories_modal:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the CGN categories modal will be shown by pressing the CGN categories bottom text in the CGN section"
   FimsConfig:
     type: object
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"

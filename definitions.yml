@@ -45,6 +45,7 @@ definitions:
       - codiceRegione
       - codiceProvincia
       - denominazione
+      - denominazioneInItaliano
       - denominazioneRegione
       - siglaProvincia
     properties:
@@ -346,10 +347,6 @@ definitions:
       level:
         type: string
         description: The severity of the message has its own mapping with the UI state of the in-app alert component
-        x-extensible-enum:
-          - critical
-          - warning
-          - normal
       web_url:
         $ref: "#/definitions/BackendStatusMessage"
       message:

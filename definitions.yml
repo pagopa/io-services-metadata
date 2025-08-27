@@ -93,10 +93,9 @@ definitions:
   ScreenCHData:
     type: object
     required:
-    - route_name
-    - title
-    - content
-    - test_missing_property
+      - route_name
+      - title
+      - content
     properties:
       route_name:
         type: string

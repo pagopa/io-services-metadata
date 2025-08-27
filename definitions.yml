@@ -45,7 +45,6 @@ definitions:
       - codiceRegione
       - codiceProvincia
       - denominazione
-      - denominazioneInItaliano
       - denominazioneRegione
       - siglaProvincia
     properties:

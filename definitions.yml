@@ -93,9 +93,10 @@ definitions:
   ScreenCHData:
     type: object
     required:
-      - route_name
-      - title
-      - content
+    - route_name
+    - title
+    - content
+    - test_missing_property
     properties:
       route_name:
         type: string
@@ -347,6 +348,10 @@ definitions:
       level:
         type: string
         description: The severity of the message has its own mapping with the UI state of the in-app alert component
+        x-extensible-enum:
+          - critical
+          - warning
+          - normal
       web_url:
         $ref: "#/definitions/BackendStatusMessage"
       message:

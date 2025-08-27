@@ -28,7 +28,7 @@ jobs:
         run: yarn generate:all
 
       - name: Archive generated (tag)
-        run: mkdir -p /tmp/old && cp -r dist/* /tmp/old/
+        run: mkdir -p /tmp/old && cp definitions.yml /tmp/old/definitions.yml
 
       - name: Checkout current branch
         uses: actions/checkout@v4
@@ -40,23 +40,25 @@ jobs:
         run: yarn generate:all
 
       - name: Archive generated (current)
-        run: mkdir -p /tmp/new && cp -r dist/* /tmp/new/
+        run: mkdir -p /tmp/new && cp definitions.yml /tmp/new/definitions.yml
 
       - name: Compare generated files
         run: |
-          diff -ruN /tmp/old /tmp/new > generate.diff || true
+          diff -u /tmp/old/definitions.yml /tmp/new/definitions.yml > generate.diff || true
 
           if [ -s generate.diff ]; then
-            echo "::debug::Changes detected in generated files"
+            echo "::group::Changes detected in generated definitions"
             cat generate.diff
+            echo "::endgroup::"
 
-            # Esempio: breaking se spariscono campi required
+            # BREAKING: rimozione o rinomina di required fields
             if grep -qE '^-[[:space:]]+-' generate.diff; then
               echo "::error::Required parameters removed or renamed in generated files"
               grep -E '^-[[:space:]]+-' generate.diff || true
               exit 1
             fi
 
+            # BREAKING: type modificati
             if grep -qE '^-.*type:' generate.diff && grep -qE '^\+.*type:' generate.diff; then
               echo "::error::Type changes detected in generated files"
               grep -E '^-.*type:' generate.diff || true
@@ -64,6 +66,7 @@ jobs:
               exit 1
             fi
 
+            # SAFE: nuovi parametri required
             if grep -qE '^\+[[:space:]]+-' generate.diff; then
               echo "::warning::New required parameters introduced in generated files"
               grep -E '^\+[[:space:]]+-' generate.diff || true

@@ -1,0 +1,78 @@
+on:
+  pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  check-definitions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        id: get_latest_tag
+        run: echo "LATEST_TAG=$(git describe --tags $(git rev-list --tags --max-count=1))" >> $GITHUB_ENV
+
+      - name: Checkout latest tag
+        run: git checkout ${{ env.LATEST_TAG }}
+
+      - name: Install dependencies (tag)
+        run: yarn install --frozen-lockfile
+
+      - name: Generate all at tag
+        run: yarn generate:all
+
+      - name: Archive generated (tag)
+        run: mkdir -p /tmp/old && cp definitions.yml /tmp/old/definitions.yml
+
+      - name: Checkout current branch
+        uses: actions/checkout@v4
+
+      - name: Install dependencies (current)
+        run: yarn install --frozen-lockfile
+
+      - name: Generate all current
+        run: yarn generate:all
+
+      - name: Archive generated (current)
+        run: mkdir -p /tmp/new && cp definitions.yml /tmp/new/definitions.yml
+
+      - name: Compare generated files
+        run: |
+          diff -u /tmp/old/definitions.yml /tmp/new/definitions.yml > generate.diff || true
+
+          if [ -s generate.diff ]; then
+            echo "::group::Changes detected in generated definitions"
+            cat generate.diff
+            echo "::endgroup::"
+
+            # BREAKING: rimozione o rinomina di required fields
+            if grep -qE '^-[[:space:]]+-' generate.diff; then
+              echo "::error::Required parameters removed or renamed in generated files"
+              grep -E '^-[[:space:]]+-' generate.diff || true
+              exit 1
+            fi
+
+            # BREAKING: type modificati
+            if grep -qE '^-.*type:' generate.diff && grep -qE '^\+.*type:' generate.diff; then
+              echo "::error::Type changes detected in generated files"
+              grep -E '^-.*type:' generate.diff || true
+              grep -E '^\+.*type:' generate.diff || true
+              exit 1
+            fi
+
+            # SAFE: nuovi parametri required
+            if grep -qE '^\+[[:space:]]+-' generate.diff; then
+              echo "::warning::New required parameters introduced in generated files"
+              grep -E '^\+[[:space:]]+-' generate.diff || true
+            fi
+
+            echo "::notice::Non-breaking changes detected in generated files"
+          else
+            echo "::notice::No changes detected in generated files"
+          fi

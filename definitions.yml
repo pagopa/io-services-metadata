@@ -1047,7 +1047,7 @@ definitions:
         properties:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
-            description: "If min app version supported, the user can activate/deactivate the arr service"
+            description: "Enable or disable the entire AAR (Actual Receipt Notification) feature"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

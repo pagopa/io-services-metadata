@@ -227,8 +227,8 @@
       "aarQRCodeRegex": "^\\s*https:\\/\\/(dev\\.|test\\.|hotfix\\.|uat\\.)?(cittadini|login)\\.notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
-          "ios": "2.79.0.9",
-          "android": "2.79.0.9"
+          "ios": "3.13.0.0",
+          "android": "3.13.0.0"
         }
       }
     },

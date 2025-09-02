@@ -1041,6 +1041,13 @@ definitions:
       aarQRCodeRegex:
         type: string
         description: 'A regex to match the content of an "Avviso Avvenuta Ricezione" QRCode'
+      aar:
+        type: object
+        description: "A configuration for the AAR feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can activate/deactivate the arr service"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

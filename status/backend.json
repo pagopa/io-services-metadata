@@ -224,7 +224,13 @@
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",
       "privacy_url": "https://cittadini.notifichedigitali.it/informativa-privacy",
-      "aarQRCodeRegex": "^\\s*https:\\/\\/(dev\\.|test\\.|hotfix\\.|uat\\.)?(cittadini|login)\\.notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+"
+      "aarQRCodeRegex": "^\\s*https:\\/\\/(dev\\.|test\\.|hotfix\\.|uat\\.)?(cittadini|login)\\.notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
+      "aar": {
+        "min_app_version": {
+          "ios": "2.79.0.9",
+          "android": "2.79.0.9"
+        }
+      }
     },
     "payments": {
       "preferredPspsByOrigin": {

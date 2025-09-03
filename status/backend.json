@@ -305,7 +305,7 @@
           "it-IT":
             "L'app non sarà accessibile dalle 6:00 del 4 settembre. Ci vediamo dopo le 8:00!",
           "en-EN":
-            "L'app non sarà accessibile dalle 6:00 del 4 settembre. Ci vediamo dopo le 8:00!"
+            "The app will be unavailable from 6:00 to 8:00 on 4 September. See you after 8:00!"
         }
       },
       {
@@ -319,7 +319,7 @@
           "it-IT":
             "Per lavori tecnici dalle 6:00 alle 8:00 del 4 settembre non riusciremo a inviare email. Modifica l’email dopo le 8:00.",
           "en-EN":
-            "Per lavori tecnici dalle 6:00 alle 8:00 del 4 settembre non riusciremo a inviare email. Modifica l’email dopo le 8:00."
+            "Due to technical work from 6:00 to 8:00 on 4 September, we won't be able to send emails. Please change your email after 8:00."
         }
       }
     ]

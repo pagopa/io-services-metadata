@@ -297,7 +297,32 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": ["AUTHENTICATION_LANDING"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "L'app non sarà accessibile dalle 6:00 del 4 settembre. Ci vediamo dopo le 8:00!",
+          "en-EN":
+            "The app will be unavailable from 6:00 to 8:00 on 4 September. See you after 8:00!"
+        }
+      },
+      {
+        "routes": [
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Per lavori tecnici dalle 6:00 alle 8:00 del 4 settembre non riusciremo a inviare email. Modifica l’email dopo le 8:00.",
+          "en-EN":
+            "Due to technical work from 6:00 to 8:00 on 4 September, we won't be able to send emails. Please change your email after 8:00."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

@@ -297,26 +297,26 @@
     },
     "zendeskCacBanner": {
       "min_app_version": {
-        "ios": "2.65.0.0",
-        "android": "2.65.0.0"
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
       },
       "title": {
-        "it-IT": "Puoi dirci com'è andata?",
-        "en-EN": "Can you tell us how it went?",
-        "de-DE": ""
+        "it-IT": "Serve aiuto?",
+        "en-EN": "Serve aiuto?",
+        "de-DE": "Serve aiuto?"
       },
       "description": {
-        "it-IT": "Raccontaci la tua esperienza con il pagamento e aiutaci a migliorare.",
-        "en-EN": "Tell us about your experience with payment and help us improve.",
-        "de-DE": ""
+        "it-IT": "Abbiamo preparato una guida per aiutarti a risolvere velocemente il tuo problema.",
+        "en-EN": "Abbiamo preparato una guida per aiutarti a risolvere velocemente il tuo problema.",
+        "de-DE": "Abbiamo preparato una guida per aiutarti a risolvere velocemente il tuo problema."
       },
       "action": {
         "label": {
-          "it-IT": "Vai al sondaggio",
-          "en-EN": "Go to survey",
-          "de-DE": ""
+          "it-IT": "Vai al Centro assistenza",
+          "en-EN": "Vai al Centro assistenza",
+          "de-DE": "Vai al Centro assistenza"
         },
-        "url": "https://pagopa.qualtrics.com/jfe/form/SV_0GmGr2F3vt8oaZE"
+        "url": "https://assistenza.ioapp.it/hc/it"
       }
     }
   },

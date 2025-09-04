@@ -650,6 +650,11 @@ definitions:
         description: "If true is not possible open a ticket"
       zendeskCategories:
         $ref: "#/definitions/ZendeskCategories"
+      zendeskCacBanner:
+        type: object
+        description: "Zendesk CaC banner configuration that can be shown in the Help Center screen"
+        additionalProperties:
+          $ref: "#/definitions/Banner"
   ZendeskCategories:
     type: object
     description: "Map the id and the categories created in Zendesk"

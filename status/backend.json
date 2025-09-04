@@ -294,6 +294,30 @@
         "ios": "3.8.0.9",
         "android": "3.8.0.9"
       }
+    },
+    "zendeskCacBanner": {
+      "min_app_version": {
+        "ios": "2.65.0.0",
+        "android": "2.65.0.0"
+      },
+      "title": {
+        "it-IT": "Puoi dirci com'è andata?",
+        "en-EN": "Can you tell us how it went?",
+        "de-DE": ""
+      },
+      "description": {
+        "it-IT": "Raccontaci la tua esperienza con il pagamento e aiutaci a migliorare.",
+        "en-EN": "Tell us about your experience with payment and help us improve.",
+        "de-DE": ""
+      },
+      "action": {
+        "label": {
+          "it-IT": "Vai al sondaggio",
+          "en-EN": "Go to survey",
+          "de-DE": ""
+        },
+        "url": "https://pagopa.qualtrics.com/jfe/form/SV_0GmGr2F3vt8oaZE"
+      }
     }
   },
   "statusMessages": {

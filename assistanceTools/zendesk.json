@@ -462,6 +462,10 @@
     ]
   },
   "zendeskCacBanner": {
+    "min_app_version": {
+      "ios": "0.0.0.0",
+      "android": "0.0.0.0"
+    },
     "title": {
       "it-IT": "Serve aiuto?",
       "en-EN": "Serve aiuto?",

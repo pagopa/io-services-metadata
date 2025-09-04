@@ -537,7 +537,23 @@ definitions:
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
       zendeskCacBanner:
-        $ref: "#/definitions/Banner"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+          title:
+            $ref: "#/definitions/LocalizedText"
+          description:
+            $ref: "#/definitions/LocalizedText"
+          action:
+            type: object
+            description: "The action to be executed when the banner is tapped."
+            properties:
+              label:
+                $ref: "#/definitions/LocalizedText"
+                description: "The action title."
+              url:
+                $ref: "#/definitions/LocalizedLinks"
+                description: "The URL to be opened when the action is triggered."
   BpdConfig:
     type: object
     description: A specific config for BPD bonus

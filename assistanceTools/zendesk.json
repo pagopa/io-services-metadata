@@ -466,6 +466,7 @@
       "ios": "0.0.0.0",
       "android": "0.0.0.0"
     },
+    "description": "Zendesk CaC banner configuration that can be shown in the Help Center screen",
     "title": {
       "it-IT": "Serve aiuto?",
       "en-EN": "Serve aiuto?",

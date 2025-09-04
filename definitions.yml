@@ -537,6 +537,7 @@ definitions:
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
       zendeskCacBanner:
+        type: object
         properties:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"

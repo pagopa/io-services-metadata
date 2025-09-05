@@ -536,6 +536,25 @@ definitions:
         $ref: "#/definitions/AppFeedbackConfig"
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
+      zendeskCacBanner:
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+          title:
+            $ref: "#/definitions/LocalizedText"
+          description:
+            $ref: "#/definitions/LocalizedText"
+          action:
+            type: object
+            description: "The action to be executed when the banner is tapped."
+            properties:
+              label:
+                $ref: "#/definitions/LocalizedText"
+                description: "The action title."
+              url:
+                $ref: "#/definitions/LocalizedLinks"
+                description: "The URL to be opened when the action is triggered."
   BpdConfig:
     type: object
     description: A specific config for BPD bonus
@@ -1041,6 +1060,13 @@ definitions:
       aarQRCodeRegex:
         type: string
         description: 'A regex to match the content of an "Avviso Avvenuta Ricezione" QRCode'
+      aar:
+        type: object
+        description: "A configuration for the AAR feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "Enable or disable the entire AAR (Avviso Avvenuta Ricezione) feature"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

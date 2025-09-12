@@ -1001,19 +1001,8 @@ definitions:
       initiative_config_map:
         type: object
         description: "A map where keys are initiative IDs and values are remote web URLs"
-        properties:
-          min_app_version:
-            $ref: "#/definitions/VersionPerPlatform"
-            description: "If min app version supported, the user can see the initiative config list while using IDPay"
-          additionalProperties:
-            type: object
-            properties:
-              url:
-                $ref: "#/definitions/LocalizedLinks"
-                description: "The URL for the initiative configuration"
-              cac:
-                $ref: "#/definitions/LocalizedText"
-                description: "The CAC text for the initiative configuration"
+        additionalProperties:
+          $ref: "#/definitions/IDPayInitiativeConfig"
   NewPaymentSectionConfig:
     type: object
     description: "A configuration for the new Payment section feature"
@@ -1340,3 +1329,15 @@ definitions:
       service_name:
         type: string
         description: "The service name"
+  IDPayInitiativeConfig:
+    type: object
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the banner will be shown"
+      url:
+        $ref: "#/definitions/LocalizedLinks"
+        description: "The URL for the initiative configuration"
+      cac:
+        $ref: "#/definitions/LocalizedText"
+        description: "The CAC text for the initiative configuration"

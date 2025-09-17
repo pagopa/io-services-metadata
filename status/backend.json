@@ -264,12 +264,6 @@
         "service_organization_fiscal_code": "97532760580"
       }
     },
-    "cie_id": {
-      "min_app_version": {
-        "ios": "2.78.0.11",
-        "android": "2.78.0.11"
-      }
-    },
     "landing_banners": {
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",

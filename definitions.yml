@@ -528,8 +528,6 @@ definitions:
         $ref: "#/definitions/AbsolutePortalLinksConfig"
       itw:
         $ref: "#/definitions/ItwConfig"
-      cie_id:
-        $ref: "#/definitions/CieIDConfig"
       landing_banners:
         $ref: "#/definitions/LandingBannersConfig"
       app_feedback:
@@ -1241,13 +1239,6 @@ definitions:
       de-DE:
         type: string
         pattern: "^https://"
-  CieIDConfig:
-    type: object
-    description: "A configuration for the CieID feature"
-    properties:
-      min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can see the login with CieID section"
   LandingBannersConfig:
     type: object
     description: "A FIFO list of banner IDs to render in the landing screen. Visibility rules must be set and processed in app"

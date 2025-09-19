@@ -99,25 +99,25 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "4.0.0.0",
-        "android": "4.0.0.0"
+        "ios": "3.13.0.10",
+        "android": "3.13.0.10"
       },
       "onboarding": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.13.0.10",
+          "android": "3.13.0.10"
         }
       },
       "initiative_details": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.13.0.10",
+          "android": "3.13.0.10"
         }
       },
       "cie_payments": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.13.0.10",
+          "android": "3.13.0.10"
         }
       }
     },

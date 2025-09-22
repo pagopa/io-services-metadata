@@ -1070,6 +1070,9 @@ definitions:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "Enable or disable the entire AAR (Avviso Avvenuta Ricezione) feature"
+          delegate_url:
+            type: string
+            description: 'The URL to the page that explains how to delegate others to manage SEND notifications'
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

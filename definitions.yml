@@ -194,6 +194,8 @@ definitions:
         type: string
       hero_image:
         type: string
+      hero_image_dark:
+        type: string  
       sponsorship_description:
         type: string
       it:

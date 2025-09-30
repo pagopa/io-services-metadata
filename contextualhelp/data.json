@@ -758,10 +758,7 @@
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
-          },
-          {
-            "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
-            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+          }
           }
         ]
       },
@@ -944,10 +941,7 @@
           {
             "title": "Perché non riesco ad aggiungere la versione digitale di un documento al Portafoglio?",
             "body": "Se la versione digitale del documento che hai provato ad aggiungere al Portafoglio di IO non è disponibile, potrebbe essere perché il documento è scaduto, è stato sospeso, è stato revocato oppure non hai i requisiti per ottenere la sua versione digitale (ad esempio, non hai la Patente di guida, o hai ancora la Patente di guida in formato cartaceo).\n Assicurati di essere in possesso del documento fisico valido prima di richiederne la versione digitale sull’app IO."
-          },
-          {
-            "title": "Non vedo il bonus o l'iniziativa che che vorrei attivare, come mai?",
-            "body": "Se non vedi il bonus o l'iniziativa che vuoi attivare nell'elenco è perché non esiste o non è disponibile sull'app IO."
+          }
           }
         ]
       },
@@ -2406,7 +2400,7 @@
       {
           "route_name": "CDC_INFORMATION_TOS",
           "title": "Carta della Cultura",
-          "content": "Qui trovi le informazioni su come funziona Carta della Cultura."
+          "content": "Here you will find information on how the Carta della Cultura works."
       }
     ],
     "idps": {
@@ -4088,7 +4082,7 @@
       {
           "route_name": "CDC_INFORMATION_TOS",
           "title": "Carta della Cultura",
-          "content": "Qui trovi le informazioni su come funziona Carta della Cultura."
+          "content": "Hier finden Sie Informationen zur Funktionsweise der Carta della Cultura"
       }
     ],
     "idps": {

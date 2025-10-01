@@ -320,44 +320,7 @@
     }
   },
   "statusMessages": {
-    "items": [
-      {
-        "routes": [
-          "SERVICES_HOME"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Potrai attivare Carta della Cultura dalle ore 12:00 del 1° ottobre.",
-          "en-EN": "You can activate your Carta della Cultura from 12:00 noon on 1st October."
-        },
-        "label_cta": {
-          "it-IT": "Vai al sito",
-          "en-EN": "Go to the website"
-        },
-        "web_url": {
-          "en-EN": "https://ioapp.it/carta-della-cultura",
-          "it-IT": "https://ioapp.it/carta-della-cultura"
-        }
-      },
-      {
-        "routes": [
-          "WALLET_HOME"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Potrai attivare Carta della Cultura dalle ore 12:00 del 1° ottobre dalla sezione Servizi.",
-          "en-EN": "You can activate your Carta della Cultura from 12:00 noon on 1st October in the Services section."
-        },
-        "label_cta": {
-          "it-IT": "Vai al sito",
-          "en-EN": "Go to the website"
-        },
-        "web_url": {
-          "en-EN": "https://ioapp.it/carta-della-cultura",
-          "it-IT": "https://ioapp.it/carta-della-cultura"
-        }
-      }
-    ]
+    "items": []
   },
   "sections": {
     "email_validation": {

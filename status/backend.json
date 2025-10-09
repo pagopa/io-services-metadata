@@ -234,7 +234,7 @@
       },
       "abstractShown": false,
       "estimateTimelinesUrl": "https://notifichedigitali.it/perfezionamento",
-      "customServiceCenterUrl": "https://assistenza.notifichedigitali.it/hc",
+      "customerServiceCenterUrl": "https://assistenza.notifichedigitali.it/hc",
       "visitTheSENDWebsiteUrl": "https://cittadini.notifichedigitali.it/auth/login"
     },
     "payments": {

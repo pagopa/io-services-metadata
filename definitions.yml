@@ -1064,7 +1064,7 @@ definitions:
         description: "the privacy informative URL"
       aarQRCodeRegex:
         type: string
-        description: 'A regex to match the content of an "Avviso Avvenuta Ricezione" QRCode'
+        description: "A regex to match the content of an 'Avviso Avvenuta Ricezione' QRCode"
       aar:
         type: object
         description: "A configuration for the AAR feature"
@@ -1081,9 +1081,9 @@ definitions:
       estimateTimelinesUrl:
         type: string
         description: "The URL to the page that explains how to estimate timelines for SEND attachments duration"
-      customServiceCenterUrl:
+      customerServiceCenterUrl:
         type: string
-        description: "The URL to the custom service center for SEND notifications"
+        description: "The URL to the customer service center for SEND notifications"
       visitTheSENDWebsiteUrl:
         type: string
         description: "The URL to the SEND website, from the AAR bottom sheet displayed after closing the notification"

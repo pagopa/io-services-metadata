@@ -320,25 +320,24 @@
     }
   },
   "statusMessages": {
-     "items": [
+    "items": [
       {
         "routes": [
-          "AUTHENTICATION_LANDING",
-          "MESSAGES_HOME",
           "WALLET_HOME",
-          "PAYMENTS_HOME",
-          "SERVICES_HOME",
-          "BARCODE_SCAN",
-          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
-          "INSERT_EMAIL_SCREEN",
-          "EMAIL_VERIFICATION_SCREEN"
+          "SERVICES_HOME"
         ],
         "level": "warning",
         "message": {
-          "it-IT":
-            "Qualcosa non va, ma stiamo lavorando per risolvere il problema.",
-          "en-EN":
-            "Something is wrong, but we're working to fix the problem."
+          "it-IT": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi.",
+          "en-EN": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi."
+        },
+        "label_cta": {
+          "it-IT": "Vai al sito",
+          "en-EN": "Go to the website"
+        },
+        "web_url": {
+          "en-EN": "",
+          "it-IT": ""
         }
       }
     ]

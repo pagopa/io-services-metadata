@@ -320,25 +320,15 @@
     }
   },
   "statusMessages": {
-     "items": [
+    "items": [
       {
         "routes": [
-          "AUTHENTICATION_LANDING",
-          "MESSAGES_HOME",
-          "WALLET_HOME",
-          "PAYMENTS_HOME",
-          "SERVICES_HOME",
-          "BARCODE_SCAN",
-          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
-          "INSERT_EMAIL_SCREEN",
-          "EMAIL_VERIFICATION_SCREEN"
+          "SERVICES_HOME"
         ],
         "level": "warning",
         "message": {
-          "it-IT":
-            "Qualcosa non va, ma stiamo lavorando per risolvere il problema.",
-          "en-EN":
-            "Something is wrong, but we're working to fix the problem."
+          "it-IT": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi."
         }
       }
     ]

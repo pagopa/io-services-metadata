@@ -1003,6 +1003,12 @@ definitions:
         description: "A map where keys are initiative IDs and values are remote web URLs"
         additionalProperties:
           $ref: "#/definitions/IDPayInitiativeConfig"
+      scan_screen:
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can start a transaction directly from the Scan screen tab"
   NewPaymentSectionConfig:
     type: object
     description: "A configuration for the new Payment section feature"

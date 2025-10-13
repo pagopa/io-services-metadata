@@ -1003,6 +1003,12 @@ definitions:
         description: "A map where keys are initiative IDs and values are remote web URLs"
         additionalProperties:
           $ref: "#/definitions/IDPayInitiativeConfig"
+      scan_screen:
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can start a transaction directly from the Scan screen tab"
   NewPaymentSectionConfig:
     type: object
     description: "A configuration for the new Payment section feature"
@@ -1049,7 +1055,7 @@ definitions:
         description: "If min app version supported, the user can activate/deactivate the PN service and open messages (aka avvisi di cortesia) from PN"
       frontend_url:
         type: string
-        description: "The URL of the PN web frontend"
+        description: "The URL of the SEND website, from the timeline"
       optInServiceId:
         type: string
         description: "The ID of the standard PN service that sends the OptIn message"
@@ -1061,10 +1067,10 @@ definitions:
         description: "the terms of service URL"
       privacy_url:
         type: string
-        description: 'the privacy informative URL'
+        description: "the privacy informative URL"
       aarQRCodeRegex:
         type: string
-        description: 'A regex to match the content of an "Avviso Avvenuta Ricezione" QRCode'
+        description: "A regex to match the content of an 'Avviso Avvenuta Ricezione' QRCode"
       aar:
         type: object
         description: "A configuration for the AAR feature"
@@ -1074,7 +1080,19 @@ definitions:
             description: "Enable or disable the entire AAR (Avviso Avvenuta Ricezione) feature"
           delegate_url:
             type: string
-            description: 'The URL to the page that explains how to delegate others to manage SEND notifications'
+            description: "The URL to the page that explains how to delegate others to manage SEND notifications"
+      abstractShown:
+        type: boolean
+        description: "If set to true, the original SEND message content is displayed below the hardcoded one"
+      estimateTimelinesUrl:
+        type: string
+        description: "The URL to the page that explains how to estimate timelines for SEND attachments duration"
+      customerServiceCenterUrl:
+        type: string
+        description: "The URL to the customer service center for SEND notifications"
+      visitTheSENDWebsiteUrl:
+        type: string
+        description: "The URL to the SEND website, from the AAR bottom sheet displayed after closing the notification"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

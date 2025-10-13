@@ -56,9 +56,9 @@
                 "de-DE": "Mehr lesen"
               },
               "href": {
-                "it-IT":"https://assistenza.ioapp.it/hc/it",
-                "en-EN":"https://assistenza.ioapp.it/hc/it",
-                "de-DE":"https://assistenza.ioapp.it/hc/it"
+                "it-IT": "https://assistenza.ioapp.it/hc/it",
+                "en-EN": "https://assistenza.ioapp.it/hc/it",
+                "de-DE": "https://assistenza.ioapp.it/hc/it"
               }
             }
           }
@@ -385,7 +385,7 @@
           ]
         }
       },
-			{
+      {
         "value": "bonus_elettrodomestici",
         "description": {
           "it-IT": "Bonus Elettrodomestici",

@@ -56,9 +56,9 @@
                 "de-DE": "Mehr lesen"
               },
               "href": {
-                "it-IT":"https://assistenza.ioapp.it/hc/it",
-                "en-EN":"https://assistenza.ioapp.it/hc/it",
-                "de-DE":"https://assistenza.ioapp.it/hc/it"
+                "it-IT": "https://assistenza.ioapp.it/hc/it",
+                "en-EN": "https://assistenza.ioapp.it/hc/it",
+                "de-DE": "https://assistenza.ioapp.it/hc/it"
               }
             }
           }
@@ -176,6 +176,30 @@
               }
             },
             {
+              "value": "pagamenti_vorrei_info_sul_rimborso",
+              "description": {
+                "it-IT": "Vorrei informazioni sul rimborso",
+                "en-EN": "I would like some info about the refund",
+                "de-DE": "I would like some info about the refund"
+              }
+            },
+            {
+              "value": "pagamenti_vorrei_info_su_come_aggiungere_nuovo_metodo",
+              "description": {
+                "it-IT": "Vorrei informazioni su come aggiungere un nuovo metodo di pagamento",
+                "en-EN": "I would like information on how to add a new payment method",
+                "de-DE": "I would like information on how to add a new payment method"
+              }
+            },
+            {
+              "value": "pagamenti_vorrei_info_su_modalita_pagamento",
+              "description": {
+                "it-IT": "Vorrei informazioni sulle modalità di pagamento",
+                "en-EN": "I would like some info on how to pay",
+                "de-DE": "I would like some info on how to pay"
+              }
+            },
+            {
               "value": "pagamenti_pagopa_altro_problema",
               "description": {
                 "it-IT": "Ho un altro problema",
@@ -266,14 +290,6 @@
           "id": "8086421779473",
           "subCategories": [
             {
-              "value": "non_riesco_a_pagare_un_avviso",
-              "description": {
-                "it-IT": "Non riesco a pagare un avviso",
-                "en-EN": "I have trouble paying a notice",
-                "de-DE": "Ich kann eine Aufforderung nicht bezahlen"
-              }
-            },
-            {
               "value": "il_contenuto_di_un_messaggio_è_errato",
               "description": {
                 "it-IT": "Il contenuto di un messaggio è errato",
@@ -303,6 +319,22 @@
                 "it-IT": "Non mi è arrivato un messaggio",
                 "en-EN": "I haven't received a message",
                 "de-DE": "Mitteilung nicht erhalten"
+              }
+            },
+            {
+              "value": "ho_ricevuto_un_messaggio_per_errore",
+              "description": {
+                "it-IT": "Ho ricevuto un messaggio per errore",
+                "en-EN": "I received a message by mistake",
+                "de-DE": "I received a message by mistake"
+              }
+            },
+            {
+              "value": "non_riesco_ad_aprire_un_messaggio",
+              "description": {
+                "it-IT": "Non riesco ad aprire un messaggio",
+                "en-EN": "I can't open a message",
+                "de-DE": "Ich kann eine Nachricht nicht öffnen"
               }
             },
             {
@@ -354,21 +386,37 @@
         }
       },
       {
+        "value": "bonus_elettrodomestici",
+        "description": {
+          "it-IT": "Bonus Elettrodomestici",
+          "en-EN": "Bonus Elettrodomestici",
+          "de-DE": "Bonus Elettrodomestici"
+        }
+      },
+      {
         "value": "bonus_e_iniziative",
         "description": {
-          "it-IT": "Bonus e iniziative",
-          "en-EN": "Bonuses and initiatives",
-          "de-DE": "Boni und Initiativen"
+          "it-IT": "Altri bonus e iniziative",
+          "en-EN": "More bonuses and initiatives",
+          "de-DE": "Weitere Boni und Initiativen"
         },
         "zendeskSubCategories": {
           "id": "8086481365265",
           "subCategories": [
             {
-              "value": "bonus_elettrodomestici",
+              "value": "carta_della_cultura",
               "description": {
-                "it-IT": "Bonus elettrodomestici",
-                "en-EN": "Bonus elettrodomestici",
-                "de-DE": "Bonus elettrodomestici"
+                "it-IT": "Carta della Cultura",
+                "en-EN": "Carta della Cultura",
+                "de-DE": "Carta della Cultura"
+              }
+            },
+            {
+              "value": "firma_con_io",
+              "description": {
+                "it-IT": "Firma con IO",
+                "en-EN": "Firma con IO",
+                "de-DE": "Mit IO unterschreiben"
               }
             },
             {
@@ -380,22 +428,6 @@
               }
             },
             {
-              "value": "bonus_vacanze",
-              "description": {
-                "it-IT": "Bonus Vacanze",
-                "en-EN": "Bonus Vacanze",
-                "de-DE": "Ferienbonus"
-              }
-            },
-            {
-              "value": "carta_della_cultura",
-              "description": {
-                "it-IT": "Carta della Cultura",
-                "en-EN": "Carta della Cultura",
-                "de-DE": "Carta della Cultura"
-              }
-            },
-            {
               "value": "cashback",
               "description": {
                 "it-IT": "Cashback",
@@ -404,11 +436,11 @@
               }
             },
             {
-              "value": "firma_con_io",
+              "value": "bonus_vacanze",
               "description": {
-                "it-IT": "Firma con IO",
-                "en-EN": "Firma con IO",
-                "de-DE": "Mit IO unterschreiben"
+                "it-IT": "Bonus Vacanze",
+                "en-EN": "Bonus Vacanze",
+                "de-DE": "Ferienbonus"
               }
             }
           ]

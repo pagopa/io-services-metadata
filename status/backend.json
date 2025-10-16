@@ -330,7 +330,27 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "WALLET_HOME",
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi.",
+          "en-EN": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi."
+        },
+        "label_cta": {
+          "it-IT": "Vai al sito",
+          "en-EN": "Go to the website"
+        },
+        "web_url": {
+          "en-EN": "",
+          "it-IT": ""
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

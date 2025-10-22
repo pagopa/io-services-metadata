@@ -983,12 +983,18 @@ definitions:
       onboarding:
         type: object
         properties:
+          enabled:
+            type: boolean
+            description: If "false", the onboaridng IDPay screen isn't reachable and must show a forced temporary error screen to the user
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the user can start the initiative onboarding"
       initiative_details:
         type: object
         properties:
+          enabled:
+            type: boolean
+            description: If "false", the initiative details IDPay screen isn't reachable and must show a forced temporary error screen to the user
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the user can see the initiative details and make IDPay payments"

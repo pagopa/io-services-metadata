@@ -103,12 +103,14 @@
         "android": "4.0.0.0"
       },
       "onboarding": {
+        "enabled": true,
         "min_app_version": {
           "ios": "4.0.0.0",
           "android": "4.0.0.0"
         }
       },
       "initiative_details": {
+        "enabled": true,
         "min_app_version": {
           "ios": "4.0.0.0",
           "android": "4.0.0.0"

@@ -338,7 +338,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "FIMS_HISTORY"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Al momento non è possibile richiedere la copia dei dati, il servizio tornerà presto disponibile. Riprova più tardi.",
+          "en-EN": "Al momento non è possibile richiedere la copia dei dati, il servizio tornerà presto disponibile. Riprova più tardi."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

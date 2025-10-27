@@ -1093,6 +1093,13 @@ definitions:
           delegate_url:
             type: string
             description: "The URL to the page that explains how to delegate others to manage SEND notifications"
+          in_app_delegation:
+            type: object
+            description: "A configuration for the AAR in-app delegation feature"
+            properties:
+              min_app_version:
+                $ref: "#/definitions/VersionPerPlatform"
+                description: "Enables or disables the AAR temporary delegation flow"
       abstractShown:
         type: boolean
         description: "If set to true, the original SEND message content is displayed below the hardcoded one"

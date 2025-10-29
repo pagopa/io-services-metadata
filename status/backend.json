@@ -144,6 +144,16 @@
             "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
             "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
           }
+        },
+        "01K8BG9QEVTHY17EDS79Z3FB29": {
+          "min_app_version": {
+            "ios": "3.18.0.0",
+            "android": "3.18.0.0"
+          },
+          "cac": {
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+          }
         }
       }
     },

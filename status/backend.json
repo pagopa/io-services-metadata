@@ -112,8 +112,8 @@
       "initiative_details": {
         "enabled": true,
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.18.0.1",
+          "android": "3.18.0.1"
         }
       },
       "cie_payments": {

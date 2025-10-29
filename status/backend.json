@@ -103,7 +103,7 @@
         "android": "3.18.0.1"
       },
       "onboarding": {
-        "enabled": false,
+        "enabled": true,
         "min_app_version": {
           "ios": "3.18.0.1",
           "android": "3.18.0.1"

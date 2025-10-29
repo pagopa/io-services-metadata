@@ -99,14 +99,14 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "4.0.0.0",
-        "android": "4.0.0.0"
+        "ios": "3.18.0.1",
+        "android": "3.18.0.1"
       },
       "onboarding": {
-        "enabled": true,
+        "enabled": false,
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.18.0.1",
+          "android": "3.18.0.1"
         }
       },
       "initiative_details": {

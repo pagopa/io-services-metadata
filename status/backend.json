@@ -105,15 +105,15 @@
       "onboarding": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.18.0.1",
-          "android": "3.18.0.1"
+          "ios": "3.18.0.2",
+          "android": "3.18.0.2"
         }
       },
       "initiative_details": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.18.0.1",
-          "android": "3.18.0.1"
+          "ios": "3.18.0.2",
+          "android": "3.18.0.2"
         }
       },
       "cie_payments": {

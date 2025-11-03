@@ -366,7 +366,21 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes":[
+          "MESSAGES_HOME",
+          "MESSAGE_DETAIL",
+          "SERVICES_HOME"
+        ],
+        "level":"warning",
+        "message":{
+          "it-IT":"Al momento non è possibile attivare SEND su IO, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN":"At the moment it’s not possible to enable the SEND service, but we’re working to fix the issue. Try again later."
+        }
+
+      }
+    ]
   },
   "sections": {
     "email_validation": {

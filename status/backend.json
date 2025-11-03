@@ -366,7 +366,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Stiamo riscontrando un traffico elevato. Potrebbe volerci un pò di più per caricare la pagina Servizi.",
+          "en-EN": "We are experiencing high traffic. It may take a bit longer to load the Services."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

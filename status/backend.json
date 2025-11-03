@@ -366,7 +366,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes":[
+          "FIMS_SSO_CONSENTS"
+        ],
+        "level":"warning",
+        "message":{
+          "it-IT":"Al momento non è possibile accedere al servizio, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN":"At the moment the service is not available, but we’re working to fix the issue. Try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

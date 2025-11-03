@@ -366,7 +366,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes":[
+          "MESSAGES_HOME"
+        ],
+        "level":"warning",
+        "message":{
+          "it-IT":"Potrebbero esserci dei ritardi nella ricezione delle notifiche SEND, stiamo lavorando per risolvere il problema.",
+          "en-EN":"There may be delays in receiving SEND notifications, we’re working to fix the issue."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

@@ -366,7 +366,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "MESSAGES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Al momento non è possibile accedere al contenuto dei messaggi, riprova più tardi.",
+          "en-EN": "At the moment it's not possible to access the content of the messages, try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

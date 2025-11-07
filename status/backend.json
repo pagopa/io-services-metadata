@@ -263,8 +263,8 @@
       "aarQRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
-          "ios": "3.19.0.0",
-          "android": "3.19.0.0"
+          "ios": "3.20.0.0",
+          "android": "3.20.0.0"
         },
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {

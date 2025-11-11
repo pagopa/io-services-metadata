@@ -1,7 +1,7 @@
 {
   "min_app_version": {
-    "ios": "3.19.0.2",
-    "android": "3.19.0.2"
+    "ios": "3.19.0.4",
+    "android": "3.19.0.4"
   },
   "min_app_version_pagopa": {
     "ios": "0.0.0",

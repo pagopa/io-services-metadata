@@ -372,7 +372,19 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "WALLET_HOME",
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Bonus Elettrodomestici non è al momento disponibile. Riprova più tardi",
+          "en-EN": "Bonus Elettrodomestici non è al momento disponibile. Riprova più tardi"
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

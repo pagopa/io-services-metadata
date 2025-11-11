@@ -85,6 +85,12 @@
       "cta_onboarding_config": {
         "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
         "includeDeviceId": true
+      },
+      "walletVisibility": {
+        "min_app_version": {
+          "ios": "3.18.0.3",
+          "android": "3.18.0.3"
+        }
       }
     },
     "barcodesScanner": {
@@ -99,21 +105,21 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "4.0.0.0",
-        "android": "4.0.0.0"
+        "ios": "3.18.0.1",
+        "android": "3.18.0.1"
       },
       "onboarding": {
         "enabled": true,
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.19.0.2",
+          "android": "3.19.0.2"
         }
       },
       "initiative_details": {
         "enabled": true,
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "3.19.0.2",
+          "android": "3.19.0.2"
         }
       },
       "cie_payments": {
@@ -126,6 +132,34 @@
         "min_app_version": {
           "ios": "4.0.0.0",
           "android": "4.0.0.0"
+        }
+      },
+      "qr_code_payments": {
+        "min_app_version": {
+          "ios": "4.0.0.0",
+          "android": "4.0.0.0"
+        }
+      },
+      "initiative_config_map": {
+        "01K6HWPQVEKXZ24S90GYKYDFXV": {
+          "min_app_version": {
+            "ios": "3.18.0.0",
+            "android": "3.18.0.0"
+          },
+          "cac": {
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+          }
+        },
+        "01K8BG9QEVTHY17EDS79Z3FB29": {
+          "min_app_version": {
+            "ios": "3.18.0.0",
+            "android": "3.18.0.0"
+          },
+          "cac": {
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+          }
         }
       }
     },
@@ -235,10 +269,16 @@
       "aarQRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
-          "ios": "3.17.0.0",
-          "android": "3.17.0.0"
+          "ios": "3.20.0.0",
+          "android": "3.20.0.0"
         },
-        "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche"
+        "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
+        "in_app_delegation": {
+          "min_app_version": {
+            "ios": "0.0.0.0",
+            "android": "0.0.0.0"
+          }
+        }
       },
       "abstractShown": false,
       "estimateTimelinesUrl": "https://notifichedigitali.it/perfezionamento",

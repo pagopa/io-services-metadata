@@ -373,8 +373,8 @@
         ],
         "level": "warning",
         "message": {
-          "it-IT": "Stiamo riscontrando un traffico elevato. Potrebbe volerci un pò di più per caricare la pagina Servizi.",
-          "en-EN": "We are experiencing high traffic. It may take a bit longer to load the Services."
+          "it-IT": "Stiamo riscontrando traffico elevato in app. Potrebbe volerci più tempo per caricare la pagina Servizi.",
+          "en-EN": "We're getting a lot of traffic right now. The Services page might take a bit longer to load."
         }
       }
     ]

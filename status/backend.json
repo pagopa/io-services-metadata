@@ -372,7 +372,28 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "WALLET_HOME",
+          "SERVICES_HOME",
+          "SERVICES_DETAIL"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Bonus Elettrodomestici non è al momento disponibile in app, puoi richiederlo dal sito",
+          "en-EN": "Bonus Elettrodomestici non è al momento disponibile in app, puoi richiederlo dal sito"
+        },
+        "label_cta": {
+          "it-IT": "Vai al sito",
+          "en-EN": "Go to the website"
+        },
+        "web_url": {
+          "en-EN": "",
+          "it-IT": ""
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

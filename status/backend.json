@@ -372,7 +372,26 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Per richiedere il Bonus Elettrodomestici",
+          "en-EN": "Per richiedere il Bonus Elettrodomestici"
+        },
+        "label_cta": {
+          "it-IT": " premi qui",
+          "en-EN": " premi qui"
+        },
+        "web_url": {
+          "en-EN": "",
+          "it-IT": ""
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

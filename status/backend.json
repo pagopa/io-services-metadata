@@ -372,7 +372,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "MESSAGES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Stiamo riscontrando un traffico elevato. Potrebbe volerci un po' di più per caricare i messaggi.",
+          "en-EN": "We're experiencing high traffic. It may take a little longer to load the messages."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

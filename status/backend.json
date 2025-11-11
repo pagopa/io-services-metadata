@@ -372,7 +372,19 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "MESSAGES_HOME",
+          "WALLET_HOME"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi.",
+          "en-EN": "Potrai richiedere il Bonus Elettrodomestici dalle ore xx:xx del X mese dalla sezione Servizi."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

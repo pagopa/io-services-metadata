@@ -902,6 +902,21 @@ definitions:
           includeDeviceId:
             type: boolean
             description: "Indicates if the CTA url must provide the mixpanel deviceId to share with the session"
+      walletVisibility:
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the cdc is visible from the wallet section"
+          configurations:
+            type: object
+            properties:
+              url:
+                type: string
+                description: "The URL that must be loaded in FIMS when the cdc is tapped from the wallet section"
+              includeDeviceId:
+                type: boolean
+                description: "Indicates if the FIMS url must provide the mixpanel deviceId to share with the session"
   BarcodesScannerConfig:
     type: object
     description: "A configuration for the barcodes scanner in the payment section"

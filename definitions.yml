@@ -902,6 +902,21 @@ definitions:
           includeDeviceId:
             type: boolean
             description: "Indicates if the CTA url must provide the mixpanel deviceId to share with the session"
+      walletVisibility:
+        type: object
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the cdc is visible from the wallet section"
+          configurations:
+            type: object
+            properties:
+              url:
+                type: string
+                description: "The URL that must be loaded in FIMS when the cdc is tapped from the wallet section"
+              includeDeviceId:
+                type: boolean
+                description: "Indicates if the FIMS url must provide the mixpanel deviceId to share with the session"
   BarcodesScannerConfig:
     type: object
     description: "A configuration for the barcodes scanner in the payment section"
@@ -1093,6 +1108,13 @@ definitions:
           delegate_url:
             type: string
             description: "The URL to the page that explains how to delegate others to manage SEND notifications"
+          in_app_delegation:
+            type: object
+            description: "A configuration for the AAR in-app delegation feature"
+            properties:
+              min_app_version:
+                $ref: "#/definitions/VersionPerPlatform"
+                description: "Enables or disables the AAR temporary delegation flow"
       abstractShown:
         type: boolean
         description: "If set to true, the original SEND message content is displayed below the hardcoded one"

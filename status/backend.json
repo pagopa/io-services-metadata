@@ -376,7 +376,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "In questo momento non puoi accedere al dettaglio dei servizi. Riprova più tardi.",
+          "en-EN": "You can’t access service details right now. Please try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

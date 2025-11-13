@@ -385,8 +385,8 @@
         ],
         "level": "warning",
         "message": {
-          "it-IT": "Bonus Elettrodomestici non è al momento disponibile in app, puoi richiederlo dal sito",
-          "en-EN": "Bonus Elettrodomestici non è al momento disponibile in app, puoi richiederlo dal sito"
+          "it-IT": "Bonus Elettrodomestici non è al momento disponibile in app, ma puoi accedere dal sito.",
+          "en-EN": "Bonus Elettrodomestici non è al momento disponibile in app, ma puoi accedere dal sito."
         },
         "label_cta": {
           "it-IT": "Vai al sito",

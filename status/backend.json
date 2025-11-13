@@ -376,18 +376,7 @@
     }
   },
   "statusMessages": {
-    "items": [
-      {
-        "routes": [
-          "FIMS_HISTORY"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Al momento non è possibile richiedere la copia dei dati, il servizio tornerà presto disponibile. Riprova più tardi.",
-          "en-EN": "Data copy requests are currently unavailable. The service will be back soon. Please try again later."
-        }
-      }
-    ]
+    "items": []
   },
   "sections": {
     "email_validation": {

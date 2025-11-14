@@ -90,6 +90,10 @@
         "min_app_version": {
           "ios": "3.18.0.3",
           "android": "3.18.0.3"
+        },
+        "configurations": {
+          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
+          "includeDeviceId": true
         }
       }
     },

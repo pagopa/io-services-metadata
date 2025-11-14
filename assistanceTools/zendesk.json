@@ -1,5 +1,5 @@
 {
-  "panicMode": false,
+  "panicMode": true,
   "zendeskCategories": {
     "id": "1900004702053",
     "categories": [

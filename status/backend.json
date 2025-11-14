@@ -376,7 +376,19 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "MESSAGES_HOME",
+          "WALLET_HOME"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT": "Potrai richiedere il Bonus Elettrodomestici dalle ore 7:00 del 18 novembre dalla sezione Servizi.",
+          "en-EN": "Potrai richiedere il Bonus Elettrodomestici dalle ore 7:00 del 18 novembre dalla sezione Servizi."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

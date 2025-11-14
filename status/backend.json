@@ -376,7 +376,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Non siamo riusciti a caricare la lista degli enti e dei servizi in evidenza. Riprova più tardi.",
+          "en-EN": "We couldn't load the list of featured organizations and services. Please try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

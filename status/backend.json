@@ -385,8 +385,8 @@
         ],
         "level": "normal",
         "message": {
-          "it-IT": "In questo momento ci sono molte richieste in attesa. Vuoi comunque andare avanti?",
-          "en-EN": "In questo momento ci sono molte richieste in attesa. Vuoi comunque andare avanti?"
+          "it-IT": "Abbiamo ricevuto un numero elevato di richieste. Se procedi, la tua richiesta sarà inserita in lista d’attesa",
+          "en-EN": "We have received a lot of requests. If you continue, your request will go onto a waiting list."
         }
       }
     ]

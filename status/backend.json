@@ -387,8 +387,8 @@
           "en-EN": "Per richiedere il Bonus Elettrodomestici"
         },
         "label_cta": {
-          "it-IT": " premi qui",
-          "en-EN": " premi qui"
+          "it-IT": "\npremi qui",
+          "en-EN": "\npremi qui"
         },
         "web_url": {
           "en-EN": "ioit://services/service-detail?serviceId=01K8BG9QEVTHY17EDS79Z3FB29",

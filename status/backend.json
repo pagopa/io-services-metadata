@@ -85,6 +85,16 @@
       "cta_onboarding_config": {
         "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
         "includeDeviceId": true
+      },
+      "walletVisibility": {
+        "min_app_version": {
+          "ios": "3.18.0.3",
+          "android": "3.18.0.3"
+        },
+        "configurations": {
+          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
+          "includeDeviceId": true
+        }
       }
     },
     "barcodesScanner": {
@@ -105,15 +115,15 @@
       "onboarding": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.18.0.2",
-          "android": "3.18.0.2"
+          "ios": "3.19.0.2",
+          "android": "3.19.0.2"
         }
       },
       "initiative_details": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.18.0.2",
-          "android": "3.18.0.2"
+          "ios": "3.19.0.2",
+          "android": "3.19.0.2"
         }
       },
       "cie_payments": {
@@ -141,8 +151,8 @@
             "android": "3.18.0.0"
           },
           "cac": {
-            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
-            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici"
           }
         },
         "01K8BG9QEVTHY17EDS79Z3FB29": {
@@ -151,8 +161,8 @@
             "android": "3.18.0.0"
           },
           "cac": {
-            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
-            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici"
           }
         }
       }
@@ -263,8 +273,8 @@
       "aarQRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
-          "ios": "3.18.0.0",
-          "android": "3.18.0.0"
+          "ios": "3.20.0.0",
+          "android": "3.20.0.0"
         },
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {

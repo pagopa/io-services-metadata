@@ -90,6 +90,10 @@
         "min_app_version": {
           "ios": "3.18.0.3",
           "android": "3.18.0.3"
+        },
+        "configurations": {
+          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
+          "includeDeviceId": true
         }
       }
     },
@@ -147,8 +151,8 @@
             "android": "3.18.0.0"
           },
           "cac": {
-            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
-            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici"
           }
         },
         "01K8BG9QEVTHY17EDS79Z3FB29": {
@@ -157,8 +161,8 @@
             "android": "3.18.0.0"
           },
           "cac": {
-            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento",
-            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/35337442750225-Non-riesco-ad-aggiungere-un-metodo-di-pagamento"
+            "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
+            "en-EN": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici"
           }
         }
       }

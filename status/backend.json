@@ -376,7 +376,20 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "IDPAY_ONBOARDING_PDNDACCEPTANCE",
+          "IDPAY_ONBOARDING_SELF_DECLARATIONS",
+          "IDPAY_ONBOARDING_MULTI_SELF_DECLARATIONS"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT": "In questo momento ci sono molte richieste in attesa. Vuoi comunque andare avanti?",
+          "en-EN": "In questo momento ci sono molte richieste in attesa. Vuoi comunque andare avanti?"
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

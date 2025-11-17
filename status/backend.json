@@ -376,7 +376,20 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [          
+          "AUTHENTICATION_LANDING"          
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Non riusciamo a farti accedere all’app, ma stiamo lavorando per risolvere il problema. Riprova tra qualche minuto.",
+          "en-EN":
+            "Non riusciamo a farti accedere all’app, ma stiamo lavorando per risolvere il problema. Riprova tra qualche minuto."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

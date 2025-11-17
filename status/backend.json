@@ -508,14 +508,14 @@
       "is_visible": true,
       "level": "warning",
       "web_url": {
-        "it-IT": "",
-        "en-EN": "",
-        "de-DE": ""
+        "it-IT": "https://bonuselettrodomestici.it/utente",
+        "en-EN": "https://bonuselettrodomestici.it/utente",
+        "de-DE": "https://bonuselettrodomestici.it/utente"
       },
       "message": {
         "it-IT": "Se non riesci ad entrare su IO, puoi richiedere il Bonus Elettrodomestici dal sito.",
         "en-EN": "Se non riesci ad entrare su IO, puoi richiedere il Bonus Elettrodomestici dal sito.",
-        "de-DE": ""
+        "de-DE": "Se non riesci ad entrare su IO, puoi richiedere il Bonus Elettrodomestici dal sito."
       }
     },
     "bancomat": {

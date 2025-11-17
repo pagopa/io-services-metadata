@@ -379,7 +379,10 @@
      "items": [
       {
         "routes": [          
-          "AUTHENTICATION_LANDING"          
+          "AUTHENTICATION_LANDING",
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
         ],
         "level": "warning",
         "message": {

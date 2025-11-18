@@ -391,6 +391,67 @@
           "it-IT": "Bonus Elettrodomestici",
           "en-EN": "Bonus Elettrodomestici",
           "de-DE": "Bonus Elettrodomestici"
+        },
+        "zendeskSubCategories": {
+          "id": "40290698686481",
+          "subCategories": [
+            {
+              "value": "bonuselettrodomestici_problema_nella_richiesta",
+              "description": {
+                "it-IT": "Ho un problema nella richiesta del bonus",
+                "en-EN": "I'm having a problem with the bonus request",
+                "de-DE": "Ich habe ein Problem bei der Beantragung des Bonus"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_problema_uso",
+              "description": {
+                "it-IT": "Ho un problema con l'utilizzo del bonus",
+                "en-EN": "I'm having a problem using the bonus",
+                "de-DE": "Ich habe ein Problem mit der Verwendung des Bonus."
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_problema_isee",
+              "description": {
+                "it-IT": "Ho un problema con l'ISEE",
+                "en-EN": "I have a problem with my ISEE",
+                "de-DE": "Ich habe ein Problem mit dem ISEE"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_verifica_in_corso",
+              "description": {
+                "it-IT": "La mia richiesta risulta in 'Verifica in corso'",
+                "en-EN": "My request is showing as 'Verifica in corso'",
+                "de-DE": "Meine Anfrage befindet sich im Status „Verifica in corso“"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_lista_attesa",
+              "description": {
+                "it-IT": "Sono in lista d'attesa e vorrei informazioni",
+                "en-EN": "I am on the waiting list and would like some information",
+                "de-DE": "Ich bin auf der Warteliste und hätte gerne Informationen"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_reso",
+              "description": {
+                "it-IT": "Vorrei fare un reso dell'acquisto",
+                "en-EN": "I would like to return my purchase",
+                "de-DE": "Ich möchte einen Kauf zurückgeben"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_altro",
+              "description": {
+                "it-IT": "Ho un altro problema",
+                "en-EN": "I have a different issue",
+                "de-DE": "Ich habe ein anderes Problem"
+              }
+            }
+          ]
         }
       },
       {

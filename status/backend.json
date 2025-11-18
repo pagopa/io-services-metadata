@@ -376,7 +376,26 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+      {
+        "routes": [
+          "SERVICES_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Per richiedere il Bonus Elettrodomestici",
+          "en-EN": "Per richiedere il Bonus Elettrodomestici"
+        },
+        "label_cta": {
+          "it-IT": "\npremi qui",
+          "en-EN": "\npremi qui"
+        },
+        "web_url": {
+          "en-EN": "ioit://services/service-detail?serviceId=01K8BG9QEVTHY17EDS79Z3FB29",
+          "it-IT": "ioit://services/service-detail?serviceId=01K8BG9QEVTHY17EDS79Z3FB29"
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

@@ -376,7 +376,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+        {
+        "routes": [
+          "PAYMENTS_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Al momento non è possibile pagare avvisi pagoPA, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN": "At the moment it's not possible to pay pagoPA notices, but we’re working to fix the issue. Try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

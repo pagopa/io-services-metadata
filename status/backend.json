@@ -379,8 +379,7 @@
     "items": [
       {
         "routes": [
-          "SERVICES_HOME",
-          "SERVICES_DETAIL"
+          "SERVICES_HOME"
         ],
         "level": "warning",
         "message": {

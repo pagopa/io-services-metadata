@@ -1693,6 +1693,11 @@
           "route_name": "IDPAY_DETAILS_MONITORING",
           "title": "Bonus Elettrodomestici",
           "content":" "
+      },
+      {
+          "route_name": "IDPAY_DETAILS_BENEFICIARY",
+          "title": "Bonus Elettrodomestici",
+          "content":" "
       }
     ],
     "idps": {

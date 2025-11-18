@@ -381,7 +381,7 @@
         "routes": [
           "SERVICES_HOME"
         ],
-        "level": "warning",
+        "level": "normal",
         "message": {
           "it-IT": "Per richiedere il Bonus Elettrodomestici",
           "en-EN": "Per richiedere il Bonus Elettrodomestici"

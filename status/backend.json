@@ -376,7 +376,18 @@
     }
   },
   "statusMessages": {
-    "items": []
+    "items": [
+        {
+        "routes": [
+          "PAYMENTS_HOME"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN": "There's a problem, but we're fixing it. Try again later."
+        }
+      }
+    ]
   },
   "sections": {
     "email_validation": {

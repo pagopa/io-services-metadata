@@ -379,7 +379,6 @@
     "items": [
       {
         "routes": [
-          "WALLET_HOME",
           "SERVICES_HOME",
           "SERVICES_DETAIL"
         ],

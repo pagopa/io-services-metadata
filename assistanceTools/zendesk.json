@@ -503,6 +503,14 @@
                 "en-EN": "Bonus Vacanze",
                 "de-DE": "Ferienbonus"
               }
+            },
+            {
+              "value": "idpay",
+              "description": {
+                "it-IT": "Bonus Elettrodomestici",
+                "en-EN": "Bonus Elettrodomestici",
+                "de-DE": "Bonus Elettrodomestici"
+              }
             }
           ]
         }

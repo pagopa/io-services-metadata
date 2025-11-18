@@ -381,7 +381,8 @@
         "routes": [
           "IDPAY_ONBOARDING_PDNDACCEPTANCE",
           "IDPAY_ONBOARDING_SELF_DECLARATIONS",
-          "IDPAY_ONBOARDING_MULTI_SELF_DECLARATIONS"
+          "IDPAY_ONBOARDING_MULTI_SELF_DECLARATIONS",
+          "IDPAY_ONBOARDING_INITIATIVE_DETAILS"
         ],
         "level": "normal",
         "message": {

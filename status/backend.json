@@ -526,11 +526,16 @@
       }
     },
     "ingress": {
-      "is_visible": false,
+      "is_visible": true,
       "level": "warning",
+      "web_url": {
+        "it-IT": "https://bonuselettrodomestici.it/utente",
+        "en-EN": "https://bonuselettrodomestici.it/utente",
+        "de-DE": "https://bonuselettrodomestici.it/utente"
+      },
       "message": {
-        "it-IT": "Se hai problemi con l'app, riprova tra qualche minuto. Siamo al lavoro per risolvere il problema.",
-        "en-EN": "If you are having problems with the app, please try again in a few minutes. We are working to fix the issue.",
+        "it-IT": "Se non riesci ad entrare su IO, puoi richiedere il Bonus Elettrodomestici dal sito.",
+        "en-EN": "If you can't log in to IO, you can apply for the Bonus Elettrodomestici on the website.",
         "de-DE": ""
       }
     },

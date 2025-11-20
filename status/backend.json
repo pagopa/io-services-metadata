@@ -397,6 +397,24 @@
           "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa",
           "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa"
         }
+      },
+      {
+        "routes": [
+          "IDPAY_DETAILS_MONITORING"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT": "Raccontaci la tua esperienza con il Bonus Elettrodomestici",
+          "en-EN": "Tell us about your experience with the Bonus Elettrodomestici"
+        },
+        "label_cta": {
+          "it-IT": "Dicci cosa ne pensi",
+          "en-EN": "Tell us what you think"
+        },
+        "web_url": {
+          "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa",
+          "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa"
+        }
       }
     ]
   },

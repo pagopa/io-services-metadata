@@ -965,7 +965,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- MyBank, se [la tua banca aderisce al circuito](https://mybank.eu/it/banche-e-psp-aderenti)\n- Paga con Postepay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n- Satispay\n\nSaranno presto disponibili altri metodi di pagamento."
+            "body": "PPuoi scegliere tra vari metodi di pagamento. Leggi [l’articolo dedicato](https://assistenza.ioapp.it/hc/it/articles/34432172440977-Con-quali-metodi-puoi-pagare) per conoscerli tutti."
           },
           {
             "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
@@ -1187,8 +1187,8 @@
       },
       {
         "route_name": "PAYMENT_BARCODE_SCAN",
-        "title": "Come pagare un avviso pagoPA",
-        "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+        "title": "Come pagare un avviso pagoPA o accedere a una notifica SEND",
+        "content": "Per pagare un avviso pagoPA, inquadra il codice QR che trovi sull’avviso. In alternativa, inserisci i codici manualmente o carica la foto o il PDF dell’avviso salvato sul dispositivo.\n\n Per accedere a una notifica SEND, inquadra il codice QR che trovi sull’avviso cartaceo che hai ricevuto a casa.",
         "faqs": [
           {
             "title": "Non riesco ad inquadrare il codice QR. Cosa posso fare?",
@@ -1196,14 +1196,14 @@
           },
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- MyBank, se [la tua banca aderisce al circuito](https://mybank.eu/it/banche-e-psp-aderenti)\n- Paga con Postepay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n- Satispay\n\nSaranno presto disponibili altri metodi di pagamento."
+            "body": "Puoi scegliere tra vari metodi di pagamento. Leggi [l’articolo dedicato](https://assistenza.ioapp.it/hc/it/articles/34432172440977-Con-quali-metodi-puoi-pagare) per conoscerli tutti.."
           }
         ]
       },
             {
         "route_name": "BARCODE_SCAN",
-        "title": "Come pagare un avviso pagoPA",
-        "content": "Inquadra il codice QR che trovi nell'avviso pagoPA e poi procedi al pagamento direttamente dall'app.\nIn alternativa, inserisci manualmente i codici richiesti.\nSe l’avviso è salvato sul tuo dispositivo, puoi anche caricare la foto o il documento in PDF.",
+        "title": "Come pagare un avviso pagoPA o accedere a una notifica SEND",
+        "content": "Per pagare un avviso pagoPA, inquadra il codice QR che trovi sull’avviso. In alternativa, inserisci i codici manualmente o carica la foto o il PDF dell’avviso salvato sul dispositivo.\n\nPer accedere a una notifica SEND, inquadra il codice QR che trovi sull’avviso cartaceo che hai ricevuto a casa.",
         "faqs": [
           {
             "title": "Non riesco ad inquadrare il codice QR. Cosa posso fare?",
@@ -1211,7 +1211,7 @@
           },
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "Puoi scegliere tra vari metodi di pagamento, tra cui:\n- Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron.\n- BANCOMAT Pay\n- MyBank, se [la tua banca aderisce al circuito](https://mybank.eu/it/banche-e-psp-aderenti)\n- Paga con Postepay\n- PayPal pagamento veloce\n- PayPal (anche in 3 rate)\n- Satispay\n\nSaranno presto disponibili altri metodi di pagamento."
+            "body": "Puoi scegliere tra vari metodi di pagamento. Leggi [l’articolo dedicato](https://assistenza.ioapp.it/hc/it/articles/34432172440977-Con-quali-metodi-puoi-pagare) per conoscerli tutti."
           }
         ]
       },

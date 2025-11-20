@@ -262,8 +262,8 @@
     "pn": {
       "enabled": true,
       "min_app_version": {
-        "ios": "2.46.0.3",
-        "android": "2.46.0.3"
+        "ios": "3.20.0.6",
+        "android": "3.20.0.6"
       },
       "frontend_url": "https://cittadini.notifichedigitali.it",
       "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET",

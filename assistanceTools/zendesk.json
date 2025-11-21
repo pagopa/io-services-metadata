@@ -436,6 +436,14 @@
               }
             },
             {
+              "value": "bonuselettrodomestici_acquisto_smaltimento",
+              "description": {
+                "it-IT": "Vorrei sapere cosa posso acquistare o smaltire col bonus",
+                "en-EN": "I'd like to know what I can purchase or dispose of with the bonus",
+                "de-DE": "Ich möchte wissen was ich mit dem Bonus kaufen oder entsorgen kann"
+              }
+            },
+            {
               "value": "bonuselettrodomestici_reso",
               "description": {
                 "it-IT": "Vorrei fare un reso dell'acquisto",

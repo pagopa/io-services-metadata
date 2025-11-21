@@ -965,7 +965,7 @@
         "faqs": [
           {
             "title": "Quali metodi di pagamento posso usare su IO?",
-            "body": "PPuoi scegliere tra vari metodi di pagamento. Leggi [l’articolo dedicato](https://assistenza.ioapp.it/hc/it/articles/34432172440977-Con-quali-metodi-puoi-pagare) per conoscerli tutti."
+            "body": "Puoi scegliere tra vari metodi di pagamento. Leggi [l’articolo dedicato](https://assistenza.ioapp.it/hc/it/articles/34432172440977-Con-quali-metodi-puoi-pagare) per conoscerli tutti."
           },
           {
             "title": "Posso pagare un avviso che non ho ricevuto tramite IO?",
@@ -1187,7 +1187,7 @@
       },
       {
         "route_name": "PAYMENT_BARCODE_SCAN",
-        "title": "Come pagare un avviso pagoPA o accedere a una notifica SEND",
+        "title": "Cosa puoi inquadrare",
         "content": "Per pagare un avviso pagoPA, inquadra il codice QR che trovi sull’avviso. In alternativa, inserisci i codici manualmente o carica la foto o il PDF dell’avviso salvato sul dispositivo.\n\n Per accedere a una notifica SEND, inquadra il codice QR che trovi sull’avviso cartaceo che hai ricevuto a casa.",
         "faqs": [
           {
@@ -1202,7 +1202,7 @@
       },
             {
         "route_name": "BARCODE_SCAN",
-        "title": "Come pagare un avviso pagoPA o accedere a una notifica SEND",
+        "title": "Cosa puoi inquadrare",
         "content": "Per pagare un avviso pagoPA, inquadra il codice QR che trovi sull’avviso. In alternativa, inserisci i codici manualmente o carica la foto o il PDF dell’avviso salvato sul dispositivo.\n\nPer accedere a una notifica SEND, inquadra il codice QR che trovi sull’avviso cartaceo che hai ricevuto a casa.",
         "faqs": [
           {

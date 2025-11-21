@@ -404,16 +404,16 @@
         ],
         "level": "normal",
         "message": {
-          "it-IT": "Raccontaci la tua esperienza con il Bonus Elettrodomestici",
-          "en-EN": "Tell us about your experience with the Bonus Elettrodomestici"
+          "it-IT": "Com'è stata la tua esperienza con il Bonus Elettrodomestici?",
+          "en-EN": "How was your experience with the Bonus Elettrodomestici?"
         },
         "label_cta": {
-          "it-IT": "Dicci cosa ne pensi",
-          "en-EN": "Tell us what you think"
+          "it-IT": "Dicci la tua",
+          "en-EN": "Tell us your experience"
         },
         "web_url": {
-          "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa",
-          "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa"
+          "en-EN": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG",
+          "it-IT": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG"
         }
       }
     ]

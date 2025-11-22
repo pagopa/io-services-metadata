@@ -113,14 +113,14 @@
         "android": "3.18.0.1"
       },
       "onboarding": {
-        "enabled": true,
+        "enabled": false,
         "min_app_version": {
           "ios": "3.19.0.2",
           "android": "3.19.0.2"
         }
       },
       "initiative_details": {
-        "enabled": true,
+        "enabled": false,
         "min_app_version": {
           "ios": "3.19.0.2",
           "android": "3.19.0.2"

@@ -415,6 +415,28 @@
           "en-EN": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG",
           "it-IT": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG"
         }
+      },
+      {
+        "routes": [
+          "IDPAY_BARCODE_RESULT"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT":
+            "Quanto dura il codice sconto?",
+          "en-EN":
+            "Quanto dura il codice sconto?"
+        },
+        "label_cta": {
+          "it-IT": "Scoprilo qui",
+          "en-EN": "Scoprilo qui"
+        },
+        "web_url": {
+          "en-EN":
+            "",
+          "it-IT":
+            ""
+        }
       }
     ]
   },

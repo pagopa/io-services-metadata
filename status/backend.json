@@ -88,8 +88,8 @@
       },
       "walletVisibility": {
         "min_app_version": {
-          "ios": "3.18.0.3",
-          "android": "3.18.0.3"
+          "ios": "3.21.0.0",
+          "android": "3.21.0.0"
         },
         "configurations": {
           "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",

@@ -423,19 +423,19 @@
         "level": "normal",
         "message": {
           "it-IT":
-            "Quanto dura il codice sconto?",
+            "Hai dubbi su come usare il codice?",
           "en-EN":
-            "Quanto dura il codice sconto?"
+            "Hai dubbi su come usare il codice?"
         },
         "label_cta": {
-          "it-IT": "Scoprilo qui",
-          "en-EN": "Scoprilo qui"
+          "it-IT": "Leggi come fare",
+          "en-EN": "Leggi come fare"
         },
         "web_url": {
           "en-EN":
-            "",
+            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare",
           "it-IT":
-            ""
+            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
         }
       }
     ]

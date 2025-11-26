@@ -306,14 +306,6 @@
               }
             },
             {
-              "value": "ho_un_problema_con_un_messaggio_di_send",
-              "description": {
-                "it-IT": "Ho un problema con un messaggio di SEND",
-                "en-EN": "I have an issue with a message from SEND",
-                "de-DE": "Problem mit einer SEND-Mitteilung"
-              }
-            },
-            {
               "value": "non_mi_è_arrivato_un_messaggio",
               "description": {
                 "it-IT": "Non mi è arrivato un messaggio",
@@ -343,6 +335,43 @@
                 "it-IT": "Ho un altro problema",
                 "en-EN": "I have a different issue",
                 "de-DE": "Ich habe ein anderes Problem"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "value": "io_send",
+        "description": {
+          "it-IT": "SEND",
+          "en-EN": "SEND",
+          "de-DE": "SEND"
+        },
+        "zendeskSubCategories": {
+          "id": "39752564743313",
+          "subCategories": [
+            {
+              "value": "io_problema_con_un_messaggio_send",
+              "description": {
+                "it-IT": "Ho un problema con un messaggio arrivato da SEND",
+                "en-EN": "I have an issue with a message from SEND",
+                "de-DE": "Problem mit einer SEND-Mitteilung"
+              }
+            },
+            {
+              "value": "io_problema_notifica_send_qr",
+              "description": {
+                "it-IT": "Ho un problema ad aprire una notifica SEND tramite codice QR",
+                "en-EN": "I have an issue opening a SEND notification via QR code",
+                "de-DE": "Problem beim Öffnen einer SEND-Benachrichtigung über einen QR-Code"
+              }
+            },
+            {
+              "value": "io_vorrei_informazioni_su_send",
+              "description": {
+                "it-IT": "Vorrei più informazioni su SEND",
+                "en-EN": "I need more info about SEND",
+                "de-DE": "Weitere Informationen über SEND"
               }
             }
           ]
@@ -433,6 +462,14 @@
                 "it-IT": "Sono in lista d'attesa e vorrei informazioni",
                 "en-EN": "I am on the waiting list and would like some information",
                 "de-DE": "Ich bin auf der Warteliste und hätte gerne Informationen"
+              }
+            },
+            {
+              "value": "bonuselettrodomestici_acquisto_smaltimento",
+              "description": {
+                "it-IT": "Vorrei sapere cosa posso acquistare o smaltire col bonus",
+                "en-EN": "I'd like to know what I can purchase or dispose of with the bonus",
+                "de-DE": "Ich möchte wissen was ich mit dem Bonus kaufen oder entsorgen kann"
               }
             },
             {

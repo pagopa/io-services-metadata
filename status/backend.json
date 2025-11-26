@@ -88,8 +88,8 @@
       },
       "walletVisibility": {
         "min_app_version": {
-          "ios": "3.18.0.3",
-          "android": "3.18.0.3"
+          "ios": "3.21.0.0",
+          "android": "3.21.0.0"
         },
         "configurations": {
           "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
@@ -396,6 +396,46 @@
         "web_url": {
           "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa",
           "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa"
+        }
+      },
+      {
+        "routes": [
+          "IDPAY_DETAILS_MONITORING"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT": "Com'è stata la tua esperienza con il Bonus Elettrodomestici?",
+          "en-EN": "How was your experience with the Bonus Elettrodomestici?"
+        },
+        "label_cta": {
+          "it-IT": "Dicci la tua",
+          "en-EN": "Tell us your experience"
+        },
+        "web_url": {
+          "en-EN": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG",
+          "it-IT": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG"
+        }
+      },
+      {
+        "routes": [
+          "IDPAY_BARCODE_RESULT"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT":
+            "Hai dubbi su come usare il codice?",
+          "en-EN":
+            "Not sure how to use the code?"
+        },
+        "label_cta": {
+          "it-IT": "Leggi come fare",
+          "en-EN": "Read how to do it"
+        },
+        "web_url": {
+          "en-EN":
+            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare",
+          "it-IT":
+            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
         }
       }
     ]

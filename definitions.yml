@@ -1347,7 +1347,7 @@ definitions:
     properties:      
       favouriteServices:
         type: object
-        description: "A configuration for the fast login session refresh after two minutes of inactivity"
+        description: "A configuration for the favourite services feature"
         properties:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"

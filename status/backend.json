@@ -92,7 +92,7 @@
           "android": "3.21.0.0"
         },
         "configurations": {
-          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
+          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth?route=USAGE",
           "includeDeviceId": true
         }
       }

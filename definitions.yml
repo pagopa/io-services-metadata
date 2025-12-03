@@ -536,6 +536,8 @@ definitions:
         $ref: "#/definitions/AppFeedbackConfig"
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
+      services:
+        $ref: "#/definitions/ServicesConfig"
       zendeskCacBanner:
         type: object
         properties:
@@ -1339,6 +1341,20 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "Minimum app version that can use the new IOMarkdown"
+  ServicesConfig:
+    type: object
+    description: "A configuration for the services feature"    
+    properties:      
+      favouriteServices:
+        type: object
+        description: "A configuration for the favourite services feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the favourite services feature is enabled"
+          limit:
+            type: number
+            description: "The maximum number of favourite services the user can add"
   LoginConfig:
     type: object
     properties:

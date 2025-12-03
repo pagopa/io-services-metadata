@@ -373,6 +373,15 @@
           "de-DE": "https://assistenza.ioapp.it/hc/it"
         }
       }
+    },
+    "services": {
+      "favouriteServices": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        },
+        "limit": 20
+      }
     }
   },
   "statusMessages": {

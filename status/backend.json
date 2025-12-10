@@ -279,8 +279,8 @@
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {
           "min_app_version": {
-            "ios": "0.0.0.0",
-            "android": "0.0.0.0"
+            "ios": "3.22.0.0",
+            "android": "3.22.0.0"
           }
         }
       },

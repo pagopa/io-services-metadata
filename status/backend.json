@@ -446,6 +446,28 @@
           "it-IT":
             "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
         }
+      },
+      {
+        "routes": [
+          "CDC_INFORMATION_TOS"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT":
+            "Per continuare a usare Carta della Cultura, aggiorna l’app all’ultima versione.",
+          "en-EN":
+            "Per continuare a usare Carta della Cultura, aggiorna l’app all’ultima versione."
+        },
+        "label_cta": {
+          "it-IT": "Vai allo store",
+          "en-EN": "Vai allo store"
+        },
+        "web_url": {
+          "en-EN":
+            "https://ioapp.it/scarica-io",
+          "it-IT":
+            "https://ioapp.it/scarica-io"
+        }
       }
     ]
   },

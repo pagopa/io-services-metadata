@@ -431,20 +431,16 @@
         ],
         "level": "normal",
         "message": {
-          "it-IT":
-            "Hai dubbi su come usare il codice?",
-          "en-EN":
-            "Not sure how to use the code?"
+          "it-IT": "Hai dubbi su come usare il codice?",
+          "en-EN": "Not sure how to use the code?"
         },
         "label_cta": {
           "it-IT": "Leggi come fare",
           "en-EN": "Read how to do it"
         },
         "web_url": {
-          "en-EN":
-            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare",
-          "it-IT":
-            "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
+          "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare",
+          "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
         }
       },
       {
@@ -453,20 +449,35 @@
         ],
         "level": "normal",
         "message": {
-          "it-IT":
-            "Per continuare a usare Carta della Cultura, aggiorna l’app all’ultima versione.",
-          "en-EN":
-            "To keep using Carta della Cultura, update the app to the latest version."
+          "it-IT": "Per continuare a usare Carta della Cultura, aggiorna l’app all’ultima versione.",
+          "en-EN": "To keep using Carta della Cultura, update the app to the latest version."
         },
         "label_cta": {
           "it-IT": "Vai allo store",
           "en-EN": "Go to the store"
         },
         "web_url": {
-          "en-EN":
-            "https://ioapp.it/scarica-io",
-          "it-IT":
-            "https://ioapp.it/scarica-io"
+          "en-EN": "https://ioapp.it/scarica-io",
+          "it-IT": "https://ioapp.it/scarica-io"
+        }
+      },
+      {
+        "routes": [
+          "AUTHENTICATION_LANDING",
+          "MESSAGES_HOME",
+          "WALLET_HOME",
+          "PAYMENTS_HOME",
+          "SERVICES_HOME",
+          "BARCODE_SCAN",
+          "CHECK_EMAIL_NOT_VERIFIED",
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi."
         }
       }
     ]

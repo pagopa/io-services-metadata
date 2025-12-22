@@ -481,6 +481,14 @@
               }
             },
             {
+              "value": "bonuselettrodomestici_scaduto",
+              "description": {
+                "it-IT": "Il mio bonus è scaduto",
+                "en-EN": "My bonus has expired",
+                "de-DE": "Mein Bonus ist abgelaufen"
+              }
+            },
+            {
               "value": "bonuselettrodomestici_altro",
               "description": {
                 "it-IT": "Ho un altro problema",

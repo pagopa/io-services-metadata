@@ -88,11 +88,11 @@
       },
       "walletVisibility": {
         "min_app_version": {
-          "ios": "3.21.0.0",
-          "android": "3.21.0.0"
+          "ios": "3.20.0.0",
+          "android": "3.20.0.0"
         },
         "configurations": {
-          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
+          "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth?route=USAGE",
           "includeDeviceId": true
         }
       }
@@ -279,8 +279,8 @@
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {
           "min_app_version": {
-            "ios": "0.0.0.0",
-            "android": "0.0.0.0"
+            "ios": "3.22.0.0",
+            "android": "3.22.0.0"
           }
         }
       },
@@ -373,6 +373,15 @@
           "de-DE": "https://assistenza.ioapp.it/hc/it"
         }
       }
+    },
+    "services": {
+      "favouriteServices": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        },
+        "limit": 20
+      }
     }
   },
   "statusMessages": {
@@ -436,6 +445,28 @@
             "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare",
           "it-IT":
             "https://assistenza.ioapp.it/hc/it/articles/41220747586705-Il-mio-codice-bonus-%C3%A8-scaduto-cosa-devo-fare"
+        }
+      },
+      {
+        "routes": [
+          "CDC_INFORMATION_TOS"
+        ],
+        "level": "normal",
+        "message": {
+          "it-IT":
+            "Per continuare a usare Carta della Cultura, aggiorna l’app all’ultima versione.",
+          "en-EN":
+            "To keep using Carta della Cultura, update the app to the latest version."
+        },
+        "label_cta": {
+          "it-IT": "Vai allo store",
+          "en-EN": "Go to the store"
+        },
+        "web_url": {
+          "en-EN":
+            "https://ioapp.it/scarica-io",
+          "it-IT":
+            "https://ioapp.it/scarica-io"
         }
       }
     ]

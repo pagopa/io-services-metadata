@@ -388,27 +388,6 @@
     "items": [
       {
         "routes": [
-          "IDPAY_ONBOARDING_PDNDACCEPTANCE",
-          "IDPAY_ONBOARDING_SELF_DECLARATIONS",
-          "IDPAY_ONBOARDING_MULTI_SELF_DECLARATIONS",
-          "IDPAY_ONBOARDING_INITIATIVE_DETAILS"
-        ],
-        "level": "normal",
-        "message": {
-          "it-IT": "Abbiamo ricevuto un numero elevato di richieste. Se procedi, la tua richiesta sarà inserita in lista d’attesa",
-          "en-EN": "We have received a lot of requests. If you continue, your request will go onto a waiting list."
-        },
-        "label_cta": {
-          "it-IT": "Scopri di più",
-          "en-EN": "Learn more"
-        },
-        "web_url": {
-          "en-EN": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa",
-          "it-IT": "https://assistenza.ioapp.it/hc/it/articles/41007156200081-Cosa-succede-se-ci-sono-tante-richieste-e-finisco-in-Lista-d-attesa"
-        }
-      },
-      {
-        "routes": [
           "IDPAY_DETAILS_MONITORING"
         ],
         "level": "normal",

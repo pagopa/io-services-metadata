@@ -325,6 +325,7 @@
       "priority_order": [
         "PUSH_NOTIFICATIONS_REMINDER",
         "SEND_ACTIVATION_REMINDER",
+        "IT_WALLET_DISCOVERY",
         "ITW_DISCOVERY",
         "LV_EXPIRATION_REMINDER"
       ]

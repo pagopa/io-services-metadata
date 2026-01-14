@@ -447,6 +447,16 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": ["ITW_DISCOVERY_INFO"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi",
+          "en-EN":
+            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi"
+        }
       }
     ]
   },

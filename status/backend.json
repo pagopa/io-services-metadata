@@ -453,9 +453,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Non puoi attivare Documenti su IO a causa di un problema temporaneo sui sistemi dell’ente che emette la versione digitale dei documenti. Riprova più tardi.",
+            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi",
           "en-EN":
-            "Non puoi attivare Documenti su IO a causa di un problema temporaneo sui sistemi dell’ente che emette la versione digitale dei documenti. Riprova più tardi."
+            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi"
         }
       }
     ]

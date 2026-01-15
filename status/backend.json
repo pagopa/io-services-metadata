@@ -388,24 +388,6 @@
     "items": [
       {
         "routes": [
-          "IDPAY_DETAILS_MONITORING"
-        ],
-        "level": "normal",
-        "message": {
-          "it-IT": "Com'è stata la tua esperienza con il Bonus Elettrodomestici?",
-          "en-EN": "How was your experience with the Bonus Elettrodomestici?"
-        },
-        "label_cta": {
-          "it-IT": "Dicci la tua",
-          "en-EN": "Tell us your experience"
-        },
-        "web_url": {
-          "en-EN": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG",
-          "it-IT": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG"
-        }
-      },
-      {
-        "routes": [
           "IDPAY_BARCODE_RESULT"
         ],
         "level": "normal",

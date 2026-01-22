@@ -253,8 +253,8 @@
       },
       "activeSessionLogin": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "3.22.0.0",
+          "android": "3.22.0.0"
         }
       },
       "loginUrl": "https://app-backend.io.italia.it"
@@ -324,10 +324,10 @@
     },
     "landing_banners": {
       "priority_order": [
+        "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",
-        "SEND_ACTIVATION_REMINDER",
         "ITW_DISCOVERY",
-        "LV_EXPIRATION_REMINDER"
+        "SEND_ACTIVATION_REMINDER"
       ]
     },
     "app_feedback": {

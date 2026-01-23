@@ -430,6 +430,16 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": ["ITW_CARD_ONBOARDING"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Al momento non puoi aggiungere Carta Europea della Disabilità per un problema temporaneo sui sistemi dell'ente.",
+          "en-EN":
+            "Al momento non puoi aggiungere Carta Europea della Disabilità per un problema temporaneo sui sistemi dell'ente."
+        }
       }
     ]
   },

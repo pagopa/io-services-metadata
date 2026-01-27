@@ -249,7 +249,8 @@
     },
     "loginConfig": {
       "notifyExpirationThreshold": {
-        "fastLogin": 15
+        "fastLogin": 15,
+        "standardLogin": 15
       },
       "activeSessionLogin": {
         "min_app_version": {

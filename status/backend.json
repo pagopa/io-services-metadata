@@ -249,12 +249,13 @@
     },
     "loginConfig": {
       "notifyExpirationThreshold": {
-        "fastLogin": 15
+        "fastLogin": 15,
+        "standardLogin": 15
       },
       "activeSessionLogin": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "3.22.0.0",
+          "android": "3.22.0.0"
         }
       },
       "loginUrl": "https://app-backend.io.italia.it"
@@ -278,9 +279,10 @@
         },
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {
+          "helpCenter_url": "https://assistenza.notifichedigitali.it/hc/it/#categories",
           "min_app_version": {
-            "ios": "3.22.0.0",
-            "android": "3.22.0.0"
+            "ios": "3.23.0.0",
+            "android": "3.23.0.0"
           }
         }
       },
@@ -323,11 +325,11 @@
     },
     "landing_banners": {
       "priority_order": [
+        "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",
-        "SEND_ACTIVATION_REMINDER",
         "IT_WALLET_DISCOVERY",
         "ITW_DISCOVERY",
-        "LV_EXPIRATION_REMINDER"
+        "SEND_ACTIVATION_REMINDER"
       ]
     },
     "app_feedback": {
@@ -378,8 +380,8 @@
     "services": {
       "favouriteServices": {
         "min_app_version": {
-          "ios": "0.0.0.0",
-          "android": "0.0.0.0"
+          "ios": "3.23.0.4",
+          "android": "3.23.0.4"
         },
         "limit": 20
       }
@@ -387,24 +389,6 @@
   },
   "statusMessages": {
     "items": [
-      {
-        "routes": [
-          "IDPAY_DETAILS_MONITORING"
-        ],
-        "level": "normal",
-        "message": {
-          "it-IT": "Com'è stata la tua esperienza con il Bonus Elettrodomestici?",
-          "en-EN": "How was your experience with the Bonus Elettrodomestici?"
-        },
-        "label_cta": {
-          "it-IT": "Dicci la tua",
-          "en-EN": "Tell us your experience"
-        },
-        "web_url": {
-          "en-EN": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG",
-          "it-IT": "https://pagopa.qualtrics.com/jfe/form/SV_eK86RP8dIGwoKCG"
-        }
-      },
       {
         "routes": [
           "IDPAY_BARCODE_RESULT"
@@ -447,16 +431,6 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
-        }
-      },
-      {
-        "routes": ["ITW_DISCOVERY_INFO"],
-        "level": "warning",
-        "message": {
-          "it-IT":
-            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi",
-          "en-EN":
-            "La funzionalità potrebbe non essere disponibile o avere rallentamenti per problemi temporanei sui sistemi dell'ente che emette i documenti digitali. Riprova più tardi"
         }
       }
     ]

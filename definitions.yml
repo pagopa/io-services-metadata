@@ -1114,6 +1114,9 @@ definitions:
             type: object
             description: "A configuration for the AAR in-app delegation feature"
             properties:
+              helpCenter_url:
+                type: string
+                description: "An URL pointing to a SEND helpCenter page regarding various delegation methods"
               min_app_version:
                 $ref: "#/definitions/VersionPerPlatform"
                 description: "Enables or disables the AAR temporary delegation flow"

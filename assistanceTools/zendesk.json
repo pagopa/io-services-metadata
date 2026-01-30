@@ -91,14 +91,6 @@
               }
             },
             {
-              "value": "it_wallet_patente_guida_non_ho_ricevuto",
-              "description": {
-                "it-IT": "Non ho ancora ricevuto la versione digitale della Patente",
-                "en-EN": "I haven't received the digital Driving Licence",
-                "de-DE": "Führerschein nicht erhalten"
-              }
-            },
-            {
               "value": "it_wallet_patente_guida",
               "description": {
                 "it-IT": "Ho un problema con la Patente di guida",

@@ -281,8 +281,8 @@
         "in_app_delegation": {
           "helpCenter_url": "https://assistenza.notifichedigitali.it/hc/it/#categories",
           "min_app_version": {
-            "ios": "3.23.0.0",
-            "android": "3.23.0.0"
+            "ios": "3.24.0.0",
+            "android": "3.24.0.0"
           }
         }
       },

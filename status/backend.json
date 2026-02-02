@@ -380,8 +380,8 @@
     "services": {
       "favouriteServices": {
         "min_app_version": {
-          "ios": "3.23.0.4",
-          "android": "3.23.0.4"
+          "ios": "3.24.0.0",
+          "android": "3.24.0.0"
         },
         "limit": 20
       }

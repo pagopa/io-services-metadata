@@ -26,7 +26,7 @@ environment_cd_roles = {
       "Azure Front Door Domain Contributor"
     ],
     "io-p-itn-common-rg-01" = [
-      "Storage Account Contributor"
+      "Storage Blob Data Contributor"
     ],
   }
 }

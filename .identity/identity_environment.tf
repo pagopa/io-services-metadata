@@ -1,5 +1,5 @@
 module "identity_cd" {
-  source = "github.com/pagopa/terraform-azurerm-v3//github_federated_identity?ref=v7.35.0"
+  source = "github.com/pagopa/terraform-azurerm-v3//github_federated_identity?ref=v8.103.0"
 
   prefix    = var.prefix
   env_short = var.env_short

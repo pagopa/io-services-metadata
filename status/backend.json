@@ -321,7 +321,8 @@
         "service_name": "Motorizzazione Civile - Le mie patenti",
         "service_organization_name": "Ministero delle infrastrutture e dei trasporti",
         "service_organization_fiscal_code": "97532760580"
-      }
+      },
+      "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html"
     },
     "landing_banners": {
       "priority_order": [

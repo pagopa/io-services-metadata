@@ -1244,6 +1244,9 @@ definitions:
           service_organization_fiscal_code:
             type: string
             description: "Deprecated. Use 'fims.services' instead (The fiscal code of the organization of the iPatente service)"
+      ipzs_privacy_url:
+        type: string
+        description: "The URL to the IPZS privacy policy"
   Banner:
     type: object
     required:

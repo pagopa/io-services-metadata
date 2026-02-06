@@ -23,10 +23,10 @@ environment_cd_roles = {
       "CDN Endpoint Contributor"
     ],
     "io-p-itn-assets-cdn-rg-01" = [
-      "Azure Front Door Domain Contributor"
+      "CDN Profile Contributor"
     ],
     "io-p-itn-common-rg-01" = [
-      "Storage Account Contributor"
+      "Storage Blob Data Contributor"
     ],
   }
 }

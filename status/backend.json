@@ -289,7 +289,8 @@
       "abstractShown": false,
       "estimateTimelinesUrl": "https://notifichedigitali.it/perfezionamento",
       "customerServiceCenterUrl": "https://assistenza.notifichedigitali.it/hc",
-      "visitTheSENDWebsiteUrl": "https://cittadini.notifichedigitali.it/auth/login"
+      "visitTheSENDWebsiteUrl": "https://cittadini.notifichedigitali.it/auth/login",
+      "lollipopLambdaEnabled": true
     },
     "payments": {
       "preferredPspsByOrigin": {

@@ -1132,7 +1132,7 @@ definitions:
       visitTheSENDWebsiteUrl:
         type: string
         description: "The URL to the SEND website, from the AAR bottom sheet displayed after closing the notification"
-      lollipopLambdaEnabled:
+      lollipopPlaygroundEnabled:
         type: boolean
   PaymentsConfig:
     type: object

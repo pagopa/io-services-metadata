@@ -1134,6 +1134,7 @@ definitions:
         description: "The URL to the SEND website, from the AAR bottom sheet displayed after closing the notification"
       lollipopPlaygroundEnabled:
         type: boolean
+        description: "This flag enables the SEND's playground for lollipop"
   PaymentsConfig:
     type: object
     description: "Configuration data related to payments"

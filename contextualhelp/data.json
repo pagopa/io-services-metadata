@@ -210,7 +210,7 @@
         ]
       },
       {
-        "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
+        "route_name": "",
         "title": "I documenti allegati alla notifica",
         "content": "Qui puoi visualizzare, salvare e condividere i documenti allegati alla notifica.",
         "faqs": [
@@ -223,6 +223,21 @@
             "body": "Se hai problemi o domande relative al contenuto della notifica, contatta l’ente che te l’ha inviata. Se hai problemi tecnici, per esempio non riesci a visualizzare i documenti allegati al messaggio o non riesci a pagare le spese, vai in fondo a questa pagina e seleziona Apri una richiesta > Messaggi > Ho un problema con un messaggio di SEND."
           }
         ]
+      },
+      {
+        "route_name": "SEND_AAR_CIE_CAN_EDUCATIONAL",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
+      },
+      {
+        "route_name": "SEND_AAR_CIE_CAN_INSERTION",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
+      },
+      {
+        "route_name": "SEND_AAR_CIE_CARD_READING_EDUCATIONAL",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
       },
       {
         "route_name": "AUTHENTICATION_IDP_LOGIN",

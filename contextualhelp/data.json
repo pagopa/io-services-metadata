@@ -210,7 +210,7 @@
         ]
       },
       {
-        "route_name": "",
+        "route_name": "PN_ROUTES_MESSAGE_ATTACHMENT",
         "title": "I documenti allegati alla notifica",
         "content": "Qui puoi visualizzare, salvare e condividere i documenti allegati alla notifica.",
         "faqs": [

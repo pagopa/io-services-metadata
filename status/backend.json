@@ -327,6 +327,7 @@
     },
     "landing_banners": {
       "priority_order": [
+        "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",
         "IT_WALLET_DISCOVERY",
@@ -388,6 +389,10 @@
         "limit": 20
       }
     }
+  },
+  "min_supported_os": {
+    "ios": "14.0",
+    "android": "8.0"
   },
   "statusMessages": {
     "items": [

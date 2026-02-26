@@ -314,6 +314,7 @@
         "android": "2.67.0.2"
       },
       "feedback_banner_visible": true,
+      "ipatente_cta_visible": true,
       "ipatente_cta_config": {
         "visibility": true,
         "url": "https://licences.ipatente.io.pagopa.it/licences",

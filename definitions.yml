@@ -839,11 +839,11 @@ definitions:
     properties:
       ios:
         type: string
-        pattern: '^\\d+.\\d?$'
+        pattern: '^\\d+(\\.\\d+)?$'
         description: "The iOS version"
       android:
         type: string
-        pattern: '^\\d+.\\d?$'
+        pattern: '^\\d+(\\.\\d+)?$'
         description: "The Android version"
   UaDonationsConfig:
     type: object

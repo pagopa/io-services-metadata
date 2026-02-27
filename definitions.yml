@@ -832,7 +832,7 @@ definitions:
         description: "The Android version"
   OSPerPlatform:
     type: object
-    description: "Associate an OS version with a platform "
+    description: "Associate an OS version with a platform"
     required:
       - ios
       - android

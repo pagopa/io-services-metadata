@@ -538,6 +538,8 @@ definitions:
         $ref: "#/definitions/IOMarkdownConfig"
       services:
         $ref: "#/definitions/ServicesConfig"
+      min_supported_os:
+        $ref: "#/definitions/OSPerPlatform"
       zendeskCacBanner:
         type: object
         properties:
@@ -827,6 +829,21 @@ definitions:
       android:
         type: string
         pattern: '^\\d+.\\d+.\\d+(.\\d+)?$'
+        description: "The Android version"
+  OSPerPlatform:
+    type: object
+    description: "Associate an OS version with a platform"
+    required:
+      - ios
+      - android
+    properties:
+      ios:
+        type: string
+        pattern: '^\\d+(\\.\\d+)?$'
+        description: "The iOS version"
+      android:
+        type: string
+        pattern: '^\\d+(\\.\\d+)?$'
         description: "The Android version"
   UaDonationsConfig:
     type: object

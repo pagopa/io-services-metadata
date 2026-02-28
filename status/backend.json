@@ -300,8 +300,8 @@
       }
     },
     "tos": {
-      "tos_version": 5.2,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.2"
+      "tos_version": 5.4,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.4"
     },
     "absolutePortalLinks": {
       "io_web": "https://account.ioapp.it/",

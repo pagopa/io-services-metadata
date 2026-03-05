@@ -353,9 +353,17 @@
             {
               "value": "io_problema_notifica_send_qr",
               "description": {
-                "it-IT": "Ho un problema ad aprire una notifica SEND tramite codice QR",
-                "en-EN": "I have an issue opening a SEND notification via QR code",
-                "de-DE": "Problem beim Öffnen einer SEND-Benachrichtigung über einen QR-Code"
+                "it-IT": "Ho un problema ad aprire una notifica SEND",
+                "en-EN": "I have an issue opening a SEND notification",
+                "de-DE": "Problem beim Öffnen einer SEND-Benachrichtigung"
+              }
+            },
+            {
+              "value": "io_problema_notifica_send_qr_altra_persona",
+              "description": {
+                "it-IT": "Ho un problema ad aprire una notifica SEND di un'altra persona",
+                "en-EN": "I have an issue opening another user's SEND notification",
+                "de-DE": "Problem beim Öffnen einer SEND-Benachrichtigung eines anderen Benutzers"
               }
             },
             {

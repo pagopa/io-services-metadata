@@ -225,6 +225,21 @@
         ]
       },
       {
+        "route_name": "SEND_AAR_CIE_CAN_EDUCATIONAL",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
+      },
+      {
+        "route_name": "SEND_AAR_CIE_CAN_INSERTION",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
+      },
+      {
+        "route_name": "SEND_AAR_CIE_CARD_READING_EDUCATIONAL",
+        "title": "Come accedere a una notifica SEND destinata a un’altra persona",
+        "content": "Per visualizzare una notifica SEND destinata a un’altra persona hai bisogno della sua Carta di Identità Elettronica e di uno smartphone che ne supporti la lettura.",
+      },
+      {
         "route_name": "AUTHENTICATION_IDP_LOGIN",
         "title": "Le tue credenziali",
         "content": "Per entrare su IO, devi inserire il nome utente e la password che hai scelto per SPID. Una volta fatto, conferma la richiesta di accesso tramite codice OTP o nell’app del tuo Identity Provider, poi torna sull’app IO per proseguire.",

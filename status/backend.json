@@ -281,8 +281,8 @@
         "in_app_delegation": {
           "helpCenter_url": "https://assistenza.notifichedigitali.it/hc/it/#categories",
           "min_app_version": {
-            "ios": "3.25.0.0",
-            "android": "3.25.0.0"
+            "ios": "3.25.0.4",
+            "android": "3.25.0.4"
           }
         }
       },
@@ -300,8 +300,8 @@
       }
     },
     "tos": {
-      "tos_version": 5.2,
-      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.2"
+      "tos_version": 5.4,
+      "tos_url": "https://io.italia.it/app-content/tos_privacy.html?v=5.4"
     },
     "absolutePortalLinks": {
       "io_web": "https://account.ioapp.it/",
@@ -327,6 +327,7 @@
     },
     "landing_banners": {
       "priority_order": [
+        "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",
         "IT_WALLET_DISCOVERY",
@@ -388,6 +389,10 @@
         "limit": 20
       }
     }
+  },
+  "min_supported_os": {
+    "ios": "14.0",
+    "android": "26"
   },
   "statusMessages": {
     "items": [

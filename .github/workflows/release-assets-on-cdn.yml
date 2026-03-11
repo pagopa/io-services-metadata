@@ -33,7 +33,7 @@ jobs:
       CDN_PROFILE_NAME: 'io-p-itn-assets-afd-01'
       CDN_ENDPOINT: 'io-p-itn-assets-fde-01'
       CDN_RESOURCE_GROUP: 'io-p-itn-assets-cdn-rg-01'
-      CDN_PURGE_DOMAINS: 'assets.io.pagopa.it'
+      CDN_PURGE_DOMAINS: 'assets.io.pagopa.it' # TODO: fix domains list
 
     steps:
 

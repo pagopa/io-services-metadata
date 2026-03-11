@@ -10,7 +10,7 @@
       {
         "route_name": "MESSAGES_HOME",
         "title": "Messaggi",
-        "content": "Cosa puoi fare nei tuoi Messaggi\n**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**.\nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.\nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).\nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante 'archivia' che comparirà in quel momento sullo schermo.",
+        "content": "**Cosa puoi fare nei tuoi Messaggi**\n Nella sezione Messaggi trovi le comunicazioni che ti inviano gli enti aderenti a IO.\n I messaggi sono organizzati in due schede: ‘Ricevuti', che contiene i messaggi che ricevi, e 'Archiviati', in cui trovi i messaggi che hai archiviato. Per spostarlo in archivio, tocca e tieni premuto il messaggio.\n Per cercare un messaggio, usa l’icona della lente in alto a destra.",
         "faqs": [
           {
             "title": "Che tipo di messaggi puoi ricevere?",

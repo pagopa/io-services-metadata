@@ -25,7 +25,7 @@ jobs:
       id-token: write
       contents: read
     env:
-      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;services-webview;.gitignore;.eslintignore;.prettierrc.js;'
+      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;services-webview;.gitignore;.eslintignore;.prettierrc.js;.eslintrc.js;'
       EXCLUDED_PATH: 'src;.git;.github;.identity;'
       REPOSITORY_PATH: './*'
       STORAGE_ACCOUNT_NAME: 'iopitnassetsst01'

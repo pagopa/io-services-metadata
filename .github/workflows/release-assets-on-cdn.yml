@@ -1,0 +1,81 @@
+name: Release assets on CDN
+
+on:
+  #pull_request: # TODO: Added to register workflow, remove when no more needed
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "CODEOWNERS"
+      - "**.md"
+      - ".**"
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+
+jobs:
+
+  publish:
+    name: Release assets to production CDN
+    runs-on: ubuntu-24.04
+    environment: prod-cd
+    permissions:
+      id-token: write
+      contents: read
+    env:
+      EXCLUDED_PATTERN: 'README.md;CODEOWNERS;yarn.lock;package.json;.node-version;.nvmrc;jest.config.js;tsconfig.json;tslint.json;definitions;.circleci;services-webview;.gitignore;.eslintignore;.prettierrc.js;.eslintrc.js;'
+      EXCLUDED_PATH: 'src;.git;.github;.identity;'
+      REPOSITORY_PATH: './*'
+      STORAGE_ACCOUNT_NAME: 'iopitnassetsst01'
+      STORAGE_ACCOUNT_CONTAINER: '$web'
+      CDN_PROFILE_NAME: 'io-p-itn-assets-afd-01'
+      CDN_ENDPOINT: 'io-p-itn-assets-fde-01'
+      CDN_RESOURCE_GROUP: 'io-p-itn-assets-cdn-rg-01'
+      CDN_PURGE_DOMAINS: 'assets.io.pagopa.it' # TODO: fix domains list
+
+    steps:
+
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab #v3.5.2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Azure Login
+        id: az_login
+        uses: azure/login@a65d910e8af852a8061c627c456678983e180302
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID_CD }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Upload to blob storage
+        id: storage_upload
+        run: |
+            az storage copy \
+              --auth-mode login \
+              --account-name "$STORAGE_ACCOUNT_NAME" \
+              --destination-container "$STORAGE_ACCOUNT_CONTAINER" \
+              --source "./$REPOSITORY_PATH" \
+              --exclude-pattern "$EXCLUDED_PATTERN" \
+              --exclude-path "$EXCLUDED_PATH" \
+              --recursive
+     
+      - name: Purge AFD locales endpoint
+        id: purge_locales_endpoint
+        run: |
+            az afd endpoint purge \
+              --profile-name "$CDN_PROFILE_NAME" \
+              --endpoint-name "$CDN_ENDPOINT" \
+              --domains "$CDN_PURGE_DOMAINS" \
+              --content-paths '/*' \
+              --resource-group "$CDN_RESOURCE_GROUP"
+
+      - name: Azure Logout
+        id: az_logout
+        if: always()
+        run: |
+          az logout

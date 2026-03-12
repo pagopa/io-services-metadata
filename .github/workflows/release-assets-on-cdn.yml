@@ -71,6 +71,7 @@ jobs:
               --profile-name "$CDN_PROFILE_NAME" \
               --endpoint-name "$CDN_ENDPOINT" \
               --domains "$CDN_PURGE_DOMAINS" \
+              --content-paths '/*' \
               --resource-group "$CDN_RESOURCE_GROUP"
 
       - name: Azure Logout

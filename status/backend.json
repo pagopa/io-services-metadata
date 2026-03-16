@@ -271,7 +271,7 @@
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",
       "privacy_url": "https://cittadini.notifichedigitali.it/informativa-privacy",
-      "aarQRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
+      "QRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
           "ios": "3.19.0.4",
@@ -281,8 +281,8 @@
         "in_app_delegation": {
           "helpCenter_url": "https://assistenza.notifichedigitali.it/hc/it/#categories",
           "min_app_version": {
-            "ios": "3.25.0.4",
-            "android": "3.25.0.4"
+            "ios": "3.26.0.2",
+            "android": "3.26.0.2"
           }
         }
       },

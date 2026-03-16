@@ -1,7 +1,7 @@
 name: Release assets on CDN
 
 on:
-  #pull_request: # TODO: Added to register workflow, remove when no more needed
+  pull_request: # TODO: Added to register workflow, remove when no more needed
   push:
     branches:
       - master
@@ -64,15 +64,15 @@ jobs:
               --exclude-path "$EXCLUDED_PATH" \
               --recursive
      
-      - name: Purge AFD locales endpoint
-        id: purge_locales_endpoint
-        run: |
-            az afd endpoint purge \
-              --profile-name "$CDN_PROFILE_NAME" \
-              --endpoint-name "$CDN_ENDPOINT" \
-              --domains "$CDN_PURGE_DOMAINS" \
-              --content-paths '/*' \
-              --resource-group "$CDN_RESOURCE_GROUP"
+      # - name: Purge AFD locales endpoint
+      #   id: purge_locales_endpoint
+      #   run: |
+      #       az afd endpoint purge \
+      #         --profile-name "$CDN_PROFILE_NAME" \
+      #         --endpoint-name "$CDN_ENDPOINT" \
+      #         --domains "$CDN_PURGE_DOMAINS" \
+      #         --content-paths '/*' \
+      #         --resource-group "$CDN_RESOURCE_GROUP"
 
       - name: Azure Logout
         id: az_logout

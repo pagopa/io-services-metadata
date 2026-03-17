@@ -30,8 +30,8 @@
       "enabled": true,
       "merchants_v2": false,
       "show_cgn_categories_modal": {
-        "ios": "5.0.0.0",
-        "android": "5.0.0.0"
+        "ios": "6.0.0.0",
+        "android": "6.0.0.0"
       }
     },
     "fims": {
@@ -39,8 +39,8 @@
       "enabled": false,
       "historyEnabled": true,
       "min_app_version": {
-        "ios": "2.79.0.9",
-        "android": "2.79.0.9"
+        "ios": "3.2.0.9",
+        "android": "3.2.0.9"
       },
       "services": [
         {
@@ -79,8 +79,8 @@
     },
     "cdcV2": {
       "min_app_version": {
-        "ios": "3.7.0.3",
-        "android": "3.7.0.3"
+        "ios": "3.8.0.3",
+        "android": "3.8.0.3"
       },
       "cta_onboarding_config": {
         "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth",
@@ -88,8 +88,8 @@
       },
       "walletVisibility": {
         "min_app_version": {
-          "ios": "3.20.0.0",
-          "android": "3.20.0.0"
+          "ios": "4.20.0.0",
+          "android": "4.20.0.0"
         },
         "configurations": {
           "url": "https://api-app.io.pagopa.it/api/cdc/v1/fauth?route=USAGE",
@@ -103,52 +103,52 @@
     "fci": {
       "enabled": false,
       "min_app_version": {
-        "ios": "2.30.0.2",
-        "android": "2.30.0.2"
+        "ios": "4.30.0.2",
+        "android": "4.30.0.2"
       }
     },
     "idPay": {
       "min_app_version": {
-        "ios": "3.18.0.1",
-        "android": "3.18.0.1"
+        "ios": "5.18.0.1",
+        "android": "5.18.0.1"
       },
       "onboarding": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.19.0.2",
-          "android": "3.19.0.2"
+          "ios": "6.19.0.2",
+          "android": "6.19.0.2"
         }
       },
       "initiative_details": {
         "enabled": true,
         "min_app_version": {
-          "ios": "3.19.0.2",
-          "android": "3.19.0.2"
+          "ios": "7.19.0.2",
+          "android": "7.19.0.2"
         }
       },
       "cie_payments": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "8.0.0.0",
+          "android": "8.0.0.0"
         }
       },
       "scan_screen": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "9.0.0.0",
+          "android": "9.0.0.0"
         }
       },
       "qr_code_payments": {
         "min_app_version": {
-          "ios": "4.0.0.0",
-          "android": "4.0.0.0"
+          "ios": "5.0.0.0",
+          "android": "5.0.0.0"
         }
       },
       "initiative_config_map": {
         "01K6HWPQVEKXZ24S90GYKYDFXV": {
           "min_app_version": {
-            "ios": "3.18.0.0",
-            "android": "3.18.0.0"
+            "ios": "3.29.0.0",
+            "android": "3.29.0.0"
           },
           "cac": {
             "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
@@ -157,8 +157,8 @@
         },
         "01K8BG9QEVTHY17EDS79Z3FB29": {
           "min_app_version": {
-            "ios": "3.18.0.0",
-            "android": "3.18.0.0"
+            "ios": "3.28.0.0",
+            "android": "3.28.0.0"
           },
           "cac": {
             "it-IT": "https://assistenza.ioapp.it/hc/it/articles/38962008319761-Cos-%C3%A8-e-come-richiedere-il-Bonus-Elettrodomestici",
@@ -170,13 +170,13 @@
     "newPaymentSection": {
       "enabled": false,
       "min_app_version": {
-        "ios": "2.65.0.0",
-        "android": "2.65.0.0"
+        "ios": "3.65.0.0",
+        "android": "3.65.0.0"
       },
       "feedbackBanner": {
         "min_app_version": {
-          "ios": "2.65.0.0",
-          "android": "2.65.0.0"
+          "ios": "5.65.0.0",
+          "android": "5.65.0.0"
         },
         "title": {
           "it-IT": "Puoi dirci com'è andata?",
@@ -200,8 +200,8 @@
       "pspBanner": {
         "MYBANK": {
           "min_app_version": {
-            "ios": "2.65.0.0",
-            "android": "2.65.0.0"
+            "ios": "8.65.0.0",
+            "android": "8.65.0.0"
           },
           "title": {
             "it-IT": "Non trovi la tua banca?",
@@ -263,8 +263,8 @@
     "pn": {
       "enabled": true,
       "min_app_version": {
-        "ios": "3.20.0.6",
-        "android": "3.20.0.6"
+        "ios": "4.20.0.6",
+        "android": "4.20.0.6"
       },
       "frontend_url": "https://cittadini.notifichedigitali.it",
       "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET",
@@ -274,15 +274,15 @@
       "aarQRCodeRegex": "^\\s*https:\\/\\/(cittadini|login)\\.(uat\\.)?notifichedigitali\\.it(\\/[^?]*)?\\?aar=[^\\s]+",
       "aar": {
         "min_app_version": {
-          "ios": "3.19.0.4",
-          "android": "3.19.0.4"
+          "ios": "8.19.0.4",
+          "android": "8.19.0.4"
         },
         "delegate_url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche",
         "in_app_delegation": {
           "helpCenter_url": "https://assistenza.ioapp.it/hc/it/articles/44040451905809-Come-fare-per-accedere-a-una-notifica-SEND-destinata-a-un-altra-persona",
           "min_app_version": {
-            "ios": "3.26.0.2",
-            "android": "3.26.0.2"
+            "ios": "9.26.0.2",
+            "android": "9.26.0.2"
           }
         }
       },
@@ -310,8 +310,8 @@
     "itw": {
       "enabled": true,
       "min_app_version": {
-        "ios": "2.67.0.2",
-        "android": "2.67.0.2"
+        "ios": "5.67.0.2",
+        "android": "5.67.0.2"
       },
       "feedback_banner_visible": true,
       "ipatente_cta_visible": true,

@@ -398,16 +398,6 @@
     "items": [
       {
         "routes": [
-          "MESSAGES_HOME"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
-          "en-EN": "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi."
-        }
-      },
-      {
-        "routes": [
           "IDPAY_BARCODE_RESULT"
         ],
         "level": "normal",

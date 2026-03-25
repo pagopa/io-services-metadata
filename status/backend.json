@@ -439,6 +439,16 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": ["WALLET_HOME", "ITW_DISCOVERY_INFO"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+          "Le funzionalità dei documenti digitali potrebbero non essere disponibili per manutenzione programmata.",
+          "en-EN":
+          "Le funzionalità dei documenti digitali potrebbero non essere disponibili per manutenzione programmata."
+        }
       }
     ]
   },

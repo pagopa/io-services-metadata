@@ -287,8 +287,8 @@
         },
         "feedbackBanner": {
           "min_app_version": {
-            "ios": "3.26.0.2",
-            "android": "3.26.0.2"
+            "ios": "3.27.0.0",
+            "android": "3.27.0.0"
           },
           "description": {
             "it-IT": "Raccontaci la tua esperienza con la notifica e aiutaci a migliorare.",

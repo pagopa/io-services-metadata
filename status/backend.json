@@ -32,6 +32,22 @@
       "show_cgn_categories_modal": {
         "ios": "5.0.0.0",
         "android": "5.0.0.0"
+      },
+      "show_cgn_engagement_banner": {
+        "min_app_version": {
+          "ios": "5.0.0.0",
+          "android": "5.0.0.0"
+        },
+        "title": {
+          "it-IT": "",
+          "en-EN": "",
+          "de-DE": ""
+        },
+        "description": {
+          "it-IT": "",
+          "en-EN": "",
+          "de-DE": ""
+        }
       }
     },
     "fims": {

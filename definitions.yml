@@ -1140,6 +1140,9 @@ definitions:
               min_app_version:
                 $ref: "#/definitions/VersionPerPlatform"
                 description: "Enables or disables the AAR temporary delegation flow"
+          feedbackBanner:
+            $ref: "#/definitions/Banner"
+            description: "If provided a feedback banner will be shown when exiting the flow"
       abstractShown:
         type: boolean
         description: "If set to true, the original SEND message content is displayed below the hardcoded one"

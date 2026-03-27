@@ -300,6 +300,25 @@
             "ios": "3.26.0.2",
             "android": "3.26.0.2"
           }
+        },
+        "feedbackBanner": {
+          "min_app_version": {
+            "ios": "3.27.0.0",
+            "android": "3.27.0.0"
+          },
+          "description": {
+            "it-IT": "Raccontaci la tua esperienza con la notifica e aiutaci a migliorare.",
+            "en-EN": "",
+            "de-DE": ""
+          },
+          "action": {
+            "label": {
+              "it-IT": "Vai al sondaggio",
+              "en-EN": "",
+              "de-DE": ""
+            },
+            "url": "https://pagopa.qualtrics.com/jfe/form/SV_3Da8BtgDTrrnAlo"
+          }
         }
       },
       "abstractShown": false,

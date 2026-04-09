@@ -317,15 +317,19 @@
             "ios": "3.27.0.0",
             "android": "3.27.0.0"
           },
+          "title": {
+            "it-IT": "Puoi dirci com'è andata?",
+            "en-EN": "How was your experience?"
+          },
           "description": {
             "it-IT": "Raccontaci la tua esperienza con la notifica e aiutaci a migliorare.",
-            "en-EN": "",
+            "en-EN": "Share your experience with the notification and help us improve.",
             "de-DE": ""
           },
           "action": {
             "label": {
               "it-IT": "Vai al sondaggio",
-              "en-EN": "",
+              "en-EN": "Share a feedback",
               "de-DE": ""
             },
             "url": "https://pagopa.qualtrics.com/jfe/form/SV_3Da8BtgDTrrnAlo"

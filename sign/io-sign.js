@@ -1369,7 +1369,7 @@ let A = class extends f {
   connectedCallback() {
     if (super.connectedCallback(), document.getElementById("io-sign-theme-css") === null) {
       const e = document.createElement("link");
-      e.id = "io-sign-theme-css", e.rel = "stylesheet", e.href = "https://assets.cdn.io.pagopa.it/sign/theme.css", e.addEventListener("load", () => {
+      e.id = "io-sign-theme-css", e.rel = "stylesheet", e.href = "https://assets.io.pagopa.it/sign/theme.css", e.addEventListener("load", () => {
         this.state = "idle";
       }), this.theme = document.head.appendChild(e);
     } else

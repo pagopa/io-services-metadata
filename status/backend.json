@@ -32,6 +32,33 @@
       "show_cgn_categories_modal": {
         "ios": "5.0.0.0",
         "android": "5.0.0.0"
+      },
+      "show_cgn_engagement_banner": {
+        "min_app_version": {
+          "ios": "5.0.0.0",
+          "android": "5.0.0.0"
+        },
+        "description": {
+          "it-IT":
+            "Ottieni in pochi tap la tua Carta Giovani Nazionale. È gratis!",
+          "en-EN":
+            "Ottieni in pochi tap la tua Carta Giovani Nazionale. È gratis!",
+          "de-DE":
+            "Ottieni in pochi tap la tua Carta Giovani Nazionale. È gratis!"
+        },
+        "title": {
+          "it-IT": "Sblocca tante opportunità dedicate a te!",
+          "en-EN": "Sblocca tante opportunità dedicate a te!",
+          "de-DE": "Sblocca tante opportunità dedicate a te!"
+        },
+        "action": {
+          "label": {
+            "it-IT": "Attiva Carta Giovani",
+            "en-EN": "Attiva Carta Giovani",
+            "de-DE": "Attiva Carta Giovani"
+          },
+          "url": ""
+        }
       }
     },
     "fims": {
@@ -68,7 +95,7 @@
           "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
           "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"
         },
-        "url": "https://assets.cdn.io.pagopa.it/html/donate.html"
+        "url": "https://assets.io.pagopa.it/html/donate.html"
       }
     },
     "premiumMessages": {
@@ -290,15 +317,19 @@
             "ios": "3.27.0.0",
             "android": "3.27.0.0"
           },
+          "title": {
+            "it-IT": "Puoi dirci com'è andata?",
+            "en-EN": "How was your experience?"
+          },
           "description": {
             "it-IT": "Raccontaci la tua esperienza con la notifica e aiutaci a migliorare.",
-            "en-EN": "",
+            "en-EN": "Share your experience with the notification and help us improve.",
             "de-DE": ""
           },
           "action": {
             "label": {
               "it-IT": "Vai al sondaggio",
-              "en-EN": "",
+              "en-EN": "Share a feedback",
               "de-DE": ""
             },
             "url": "https://pagopa.qualtrics.com/jfe/form/SV_3Da8BtgDTrrnAlo"

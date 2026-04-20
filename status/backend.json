@@ -132,7 +132,7 @@
       "min_app_version": {
         "ios": "2.30.0.2",
         "android": "2.30.0.2"
-      }, 
+      },
       "security_level_check":{
         "min_app_version": {
           "ios": "3.40.0.0", 

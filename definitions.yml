@@ -1013,8 +1013,8 @@ definitions:
         description: "A configuration for the security level check in the Firma con IO feature"
         properties:
           min_app_version:
-          $ref: "#/definitions/VersionPerPlatform"
-          description: "If min app version supported, the signer must have the required security level to sign documents"       
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the signer must have the required security level to sign documents"       
   IdPayConfig:
     type: object
     description: "A configuration for the IdPay feature"

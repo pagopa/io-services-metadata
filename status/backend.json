@@ -300,7 +300,7 @@
         "ios": "3.26.0.2",
         "android": "3.26.0.2"
       },
-      "frontend_url": "https://cittadini.notifichedigitali.it",
+      "frontend_url": "https://cittadini.notifichedigitali.it/?utm_source=ioapp&utm_medium=app&utm_campaign=accesso_send",
       "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET",
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",

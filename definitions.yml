@@ -1008,6 +1008,16 @@ definitions:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the test user (signer) can digitally signs documents"
+      security_level_check:
+        type: object
+        description: "A configuration for the security level check in the Firma con IO feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If the min app version is supported, the signer must have the required security level (L3) to sign documents"
+          helpCenter_url:
+            type: string
+            description: "A URL that links to a help center page explaining security levels"
   IdPayConfig:
     type: object
     description: "A configuration for the IdPay feature"

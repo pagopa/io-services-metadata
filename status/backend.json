@@ -95,7 +95,7 @@
           "it-IT": "Fai una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina",
           "en-EN": "Make a donation to humanitarian organizations that assist the civilians affected by the crisis in Ukraine"
         },
-        "url": "https://assets.cdn.io.pagopa.it/html/donate.html"
+        "url": "https://assets.io.pagopa.it/html/donate.html"
       }
     },
     "premiumMessages": {
@@ -132,6 +132,13 @@
       "min_app_version": {
         "ios": "2.30.0.2",
         "android": "2.30.0.2"
+      },
+      "security_level_check":{
+        "min_app_version": {
+          "ios": "3.40.0.0", 
+          "android": "3.40.0.0"
+        },
+        "helpCenter_url": "https://assistenza.ioapp.it/hc/it/articles/30722976684049-Cosa-sono-i-livelli-di-sicurezza"
       }
     },
     "idPay": {
@@ -293,7 +300,7 @@
         "ios": "3.26.0.2",
         "android": "3.26.0.2"
       },
-      "frontend_url": "https://cittadini.notifichedigitali.it",
+      "frontend_url": "https://cittadini.notifichedigitali.it/?utm_source=ioapp&utm_medium=app&utm_campaign=accesso_send",
       "optInServiceId": "01G74SW1PSM6XY2HM5EGZHZZET",
       "notificationServiceId": "01G40DWQGKY5GRWSNM4303VNRP",
       "tos_url": "https://cittadini.notifichedigitali.it/termini-di-servizio",

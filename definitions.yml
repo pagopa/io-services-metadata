@@ -626,6 +626,12 @@ definitions:
       show_cgn_engagement_banner:
         $ref: "#/definitions/Banner"
         description: "If min app version supported, a banner will be shown in the CGN section inviting users to discover the CGN feature"
+      eyca_base_url:
+        type: string
+        description: "EYCA redirect URL to be opened in when the user clicks on the related CTA"
+      eyca_discount_url:
+        type: string
+        description: "EYCA discount redirect URL to be opened in when the user clicks on the related CTA"
   FimsConfig:
     type: object
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"

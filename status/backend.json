@@ -61,7 +61,7 @@
         }
       },
       "eyca_base_url": "https://eyca.org",
-      "eyca_discount_url": "https://eyca.org/discounts/it"
+      "eyca_discount_url": "https://eyca.org/discounts?country=IT"
     },
     "fims": {
       "domain": "https://oauth.io.pagopa.it/",

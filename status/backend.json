@@ -382,7 +382,11 @@
         "service_organization_name": "Ministero delle infrastrutture e dei trasporti",
         "service_organization_fiscal_code": "97532760580"
       },
-      "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html"
+      "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
+      "itw_min_app_version": {
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
+      }
     },
     "landing_banners": {
       "priority_order": [

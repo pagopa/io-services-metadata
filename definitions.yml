@@ -1289,6 +1289,9 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      itw_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
   Banner:
     type: object
     required:

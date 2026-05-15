@@ -1226,7 +1226,7 @@ definitions:
         description: "If true, the app can activate the IT-Wallet and the user can see the IT-Wallet section"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"
+        description: "If min app version supported, the user can issues credentials and see the Documenti su IO section"
       disabled_identification_methods:
         description: "List of identification methods to disable or hide during IT Wallet activation"
         type: array
@@ -1289,6 +1289,9 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      itw_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
   Banner:
     type: object
     required:

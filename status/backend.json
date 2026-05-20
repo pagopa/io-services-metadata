@@ -386,6 +386,14 @@
       "itw_min_app_version": {
         "ios": "3.30.0.3",
         "android": "3.30.0.3"
+      },
+      "itw_nfc_min_app_version": {
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
+      },
+      "itw_av_min_app_version": {
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
       }
     },
     "landing_banners": {

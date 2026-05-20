@@ -1292,6 +1292,12 @@ definitions:
       itw_min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
+      itw_nfc_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can use the NFC proximity presentation feature"
+      itw_av_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can use the Age Verification feature"
   Banner:
     type: object
     required:

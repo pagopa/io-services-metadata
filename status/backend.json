@@ -137,8 +137,8 @@
       },
       "security_level_check":{
         "min_app_version": {
-          "ios": "3.40.0.0", 
-          "android": "3.40.0.0"
+          "ios": "3.31.0.7", 
+          "android": "3.31.0.7"
         },
         "helpCenter_url": "https://assistenza.ioapp.it/hc/it/articles/30722976684049-Cosa-sono-i-livelli-di-sicurezza"
       }

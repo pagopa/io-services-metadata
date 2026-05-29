@@ -384,16 +384,16 @@
       },
       "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
       "itw_min_app_version": {
-        "ios": "5.0.0.0",
-        "android": "5.0.0.0"
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
       },
       "proximity_min_app_version": {
-        "ios": "5.0.0.0",
-        "android": "5.0.0.0"
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
       },
       "av_min_app_version": {
-        "ios": "5.0.0.0",
-        "android": "5.0.0.0"
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
       }
     },
     "landing_banners": {

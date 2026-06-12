@@ -1289,6 +1289,11 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      pinned_credentials:
+        type: array
+        description: "List of credentials to pin in the credentials selection screen"
+        items:
+          type: string
   Banner:
     type: object
     required:

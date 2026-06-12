@@ -1294,6 +1294,11 @@ definitions:
         description: "List of credentials to pin in the credentials selection screen"
         items:
           type: string
+      new_credentials:
+        type: array
+        description: "List of credentials to be highlighted as new in the credentials catalogue"
+        items:
+          type: string
   Banner:
     type: object
     required:

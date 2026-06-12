@@ -390,10 +390,6 @@
       "proximity_min_app_version": {
         "ios": "3.30.0.3",
         "android": "3.30.0.3"
-      },
-      "av_min_app_version": {
-        "ios": "3.30.0.3",
-        "android": "3.30.0.3"
       }
     },
     "landing_banners": {

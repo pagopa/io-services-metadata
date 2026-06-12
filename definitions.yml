@@ -1295,9 +1295,6 @@ definitions:
       proximity_min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can use the NFC proximity presentation feature"
-      av_min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can use the Age Verification feature"
   Banner:
     type: object
     required:

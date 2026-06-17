@@ -1299,6 +1299,11 @@ definitions:
         description: "List of credentials to be highlighted as new in the credentials catalogue"
         items:
           type: string
+      hidden_credentials:
+        type: array
+        description: "List of credentials to be hidden in the credentials catalogue"
+        items:
+          type: string
   Banner:
     type: object
     required:

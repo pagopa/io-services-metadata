@@ -1289,6 +1289,21 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      pinned_credentials:
+        type: array
+        description: "List of credentials to pin in the credentials selection screen"
+        items:
+          type: string
+      new_credentials:
+        type: array
+        description: "List of credentials to be highlighted as new in the credentials catalogue"
+        items:
+          type: string
+      hidden_credentials:
+        type: array
+        description: "List of credentials to be hidden in the credentials catalogue"
+        items:
+          type: string
       itw_min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
         description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"

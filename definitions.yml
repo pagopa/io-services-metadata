@@ -1408,9 +1408,6 @@ definitions:
   MessagesFeedbackBannerConfig:
     type: object
     description: "A configuration for the messages' feedback banner"
-    required:
-      - min_app_version
-      - feedback_uri
     properties:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"

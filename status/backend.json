@@ -418,8 +418,8 @@
     },
     "messages_feedback_banner": {
       "min_app_version": {
-        "ios": "3.35.0.6",
-        "android": "3.35.0.6"
+        "ios": "4.0.0.0",
+        "android": "4.0.0.0"
       },
       "feedback_uri": "https://pagopa.qualtrics.com/jfe/form/SV_0VCZTkYbfozt9ki"
     },

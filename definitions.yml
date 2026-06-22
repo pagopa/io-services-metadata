@@ -534,6 +534,8 @@ definitions:
         $ref: "#/definitions/LandingBannersConfig"
       app_feedback:
         $ref: "#/definitions/AppFeedbackConfig"
+      messages_feedback_banner:
+        $ref: "#/definitions/MessagesFeedbackBannerConfig"
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
       services:
@@ -1403,6 +1405,16 @@ definitions:
       feedback_uri:
         $ref: "#/definitions/AppFeedbackUri"
         description: "The config of uri to be used in app divided by topic and default one"
+  MessagesFeedbackBannerConfig:
+    type: object
+    description: "A configuration for the messages' feedback banner"
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version is not met, the messages' feedback banner will not be rendered"
+      feedback_uri:
+        type: string
+        description: "The uri to be invoked to let the user share feedback via the messages' survey banner"
   IOMarkdownConfig:
     type: object
     description: "A list of settings to remotely handle the new markdown component"

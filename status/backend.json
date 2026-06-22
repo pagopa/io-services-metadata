@@ -416,6 +416,13 @@
         "itw": "https://pagopa.qualtrics.com/jfe/form/SV_eVWKW6v4V6RikbY"
       }
     },
+    "messages_feedback_banner": {
+      "min_app_version": {
+        "ios": "3.35.0.6",
+        "android": "3.35.0.6"
+      },
+      "feedback_uri": "https://pagopa.qualtrics.com/jfe/form/SV_0VCZTkYbfozt9ki"
+    },
     "ioMarkdown": {
       "min_app_version": {
         "ios": "3.8.0.9",

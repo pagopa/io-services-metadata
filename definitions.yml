@@ -1414,7 +1414,7 @@ definitions:
     properties:
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can send feedback about messages"
+        description: "If min app version is not met, the messages' feedback banner will not be rendered"
       feedback_uri:
         type: string
         description: "The uri to be invoked to let the user share feedback via the messages' survey banner"

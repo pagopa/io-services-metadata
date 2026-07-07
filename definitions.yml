@@ -496,6 +496,8 @@ definitions:
         $ref: "#/definitions/CgnConfig"
       uaDonations:
         $ref: "#/definitions/UaDonationsConfig"
+      fse:
+        $ref: "#/definitions/FseConfig"
       fims:
         $ref: "#/definitions/FimsConfig"
       premiumMessages:
@@ -634,6 +636,21 @@ definitions:
       eyca_discount_url:
         type: string
         description: "EYCA discount redirect URL to be opened in when the user clicks on the related CTA"
+  FseConfig:
+    type: object
+    description: "A configuration for the Fascicolo Sanitario Elettronico feature"
+    properties:
+      landingBanner:
+        type: object
+        description: "A configuration for the FSE landing banner"
+        properties:
+          is_dismissable:
+            type: boolean
+            description: "If true, the FSE landing banner can be dismissed"
+          engagement_url:
+            type: string
+            pattern: ^https://
+            description: "The URL opened from the FSE landing banner"
   FimsConfig:
     type: object
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"

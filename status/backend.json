@@ -63,6 +63,12 @@
       "eyca_base_url": "https://eyca.org",
       "eyca_discount_url": "https://eyca.org/discounts?country=IT"
     },
+    "fse":{
+      "landingBanner":{
+        "is_dismissable":false,
+         "engagement_url":"https://www.fascicolosanitario.gov.it/portale/accedi-al-fascicolo"
+      }
+    },
     "fims": {
       "domain": "https://oauth.io.pagopa.it/",
       "enabled": false,
@@ -397,6 +403,7 @@
     },
     "landing_banners": {
       "priority_order": [
+        "FSE_ENGAGEMENT_BANNER",
         "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",

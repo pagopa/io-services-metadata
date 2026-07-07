@@ -516,16 +516,6 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
-      },
-      {
-        "routes": [
-          "PAYMENTS_HOME"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Per manutenzione, il 19 Luglio dalle 6:00 alle 15:00 non sarà possibile accedere e usare la Carta della Cultura. ",
-          "en-EN": "Per manutenzione, il 19 Luglio dalle 6:00 alle 15:00 non sarà possibile accedere e usare la Carta della Cultura. "
-        }
       }
     ]
   },

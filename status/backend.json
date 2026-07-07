@@ -516,6 +516,22 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "AUTHENTICATION_LANDING",
+          "MESSAGES_HOME",
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Al momento potresti non ricevere email da IO. Stiamo lavorando per ripristinare il servizio.",
+          "en-EN":
+            "You may not be receiving emails from IO at the moment. We're working to restore the service."
+        }
       }
     ]
   },

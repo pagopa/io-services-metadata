@@ -523,6 +523,30 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": ["AUTHENTICATION_LANDING"],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "L'app non sarà accessibile dalle 7:30 del 9 luglio. Ci vediamo dopo le 9:00!",
+          "en-EN":
+            "The app will be unavailable from 7:30 to 9:00 on 9 July. See you after 9:00!"
+        }
+      },
+      {
+        "routes": [
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Per lavori tecnici dalle 7:30 alle 9:00 del 9 luglio non riusciremo a inviare email. Modifica l’email dopo le 9:00.",
+          "en-EN":
+            "Due to technical work from 7:30 to 9:00 on 9 July, we won't be able to send emails. Please change your email after 9:00."
+        }
       }
     ]
   },

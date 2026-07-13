@@ -63,6 +63,12 @@
       "eyca_base_url": "https://eyca.org",
       "eyca_discount_url": "https://eyca.org/discounts?country=IT"
     },
+    "fse":{
+      "landingBanner":{
+        "is_dismissable":false,
+         "engagement_url":"https://www.fascicolosanitario.gov.it/portale/accedi-al-fascicolo"
+      }
+    },
     "fims": {
       "domain": "https://oauth.io.pagopa.it/",
       "enabled": false,
@@ -382,10 +388,22 @@
         "service_organization_name": "Ministero delle infrastrutture e dei trasporti",
         "service_organization_fiscal_code": "97532760580"
       },
-      "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html"
+      "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
+      "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
+      "new_credentials": [],
+      "hidden_credentials": [],
+      "itw_min_app_version": {
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
+      },
+      "proximity_min_app_version": {
+        "ios": "3.30.0.3",
+        "android": "3.30.0.3"
+      }
     },
     "landing_banners": {
       "priority_order": [
+        "FSE_ENGAGEMENT_BANNER",
         "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "CGN_ENGAGEMENT_BANNER",
@@ -405,6 +423,13 @@
         "payments": "https://pagopa.qualtrics.com/jfe/form/SV_4ONrZLMoebKCAWa",
         "itw": "https://pagopa.qualtrics.com/jfe/form/SV_eVWKW6v4V6RikbY"
       }
+    },
+    "messages_feedback_banner": {
+      "min_app_version": {
+        "ios": "0.0.0.0",
+        "android": "0.0.0.0"
+      },
+      "feedback_uri": "https://pagopa.qualtrics.com/jfe/form/SV_0VCZTkYbfozt9ki"
     },
     "ioMarkdown": {
       "min_app_version": {

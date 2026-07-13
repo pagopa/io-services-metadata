@@ -496,6 +496,8 @@ definitions:
         $ref: "#/definitions/CgnConfig"
       uaDonations:
         $ref: "#/definitions/UaDonationsConfig"
+      fse:
+        $ref: "#/definitions/FseConfig"
       fims:
         $ref: "#/definitions/FimsConfig"
       premiumMessages:
@@ -534,6 +536,8 @@ definitions:
         $ref: "#/definitions/LandingBannersConfig"
       app_feedback:
         $ref: "#/definitions/AppFeedbackConfig"
+      messages_feedback_banner:
+        $ref: "#/definitions/MessagesFeedbackBannerConfig"
       ioMarkdown:
         $ref: "#/definitions/IOMarkdownConfig"
       services:
@@ -632,6 +636,21 @@ definitions:
       eyca_discount_url:
         type: string
         description: "EYCA discount redirect URL to be opened in when the user clicks on the related CTA"
+  FseConfig:
+    type: object
+    description: "A configuration for the Fascicolo Sanitario Elettronico feature"
+    properties:
+      landingBanner:
+        type: object
+        description: "A configuration for the FSE landing banner"
+        properties:
+          is_dismissable:
+            type: boolean
+            description: "If true, the FSE landing banner can be dismissed"
+          engagement_url:
+            type: string
+            pattern: ^https://
+            description: "The URL opened from the FSE landing banner"
   FimsConfig:
     type: object
     description: "dedicated config for the FIMS (Federated Identity Management System) feature"
@@ -1226,7 +1245,7 @@ definitions:
         description: "If true, the app can activate the IT-Wallet and the user can see the IT-Wallet section"
       min_app_version:
         $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can issues credentials and see the IT-Wallet section"
+        description: "If min app version supported, the user can issues credentials and see the Documenti su IO section"
       disabled_identification_methods:
         description: "List of identification methods to disable or hide during IT Wallet activation"
         type: array
@@ -1289,6 +1308,27 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      pinned_credentials:
+        type: array
+        description: "List of credentials to pin in the credentials selection screen"
+        items:
+          type: string
+      new_credentials:
+        type: array
+        description: "List of credentials to be highlighted as new in the credentials catalogue"
+        items:
+          type: string
+      hidden_credentials:
+        type: array
+        description: "List of credentials to be hidden in the credentials catalogue"
+        items:
+          type: string
+      itw_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
+      proximity_min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version supported, the user can use the NFC proximity presentation feature"
   Banner:
     type: object
     required:
@@ -1382,6 +1422,16 @@ definitions:
       feedback_uri:
         $ref: "#/definitions/AppFeedbackUri"
         description: "The config of uri to be used in app divided by topic and default one"
+  MessagesFeedbackBannerConfig:
+    type: object
+    description: "A configuration for the messages' feedback banner"
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "If min app version is not met, the messages' feedback banner will not be rendered"
+      feedback_uri:
+        type: string
+        description: "The uri to be invoked to let the user share feedback via the messages' survey banner"
   IOMarkdownConfig:
     type: object
     description: "A list of settings to remotely handle the new markdown component"

@@ -1235,10 +1235,8 @@ definitions:
     type: object
     description: "A configuration for the IT-Wallet feature"
     required:
-      - min_app_version
       - enabled
-      - feedback_banner_visible
-      - ipatente_cta_visible
+      - min_app_version
     properties:
       enabled:
         type: boolean
@@ -1323,12 +1321,20 @@ definitions:
         description: "List of credentials to be hidden in the credentials catalogue"
         items:
           type: string
-      itw_min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
-      proximity_min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can use the NFC proximity presentation feature"
+      itw_l3:
+        type: object
+        description: "A configuration for the IT-Wallet (l3) feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
+      proximity:
+        type: object
+        description: "A configuration for the IT-Wallet proximity feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can use the proximity feature"
   Banner:
     type: object
     required:

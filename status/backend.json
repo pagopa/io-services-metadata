@@ -143,7 +143,7 @@
       },
       "security_level_check":{
         "min_app_version": {
-          "ios": "3.31.0.7",
+          "ios": "3.31.0.7", 
           "android": "3.31.0.7"
         },
         "helpCenter_url": "https://assistenza.ioapp.it/hc/it/articles/30722976684049-Cosa-sono-i-livelli-di-sicurezza"
@@ -522,16 +522,6 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
-        }
-      },
-      {
-        "routes": [
-          "PAYMENT_CHECKOUT_MAKE"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Stiamo riscontrando problemi con alcuni metodi di pagamento. Stiamo lavorando per risolvere il problema.",
-          "en-EN": "We are currently having issues with some payment methods. We are working to solve the problem."
         }
       }
     ]

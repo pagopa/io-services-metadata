@@ -1235,8 +1235,10 @@ definitions:
     type: object
     description: "A configuration for the IT-Wallet feature"
     required:
-      - enabled
       - min_app_version
+      - enabled
+      - feedback_banner_visible
+      - ipatente_cta_visible
     properties:
       enabled:
         type: boolean

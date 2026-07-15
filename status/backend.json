@@ -523,6 +523,16 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "PAYMENT_CHECKOUT_MAKE"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Stiamo riscontrando problemi con alcuni metodi di pagamento. Stiamo lavorando per risolvere il problema.",
+          "en-EN": "We are currently having  issues with some payment methods. We are working to solve the problem."
+        }
       }
     ]
   },

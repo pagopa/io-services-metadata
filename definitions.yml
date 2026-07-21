@@ -538,8 +538,6 @@ definitions:
         $ref: "#/definitions/AppFeedbackConfig"
       messages_feedback_banner:
         $ref: "#/definitions/MessagesFeedbackBannerConfig"
-      ioMarkdown:
-        $ref: "#/definitions/IOMarkdownConfig"
       services:
         $ref: "#/definitions/ServicesConfig"
       min_supported_os:
@@ -1440,13 +1438,6 @@ definitions:
       feedback_uri:
         type: string
         description: "The uri to be invoked to let the user share feedback via the messages' survey banner"
-  IOMarkdownConfig:
-    type: object
-    description: "A list of settings to remotely handle the new markdown component"
-    properties:
-      min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "Minimum app version that can use the new IOMarkdown"
   ServicesConfig:
     type: object
     description: "A configuration for the services feature"    

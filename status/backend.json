@@ -434,12 +434,6 @@
       },
       "feedback_uri": "https://pagopa.qualtrics.com/jfe/form/SV_0VCZTkYbfozt9ki"
     },
-    "ioMarkdown": {
-      "min_app_version": {
-        "ios": "3.8.0.9",
-        "android": "3.8.0.9"
-      }
-    },
     "zendeskCacBanner": {
       "min_app_version": {
         "ios": "0.0.0.0",

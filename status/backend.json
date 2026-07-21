@@ -392,13 +392,17 @@
       "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
       "new_credentials": [],
       "hidden_credentials": [],
-      "itw_min_app_version": {
-        "ios": "3.30.0.3",
-        "android": "3.30.0.3"
+      "itw_l3": {
+        "min_app_version": {
+          "ios": "9.0.0.0",
+          "android": "9.0.0.0"
+        }
       },
-      "proximity_min_app_version": {
-        "ios": "3.30.0.3",
-        "android": "3.30.0.3"
+      "proximity": {
+        "min_app_version": {
+          "ios": "3.30.0.3",
+          "android": "3.30.0.3"
+        }
       }
     },
     "landing_banners": {

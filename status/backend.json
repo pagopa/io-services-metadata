@@ -65,7 +65,7 @@
     },
     "fse":{
       "landingBanner":{
-        "is_dismissable":false,
+        "is_dismissable":true,
          "engagement_url":"https://www.fascicolosanitario.gov.it/portale/accedi-al-fascicolo"
       }
     },

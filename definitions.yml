@@ -1475,8 +1475,6 @@ definitions:
     properties:
       rolloutPercentage:
         type: number
-        minimum: 0
-        maximum: 100
         description: "The percentage of users that will be able to use the One Identity feature"
   FimsServiceConfiguration:
     type: object

@@ -522,6 +522,8 @@ definitions:
         $ref: "#/definitions/FastLoginConfig"
       loginConfig:
         $ref: "#/definitions/LoginConfig"
+      oneIdentity:
+        $ref: "#/definitions/OneIdentityConfig"
       nativeLogin:
         $ref: "#/definitions/NativeLoginConfig"
       emailUniquenessValidation:
@@ -1468,6 +1470,14 @@ definitions:
         type: string
         description: "The URL to be used for the login flow"
         pattern: ^https://
+  OneIdentityConfig:
+    type: object
+    properties:
+      rolloutPercentage:
+        type: number
+        minimum: 0
+        maximum: 100
+        description: "The percentage of users that will be able to use the One Identity feature"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

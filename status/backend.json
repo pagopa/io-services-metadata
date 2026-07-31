@@ -302,6 +302,9 @@
       },
       "loginUrl": "https://app-backend.io.italia.it"
     },
+    "oneIdentity": {
+      "rolloutPercentage": 0
+    },
     "pn": {
       "enabled": true,
       "min_app_version": {

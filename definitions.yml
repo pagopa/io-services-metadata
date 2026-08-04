@@ -1489,7 +1489,6 @@ definitions:
       idpsUrl:
         type: string
         description: "The URL to retrieve the list of identity providers (IDPs)"
-        pattern: ^https://
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

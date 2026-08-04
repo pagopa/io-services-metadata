@@ -309,7 +309,7 @@
           "idpsUrl": "https://io.oneid.pagopa.it/idps"
         },
         "uat": {
-          "idpsUrl": "https://io.uat.oneid.pagopa.it/idps"
+          "idpsUrl": "https://uat.io.oneid.pagopa.it/idps"
         }
       }
     },

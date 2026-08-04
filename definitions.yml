@@ -1476,6 +1476,19 @@ definitions:
       rolloutPercentage:
         type: number
         description: "The percentage of users that will be able to use the One Identity feature"
+      environments:
+        type: object
+        properties:
+          prod:
+            $ref: "#/definitions/OneIdentityEnvironmentConfig"
+          uat:
+            $ref: "#/definitions/OneIdentityEnvironmentConfig"
+  OneIdentityEnvironmentConfig:
+    type: object
+    properties:
+      idpsUrl:
+        type: string
+        description: "The URL to retrieve the list of identity providers (IDPs)"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

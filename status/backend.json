@@ -303,7 +303,15 @@
       "loginUrl": "https://app-backend.io.italia.it"
     },
     "oneIdentity": {
-      "rolloutPercentage": 0
+      "rolloutPercentage": 0,
+      "environments": {
+        "prod": {
+          "idpsUrl": "https://io.oneid.pagopa.it/idps"
+        },
+        "uat": {
+          "idpsUrl": "https://uat.io.oneid.pagopa.it/idps"
+        }
+      }
     },
     "pn": {
       "enabled": true,

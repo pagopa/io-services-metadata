@@ -100,10 +100,7 @@
           "android": "2.79.0.9"
         },
         "urls": {
-          "url1": [
-            "mixpanelId",
-            "darkMode"
-          ]
+          
         }
       }
     },

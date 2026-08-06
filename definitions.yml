@@ -682,7 +682,7 @@ definitions:
         description: "List of service IDs for which iOS cookie sharing is disabled (anonymous mode enabled for these services on iOS, avoiding the native consent popup)"
       trackingEnrichedUrls:
         type: array
-        description: "The list of urls that will be enriched with the FIMS tracking parameters (for mixpanel purposes)"
+        description: "The list of urls that will be enriched with the mixpanel ID (for tracking purposes)"
         items:
           type: string
   AssistanceToolConfig:

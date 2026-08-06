@@ -94,14 +94,7 @@
       "iOSCookieDisabledServiceIds": [
         "01JV4M365CHAZN5C0FDR62DCVD"
       ],
-      "trackingEnrichedUrls": {
-        "min_app_version": {
-          "ios": "2.79.0.9",
-          "android": "2.79.0.9"
-        },
-        "urls": {
-          
-        }
+      "trackingEnrichedUrls": ["url1", "url2"]
       }
     },
     "uaDonations": {

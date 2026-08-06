@@ -681,17 +681,10 @@ definitions:
           type: string
         description: "List of service IDs for which iOS cookie sharing is disabled (anonymous mode enabled for these services on iOS, avoiding the native consent popup)"
       trackingEnrichedUrls:
-        type: object
-        properties:
-          min_app_version:
-            $ref: "#/definitions/VersionPerPlatform"
-          urls:
-            description: "A map where keys are the URLs that need to be enriched with tracking parameters and values are the list of tracking parameters to be added to the URL (for mixpanel purposes)"
-            type: object
-            additionalProperties:
-              type: array
-              items:
-                type: string
+        type: array
+        description: "The list of urls that will be enriched with the FIMS tracking parameters (for mixpanel purposes)"
+        items:
+          type: string
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

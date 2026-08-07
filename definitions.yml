@@ -685,6 +685,7 @@ definitions:
         description: "The list of urls that will be enriched with the mixpanel ID (for tracking purposes)"
         items:
           type: string
+          pattern: ^https://
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"

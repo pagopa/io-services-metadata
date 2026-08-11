@@ -533,6 +533,15 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },{
+        "routes": [
+          "AUTHENTICATION_LANDING"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "L'app non sarà accessibile dalle 7:00 del 12 agosto. Ci vediamo dopo le 9:00!",
+          "en-EN": "The app will be unavailable from 7:00 to 9:00 on 12 August. See you after 9:00!"
+        }
       }
     ]
   },

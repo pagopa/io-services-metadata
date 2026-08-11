@@ -65,7 +65,7 @@
     },
     "fse":{
       "landingBanner":{
-        "is_dismissable":false,
+        "is_dismissable":true,
          "engagement_url":"https://www.fascicolosanitario.gov.it/portale/accedi-al-fascicolo"
       }
     },
@@ -93,7 +93,8 @@
       ],
       "iOSCookieDisabledServiceIds": [
         "01JV4M365CHAZN5C0FDR62DCVD"
-      ]
+      ],
+      "trackingEnrichedUrls": []
     },
     "uaDonations": {
       "enabled": false,
@@ -143,7 +144,7 @@
       },
       "security_level_check":{
         "min_app_version": {
-          "ios": "3.31.0.7", 
+          "ios": "3.31.0.7",
           "android": "3.31.0.7"
         },
         "helpCenter_url": "https://assistenza.ioapp.it/hc/it/articles/30722976684049-Cosa-sono-i-livelli-di-sicurezza"
@@ -302,6 +303,17 @@
       },
       "loginUrl": "https://app-backend.io.italia.it"
     },
+    "oneIdentity": {
+      "rolloutPercentage": 0,
+      "environments": {
+        "prod": {
+          "idpsUrl": "https://io.oneid.pagopa.it/idps"
+        },
+        "uat": {
+          "idpsUrl": "https://uat.io.oneid.pagopa.it/idps"
+        }
+      }
+    },
     "pn": {
       "enabled": true,
       "min_app_version": {
@@ -392,13 +404,17 @@
       "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
       "new_credentials": [],
       "hidden_credentials": [],
-      "itw_min_app_version": {
-        "ios": "3.30.0.3",
-        "android": "3.30.0.3"
+      "itw_l3": {
+        "min_app_version": {
+          "ios": "9.0.0.0",
+          "android": "9.0.0.0"
+        }
       },
-      "proximity_min_app_version": {
-        "ios": "3.30.0.3",
-        "android": "3.30.0.3"
+      "proximity": {
+        "min_app_version": {
+          "ios": "3.30.0.3",
+          "android": "3.30.0.3"
+        }
       }
     },
     "landing_banners": {
@@ -426,16 +442,10 @@
     },
     "messages_feedback_banner": {
       "min_app_version": {
-        "ios": "0.0.0.0",
-        "android": "0.0.0.0"
+        "ios": "3.35.0.11",
+        "android": "3.35.0.11"
       },
       "feedback_uri": "https://pagopa.qualtrics.com/jfe/form/SV_0VCZTkYbfozt9ki"
-    },
-    "ioMarkdown": {
-      "min_app_version": {
-        "ios": "3.8.0.9",
-        "android": "3.8.0.9"
-      }
     },
     "zendeskCacBanner": {
       "min_app_version": {

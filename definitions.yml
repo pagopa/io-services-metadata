@@ -522,6 +522,8 @@ definitions:
         $ref: "#/definitions/FastLoginConfig"
       loginConfig:
         $ref: "#/definitions/LoginConfig"
+      oneIdentity:
+        $ref: "#/definitions/OneIdentityConfig"
       nativeLogin:
         $ref: "#/definitions/NativeLoginConfig"
       emailUniquenessValidation:
@@ -538,8 +540,6 @@ definitions:
         $ref: "#/definitions/AppFeedbackConfig"
       messages_feedback_banner:
         $ref: "#/definitions/MessagesFeedbackBannerConfig"
-      ioMarkdown:
-        $ref: "#/definitions/IOMarkdownConfig"
       services:
         $ref: "#/definitions/ServicesConfig"
       min_supported_os:
@@ -680,6 +680,12 @@ definitions:
         items:
           type: string
         description: "List of service IDs for which iOS cookie sharing is disabled (anonymous mode enabled for these services on iOS, avoiding the native consent popup)"
+      trackingEnrichedUrls:
+        type: array
+        description: "The list of urls that will be enriched with the mixpanel ID (for tracking purposes)"
+        items:
+          type: string
+          pattern: ^https://
   AssistanceToolConfig:
     type: object
     description: "A specific config for the assistance tool"
@@ -1323,12 +1329,20 @@ definitions:
         description: "List of credentials to be hidden in the credentials catalogue"
         items:
           type: string
-      itw_min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
-      proximity_min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "If min app version supported, the user can use the NFC proximity presentation feature"
+      itw_l3:
+        type: object
+        description: "A configuration for the IT-Wallet (l3) feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the user can issues credentials and see the new IT-Wallet section"
+      proximity:
+        type: object
+        description: "A configuration for the IT-Wallet proximity feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can use the proximity feature"
   Banner:
     type: object
     required:
@@ -1432,13 +1446,6 @@ definitions:
       feedback_uri:
         type: string
         description: "The uri to be invoked to let the user share feedback via the messages' survey banner"
-  IOMarkdownConfig:
-    type: object
-    description: "A list of settings to remotely handle the new markdown component"
-    properties:
-      min_app_version:
-        $ref: "#/definitions/VersionPerPlatform"
-        description: "Minimum app version that can use the new IOMarkdown"
   ServicesConfig:
     type: object
     description: "A configuration for the services feature"    
@@ -1469,6 +1476,25 @@ definitions:
         type: string
         description: "The URL to be used for the login flow"
         pattern: ^https://
+  OneIdentityConfig:
+    type: object
+    properties:
+      rolloutPercentage:
+        type: number
+        description: "The percentage of users that will be able to use the One Identity feature"
+      environments:
+        type: object
+        properties:
+          prod:
+            $ref: "#/definitions/OneIdentityEnvironmentConfig"
+          uat:
+            $ref: "#/definitions/OneIdentityEnvironmentConfig"
+  OneIdentityEnvironmentConfig:
+    type: object
+    properties:
+      idpsUrl:
+        type: string
+        description: "The URL to retrieve the list of identity providers (IDPs)"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

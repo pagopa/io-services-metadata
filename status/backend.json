@@ -533,6 +533,20 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "FCI_LOGIN_L3",
+          "FCI_DOCUMENTS",
+          "FCI_SIGNATURE_FIELDS",
+          "FCI_USER_DATA_SHARE",
+          "FCI_QTSP_TOS"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT": "Al momento non è possibile usare il servizio di firma, stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN": "The signature service is currently unavailable, but we are working to fix it. Please try again later."
+        }
       }
     ]
   },

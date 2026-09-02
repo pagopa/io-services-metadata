@@ -1495,6 +1495,9 @@ definitions:
       idpsUrl:
         type: string
         description: "The URL to retrieve the list of identity providers (IDPs)"
+      idpFriendlyNamesUrl:
+        type: string
+        description: "The URL to retrieve the list of friendly names for identity providers (IDPs)"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

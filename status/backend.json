@@ -312,7 +312,7 @@
         },
         "uat": {
           "idpsUrl": "https://uat.io.oneid.pagopa.it/idps",
-          "idpFriendlyNamesUrl": "https://assets.io.oneid.pagopa.it/assets/idpFriendlyNameList.json"
+          "idpFriendlyNamesUrl": "https://assets.uat.io.oneid.pagopa.it/assets/idpFriendlyNameList.json"
         }
       }
     },

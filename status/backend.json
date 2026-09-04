@@ -419,8 +419,7 @@
           "ios": "3.30.0.3",
           "android": "3.30.0.3"
         }
-      },
-      "disabled_credentials": ["EuropeanHealthInsuranceCard"]
+      }
     },
     "landing_banners": {
       "priority_order": [
@@ -537,18 +536,6 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
-        }
-      },
-     {
-        "routes": [
-          "ITW_CARD_ONBOARDING"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT":
-            "Al momento non puoi aggiungere Tessera Sanitaria per un problema temporaneo sui sistemi dell'ente. Riprova più tardi.",
-          "en-EN":
-            "At the moment you cannot add the Health Card due to a temporary issue with the entity's systems. Please try again later."
         }
       }
     ]

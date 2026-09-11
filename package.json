@@ -48,7 +48,7 @@
     "babel-jest": "^24.8.0",
     "chalk": "^3.0.0",
     "change-case": "^4.1.2",
-    "csv-parse": "^4.4.6",
+    "csv-parse": "^7.0.0",
     "csv-stream": "^0.2.0",
     "event-stream": "^3.3.4",
     "fs-extra": "^7.0.0",

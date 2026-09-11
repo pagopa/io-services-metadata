@@ -419,7 +419,8 @@
           "ios": "3.30.0.3",
           "android": "3.30.0.3"
         }
-      }
+      },
+      "showcase_url": "https://ioapp.it/documenti-su-io"
     },
     "landing_banners": {
       "priority_order": [

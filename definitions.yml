@@ -1343,6 +1343,9 @@ definitions:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the app can use the proximity feature"
+      showcase_url:
+        type: string
+        description: "The URL opened from the Discover IT-Wallet action"
   Banner:
     type: object
     required:

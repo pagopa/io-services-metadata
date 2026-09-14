@@ -96,7 +96,10 @@
         "01KTXJ47AAJMZFRJPA4V4TX5D0",
         "01KTXHQSA4GPSVDJQWC2NYCJK5"
       ],
-      "trackingEnrichedUrls": []
+      "trackingEnrichedUrls": [
+        "https://browser.ced.pagopa.it/",
+        "https://card.ced.pagopa.it/"
+      ]
     },
     "uaDonations": {
       "enabled": false,

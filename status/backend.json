@@ -97,8 +97,8 @@
         "01KTXHQSA4GPSVDJQWC2NYCJK5"
       ],
       "trackingEnrichedUrls": [
-        "https://browser.ced.pagopa.it/",
-        "https://card.ced.pagopa.it/"
+        "https://browser.ced.pagopa.it/authorize",
+        "https://card.ced.pagopa.it/authorize"
       ]
     },
     "uaDonations": {

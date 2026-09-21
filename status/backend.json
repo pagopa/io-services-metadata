@@ -419,7 +419,7 @@
       "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
       "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
       "new_credentials": [],
-      "hidden_credentials": [],
+      "hidden_credentials": ["proof_of_age"],
       "itw_l3": {
         "min_app_version": {
           "ios": "9.0.0.0",

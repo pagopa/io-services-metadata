@@ -1314,6 +1314,9 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      ipzs_itwallet_privacy_url:
+        type: string
+        description: "The URL to the IPZS IT-Wallet privacy policy"
       pinned_credentials:
         type: array
         description: "List of credentials to pin in the credentials selection screen"

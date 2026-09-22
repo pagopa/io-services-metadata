@@ -417,6 +417,7 @@
         "service_organization_fiscal_code": "97532760580"
       },
       "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
+      "ipzs_itwallet_privacy_url": "https://util.wallet.ipzs.it/privacy_itwallet.html",
       "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
       "new_credentials": [],
       "hidden_credentials": [],

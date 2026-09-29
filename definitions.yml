@@ -1500,6 +1500,9 @@ definitions:
         items:
           type: string
         description: "The list of allowed CIE origins"
+      cieNativeRedirectsEnabled:
+        type: boolean
+        description: "If true, the CIE + PIN login follows the OneIdentity /authorize redirects natively instead of inside the WebView"
   OneIdentityEnvironmentConfig:
     type: object
     properties:

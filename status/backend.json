@@ -157,8 +157,8 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "3.18.0.1",
-        "android": "3.18.0.1"
+        "ios": "8.18.0.1",
+        "android": "8.18.0.1"
       },
       "onboarding": {
         "enabled": true,
@@ -328,7 +328,8 @@
         "https://ios.idserver.servizicie.interno.gov.it",
         "https://ios.oidc.idserver.servizicie.interno.gov.it",
         "https://preproduzione.idserver.servizicie.interno.gov.it"
-      ]
+      ],
+      "cieNativeRedirectsEnabled": false
     },
     "pn": {
       "enabled": true,

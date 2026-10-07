@@ -436,8 +436,8 @@
       },
       "proximity_nfc": {
         "min_app_version": {
-          "ios": "9.9.9.9",
-          "android": "9.9.9.9"
+          "ios": "3.40.0.12",
+          "android": "3.40.0.12"
         }
       },
       "showcase_url": "https://wallet.gov.it/"

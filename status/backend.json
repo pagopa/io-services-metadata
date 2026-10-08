@@ -440,7 +440,10 @@
           "android": "3.40.0.12"
         }
       },
-      "showcase_url": "https://wallet.gov.it/"
+      "showcase_url": "https://wallet.gov.it/",
+      "disabled_credentials": [
+        "credential_type"
+      ]
     },
     "landing_banners": {
       "priority_order": [
@@ -557,6 +560,18 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
+        }
+      },
+      {
+        "routes": [
+          "ITW_CARD_L3_ONBOARDING"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Al momento non puoi aggiungere {Nome credenziale} per un problema sui sistemi dell'ente. Riprova più tardi.",
+          "en-EN":
+            "You can’t add {credential name} at the moment due to a problem with the document issuer. Please try again later."
         }
       }
     ]

@@ -558,6 +558,18 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "ITW_IDENTIFICATION_MODE_SELECTION"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "L’accesso SPID con alcuni operatori non è al momento disponibile. Usa un altro metodo o riprova più tardi.",
+          "en-EN":
+            "SPID login with some providers is currently unavailable. Use another method or try again later."
+        }
       }
     ]
   },

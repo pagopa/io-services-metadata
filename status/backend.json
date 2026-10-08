@@ -558,6 +558,21 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "WALLET_HOME",
+          "ITW_CARD_L3_ONBOARDING",
+          "ITW_DISCOVERY_INFO",
+          "ITW_IDENTIFICATION_MODE_SELECTION"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Alcune funzioni del Portafoglio potrebbero essere limitate.",
+          "en-EN":
+            "Some Wallet features may be limited."
+        }
       }
     ]
   },

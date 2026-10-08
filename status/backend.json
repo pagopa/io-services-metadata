@@ -440,7 +440,8 @@
           "android": "3.40.0.12"
         }
       },
-      "showcase_url": "https://wallet.gov.it/"
+      "showcase_url": "https://wallet.gov.it/",
+      "wallet_activation_disabled": true
     },
     "landing_banners": {
       "priority_order": [
@@ -557,6 +558,20 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
+        }
+      },
+      {
+        "routes": [
+          "WALLET_HOME",
+          "ITW_CARD_L3_ONBOARDING",
+          "ITW_DISCOVERY_INFO"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Alcune funzioni del Portafoglio potrebbero essere limitate.",
+          "en-EN":
+            "Some Wallet features may be limited."
         }
       }
     ]

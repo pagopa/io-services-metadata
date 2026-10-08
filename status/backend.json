@@ -558,6 +558,27 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "AUTHENTICATION_LANDING",
+          "MESSAGES_HOME",
+          "WALLET_HOME",
+          "PAYMENTS_HOME",
+          "SERVICES_HOME",
+          "BARCODE_SCAN",
+          "CHECK_EMAIL_NOT_VERIFIED",
+          "ONBOARDING_EMAIL_VERIFICATION_SCREEN",
+          "INSERT_EMAIL_SCREEN",
+          "EMAIL_VERIFICATION_SCREEN"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Qualcosa non va, ma stiamo lavorando per risolvere il problema. Riprova più tardi.",
+          "en-EN":
+            "There's a problem, but we're fixing it. Try again later."
+        }
       }
     ]
   },

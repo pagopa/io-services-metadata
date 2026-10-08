@@ -558,6 +558,18 @@
           "it-IT":
             "https://ioapp.it/scarica-io"
         }
+      },
+      {
+        "routes": [
+          "ITW_CARD_L3_ONBOARDING"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "Potresti riscontrare problemi nel visualizzare i documenti. Stiamo lavorando per risolvere, riprova più tardi.",
+          "en-EN":
+            "You may experience issues viewing your documents. We’re working to fix this. Please try again later."
+        }
       }
     ]
   },

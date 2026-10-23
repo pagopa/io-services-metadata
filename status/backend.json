@@ -89,6 +89,10 @@
           "configuration_id": "cdc-onboarding",
           "service_id": "01JV4M365CHAZN5C0FDR62DCVD",
           "service_name": "Carta della Cultura - Onboarding"
+        },
+        {
+          "configuration_id": "ced-opportunities",
+          "service_id": "01KTXJ47AAJMZFRJPA4V4TX5D0"
         }
       ],
       "iOSCookieDisabledServiceIds": [

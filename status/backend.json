@@ -329,7 +329,8 @@
         "https://ios.oidc.idserver.servizicie.interno.gov.it",
         "https://preproduzione.idserver.servizicie.interno.gov.it"
       ],
-      "cieNativeRedirectsEnabled": false
+      "cieNativeRedirectsEnabled": false,
+      "cieClearSessionCookiesEnabled": false
     },
     "pn": {
       "enabled": true,

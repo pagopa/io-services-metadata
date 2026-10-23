@@ -330,7 +330,7 @@
         "https://preproduzione.idserver.servizicie.interno.gov.it"
       ],
       "cieNativeRedirectsEnabled": false,
-      "cieClearSessionCookiesEnabled": false
+      "cieAndroidClearSessionCookiesEnabled": false
     },
     "pn": {
       "enabled": true,

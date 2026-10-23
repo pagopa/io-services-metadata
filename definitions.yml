@@ -1510,6 +1510,9 @@ definitions:
       cieNativeRedirectsEnabled:
         type: boolean
         description: "If true, the CIE + PIN login follows the OneIdentity /authorize redirects natively instead of inside the WebView"
+      cieAndroidClearSessionCookiesEnabled:
+        type: boolean
+        description: "If true, the session cookies are cleared at the start of the CIE + PIN login in the OneIdentity flow (Android only)"
   OneIdentityEnvironmentConfig:
     type: object
     properties:

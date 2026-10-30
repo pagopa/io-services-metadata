@@ -92,7 +92,10 @@
         },
         {
           "configuration_id": "ced-opportunities",
-          "service_id": "01KTXJ47AAJMZFRJPA4V4TX5D0"
+          "organization_fiscal_code": "15376371009",
+          "organization_name": "IO - L'app dei servizi pubblici",
+          "service_id": "01KTXJ47AAJMZFRJPA4V4TX5D0",
+          "service_name": "Carta Europea della Disabilità"
         }
       ],
       "iOSCookieDisabledServiceIds": [

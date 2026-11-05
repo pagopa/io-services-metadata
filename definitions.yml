@@ -1282,6 +1282,9 @@ definitions:
           description:
             $ref: "#/definitions/LocalizedText"
             description: "The description to be shown in screen"
+      discover_more_ced_enabled:
+        type: boolean
+        description: "Enables the discover opportunities CTA inside the European Disability Card details screen"
       ipatente_cta_visible:
         description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
         type: boolean

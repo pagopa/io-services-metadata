@@ -10,3 +10,6 @@
 .otnotice-section-header,
 .otnotice-section-content{max-width:none !important;width:100% !important;margin:0 !important;padding:0 !important}
 .otnotice-menu{display:none !important}
+/* The left aligned menu layout also styles section headers (grey, 16px):
+   restore the same h2 look used by notices without that layout, in both themes. */
+.otnotice .otnotice-sections>.otnotice-section>h2.otnotice-section-header{color:var(--body-secondary);font-size:1.5rem;font-weight:700;line-height:1.6;margin:15px 0 !important}

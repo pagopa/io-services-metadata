@@ -1570,3 +1570,26 @@ definitions:
       cac:
         $ref: "#/definitions/LocalizedText"
         description: "The CAC text for the initiative configuration"
+  CgnFeaturedOpportunities:
+    type: array
+    description: "Opportunities shown in the 'Opportunità in evidenza' banner of the CGN section"
+    items:
+      $ref: "#/definitions/CgnFeaturedOpportunity"
+  CgnFeaturedOpportunity:
+    type: object
+    required:
+      - partnerName
+      - description
+    properties:
+      partnerName:
+        type: string
+        description: "The partner name"
+      partnerLogo:
+        type: string
+        description: "The partner logo URL"
+      description:
+        type: string
+        description: "The limited description of the opportunity"
+      ctaUrl:
+        type: string
+        description: "The URL opened when the opportunity is tapped"

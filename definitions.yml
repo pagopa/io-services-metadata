@@ -1360,6 +1360,13 @@ definitions:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the app can use the NFC engagement mode for the proximity feature"
+      whats_new:
+        type: object
+        description: "A configuration for the IT-Wallet What's New page"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can show the IT-Wallet What's New page"
       showcase_url:
         type: string
         description: "The URL opened from the Discover IT-Wallet action"

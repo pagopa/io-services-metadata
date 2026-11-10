@@ -454,6 +454,12 @@
           "android": "3.40.0.12"
         }
       },
+      "whats_new": {
+        "min_app_version": {
+          "ios": "9.0.0.0",
+          "android": "9.0.0.0"
+        }
+      },
       "showcase_url": "https://wallet.gov.it/"
     },
     "landing_banners": {

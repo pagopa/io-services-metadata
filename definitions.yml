@@ -636,6 +636,9 @@ definitions:
       eyca_discount_url:
         type: string
         description: "EYCA discount redirect URL to be opened in when the user clicks on the related CTA"
+      featured_opportunities:
+        $ref: "#/definitions/CgnFeaturedOpportunities"
+        description: "Opportunities shown in the CGN featured opportunities section"
   FseConfig:
     type: object
     description: "A configuration for the Fascicolo Sanitario Elettronico feature"
@@ -1571,10 +1574,19 @@ definitions:
         $ref: "#/definitions/LocalizedText"
         description: "The CAC text for the initiative configuration"
   CgnFeaturedOpportunities:
-    type: array
-    description: "Opportunities shown in the 'Opportunità in evidenza' banner of the CGN section"
-    items:
-      $ref: "#/definitions/CgnFeaturedOpportunity"
+    type: object
+    description: "Configuration for opportunities shown in the CGN featured opportunities section"
+    required:
+      - min_app_version
+      - opportunities
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "Minimum app version required to show the featured opportunities"
+      opportunities:
+        type: array
+        items:
+          $ref: "#/definitions/CgnFeaturedOpportunity"
   CgnFeaturedOpportunity:
     type: object
     required:

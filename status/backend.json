@@ -459,12 +459,12 @@
     "landing_banners": {
       "priority_order": [
         "IT_WALLET_DISCOVERY",
-        "FSE_ENGAGEMENT_BANNER",
         "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "PUSH_NOTIFICATIONS_REMINDER",
         "ITW_DISCOVERY",
-        "SEND_ACTIVATION_REMINDER"
+        "SEND_ACTIVATION_REMINDER",
+        "FSE_ENGAGEMENT_BANNER"
       ]
     },
     "app_feedback": {

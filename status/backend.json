@@ -417,6 +417,12 @@
       },
       "feedback_banner_visible": true,
       "ipatente_cta_visible": true,
+      "discover_more_ced": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        }
+      },
       "ipatente_cta_config": {
         "visibility": true,
         "url": "https://licences.ipatente.io.pagopa.it/licences",

@@ -1590,18 +1590,14 @@ definitions:
   CgnFeaturedOpportunity:
     type: object
     required:
-      - partnerName
-      - description
+      - merchantId
+      - discountId
     properties:
-      partnerName:
+      merchantId:
         type: string
-        description: "The partner name"
-      partnerLogo:
+        minLength: 1
+        description: "The CGN merchant identifier used to retrieve the partner and its opportunities"
+      discountId:
         type: string
-        description: "The partner logo URL"
-      description:
-        type: string
-        description: "The limited description of the opportunity"
-      ctaUrl:
-        type: string
-        description: "The URL opened when the opportunity is tapped"
+        minLength: 1
+        description: "The identifier of the featured discount belonging to the merchant"

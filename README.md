@@ -36,3 +36,18 @@ This repository contains data and metadata for services used by the IO app.
 1. Manually update services description of all visible services
 1. Commit, push and create a Pull Request
 
+## CGN featured opportunities
+
+Configure `config.cgn.featured_opportunities` in `status/backend.json` with a minimum app version and an ordered list of catalog references:
+
+```json
+{
+	"min_app_version": { "ios": "5.0.0.0", "android": "5.0.0.0" },
+	"opportunities": [
+		{ "merchantId": "merchant-id", "discountId": "discount-id" }
+	]
+}
+```
+
+Use the merchant ID and the ID of one of its published discounts. The app resolves the first three references through the CGN merchant API, displaying the merchant name and image and the discount name. Missing, expired, future, or unavailable opportunities are omitted. An empty list disables the section. Selecting a card opens the CGN discount details in the app.
+

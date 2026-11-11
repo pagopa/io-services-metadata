@@ -64,8 +64,8 @@
       "eyca_discount_url": "https://eyca.org/discounts?country=IT",
       "featured_opportunities": {
         "min_app_version": {
-          "ios": "5.0.0.0",
-          "android": "5.0.0.0"
+          "ios": "0.*",
+          "android": "0.*"
         },
         "opportunities": []
       }

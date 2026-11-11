@@ -49,5 +49,5 @@ Configure `config.cgn.featured_opportunities` in `status/backend.json` with a mi
 }
 ```
 
-Use the merchant ID and the ID of one of its published discounts. The app resolves the first three references through the CGN merchant API, displaying the merchant name and image and the discount name. Missing, expired, future, or unavailable opportunities are omitted. An empty list disables the section. Selecting a card opens the CGN discount details in the app.
+Use the merchant ID and the ID of one of its published discounts. The app resolves the first three references through the CGN merchant API, displaying the merchant name and image and the discount description, limited to one line and falling back to the discount name when absent. Missing, expired, future, or unavailable opportunities are omitted. An empty list disables the section. Selecting a card opens the CGN discount details in the app.
 

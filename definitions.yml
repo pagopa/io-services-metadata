@@ -1282,6 +1282,13 @@ definitions:
           description:
             $ref: "#/definitions/LocalizedText"
             description: "The description to be shown in screen"
+      discover_more_ced:
+        type: object
+        description: "Configuration for the discover opportunities CTA inside the European Disability Card details screen"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "Minimum app version required to show the discover opportunities CTA"
       ipatente_cta_visible:
         description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
         type: boolean
@@ -1314,6 +1321,9 @@ definitions:
       ipzs_privacy_url:
         type: string
         description: "The URL to the IPZS privacy policy"
+      ipzs_itwallet_privacy_url:
+        type: string
+        description: "The URL to the IPZS IT-Wallet privacy policy"
       pinned_credentials:
         type: array
         description: "List of credentials to pin in the credentials selection screen"
@@ -1343,6 +1353,23 @@ definitions:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the app can use the proximity feature"
+      proximity_nfc:
+        type: object
+        description: "A configuration for the IT-Wallet NFC engagement mode for the proximity feature"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can use the NFC engagement mode for the proximity feature"
+      whats_new:
+        type: object
+        description: "A configuration for the IT-Wallet What's New page"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can show the IT-Wallet What's New page"
+      showcase_url:
+        type: string
+        description: "The URL opened from the Discover IT-Wallet action"
   Banner:
     type: object
     required:
@@ -1489,12 +1516,26 @@ definitions:
             $ref: "#/definitions/OneIdentityEnvironmentConfig"
           uat:
             $ref: "#/definitions/OneIdentityEnvironmentConfig"
+      allowedCieOrigins:
+        type: array
+        items:
+          type: string
+        description: "The list of allowed CIE origins"
+      cieNativeRedirectsEnabled:
+        type: boolean
+        description: "If true, the CIE + PIN login follows the OneIdentity /authorize redirects natively instead of inside the WebView"
+      cieAndroidClearSessionCookiesEnabled:
+        type: boolean
+        description: "If true, the session cookies are cleared at the start of the CIE + PIN login in the OneIdentity flow (Android only)"
   OneIdentityEnvironmentConfig:
     type: object
     properties:
       idpsUrl:
         type: string
         description: "The URL to retrieve the list of identity providers (IDPs)"
+      idpFriendlyNamesUrl:
+        type: string
+        description: "The URL to retrieve the list of friendly names for identity providers (IDPs)"
   FimsServiceConfiguration:
     type: object
     description: "Service and organization properties of a service that can start the FIMS flow"

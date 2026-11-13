@@ -89,12 +89,24 @@
           "configuration_id": "cdc-onboarding",
           "service_id": "01JV4M365CHAZN5C0FDR62DCVD",
           "service_name": "Carta della Cultura - Onboarding"
+        },
+        {
+          "configuration_id": "ced-opportunities",
+          "organization_fiscal_code": "15376371009",
+          "organization_name": "IO - L'app dei servizi pubblici",
+          "service_id": "01KTXJ47AAJMZFRJPA4V4TX5D0",
+          "service_name": "Carta Europea della Disabilità"
         }
       ],
       "iOSCookieDisabledServiceIds": [
-        "01JV4M365CHAZN5C0FDR62DCVD"
+        "01JV4M365CHAZN5C0FDR62DCVD",
+        "01KTXJ47AAJMZFRJPA4V4TX5D0",
+        "01KTXHQSA4GPSVDJQWC2NYCJK5"
       ],
-      "trackingEnrichedUrls": []
+      "trackingEnrichedUrls": [
+        "https://browser.ced.pagopa.it/authorize",
+        "https://card.ced.pagopa.it/authorize"
+      ]
     },
     "uaDonations": {
       "enabled": false,
@@ -152,8 +164,8 @@
     },
     "idPay": {
       "min_app_version": {
-        "ios": "3.18.0.1",
-        "android": "3.18.0.1"
+        "ios": "8.18.0.1",
+        "android": "8.18.0.1"
       },
       "onboarding": {
         "enabled": true,
@@ -307,12 +319,25 @@
       "rolloutPercentage": 0,
       "environments": {
         "prod": {
-          "idpsUrl": "https://io.oneid.pagopa.it/idps"
+          "idpsUrl": "https://io.oneid.pagopa.it/idps",
+          "idpFriendlyNamesUrl": "https://assets.io.oneid.pagopa.it/assets/idpFriendlyNameList.json"
         },
         "uat": {
-          "idpsUrl": "https://uat.io.oneid.pagopa.it/idps"
+          "idpsUrl": "https://uat.io.oneid.pagopa.it/idps",
+          "idpFriendlyNamesUrl": "https://assets.uat.io.oneid.pagopa.it/assets/idpFriendlyNameList.json"
         }
-      }
+      },
+      "allowedCieOrigins": [
+        "https://idserver.servizicie.interno.gov.it",
+        "https://oidc.idserver.servizicie.interno.gov.it",
+        "https://mtls.oidc.idserver.servizicie.interno.gov.it",
+        "https://mtls.idserver.servizicie.interno.gov.it",
+        "https://ios.idserver.servizicie.interno.gov.it",
+        "https://ios.oidc.idserver.servizicie.interno.gov.it",
+        "https://preproduzione.idserver.servizicie.interno.gov.it"
+      ],
+      "cieNativeRedirectsEnabled": false,
+      "cieAndroidClearSessionCookiesEnabled": false
     },
     "pn": {
       "enabled": true,
@@ -392,6 +417,12 @@
       },
       "feedback_banner_visible": true,
       "ipatente_cta_visible": true,
+      "discover_more_ced": {
+        "min_app_version": {
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
+        }
+      },
       "ipatente_cta_config": {
         "visibility": true,
         "url": "https://licences.ipatente.io.pagopa.it/licences",
@@ -401,9 +432,10 @@
         "service_organization_fiscal_code": "97532760580"
       },
       "ipzs_privacy_url": "https://util.wallet.ipzs.it/privacy.html",
+      "ipzs_itwallet_privacy_url": "https://util.wallet.ipzs.it/privacy-itwallet.html",
       "pinned_credentials": ["mDL", "EuropeanHealthInsuranceCard"],
       "new_credentials": [],
-      "hidden_credentials": [],
+      "hidden_credentials": ["proof_of_age"],
       "itw_l3": {
         "min_app_version": {
           "ios": "9.0.0.0",
@@ -415,18 +447,31 @@
           "ios": "3.30.0.3",
           "android": "3.30.0.3"
         }
-      }
+      },
+      "proximity_nfc": {
+        "min_app_version": {
+          "ios": "3.40.0.12",
+          "android": "3.40.0.12"
+        }
+      },
+      "whats_new": {
+        "min_app_version": {
+          "ios": "9.0.0.0",
+          "android": "9.0.0.0"
+        }
+      },
+      "showcase_url": "https://wallet.gov.it/"
     },
     "landing_banners": {
       "priority_order": [
-        "FSE_ENGAGEMENT_BANNER",
+        "IT_WALLET_DISCOVERY",
         "OS_DISMISSION_REMINDER",
         "LV_EXPIRATION_REMINDER",
         "CGN_ENGAGEMENT_BANNER",
         "PUSH_NOTIFICATIONS_REMINDER",
-        "IT_WALLET_DISCOVERY",
         "ITW_DISCOVERY",
-        "SEND_ACTIVATION_REMINDER"
+        "SEND_ACTIVATION_REMINDER",
+        "FSE_ENGAGEMENT_BANNER"
       ]
     },
     "app_feedback": {
@@ -533,20 +578,6 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
-        }
-      },
-      {
-        "routes": [
-          "FCI_LOGIN_L3",
-          "FCI_DOCUMENTS",
-          "FCI_SIGNATURE_FIELDS",
-          "FCI_USER_DATA_SHARE",
-          "FCI_QTSP_TOS"
-        ],
-        "level": "warning",
-        "message": {
-          "it-IT": "Al momento non è possibile usare il servizio di firma, stiamo lavorando per risolvere il problema. Riprova più tardi.",
-          "en-EN": "The signature service is currently unavailable, but we are working to fix it. Please try again later."
         }
       }
     ]

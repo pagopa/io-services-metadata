@@ -510,14 +510,6 @@
               }
             },
             {
-              "value": "suggerimento",
-              "description": {
-                "it-IT": "Vorrei dare un suggerimento",
-                "en-EN": "I'd like to make a suggestion",
-                "de-DE": "Vorschlag einreichen"
-              }
-            },
-            {
               "value": "nessuno_dei_precedenti_altro_problema",
               "description": {
                 "it-IT": "Ho un altro problema",

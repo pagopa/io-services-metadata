@@ -118,6 +118,131 @@
         }
       },
       {
+        "value": "it_wallet2",
+        "description": {
+          "it-IT": "IT-Wallet",
+          "en-EN": "IT-Wallet",
+          "de-DE": "IT-Wallet"
+        },
+        "zendeskSubCategories": {
+          "id": "51228891049873",
+          "subCategories": [
+						{
+							"value": "it_wallet2_info",
+							"description": {
+								"it-IT": "Vorrei più informazioni",
+								"en-EN": "I would like more information",
+								"de-DE": "Ich möchte mehr Informationen"
+							}
+						},
+						{
+							"value": "it_wallet2_non_riesco_ad_attivare",
+							"description": {
+								"it-IT": "Non riesco ad attivare IT-Wallet",
+								"en-EN": "Unable to activate IT-Wallet",
+								"de-DE": "IT-Wallet kann nicht aktiviert werden"
+							}
+						},
+						{
+							"value": "it_wallet2_aggiunta_documenti",
+							"description": {
+								"it-IT": "Non riesco ad aggiungere i documenti",
+								"en-EN": "Unable to add documents",
+								"de-DE": "Dokumente können nicht hinzugefügt werden"
+							}
+						},
+						{
+							"value": "it_wallet2_patente_guida",
+							"description": {
+								"it-IT": "Ho un problema con la Patente di guida",
+								"en-EN": "Issue with driving licence",
+								"de-DE": "Problem mit dem Führerschein"
+							}
+						},
+						{
+							"value": "it_wallet2_tessera_sanitaria",
+							"description": {
+								"it-IT": "Ho un problema con la Tessera Sanitaria",
+								"en-EN": "Issue with health insurance card",
+								"de-DE": "Problem mit der Krankenversicherungskarte"
+							}
+						},
+						{
+							"value": "it_wallet2_frequenza_scolastica",
+							"description": {
+								"it-IT": "Ho un problema con la frequenza scolastica",
+								"en-EN": "Issue with school attendance record",
+								"de-DE": "Problem mit dem Schulbesuchsnachweis"
+							}
+						},
+						{
+							"value": "it_wallet2_titoli_accademici",
+							"description": {
+								"it-IT": "Ho un problema con i titoli accademici",
+								"en-EN": "Issue with university degrees",
+								"de-DE": "Problem mit Hochschulabschlüssen"
+							}
+						},
+						{
+							"value": "it_wallet2_titoli_studio_scolastici",
+							"description": {
+								"it-IT": "Ho un problema con i titoli di studio scolastici",
+								"en-EN": "Issue with school qualifications",
+								"de-DE": "Problem mit Schulabschlüssen"
+							}
+						},
+						{
+							"value": "it_wallet2_documenti_iscrizione_accademica",
+							"description": {
+								"it-IT": "Ho un problema con le iscrizione accademiche",
+								"en-EN": "Issue with university enrolments",
+								"de-DE": "Problem mit Studienbescheinigungen"
+							}
+						},
+						{
+							"value": "it_wallet2_carta_europea_disabilita",
+							"description": {
+								"it-IT": "Ho un problema con la Carta Europea della Disabilità",
+								"en-EN": "Issue with European Disability Card",
+								"de-DE": "Problem mit dem Europäischen Behindertenausweis"
+							}
+						},
+						{
+							"value": "it_wallet2_attestato_di_residenza",
+							"description": {
+								"it-IT": "Ho un problema con l'attestato di residenza",
+								"en-EN": "Issue with certificate of residence",
+								"de-DE": "Problem mit der Meldebescheinigung"
+							}
+						},
+						{
+							"value": "it_wallet2_documenti_per_la_verifica_in_presenza",
+							"description": {
+								"it-IT": "Non riesco a usare i documenti per la verifica in presenza",
+								"en-EN": "Unable to use documents for in-person verification",
+								"de-DE": "Dokumente können nicht vor Ort vorgelegt werden"
+							}
+						},
+						{
+							"value": "it_wallet2_documenti_per_la_verifica_online",
+							"description": {
+								"it-IT": "Non riesco a usare i documenti per la verifica online",
+								"en-EN": "Unable to use documents for online verification",
+								"de-DE": "Dokumente können nicht online verifiziert werden"
+							}
+						},
+						{
+							"value": "it_wallet2_senza_connessione",
+							"description": {
+								"it-IT": "Non riesco a usare IT-Wallet offline - senza connessione",
+								"en-EN": "Unable to use IT-Wallet offline - no connection",
+								"de-DE": "IT-Wallet offline nicht nutzbar - keine Verbindung"
+							}
+						}
+          ]
+        }
+      },
+      {
         "value": "io_pagamenti_pagopa",
         "description": {
           "it-IT": "Pagamento pagoPA",

@@ -636,6 +636,9 @@ definitions:
       eyca_discount_url:
         type: string
         description: "EYCA discount redirect URL to be opened in when the user clicks on the related CTA"
+      featured_opportunities:
+        $ref: "#/definitions/CgnFeaturedOpportunities"
+        description: "Opportunities shown in the CGN featured opportunities section"
   FseConfig:
     type: object
     description: "A configuration for the Fascicolo Sanitario Elettronico feature"
@@ -1282,6 +1285,13 @@ definitions:
           description:
             $ref: "#/definitions/LocalizedText"
             description: "The description to be shown in screen"
+      discover_more_ced:
+        type: object
+        description: "Configuration for the discover opportunities CTA inside the European Disability Card details screen"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "Minimum app version required to show the discover opportunities CTA"
       ipatente_cta_visible:
         description: "Manages the visibility of the iPatente service CTA inside the MDL details screen"
         type: boolean
@@ -1353,6 +1363,13 @@ definitions:
           min_app_version:
             $ref: "#/definitions/VersionPerPlatform"
             description: "If min app version supported, the app can use the NFC engagement mode for the proximity feature"
+      whats_new:
+        type: object
+        description: "A configuration for the IT-Wallet What's New page"
+        properties:
+          min_app_version:
+            $ref: "#/definitions/VersionPerPlatform"
+            description: "If min app version supported, the app can show the IT-Wallet What's New page"
       showcase_url:
         type: string
         description: "The URL opened from the Discover IT-Wallet action"
@@ -1556,3 +1573,31 @@ definitions:
       cac:
         $ref: "#/definitions/LocalizedText"
         description: "The CAC text for the initiative configuration"
+  CgnFeaturedOpportunities:
+    type: object
+    description: "Configuration for opportunities shown in the CGN featured opportunities section"
+    required:
+      - min_app_version
+      - opportunities
+    properties:
+      min_app_version:
+        $ref: "#/definitions/VersionPerPlatform"
+        description: "Minimum app version required to show the featured opportunities"
+      opportunities:
+        type: array
+        items:
+          $ref: "#/definitions/CgnFeaturedOpportunity"
+  CgnFeaturedOpportunity:
+    type: object
+    required:
+      - merchantId
+      - discountId
+    properties:
+      merchantId:
+        type: string
+        minLength: 1
+        description: "The CGN merchant identifier used to retrieve the partner and its opportunities"
+      discountId:
+        type: string
+        minLength: 1
+        description: "The identifier of the featured discount belonging to the merchant"

@@ -474,13 +474,13 @@
           "android": "3.40.0.12"
         }
       },
+      "showcase_url": "https://wallet.gov.it/",
       "whats_new": {
         "min_app_version": {
           "ios": "9.0.0.0",
           "android": "9.0.0.0"
         }
-      },
-      "showcase_url": "https://wallet.gov.it/"
+      }
     },
     "landing_banners": {
       "priority_order": [
@@ -597,6 +597,18 @@
             "https://ioapp.it/scarica-io",
           "it-IT":
             "https://ioapp.it/scarica-io"
+        }
+      },
+      {
+        "routes": [
+          "ITW_DISCOVERY_INFO"
+        ],
+        "level": "warning",
+        "message": {
+          "it-IT":
+            "C’è un problema temporaneo sui sistemi dell’ente che emette i documenti digitali. Prova ad attivare il portafoglio digitale più tardi.",
+          "en-EN":
+            "There’s a temporary problem with the document issuer. Try activating your digital wallet again later."
         }
       }
     ]

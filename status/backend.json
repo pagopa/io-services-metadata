@@ -607,9 +607,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "C’è un problema temporaneo sui sistemi dell’ente che emette i documenti digitali. Prova ad attivare IT-Wallet più tardi. ",
+            "C’è un problema temporaneo sui sistemi dell’ente che emette i documenti digitali. Prova ad attivare il portafoglio digitale più tardi.",
           "en-EN":
-            "There’s a temporary problem with the document issuer. Try activating IT-Wallet again later."
+            "There’s a temporary problem with the document issuer. Try activating your digital wallet again later."
         }
       }
     ]

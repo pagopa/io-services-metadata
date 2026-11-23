@@ -606,9 +606,9 @@
         "level": "warning",
         "message": {
           "it-IT":
-            "Al momento potresti non riuscire ad aggiungere la Patente digitale per problemi sui sistemi dell’ente. Se succede, riprova più tardi. ",
+            "Al momento potresti non riuscire ad aggiungere la Tessera Sanitaria per problemi sui sistemi dell’ente. Se succede, riprova più tardi. ",
           "en-EN":
-            "You may not be able to add your digital driving license right now due to a problem with the document issuer. If this happens, try again later."
+            "You may not be able to add your European Health Insurance Card right now due to a problem with the document issuer. If this happens, try again later."
         }
       }
     ]

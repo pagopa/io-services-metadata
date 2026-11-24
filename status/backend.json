@@ -625,12 +625,12 @@
         "routes": [
           "ITW_CARD_L3_ONBOARDING"
         ],
-        "level": "warning",
+        "level": "normal",
         "message": {
           "it-IT":
-            "Al momento potresti non riuscire ad aggiungere la Tessera Sanitaria per problemi sui sistemi dell’ente. Se succede, riprova più tardi.",
+            "Al momento potresti non riuscire ad aggiungere alcuni documenti. Se succede, riprova più tardi.",
           "en-EN":
-            "You may not be able to add your Health Card right now due to a problem with the document issuer. If this happens, try again later."
+            "You may not be able to add some digital documents right now. If this happens, try again later."
         }
       }
     ]

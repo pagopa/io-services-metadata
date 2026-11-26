@@ -1373,6 +1373,9 @@ definitions:
       showcase_url:
         type: string
         description: "The URL opened from the Discover IT-Wallet action"
+      upgrade_credentials_banner_visible:
+        description: "Manages the visibility of the banner that prompts users to upgrade their credentials"
+        type: boolean
   Banner:
     type: object
     required:

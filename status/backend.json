@@ -64,23 +64,10 @@
       "eyca_discount_url": "https://eyca.org/discounts?country=IT",
       "featured_opportunities": {
         "min_app_version": {
-          "ios": "3.44.0.0",
-          "android": "3.44.0.0"
+          "ios": "0.0.0.0",
+          "android": "0.0.0.0"
         },
-        "opportunities": [
-          {
-            "merchantId": "d169bcbe-41e9-47d3-80ed-03e87b6559c8",
-            "discountId": "1709"
-          },
-          {
-            "merchantId": "e04eb9a0-1b64-4af2-b5a2-37ba1a19357d",
-            "discountId": "1410"
-          },
-          {
-            "merchantId": "b47e283e-1beb-4c41-8532-afb20709d6c3",
-            "discountId": "1460"
-          }
-        ]
+        "opportunities": []
       }
     },
     "fse":{
